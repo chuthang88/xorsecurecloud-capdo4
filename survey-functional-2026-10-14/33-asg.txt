@@ -1,0 +1,136 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/asg
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+								139 menu Secondary Actions: Cancel
+									140 Instances
+									141 Instance Snapshots
+									142 Flavors
+									143 Server Groups
+									144 Images
+									145 Key Pairs
+									146 Autoscale Rules (V)
+									147 Autoscale History
+									148 Auto Scaling Groups
+									149 ASG History
+						150 Storage Storage
+							151 pop up button Storage Storage
+								152 image Storage
+								153 text Storage
+						154 Network Network
+							155 pop up button Network Network
+								156 image Network
+								157 text Network
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 button (disabled) Delete
+						183 text field (settable) Multiple filter tags are separated by enter
+						184 button sync
+							185 image sync
+						186 button download
+							187 image download
+						188 button eye
+							189 image eye
+						190 button pause-circle
+							191 image pause-circle
+						192 column header
+							193 text Name
+							194 image caret-up
+							195 image caret-down
+						196 column header
+							197 text Server ID
+							198 image caret-up
+							199 image caret-down
+						200 column header
+							201 text State
+							202 image caret-up
+							203 image caret-down
+						204 column header
+							205 text Scale Up Threshold
+							206 image caret-up
+							207 image caret-down
+						208 column header
+							209 text Scale Up Comparison
+							210 image caret-up
+							211 image caret-down
+						212 column header
+							213 text Cooldown (s)
+							214 image caret-up
+							215 image caret-down
+						216 column header
+							217 text Enabled
+							218 image caret-up
+							219 image caret-down
+						220 column header
+							221 text Created At
+							222 image caret-up
+							223 image caret-down
+				224 container Auto Scaling Groups
+					225 HTML content Auto Scaling Groups - X-OR, URL: 10.3.10.100:9999/asg.html?embed=1&view=groups&v=asg8
+						226 container
+							227 text HORIZONTAL
+						228 heading Auto Scaling Groups, Value: 1
+							229 text Auto Scaling Groups
+						230 text Scale out and in behind Octavia using Prometheus metrics and capacity bounds.
+						231 container
+							232 button Create ASG
+							233 button (disabled) Delete
+							234 text field (settable) Filter by name, pool...
+							235 button ↻, Help: Refresh
+						236 container
+							237 text ASG
+							238 heading Loading..., Value: 3
+								239 text Loading...
+							240 text -
+	241 close button
+	242 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	243 minimize button
+244 menu bar
+	245 JumpServer
+	246 File
+	247 Edit
+	248 View
+	249 Window
+	250 Help

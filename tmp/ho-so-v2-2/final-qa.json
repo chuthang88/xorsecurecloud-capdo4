@@ -1,0 +1,27 @@
+{
+  "version": "2.2",
+  "docx": 13,
+  "pages": 102,
+  "workbooks": 2,
+  "source_rows_preserved": 129,
+  "new_workbook_sheets": 2,
+  "new_formula_errors": 0,
+  "error_scan_note": "One literal #REF! retained in historical source narrative; it is text, not a worksheet formula error.",
+  "workflow_cases_passed": 5,
+  "visual_review": "18 new or changed body pages inspected; other 84 page bodies identical to previously reviewed v2.1 renders. Both new workbook tabs rendered and inspected.",
+  "source_unchanged": true,
+  "bundles": [
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2.2/Bo-1-Ky-thuat-XOR-CD4-v2.2.zip",
+      "files": 7,
+      "sha256": "2dd95912048d0bfc61521f9f38839d7c27f4ea94dd3330a3691e64883a5571bc",
+      "bytes": 907557
+    },
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2.2/Bo-2-Hanh-chinh-XOR-CD4-v2.2.zip",
+      "files": 14,
+      "sha256": "87faced1c58fc14bc50ce75157a8dcd269eb1f295e848f5996d1b497a901596f",
+      "bytes": 1861115
+    }
+  ]
+}

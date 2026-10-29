@@ -1,0 +1,102 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/xor-secure/design
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+						155 Container Container
+							156 pop up button Container Container
+								157 image Container
+								158 text Container
+						159 Monitor Center Monitor Center
+							160 pop up button Monitor Center Monitor Center
+								161 image Monitor Center
+								162 text Monitor Center
+						163 Alert Management Maintenance
+							164 pop up button Alert Management Maintenance
+								165 image Alert Management
+								166 text Maintenance
+								167 menu Secondary Actions: Cancel
+									168 Audit Logs
+									169 Recycle Bin
+						170 pop up button X-OR SECURE
+						171 Hồ sơ thiết kế
+						172 TCVN Cấp độ 1
+						173 TCVN Cấp độ 2
+						174 TCVN Cấp độ 3
+						175 Security Center
+					176 image left
+				177 container
+					178 container
+						179 image close-circle
+						180 text Get recycle volumes error.
+						181 button Click to show detail
+					182 link close
+						183 image close
+					184 container
+						185 image close-circle
+						186 text Get recycle database instances error.
+						187 button Click to show detail
+					188 link close
+						189 image close
+				190 container X-OR SECURE
+					191 HTML content Hồ sơ thiết kế X-OR SECURE, URL: 10.3.10.100:9999/xor-secure-design.html?v=design1
+						192 container
+							193 text X-OR SECURE / THIẾT KẾ GIẢI PHÁP
+							194 heading Hồ sơ thiết kế an toàn thông tin, Value: 1
+								195 text Hồ sơ thiết kế an toàn thông tin
+							196 text Đang xác thực project… Chưa có hồ sơ
+							197 pop up button Description: Chọn hồ sơ, Value: Hồ sơ mới
+								198 (selected) Hồ sơ mới
+							199 button Tạo bản thiết kế
+							200 button (disabled) Lưu bản nháp
+							201 button (disabled) Xuất file MD
+							202 button Tải lại
+							203 text Chưa lưu Giai đoạn thiết kế: chưa tạo VM, cài engine hoặc thay đổi rule/route. Phê duyệt ở đây chỉ duyệt kiến trúc, không chứng nhận đạt cấp độ 3. Các yêu cầu tham chiếu lấy từ bảng khách hàng cung cấp; cần xác nhận bản gốc trước hồ sơ chính thức.
+						204 text Security Center temporarily paused by administrator
+						205 container Các bước thiết kế
+						206 text Không tải được hồ sơ. Kiểm tra đăng nhập rồi bấm Tải lại. Không có dữ liệu giả hoặc thay đổi hạ tầng.
+	207 close button
+	208 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	209 minimize button
+210 menu bar
+	211 JumpServer
+	212 File
+	213 Edit
+	214 View
+	215 Window
+	216 Help

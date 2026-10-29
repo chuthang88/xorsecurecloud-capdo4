@@ -1,0 +1,129 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/management/recycle-bin
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+						155 Container Container
+							156 pop up button Container Container
+								157 image Container
+								158 text Container
+						159 Monitor Center Monitor Center
+							160 pop up button Monitor Center Monitor Center
+								161 image Monitor Center
+								162 text Monitor Center
+						163 Alert Management Maintenance
+							164 pop up button Alert Management Maintenance
+								165 image Alert Management
+								166 text Maintenance
+								167 menu Secondary Actions: Cancel
+									168 Audit Logs
+									169 Recycle Bin
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Maintenance / Recycle Bin
+						175 tab group
+							176 container
+								177 tab (selected) Servers, Value: 1
+								178 tab (settable, integer) Volumes, Value: 0
+								179 tab (settable, integer) Database Instances, Value: 0
+						180 container Servers
+							181 container
+								182 button (disabled) Recover
+								183 button (disabled) Delete
+								184 text field (settable) Multiple filter tags are separated by enter
+								185 image search
+								186 button sync
+									187 image sync
+								188 button download
+									189 image download
+								190 button eye
+									191 image eye
+								192 button pause-circle
+									193 image pause-circle
+							194 container
+								195 container
+									196 table
+										197 row
+											198 column header
+												199 container
+													200 checkbox (disabled)  , Value: 0
+											201 column header
+												202 text ID/Name
+												203 image caret-up
+												204 image caret-down
+											205 column header
+												206 text Image
+											207 column header
+												208 text Fixed IP
+											209 column header
+												210 text Floating IP
+											211 column header
+												212 text Flavor
+											213 column header
+												214 text Deleted At
+												215 image caret-up
+												216 image caret-down
+											217 column header
+												218 text Expired Time
+											219 column header
+												220 text Action
+									221 table
+										222 row
+											223 cell 0-8
+												224 text No Data
+									225 container
+										226 button (disabled) left
+											227 image left
+										228 button 1
+										229 button (disabled) right
+											230 image right
+										231 container
+											232 combo box
+											233 text 10 items/page
+	234 close button
+	235 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	236 minimize button
+237 menu bar
+	238 JumpServer
+	239 File
+	240 Edit
+	241 View
+	242 Window
+	243 Help

@@ -1,0 +1,249 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/snapshot-schedules
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+								142 menu Secondary Actions: Cancel
+									143 Volumes
+									144 Volume Backups
+									145 Volume Snapshots
+									146 Snapshot Schedules
+									147 Backup Schedules
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+					175 container
+						176 text Storage / Snapshot Schedules
+						177 container
+							178 button Create Snapshot Schedule
+							179 button (disabled) Delete
+							180 text field (settable) Multiple filter tags are separated by enter
+							181 image search
+							182 button sync
+								183 image sync
+							184 button download
+								185 image download
+							186 button eye
+								187 image eye
+							188 button pause-circle
+								189 image pause-circle
+						190 container
+							191 table
+								192 row
+									193 column header
+										194 container
+											195 checkbox (disabled)  , Value: 0
+									196 column header
+										197 text Name
+										198 image caret-up
+										199 image caret-down
+									200 column header
+										201 text Resource Type
+										202 image caret-up
+										203 image caret-down
+									204 column header
+										205 text Resource ID
+										206 image caret-up
+										207 image caret-down
+									208 column header
+										209 text Schedule Type
+										210 image caret-up
+										211 image caret-down
+									212 column header
+										213 text Schedule Hour
+										214 image caret-up
+										215 image caret-down
+									216 column header
+										217 text Retention Count
+										218 image caret-up
+										219 image caret-down
+									220 column header
+										221 text Enabled
+										222 image caret-up
+										223 image caret-down
+									224 column header
+										225 text Next Run At
+										226 image caret-up
+										227 image caret-down
+									228 column header
+										229 text Last Status
+										230 image caret-up
+										231 image caret-down
+									232 column header
+										233 text Created At
+										234 image caret-up
+										235 image caret-down
+									236 column header
+										237 text Action
+							238 table
+								239 row
+									240 cell 0-11
+										241 text No Data
+				242 container
+					243 container Create Snapshot Schedule
+						244 container
+							245 button Close
+								246 image close
+							247 text Create Snapshot Schedule
+							248 container
+								249 container
+									250 text * Name
+								251 text field (settable) * Name, Value: doccheck-1014-snapshot-schedule, Placeholder: Please input snapshot schedule name
+								252 container
+									253 text * Resource Type
+								254 container
+									255 combo box (settable) * Resource Type
+									256 text Volume
+								257 container
+									258 text * Volume
+								259 container
+									260 text field (settable) Click here for filters.
+									261 image search
+									262 container
+										263 table
+											264 row
+												265 column header
+													266 text Name
+													267 image caret-up
+													268 image caret-down
+												269 column header
+													270 text Status
+													271 image caret-up
+													272 image caret-down
+												273 column header
+													274 text Size (GiB)
+													275 image caret-up
+													276 image caret-down
+											277 row
+												278 cell
+													279 container
+														280 radio button  , Value: 1
+												281 cell
+													282 text doccheck-1014-data
+												283 cell
+													284 text creating
+												285 cell
+													286 text 1
+											287 row
+												288 cell
+													289 container
+														290 radio button  , Value: 0
+												291 cell
+													292 text creating
+												293 cell
+													294 text 20
+										295 content list
+											296 container Previous Page
+												297 button (disabled) left
+													298 image left
+											299 text 1
+											300 container Next Page
+												301 button (disabled) right
+													302 image right
+									303 text Selected :  
+									304 button clear
+										305 image clear
+									306 container
+										307 text doccheck-1014-data
+										308 image close
+								309 container
+									310 text * Schedule Type
+								311 container
+									312 combo box (settable) * Schedule Type
+									313 text Daily
+								314 container
+									315 text Schedule Hour
+								316 container
+									317 container
+										318 button Increase Value
+											319 image up
+										320 button Decrease Value
+											321 image down
+										322 stepper (settable, float) Schedule Hour, Value: 2
+									323 text Hour of day to run (0-23)
+								324 container
+									325 text Schedule Minute
+								326 container
+									327 container
+										328 button Increase Value
+											329 image up
+										330 button (disabled) Decrease Value
+											331 image down
+										332 stepper (settable, float) Schedule Minute, Value: 0
+									333 text Minute of hour to run (0-59)
+								334 container
+									335 text Retention Count
+								336 container
+									337 container
+										338 button Increase Value
+											339 image up
+										340 button Decrease Value
+											341 image down
+										342 stepper (settable, float) Retention Count, Value: 71
+									343 text Number of snapshots to retain
+							344 container
+								345 button Cancel
+								346 button OK
+	347 close button
+	348 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	349 minimize button
+350 menu bar
+	351 JumpServer
+	352 File
+	353 Edit
+	354 View
+	355 Window
+	356 Help
+
+Selected text: ```
+71
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

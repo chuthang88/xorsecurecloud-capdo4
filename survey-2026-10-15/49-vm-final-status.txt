@@ -1,0 +1,208 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 pop up button New connection
+					9 container
+						10 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						11 pop up button Chử Quang Thắng
+						12 toggle button Description: Open right panel, Value: 0
+					13 container
+						14 outline Resource
+							15 container
+								16 button Assets
+								17 button Switch to type tree
+								18 button Refresh
+								19 pop up button Batch actions
+								20 container
+									21 button Recent connections
+										22 text Recent connections
+									23 button Clear recent connections
+								24 button DEFAULT (46), Help: DEFAULT
+									25 text DEFAULT
+									26 text (46)
+								27 container
+									28 row iDRAC - Hardware Management (9)
+										29 button iDRAC - Hardware Management (9), Help: iDRAC - Hardware Management
+											30 text iDRAC - Hardware Management
+											31 text (9)
+									32 row Monitoring (2)
+										33 button Monitoring (2), Help: Monitoring
+											34 text Monitoring
+											35 text (2)
+									36 row XOR Infrastructure (35)
+										37 button XOR Infrastructure (35), Help: XOR Infrastructure
+											38 text XOR Infrastructure
+											39 text (35)
+										40 container
+											41 row Application VMs (6)
+												42 button Application VMs (6), Help: Application VMs
+													43 text Application VMs
+													44 text (6)
+											45 row Ceph (3)
+												46 button Ceph (3), Help: Ceph
+													47 text Ceph
+													48 text (3)
+											49 row Compute (3)
+												50 button Compute (3), Help: Compute
+													51 text Compute
+													52 text (3)
+											53 row Controllers (3)
+												54 button Controllers (3), Help: Controllers
+													55 text Controllers
+													56 text (3)
+											57 row Proxmox (3)
+												58 button Proxmox (3), Help: Proxmox
+													59 text Proxmox
+													60 text (3)
+											61 row Security Services (9)
+												62 button Security Services (9), Help: Security Services
+													63 text Security Services
+													64 text (9)
+											65 row Web Management (8)
+												66 button Web Management (8), Help: Web Management
+													67 text Web Management
+													68 text (8)
+												69 container
+													70 row WEB-Ceph-Dashboard
+														71 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Ceph-Dashboard
+													73 row WEB-FortiGate
+														74 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-FortiGate
+													76 row WEB-Horizon
+														77 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Horizon
+													79 row WEB-Proxmox-01
+														80 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-01
+													82 row WEB-Proxmox-02
+														83 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Proxmox-02
+													85 row WEB-Proxmox-03
+														86 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-Proxmox-03
+													88 row WEB-Wazuh
+														89 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															90 text WEB-Wazuh
+													91 row WEB-XOR-Portal
+														92 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															93 text WEB-XOR-Portal
+									94 row Wazuh-01
+										95 button Wazuh-01, Help: 10.3.70.94
+											96 text Wazuh-01
+						97 button Favorites Create folder Refresh
+							98 text Favorites
+							99 container
+								100 button Create folder
+								101 button Refresh
+					102 container
+						103 button 后退
+						104 button 前进
+						105 button 刷新
+						106 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/compute/instance/detail/6ee008be-f9c1-4234-9f0f-dcbe9611d8e5
+						107 button 会话状态：已通过代理连接 · 账号代填未配置
+					108 text Signed in Chử Quang Thắng
+					109 text WEB-XOR-Portal HTTP 1 tabs 1 connected
+					110 button Description: Transfer center, Help: Transfer queue
+					111 pop up button (disabled) Virtual keyboard
+				112 container Notifications (F8)
+					113 content list
+			114 HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/detail/6ee008be-f9c1-4234-9f0f-dcbe9611d8e5
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+						179 Security Posture
+						180 Web Application Firewall
+						181 Vulnerability Management
+						182 SIEM
+						183 Endpoint Security
+						184 Network Detection
+						185 Data Protection
+						186 Automation
+						187 Network Access Control
+					188 image left
+					189 container
+						190 text Compute /
+						191 link Description: Instances, Value: 10.3.10.100:9999/compute/instance
+						192 text / Instance Detail
+						193 container
+							194 heading 3
+	195 close button
+	196 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	197 minimize button
+198 menu bar
+	199 JumpServer
+	200 File
+	201 Edit
+	202 View
+	203 Window
+	204 Help
+
+The focused UI element is 114 HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/detail/6ee008be-f9c1-4234-9f0f-dcbe9611d8e5

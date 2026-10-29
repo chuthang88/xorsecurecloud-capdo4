@@ -1,0 +1,2 @@
+There has been no change in the accessibility tree for Window: "JumpServer".
+The focused UI element is 114 HTML content XOR Cloud, URL: 10.3.10.100:9999/base/overview

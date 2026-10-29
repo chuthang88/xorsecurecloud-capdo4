@@ -1,0 +1,132 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/container-infra/cluster-template
+				115 container
+					116 image bell
+					117 text Close all notifications.
+					118 container
+						119 image menu-icon
+						120 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						121 container
+							122 text Cloud
+							123 image down
+						124 button
+						125 image appstore
+						126 text userdemo
+						127 image swap
+						128 text Default
+						129 image bell
+						130 button user
+							131 image user
+					132 menu Secondary Actions: Cancel
+						133 Home Home
+							134 image Home
+							135 text Home
+						136 Compute Compute
+							137 pop up button Compute Compute
+								138 image Compute
+								139 text Compute
+						140 Storage Storage
+							141 pop up button Storage Storage
+								142 image Storage
+								143 text Storage
+						144 Network Network
+							145 pop up button Network Network
+								146 image Network
+								147 text Network
+						148 Orchestration Orchestration
+							149 pop up button Orchestration Orchestration
+								150 image Orchestration
+								151 text Orchestration
+						152 Database Database
+							153 pop up button Database Database
+								154 image Database
+								155 text Database
+						156 Container Container
+							157 pop up button Container Container
+								158 image Container
+								159 text Container
+								160 menu Secondary Actions: Cancel
+									161 K8s Clusters
+									162 K8s Templates
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Container / K8s Templates
+						176 container
+							177 button Create Cluster Template
+							178 button (disabled) Delete
+							179 text field (settable) Multiple filter tags are separated by enter
+							180 image search
+							181 button sync
+								182 image sync
+							183 button download
+								184 image download
+							185 button eye
+								186 image eye
+							187 button pause-circle
+								188 image pause-circle
+						189 container
+							190 table
+								191 row
+									192 column header
+										193 container
+											194 checkbox (disabled)  , Value: 0
+									195 column header
+										196 text ID/Name
+										197 image caret-up
+										198 image caret-down
+									199 column header
+										200 text COE
+										201 image caret-up
+										202 image caret-down
+									203 column header
+										204 text Network Driver
+										205 image caret-up
+										206 image caret-down
+									207 column header
+										208 text Keypair
+										209 image caret-up
+										210 image caret-down
+									211 column header
+										212 text Action
+							213 table
+								214 row
+									215 cell 0-5
+										216 text No Data
+				217 container
+					218 container
+						219 image close-circle
+						220 text Get clusters error.
+						221 button Click to show detail
+					222 link close
+						223 image close
+					224 container
+						225 image close-circle
+						226 text Get clusters error.
+						227 button Click to show detail
+					228 link close
+						229 image close
+					230 container
+						231 image close-circle
+						232 text Get clustertemplates error.
+						233 button Click to show detail
+					234 link close
+						235 image close
+	236 close button
+	237 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	238 minimize button
+239 menu bar
+	240 JumpServer
+	241 File
+	242 Edit
+	243 View
+	244 Window
+	245 Help

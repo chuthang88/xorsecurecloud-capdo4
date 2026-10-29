@@ -1,0 +1,180 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/stack/detail/afc0219b-b80d-49e8-a885-82863ccaf202/doccheck-1014-stack?tab=resource
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+								151 menu Secondary Actions: Cancel
+									152 Stacks
+									153 Resource Types
+									154 Template Versions
+									155 Template Generator
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+					175 container
+						176 text Orchestration /
+						177 link Description: Stacks, Value: 10.3.10.100:9999/heat/stack
+						178 text / Stack Detail
+						179 container
+							180 button Delete
+							181 button More down
+								182 text More
+								183 image down
+						184 container
+							185 text ID: afc0219b-b80d-49e8-a885-82863ccaf202
+							186 button Copy
+								187 image copy
+							188 button Back
+							189 button sync
+								190 image sync
+							191 button up
+								192 image up
+						193 container
+							194 container Name doccheck-1014-stack
+								195 text Name doccheck-1014-stack
+							196 container Stack Status Create Complete
+								197 text Stack Status Create Complete
+							198 container Description Disposable isolated network test in userdemo
+								199 text Description Disposable isolated network test in userdemo
+							200 container Created At 2026-10-15 00:15:08
+								201 text Created At 2026-10-15 00:15:08
+							202 container Updated At -
+								203 text Updated At -
+						204 tab group
+							205 container
+								206 tab (settable, integer) Detail, Value: 0
+								207 tab (selected) Stack Resources, Value: 1
+								208 tab (settable, integer) Stack Events, Value: 0
+								209 tab (settable, integer) YAML File, Value: 0
+						210 container Stack Resources
+							211 container
+								212 button sync
+									213 image sync
+								214 button download
+									215 image download
+								216 button eye
+									217 image eye
+								218 button pause-circle
+									219 image pause-circle
+							220 container
+								221 table
+									222 row
+										223 column header
+											224 text Stack Resource
+											225 image caret-up
+											226 image caret-down
+										227 column header
+											228 text Resource
+											229 image caret-up
+											230 image caret-down
+										231 column header
+											232 text Stack Resource Type
+											233 image caret-up
+											234 image caret-down
+										235 column header
+											236 text Created At
+											237 image caret-up
+											238 image caret-down
+										239 column header
+											240 text Resource Status
+											241 image caret-up
+											242 image caret-down
+										243 column header
+											244 text Resource Status Reason
+											245 image caret-up
+											246 image caret-down
+									247 row
+										248 cell
+											249 text subnet
+										250 cell
+											251 text 708624c7-3472-4c19-929a-b0facd906e40
+										252 cell
+											253 text OS::Neutron::Subnet
+										254 cell
+											255 text 4 minutes ago
+										256 cell
+											257 text Create Complete
+										258 cell
+											259 text state changed
+									260 row
+										261 cell
+											262 text net
+										263 cell
+											264 link Description: 7674c938-c5c6-483a-81f2-34d0348deb5c, Value: 10.3.10.100:9999/network/networks/detail/7674c938-c5c6-483a-81f2-34d0348deb5c
+										265 cell
+											266 text OS::Neutron::Net
+										267 cell
+											268 text 4 minutes ago
+										269 cell
+											270 text Create Complete
+										271 cell
+											272 text state changed
+								273 content list
+									274 text Total 2 items
+									275 container Previous Page
+										276 button (disabled) left
+											277 image left
+									278 text 1
+									279 container Next Page
+										280 button (disabled) right
+											281 image right
+									282 container
+										283 combo box
+										284 text 10 / page
+	285 close button
+	286 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	287 minimize button
+288 menu bar
+	289 JumpServer
+	290 File
+	291 Edit
+	292 View
+	293 Window
+	294 Help

@@ -1,0 +1,124 @@
+{
+  "project": "userdemo",
+  "project_id": "5a4b1b40880a4c1fa754cb7f6e8269d4",
+  "date": "2026-10-15",
+  "baseline": {
+    "instances": 0,
+    "volumes": 1,
+    "volume_gib": 1,
+    "networks": 0,
+    "routers": 0,
+    "security_groups": 1,
+    "security_group_rules": 4
+  },
+  "resources": [
+    {
+      "type": "volume",
+      "name": "docretry-1015-data",
+      "id": "a12547db-c2b9-4955-b034-83e638d1e21a",
+      "size_gib": 1,
+      "status": "Backing Up",
+      "created_available": true,
+      "cleanup": "Delete precheck refuses"
+    },
+    {
+      "type": "volume_snapshot",
+      "name": "docretry-1015-snapshot",
+      "id": "0b25e44a-3338-4167-b67d-05b353e8def2",
+      "size_gib": 1,
+      "status": "Available",
+      "cleanup": "Delete precheck refuses: snapshot used by creating volume docretry-1015-restored"
+    },
+    {
+      "type": "volume",
+      "name": "docretry-1015-restored",
+      "id": "f9df6e00-d558-4db1-a57c-1552592a81ce",
+      "size_gib": 1,
+      "status": "Creating after19min",
+      "cleanup": "Delete precheck refuses"
+    },
+    {
+      "type": "volume_backup",
+      "name": "docretry-1015-backup",
+      "id": "6a0558af-31b9-4731-aab9-40d756a524d2",
+      "size_gib": 1,
+      "status": "Creating >12min",
+      "cleanup": "HTTP400: Backup status must be available or error"
+    },
+    {
+      "type": "network",
+      "name": "docretry-1015-net",
+      "id": "2260455b-797a-442d-b84c-8f1c1a6abdb2",
+      "cidr": "192.168.242.0/24",
+      "status": "deleted",
+      "cleanup": "Network, subnet and ports removed; final quotas0"
+    },
+    {
+      "type": "server",
+      "name": "docretry-1015-vm",
+      "id": "6ee008be-f9c1-4234-9f0f-dcbe9611d8e5",
+      "status": "Error HTTP500 after187s/61attempts; deleted",
+      "flavor": "GP_2C_2G",
+      "image": "ubuntu_24.04",
+      "cleanup": "Immediately delete succeeded; ordinary Delete returned Not Found"
+    },
+    {
+      "type": "volume",
+      "name": "VM boot volume",
+      "id": "e9ecd5eb-8919-49c8-b1fb-90907985ea71",
+      "size_gib": 20,
+      "status": "removed",
+      "cleanup": "No longer present after VM cleanup"
+    },
+    {
+      "type": "ipsec_policy",
+      "name": "docretry-1015-ipsec",
+      "short_id": "422209ae",
+      "status": "created; deleted successfully"
+    }
+  ],
+  "checks": {
+    "login": "passed; userdemo member, reader; password masked in screenshot",
+    "previous_volume": "doccheck-1014-data still Creating after 11 hours",
+    "new_volume": "passed Available",
+    "snapshot": "Available",
+    "snapshot_schedule": "HTTP400 Invalid filters id are found in query options; request req-71e57019-b98e-497b-bb5b-43f95b830834",
+    "backup_schedule": "No volumes while all volumes are Creating/Backing Up",
+    "k8s_clusters": "HTTP404",
+    "k8s_templates": "HTTP404",
+    "recycle_volumes": "HTTP404",
+    "recycle_database": "HTTP404",
+    "ipsec_policy": "Create/delete succeeded, sha256/aes-256/tunnel/esp/group14/3600s",
+    "ipsec_connections": "List and creation form load; no tunnel tested (peer endpoint and PSK needed)",
+    "secure_levels": "1/2/3 paused by administrator",
+    "security_center": "All 9 modules paused by administrator",
+    "monitor": "Shows 0 networks and 0 security groups despite 1 network and default security group",
+    "volume_cleanup": "precheck refuses old/data/restored volumes",
+    "wizard": "Use Next: System Config; embedded Confirm button showed Networkstep successfully and returned Home without creating a VM",
+    "vm": "Failed HTTP500: boot volume did not finish after187seconds/61attempts; Console/Attach Volume disabled"
+  },
+  "final_counts": {
+    "instances": 0,
+    "networks": 0,
+    "subnets": 0,
+    "ports": 0,
+    "routers": 0,
+    "floating_ips": 0,
+    "security_groups": 1,
+    "security_group_rules": 4,
+    "volumes": 3,
+    "snapshots": 1,
+    "backups": 1
+  },
+  "documentation": {
+    "version": "0.7",
+    "guides_per_language": 25,
+    "html_pages": 54,
+    "screenshots": 18,
+    "new_screenshots": 5,
+    "checks": "PASS 3006 links and anchors; VI/EN matching articles, search and language switches; desktop1280 and mobile390; no overflow, broken images or browser console errors",
+    "source_commit": "1a6499eab58dad7eb7840032e7c2ffd59c3ff499",
+    "deployment_status": "succeeded",
+    "url": "https://xor-secure-cloud-docs.chudaihiep.chatgpt.site"
+  }
+}

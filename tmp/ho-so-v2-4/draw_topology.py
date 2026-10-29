@@ -1,0 +1,80 @@
+from pathlib import Path
+from html import escape
+P=Path(__file__).parent
+class SVG:
+ def __init__(self,w=1600,h=1000):
+  self.s=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">', '<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4.5 L0 9 Z" fill="#111"/></marker></defs>',f'<rect width="{w}" height="{h}" fill="white"/>']
+ def rect(self,x,y,w,h,stroke=1.6):self.s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="white" stroke="#111" stroke-width="{stroke}"/>')
+ def text(self,x,y,txt,size=24,bold=False,anchor='middle',italic=False):
+  self.s.append(f'<text x="{x}" y="{y}" fill="#111" font-family="Times New Roman,Times,serif" font-size="{size}" font-weight="{700 if bold else 400}" font-style="{"italic" if italic else "normal"}" text-anchor="{anchor}">{escape(txt)}</text>')
+ def lines(self,x,y,lines,size=24,leading=30,boldfirst=False):
+  for i,t in enumerate(lines):self.text(x,y+i*leading,t,size,boldfirst and i==0)
+ def path(self,d,dash=False,arrow=True,width=2):
+  self.s.append(f'<path d="{d}" fill="none" stroke="#111" stroke-width="{width}" stroke-linejoin="miter"'+(' stroke-dasharray="9 6"' if dash else '')+(' marker-end="url(#arrow)"' if arrow else '')+'/>')
+ def box(self,x,y,w,h,title,lines,size=24):
+  self.rect(x,y,w,h);self.text(x+w/2,y+30,title,size,True)
+  for i,t in enumerate(lines):self.text(x+w/2,y+60+i*28,t,size)
+ def save(self,name): (P/name).write_text('\n'.join(self.s+['</svg>']))
+a=SVG()
+a.box(560,25,480,75,'NGƯỜI SỬ DỤNG / HỆ THỐNG KẾT NỐI',['Internet và đường truyền chuyên dùng'],23)
+# DC path and conditional DR path.
+
+a.text(405,175,'Truy cập dịch vụ',23,anchor='start')
+a.text(1235,175,'Chuyển đổi theo phương án DR',22,anchor='start',italic=True)
+for x,site,loc in [(35,'TRUNG TÂM DỮ LIỆU CHÍNH (DC)','Trung tâm Hạ tầng IDC Cầu Giấy'),(865,'TRUNG TÂM DỮ LIỆU DỰ PHÒNG (DR)','Trung tâm Hạ tầng IDC Nam Thăng Long')]:
+ a.rect(x,200,700,635,2.2);a.rect(x+7,207,686,621,.7)
+ a.text(x+350,236,site,25,True);a.text(x+350,267,loc,24)
+ a.box(x+40,290,620,80,'Z01 – Z02 | BIÊN VÀ DMZ',['DDoS • NGFW/IPS • WAF • Cổng dịch vụ'],24)
+ a.path(f'M{x+350} 370 V420')
+ a.rect(x+40,420,620,150)
+ a.text(x+350,451,'XOR STACK CLOUD',27,True)
+ a.box(x+60,472,280,80,'Z07 | ĐIỀU KHIỂN',['API nội bộ • Controller'],22)
+ a.box(x+360,472,280,80,'Z04 | TENANT',['Tính toán • Mạng ảo'],22)
+ a.path(f'M{x+350} 570 V595 H{x+220} V620')
+ a.box(x+40,620,360,100,'Z05 | DỮ LIỆU',['Block / Object / File','Cơ sở dữ liệu'],24)
+ a.box(x+440,620,220,100,'Z09 | SAO LƯU',['Kho tách biệt','Kiểm soát xóa'],24)
+ a.path(f'M{x+400} 670 H{x+440}',True)
+ a.text(x+350,815,'Đồng bộ theo danh mục phục hồi',22,italic=True)
+# Replication bus deliberately below local boxes, not through the platform.
+a.path('M255 720 V789 H1085 V720')
+a.text(800,742,'Z12',24,True)
+a.text(800,773,'Liên site',23)
+a.path('M800 100 V145 H385 V200');a.path('M800 145 H1215 V200',True)
+a.text(800,862,'DỊCH VỤ QUẢN TRỊ CHUNG — PHÂN TÁCH CHỨC NĂNG TẠI TỪNG SITE',24,True)
+for x,w,title,txt in [(35,355,'Z06 | QUẢN TRỊ','IAM • PAM • PKI/KMS'),(425,355,'Z08 | AN NINH','SOC • SIEM • Kho nhật ký'),(815,355,'Z10 | NGOÀI BĂNG','BMC • Console • Thiết bị'),(1205,360,'Z11 | PHÁT TRIỂN','CI/CD • Registry • Dev/Test')]:a.box(x,884,w,80,title,[txt],22)
+a.save('01_Topo_tong_the_DC_DR.svg')
+b=SVG(1600,960)
+b.text(800,32,'PHÂN VÙNG MẠNG VÀ CÁC LUỒNG KẾT NỐI CHÍNH',27,True)
+b.box(30,70,200,85,'Z03 | NỘI BỘ',['Người dùng nội bộ'],21)
+b.path('M230 112 H265 V248 H290')
+b.box(30,205,200,85,'KẾT NỐI NGOÀI',['Internet / riêng'],22)
+b.box(290,200,260,100,'Z01 | BIÊN',['DDoS • NGFW/IPS','Kiểm soát kết nối'],23)
+b.box(630,200,260,100,'Z02 | DMZ',['WAF • API Gateway','Load Balancer'],23)
+b.box(970,200,260,100,'Z04 | TENANT',['VM / Container','SG • Mạng ảo'],23)
+b.box(1310,200,260,100,'Z05 | DỮ LIỆU',['DB • Block/Object/File','Quyền • Mã hóa'],23)
+for x1,x2 in [(230,290),(550,630),(890,970),(1230,1310)]:b.path(f'M{x1} 248 H{x2}')
+b.text(590,230,'Web/API',20);b.text(930,230,'Dịch vụ',20);b.text(1270,230,'Dữ liệu',20)
+b.path('M420 200 V125 H1100 V200')
+b.s.append('<rect x="570" y="105" width="390" height="31" fill="white"/>')
+b.text(765,127,'Kết nối IaaS theo cổng được phê duyệt',22)
+b.text(30,345,'Ranh giới mạng: chặn mặc định;',22,anchor='start')
+b.text(30,374,'chỉ mở các luồng được phê duyệt.',22,anchor='start')
+b.box(30,450,200,110,'QUẢN TRỊ VIÊN',['Máy trạm quản trị','Tài khoản cá nhân'],22)
+b.box(290,455,220,100,'Z01 | TRUY CẬP',['VPN / ZTNA','MFA'],23)
+b.box(570,425,300,155,'Z06 | QUẢN TRỊ',['PAM / Bastion','IAM','PKI / KMS'],24)
+b.path('M230 505 H290',True)
+b.path('M510 505 H570',True)
+b.box(950,455,280,100,'Z07 | ĐIỀU KHIỂN',['Controller • API nội bộ','DB trạng thái • Hàng đợi'],22)
+b.box(1310,455,260,100,'Z10 | NGOÀI BĂNG',['BMC / Console','Thiết bị hạ tầng'],23)
+# One management backbone: branch points and endpoints are explicit.
+b.path('M870 495 H910 V390 H1440',True,False)
+for x,y in [(1090,455),(1440,455)]:b.path(f'M{x} 390 V{y}',True)
+for x in [1100,1440]:b.path(f'M{x} 390 V300',True)
+b.text(1265,420,'Phiên quản trị qua PAM',21,italic=True)
+for x,title,lines in [(30,'Z08 | AN NINH',['SOC • SIEM • Collector','Nhật ký từ các vùng mạng']), (430,'Z09 | SAO LƯU',['Kho và quyền quản trị riêng','Dữ liệu / cấu hình / khóa']), (830,'Z11 | PHÁT TRIỂN',['Git • CI/CD • Registry','Dev/Test tách Production'])]:b.box(x,665,370,118,title,lines,24)
+b.box(1230,665,340,118,'Z12 | LIÊN SITE',['Peer và luồng đồng bộ','DC–DR được phê duyệt'],23)
+b.text(800,630,'CÁC VÙNG CHỨC NĂNG ĐỘC LẬP',24,True)
+b.path('M55 840 H155');b.text(175,848,'Luồng dịch vụ / dữ liệu',23,anchor='start')
+b.path('M675 840 H775',True);b.text(795,848,'Luồng quản trị',23,anchor='start')
+b.text(800,900,'Nhật ký, sao lưu và phát hành: kiểm soát theo ma trận luồng PL04 và phương án PL06–PL07.',23,italic=True)
+b.save('02_Topo_phan_vung_va_luong.svg')

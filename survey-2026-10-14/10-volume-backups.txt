@@ -1,0 +1,128 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/backup
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+								143 menu Secondary Actions: Cancel
+									144 Volumes
+									145 Volume Backups
+									146 Volume Snapshots
+									147 Snapshot Schedules
+									148 Backup Schedules
+						149 Network Network
+							150 pop up button Network Network
+								151 image Network
+								152 text Network
+						153 Orchestration Orchestration
+							154 pop up button Orchestration Orchestration
+								155 image Orchestration
+								156 text Orchestration
+						157 Database Database
+							158 pop up button Database Database
+								159 image Database
+								160 text Database
+						161 Container Container
+							162 pop up button Container Container
+								163 image Container
+								164 text Container
+						165 Monitor Center Monitor Center
+							166 pop up button Monitor Center Monitor Center
+								167 image Monitor Center
+								168 text Monitor Center
+						169 Alert Management Maintenance
+							170 pop up button Alert Management Maintenance
+								171 image Alert Management
+								172 text Maintenance
+						173 pop up button X-OR SECURE
+						174 Security Center
+					175 image left
+					176 container
+						177 text Storage / Volume Backups
+						178 container
+							179 button Create Volume Backup
+							180 button (disabled) Delete
+							181 text field (settable) Multiple filter tags are separated by enter
+							182 image search
+							183 button sync
+								184 image sync
+							185 button download
+								186 image download
+							187 button eye
+								188 image eye
+							189 button pause-circle
+								190 image pause-circle
+						191 container
+							192 table
+								193 row
+									194 column header
+										195 container
+											196 checkbox (disabled)  , Value: 0
+									197 column header
+										198 text ID/Name
+										199 image caret-up
+										200 image caret-down
+									201 column header
+										202 text Volume ID/Name
+										203 image caret-up
+										204 image caret-down
+									205 column header
+										206 text Backup Mode
+									207 column header
+										208 text Size
+									209 column header
+										210 text Status
+										211 image caret-up
+										212 image caret-down
+									213 column header
+										214 text Created At
+										215 image caret-up
+										216 image caret-down
+									217 column header
+										218 text Action
+							219 table
+								220 row
+									221 cell 0-7
+										222 text No Data
+							223 container
+								224 text Total 0 items
+								225 button (disabled) left
+									226 image left
+								227 button 1
+								228 button (disabled) right
+									229 image right
+								230 container
+									231 combo box
+									232 text 10 items/page
+	233 close button
+	234 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	235 minimize button
+236 menu bar
+	237 JumpServer
+	238 File
+	239 Edit
+	240 View
+	241 Window
+	242 Help

@@ -1,0 +1,613 @@
+
+=== PDF PAGE 1 ===
+ 
+ 
+T I Ê U  C H U Ẩ N  Q U Ố C  G I A 
+ 
+ 
+ 
+ 
+TCVN 14423:2026 
+Xuất bản lần 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AN NINH MẠNG – HỆ THỐNG THÔNG TIN – YÊU CẦU CƠ BẢN 
+Cyber security – Information system – Baseline requirements 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HÀ NỘI - 2026 
+ 
+ 
+ 
+ 
+ 
+TCVN 
+ 
+ 
+ 
+T I Ê U  C H U Ẩ N  Q U Ố C  G I A 
+ 
+ 
+ 
+ 
+TCVN 14423:2026 
+Xuất bản lần 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+AN NINH MẠNG – HỆ THỐNG THÔNG TIN – YÊU CẦU CƠ BẢN 
+Cyber security – Information system – Baseline requirements 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HÀ NỘI - 2026 
+ 
+ 
+ 
+ 
+ 
+TCVN 
+ 
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 2 ===
+TCVN 14423:2025 
+2 
+ 
+  
+ 
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 3 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 4 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 5 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 6 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 7 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 8 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 9 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 10 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 11 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 12 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 13 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 14 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 15 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 16 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 17 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 18 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 19 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 20 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 21 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 22 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 23 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 24 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 25 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 26 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 27 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 28 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 29 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 30 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 31 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 32 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 33 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 34 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 35 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 36 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 37 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 38 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 39 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 40 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 41 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 42 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 43 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 44 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 45 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 46 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 47 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 48 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 49 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 50 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 51 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 52 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 53 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 54 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 55 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 56 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 57 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 58 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 59 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 60 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 61 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 62 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 63 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 64 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 65 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 66 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 67 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 68 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 69 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 70 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 71 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 72 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 73 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 74 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 75 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 76 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 77 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 78 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 79 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 80 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 81 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 82 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 83 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 84 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 85 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 86 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 87 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 88 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 89 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 90 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 91 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 92 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 93 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 94 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 95 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 96 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 97 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 98 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 99 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 100 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 101 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 102 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 103 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 104 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 105 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 106 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 107 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 108 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 109 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 110 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 111 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 112 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 113 ===
+©VSQI (2026) - BẢN QUYỀN XUẤT BẢN THUỘC VỀ VIỆN TIÊU CHUẨN CHẤT LƯỢNG VIỆT NAM
+
+=== PDF PAGE 114 ===
+Cấp phép sử dụng cho: Chử Quang Thắng
+Địa chỉ: Tầng 6, TT04 KĐT HD Mon, Đường Hàm Nghi, Phường Mỹ Đình- Thành phố Hà Nội
+Chỉ sử dụng nội bộ tại đơn vị đăng ký đặt mua tiêu chuẩn quốc gia
+
+
+=== PDF PAGE 115 ===
+TCVN 14423:2026
+Viện tiêu chuẩn Chất lượng Việt Nam chịu trách nhiệm xuất bản,
+phát hành và giữ bản quyền Tiêu chuẩn Quốc gia (TCVN). Không
+được in, sao chụp TCVN nếu chưa được phép của Viện Tiêu chuẩn
+Chất lượng Việt Nam.
+Địa chỉ: Viện Tiêu chuẩn chất lượng Việt Nam
+Số 8 Hoàng Quốc Việt, Cầu Giấy, Hà Nội
+Tel: (84-24) 37564269/37562807 * Fax: (84-24) 38361771
+E-mail: info@vsqi.gov.vn * Website: www.vsqi.gov.vn
+All rights reserved. No part of this publication may be reproduced
+or utilized in any form or by any means, electronic or mechanical,
+including  photocopying  and  microﬁlmm,  without  permission  in
+writing  from  Vietnam  Standards  and  Quality  Institute  (VSQI).
+Address: Vietnam Standards and Quality Institute (VSQI)
+8 Hoang Quoc Viet str, Cau Giay dist, Hanoi, Vietnam
+Tel: (84-24) 37564269/37562807 * Fax: (84-24) 38361771
+E-mail: info@vsqi.gov.vn * Website: www.vsqi.gov.vn

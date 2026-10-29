@@ -1,0 +1,226 @@
+{
+  "docx": [
+    {
+      "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+      "tableCellsPreserved": 119,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "01_So_tay_ra_soat_ky_thuat.docx",
+      "tableCellsPreserved": 130,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "10_Phu_luc_doi_chieu_thiet_ke_va_hien_trang.docx",
+      "tableCellsPreserved": 88,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+      "tableCellsPreserved": 566,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "05_Cong_van_de_nghi_tham_dinh_Mau_02.docx",
+      "tableCellsPreserved": 4,
+      "coverDifferences": []
+    },
+    {
+      "file": "04_Cong_van_xin_y_kien_chuyen_mon_Mau_03.docx",
+      "tableCellsPreserved": 4,
+      "coverDifferences": []
+    },
+    {
+      "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+      "tableCellsPreserved": 12,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "06_To_trinh_phe_duyet_Mau_05.docx",
+      "tableCellsPreserved": 4,
+      "coverDifferences": []
+    },
+    {
+      "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+      "tableCellsPreserved": 372,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "08_Y_kien_chuyen_mon_va_Bao_cao_tu_ra_soat.docx",
+      "tableCellsPreserved": 106,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "09_Thong_bao_cap_do_va_De_nghi_danh_gia.docx",
+      "tableCellsPreserved": 8,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "00_Huong_dan_hoan_thien_va_trinh_ho_so.docx",
+      "tableCellsPreserved": 72,
+      "coverDifferences": [
+        "dc tại trung tâm hạ tầng idc cầu giấy dr tại trung tâm hạ tầng idc nam thăng long",
+        "bản dự thảo 2.3 ngày 17 tháng 10 năm 2026"
+      ]
+    },
+    {
+      "file": "07_Du_thao_Quyet_dinh_phe_duyet_Mau_06.docx",
+      "tableCellsPreserved": 4,
+      "coverDifferences": []
+    }
+  ],
+  "xlsx": [
+    {
+      "file": "04_Doi_soat_129_hang_muc_v094.xlsx",
+      "sheets": 2,
+      "formulasPreserved": 133,
+      "changes": [
+        [
+          "Doi_soat",
+          "A5",
+          "Ô vàng nhập kết quả hiện tại. Tab Nguon_v094 giữ thông tin lịch sử; không chuyển trạng thái cũ thành kết quả mới.",
+          "Ô nền xám nhạt nhập kết quả hiện tại. Tab Nguon_v094 giữ thông tin lịch sử; không chuyển trạng thái cũ thành kết quả mới."
+        ]
+      ],
+      "formulaErrors": []
+    },
+    {
+      "file": "02_Checklist_ra_soat_XOR_cap_do_4.xlsx",
+      "sheets": 10,
+      "formulasPreserved": 249,
+      "changes": [
+        [
+          "TCVN",
+          "A3",
+          "Ô vàng để nhập. Phạm vi “cả hai IDC” chỉ hoàn tất khi bằng chứng bao phủ cả DC và DR. Trạng thái do công thức tính, không phải kết luận chứng nhận.",
+          "Ô nền xám nhạt để nhập. Phạm vi “cả hai IDC” chỉ hoàn tất khi bằng chứng bao phủ cả DC và DR. Trạng thái do công thức tính, không phải kết luận chứng nhận."
+        ],
+        [
+          "Cloud",
+          "A3",
+          "Ô vàng để nhập. Phạm vi “cả hai IDC” chỉ hoàn tất khi bằng chứng bao phủ cả DC và DR. Trạng thái do công thức tính, không phải kết luận chứng nhận.",
+          "Ô nền xám nhạt để nhập. Phạm vi “cả hai IDC” chỉ hoàn tất khi bằng chứng bao phủ cả DC và DR. Trạng thái do công thức tính, không phải kết luận chứng nhận."
+        ],
+        [
+          "Huong dan",
+          "B10",
+          "Ô vàng là đầu vào. Không ghi đè cột trạng thái có công thức. Ngày phải là ngày Excel, không phải chuỗi văn bản.",
+          "Ô nền xám nhạt là đầu vào. Không ghi đè cột trạng thái có công thức. Ngày phải là ngày Excel, không phải chuỗi văn bản."
+        ],
+        [
+          "Huong dan",
+          "B23",
+          "Chờ đúng tệp Word người dùng viện dẫn. Không tự suy diễn tên pháp nhân, người ký hoặc quyền ký từ thương hiệu XOR.",
+          "Thông tin pháp nhân và nhân sự tham chiếu Word v0.9.4; đơn vị vận hành theo xác nhận của chủ quản là Khối Hạ tầng & Vận hành. Mã số doanh nghiệp, hồ sơ phân công và quyền ký vẫn cần xác minh trước trình ký."
+        ]
+      ],
+      "formulaErrors": []
+    }
+  ],
+  "sources": [
+    {
+      "file": "/Users/thangchu/Downloads/De an_xCommandCenter_v2 (1).pdf",
+      "sha256": "5355b56aa0ff210052747f6456ba71f234daef5708533281832e15794c839e2b",
+      "unchanged": true
+    },
+    {
+      "file": "/Users/thangchu/Work/XOR/Xor Secure Cloud/XOR_SECURE_CLOUD_Ho_so_Cap_do_4_v0.9.4.docx",
+      "sha256": "ec28ac067dba4d046d7586798dc38c744e7c09c71ca25dca48883f334ebdc5c5",
+      "unchanged": true
+    }
+  ],
+  "pages": [
+    {
+      "file": "01_So_tay_ra_soat_ky_thuat.docx",
+      "pages": 14
+    },
+    {
+      "file": "00_Huong_dan_hoan_thien_va_trinh_ho_so.docx",
+      "pages": 6
+    },
+    {
+      "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+      "pages": 22
+    },
+    {
+      "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+      "pages": 25
+    },
+    {
+      "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+      "pages": 15
+    },
+    {
+      "file": "04_Cong_van_xin_y_kien_chuyen_mon_Mau_03.docx",
+      "pages": 2
+    },
+    {
+      "file": "05_Cong_van_de_nghi_tham_dinh_Mau_02.docx",
+      "pages": 2
+    },
+    {
+      "file": "06_To_trinh_phe_duyet_Mau_05.docx",
+      "pages": 2
+    },
+    {
+      "file": "07_Du_thao_Quyet_dinh_phe_duyet_Mau_06.docx",
+      "pages": 2
+    },
+    {
+      "file": "08_Y_kien_chuyen_mon_va_Bao_cao_tu_ra_soat.docx",
+      "pages": 4
+    },
+    {
+      "file": "09_Thong_bao_cap_do_va_De_nghi_danh_gia.docx",
+      "pages": 5
+    },
+    {
+      "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+      "pages": 6
+    },
+    {
+      "file": "10_Phu_luc_doi_chieu_thiet_ke_va_hien_trang.docx",
+      "pages": 5
+    }
+  ],
+  "totalPages": 110,
+  "visualReview": "All first-pass page layouts inspected in 19 contact sheets; dense pages and modified covers/sections inspected at full size. All 12 workbook tabs and SVG/PNG diagram inspected.",
+  "archives": [
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2.3/Bo-1-Ky-thuat-XOR-CD4-v2.3.zip",
+      "files": 7,
+      "bytes": 1183651,
+      "sha256": "b72ee55fc87b9c5fd0f6033b24b484fb8233e82799d65e6940adad029803e609"
+    },
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2.3/Bo-2-Hanh-chinh-XOR-CD4-v2.3.zip",
+      "files": 14,
+      "bytes": 2416294,
+      "sha256": "8aaeefaa9ba2ff501733dfc0415668139e066fc64c17be1df302114a3c0de6cd"
+    }
+  ]
+}

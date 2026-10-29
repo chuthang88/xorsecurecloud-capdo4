@@ -1,0 +1,497 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 pop up button New connection
+					9 container
+						10 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						11 pop up button Chử Quang Thắng
+						12 toggle button Description: Open right panel, Value: 0
+					13 container
+						14 outline Resource
+							15 container
+								16 button Assets
+								17 button Switch to type tree
+								18 button Refresh
+								19 pop up button Batch actions
+								20 container
+									21 button Recent connections
+										22 text Recent connections
+									23 button Clear recent connections
+								24 button DEFAULT (46), Help: DEFAULT
+									25 text DEFAULT
+									26 text (46)
+								27 container
+									28 row iDRAC - Hardware Management (9)
+										29 button iDRAC - Hardware Management (9), Help: iDRAC - Hardware Management
+											30 text iDRAC - Hardware Management
+											31 text (9)
+									32 row Monitoring (2)
+										33 button Monitoring (2), Help: Monitoring
+											34 text Monitoring
+											35 text (2)
+									36 row XOR Infrastructure (35)
+										37 button XOR Infrastructure (35), Help: XOR Infrastructure
+											38 text XOR Infrastructure
+											39 text (35)
+										40 container
+											41 row Application VMs (6)
+												42 button Application VMs (6), Help: Application VMs
+													43 text Application VMs
+													44 text (6)
+											45 row Ceph (3)
+												46 button Ceph (3), Help: Ceph
+													47 text Ceph
+													48 text (3)
+											49 row Compute (3)
+												50 button Compute (3), Help: Compute
+													51 text Compute
+													52 text (3)
+											53 row Controllers (3)
+												54 button Controllers (3), Help: Controllers
+													55 text Controllers
+													56 text (3)
+											57 row Proxmox (3)
+												58 button Proxmox (3), Help: Proxmox
+													59 text Proxmox
+													60 text (3)
+											61 row Security Services (9)
+												62 button Security Services (9), Help: Security Services
+													63 text Security Services
+													64 text (9)
+											65 row Web Management (8)
+												66 button Web Management (8), Help: Web Management
+													67 text Web Management
+													68 text (8)
+												69 container
+													70 row WEB-Ceph-Dashboard
+														71 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Ceph-Dashboard
+													73 row WEB-FortiGate
+														74 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-FortiGate
+													76 row WEB-Horizon
+														77 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Horizon
+													79 row WEB-Proxmox-01
+														80 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-01
+													82 row WEB-Proxmox-02
+														83 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Proxmox-02
+													85 row WEB-Proxmox-03
+														86 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-Proxmox-03
+													88 row WEB-Wazuh
+														89 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															90 text WEB-Wazuh
+													91 row WEB-XOR-Portal
+														92 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															93 text WEB-XOR-Portal
+									94 row Wazuh-01
+										95 button Wazuh-01, Help: 10.3.70.94
+											96 text Wazuh-01
+						97 button Favorites Create folder Refresh
+							98 text Favorites
+							99 container
+								100 button Create folder
+								101 button Refresh
+					102 container
+						103 button 后退
+						104 button 前进
+						105 button 刷新
+						106 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/compute/instance/create
+						107 button 会话状态：已通过代理连接 · 账号代填未配置
+						108 text Connected
+					109 text Signed in Chử Quang Thắng
+					110 text WEB-XOR-Portal HTTP 1 tabs 1 connected
+					111 button Description: Transfer center, Help: Transfer queue
+					112 pop up button (disabled) Virtual keyboard
+				113 container Notifications (F8)
+					114 content list
+			115 HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/create
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+								139 menu Secondary Actions: Cancel
+									140 Instances
+									141 Instance Snapshots
+									142 Flavors
+									143 Server Groups
+									144 Images
+									145 Key Pairs
+									146 Autoscale Rules (V)
+									147 Autoscale History
+									148 Auto Scaling Groups
+									149 ASG History
+						150 Storage Storage
+							151 pop up button Storage Storage
+								152 image Storage
+								153 text Storage
+						154 Network Network
+							155 pop up button Network Network
+								156 image Network
+								157 text Network
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+						180 Security Posture
+						181 Web Application Firewall
+						182 Vulnerability Management
+						183 SIEM
+						184 Endpoint Security
+						185 Network Detection
+						186 Data Protection
+						187 Automation
+						188 Network Access Control
+					189 image left
+					190 container
+						191 text Compute /
+						192 link Description: Instances, Value: 10.3.10.100:9999/compute/instance
+						193 text / Create Instance
+						194 container
+							195 container
+								196 text 1
+								197 container
+									198 text Base Config
+							199 container
+								200 text 2
+								201 container
+									202 text Network Config
+							203 container
+								204 text 3
+								205 container
+									206 text System Config
+							207 container
+								208 text 4
+								209 text Confirm Config
+							210 container
+								211 container
+									212 text Project
+								213 text userdemo
+								214 container
+									215 text * Available Zone
+									216 image question-circle
+								217 container
+									218 combo box (settable) * Available Zone  question-circle
+									219 text nova
+								220 container
+									221 text * Specification
+								222 container
+									223 text field (settable) Click here for filters.
+									224 image search
+									225 text Architecture
+									226 container
+										227 radio button All Flavors, Value: 1
+										228 text All Flavors
+										229 radio button X86 Architecture, Value: 0
+										230 text X86 Architecture
+										231 radio button Custom, Value: 0
+										232 text Custom
+									233 container
+										234 table
+											235 row
+												236 column header
+													237 text Name
+													238 image caret-up
+													239 image caret-down
+												240 column header
+													241 text CPU
+													242 image caret-up
+													243 image caret-down
+												244 column header
+													245 text Memory
+													246 image caret-up
+													247 image caret-down
+												248 column header
+													249 text Internal Network Bandwidth (Gbps)
+													250 image caret-up
+													251 image caret-down
+												252 column header
+													253 text Architecture
+													254 image caret-up
+													255 image caret-down
+											256 row
+												257 cell
+													258 container
+														259 radio button  , Value: 0
+												260 cell
+													261 text GP_8C_8G
+												262 cell
+													263 text 8
+												264 cell
+													265 text 8.00 GiB
+												266 cell
+													267 text -
+												268 cell
+													269 text X86 Architecture - General Purpose
+											270 row
+												271 cell
+													272 container
+														273 radio button  , Value: 0
+												274 cell
+													275 text GP_32C_32G
+												276 cell
+													277 text 32
+												278 cell
+													279 text 32.00 GiB
+												280 cell
+													281 text -
+												282 cell
+													283 text X86 Architecture - General Purpose
+											284 row
+												285 cell
+													286 container
+														287 radio button  , Value: 0
+												288 cell
+													289 text GP_64C_512G
+												290 cell
+													291 text 64
+												292 cell
+													293 text 512.00 GiB
+												294 cell
+													295 text -
+												296 cell
+													297 text X86 Architecture - General Purpose
+											298 row
+												299 cell
+													300 container
+														301 radio button  , Value: 0
+												302 cell
+													303 text GP_12C_12G
+												304 cell
+													305 text 12
+												306 cell
+													307 text 12.00 GiB
+												308 cell
+													309 text -
+												310 cell
+													311 text X86 Architecture - General Purpose
+											312 row
+												313 cell
+													314 container
+														315 radio button  , Value: 0
+												316 cell
+													317 text GP_64C_64G
+												318 cell
+													319 text 64
+												320 cell
+													321 text 64.00 GiB
+												322 cell
+													323 text -
+												324 cell
+													325 text X86 Architecture - General Purpose
+										326 content list
+											327 container Previous Page
+												328 button (disabled) left
+													329 image left
+											330 text 1
+											331 text 2
+											332 text 3
+											333 text 4
+											334 text 5
+											335 container Next 5 Pages
+												336 container
+													337 image double-right
+													338 text •••
+											339 text 8
+											340 container Next Page
+												341 button right
+													342 image right
+									343 text Selected :  
+								344 container
+									345 text * Start Source
+									346 image question-circle
+								347 container
+									348 radio button Image, Value: 1
+									349 text Image
+									350 radio button Instance Snapshot, Value: 0
+									351 text Instance Snapshot
+									352 radio button Bootable Volume, Value: 0
+									353 text Bootable Volume
+								354 container
+									355 text * Operating System
+								356 container
+									357 container
+										358 radio button centos Centos, Value: 1
+										359 image centos
+										360 text Centos
+										361 radio button ubuntu Ubuntu, Value: 0
+										362 image ubuntu
+										363 text Ubuntu
+										364 radio button fedora Fedora, Value: 0
+										365 image fedora
+										366 text Fedora
+										367 radio button windows Windows, Value: 0
+										368 image windows
+										369 text Windows
+										370 radio button debian Debian, Value: 0
+										371 image debian
+										372 text Debian
+										373 radio button coreos Coreos, Value: 0
+										374 image coreos
+										375 text Coreos
+										376 radio button arch Arch, Value: 0
+										377 image arch
+										378 text Arch
+										379 radio button freebsd Freebsd, Value: 0
+										380 image freebsd
+										381 text Freebsd
+										382 radio button others Others, Value: 0
+										383 image others
+										384 text Others
+									385 container
+										386 text field (settable) Click here for filters.
+										387 image search
+									388 table
+										389 row
+											390 column header
+												391 text Name
+												392 image caret-up
+												393 image caret-down
+											394 column header
+												395 text System
+												396 image caret-up
+												397 image caret-down
+											398 column header
+												399 text OS Version
+												400 image caret-up
+												401 image caret-down
+											402 column header
+												403 text Min System Disk
+												404 image caret-up
+												405 image caret-down
+											406 column header
+												407 text Min Memory
+												408 image caret-up
+												409 image caret-down
+											410 column header
+												411 text Access Control
+												412 image caret-up
+												413 image caret-down
+											414 column header
+												415 text Format
+												416 image caret-up
+												417 image caret-down
+											418 column header
+												419 text Image Size
+												420 image caret-up
+												421 image caret-down
+										422 row
+											423 cell 0-8
+												424 text No Data
+									425 container
+										426 text Selected Image :  
+									427 text Please select Operating System!
+								428 container
+									429 text * Boot From Volume
+								430 container
+									431 radio button Yes - Create a new system disk, Value: 1
+									432 text Yes - Create a new system disk
+									433 radio button No - Do not create a new system disk, Value: 0
+									434 text No - Do not create a new system disk
+								435 container
+									436 text * System Disk
+								437 container
+									438 container
+										439 container
+											440 text Type
+											441 container
+												442 combo box
+												443 text Please select type
+											444 text Size
+											445 container
+												446 button Increase Value
+													447 image up
+												448 button Decrease Value
+													449 image down
+												450 stepper (settable, float) 10
+											451 text GiB
+											452 container
+												453 checkbox Deleted with the instance  , Value: 1
+												454 text Deleted with the instance
+										455 text Please select a type!
+									456 text Disk size is limited by the min disk of flavor, image, etc.
+								457 container
+									458 text Data Disk
+								459 container
+									460 button plus-circle Add Data Disks
+										461 image plus-circle
+										462 text Add Data Disks
+									463 text Too many disks mounted on the instance will affect the read and write performance. It is recommended not to exceed 16 disks.
+							464 container
+								465 switch on
+								466 button compress
+									467 image compress
+								468 image
+								469 text CPU Quota:  0/20
+								470 text Memory (GiB) Quota:  0/50
+								471 text Volume Quota:  3/10
+								472 text Volume Capacity (GiB) Quota:  4/1000
+							473 container
+								474 text Count
+								475 container
+									476 button Increase Value
+										477 image up
+									478 button (disabled) Decrease Value
+										479 image down
+								480 stepper (settable, float) 1
+							481 container
+								482 button Cancel
+								483 button Next: Network Config
+	484 close button
+	485 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	486 minimize button
+487 menu bar
+	488 JumpServer
+	489 File
+	490 Edit
+	491 View
+	492 Window
+	493 Help
+
+The focused UI element is 115 HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/create

@@ -1,0 +1,112 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/template-generator
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+								151 menu Secondary Actions: Cancel
+									152 Stacks
+									153 Resource Types
+									154 Template Versions
+									155 Template Generator
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+					175 container
+						176 text Orchestration / Template Generator
+						177 container
+							178 text Template Generator
+							179 button copy Copy
+								180 image copy
+								181 text Copy
+							182 button download Download
+								183 image download
+								184 text Download
+							185 text Select Resource Type
+							186 container
+								187 combo box
+								188 text OS::Nova::Server
+							189 text Generated HOT Template (YAML)
+							190 text entry area (settable) heat_template_version: 2021-04-16
+description: Boot a simple Nova server
+
+parameters:
+  image:
+    type: string
+    default: cirros
+  flavor:
+    type: string
+    default: m1.small
+  network:
+    type: string
+    default: private
+
+resources:
+  my_server:
+    type: OS::Nova::Server
+    properties:
+      image: { get_param: image }
+      flavor: { get_param: flavor }
+      networks:
+        - network: { get_param: network }
+
+outputs:
+  server_ip:
+    value: { get_attr: [my_server, first_address] }
+
+	191 close button
+	192 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	193 minimize button
+194 menu bar
+	195 JumpServer
+	196 File
+	197 Edit
+	198 View
+	199 Window
+	200 Help

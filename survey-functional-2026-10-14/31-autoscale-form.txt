@@ -1,0 +1,190 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/autoscale-rules
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Compute / Autoscale Rules (V)
+						182 container
+							183 button Create Autoscale Rule
+							184 button (disabled) Delete
+							185 text field (settable) Multiple filter tags are separated by enter
+							186 image search
+							187 button sync
+								188 image sync
+							189 button download
+								190 image download
+							191 button eye
+								192 image eye
+							193 button pause-circle
+								194 image pause-circle
+						195 container
+							196 table
+								197 row
+									198 column header
+										199 container
+											200 checkbox (disabled)  , Value: 0
+									201 column header
+										202 text Name
+										203 image caret-up
+										204 image caret-down
+									205 column header
+										206 text Server ID
+										207 image caret-up
+										208 image caret-down
+									209 column header
+										210 text State
+										211 image caret-up
+										212 image caret-down
+									213 column header
+										214 text Scale Up Threshold
+										215 image caret-up
+										216 image caret-down
+									217 column header
+										218 text Scale Up Comparison
+										219 image caret-up
+										220 image caret-down
+									221 column header
+										222 text Cooldown (s)
+										223 image caret-up
+										224 image caret-down
+									225 column header
+										226 text Enabled
+										227 image caret-up
+										228 image caret-down
+									229 column header
+										230 text Created At
+										231 image caret-up
+										232 image caret-down
+									233 column header
+										234 text Action
+							235 table
+								236 row
+									237 cell 0-9
+										238 text No Data
+				239 container
+					240 container Create Autoscale Rule
+						241 container
+							242 button Close
+								243 image close
+							244 text Create Autoscale Rule
+							245 container
+								246 container
+									247 text * Name
+								248 text field (settable) * Name, Placeholder: Please input autoscale rule name
+								249 container
+									250 text * Server ID
+								251 text field (settable) * Server ID, Placeholder: Please input server UUID
+								252 container
+									253 text * Scale Up Metric Query (PromQL)
+								254 text entry area (settable) * Scale Up Metric Query (PromQL), Placeholder: e.g. avg(rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100
+								255 container
+									256 text * Scale Up Comparison
+								257 container
+									258 combo box (settable) * Scale Up Comparison
+									259 text Please select
+								260 container
+									261 text * Scale Up Threshold
+								262 container
+									263 button Increase Value
+										264 image up
+									265 button Decrease Value
+										266 image down
+									267 stepper (settable, float) * Scale Up Threshold, Value: 0
+								268 container
+									269 text * Scale Up Flavor ID
+								270 text field (settable) * Scale Up Flavor ID, Placeholder: Please input target flavor UUID
+								271 container
+									272 text Scale Up Consecutive Breaches
+								273 container
+									274 container
+										275 button Increase Value
+											276 image up
+										277 button Decrease Value
+											278 image down
+										279 stepper (settable, float) Scale Up Consecutive Breaches, Value: 0
+									280 text Number of consecutive threshold breaches before scaling up
+								281 container
+									282 text Cooldown (seconds)
+								283 container
+									284 container
+										285 button Increase Value
+											286 image up
+										287 button Decrease Value
+											288 image down
+										289 stepper (settable, float) Cooldown (seconds), Value: 0
+									290 text Minimum time between scaling actions
+							291 container
+								292 button Cancel
+								293 button OK
+	294 close button
+	295 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	296 minimize button
+297 menu bar
+	298 JumpServer
+	299 File
+	300 Edit
+	301 View
+	302 Window
+	303 Help

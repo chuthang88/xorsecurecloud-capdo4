@@ -1,0 +1,151 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/stack/detail/afc0219b-b80d-49e8-a885-82863ccaf202/doccheck-1014-stack
+				116 container
+					117 image bell
+					118 text Close all notifications.
+					119 container
+						120 image menu-icon
+						121 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						122 container
+							123 text Cloud
+							124 image down
+						125 button
+						126 image appstore
+						127 text userdemo
+						128 image swap
+						129 text Default
+						130 image bell
+						131 button user
+							132 image user
+					133 menu Secondary Actions: Cancel
+						134 Home Home
+							135 image Home
+							136 text Home
+						137 Compute Compute
+							138 pop up button Compute Compute
+								139 image Compute
+								140 text Compute
+						141 Storage Storage
+							142 pop up button Storage Storage
+								143 image Storage
+								144 text Storage
+						145 Network Network
+							146 pop up button Network Network
+								147 image Network
+								148 text Network
+						149 Orchestration Orchestration
+							150 pop up button Orchestration Orchestration
+								151 image Orchestration
+								152 text Orchestration
+								153 menu Secondary Actions: Cancel
+									154 Stacks
+									155 Resource Types
+									156 Template Versions
+									157 Template Generator
+						158 Database Database
+							159 pop up button Database Database
+								160 image Database
+								161 text Database
+						162 Container Container
+							163 pop up button Container Container
+								164 image Container
+								165 text Container
+						166 Monitor Center Monitor Center
+							167 pop up button Monitor Center Monitor Center
+								168 image Monitor Center
+								169 text Monitor Center
+						170 Alert Management Maintenance
+							171 pop up button Alert Management Maintenance
+								172 image Alert Management
+								173 text Maintenance
+						174 pop up button X-OR SECURE
+						175 Security Center
+					176 image left
+					177 container
+						178 text Orchestration /
+						179 link Description: Stacks, Value: 10.3.10.100:9999/heat/stack
+						180 text / Stack Detail
+						181 container
+							182 button Delete
+							183 button More down
+								184 text More
+								185 image down
+						186 container
+							187 text ID: afc0219b-b80d-49e8-a885-82863ccaf202
+							188 button Copy
+								189 image copy
+							190 button Back
+							191 button sync
+								192 image sync
+							193 button up
+								194 image up
+						195 container
+							196 container Name doccheck-1014-stack
+								197 text Name doccheck-1014-stack
+							198 container Stack Status Create Complete
+								199 text Stack Status Create Complete
+							200 container Description Disposable isolated network test in userdemo
+								201 text Description Disposable isolated network test in userdemo
+							202 container Created At 2026-10-15 00:15:08
+								203 text Created At 2026-10-15 00:15:08
+							204 container Updated At -
+								205 text Updated At -
+						206 tab group
+							207 container
+								208 tab (selected) Detail, Value: 1
+								209 tab (settable, integer) Stack Resources, Value: 0
+								210 tab (settable, integer) Stack Events, Value: 0
+								211 tab (settable, integer) YAML File, Value: 0
+						212 container Detail
+							213 container
+								214 heading Startup Parameters, Value: 3
+									215 text Startup Parameters
+								216 text Timeout(Minute) 5 Fail Rollback Enable
+								217 heading Outputs, Value: 3
+									218 text Outputs
+								219 text network_id
+								220 text 7674c938-c5c6-483a-81f2-34d0348deb5c
+								221 text No description given
+							222 container
+								223 heading Deployment Parameters, Value: 3
+									224 text Deployment Parameters
+								225 text OS::stack_id
+								226 text afc0219b-b80d-49e8-a885-82863ccaf202
+								227 text OS::project_id
+								228 text 5a4b1b40880a4c1fa754cb7f6e8269d4
+								229 text OS::stack_name doccheck-1014-stack name doccheck-1014-stack-net cidr
+								230 text 192.168.241.0/24
+				231 container
+					232 container
+						233 image close-circle
+						234 text Get clusters error.
+						235 button Click to show detail
+					236 link close
+						237 image close
+					238 container
+						239 image close-circle
+						240 text Get clusters error.
+						241 button Click to show detail
+					242 link close
+						243 image close
+					244 container
+						245 image close-circle
+						246 text Get clustertemplates error.
+						247 button Click to show detail
+					248 link close
+						249 image close
+					250 container
+						251 image close-circle
+						252 text Get clustertemplates error.
+						253 button Click to show detail
+					254 link close
+						255 image close
+	256 close button
+	257 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	258 minimize button
+259 menu bar
+	260 JumpServer
+	261 File
+	262 Edit
+	263 View
+	264 Window
+	265 Help

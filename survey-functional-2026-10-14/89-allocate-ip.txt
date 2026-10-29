@@ -1,0 +1,214 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/floatingip
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Network / Floating IPs
+						182 container
+							183 button Allocate IP
+							184 button (disabled) Release
+							185 text field (settable) Multiple filter tags are separated by enter
+							186 image search
+							187 button sync
+								188 image sync
+							189 button download
+								190 image download
+							191 button eye
+								192 image eye
+							193 button pause-circle
+								194 image pause-circle
+						195 container
+							196 table
+								197 row
+									198 column header
+										199 container
+											200 checkbox (disabled)  , Value: 0
+									201 column header
+										202 text ID/Floating IP
+										203 image caret-up
+										204 image caret-down
+									205 column header
+										206 text QoS Policy ID/Name
+									207 column header
+										208 text Description
+									209 column header
+										210 text Associated Resource
+									211 column header
+										212 text Status
+										213 image caret-up
+										214 image caret-down
+									215 column header
+										216 text Created At
+									217 column header
+										218 text Action
+							219 table
+								220 row
+									221 cell 0-7
+										222 text No Data
+							223 container
+								224 text Total 0 items
+								225 button (disabled) left
+									226 image left
+								227 button 1
+								228 button (disabled) right
+									229 image right
+								230 container
+									231 combo box
+									232 text 10 items/page
+				233 container
+					234 container
+						235 image close-circle
+						236 text Get vpn ipsec policy error.
+						237 button Click to show detail
+					238 link close
+						239 image close
+					240 container
+						241 image close-circle
+						242 text Get ipsec site connection error.
+						243 button Click to show detail
+					244 link close
+						245 image close
+				246 container
+					247 container Allocate IP
+						248 container
+							249 button Close
+								250 image close
+							251 text Allocate IP
+							252 container
+								253 container
+									254 container
+										255 text * Network
+									256 container
+										257 combo box (settable) * Network
+										258 text Please select
+									259 container
+										260 text Batch Allocate
+									261 container
+										262 checkbox  , Value: 0
+									263 container
+										264 text Description
+									265 text entry area (settable) Description
+									266 container
+										267 text QoS Policy
+										268 image question-circle
+									269 container
+										270 tab group
+											271 container
+												272 tab (selected) Current Project QoS Policies, Value: 1
+												273 tab (settable, integer) Shared QoS Policies, Value: 0
+										274 container Current Project QoS Policies
+											275 container
+												276 text field (settable) Click here for filters.
+												277 image search
+											278 button sync
+												279 image sync
+											280 container
+												281 table
+													282 row
+														283 column header
+															284 text ID/Name
+															285 image caret-up
+															286 image caret-down
+														287 column header
+															288 text Description
+														289 column header
+															290 text Rules Number
+														291 column header
+															292 text Rules
+														293 column header
+															294 text Shared
+														295 column header
+															296 text Default Policy
+														297 column header
+															298 text Created At
+													299 row
+														300 cell 0-7
+															301 text No Data
+												302 container
+													303 text Total 0 items
+													304 button (disabled) left
+														305 image left
+													306 button 1
+													307 button (disabled) right
+														308 image right
+													309 container
+														310 combo box
+														311 text 5 items/page
+										312 text Selected  :  
+								313 container
+									314 heading 3
+							315 container
+								316 button Cancel
+								317 button OK
+	318 close button
+	319 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	320 minimize button
+321 menu bar
+	322 JumpServer
+	323 File
+	324 Edit
+	325 View
+	326 Window
+	327 Help

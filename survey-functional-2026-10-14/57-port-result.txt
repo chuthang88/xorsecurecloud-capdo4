@@ -1,0 +1,335 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/port
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Network / Ports
+						182 container
+							183 button Create Virtual Adapter
+							184 button (disabled) Delete
+							185 container
+								186 checkbox View virtual adapters  , Value: 0
+								187 text View virtual adapters
+							188 text field (settable) Multiple filter tags are separated by enter
+							189 image search
+							190 button sync
+								191 image sync
+							192 button download
+								193 image download
+							194 button eye
+								195 image eye
+							196 button pause-circle
+								197 image pause-circle
+						198 container
+							199 table
+								200 row
+									201 column header
+										202 container
+											203 checkbox  , Value: 0
+									204 column header
+										205 text ID/Name
+										206 image caret-up
+										207 image caret-down
+									208 column header
+										209 text Bind Resource
+									210 column header
+										211 text Owned Network ID/Name
+									212 column header
+										213 text IPv4 Address
+									214 column header
+										215 text IPv6 Address
+									216 column header
+										217 text Mac Address
+										218 image caret-up
+										219 image caret-down
+									220 column header
+										221 text Status
+										222 image caret-up
+										223 image caret-down
+									224 column header
+										225 text Action
+							226 table
+								227 row
+									228 cell
+										229 container
+											230 checkbox  , Value: 0
+									231 cell
+										232 link Description: 122c166d Copy, Value: 10.3.10.100:9999/network/port/detail/122c166d-64b1-4ea6-9bd3-663196c66738
+										233 text -
+									234 cell
+										235 text network:distributed ovnmeta-560e44c8-6fc0-4947-885d-97f50ec3bdb4
+									236 cell
+										237 link Description: 560e44c8 Copy, Value: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4
+										238 text doccheck-1014-net
+									239 cell
+										240 text 192.168.240.2
+									241 cell
+										242 text -
+									243 cell
+										244 text fa:16:3e:eb:a0:98
+									245 cell
+										246 text Down
+									247 cell
+										248 button Edit
+										249 button More down
+											250 text More
+											251 image down
+							252 container
+								253 text Total 1 items
+								254 button (disabled) left
+									255 image left
+								256 button 1
+								257 button (disabled) right
+									258 image right
+								259 container
+									260 combo box
+									261 text 10 items/page
+				262 container
+					263 image close-circle
+					264 text Unable to delete instance, instance: doccheck-1014-vm.
+					265 button Click to show detail
+					266 link close
+						267 image close
+				268 container
+					269 container Create Virtual Adapter
+						270 container
+							271 button Close
+								272 image close
+							273 text Create Virtual Adapter
+							274 container
+								275 image info-circle
+								276 text Virtual adapter mainly used for binding instance and other operations, occupying the quota of the port.
+								277 container
+									278 container
+										279 container
+											280 text * Name
+										281 container
+											282 text field * Name, Value: doccheck-1014-port, Placeholder: Please input name
+											283 text The name should start with upper letter or lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].:^".
+										284 container
+											285 text Description
+										286 text entry area Description
+										287 container
+											288 text * Owned Network
+										289 container
+											290 tab group
+												291 container
+													292 tab (selected) Current Project Networks, Value: 1
+													293 tab Shared Networks, Value: 0
+											294 container Current Project Networks
+												295 container
+													296 text field Click here for filters.
+													297 image search
+												298 button sync
+													299 image sync
+												300 container
+													301 table
+														302 row
+															303 column header
+																304 text ID/Name
+																305 image caret-up
+																306 image caret-down
+															307 column header
+																308 text Is Current Project
+															309 column header
+																310 text External
+															311 column header
+																312 text Shared
+															313 column header
+																314 text Status
+																315 image caret-up
+																316 image caret-down
+															317 column header
+																318 text Subnet Count
+															319 column header
+																320 text Created At
+														321 row
+															322 cell
+																323 container
+																	324 radio button  , Value: 1
+															325 cell
+																326 link Description: 560e44c8 Copy, Value: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4
+																327 text doccheck-1014-net
+															328 cell
+																329 text Yes
+															330 cell
+																331 text No
+															332 cell
+																333 text No
+															334 cell
+																335 text Active
+															336 cell
+																337 text 1
+																338 image file-text
+															339 cell
+																340 text 14 minutes ago
+													341 container
+														342 text Total 1 items
+														343 button (disabled) left
+															344 image left
+														345 button 1
+														346 button (disabled) right
+															347 image right
+														348 container
+															349 text 5 items/page
+											350 text Selected  :  
+											351 button clear
+												352 image clear
+											353 container
+												354 text doccheck-1014-net
+												355 image close
+										356 container
+											357 text Owned Subnet
+										358 container
+											359 container
+												360 container
+													361 text doccheck-1014-subnet
+												362 text Cidr: 192.168.240.0/24
+												363 container
+													364 text Automatically Assigned Address
+											365 image minus-circle
+											366 button plus Add IP
+												367 image plus
+												368 text Add IP
+										369 container
+											370 text * Mac Address
+										371 container
+											372 container
+												373 text Auto allocate mac address
+										374 container
+											375 text Port Security
+											376 image question-circle
+										377 switch On, Value: on
+											378 text On
+										379 container
+											380 text * Security Group
+										381 container
+											382 text field Click here for filters.
+											383 image search
+											384 button sync
+												385 image sync
+											386 container
+												387 table
+													388 row
+														389 column header
+															390 container
+																391 checkbox  , Value: 1
+														392 column header
+															393 text Name
+															394 image caret-up
+															395 image caret-down
+														396 column header
+															397 text Description
+															398 image caret-up
+															399 image caret-down
+														400 column header
+															401 text Created At
+															402 image caret-up
+															403 image caret-down
+													404 row
+														405 cell
+															406 container
+																407 checkbox  , Value: 1
+														408 cell
+															409 text default
+														410 cell
+															411 text Default security group
+														412 cell
+															413 text 2026-10-14 22:37:47
+												414 container
+													415 text Total 1 items
+													416 button (disabled) left
+														417 image left
+													418 button 1
+													419 button (disabled) right
+														420 image right
+													421 container
+														422 text 5 items/page
+											423 text Selected :  
+											424 button clear
+												425 image clear
+											426 container
+												427 text default
+												428 image close
+										429 container
+											430 text Advanced Options
+										431 button Expand Advanced Options caret-down
+											432 text Expand Advanced Options
+											433 image caret-down
+							434 container
+								435 button Cancel
+								436 button loading OK
+									437 image loading
+									438 text OK
+	439 close button
+	440 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	441 minimize button
+442 menu bar
+	443 JumpServer
+	444 File
+	445 Edit
+	446 View
+	447 Window
+	448 Help

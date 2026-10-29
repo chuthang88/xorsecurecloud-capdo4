@@ -1,0 +1,103 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/security-center/posture
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+						155 Container Container
+							156 pop up button Container Container
+								157 image Container
+								158 text Container
+						159 Monitor Center Monitor Center
+							160 pop up button Monitor Center Monitor Center
+								161 image Monitor Center
+								162 text Monitor Center
+						163 Alert Management Maintenance
+							164 pop up button Alert Management Maintenance
+								165 image Alert Management
+								166 text Maintenance
+							167 menu Secondary Actions: Cancel
+								168 Audit Logs
+								169 Recycle Bin
+						170 pop up button X-OR SECURE
+						171 Security Center
+						172 Security Posture
+						173 Web Application Firewall
+						174 Vulnerability Management
+						175 SIEM
+						176 Endpoint Security
+						177 Network Detection
+						178 Data Protection
+						179 Automation
+						180 Network Access Control
+					181 image left
+				182 container
+					183 container
+						184 image close-circle
+						185 text Get recycle volumes error.
+						186 button Click to show detail
+					187 link close
+						188 image close
+					189 container
+						190 image close-circle
+						191 text Get recycle database instances error.
+						192 button Click to show detail
+					193 link close
+						194 image close
+				195 container X-OR Security Center
+					196 HTML content X-OR Security Posture, URL: 10.3.10.100:9999/security-posture.html?v=sec54&section=overview
+						197 container
+							198 text X-OR CLOUD SECURITY / POSTURE
+							199 text Security Posture
+							200 text Read-only OpenStack inventory, misconfiguration checks and controlled remediation tracking for the current project.
+							201 container
+								202 text loading viewer
+							203 button Export CSV, Help: Findings with control references, score and metered usage
+							204 button Printable report, Help: Opens a printable report; use Print > Save as PDF
+							205 button Refresh
+							206 button Run posture scan
+						207 text Security Center temporarily paused by administrator
+	208 close button
+	209 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	210 minimize button
+211 menu bar
+	212 JumpServer
+	213 File
+	214 Edit
+	215 View
+	216 Window
+	217 Help

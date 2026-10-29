@@ -1,0 +1,216 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/security-group/detail/603c6b96-d61f-40a2-b325-bf85feb0bcaa
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+								147 menu Secondary Actions: Cancel
+									148 Networks
+									149 Ports
+									150 QoS Policies
+									151 Routers
+									152 Floating IPs
+									153 Topology
+									154 Load Balancers
+									155 Certificates
+									156 VPNs
+									157 Security Groups
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+							178 menu Secondary Actions: Cancel
+								179 Audit Logs
+								180 Recycle Bin
+						181 pop up button X-OR SECURE
+						182 Security Center
+						183 Security Posture
+						184 Web Application Firewall
+						185 Vulnerability Management
+						186 SIEM
+						187 Endpoint Security
+						188 Network Detection
+						189 Data Protection
+						190 Automation
+						191 Network Access Control
+					192 image left
+					193 container
+						194 text Network /
+						195 link Description: Security Groups, Value: 10.3.10.100:9999/network/security-group
+						196 text / Security Group Detail
+						197 container
+							198 button Edit
+							199 button More down
+								200 text More
+								201 image down
+						202 container
+							203 text ID: 603c6b96-d61f-40a2-b325-bf85feb0bcaa
+							204 button Copy
+								205 image copy
+							206 button Back
+							207 button sync
+								208 image sync
+							209 button up
+								210 image up
+						211 container
+							212 container Name doccheck-1014-sg
+								213 text Name doccheck-1014-sg
+							214 container Description Disposable documentation test; unattached
+								215 text Description Disposable documentation test; unattached
+						216 tab group
+							217 container
+								218 tab (selected) Rules, Value: 1
+						219 container Rules
+							220 container
+								221 button Create Rule
+								222 button (disabled) Delete
+								223 text field (settable) Multiple filter tags are separated by enter
+								224 image search
+								225 button sync
+									226 image sync
+								227 button download
+									228 image download
+								229 button eye
+									230 image eye
+								231 button pause-circle
+									232 image pause-circle
+							233 container
+								234 table
+									235 row
+										236 column header
+											237 container
+												238 checkbox  , Value: 0
+										239 column header
+											240 text Direction
+											241 image caret-up
+											242 image caret-down
+										243 column header
+											244 text Ether Type
+											245 image caret-up
+											246 image caret-down
+										247 column header
+											248 text IP Protocol
+											249 image caret-up
+											250 image caret-down
+										251 column header
+											252 text Port Range
+											253 image caret-up
+											254 image caret-down
+										255 column header
+											256 text Remote IP Prefix
+											257 image caret-up
+											258 image caret-down
+										259 column header
+											260 text Remote Group Id
+											261 image caret-up
+											262 image caret-down
+										263 column header
+											264 text ICMP Type/ICMP Code
+											265 image caret-up
+											266 image caret-down
+										267 column header
+											268 text Action
+									269 row
+										270 cell
+											271 container
+												272 checkbox  , Value: 0
+										273 cell
+											274 text Egress
+										275 cell
+											276 text IPv4
+										277 cell
+											278 text Any
+										279 cell
+											280 text Any
+										281 cell
+											282 text 0.0.0.0/0
+										283 cell
+											284 text -
+										285 cell
+											286 text -
+										287 cell
+											288 button Delete
+									289 row
+										290 cell
+											291 container
+												292 checkbox  , Value: 0
+										293 cell
+											294 text Egress
+										295 cell
+											296 text IPv6
+										297 cell
+											298 text Any
+										299 cell
+											300 text Any
+										301 cell
+											302 text ::/0
+										303 cell
+											304 text -
+										305 cell
+											306 text -
+										307 cell
+											308 button Delete
+								309 content list
+									310 text Total 2 items
+									311 container Previous Page
+										312 button (disabled) left
+											313 image left
+									314 text 1
+									315 container Next Page
+										316 button (disabled) right
+											317 image right
+									318 container
+										319 combo box
+										320 text 10 / page
+	321 close button
+	322 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	323 minimize button
+324 menu bar
+	325 JumpServer
+	326 File
+	327 Edit
+	328 View
+	329 Window
+	330 Help

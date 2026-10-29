@@ -1,0 +1,166 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/template-versions
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+								151 menu Secondary Actions: Cancel
+									152 Stacks
+									153 Resource Types
+									154 Template Versions
+									155 Template Generator
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+					175 container
+						176 text Orchestration / Template Versions
+						177 container
+							178 text field (settable) Multiple filter tags are separated by enter
+							179 image search
+							180 button sync
+								181 image sync
+							182 button download
+								183 image download
+							184 button pause-circle
+								185 image pause-circle
+						186 container
+							187 table
+								188 row
+									189 column header
+										190 text Version
+										191 image caret-up
+										192 image caret-down
+									193 column header
+										194 text Type
+										195 image caret-up
+										196 image caret-down
+									197 column header
+										198 text Aliases
+										199 image caret-up
+										200 image caret-down
+							201 table
+								202 row
+									203 cell
+										204 text AWSTemplateFormatVersion.2010-09-09
+									205 cell
+										206 text cfn
+								207 row
+									208 cell
+										209 text HeatTemplateFormatVersion.2012-12-12
+									210 cell
+										211 text cfn
+								212 row
+									213 cell
+										214 text heat_template_version.2013-05-23
+									215 cell
+										216 text hot
+								217 row
+									218 cell
+										219 text heat_template_version.2014-10-16
+									220 cell
+										221 text hot
+								222 row
+									223 cell
+										224 text heat_template_version.2015-04-30
+									225 cell
+										226 text hot
+								227 row
+									228 cell
+										229 text heat_template_version.2015-10-15
+									230 cell
+										231 text hot
+								232 row
+									233 cell
+										234 text heat_template_version.2016-04-08
+									235 cell
+										236 text hot
+								237 row
+									238 cell
+										239 text heat_template_version.2016-10-14
+									240 cell
+										241 text hot
+									242 cell
+										243 text heat_template_version.newton
+								244 row
+									245 cell
+										246 text heat_template_version.2017-02-24
+									247 cell
+										248 text hot
+									249 cell
+										250 text heat_template_version.ocata
+								251 row
+									252 cell
+										253 text heat_template_version.2017-09-01
+									254 cell
+										255 text hot
+									256 cell
+										257 text heat_template_version.pike
+							258 content list
+								259 text Total 13 items
+								260 container Previous Page
+									261 button (disabled) left
+										262 image left
+								263 text 1
+								264 text 2
+								265 container Next Page
+									266 button right
+										267 image right
+								268 container
+									269 combo box
+									270 text 10 / page
+	271 close button
+	272 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	273 minimize button
+274 menu bar
+	275 JumpServer
+	276 File
+	277 Edit
+	278 View
+	279 Window
+	280 Help

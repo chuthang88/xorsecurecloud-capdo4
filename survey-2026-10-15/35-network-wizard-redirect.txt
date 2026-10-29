@@ -1,0 +1,262 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 pop up button New connection
+					9 container
+						10 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						11 pop up button Chử Quang Thắng
+						12 toggle button Description: Open right panel, Value: 0
+					13 container
+						14 outline Resource
+							15 container
+								16 button Assets
+								17 button Switch to type tree
+								18 button Refresh
+								19 pop up button Batch actions
+								20 container
+									21 button Recent connections
+										22 text Recent connections
+									23 button Clear recent connections
+								24 button DEFAULT (46), Help: DEFAULT
+									25 text DEFAULT
+									26 text (46)
+								27 container
+									28 row iDRAC - Hardware Management (9)
+										29 button iDRAC - Hardware Management (9), Help: iDRAC - Hardware Management
+											30 text iDRAC - Hardware Management
+											31 text (9)
+									32 row Monitoring (2)
+										33 button Monitoring (2), Help: Monitoring
+											34 text Monitoring
+											35 text (2)
+									36 row XOR Infrastructure (35)
+										37 button XOR Infrastructure (35), Help: XOR Infrastructure
+											38 text XOR Infrastructure
+											39 text (35)
+										40 container
+											41 row Application VMs (6)
+												42 button Application VMs (6), Help: Application VMs
+													43 text Application VMs
+													44 text (6)
+											45 row Ceph (3)
+												46 button Ceph (3), Help: Ceph
+													47 text Ceph
+													48 text (3)
+											49 row Compute (3)
+												50 button Compute (3), Help: Compute
+													51 text Compute
+													52 text (3)
+											53 row Controllers (3)
+												54 button Controllers (3), Help: Controllers
+													55 text Controllers
+													56 text (3)
+											57 row Proxmox (3)
+												58 button Proxmox (3), Help: Proxmox
+													59 text Proxmox
+													60 text (3)
+											61 row Security Services (9)
+												62 button Security Services (9), Help: Security Services
+													63 text Security Services
+													64 text (9)
+											65 row Web Management (8)
+												66 button Web Management (8), Help: Web Management
+													67 text Web Management
+													68 text (8)
+												69 container
+													70 row WEB-Ceph-Dashboard
+														71 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Ceph-Dashboard
+													73 row WEB-FortiGate
+														74 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-FortiGate
+													76 row WEB-Horizon
+														77 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Horizon
+													79 row WEB-Proxmox-01
+														80 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-01
+													82 row WEB-Proxmox-02
+														83 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Proxmox-02
+													85 row WEB-Proxmox-03
+														86 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-Proxmox-03
+													88 row WEB-Wazuh
+														89 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															90 text WEB-Wazuh
+													91 row WEB-XOR-Portal
+														92 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															93 text WEB-XOR-Portal
+									94 row Wazuh-01
+										95 button Wazuh-01, Help: 10.3.70.94
+											96 text Wazuh-01
+						97 button Favorites Create folder Refresh
+							98 text Favorites
+							99 container
+								100 button Create folder
+								101 button Refresh
+					102 container
+						103 button 后退
+						104 button 前进
+						105 button 刷新
+						106 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/base/overview
+						107 button 会话状态：已通过代理连接 · 账号代填未配置
+					108 text Signed in Chử Quang Thắng
+					109 text WEB-XOR-Portal HTTP 1 tabs 1 connected
+					110 button Description: Transfer center, Help: Transfer queue
+					111 pop up button (disabled) Virtual keyboard
+				112 container Notifications (F8)
+					113 content list
+			114 HTML content XOR Cloud, URL: 10.3.10.100:9999/base/overview
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+						166 pop up button X-OR SECURE
+						167 Security Center
+						168 Security Posture
+						169 Web Application Firewall
+						170 Vulnerability Management
+						171 SIEM
+						172 Endpoint Security
+						173 Network Detection
+						174 Data Protection
+						175 Automation
+						176 Network Access Control
+					177 image left
+					178 container
+						179 container
+							180 text 👋  Hello, userdemo
+						181 text User Account : userdemo My Role : member, reader Affiliated Domain : Default
+						182 link Description: Instances Instances 0, Value: 10.3.10.100:9999/compute/instance
+						183 link Description: Volumes Volumes 3, Value: 10.3.10.100:9999/storage/volume
+						184 link Description: Networks Networks 1, Value: 10.3.10.100:9999/network/networks
+						185 link Description: Routers Routers 0, Value: 10.3.10.100:9999/network/router
+						186 container
+							187 text Quota Overview
+							188 text Normal
+							189 text Danger
+							190 text Full
+							191 container
+								192 text Compute Instances  :  0 / 10
+								193 text vCPUs  :  0 / 20
+								194 text Memory (GiB)  :  0 / 50
+								195 text Key Pairs
+								196 image question-circle
+								197 text  :  0 / 100
+								198 text Server Groups  :  0 / 10  ( Members of Each Group  : 10 )
+							199 container
+								200 text Network Routers  :  0 / 10
+								201 text Networks  :  1 / 100
+								202 text Subnets  :  1 / 100
+								203 text Floating IPs  :  0 / 50
+								204 text Ports  :  1 / 500
+								205 text Security Groups  :  1 / 10
+								206 text Security Group Rules  :  4 / 100
+							207 container
+								208 text Storage
+								209 container
+									210 image
+									211 text 30%
+								212 text Volumes
+								213 container
+									214 text 3  /  10
+								215 container
+									216 image
+									217 text 0%
+								218 text Volume Capacity (GiB)
+								219 container
+									220 text 4  /  1000
+								221 container
+									222 image
+									223 text 10%
+								224 text Volume Snapshots
+								225 container
+									226 text 1  /  10
+								227 container
+									228 image
+									229 text 10%
+								230 text Volume Backups
+								231 container
+									232 text 1  /  10
+								233 container
+									234 image
+									235 text 0%
+								236 text Volume Backup Capacity (GiB)
+								237 container
+									238 text 1  /  1000
+							239 container
+								240 text Clusters Management Clusters  :  0 / 20
+							241 text Storage Types
+							242 content list
+								243 container
+									244 text __DEFAULT__ type  :  3 / Unlimit
+								245 container
+									246 text __DEFAULT__ type capacity (GiB)  :  4 / Unlimit
+								247 container
+									248 text __DEFAULT__ type snapshots  :  1 / Unlimit
+	249 close button
+	250 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	251 minimize button
+252 menu bar
+	253 JumpServer
+	254 File
+	255 Edit
+	256 View
+	257 Window
+	258 Help
+
+The focused UI element is 114 HTML content XOR Cloud, URL: 10.3.10.100:9999/base/overview

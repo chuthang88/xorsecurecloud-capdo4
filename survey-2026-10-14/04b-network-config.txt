@@ -1,0 +1,212 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/create
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Compute /
+						182 link Description: Instances, Value: 10.3.10.100:9999/compute/instance
+						183 text / Create Instance
+						184 container
+							185 container
+								186 image check
+								187 container
+									188 text Base Config
+							189 container
+								190 text 2
+								191 container
+									192 text Network Config
+							193 container
+								194 text 3
+								195 container
+									196 text System Config
+							197 container
+								198 text 4
+								199 text Confirm Config
+							200 container
+								201 container
+									202 container
+										203 text * Networks
+									204 container
+										205 text Please reasonably plan the network and subnet to which the virtual network card belongs.  You can go to the console to 
+										206 link Description: create a new network/subnet >, Value: 10.3.10.100:9999/network/networks
+										207 tab group
+											208 container
+												209 tab (selected) Current Project Networks, Value: 1
+												210 tab (settable, integer) Shared Networks, Value: 0
+												211 tab (settable, integer) External Networks, Value: 0
+										212 container Current Project Networks
+											213 container
+												214 text field (settable) Click here for filters.
+												215 image search
+											216 button sync
+												217 image sync
+											218 container
+												219 table
+													220 row
+														221 column header
+															222 container
+																223 checkbox (disabled)  , Value: 0
+														224 column header
+															225 text ID/Name
+															226 image caret-up
+															227 image caret-down
+														228 column header
+															229 text Is Current Project
+														230 column header
+															231 text External
+														232 column header
+															233 text Shared
+														234 column header
+															235 text Status
+															236 image caret-up
+															237 image caret-down
+														238 column header
+															239 text Subnet Count
+														240 column header
+															241 text Created At
+													242 row
+														243 cell 0-7
+															244 text No Data
+												245 container
+													246 text Total 0 items
+													247 button (disabled) left
+														248 image left
+													249 button 1
+													250 button (disabled) right
+														251 image right
+													252 container
+														253 combo box
+														254 text 5 items/page
+										255 text Selected  :  
+									256 container
+										257 text * Ports
+									258 container
+										259 text Ports provide extra communication channels to your instances. You can select ports instead of networks or a mix of both (The port executes its own security group rules by default).
+										260 text field (settable) Click here for filters.
+										261 image search
+										262 button sync
+											263 image sync
+										264 container
+											265 table
+												266 row
+													267 column header
+														268 container
+															269 checkbox (disabled)  , Value: 0
+													270 column header
+														271 text ID/Name
+														272 image caret-up
+														273 image caret-down
+													274 column header
+														275 text Owned Network
+													276 column header
+														277 text IPv4 Address
+													278 column header
+														279 text IPv6 Address
+													280 column header
+														281 text Mac Address
+													282 column header
+														283 text Status
+												284 row
+													285 cell 0-6
+														286 text No Data
+											287 container
+												288 text Total 0 items
+												289 button (disabled) left
+													290 image left
+												291 button 1
+												292 button (disabled) right
+													293 image right
+												294 container
+													295 combo box
+													296 text 5 items/page
+										297 text Selected :  
+								298 container
+									299 button Cancel
+										300 text Cancel
+									301 button Confirm
+							302 button expand
+								303 image expand
+							304 container
+								305 text Count
+								306 container
+									307 button Increase Value
+										308 image up
+									309 button (disabled) Decrease Value
+										310 image down
+								311 stepper (settable, float) 1
+							312 container
+								313 button Cancel
+								314 button Previous: Base Config
+								315 button Next: System Config
+	316 close button
+	317 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	318 minimize button
+319 menu bar
+	320 JumpServer
+	321 File
+	322 Edit
+	323 View
+	324 Window
+	325 Help

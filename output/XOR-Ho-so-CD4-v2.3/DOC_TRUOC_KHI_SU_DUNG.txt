@@ -1,0 +1,44 @@
+XOR SECURE CLOUD — HAI BỘ HỒ SƠ ĐỀ XUẤT CẤP ĐỘ 4
+Phiên bản bộ hồ sơ 2.3 — 17/10/2026
+
+TRÌNH BÀY PHIÊN BẢN 2.3
+Áp dụng phong cách từ mẫu De an_xCommandCenter_v2 (1).pdf: Times New Roman, A4, bìa căn giữa, thân bài căn đều và thụt đầu dòng; tiêu đề đen đậm; bảng viền mảnh; chú thích hình in nghiêng; số trang ở giữa chân trang. Sơ đồ dùng khối trắng, nét và mũi tên đen, khung kép cho thành phần trọng tâm. Excel dùng Times New Roman, bảng đen trắng và ô nhập nền xám nhạt.
+Nội dung mẫu xCommandCenter không được đưa vào hồ sơ XOR. Bản Word v0.9.4 vẫn là tài liệu tham khảo nội dung. Giữ các mục cần xác minh và không chuyển trạng thái lịch sử thành kết quả hiện tại.
+13 tài liệu Word, tổng cộng 110 trang; 2 workbook, tổng cộng 12 trang tính.
+
+BỘ 1 KỸ THUẬT
+01 Sổ tay rà soát kỹ thuật: 14 trang, phân công, bằng chứng, kiểm thử và bàn giao.
+02 Checklist rà soát: 10 trang tính; yêu cầu TCVN, phần Cloud bổ sung, hồ sơ, kiểm thử, BIA, rủi ro, tài sản và bằng chứng. Giữ nguyên các yêu cầu và công thức; dùng làm bảng yêu cầu chính. Ô nền xám nhạt là nơi nhập dữ liệu.
+03 Kế hoạch đối soát nguồn v0.9.4: 6 trang; BOM, VLAN, khác biệt triển khai và tồn tại cần kiểm tra.
+04 Đối soát 129 hạng mục v0.9.4: 2 trang tính. Doi_soat để nhập kết quả hiện tại; Nguon_v094 giữ đầy đủ mã, tiêu chí, trạng thái lịch sử, tồn tại và bằng chứng theo bản tham khảo.
+Sơ đồ kiến trúc mục tiêu: PNG để xem, SVG để chỉnh sửa.
+
+Cách bắt đầu: đọc 01 và 03, giao người phụ trách tại 02/04, thu bằng chứng EV và kiểm tra. Chỉ ghi Đạt sau xác minh. Không cộng số dòng của hai workbook thành số lượng kiểm soát tuân thủ; liên kết theo mã và nội dung.
+
+BỘ 2 HÀNH CHÍNH
+11 tài liệu Word, tổng cộng 90 trang:
+00 Hướng dẫn hoàn thiện và trình hồ sơ.
+01 Thuyết minh hồ sơ đề xuất cấp độ 4.
+02 Phụ lục đối chiếu yêu cầu TCVN.
+03 Quy chế và quy trình bảo đảm an ninh mạng.
+04 Công văn xin ý kiến chuyên môn Mẫu 03.
+05 Công văn đề nghị thẩm định Mẫu 02.
+06 Tờ trình phê duyệt Mẫu 05.
+07 Dự thảo quyết định phê duyệt Mẫu 06.
+08 Ý kiến chuyên môn và báo cáo tự rà soát.
+09 Thông báo cấp độ và đề nghị đánh giá độc lập.
+10 Phụ lục đối chiếu thiết kế và hiện trạng từ nguồn tham khảo.
+Kèm sơ đồ kiến trúc mục tiêu PNG/SVG.
+
+Cách bắt đầu: đọc 00 và 10; chốt phạm vi, căn cứ cấp độ, thẩm quyền và dữ liệu thực tế; cập nhật thuyết minh, phụ lục và báo cáo theo kết quả Bộ 1. Sử dụng từng mẫu văn bản theo trình tự và điều kiện ghi trong tài liệu. Các trường CẦN ĐIỀN/CẦN XÁC NHẬN chỉ được thay bằng thông tin đã xác minh.
+
+PHẠM VI VÀ NGUỒN THAM KHẢO
+Toàn bộ XOR STACK CLOUD và quản trị chung. DC tại IDC Cầu Giấy; DR tại IDC Nam Thăng Long. Đơn vị vận hành: Khối Hạ tầng & Vận hành. Hồ sơ lập lần đầu.
+Nguồn tham khảo: XOR_SECURE_CLOUD_Ho_so_Cap_do_4_v0.9.4.docx ngày 06/10/2026. Bản gốc không bị sửa. Thông tin tổ chức đã được điền theo nguồn và xác nhận của người cung cấp hồ sơ.
+BOM 09 máy chủ và 01 SAN, VLAN và các tồn tại của nguồn được kế thừa để đối soát; chưa được coi là kiểm kê hoặc nghiệm thu hiện tại. Không tự phân bổ hoặc nhân đôi BOM cho hai site.
+129 trạng thái nguồn: 97 Chưa đánh giá, 21 Đang thực hiện, 6 Không đạt, 4 Cần xác minh, 1 Đạt. Kết quả mới khởi tạo Chưa xác minh. Riêng nhận xét cũ chưa có DR được đối chiếu với xác nhận hiện có IDC Nam Thăng Long; cấu hình và diễn tập vẫn cần bằng chứng.
+
+ĐIỀU KIỆN HOÀN THIỆN
+Còn cần mã số doanh nghiệp, điện thoại/email, văn bản phân công/ủy quyền, xác nhận cơ chế kiểm tra ANM độc lập, cấu hình as-built, BIA, kết quả thử và các EV thực tế. Tên tại ô ký là người ký dự kiến, chưa xác nhận thẩm quyền bằng hồ sơ pháp lý.
+Bộ hồ sơ là dự thảo phục vụ rà soát và trình theo quy định; việc có tài liệu không tạo kết luận hệ thống đạt cấp độ 4. Không tự tạo chữ ký, dấu hoặc ý kiến thẩm định.
+Nguồn pháp lý chính: Nghị định 331/2026/NĐ-CP, https://vanban.chinhphu.vn/?docid=219243&pageid=27160 . TCVN được diễn giải để áp dụng; không đính kèm PDF có bản quyền. Phần dự thảo TCVN Cloud được ghi rõ là tham khảo bổ sung.

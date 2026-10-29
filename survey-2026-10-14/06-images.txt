@@ -1,0 +1,141 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/image
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+								139 menu Secondary Actions: Cancel
+									140 Instances
+									141 Instance Snapshots
+									142 Flavors
+									143 Server Groups
+									144 Images
+									145 Key Pairs
+									146 Autoscale Rules (V)
+									147 Autoscale History
+									148 Auto Scaling Groups
+									149 ASG History
+						150 Storage Storage
+							151 pop up button Storage Storage
+								152 image Storage
+								153 text Storage
+						154 Network Network
+							155 pop up button Network Network
+								156 image Network
+								157 text Network
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Compute / Images
+						183 tab group
+							184 container
+								185 tab (selected) Current Project Images, Value: 1
+								186 tab (settable, integer) Public Images, Value: 0
+								187 tab (settable, integer) Shared Images, Value: 0
+						188 container Current Project Images
+							189 container
+								190 button Create Image
+								191 button (disabled) Delete
+								192 text field (settable) Multiple filter tags are separated by enter
+								193 image search
+								194 button sync
+									195 image sync
+								196 button download
+									197 image download
+								198 button eye
+									199 image eye
+								200 button pause-circle
+									201 image pause-circle
+							202 container
+								203 table
+									204 row
+										205 column header
+											206 container
+												207 checkbox (disabled)  , Value: 0
+										208 column header
+											209 text ID/Name
+											210 image caret-up
+											211 image caret-down
+										212 column header
+											213 text Description
+										214 column header
+											215 text Use Type
+										216 column header
+											217 text Container Format
+											218 image caret-up
+											219 image caret-down
+										220 column header
+											221 text Type
+										222 column header
+											223 text Status
+											224 image caret-up
+											225 image caret-down
+										226 column header
+											227 text Visibility
+										228 column header
+											229 text Disk Format
+											230 image caret-up
+											231 image caret-down
+										232 column header
+											233 text Size
+											234 image caret-up
+											235 image caret-down
+										236 column header
+											237 text Created At
+											238 image caret-up
+											239 image caret-down
+										240 column header
+											241 text Action
+								242 table
+									243 row
+										244 cell 0-11
+											245 text No Data
+	246 close button
+	247 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	248 minimize button
+249 menu bar
+	250 JumpServer
+	251 File
+	252 Edit
+	253 View
+	254 Window
+	255 Help

@@ -1,0 +1,115 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/stack/create
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+								150 menu Secondary Actions: Cancel
+									151 Stacks
+									152 Resource Types
+									153 Template Versions
+									154 Template Generator
+						155 Database Database
+							156 pop up button Database Database
+								157 image Database
+								158 text Database
+						159 Container Container
+							160 pop up button Container Container
+								161 image Container
+								162 text Container
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Orchestration /
+						176 link Description: Stacks, Value: 10.3.10.100:9999/heat/stack
+						177 text / Create Stack
+						178 container
+							179 container
+								180 image check
+								181 container
+									182 text Prepare Template
+							183 container
+								184 text 2
+								185 text Orchestration information
+							186 container
+								187 container
+									188 text * Stack Name
+								189 container
+									190 text field (settable) * Stack Name * name, Placeholder: Please input name
+									191 text The name should start with upper letter, lower letter, and be a string of 2 to 255, characters can only contain "0-9, a-z, A-Z, -, ., _".
+								192 container
+									193 text * Creation Timeout (Minutes)
+								194 container
+									195 button Increase Value
+										196 image up
+									197 button Decrease Value
+										198 image down
+									199 stepper (settable, float) * Creation Timeout (Minutes), Value: 60
+								200 container
+									201 text * Fail Rollback
+									202 image question-circle
+								203 container
+									204 radio button Enable, Value: 1
+									205 text Enable
+									206 radio button Disable, Value: 0
+									207 text Disable
+								208 text Fill In The Parameters
+								209 container
+									210 text * name
+								211 text field (settable)
+								212 container
+									213 text * cidr
+								214 text field (settable) * cidr, Value: 192.168.241.0/24
+							215 container
+								216 button Cancel
+								217 button Previous: Prepare Template
+								218 button Confirm
+	219 close button
+	220 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	221 minimize button
+222 menu bar
+	223 JumpServer
+	224 File
+	225 Edit
+	226 View
+	227 Window
+	228 Help

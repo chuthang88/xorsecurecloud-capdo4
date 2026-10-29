@@ -1,0 +1,90 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/base/overview
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+						155 Container Container
+							156 pop up button Container Container
+								157 image Container
+								158 text Container
+						159 Monitor Center Monitor Center
+							160 pop up button Monitor Center Monitor Center
+								161 image Monitor Center
+								162 text Monitor Center
+						163 Alert Management Maintenance
+							164 pop up button Alert Management Maintenance
+								165 image Alert Management
+								166 text Maintenance
+							167 menu Secondary Actions: Cancel
+								168 Audit Logs
+								169 Recycle Bin
+						170 pop up button X-OR SECURE
+						171 Security Center
+						172 Security Posture
+						173 Web Application Firewall
+						174 Vulnerability Management
+						175 SIEM
+						176 Endpoint Security
+						177 Network Detection
+						178 Data Protection
+						179 Automation
+						180 Network Access Control
+					181 image left
+					182 container
+						183 container
+							184 text 👋  Hello, userdemo
+						185 text User Account : userdemo My Role : member, reader Affiliated Domain : Default
+						186 link Description: Instances Instances 0, Value: 10.3.10.100:9999/compute/instance
+						187 link Description: Volumes Volumes 1, Value: 10.3.10.100:9999/storage/volume
+						188 link Description: Networks Networks 1, Value: 10.3.10.100:9999/network/networks
+						189 link Description: Routers Routers 1, Value: 10.3.10.100:9999/network/router
+						190 container
+							191 text Quota Overview
+							192 text Normal
+							193 text Danger
+							194 text Full
+	195 close button
+	196 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	197 minimize button
+198 menu bar
+	199 JumpServer
+	200 File
+	201 Edit
+	202 View
+	203 Window
+	204 Help

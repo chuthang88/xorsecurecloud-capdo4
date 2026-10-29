@@ -1,0 +1,140 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/asg
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+				180 container Auto Scaling Groups
+					181 HTML content Auto Scaling Groups - X-OR, URL: 10.3.10.100:9999/asg.html?embed=1&view=groups&v=asg8
+						182 container
+							183 text HORIZONTAL
+						184 heading Auto Scaling Groups, Value: 1
+							185 text Auto Scaling Groups
+						186 text Scale out and in behind Octavia using Prometheus metrics and capacity bounds.
+						187 container
+							188 button Create ASG
+							189 button (disabled) Delete
+							190 text field (settable) Filter by name, pool...
+							191 button ↻, Help: Refresh
+						192 container
+							193 text ASG
+							194 heading No Auto Scaling Groups, Value: 3
+								195 text No Auto Scaling Groups
+							196 text Create a group to scale instances behind an Octavia pool.
+							197 text Total 0 items
+						198 container
+							199 container
+								200 heading Create Auto Scaling Group, Value: 2
+									201 text Create Auto Scaling Group
+								202 text Name
+								203 text field (settable) web-asg
+								204 text Min
+								205 stepper (settable, float) 1
+								206 text Max
+								207 stepper (settable, float) 3
+								208 text Desired
+								209 stepper (settable, float) 1
+								210 text Member port
+								211 stepper (settable, float) 80
+								212 text Image ID
+								213 text field (settable) image UUID (must fit flavor)
+								214 text Flavor ID
+								215 text field (settable) flavor UUID (RAM/disk >= image min)
+								216 text Network ID
+								217 text field (settable) Neutron network UUID
+								218 text Subnet ID (optional)
+								219 text field (settable)
+								220 text Key pair (optional)
+								221 text field (settable)
+								222 text Octavia Pool ID
+								223 text field (settable) Required LB pool UUID
+								224 text Scale-out PromQL
+								225 text entry area (settable) avg(rate(node_cpu_seconds_total{mode!="idle"}[5m]))*100
+								226 text Comparison
+								227 pop up button gt
+									228 (selected) gt
+								229 text Threshold
+								230 stepper (settable, float) 70
+								231 text Scale-in PromQL (optional)
+								232 text entry area (settable)
+								233 text In comparison
+								234 pop up button lt
+									235 (selected) lt
+								236 text In threshold
+								237 stepper (settable, float) 30
+								238 text Cooldown (s)
+								239 stepper (settable, float) 300
+								240 text Consecutive
+								241 stepper (settable, float) 3
+								242 button Cancel
+								243 button Create
+	244 close button
+	245 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	246 minimize button
+247 menu bar
+	248 JumpServer
+	249 File
+	250 Edit
+	251 View
+	252 Window
+	253 Help

@@ -1,0 +1,186 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/stack/detail/afc0219b-b80d-49e8-a885-82863ccaf202/doccheck-1014-stack?tab=resource
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+								150 menu Secondary Actions: Cancel
+									151 Stacks
+									152 Resource Types
+									153 Template Versions
+									154 Template Generator
+						155 Database Database
+							156 pop up button Database Database
+								157 image Database
+								158 text Database
+						159 Container Container
+							160 pop up button Container Container
+								161 image Container
+								162 text Container
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Orchestration /
+						176 link Description: Stacks, Value: 10.3.10.100:9999/heat/stack
+						177 text / Stack Detail
+						178 container
+							179 button Delete
+							180 button More down
+								181 text More
+								182 image down
+						183 container
+							184 text ID: afc0219b-b80d-49e8-a885-82863ccaf202
+							185 button Copy
+								186 image copy
+							187 button Back
+							188 button sync
+								189 image sync
+							190 button up
+								191 image up
+						192 container
+							193 container Name doccheck-1014-stack
+								194 text Name doccheck-1014-stack
+							195 container Stack Status Create Complete
+								196 text Stack Status Create Complete
+							197 container Description Disposable isolated network test in userdemo
+								198 text Description Disposable isolated network test in userdemo
+							199 container Created At 2026-10-15 00:15:08
+								200 text Created At 2026-10-15 00:15:08
+							201 container Updated At -
+								202 text Updated At -
+						203 tab group
+							204 container
+								205 tab (settable, integer) Detail, Value: 0
+								206 tab (selected) Stack Resources, Value: 1
+								207 tab (settable, integer) Stack Events, Value: 0
+								208 tab (settable, integer) YAML File, Value: 0
+						209 container Stack Resources
+							210 container
+								211 button sync
+									212 image sync
+								213 button download
+									214 image download
+								215 button eye
+									216 image eye
+								217 button pause-circle
+									218 image pause-circle
+							219 container
+								220 table
+									221 row
+										222 column header
+											223 text Stack Resource
+											224 image caret-up
+											225 image caret-down
+										226 column header
+											227 text Resource
+											228 image caret-up
+											229 image caret-down
+										230 column header
+											231 text Stack Resource Type
+											232 image caret-up
+											233 image caret-down
+										234 column header
+											235 text Created At
+											236 image caret-up
+											237 image caret-down
+										238 column header
+											239 text Resource Status
+											240 image caret-up
+											241 image caret-down
+										242 column header
+											243 text Resource Status Reason
+											244 image caret-up
+											245 image caret-down
+									246 row
+										247 cell
+											248 text subnet
+										249 cell
+											250 text 708624c7-3472-4c19-929a-b0facd906e40
+										251 cell
+											252 text OS::Neutron::Subnet
+										253 cell
+											254 text 4 minutes ago
+										255 cell
+											256 text Create Complete
+										257 cell
+											258 text state changed
+									259 row
+										260 cell
+											261 text net
+										262 cell
+											263 link Description: 7674c938-c5c6-483a-81f2-34d0348deb5c, Value: 10.3.10.100:9999/network/networks/detail/7674c938-c5c6-483a-81f2-34d0348deb5c
+										264 cell
+											265 text OS::Neutron::Net
+										266 cell
+											267 text 4 minutes ago
+										268 cell
+											269 text Create Complete
+										270 cell
+											271 text state changed
+								272 content list
+									273 text Total 2 items
+									274 container Previous Page
+										275 button (disabled) left
+											276 image left
+									277 text 1
+									278 container Next Page
+										279 button (disabled) right
+											280 image right
+									281 container
+										282 combo box
+										283 text 10 / page
+				284 container
+					285 container
+						286 image question-circle
+						287 text Delete Are you sure to delete stack (instance: doccheck-1014-stack)? Deleting this stack will delete all resources deployed by the stack.
+						288 button Cancel
+						289 button Confirm
+	290 close button
+	291 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	292 minimize button
+293 menu bar
+	294 JumpServer
+	295 File
+	296 Edit
+	297 View
+	298 Window
+	299 Help

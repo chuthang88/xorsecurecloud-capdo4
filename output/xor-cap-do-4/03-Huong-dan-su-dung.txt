@@ -1,0 +1,11 @@
+XOR SECURE CLOUD - BỘ MẪU CẤP ĐỘ 4
+Ngày lập: 17/10/2026
+
+01-Kien-truc-tong-the-XOR-CD4.svg: sơ đồ vector có thể chỉnh sửa.
+01-Kien-truc-tong-the-XOR-CD4.png: sơ đồ để xem và chèn vào tài liệu.
+02-Kien-truc-va-khung-ho-so-XOR-cap-do-4.docx: kiến trúc, phân vùng, DR, phương án kiểm soát, ma trận nhóm, danh mục hồ sơ và phép thử.
+
+Phạm vi xác nhận: toàn bộ XOR STACK CLOUD và quản trị chung; DC IDC Cầu Giấy, DR IDC Nam Thăng Long.
+Đây là bản mẫu thiết kế, chưa xác nhận tuân thủ hoặc phê duyệt cấp độ 4. Các cấu hình, số lượng node, RPO/RTO và sizing chưa xác minh đều là đề xuất.
+Hoàn thiện HS01-HS08 và checklist từng tiểu mục trước khi trình. Không dùng checklist nhóm để tuyên bố đã hoàn tất đánh giá toàn bộ yêu cầu.
+Không kèm PDF nguồn TCVN có bản quyền.

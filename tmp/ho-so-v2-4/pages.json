@@ -1,0 +1,1032 @@
+[
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nTÀI LIỆU KỸ THUẬT\nSỔ TAY RÀ SOÁT KỸ THUẬT\nHỆ THỐNG THÔNG TIN CẤP ĐỘ 4\nXOR SECURE CLOUD\nBộ 1 dành cho đội kỹ thuật và các đầu mối cung cấp bằng chứng\nNền tảng XOR STACK CLOUD\nĐơn vị vận hành: Khối Hạ tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nHà Nội, tháng 10 năm 2026",
+    "chars": 366,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-2.png",
+    "text": "Công ty Cổ phần XOR CLOUD. Đơn vị vận hành: Khối Hạ tầng & Vận hành.\nĐầu mối lập hồ sơ: Chử Quang Thắng — Giám đốc Vận hành.\nMục tiêu là xác định rõ kiểm soát nào đã triển khai, bằng chứng nào đã có, nội\ndung nào chưa đủ và ai chịu trách nhiệm bổ sung. Dùng cùng workbook\n02_Checklist_ra_soat_XOR_cap_do_4.xlsx; chưa có hạng mục nào được xác nhận đạt\nchỉ từ việc lập bộ hồ sơ này.\nĐầu vào đã xác nhận Dữ liệu phải bổ sung\nDanh mục tài sản, dịch vụ thực tế, phiên bản, số\nToàn bộ nền tảng cloud và dịch vụ quản trị chung.\nlượng và ranh giới khách hàng.\nUpstream release, bản dựng XOR, SBOM, cấu hình\nNền tảng XOR STACK CLOUD.\nvà kết quả thử.\nDC Cầu Giấy; DR Nam Thăng Long; lập hồ sơ lần Hợp đồng và tài liệu IDC; phê duyệt thiết kế; mã số\nđầu. doanh nghiệp, thẩm quyền ký và liên hệ.\nSản phẩm của một đợt rà soát\nWorkbook đã cập nhật; kho bằng chứng có mã, phiên bản và người xác minh;\ndanh sách thiếu sót có đầu mối và hạn; biên bản kiểm thử; báo cáo kết quả có giới hạn\nphạm vi. Chỉ chuyển số liệu đã xác nhận sang bộ hồ sơ hành chính.\n1",
+    "chars": 1039,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 3,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-3.png",
+    "text": "1 CÁCH SỬ DỤNG CHECKLIST\nBước Thực hiện Điều kiện kết thúc\nĐiền phạm vi từng dòng, dịch vụ và hai IDC. Không dùng “không áp dụng” để che\n1 Chốt phạm vi\nChốt phần Cloud tham khảo tự nguyện. hạng mục chưa có.\nGán cá nhân thực hiện từ đầu mối đề xuất; Mỗi mục có người chịu trách nhiệm\n2 Giao việc\nnhập hạn xử lý. rõ ràng.\n3 Kiểm tra hiện Đối chiếu cấu hình, tài liệu, log, quan sát và Phân biệt Chưa xác minh, Chưa triển\ntrạng phép thử. khai, Một phần, Đầy đủ.\n4 Ghi bằng Đăng ký mã EV, kho lưu, ngày, phiên bản, Bằng chứng đọc được, khớp môi\nchứng phạm vi và người thu. trường và không lộ bí mật.\nNgười kiểm tra độc lập với người thực hiện Đạt chỉ khi đáp ứng đủ các ý trong\n5 Xác nhận\nkhi phù hợp ghi kết quả/ngày. dòng và phạm vi.\nLập hành động, thay đổi theo quy trình và Giữ kết quả cũ và mới; không xóa\n6 Khắc phục\nretest. dấu vết chưa đạt.\nÝ nghĩa trạng thái tổng hợp\n“Đủ hồ sơ kiểm tra” cần đồng thời: áp dụng Có, triển khai Đầy đủ, có mã hoặc\nđường dẫn bằng chứng, kết quả Đạt, có người và ngày kiểm tra. Công thức chỉ kiểm\ntra dữ liệu khai báo; người xác nhận chịu trách nhiệm về nội dung bằng chứng. Trạng\nthái này không phải quyết định phê duyệt cấp độ.\n“Không áp dụng đã duyệt” cần lý do và văn bản/người có thẩm quyền chấp\nthuận, người xác nhận và ngày. Nếu chưa chốt phạm vi hoặc chưa có bằng chứng, giữ\nnguyên trạng thái chờ, không ghi đạt.\n2",
+    "chars": 1356,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 4,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-4.png",
+    "text": "2 PHÂN CÔNG VÀ RANH GIỚI RÀ SOÁT\nNhóm Chịu trách nhiệm Bằng chứng chính\nPhạm vi, căn cứ cấp độ, rủi ro, thẩm\nChủ quản và GRC HS01–HS10, BIA, sổ rủi ro.\nquyền và hồ sơ trình.\nPlatform và Bản dựng, control plane, hypervisor, CMDB, SBOM, baseline, release,\nDevSecOps image và pipeline. T02/T07/T10/T11.\nNetwork và Phân vùng, kết nối, dữ liệu, HA và hiệu LLD, rule, route, ACL, replica,\nStorage năng. T01/T02/T04/T07.\nIAM và quản trị Định danh, MFA, đặc quyền, khóa và\nRBAC, PAM, vòng đời khóa, T03/T04.\nkhóa chứng thư.\nLog, trực giám sát, sự cố, EDR/DLP và Ma trận nguồn, lịch trực, ticket,\nSOC và CSIRT\ndiễn tập. T05/T06.\nBackup và chỉ huy Bản sao, phụ thuộc phục hồi, failover và\nBIA, job, runbook, T08/T09/T10.\nDR failback.\nVật lý, nguồn điện, PCCC, ra vào và nhà Hồ sơ từng site, SLA, phân định trách\nIDC và mua sắm\ncung cấp. nhiệm.\nKiểm tra phạm vi, bằng chứng, kết quả Biên bản, kết luận có giới hạn, danh\nNgười kiểm tra\nvà retest. sách tồn tại.\nDịch vụ khách hàng tự quản phải có ma trận trách nhiệm chung. Hạ tầng nền đạt\nyêu cầu không tự chứng minh ứng dụng, hệ điều hành khách, dữ liệu hoặc tài khoản\ncủa khách hàng đã được phê duyệt cùng cấp độ.\n3",
+    "chars": 1155,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 5,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-5.png",
+    "text": "3 THU THẬP VÀ QUẢN LÝ BẰNG CHỨNG\nMỗi bằng chứng dùng mã EV và liên kết tới mã TC, CL, HS hoặc T. Tên tệp gợi\ný: EV-001_TC-001_DC_20261017_v1. Ghi ngày giờ, phạm vi, bản dựng, người thu,\nngười xác minh và đường dẫn kho. Tạo bản đã che dữ liệu để đưa vào hồ sơ; giữ bản\ngốc ở kho có phân quyền và kiểm soát toàn vẹn.\nNguồn Cách thu Lưu ý kiểm tra\nXuất inventory service, endpoint, Ghi phiên bản CLI/API và project\nXOR STACK\nproject/role, network, port, SG, image và scope; không xuất token hoặc mật\nCLOUD\nvolume theo quyền được cấp. khẩu.\nThu phiên bản OS/gói, cấu hình đã lọc bí Bản cấu hình trích phải gắn host, ngày,\nHost/cluster mật, cluster status, route và trạng thái hash; không dùng ảnh menu làm chứng\nagent. cứ tính năng đang hoạt động.\nXuất chính sách, vai trò, log mẫu, lịch sử Không đưa khóa riêng, recovery code\nIAM/PAM/KMS\ncấp/thu hồi và luân chuyển. hoặc secret vào tài liệu.\nXuất nguồn log, rule, retention, job, mẫu Có số đo thời gian và bản ghi xử lý;\nSOC/backup\ncảnh báo và biên bản restore. ảnh dashboard riêng lẻ chưa đủ.\nThu hồ sơ nghiệm thu, bảo trì, điện, Xác minh phạm vi chứng chỉ bao phủ\nIDC\ncamera, ra vào và hợp đồng. đúng cơ sở/phòng/rack và còn hiệu lực.\nThứ tự ưu tiên bằng chứng\nKết hợp tài liệu đã phê duyệt, cấu hình thực tế, log vận hành và phép thử. Bằng\nchứng phải trả lời được yêu cầu đã triển khai ở đâu, có hoạt động hay không, ai chịu\ntrách nhiệm và còn hiệu lực tại thời điểm đánh giá. Không thay phép thử bằng cam kết\nmua sắm hoặc mô tả tính năng sản phẩm.\n4",
+    "chars": 1500,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 6,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-6.png",
+    "text": "4 CÁC MỐC KIỂM TRA ĐỊNH KỲ\nHoạt động Mốc tối thiểu theo TCVN Điều khoản\nNhận diện và xem lại hiệu lực xử lý 1 lần/6 tháng và khi có thay đổi liên\n6.1.2.2; 6.1.2.4\nrủi ro quan\nRà thiết bị trái phép, tài sản kết nối,\n1 lần/quý 6.2.2.2–6.2.2.4\nDHCP/IPAM\nDanh mục tài khoản và quyền dữ liệu 1 lần/quý 6.6.2.1; 6.4.2.1\nScan toàn hệ thống / tài sản quan\n1 lần/6 tháng / 1 lần/quý 6.7.2.1\ntrọng\nKiểm tra/cập nhật vá ít nhất 1\nMáy người dùng và di động được cấp 6.7.2.2\nlần/tháng nếu có\nRà nhật ký an ninh 1 lần/tháng 6.8.2.1\nLưu nhật ký an ninh / camera phòng\nTối thiểu 6 tháng cho mỗi loại 6.8.2.1; A.4.2\nmáy\nThử phục hồi bản sao 1 lần/6 tháng 6.11.2.5\nRà sơ đồ mạng 1 lần/6 tháng và khi thay đổi 6.12.2.1\nĐiều chỉnh ngưỡng cảnh báo 1 lần/quý 6.13.2.5\n1 lần/năm; theo vai trò và thay đổi khi 6.14.2; 6.16.2.6;\nĐào tạo và diễn tập sự cố\náp dụng 6.17.2.6\nDanh mục thư viện/thành phần bên\n1 lần/quý 6.16.2.4\nthứ ba\nPentest bên trong và bên ngoài Mỗi loại ít nhất 1 lần/năm 6.18.2.2; 6.18.2.5\nCác quy trình và danh mục còn có mốc rà soát riêng tại từng dòng TCVN.\nRPO/RTO, thời gian phản ứng SOC, thời hạn khắc phục lỗ hổng và số ngày bất biến\nphải được XOR phê duyệt theo rủi ro/hợp đồng; không gán một giá trị mẫu thành yêu\ncầu pháp luật.\n5",
+    "chars": 1232,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 7,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-7.png",
+    "text": "5 KỊCH BẢN KIỂM THỬ T01 VÀ T02\nT01 Phân vùng và công khai dịch vụ\nĐầu mối: Network. Căn cứ: 6.12.2.2–6.12.2.6.\nĐiều kiện trước thử: Danh mục IP/FQDN, luồng và cửa sổ thử đã duyệt.\nThực hiện: Kiểm kê endpoint từ ngoài và từ tenant; thử luồng được phép, luồng\ncấm, origin bypass WAF và Internet từ mạng quản trị.\nTiêu chí chấp nhận: Chỉ có endpoint/luồng được duyệt; quản trị, DB, OOB không\nlộ; chặn truy cập sai vùng.\nLưu bằng chứng: Rule export; log cho phép/từ chối; ảnh kết quả; phạm vi thử.\nT02 Cách ly tenant\nĐầu mối: Platform và Network. Căn cứ: 6.4.2.3; 6.12.\nĐiều kiện trước thử: Hai project và dữ liệu giả lập, tài khoản phân quyền rõ.\nThực hiện: Thử API/list/read/write, metadata, console, attach/snapshot/restore,\nobject ACL và traffic từ A tới B; ghi từng trường hợp.\nTiêu chí chấp nhận: Không đọc, sửa hoặc quản trị chéo tenant; không thấy dữ\nliệu dư khi cấp lại tài nguyên.\nLưu bằng chứng: Request ID; log; cấu hình; biên bản từng bề mặt.\n6",
+    "chars": 953,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 8,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-8.png",
+    "text": "6 KỊCH BẢN KIỂM THỬ T03 VÀ T04\nT03 MFA và đặc quyền\nĐầu mối: IAM. Căn cứ: 6.6; 6.12.2.5.\nĐiều kiện trước thử: Tài khoản thử, ticket và tài khoản khẩn cấp trong phạm vi.\nThực hiện: Thử thiếu MFA, thiết bị lạ, quyền hết hạn, bỏ qua PAM; thử cấp/thu\nhồi; kiểm tra một phiên khẩn cấp.\nTiêu chí chấp nhận: Đúng người/đích/thời hạn; phiên truy vết được; các đường bị\ncấm bị chặn; khẩn cấp được hậu kiểm.\nLưu bằng chứng: Policy; log IdP/VPN/PAM; ticket; bản ghi phiên.\nT04 Dữ liệu và khóa\nĐầu mối: Quản trị khóa. Căn cứ: 6.4.2.4–6.4.2.10.\nĐiều kiện trước thử: Dữ liệu thử, bản sao khóa và phương án quay lại được\nduyệt.\nThực hiện: Kiểm tra mã hóa lưu/truyền; hai lớp hoặc tương đương; thử sai quyền\ngiải mã, luân chuyển/thu hồi/restore khóa và xác minh chữ ký.\nTiêu chí chấp nhận: Dữ liệu và khóa được bảo vệ theo phân loại; không có quyền\ngiải mã ngoài ma trận; khôi phục không mất khả năng đọc.\nLưu bằng chứng: Cấu hình; log KMS; biên bản kiểm tra; không chụp khóa/bí\nmật.\n7",
+    "chars": 969,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 9,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-9.png",
+    "text": "7 KỊCH BẢN KIỂM THỬ T05 VÀ T06\nT05 Nhật ký và cảnh báo\nĐầu mối: SOC. Căn cứ: 6.8; 6.13.\nĐiều kiện trước thử: Ma trận nguồn log, tài khoản thử, truy cập kho theo quyền.\nThực hiện: Tạo mỗi loại sự kiện; tìm actor/tenant/thời gian; ngắt nguồn thử; kiểm\ntra lưu giữ đủ 6 tháng và thử sửa/xóa log bằng quyền cloud admin.\nTiêu chí chấp nhận: Đủ trường và nguồn; có cảnh báo mất nguồn; kho tách vùng;\nbảo vệ sửa/xóa hoạt động; retention được chứng minh.\nLưu bằng chứng: Mẫu log đã che dữ liệu; truy vấn theo mốc; ticket ngoài giờ.\nT06 EDR và DLP\nĐầu mối: SecOps. Căn cứ: 6.4.2.8; 6.10.\nĐiều kiện trước thử: Mẫu thử an toàn của sản phẩm; máy/tệp giả lập.\nThực hiện: Thử phát hiện hành vi và kênh thất thoát áp dụng; kiểm tra gửi SIEM,\ncô lập, hoàn tác và tương thích ứng dụng.\nTiêu chí chấp nhận: Phát hiện/chặn theo chính sách; có người xử lý; không gây\ntác động ngoài phạm vi.\nLưu bằng chứng: Agent state; cảnh báo; ticket; biên bản xử lý.\n8",
+    "chars": 935,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 10,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-10.png",
+    "text": "8 KỊCH BẢN KIỂM THỬ T07 VÀ T08\nT07 Lỗi thành phần HA\nĐầu mối: Hạ tầng và Platform. Căn cứ: 6.12.2.2.\nĐiều kiện trước thử: Kế hoạch bảo trì, ngưỡng chấp nhận, tải thử và rollback.\nThực hiện: Lần lượt thử mất controller, compute, storage node, NIC, FW/LB,\nISP theo thiết kế; đo và xác minh dữ liệu.\nTiêu chí chấp nhận: Đạt ngưỡng đã phê duyệt; không mất nhất quán; đủ năng lực\ncòn lại và không phát sinh điểm lỗi đơn chưa kiểm soát.\nLưu bằng chứng: Timeline; metrics; cluster log; kiểm tra dữ liệu.\nT08 Sao lưu và restore\nĐầu mối: Backup. Căn cứ: 6.11.2.1–6.11.2.5.\nĐiều kiện trước thử: Kho restore cô lập, catalog dữ liệu và khóa cần thiết.\nThực hiện: Chọn bản sao VM/DB/config/khóa; thử truy cập/xóa theo vai trò;\nrestore và kiểm tra checksum, đăng nhập, dữ liệu nghiệp vụ.\nTiêu chí chấp nhận: Bản sao độc lập khôi phục được; kiểm tra bất biến nếu thiết\nkế dùng; thời gian và dữ liệu mất nằm trong chỉ tiêu đã chốt.\nLưu bằng chứng: Job ID; bản sao được chọn; log; checksum; số đo.\n9",
+    "chars": 982,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 11,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-11.png",
+    "text": "9 KỊCH BẢN KIỂM THỬ T09 VÀ T10\nT09 Mất DC và chuyển về\nĐầu mối: Chỉ huy DR. Căn cứ: BIA; 6.11; 6.12.\nĐiều kiện trước thử: BIA/RPO/RTO đã duyệt, cửa sổ thử, kênh phối hợp và\nrollback.\nThực hiện: Xác nhận replica; cô lập nguồn ghi DC; kích hoạt DR cùng\nIAM/DNS/KMS; thử nghiệp vụ; đồng bộ và chuyển về theo runbook.\nTiêu chí chấp nhận: Đạt RPO/RTO từng dịch vụ; không dual writer; đủ công\nsuất; failback được kiểm chứng.\nLưu bằng chứng: Timeline; fencing log; lag; đối soát DB; phê duyệt chuyển đổi.\nT10 Khởi động nguội\nĐầu mối: Platform. Căn cứ: Thiết kế XOR; tham khảo dự thảo 5.3.9.\nĐiều kiện trước thử: Môi trường khôi phục riêng; tài liệu và bí mật khẩn cấp có\nthể tiếp cận.\nThực hiện: Giả lập dừng toàn nền tảng; lần lượt dựng dịch vụ theo dependency;\nkhông dùng bí mật chỉ nằm trên hệ thống đang dừng.\nTiêu chí chấp nhận: Dựng lại được control plane và dịch vụ mẫu; phát hiện/xử lý\nmọi vòng phụ thuộc.\nLưu bằng chứng: Dependency map; thứ tự bước; log; biên bản truy cập khẩn cấp.\n10",
+    "chars": 987,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 12,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-12.png",
+    "text": "10 KỊCH BẢN KIỂM THỬ T11 VÀ T12\nT11 Phát hành an toàn\nĐầu mối: DevSecOps. Căn cứ: 6.16.\nĐiều kiện trước thử: Pipeline thử, artifact đúng/sai chữ ký và bản rollback.\nThực hiện: Thử image chưa duyệt/sai digest, secret scan, quyền runner dev; phát\nhành bản hợp lệ rồi hoàn tác.\nTiêu chí chấp nhận: Gate từ chối bản không đạt; bản được duyệt truy nguyên\nđược; rollback thành công.\nLưu bằng chứng: Pipeline run; review; SAST/SCA; digest; biên bản rollback.\nT12 Pentest và đánh giá độc lập\nĐầu mối: Đơn vị đánh giá. Căn cứ: 6.18; 6.12.2.7.\nĐiều kiện trước thử: ROE ký, phạm vi IP/tenant, lịch, dữ liệu và điều kiện dừng.\nThực hiện: Kiểm thử từ ngoài và trong; kiểm tra quyền nội bộ/cách ly; lập phát\nhiện; xử lý và retest; ghi giới hạn phương pháp.\nTiêu chí chấp nhận: Kết luận theo tiêu chí và phạm vi đã phê duyệt; phát hiện\nđược xử lý hoặc quản lý đúng thẩm quyền; không tự đánh dấu đạt khi thiếu retest.\nLưu bằng chứng: Báo cáo ký; ROE; ticket; retest; ý kiến nghiệm thu.\n11",
+    "chars": 972,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 13,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-13.png",
+    "text": "11 BIÊN BẢN VÀ ĐIỀU KIỆN CHUYỂN HỒ SƠ\nTrường biên bản Nội dung cần ghi\nMã và phạm vi Mã T/TC/CL; site; asset ID; project; bản dựng; ngày giờ; cửa sổ thử.\nThành phần tham gia Người thực hiện, người chứng kiến, người xác nhận và phạm vi quyền.\nKết quả Điều kiện đầu vào, bước đã làm, số đo, kết quả so với tiêu chí và mã EV.\nTồn tại Mô tả, ảnh hưởng, mức ưu tiên theo rủi ro, đầu mối và hạn.\nRetest Ngày thử lại, phiên bản mới, kết quả, bằng chứng và người xác nhận.\nĐạt/Không đạt/Chưa đủ bằng chứng trong phạm vi cụ thể; các giới hạn và\nKết luận\nngoại lệ.\nĐợt rà soát được đóng khi phạm vi và danh mục đã chốt, các mục áp dụng có\nbằng chứng được xác minh, kết quả thử được lưu, phát hiện được xử lý theo quyết\nđịnh đúng thẩm quyền. Việc chấp nhận rủi ro không tự thay thế một yêu cầu bắt buộc\nchưa đáp ứng.\nTrước gửi thẩm định: chuyển dữ liệu thực tế sang Bộ 2; đính kèm thiết kế đã phê\nduyệt hoặc tài liệu tương đương; hoàn thiện đánh giá rủi ro chi tiết và ý kiến chuyên\ntrách. Không gửi bản còn [CẦN ĐIỀN], không dùng bảng tổng hợp Excel như quyết\nđịnh phê duyệt.\nTài liệu tham chiếu\n[S1] Nghị định 331/2026/NĐ-CP: Điều 14, 18, 20–24 và Phụ lục. Nguồn chính\nthức: https://vanban.chinhphu.vn/?docid=219243&pageid=27160\n[S2] TCVN 14423:2026: Điều 6, trang 58–81; Phụ lục A.4, trang 109–111.\nDự thảo TCVN Cloud năm 2026 chỉ dùng để rà soát thiết kế bổ sung. Các điểm\nbổ sung không tạo kết luận Hạng B/Mức 4 và không thay checklist toàn bộ dự thảo.\n12",
+    "chars": 1449,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 14,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-14.png",
+    "text": "Phụ lục 1 Phương án kiến trúc tổng thể DC–DR\nHình 1. Kiến trúc tổng thể hệ thống XOR SECURE CLOUD.\n13",
+    "chars": 101,
+    "width": 841.889763779528,
+    "height": 595.303937007874
+  },
+  {
+    "index": 0,
+    "file": "01_So_tay_ra_soat_ky_thuat.docx",
+    "page": 15,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/00_01_So_tay_ra_soat_ky_thuat/page-15.png",
+    "text": "Phụ lục 2 Phương án phân vùng mạng và kết nối\nHình 2. Phân vùng mạng và các luồng kết nối chính.\n14",
+    "chars": 99,
+    "width": 841.889763779528,
+    "height": 595.303937007874
+  },
+  {
+    "index": 1,
+    "file": "00_Danh_muc_ho_so.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/01_00_Danh_muc_ho_so/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CLOUD\nDANH MỤC HỒ SƠ\nĐề xuất cấp độ 4 hệ thống thông tin XOR SECURE CLOUD\nChủ quản: Công ty Cổ phần XOR CLOUD. Đơn vị vận hành: Khối Hạ tầng &\nVận hành.\nMã hồ sơ: XOR-CD4. Phiên bản: 2.4. Ngày lập: [CẦN ĐIỀN].\nSTT Tên tài liệu Số / ngày văn bản\n01 Thuyết minh hồ sơ đề xuất cấp độ 4 [CẦN ĐIỀN]\n02 Phụ lục đối chiếu yêu cầu TCVN [CẦN ĐIỀN]\n03 Quy chế và quy trình bảo đảm an ninh mạng [CẦN ĐIỀN]\n04 Công văn xin ý kiến chuyên môn [CẦN ĐIỀN]\n05 Công văn đề nghị thẩm định [CẦN ĐIỀN]\n06 Tờ trình phê duyệt cấp độ [CẦN ĐIỀN]\n07 Quyết định phê duyệt cấp độ [CẦN ĐIỀN]\n08 Ý kiến chuyên môn [CẦN ĐIỀN]\n09 Báo cáo kết quả rà soát [CẦN ĐIỀN]\n10 Phụ lục thiết kế và hiện trạng [CẦN ĐIỀN]\n11 Công văn đề nghị đánh giá độc lập [CẦN ĐIỀN]\n12 Thông báo về cấp độ hệ thống thông tin [CẦN ĐIỀN]\nTài liệu kèm theo: [CẦN ĐIỀN danh mục thiết kế được phê duyệt, ý kiến thẩm\nđịnh, bằng chứng đánh giá và tài liệu pháp lý; số, ngày, phiên bản, số trang].\nĐầu mối: Chử Quang Thắng — Giám đốc Vận hành. Liên hệ: [CẦN ĐIỀN điện\nthoại, email].\n1",
+    "chars": 1039,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nHỒ SƠ ĐỀ XUẤT CẤP ĐỘ 4\nHỆ THỐNG XOR SECURE CLOUD\nXOR SECURE CLOUD\nTài liệu thuyết minh theo Điều 21 và Điều 22 Nghị định 331 năm 2026\nNền tảng XOR STACK CLOUD\nĐơn vị vận hành: Khối Hạ tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nHà Nội, tháng 10 năm 2026",
+    "chars": 357,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-2.png",
+    "text": "Thông tin quản lý hồ sơ Nội dung\nChủ quản Công ty Cổ phần XOR CLOUD\nĐơn vị vận hành Khối Hạ tầng & Vận hành\nTầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà\nĐịa chỉ trụ sở\nNội\nĐại diện chủ quản Lê Anh Vũ — Tổng Giám đốc\nMã hồ sơ XOR-CD4-HS-01 — phiên bản 2.4\nTình trạng Lập lần đầu; chưa có quyết định phê duyệt cấp độ hoặc chứng nhận.\nToàn bộ XOR STACK CLOUD và dịch vụ quản trị chung tại DC Cầu\nPhạm vi\nGiấy, DR Nam Thăng Long.\nHồ sơ đề xuất cấp độ 4 đối với toàn bộ nền tảng XOR SECURE CLOUD và các\ndịch vụ quản trị chung, bao gồm thuyết minh hệ thống, phương án thiết kế, đánh giá\nrủi ro và phương án bảo đảm an ninh mạng.\n1",
+    "chars": 645,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 3,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-3.png",
+    "text": "PHẦN I TỔNG QUAN VỀ HỆ THỐNG THÔNG TIN\n1 Căn cứ lập hồ sơ\nCăn cứ Luật An ninh mạng số 116/2025/QH15; Nghị định số 331/2026/NĐ-CP\nngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống\nthông tin; căn cứ chức năng, nhiệm vụ và thẩm quyền của chủ quản [CẦN ĐÍNH\nKÈM VĂN BẢN]; căn cứ hiện trạng và nhu cầu bảo vệ hệ thống XOR SECURE\nCLOUD, đơn vị vận hành lập hồ sơ đề xuất cấp độ 4 để xin ý kiến chuyên môn, thẩm\nđịnh và trình phê duyệt theo quy định.\nPhương án bảo đảm an ninh mạng được đối chiếu với Điều 6 và Phụ lục A.4\nTCVN 14423:2026. [S1, Điều 21–22; S2]\n2 Thông tin chủ quản và đơn vị vận hành\nTrường thông tin Chủ quản Đơn vị vận hành\nTên đầy đủ Công ty Cổ phần XOR CLOUD Khối Hạ tầng & Vận hành\nMã số doanh [CẦN ĐIỀN theo đăng ký doanh\nĐơn vị nội bộ của chủ quản\nnghiệp/định danh nghiệp]\nChức năng, nhiệm vụ và [CẦN ĐIỀN; dẫn quyết định giao vận\n[CẦN ĐIỀN; dẫn văn bản]\nquyền hạn hành]\nĐại diện và đầu mối phụ Trần Văn Dũng — Giám đốc Khối Hạ\nLê Anh Vũ — Tổng Giám đốc\ntrách tầng & Vận hành\nTầng 7, Tòa nhà Việt Á, số 09 phố Tầng 7, Tòa nhà Việt Á, số 09 phố\nĐịa chỉ và liên hệ Duy Tân, phường Cầu Giấy, TP Hà Duy Tân, phường Cầu Giấy, TP Hà\nNội; [điện thoại/email] Nội; [CẦN ĐIỀN điện thoại/email]\nĐơn vị chuyên trách Trung tâm Vận hành; [CẦN ĐÍNH Trần Văn Dũng; [CẦN XÁC NHẬN\nANM KÈM quyết định giao nhiệm vụ] phân công và cơ chế độc lập]\nĐầu mối lập hồ sơ: Chử Quang Thắng — Giám đốc Vận hành. [CẦN ĐIỀN số,\nngày văn bản xác định tư cách chủ quản, giao nhiệm vụ vận hành/chuyên trách, thẩm\nquyền ký và cơ chế kiểm tra độc lập].\n2",
+    "chars": 1563,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 4,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-4.png",
+    "text": "3 CHỨC NĂNG PHẠM VI VÀ QUY MÔ\nXOR SECURE CLOUD là hệ thống cung cấp và quản lý tài nguyên điện toán\nđám mây trên nền tảng XOR STACK CLOUD. Phạm vi hồ sơ gồm hạ tầng, phần mềm\nnền tảng và các dịch vụ quản trị chung tại Trung tâm Hạ tầng IDC Cầu Giấy (DC) và\nTrung tâm Hạ tầng IDC Nam Thăng Long (DR).\nPhạm vi kỹ thuật bao gồm máy chủ, ảo hóa, mạng, lưu trữ, portal/API, control\nplane, định danh và đặc quyền, quản lý khóa/chứng thư, DNS/thời gian, giám sát/nhật\nký, sao lưu/DR, chuỗi phát hành và máy trạm quản trị. Danh mục dịch vụ và các thành\nphần thuê ngoài được xác định tại Phụ lục PL01. [S1, Điều 22.3]\nNội dung Thông tin và tài liệu chứng minh\n[CẦN ĐIỀN nhóm khách hàng, địa bàn, số tổ chức/tenant/người dùng và\nĐối tượng phục vụ\nphạm vi toàn quốc nếu có].\n[CẦN ĐIỀN số rack, host/controller/compute/storage/network; dung lượng;\nQuy mô hai IDC\ntải và năng lực dự phòng từng site].\n[CẦN CHỐT IaaS/VM, network, block/object/file, K8s, DBaaS, GPU và\nDịch vụ\ndịch vụ quản lý thực tế].\n[CẦN ĐIỀN loại dữ liệu, độ nhạy cảm, dữ liệu cá nhân/quan trọng và dữ liệu\nThông tin xử lý\nthuộc quy định chuyên ngành nếu có].\n[CẦN ĐIỀN ISP, hệ thống khách hàng, đối tác, dịch vụ dùng chung, cơ quan\nKết nối ngoài\nquản lý và kênh liên site].\nSLA và thời gian hoạt [CẦN ĐIỀN nghĩa vụ 24/7, thời gian bảo trì, RPO/RTO và điều khoản hợp\nđộng đồng/BIA].\n4 Ranh giới trách nhiệm\nXOR chịu trách nhiệm đối với hạ tầng, nền tảng và dịch vụ đã cam kết quản lý.\nChủ quản của từng hệ thống khách hàng chịu trách nhiệm mục đích sử dụng, phân loại\ndữ liệu, tài khoản và các cấu hình/ứng dụng thuộc phần mình quản lý. Ranh giới phải\nđược cụ thể hóa theo hợp đồng, dịch vụ và ma trận trách nhiệm; việc phê duyệt cấp độ\nnền tảng không thay thế hồ sơ cấp độ của từng hệ thống khách hàng.\n3",
+    "chars": 1761,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 5,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-5.png",
+    "text": "PHẦN II THIẾT KẾ VÀ HIỆN TRẠNG HỆ THỐNG\nThiết kế hệ thống gồm kiến trúc tổng thể DC–DR, phân vùng mạng, các luồng\nkết nối, hạ tầng vật lý và các thành phần quản trị. Hồ sơ thiết kế được phê duyệt hoặc\ntài liệu có giá trị tương đương: [CẦN ĐIỀN tên, số, ngày, cơ quan phê duyệt và danh\nmục bản vẽ]. [S1, Điều 21.2 b]\n1 Danh mục thiết kế và phụ lục hiện trạng\nMã Tài liệu phải kèm theo Nội dung\nTên, chức năng, đối tượng, máy chủ/vị trí, OS, phiên bản, chủ\nPL01 Dịch vụ và ứng dụng\nsở hữu và phạm vi XOR quản lý.\nID, loại, model/serial, rack, site, vai trò, kết nối, nguồn, phiên\nPL02 Thiết bị và cấu hình vật lý\nbản và EOL.\nVLAN/VRF/VXLAN, CIDR, IP private/public, route,\nPL03 Phân vùng mạng và IP\nendpoint, owner và mục đích.\nNguồn/đích/cổng/giao thức, phân loại dữ liệu, xác thực, mã\nPL04 Luồng dữ liệu và kết nối\nhóa, log, tần suất và phê duyệt.\nChủ dữ liệu, mức nhạy cảm, kho, quyền, thời hạn lưu, hủy,\nPL05 Danh mục dữ liệu và quyền\nsao lưu và khóa.\nPhụ thuộc, quorum, miền lỗi, capacity, replica, RPO/RTO,\nPL06 HA backup và DR\nrunbook, restore và diễn tập.\nBaseline, inventory, SBOM, khác biệt XOR/upstream, CI/CD,\nPL07 Cấu hình và phiên bản\nphê duyệt và rollback.\nHiện trạng triển khai: [CẦN ĐIỀN số, ngày hồ sơ kiểm kê/nghiệm thu; phiên bản\ncấu hình; sai khác giữa thiết kế và hiện trạng; mã tài liệu tại PL01–PL07].\n4",
+    "chars": 1325,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 6,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-6.png",
+    "text": "2.1 Phương án kiến trúc tổng thể DC–DR\nHình 1. Kiến trúc tổng thể hệ thống XOR SECURE CLOUD.\n5",
+    "chars": 94,
+    "width": 841.889763779528,
+    "height": 595.303937007874
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 7,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-7.png",
+    "text": "2.2 Phương án phân vùng mạng và kết nối\nHình 2. Phân vùng mạng và các luồng kết nối chính.\n6",
+    "chars": 92,
+    "width": 841.889763779528,
+    "height": 595.303937007874
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 8,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-8.png",
+    "text": "3 PHƯƠNG ÁN PHÂN VÙNG VÀ LUỒNG KẾT NỐI\nVùng Chức năng và giới hạn\nKết nối ISP, chống DDoS, NGFW/IPS và cổng VPN/ZTNA; tách listener\nZ01 Biên\nquản trị.\nWAF, API gateway/LB và endpoint công khai được duyệt; chặn truy cập trực\nZ02 DMZ\ntiếp origin.\nNgười dùng nội bộ và thiết bị; kiểm soát kết nối bằng NAC hoặc tương\nZ03 Nội bộ\nđương.\nZ04 Tài nguyên tenant VM/container, project/SG/policy; tách tenant và môi trường.\nZ05 Dữ liệu DB, block/object/file; tách mạng lưu trữ, quyền và khóa theo phạm vi.\nPAM, IAM, PKI/KMS và dịch vụ quản trị; phân khu chức năng; không truy\nZ06 Quản trị\ncập Internet trực tiếp.\nController/API nội bộ, DB trạng thái và hàng đợi; mTLS/ACL theo phiên\nZ07 Điều khiển\nbản.\nSOC, collector, SIEM và kho log khác vùng phát sinh; quyền quản trị độc\nZ08 An ninh\nlập.\nZ09 Sao lưu Kho và miền quản trị độc lập; kiểm soát xóa, phiên bản và mã hóa.\nZ10 Ngoài băng BMC/console và quản trị thiết bị; chỉ qua đích quản trị được phép.\nZ11 Phát triển Git/CI/build/registry/dev/test, tách production và bí mật.\nĐồng bộ DC–DR trên kết nối riêng được bảo vệ; chỉ cho phép peer/luồng đã\nZ12 Liên site\nduyệt.\nMọi vùng áp dụng chặn mặc định; quyền kết nối được xác định theo nhu cầu dịch\nvụ và có người sở hữu. Quyền quản trị đi qua cổng kiểm soát và PAM; không cấp\ntuyến mạng rộng cho người truy cập từ xa. Phương án kiểm soát ranh giới lõi với vùng\nít tin cậy phải thuyết minh Datadiode/USG/BSG hoặc biện pháp tương đương phù hợp\ntừng luồng. [S2, 6.12.2.1–6.12.2.6]\n7",
+    "chars": 1469,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 9,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-9.png",
+    "text": "4 PHƯƠNG ÁN NỀN TẢNG DỮ LIỆU VÀ PHỤC HỒI\n4 1 Nền tảng XOR STACK CLOUD\nMỗi IDC được thiết kế thành cụm độc lập, có quorum nội bộ cho các thành phần\nyêu cầu đồng thuận. Việc bố trí số controller, DB, queue, compute và storage căn cứ\nvào bản dựng được hỗ trợ và phép đo tải. Cụm đồng thuận được thiết lập trong từng\nIDC; rủi ro miền lỗi chung giữa hai IDC được đánh giá trong phương án DR. Hệ thống\nmạng ảo hóa/SDN, hypervisor và storage được kiểm tra cách ly tenant, metadata,\nconsole, snapshot và tái cấp phát tài nguyên.\n4 2 Bảo vệ dữ liệu và khóa\nDữ liệu được phân loại theo chủ sở hữu, độ nhạy cảm và mục đích xử lý. Quyền\nđọc, ghi, xuất, sao lưu và hủy được kiểm soát. Phương án mã hóa dữ liệu quan trọng\nkhi truyền/lưu, bảo vệ khóa, toàn vẹn, chữ ký số, chống thất thoát và nhật ký truy cập\nđược thuyết minh theo từng dòng 6.4 tại tài liệu 02. Giải pháp kiểm soát tương đương\nđược thuyết minh và kiểm chứng theo phạm vi áp dụng.\n4 3 Sao lưu và DR\nBản sao dữ liệu, cấu hình và thông tin phục hồi phải được lưu trên hạ tầng độc\nlập với môi trường vận hành; có phiên bản, mã hóa phù hợp, quản lý quyền và phép\nthử restore. Danh mục sao lưu bao gồm control plane, dữ liệu dịch vụ thuộc trách\nnhiệm XOR, cấu hình mạng, image và khóa/chứng thư cần khôi phục. RPO, RTO,\ndung lượng DR và lịch đồng bộ được chốt theo BIA tại Phần III.\nKịch bản mất DC phải xác nhận nguồn dữ liệu hợp lệ, cô lập nguồn ghi cũ trước\nkích hoạt DR, phục hồi cả IAM/DNS/KMS và dịch vụ phụ thuộc, đối soát nghiệp vụ\nvà thực hiện chuyển về có kiểm soát. Hai IDC trong cùng khu vực phải được đánh giá\nrủi ro đồng thời về điện, tuyến cáp, ISP và thiên tai; có biện pháp đối với miền lỗi\nchung.\n4 4 Độc lập dịch vụ phục hồi\nTài liệu khôi phục và bí mật khẩn cấp được lưu ở nơi truy cập được khi nền tảng\ndừng. Đơn vị vận hành lập đồ thị phụ thuộc và kiểm thử khởi động nguội để phát hiện\nvòng phụ thuộc. [CẦN ĐIỀN mã bằng chứng triển khai và biên bản kiểm thử T07–\nT10].\n8",
+    "chars": 1939,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 10,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-10.png",
+    "text": "PHẦN III THUYẾT MINH ĐỀ XUẤT CẤP ĐỘ VÀ RỦI RO\n1 Loại hệ thống và tiêu chí đề xuất\nXOR SECURE CLOUD thuộc loại hệ thống cơ sở hạ tầng thông tin cung cấp tài\nnguyên điện toán đám mây. Cấp độ đề xuất: cấp độ 4. Chức năng, phạm vi phục vụ,\nloại thông tin và hậu quả rủi ro được thuyết minh theo Điều 14 và Điều 22 Nghị định\n331/2026/NĐ-CP.\nTiêu chí\nNội dung cần chứng minh đối với XOR Tình trạng\nĐiều 14\n[CẦN XÁC NHẬN áp\nThông tin bí mật nhà nước/quốc phòng/an ninh và hậu quả\nKhoản 1 dụng và mã bằng\nnghiêm trọng [CẦN ĐIỀN phạm vi phục vụ nếu áp dụng].\nchứng]\nHạ tầng phục vụ cơ quan/tổ chức phạm vi toàn quốc, yêu cầu [CẦN XÁC NHẬN áp\nKhoản 2 24/7 và không chấp nhận ngừng không có kế hoạch. Phạm vi dụng và mã bằng\nkhách hàng, nghĩa vụ dịch vụ và BIA: [CẦN ĐIỀN]. chứng]\n[CẦN XÁC NHẬN áp\nHệ thống điều khiển công nghiệp phục vụ công trình thuộc\nKhoản 3 dụng và mã bằng\ntrường hợp được quy định.\nchứng]\n[CẦN ĐIỀN văn bản\nQuyết định của Thủ tướng hoặc kết quả đánh giá theo Khung\nKhoản 4 làm căn cứ nếu áp\nquản lý rủi ro an ninh mạng trong trường hợp tương ứng.\ndụng]\nTiêu chí đề xuất cấp độ: [CẦN ĐIỀN khoản áp dụng tại Điều 14]. Căn cứ và tài\nliệu chứng minh: [CẦN ĐIỀN phạm vi phục vụ, hợp đồng, BIA, kết quả đánh giá rủi\nro và mã tài liệu].\n2 Hệ thống liên quan\n[CẦN LẬP danh mục hệ thống kết nối, phụ thuộc hoặc bị ảnh hưởng khi XOR\ndừng; tên chủ quản, cấp độ đã được phê duyệt nếu có, dịch vụ trao đổi, loại dữ liệu và\nmức tác động]. Các phụ thuộc IAM, DNS, khóa, ISP, IDC và nhà cung cấp được xác\nđịnh tại PL04 và BIA. [S1, Điều 22.5 a]\n9",
+    "chars": 1542,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 11,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-11.png",
+    "text": "3 BÁO CÁO ĐÁNH GIÁ RỦI RO CHI TIẾT\nPhương pháp đánh giá rủi ro gồm xác định tài sản và dịch vụ; nhận diện mối đe\ndọa, điểm yếu; xác định khả năng và tác động; đánh giá hiệu lực kiểm soát; lựa chọn\nbiện pháp xử lý; đánh giá rủi ro còn lại và phê duyệt. [CẦN ĐIỀN phương pháp, thang\nđiểm và văn bản phê duyệt áp dụng]. [S1, Điều 22.5; S2, 6.1]\nRủi ro cần đánh giá Tác động phải làm rõ Kiểm soát dự kiến\nRR01 Tài khoản cloud admin bị Lộ/sửa dữ liệu nhiều tenant; ảnh PAM, MFA, tách quyền, log độc\nchiếm hoặc lạm dụng hưởng dịch vụ diện rộng lập\nRR02 Vượt ranh giới tenant qua Lộ dữ liệu, thay đổi trái phép tài RBAC, SG, kiểm tra sở hữu và\nAPI hoặc SDN nguyên khách hàng cách ly\nRR03 Ransomware phá cả bản Không khôi phục được dịch vụ Kho độc lập, bất biến, tách quyền\nchính và bản sao và dữ liệu và restore\nRR04 Mất toàn bộ IDC Cầu Gián đoạn đồng thời nhiều dịch DR độc lập, replica, fencing,\nGiấy vụ khách hàng capacity\nRR05 Mất kênh liên site hoặc Dữ liệu không nhất quán hoặc Theo dõi lag, quorum riêng,\nhai site ghi đồng thời mất giao dịch fencing và quy trình DR\nRR06 Mất khóa hoặc vòng phụ Có bản sao nhưng không giải Backup khóa, bí mật khẩn cấp và\nthuộc phục hồi mã/dựng được hệ thống cold start\nRR07 Lỗ hổng hoặc mã độc Tấn công chuỗi cung ứng vào SBOM, review, ký image, gate và\ntrong bản đóng gói XOR nhiều host/tenant rollback\nRR08 DDoS hoặc lỗi thiết bị Mất truy cập dịch vụ công khai,\nHai ISP, chống DDoS, FW/LB HA\nmạng/ISP suy giảm khả dụng\nRR09 SOC thiếu nguồn log hoặc Không phát hiện hoặc điều tra Ma trận nguồn, retention, chống\nmất dấu vết được sự cố sửa/xóa\nHai IDC cùng gián đoạn do\nRR10 Sự cố khu vực ảnh hưởng Phân tích miền lỗi chung, bản sao\nđiện/cáp/thiên tai hoặc nhà cung\ncả DC và DR và kế hoạch thay thế\ncấp\nKết quả đánh giá rủi ro: [CẦN ĐIỀN tài sản, mức khả năng, mức tác động, căn\ncứ chấm điểm, biện pháp xử lý, rủi ro còn lại, người chịu trách nhiệm, thời hạn và\nquyết định chấp nhận].\n10",
+    "chars": 1920,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 12,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-12.png",
+    "text": "4 PHÂN TÍCH TÁC ĐỘNG VÀ YÊU CẦU LIÊN TỤC\nPhân tích tác động nghiệp vụ xác định số khách hàng và hệ thống bị ảnh hưởng;\nnguy cơ mất, lộ, sửa dữ liệu; thời gian gián đoạn; hậu quả tài chính, pháp lý và tác\nđộng đối với lợi ích công cộng, trật tự, an toàn xã hội, an ninh quốc gia. [CẦN ĐIỀN\nbáo cáo BIA, số liệu, nguồn và người xác nhận]. [S1, Điều 22.5 b c]\nDịch vụ Phụ thuộc cần đối chiếu Chỉ tiêu và căn cứ\nDV01 IAM và quyền [CẦN ĐIỀN RPO, RTO, MTD;\nIdP, Keystone, MFA, PAM\nquản trị hợp đồng/BIA; người phê duyệt]\nDV02 Khóa và chứng [CẦN ĐIỀN RPO, RTO, MTD;\nKMS/HSM, PKI, bản sao khóa\nthư hợp đồng/BIA; người phê duyệt]\nAPI, DB trạng thái, queue, SDN [CẦN ĐIỀN RPO, RTO, MTD;\nDV03 Điều khiển cloud\ncontroller hợp đồng/BIA; người phê duyệt]\nDV04 Máy ảo và [CẦN ĐIỀN RPO, RTO, MTD;\nCompute, network, image, storage\ncontainer hợp đồng/BIA; người phê duyệt]\n[CẦN ĐIỀN RPO, RTO, MTD;\nDV05 Dữ liệu và lưu trữ Block, object, file, DB theo dịch vụ\nhợp đồng/BIA; người phê duyệt]\n[CẦN ĐIỀN RPO, RTO, MTD;\nDV06 DNS và thời gian DNS nội bộ/công khai, NTP\nhợp đồng/BIA; người phê duyệt]\n[CẦN ĐIỀN RPO, RTO, MTD;\nDV07 SOC và nhật ký Collector, SIEM, kho log\nhợp đồng/BIA; người phê duyệt]\n[CẦN ĐIỀN RPO, RTO, MTD;\nDV08 Sao lưu và DR Repository, replication, runbook\nhợp đồng/BIA; người phê duyệt]\n[CẦN ĐIỀN RPO, RTO, MTD;\nDV09 Phát hành XOR Git, CI/CD, registry, signing\nhợp đồng/BIA; người phê duyệt]\nYêu cầu hoạt động liên tục: [CẦN ĐIỀN nghĩa vụ 24/7; điều kiện về ngừng vận\nhành có kế hoạch và không có kế hoạch; bên yêu cầu, phạm vi dịch vụ, tác động và\nbiện pháp đáp ứng]. [S1, Điều 22.5 d]\n11",
+    "chars": 1587,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 13,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-13.png",
+    "text": "PHẦN IV PHƯƠNG ÁN BẢO ĐẢM AN NINH MẠNG\n1 Biện pháp quản lý và kỹ thuật\nPhương án đối với từng yêu cầu TCVN được xác định tại Phụ lục đối chiếu yêu\ncầu và phương án bảo đảm an ninh mạng. Quy chế và quy trình quy định trách nhiệm,\ntrình tự thực hiện và hồ sơ lưu. Hiện trạng và kết quả kiểm tra: [CẦN ĐIỀN ngày chốt,\ndanh mục cấu hình, văn bản ban hành, biên bản kiểm tra và mã bằng chứng]. [S1, Điều\n22.6]\nNhóm Phương án tổ chức thực hiện\nLập CMDB, phân loại dữ liệu, BIA, quản lý thay đổi và sổ rủi ro; cập nhật\nQuản trị rủi ro và tài sản\ntheo tần suất từng điều khoản.\nTài khoản cá nhân, quyền tối thiểu, MFA, PAM, tách vận hành/bảo mật/kiểm\nĐịnh danh và đặc quyền\ntoán, thu hồi theo vòng đời.\nPhân vùng, microsegmentation, HA, FW/IPS/WAF/DDoS/DBF/NAC hoặc\nMạng và nền tảng\ngiải pháp tương đương có kiểm chứng; bảo vệ API và tenant.\nMã hóa, khóa, toàn vẹn, DLP, chữ ký số khi áp dụng; sao lưu độc lập; kiểm\nDữ liệu và khôi phục\nthử restore và DR.\nSOC 24/7, log tối thiểu 6 tháng, đồng bộ thời gian, kho tách mạng, EDR,\nGiám sát và ứng phó\ncảnh báo và playbook.\nPhát triển an toàn phần mềm nền tảng XOR; SBOM, kiểm tra mã\nPhát triển và đánh giá\nnguồn/dependency, kiểm thử trước phát hành, pentest trong/ngoài, retest.\n2 Điều kiện đối với giải pháp tương đương\nGiải pháp tương đương được đánh giá theo yêu cầu áp dụng, rủi ro, kiến trúc\nkiểm soát, khả năng bảo vệ, giới hạn, kết quả thử nghiệm và thẩm quyền chấp thuận.\nHồ sơ giải pháp tương đương: [CẦN ĐIỀN mã yêu cầu, thuyết minh, kết quả kiểm\nchứng và văn bản chấp thuận nếu áp dụng].\n12",
+    "chars": 1540,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 14,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-14.png",
+    "text": "3 BẢO ĐẢM AN TOÀN VẬT LÝ VÀ TRÁCH NHIỆM THUÊ NGOÀI\nPhương án bảo đảm an toàn vật lý áp dụng riêng tại DC Cầu Giấy và DR Nam\nThăng Long theo Phụ lục A.4. Phạm vi kiểm soát gồm phòng máy, rack thiết bị,\nđiện/UPS, phòng cháy và chữa cháy, chống sét, chống nước, tĩnh điện, môi trường,\nbảo vệ điện từ, camera và kiểm soát ra vào. Hồ sơ đối chiếu của từng IDC: [CẦN\nĐIỀN hợp đồng, phạm vi, thời hạn hiệu lực, biên bản kiểm tra và mã bằng chứng].\nNội dung XOR IDC hoặc bên cung cấp\nRack thiết bị và tài Quản lý thiết bị, người được phép, Hạ tầng phòng máy, điều kiện vật lý và\nsản niêm phong/bàn giao và inventory. kiểm soát vào/ra theo hợp đồng.\nBằng chứng hai nguồn từ hai trạm khác\nĐấu nối, giám sát tải, cảnh báo và\nĐiện và môi trường nhau, UPS, điều hòa, chống cháy/nước/sét\nphối hợp bảo trì.\ntheo A.4.\nGiám sát 24/7, lưu camera tối thiểu 6\nPhê duyệt người, rà soát log liên\nCamera và ra vào tháng, cung cấp trích xuất theo thẩm\nquan, xử lý bất thường.\nquyền.\nChỉ huy phản ứng với hệ thống, thông Thông báo sự cố cơ sở, hỗ trợ điều\nSự cố\ntin khách hàng theo trách nhiệm. tra/phục hồi theo SLA.\nTổ chức kiểm tra, đối soát bằng Cung cấp hồ sơ, tham gia kiểm tra theo\nKiểm tra định kỳ\nchứng và theo dõi khắc phục. hợp đồng và phạm vi cho phép.\n4 Ranh giới trách nhiệm với khách hàng\nPhụ lục hợp đồng xác định bên quản lý OS, ứng dụng, DB, dữ liệu, khóa, tài\nkhoản, sao lưu và log. Đối với IaaS, khách hàng thường quản lý OS khách và ứng\ndụng; với dịch vụ quản lý, phần XOR chịu trách nhiệm phải được mô tả cụ thể. Cấp độ\nđược công bố chỉ gắn với phạm vi đã phê duyệt và không chuyển toàn bộ trách nhiệm\ncủa chủ quản khách hàng sang XOR.\n13",
+    "chars": 1635,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 15,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-15.png",
+    "text": "PHẦN V KẾ HOẠCH HOÀN THIỆN VÀ TÀI LIỆU KÈM THEO\nGiai đoạn Kết quả phải có Đầu mối và hạn\n1 Xác minh đầu Pháp nhân, thẩm quyền, phạm vi, tiêu chí Điều 14, dữ liệu và [CẦN ĐIỀN người và\nvào dịch vụ. hạn]\n2 Xác nhận hiện Bộ as-built, CMDB, phiên bản, IP và các phụ lục PL01–\n[CẦN ĐIỀN]\ntrạng PL07.\n3 Bổ sung kiểm Theo từng thiếu sót trong TCVN; phê duyệt thay đổi, triển\n[CẦN ĐIỀN]\nsoát khai và lưu bằng chứng.\n4 Kiểm tra và T01–T12; báo cáo độc lập, BIA/RPO/RTO đo được, đóng\n[CẦN ĐIỀN]\nretest phát hiện.\n5 Ý kiến và Ý kiến chuyên trách; công văn và bộ hồ sơ đúng phiên bản;\n[CẦN ĐIỀN]\nthẩm định giải trình khi yêu cầu.\n6 Phê duyệt và Quyết định chủ quản; thông báo đúng phạm vi; lịch vận\n[CẦN ĐIỀN]\nduy trì hành, kiểm tra và cập nhật.\n14",
+    "chars": 736,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 16,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-16.png",
+    "text": "DANH MỤC KÈM THEO HỒ SƠ TRÌNH\nHS01 Tổng quan HTTT: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang\nthực tế].\nHS02 Thiết kế hệ thống đang vận hành: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày\nvà số trang thực tế].\nHS03 Căn cứ đề xuất cấp độ: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang\nthực tế].\nHS04 Phương án bảo đảm an ninh mạng: [CẦN ĐIỀN tên tệp, phiên bản,\nsố/ngày và số trang thực tế].\nHS05 Ý kiến chuyên môn của đơn vị chuyên trách: [CẦN ĐIỀN tên tệp, phiên\nbản, số/ngày và số trang thực tế].\nHS06 Công văn đề nghị thẩm định: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và\nsố trang thực tế].\nHS07 Ý kiến thẩm định: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang\nthực tế].\nHS08 Tờ trình phê duyệt: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang\nthực tế].\nHS09 Quyết định phê duyệt cấp độ: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và\nsố trang thực tế].\nTài liệu tham chiếu\n[S1] Nghị định 331/2026/NĐ-CP: Điều 14, 18, 20–24 và Phụ lục. Nguồn chính\nthức: https://vanban.chinhphu.vn/?docid=219243&pageid=27160\n[S2] TCVN 14423:2026: Điều 6, trang 58–81; Phụ lục A.4, trang 109–111.\n15",
+    "chars": 1084,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 17,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-17.png",
+    "text": "PHỤ LỤC PL01 DANH MỤC DỊCH VỤ VÀ ỨNG DỤNG\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN].\nTrường thông tin Thông tin hiện trạng\nMã dịch vụ; tên; chức năng [CẦN ĐIỀN]\nĐối tượng và phạm vi phục vụ [Nhóm khách hàng; địa bàn; số tenant; nghiệp vụ]\nChủ dịch vụ; đơn vị quản lý [Tên; chức năng; đầu mối]\nThành phần và vị trí triển khai [DC/DR; asset ID; cụm; vùng mạng; endpoint]\nPhần mềm và hệ điều hành [Tên; phiên bản; bản dựng; giấy phép; EOL]\nDữ liệu và dịch vụ phụ thuộc [Mã PL05; IAM/DNS/KMS/DB/queue/storage và bên ngoài]\nRanh giới trách nhiệm [XOR/khách hàng/nhà cung cấp; dẫn hợp đồng]\nNăng lực và nghĩa vụ dịch vụ [Tải; dung lượng; SLA; lịch hoạt động; dẫn BIA]\nTài liệu xác nhận [Hợp đồng; CMDB; thiết kế; biên bản; mã EV]\nNgười lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n16",
+    "chars": 892,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 18,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-18.png",
+    "text": "PHỤ LỤC PL02 THIẾT BỊ VÀ CẤU HÌNH VẬT LÝ\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN].\nTrường thông tin Thông tin hiện trạng\nMã tài sản; loại; vai trò [CẦN ĐIỀN mã tài sản, loại và vai trò]\nSite và vị trí [Cầu Giấy/Nam Thăng Long; phòng; rack; U; địa chỉ thực tế]\nNhà sản xuất; model; serial [CẦN ĐIỀN]\nCấu hình và phiên bản [CPU/RAM/disk/NIC; firmware; hypervisor/OS; license]\nKết nối vật lý [Cổng; peer; fabric A/B; tốc độ; loại cáp; bản vẽ số]\nNguồn và miền lỗi [PDU/UPS/nguồn A/B; rack; failure domain]\nBảo trì và vòng đời [Đơn vị; hợp đồng; EOL/EOS; lịch bảo trì]\nTrách nhiệm và hiện trạng [Chủ sở hữu; người quản lý; hoạt động/dự phòng; ngày kiểm kê]\nHồ sơ hiện trạng [Bản vẽ vật lý; số/ngày phê duyệt hoặc tài liệu tương đương; EV]\nNgười lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n17",
+    "chars": 904,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 19,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-19.png",
+    "text": "PHỤ LỤC PL03 PHÂN VÙNG MẠNG VÀ ĐỊA CHỈ\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN].\nTrường thông tin Thông tin hiện trạng\nMã mạng; chức năng; site [CẦN ĐIỀN; vùng Z01–Z12 tương ứng]\nĐịnh danh phân đoạn [VLAN; VRF; VXLAN/VNI; project; network ID]\nĐịa chỉ và điểm cuối [CIDR; gateway; IP private/public; VIP; FQDN; asset ID]\nĐịnh tuyến [Bảng route; next-hop; miền định tuyến; đích được phép]\nRanh giới và kiểm soát [FW/SG/ACL/SDN; mã rule; chặn mặc định; chống giả mạo]\nQuản trị và truy cập Internet [Đường PAM; OOB; kiểm chứng mạng quản trị không kết nối Internet]\nHA và phụ thuộc [Peer; fabric; LB; DNS; NTP; khả năng failover]\nChủ mạng và thay đổi [Đơn vị; đầu mối; ticket; ngày phê duyệt]\nHồ sơ hiện trạng [Bản vẽ lô-gic; bảng IP; export route/rule đã xử lý bí mật; EV]\nNgười lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n18",
+    "chars": 938,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 20,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-20.png",
+    "text": "PHỤ LỤC PL04 LUỒNG DỮ LIỆU VÀ KẾT NỐI HỆ THỐNG\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN].\nTrường thông tin Thông tin hiện trạng\nMã luồng; mục đích [CẦN ĐIỀN; căn cứ nghiệp vụ]\nHệ thống nguồn và đích [Tên; chủ quản; cấp độ đã phê duyệt nếu có; bên chịu trách nhiệm]\nĐiểm kết nối [Site; vùng; asset/IP/FQDN; cổng; giao thức; chiều khởi tạo]\nThông tin trao đổi [Mã dữ liệu PL05; phân loại; dung lượng/tần suất]\nXác thực và quyền [Danh tính kỹ thuật; phạm vi quyền; cơ chế xác thực; chu kỳ đổi khóa]\nMã hóa và kiểm tra toàn vẹn [Giao thức; bộ mật mã; chứng thư; cơ chế bảo vệ theo phân loại]\n[Rule/allowlist; WAF/IPS/gateway; kiểm soát tương đương nếu áp\nKiểm soát tại biên\ndụng]\nNhật ký và giám sát [Trường log; đích collector; retention; cảnh báo; người quản lý]\nPhê duyệt và kiểm thử [Người duyệt; thời hạn; ticket; phép thử cho phép/từ chối; EV]\nNgười lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n19",
+    "chars": 1014,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 21,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-21.png",
+    "text": "PHỤ LỤC PL05 DỮ LIỆU VÀ QUYỀN TRUY CẬP\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN].\nTrường thông tin Thông tin hiện trạng\nMã tập dữ liệu; mô tả [CẦN ĐIỀN; nguồn và mục đích xử lý]\nChủ sở hữu và trách nhiệm [Chủ dữ liệu; bên xử lý; XOR/khách hàng; căn cứ hợp đồng]\nPhân loại và căn cứ [Độ nhạy cảm; nghĩa vụ pháp lý/chuyên ngành; người phê duyệt]\nNơi lưu và bản sao [Site; hệ thống; volume/bucket/DB; replica; backup; môi trường thử]\nMa trận quyền [Nhóm/danh tính; đọc/ghi/xuất/xóa; phê duyệt; ngày rà soát]\nMã hóa và quản lý khóa [Khi truyền/lưu; KMS/HSM nếu dùng; chủ khóa; khôi phục/thu hồi]\nLưu giữ và hủy [Thời hạn; căn cứ; phương pháp; bản sao; biên bản xác minh]\nTheo dõi và phục hồi [Audit/DLP/toàn vẹn; job backup; RPO/RTO; phép thử]\nBằng chứng [Danh mục; cấu hình che bí mật; log; ticket quyền; EV]\nNgười lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n20",
+    "chars": 974,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 22,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-22.png",
+    "text": "PHỤ LỤC PL06 DỰ PHÒNG SAO LƯU VÀ KHÔI PHỤC THẢM HỌA\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN].\nTrường thông tin Thông tin hiện trạng\nDịch vụ và mục tiêu được\n[Mã PL01/BIA; RPO; RTO; MTD; người/ngày phê duyệt]\nduyệt\nPhụ thuộc và thứ tự khôi phục [Mạng/thời gian/DNS/IAM/KMS/storage/DB/queue/API/workload]\nHA và quorum [Cụm tại từng IDC; số thành viên; failure domain; ngưỡng chịu lỗi]\nSao lưu [Dữ liệu/cấu hình/khóa; job; lịch; retention; mã hóa; kho độc lập]\nĐồng bộ DC–DR [Cơ chế; chiều; lịch; độ trễ đo; băng thông; kiểm tra nhất quán]\nNăng lực DR và rủi ro chung [Tải đáp ứng; nguồn điện; ISP/tuyến cáp; rủi ro đồng thời; biện pháp]\nKích hoạt và chuyển đổi [Ngưỡng; người quyết định; fencing; runbook; truyền thông]\nChuyển về và khởi động nguội [Điều kiện; đồng bộ ngược; rollback; bí mật khẩn cấp; phép thử]\nKết quả xác nhận [Ngày; kịch bản; RPO/RTO đo được; đối soát; tồn tại; EV]\nNgười lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n21",
+    "chars": 1054,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 2,
+    "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx",
+    "page": 23,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4/page-23.png",
+    "text": "PHỤ LỤC PL07 CẤU HÌNH VÀ PHIÊN BẢN NỀN TẢNG\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN].\nTrường thông tin Thông tin hiện trạng\nThành phần và phạm vi [Dịch vụ; site; asset/cụm; môi trường]\nNguồn và bản dựng [CẦN ĐIỀN nguồn phần mềm; phiên bản XOR; commit/tag; digest]\nKhác biệt và thành phần phụ\n[Bản vá/tùy biến; SBOM; thư viện; giấy phép; hỗ trợ]\nthuộc\nBaseline cấu hình [Mã/phiên bản; hardening; IAM; log; giao thức; người duyệt]\nChuỗi phát hành [Kho mã; pipeline; runner; registry; người review và duyệt]\nKiểm tra trước phát hành [SAST/SCA/secret scan/DAST/pentest; phạm vi; kết quả; retest]\nTriển khai và quay lui [Ticket; ngày; cửa sổ; bản trước/sau; phương án rollback]\nTheo dõi vận hành [Drift; CVE; vá; EOL; tương thích và hiệu năng]\nBằng chứng và phê duyệt [Release manifest; log triển khai; biên bản; người ký; EV]\nNgười lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n22",
+    "chars": 991,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nPHỤ LỤC ĐỐI CHIẾU YÊU CẦU\nVÀ PHƯƠNG ÁN BẢO ĐẢM AN NINH MẠNG\nXOR SECURE CLOUD\nKèm theo hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD\nNền tảng XOR STACK CLOUD\nĐơn vị vận hành: Khối Hạ tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nHà Nội, tháng 10 năm 2026",
+    "chars": 358,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-2.png",
+    "text": "Phụ lục đối chiếu 119 nội dung kiểm tra thuộc Điều 6.1–6.18 và Phụ lục A.4\nTCVN 14423:2026 với phương án bảo đảm an ninh mạng của hệ thống XOR\nSECURE CLOUD.\nThời điểm chốt hiện trạng: [CẦN ĐIỀN]. Hồ sơ kiểm tra và bằng chứng kèm\ntheo: [CẦN ĐIỀN danh mục, phiên bản, người lập và người xác nhận].\nThông tin chung Nội dung\nCả DC Cầu Giấy và DR Nam Thăng Long cùng toàn bộ dịch vụ quản trị\nPhạm vi\nchung.\nNgười lập [CẦN ĐIỀN]\nNgười kiểm tra [CẦN ĐIỀN]\nBản dựng và ngày chốt [CẦN ĐIỀN]\nĐạt / Không đạt / Chưa đủ bằng chứng / Không áp dụng có căn cứ và phê\nQuy tắc kết luận\nduyệt.\n1",
+    "chars": 577,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 3,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-3.png",
+    "text": "6 1 RỦI RO\nĐơn vị chủ trì: GRC và chủ quản. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nQuy trình rủi ro Quy trình đã ký; lịch sử\nBan hành QT01 cho nền tảng,\nTC-001 Có quy trình xác định, phân sửa đổi; biên bản rà soát.\ntenant và dịch vụ chung; phân\n6.1.2.1 tích, đánh giá, xử lý; rà soát ít Mã BC: [CẦN ĐIỀN].\ncông người phê duyệt rủi ro.\ntr.58 nhất hằng năm và khi thay Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nđổi. chứng.\nSổ rủi ro; đầu vào CVE;\nNhận diện rủi ro Lập sổ rủi ro DC, DR, XOR\nTC-002 đánh giá IDC/ISP.\nNhận diện cả rủi ro nội bộ và STACK, IDC, ISP và chuỗi\n6.1.2.2 Mã BC: [CẦN ĐIỀN].\nnhà cung cấp ít nhất 1 lần/6 phần mềm.\ntr.58 Kết quả: Chưa đủ bằng\ntháng, khi thay đổi liên quan. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nĐánh giá tác động BIA; thang điểm; hồ sơ\nThực hiện BIA theo từng dịch\nTC-003 Phân tích khả năng, tác động, quyết định của chủ quản.\nvụ; phân tích ảnh hưởng khách\n6.1.2.3 quyết định xử lý hoặc chấp Mã BC: [CẦN ĐIỀN].\nhàng và lợi ích công cộng.\ntr.58 nhận; đánh giá lại khi thay Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nđổi. chứng.\nKế hoạch xử lý; ticket;\nXử lý rủi ro Gắn rủi ro với ticket khắc phục, kết quả retest; chấp nhận\nTC-004\nCó biện pháp, ứng phó rủi ro người phụ trách, hạn và phép tồn dư.\n6.1.2.4\ncòn lại; đánh giá hiệu lực ít thử lại. Mã BC: [CẦN ĐIỀN].\ntr.58\nnhất 1 lần/6 tháng. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nPhiên bản sổ rủi ro; báo\nTheo dõi rủi ro GRC cập nhật sổ rủi ro theo\nTC-005 cáo định kỳ.\nTheo dõi thay đổi khả năng, cảnh báo SOC và thay đổi kiến\n6.1.2.5 Mã BC: [CẦN ĐIỀN].\ntác động, mức rủi ro, tài sản trúc.\ntr.59 Kết quả: Chưa đủ bằng\nvà biện pháp. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nThông báo; biên bản họp;\nThông tin rủi ro Thiết lập danh sách nhận thông\nTC-006 xác nhận tiếp nhận.\nChia sẻ kết quả và thông báo tin theo phạm vi và trách\n6.1.2.6 Mã BC: [CẦN ĐIỀN].\nkịp thời thay đổi quan trọng nhiệm.\ntr.59 Kết quả: Chưa đủ bằng\ncho bên liên quan. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n2",
+    "chars": 2069,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 4,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-4.png",
+    "text": "6 2 PHẦN CỨNG\nĐơn vị chủ trì: Hạ tầng và IT. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nDanh mục phần cứng\nCMDB; rack map; biên\nKiểm kê toàn bộ tài sản, kể cả\nCMDB chung DC/DR chứa bản bàn giao và kiểm tra;\nTC-007 bên ngoài kết nối; rà soát ít\nhost, switch, storage, BMC, danh sách thiết bị di\n6.2.1; nhất hằng năm; đủ\nPAW và thiết bị thuê; tài sản động.\n6.2.2.1 IP/MAC/serial, vị trí, EOL,\nmới có phiếu tiếp nhận. Mã BC: [CẦN ĐIỀN].\ntr.59 mục đích, chủ sở hữu; kiểm\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ntra trước dùng và đăng ký\nchứng.\nthiết bị di động.\nThiết bị chưa quản lý Quy trình; kết quả phát\nTC-008 Có quy trình phát hiện và xử NAC và kiểm kê định kỳ; gắn hiện; ticket cách ly.\n6.2.2.2 lý thiết bị trái phép ít nhất ticket cho thiết bị chưa rõ chủ. Mã BC: [CẦN ĐIỀN].\ntr.59 hằng quý; loại bỏ, chặn hoặc Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ncách ly theo quyết định. chứng.\nBáo cáo discovery có\nRà quét tài sản\nTC-009 So khớp discovery với Neutron, ngày; đối soát chênh lệch.\nRà quét thiết bị kết nối ít nhất\n6.2.2.3 hypervisor, IPAM và CMDB. Mã BC: [CẦN ĐIỀN].\nhằng quý và cập nhật danh\ntr.60 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nmục.\nchứng.\nDHCP và IPAM Cấu hình log; mẫu log;\nTC-010 Ghi DHCP hoặc sử dụng Lưu DHCP/Neutron/IPAM về biên bản đối soát.\n6.2.2.4 IPAM nếu có; rà soát nhật ký kho log có định danh tenant. Mã BC: [CẦN ĐIỀN].\ntr.60 ít nhất hằng quý để cập nhật Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ntài sản. chứng.\nPhiếu thanh lý; chứng cứ\nThanh lý và xóa dữ liệu Sanitize ổ đĩa, volume và thiết sanitize; biên bản xác\nTC-011\nCó quy trình thanh lý; xóa bị theo loại media; xác nhận nhận.\n6.2.2.5\nsạch dữ liệu khi chuyển giao hủy khóa khi phù hợp. Mã BC: [CẦN ĐIỀN].\ntr.60\nhoặc đổi mục đích. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\n3",
+    "chars": 1906,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 5,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-5.png",
+    "text": "6 3 PHẦN MỀM\nĐơn vị chủ trì: Platform và DevSecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nDanh mục; SBOM;\nDanh mục phần mềm Quản lý phiên bản XOR, phần\nTC-012 inventory máy chủ; giấy\nKiểm kê ít nhất hằng năm; có mềm nguồn, OS, agent,\n6.3.1; phép.\nphiên bản, bản quyền, phạm firmware và container theo\n6.3.2.1 Mã BC: [CẦN ĐIỀN].\nvi, EOL, người quản lý và release.\ntr.60 Kết quả: Chưa đủ bằng\nphần mềm thực tế cài đặt. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nPhần mềm được phép\nAllowlist; quyền\nDanh sách được duyệt bao\nKho gói và image đã duyệt; repository; log cài đặt;\nTC-013 gồm runtime và dịch vụ nhà\nquyền cài đặt qua ticket; ghi vết phê duyệt ngoại lệ.\n6.3.2.2 cung cấp; kiểm soát\nthay đổi. Mã BC: [CẦN ĐIỀN].\ntr.60–61 cài/gỡ/thực thi trái phép; rà\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nsoát ít nhất hằng năm hoặc khi\nchứng.\nthay đổi.\nMa trận EOL; cam kết hỗ\nHỗ trợ vòng đời Lập kế hoạch hỗ trợ bản fork\nTC-014 trợ; kế hoạch nâng cấp.\nRà soát ít nhất hằng năm để XOR và bản upstream; xử lý\n6.3.2.3 Mã BC: [CẦN ĐIỀN].\nphần mềm được phép còn thành phần hết hỗ trợ.\ntr.61 Kết quả: Chưa đủ bằng\nđược hỗ trợ. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nPhần mềm trái phép Báo cáo đối soát; sổ\nĐối soát inventory với\nTC-015 Phát hiện và xử lý ít nhất 1 ngoại lệ; ticket gỡ.\nallowlist; quản lý ngoại lệ có\n6.3.2.4 lần/6 tháng; ngoại lệ có biện Mã BC: [CẦN ĐIỀN].\nhạn.\ntr.61 pháp giảm rủi ro; gỡ phần Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nmềm không được chấp thuận. chứng.\n4",
+    "chars": 1578,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 6,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-6.png",
+    "text": "6 4 DỮ LIỆU\nĐơn vị chủ trì: Chủ dữ liệu và bảo mật. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nQuy định quản lý dữ liệu\nQuy định; danh mục phân\nQuy định phân loại, chủ sở\nPhân loại dữ liệu nền tảng và loại; biên bản rà soát\nTC-016 hữu, xử lý, lưu giữ, hủy và\ntenant; gắn chính sách truy cập quyền.\n6.4.2.1 thay đổi dữ liệu; kiểm tra phân\nvà retention theo loại. Mã BC: [CẦN ĐIỀN].\ntr.61–62 quyền ít nhất hằng quý; rà soát\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nquy định hằng năm/khi thay\nchứng.\nđổi.\nDanh mục dữ liệu có\nDanh mục dữ liệu Liệt kê DB nền tảng, bí mật,\nTC-017 phiên bản.\nLập và cập nhật danh mục ít log, ảnh, volume, backup và dữ\n6.4.2.2 Mã BC: [CẦN ĐIỀN].\nnhất hằng năm hoặc khi có liệu khách hàng theo phạm vi.\ntr.62 Kết quả: Chưa đủ bằng\nthay đổi. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nMa trận quyền; trích cấu\nQuyền trên dữ liệu Ánh xạ Keystone, DB role,\nTC-018 hình ACL/RBAC.\nCó danh sách quyền của từng object ACL và tài khoản\n6.4.2.3 Mã BC: [CẦN ĐIỀN].\ntài khoản/nhóm đối với từng backup tới chủ thể.\ntr.62 Kết quả: Chưa đủ bằng\nloại dữ liệu. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nCấu hình; danh mục\nMã hóa khi lưu\nMã hóa volume/object/backup phạm vi mã hóa; đánh giá\nTC-019 Bảo vệ dữ liệu xác thực, nhạy\nvà kho bí mật; mô tả các ngoại tương đương.\n6.4.2.4 a cảm và quan trọng khi lưu\nlệ và giới hạn bảo vệ. Mã BC: [CẦN ĐIỀN].\ntr.62 bằng mã hóa hoặc kiểm soát\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nrủi ro tương đương.\nchứng.\nMa trận luồng; cấu hình\nMã hóa khi truyền\nĐề xuất TLS ứng dụng trong TLS/IPsec; hồ sơ tương\nTC-020 Bảo vệ dữ liệu quan trọng khi\nkênh IPsec cho luồng quan đương.\n6.4.2.4 b c truyền; tối thiểu hai lần mã\ntrọng; thuyết minh từng luồng. Mã BC: [CẦN ĐIỀN].\ntr.62 hóa hoặc kiểm soát rủi ro\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ntương đương theo điều khoản.\nchứng.\nChính sách khóa; RBAC;\nQuản lý khóa và thuật toán Quản lý vòng đời khóa trong log luân chuyển; danh\nTC-021\nCó phương án chuyên dụng KMS; tách người quản trị khóa; mục thuật toán.\n6.4.2.4 d e\nbảo vệ khóa và dữ liệu mã danh mục thuật toán được phép. Mã BC: [CẦN ĐIỀN].\ntr.62\nhóa; sử dụng mật mã mạnh. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nCấu hình FIM; cảnh báo;\nToàn vẹn dữ liệu FIM/checksum/chữ ký phù hợp\nTC-022 biên bản khôi phục.\nCó kiểm tra toàn vẹn, cảnh từng loại; đối chiếu bản sao tin\n6.4.2.5 Mã BC: [CẦN ĐIỀN].\nbáo sửa đổi và khôi phục dữ cậy.\ntr.62 Kết quả: Chưa đủ bằng\nliệu quan trọng. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n5",
+    "chars": 2566,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 7,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-7.png",
+    "text": "Mã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nDFD; lịch sử sửa; phê\nLuồng dữ liệu\nTC-023 Duy trì DFD API, metadata, lưu duyệt luồng.\nTài liệu hóa luồng và quản lý\n6.4.2.6 trữ, log, backup và liên site. Mã BC: [CẦN ĐIỀN].\nphiên bản; cập nhật ít nhất\ntr.62 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nhằng năm hoặc khi thay đổi.\nchứng.\nPhân tách dữ liệu nhạy cảm Sơ đồ phân khu; policy;\nPhân khu dữ liệu và khóa; kiểm\nTách xử lý/lưu trữ theo độ đánh giá phương án\nTC-024 soát xuất dữ liệu; không dùng\nnhạy cảm hoặc biện pháp tương đương.\n6.4.2.7 vùng ít nhạy cảm cho dữ liệu\ntương đương; bảo vệ trao đổi Mã BC: [CẦN ĐIỀN].\ntr.63 quan trọng.\nbằng kênh riêng hoặc tương Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nđương. chứng.\nCấu hình; chính sách\nTC-025 Chống thất thoát DLP và hạn chế egress/export phân loại; cảnh báo thử.\n6.4.2.8 Triển khai kiểm soát thất thoát theo kênh; tích hợp SOC. Mã BC: [CẦN ĐIỀN].\ntr.63 dữ liệu quan trọng, nhạy cảm. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nMẫu log; biên bản rà\nLog dữ liệu quan trọng Thu DB audit/object access\nTC-026 soát; ticket bất thường.\nGhi hành vi truy cập và rà soát log/volume export và rà soát\n6.4.2.9 Mã BC: [CẦN ĐIỀN].\nthường xuyên, ít nhất hằng theo tenant.\ntr.63 Kết quả: Chưa đủ bằng\nquý. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nChữ ký số Danh sách giao dịch;\nTrao đổi thông tin quan trọng Xác định giao dịch cần ký số; chứng thư; quy trình; kết\nTC-027\ndùng chữ ký số từ chủ thể có quản lý chứng thư và thiết bị quả xác minh chữ ký.\n6.4.2.10\nthẩm quyền hoặc nhà cung khóa; phân biệt với TLS. Mã BC: [CẦN ĐIỀN].\ntr.63\ncấp được phép; bảo vệ việc sử Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ndụng. chứng.\n6",
+    "chars": 1712,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 8,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-8.png",
+    "text": "6 5 CẤU HÌNH\nĐơn vị chủ trì: Platform và IT. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nCấu hình chuẩn\nCó quy trình và baseline; giao Baseline; export đã che bí\nBaseline riêng controller,\nthức an toàn, host firewall, mật; báo cáo drift; phê\nTC-028 compute, storage, network,\nchống đăng nhập tự động vào duyệt ngoại lệ.\n6.5.2.1 PAW và ứng dụng XOR; theo\ntài sản quan trọng, vô hiệu Mã BC: [CẦN ĐIỀN].\ntr.63–64 dõi lệch cấu hình.\ndịch vụ thừa; hardening trước Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\ndùng; rà soát hằng năm/khi chứng.\nthay đổi.\nKhóa phiên Chính sách đã chốt; cấu\nĐề xuất PAW 15 phút, phiên\nThiết lập tự khóa theo nhu hình timeout; log thử và\nTC-029 quản trị 5 phút; chốt ngưỡng\ncầu/rủi ro và cơ chế mở khóa khẩn cấp.\n6.5.2.2 khóa sau đăng nhập sai và phục\nkhẩn cấp; các ngưỡng trong Mã BC: [CẦN ĐIỀN].\ntr.64 hồi theo đánh giá rủi ro.\nđiều khoản là cấu hình có thể Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\náp dụng. chứng.\nDanh sách dịch vụ; kết\nDịch vụ không cần thiết Tối thiểu hóa image OS và dịch\nTC-030 quả scan port; baseline.\nCó quy định gỡ hoặc vô hiệu vụ; kiểm soát package/port\n6.5.2.3 Mã BC: [CẦN ĐIỀN].\ntính năng và dịch vụ không được phép.\ntr.64 Kết quả: Chưa đủ bằng\ncần thiết. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nCấu hình resolver; ACL;\nTC-031 DNS tin cậy Resolver nội bộ có dự phòng; log DNS.\n6.5.2.4 Cấu hình DNS tin cậy trên tài ACL chỉ cho DNS được duyệt. Mã BC: [CẦN ĐIỀN].\ntr.64 sản khi có. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nDanh sách MDM; cấu\nXóa thiết bị từ xa MDM cho thiết bị quản trị di hình; biên bản remote\nTC-032\nCó khả năng xóa sạch từ xa động được cấp; thử trên thiết bị wipe.\n6.5.2.5\nđối với thiết bị di động cấp mẫu. Mã BC: [CẦN ĐIỀN].\ntr.64\nngười dùng. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nPolicy MDM/work\nKhông gian làm việc di động Tách dữ liệu công việc/cá nhân;\nTC-033 profile; cấu hình.\nQuy định tách không gian làm hạn chế sao chép theo chính\n6.5.2.6 Mã BC: [CẦN ĐIỀN].\nviệc trên thiết bị di động được sách.\ntr.64 Kết quả: Chưa đủ bằng\ncấp. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n7",
+    "chars": 2174,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 9,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-9.png",
+    "text": "6 6 TÀI KHOẢN VÀ QUYỀN\nĐơn vị chủ trì: IAM và bộ phận an ninh. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nDanh mục tài khoản Danh mục; ma trận\nTC-034 Quản lý đủ tài khoản và chủ Đối soát IdP, Keystone, OS, quyền; biên bản rà soát;\n6.6.1; sở hữu, loại, trạng thái, tài DB, network, backup và tài audit log.\n6.6.2.1 sản, ngày kích hoạt/vô hiệu; rà khoản dịch vụ. Mã BC: [CẦN ĐIỀN].\ntr.65 soát ít nhất hằng quý; ghi log Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nhoạt động. chứng.\nChính sách mật khẩu\nĐổi mặc định; quy định độ Ban hành baseline xác thực phù Policy; cấu hình; thử mật\nTC-035 dài, thành phần, kỳ thay và hợp nền tảng; chốt tham số và khẩu; hồ sơ ngoại lệ.\n6.6.2.2 hiệu lực theo rủi ro. Điều kiểm soát ngoại lệ; không ghi Mã BC: [CẦN ĐIỀN].\ntr.65–66 khoản có các cấu hình tham mật khẩu vào hồ sơ. Kết quả: Chưa đủ bằng\nkhảo cho MFA và không Hiện trạng: [CẦN ĐIỀN]. chứng.\nMFA.\nQuản lý tài khoản đặc quyền\nPAM hoặc tương đương, quản Danh mục PAM; log\nlý tập trung, tách loại tài Cấp phiên PAM theo ticket, ghi phiên; ticket nghỉ việc;\nTC-036 khoản, định danh cá nhân; phiên và JIT; tài khoản dùng danh sách không hoạt\n6.6.2.3 quản lý khóa; xử lý mặc định; chung chỉ theo ngoại lệ có truy động.\ntr.66 vô hiệu tài khoản không hoạt trách nhiệm. Mã BC: [CẦN ĐIỀN].\nđộng sau 45 ngày hoặc khi Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nthay đổi nhân sự; rà soát quy chứng.\nđịnh hằng năm.\nMFA và quyền tối thiểu Ma trận RBAC; policy\nIdP/MFA bắt buộc cho portal\nQuyền tối thiểu, tách nhiệm MFA; log thử; phê duyệt\nTC-037 quản trị, VPN và PAM; tách\nvụ; MFA với truy cập ngoài tổ vai trò.\n6.6.2.4 vận hành, bảo mật/khóa, kiểm\nchức, đối tác, Internet và Mã BC: [CẦN ĐIỀN].\ntr.66 toán.\nquyền quản trị; rà soát quy Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nđịnh hằng năm/khi đổi. chứng.\nPhiếu cấp quyền; phê\nCấp đổi thu hồi quyền Luồng yêu cầu → chủ tài sản\nduyệt; kết quả thực hiện\nTC-038 Có quy trình cấp mới, thay duyệt → IAM thực hiện →\nvà rà soát.\n6.6.2.5 đổi, thu hồi; rà soát quy trình người khác kiểm tra → lưu\nMã BC: [CẦN ĐIỀN].\ntr.66 và thực hiện ít nhất hằng ticket.\nKết quả: Chưa đủ bằng\nnăm/khi đổi. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n8",
+    "chars": 2260,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 10,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-10.png",
+    "text": "6 7 LỖ HỔNG VÀ BẢN VÁ\nĐơn vị chủ trì: SecOps và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả\nhai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nQuản lý lỗ hổng\nTheo dõi mối đe dọa; scan Lịch scan theo tenant/phạm vi; Phạm vi scan; báo cáo;\nTC-039\ntoàn hệ thống ít nhất 1 lần/6 nguồn CVE cho upstream và ticket; SLA nội bộ; retest.\n6.7.1;\ntháng, tài sản quan trọng hằng fork; ưu tiên theo khả năng khai Mã BC: [CẦN ĐIỀN].\n6.7.2.1\nquý; phân loại, chia sẻ, khắc thác và tác động. Kết quả: Chưa đủ bằng\ntr.67\nphục và retest; cập nhật quy Hiện trạng: [CẦN ĐIỀN]. chứng.\ntrình 6 tháng/khi đổi.\nQuản lý bản vá\nLịch vá; bằng chứng thử;\nQuản lý tập trung; kiểm thử, Kho vá nội bộ đã ký; staging\nphê duyệt; inventory\nTC-040 đánh giá tác động và phương trước production; cửa sổ thay\nphiên bản.\n6.7.2.2 án phục hồi trước vá hệ thống đổi và rollback cho\nMã BC: [CẦN ĐIỀN].\ntr.67 quan trọng; kiểm tra/cập nhật controller/compute.\nKết quả: Chưa đủ bằng\nmáy người dùng ít nhất hằng Hiện trạng: [CẦN ĐIỀN].\nchứng.\ntháng nếu có.\n9",
+    "chars": 1077,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 11,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-11.png",
+    "text": "6 8 NHẬT KÝ\nĐơn vị chủ trì: SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch\nvụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nPhạm vi và trường nhật ký\nThu log truy cập, tiến trình, Lập ma trận nguồn log; chuẩn Ma trận nguồn; mẫu từng\nTC-041 ứng dụng, dữ liệu và cảnh báo hóa actor, tenant, request ID và loại log; parser.\n6.8.2.1 a trên toàn bộ tài sản; có sự kiện quản trị XOR STACK Mã BC: [CẦN ĐIỀN].\ntr.68 nguồn/đích, định danh, thời CLOUD. Kết quả: Chưa đủ bằng\ngian, hành vi và trường phù Hiện trạng: [CẦN ĐIỀN]. chứng.\nhợp từng loại.\nCấu hình NTP; pipeline;\nĐồng bộ và tập trung log NTP nội bộ dự phòng; chứng thư; dashboard\nTC-042\nĐồng bộ thời gian; SIEM hoặc agent/collector TLS; queue đệm nguồn.\n6.8.2.1 a\ntương đương; chuyển log về và cảnh báo mất nguồn. Mã BC: [CẦN ĐIỀN].\ntr.68\nhệ thống tập trung. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nLưu giữ và rà soát log Cấu hình retention; truy\nDung lượng lưu tối thiểu 6 Chính sách retention theo tháng vấn log cũ; số đo EPS;\nTC-043\ntháng; theo dõi đầy kho; rà lịch và dung lượng đo thực; quy báo cáo tháng.\n6.8.2.1 a b\nsoát nhật ký ít nhất hằng trình rà soát SOC. Mã BC: [CẦN ĐIỀN].\ntr.68\ntháng; cập nhật quy trình hằng Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nnăm/khi đổi. chứng.\nHợp đồng; log nhận; biên\nLog nhà cung cấp Thỏa thuận với IDC, ISP, SOC\nTC-044 bản đối soát.\nThu nhật ký an ninh của các và dịch vụ dùng chung về log,\n6.8.2.2 Mã BC: [CẦN ĐIỀN].\ndịch vụ nhà cung cấp có kết phạm vi và truy xuất.\ntr.69 Kết quả: Chưa đủ bằng\nnối/sử dụng. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nBảo vệ nhật ký ACL; sơ đồ; retention\nZ08 riêng; quyền lưu/xóa tách\nTC-045 Kiểm soát và ghi lịch sử truy lock; log thao tác kho.\ncloud admin; bất biến hoặc cơ\n6.8.2.3 cập; chống sửa/xóa; kho log ở Mã BC: [CẦN ĐIỀN].\nchế toàn vẹn tương đương.\ntr.69 hệ thống và vùng mạng riêng; Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nmã hóa log quan trọng nếu có. chứng.\n10",
+    "chars": 1973,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 12,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-12.png",
+    "text": "6 9 WEB VÀ EMAIL\nĐơn vị chủ trì: IT và SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC\nvà dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nTrình duyệt và email Danh mục; policy; phiên\nÁp dụng cho máy trạm và email\nTC-046 Danh mục được phép, còn hỗ bản; giải pháp email.\nvận hành trong phạm vi; quản\n6.9.2.1 trợ, vá thường xuyên hoặc Mã BC: [CẦN ĐIỀN].\nlý tập trung phiên bản.\ntr.69 kiểm soát tương đương; bảo Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nvệ thư điện tử. chứng.\nLọc tên miền Cấu hình; feed; log thử.\nTC-047 Resolver có threat feed và log\nChặn tên miền độc hại và giả Mã BC: [CẦN ĐIỀN].\n6.9.2.2 về SOC.\nmạo bằng dịch vụ lọc tên Kết quả: Chưa đủ bằng\ntr.69 Hiện trạng: [CẦN ĐIỀN].\nmiền. chứng.\nPolicy URL; lịch cập\nLọc URL Proxy/secure gateway cho máy\nTC-048 nhật; log.\nCập nhật bộ lọc URL, hạn chế trạm được phép ra ngoài; quản\n6.9.2.3 Mã BC: [CẦN ĐIỀN].\nkết nối tới web độc hại/không trị core không ra Internet.\ntr.69 Kết quả: Chưa đủ bằng\nđược phép. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nAllowlist; policy;\nTiện ích mở rộng\nTC-049 Quản lý extension trình inventory extension.\nDanh sách được phép; kiểm\n6.9.2.4 duyệt/email theo allowlist. Mã BC: [CẦN ĐIỀN].\nsoát cài đặt, gỡ/vô hiệu tiện\ntr.69 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ních trái phép.\nchứng.\nDNS record; cấu hình\nThiết lập SPF/DKIM/DMARC\nTC-050 Xác thực email mail; báo cáo DMARC.\ntheo dịch vụ email thực tế, theo\n6.9.2.5 Áp dụng DMARC để hạn chế Mã BC: [CẦN ĐIỀN].\ndõi báo cáo.\ntr.70 giả mạo tên miền tổ chức. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nDanh sách; cấu hình; log\nTệp đính kèm\nTC-051 Mail gateway kiểm tra tệp theo thử.\nQuy định loại tệp được phép;\n6.9.2.6 chính sách. Mã BC: [CẦN ĐIỀN].\nchặn ngoài danh mục và kiểm\ntr.70 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nsoát thư có tệp đính kèm.\nchứng.\n11",
+    "chars": 1863,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 13,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-13.png",
+    "text": "6 10 CHỐNG MÃ ĐỘC\nĐơn vị chủ trì: SecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và\ndịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nBảo vệ mã độc\nCó quy định chống mã độc; EDR tương thích Policy; độ phủ; phiên bản\nTC-052\nbảo vệ tài sản và điểm kết nối; KVM/controller/storage; ghi agent; ngoại lệ.\n6.10.1;\nmáy chủ/máy người dùng có nhận ngoại lệ kỹ thuật và bù Mã BC: [CẦN ĐIỀN].\n6.10.2.1\nbảo vệ thời gian thực, hành vi, trừ. Kết quả: Chưa đủ bằng\ntr.70\ncập nhật tự động hoặc tương Hiện trạng: [CẦN ĐIỀN]. chứng.\nđương.\nPolicy; log cắm thiết bị\nTC-053 Thiết bị lưu trữ ngoài Kiểm soát USB trên PAW và và scan.\n6.10.2.2 Quét media di động và vô hiệu máy vận hành. Mã BC: [CẦN ĐIỀN].\ntr.70 tự thực thi. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nConsole; chính sách; log\nQuản lý chống mã độc tập Console SecOps độc lập quyền\nTC-054 cập nhật.\ntrung cloud admin; cảnh báo agent\n6.10.2.3 Mã BC: [CẦN ĐIỀN].\nQuản lý cập nhật, cảnh báo và mất liên lạc.\ntr.70 Kết quả: Chưa đủ bằng\ncấu hình tập trung. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nCấu hình; ma trận tương\nTC-055 Chống khai thác Bật tính năng tương thích và thích; thử nghiệm.\n6.10.2.4 Bật khả năng chống khai thác đánh giá tác động hiệu năng. Mã BC: [CẦN ĐIỀN].\ntr.70 lỗ hổng trên tài sản nếu có. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nPhát hiện hành vi Mẫu sự kiện; rule; ticket\nLuồng agent → console →\nTC-056 EDR hoặc tương đương trên phản ứng.\nSIEM; playbook cô lập có kiểm\n6.10.2.5 máy chủ/máy người dùng, gửi Mã BC: [CẦN ĐIỀN].\nsoát.\ntr.71 SIEM và cảnh báo thời gian Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nthực. chứng.\n12",
+    "chars": 1662,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 14,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-14.png",
+    "text": "6 11 SAO LƯU\nĐơn vị chủ trì: Backup và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả\nhai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nQuy trình sao lưu\nBackup cả control plane, cấu Policy; catalog job; bản\nĐịnh nghĩa dữ liệu, tần suất,\nTC-057 hình SDN, image, dữ liệu dịch đồ phụ thuộc; BIA.\nphương pháp, kho, thử khôi\n6.11.2.1 vụ và khóa phục hồi; chốt Mã BC: [CẦN ĐIỀN].\nphục; gồm cấu hình, ảnh OS,\ntr.71 RPO/RTO qua BIA. Kết quả: Chưa đủ bằng\nDB và nghiệp vụ; sẵn sàng\nHiện trạng: [CẦN ĐIỀN]. chứng.\ncao; rà soát hằng năm/khi đổi.\nLịch job; log; cảnh báo\nTC-058 Sao lưu tự động Job có giám sát lỗi, dung lượng thất bại.\n6.11.2.2 Phân loại lịch và tự động sao và lần thành công gần nhất. Mã BC: [CẦN ĐIỀN].\ntr.71 lưu theo từng loại dữ liệu. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nSơ đồ bản sao; quyền;\nBảo vệ bản sao Bản sao độc lập, có bản ngoài cấu hình mã hóa; đánh\nTC-059\nÁp dụng 3-2-1 hoặc tương miền lỗi chung; tài khoản/khóa giá tương đương.\n6.11.2.3\nđương; mã hóa bản sao dữ liệu sao lưu riêng. Mã BC: [CẦN ĐIỀN].\ntr.71–72\nquan trọng, nhạy cảm. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nInventory repository; sơ\nKho sao lưu tách biệt Z09 riêng; không chỉ giữ\nTC-060 đồ; versioning; ACL.\nĐịnh danh, quản lý phiên bản snapshot trên cùng cụm sản\n6.11.2.4 Mã BC: [CẦN ĐIỀN].\nvà lưu trên hạ tầng độc lập với xuất; khóa và quyền xóa riêng.\ntr.72 Kết quả: Chưa đủ bằng\nmôi trường vận hành. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nBiên bản restore;\nKiểm thử khôi phục Restore vào vùng cô lập; kiểm checksum; log và thời\nTC-061\nCó phương án toàn vẹn; kiểm tra dữ liệu, ứng dụng và phụ gian.\n6.11.2.5\ntra phục hồi bản sao ít nhất 1 thuộc khóa; lưu số đo. Mã BC: [CẦN ĐIỀN].\ntr.72\nlần/6 tháng. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\n13",
+    "chars": 1830,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 15,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-15.png",
+    "text": "6 12 HẠ TẦNG MẠNG\nĐơn vị chủ trì: Network và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả\nhai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nHồ sơ kiến trúc mạng\nCó thiết kế tổng thể, chi tiết, As-built; sơ đồ vật lý/lô-\nphương án bảo vệ; chuyên Duy trì HLD/LLD 12 vùng; gic; review; ma trận kết\nTC-062\nmôn đánh giá trước triển khai; quản lý phiên bản và quyền đọc nối.\n6.12.2.1\nphân vùng, quyền tối thiểu, tài liệu; kiểm tra route thực tế. Mã BC: [CẦN ĐIỀN].\ntr.72\nHA, phân đoạn vi mô hoặc Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ntương đương; rà soát 6 chứng.\ntháng/khi đổi.\nDự phòng mạng và Internet\nHợp đồng; topology; cấu\nDự phòng kết nối máy chủ,\nDual NIC/fabric, FW/LB HA, hình HA; biên bản\nTC-063 cân bằng tải và dự phòng nóng\nhai ISP; xác minh tuyến cáp và failover.\n6.12.2.2 a thiết bị chính; nếu cần\nmiền lỗi. Mã BC: [CẦN ĐIỀN].\ntr.73 Internet, ít nhất hai luồng quốc\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ntế từ ISP trong nước có hạ\nchứng.\ntầng khác nhau.\nTường lửa và IPS Rule; signature; log;\nNGFW/IPS tại Z01 và ranh giới\nTC-064 FW có chống xâm nhập hoặc capacity.\nphù hợp; cập nhật chữ ký, giám\n6.12.2.2 a tương đương giữa các vùng; Mã BC: [CẦN ĐIỀN].\nsát tải.\ntr.73 kiểm soát mã độc trên môi Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\ntrường mạng. chứng.\nThiết kế\nKiểm soát truy vấn, audit,\nDBF/DAM/tương đương;\nTC-065 Bảo vệ CSDL quyền và phát hiện bất thường\naudit; rule.\n6.12.2.2 a DBF hoặc phương án tương với DB nền tảng/DBaaS thuộc\nMã BC: [CẦN ĐIỀN].\ntr.73 đương cho CSDL tập trung. trách nhiệm XOR.\nKết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nPolicy; danh sách thiết bị;\nKiểm soát lớp mạng 802.1X/NAC hoặc kiểm soát\nTC-066 log; sơ đồ.\nNAC hoặc tương đương quản cổng/thiết bị theo rủi ro;\n6.12.2.2 a Mã BC: [CẦN ĐIỀN].\nlý thiết bị đầu cuối kết nối; monitoring tập trung.\ntr.73 Kết quả: Chưa đủ bằng\ngiám sát tập trung. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nWAF và chống DDoS Bảo vệ portal/API công khai tại Policy; origin ACL; hợp\nTC-067 Bảo vệ ứng dụng web nếu có; DMZ; chỉ nhận origin qua đồng; kịch bản thử.\n6.12.2.2 a chống từ chối dịch vụ bằng WAF; phối hợp ISP chống Mã BC: [CẦN ĐIỀN].\ntr.73 dịch vụ/giải pháp hoặc tương DDoS. Kết quả: Chưa đủ bằng\nđương. Hiện trạng: [CẦN ĐIỀN]. chứng.\nBiên vùng lõi ít tin cậy DFD; đánh giá rủi ro;\nLập hồ sơ luồng một chiều/hai\nTC-068 Datadiode/USG/BSG hoặc thiết kế cổng; kết quả thử.\nchiều, giới hạn giao thức và xác\n6.12.2.2 a kiểm soát rủi ro tương đương Mã BC: [CẦN ĐIỀN].\nminh phương án tương đương.\ntr.73 cho vùng lõi/OT với vùng ít Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\ntin cậy. chứng.\n14",
+    "chars": 2651,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 16,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-16.png",
+    "text": "Mã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nTicket; báo cáo capacity;\nDuy trì hạ tầng mạng\nThay đổi qua ticket, cập nhật chính sách Wi-Fi; cập\nTC-069 Cập nhật phát hiện tấn công;\nrule, giám sát CPU/RAM/băng nhật rule.\n6.12.2.2 a quản lý thay đổi/kết nối/gỡ\nthông; tách Wi-Fi nếu tồn tại. Mã BC: [CẦN ĐIỀN].\ntr.73 thiết bị; theo dõi hiệu năng;\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nbảo vệ Wi-Fi nếu có.\nchứng.\nPhân vùng theo chức năng Ánh xạ Z01–Z12; phân khu VLAN/VRF/VXLAN;\nTC-070 Tách nội bộ, biên, máy chủ storage, API, DB, queue và SG; route; sơ đồ.\n6.12.2.2 b nội bộ, DMZ, CSDL, quản trị OOB; không coi một VPC là Mã BC: [CẦN ĐIỀN].\ntr.73–74 thiết bị và quản trị; WAN/Wi- đủ. Kết quả: Chưa đủ bằng\nFi nếu có. Hiện trạng: [CẦN ĐIỀN]. chứng.\nCấu hình; báo cáo kiểm\nGiao thức an toàn Chốt phiên bản TLS/SSH và bộ\nTC-071 tra TLS/SSH.\nChỉ sử dụng giao thức truyền mật mã phù hợp bản dựng; tắt\n6.12.2.3 Mã BC: [CẦN ĐIỀN].\nthông và quản trị an toàn theo giao thức yếu.\ntr.74 Kết quả: Chưa đủ bằng\nđiều khoản. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nQuy tắc truy cập mạng Ma trận luồng; rule\nXác thực, kết nối an toàn, Default deny; rule có owner, export; cấu hình\nTC-072\nallowlist vào/ra theo dịch vụ; ticket và thời hạn; egress qua timeout/rate.\n6.12.2.4\ntimeout, giới hạn kết nối theo điểm kiểm soát. Mã BC: [CẦN ĐIỀN].\ntr.74\nnăng lực, kiểm soát nội bộ và Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\negress máy chủ. chứng.\nQuản trị từ xa\nPolicy; cấu hình; log\nVPN/ZTNA hoặc tương PAW → gateway Z01 → PAM\nTC-073 PAM; trạng thái EDR.\nđương; MFA và xác thực bổ Z06 → đích được duyệt; không\n6.12.2.5 Mã BC: [CẦN ĐIỀN].\nsung; giới hạn nguồn/thiết bị; route toàn mạng.\ntr.74–75 Kết quả: Chưa đủ bằng\nquản trị gián tiếp và endpoint Hiện trạng: [CẦN ĐIỀN].\nchứng.\nđược bảo vệ.\nRoute; ACL; topology;\nMạng quản trị chuyên dụng Z06/Z10 riêng; không egress\nTC-074 quy trình nhập gói.\nTài nguyên quản trị tách vật Internet; bản vá nhập qua kho\n6.12.2.6 Mã BC: [CẦN ĐIỀN].\nlý/lô-gic với mạng chính và trung chuyển kiểm tra.\ntr.75 Kết quả: Chưa đủ bằng\nkhông kết nối Internet. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nKiểm thử và nghiệm thu\nKế hoạch; phân công độc\nCó kế hoạch, thử trước bàn\nTC-075 Tổ chức T01–T12; bằng chứng lập; biên bản; phê duyệt.\ngiao/vận hành, giám sát độc\n6.12.2.7 cấu hình và retest kèm biên bản. Mã BC: [CẦN ĐIỀN].\nlập; báo cáo được chuyên\ntr.75 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ntrách xác nhận và chủ quản\nchứng.\nduyệt.\n15",
+    "chars": 2479,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 17,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-17.png",
+    "text": "6 13 GIÁM SÁT\nĐơn vị chủ trì: SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch\nvụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nGiám sát tập trung 24 trên 7 Lịch trực; SLA; use case;\nSOC có ca trực, escalation,\nTC-076 Giám sát thiết bị, máy chủ, ticket; log bàn giao.\nngười thay ca và phạm vi nguồn\n6.13.2.1 ứng dụng, dịch vụ; liên kết sự Mã BC: [CẦN ĐIỀN].\nlog hai IDC.\ntr.75 kiện bằng SIEM; bố trí nguồn Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nlực 24/7. chứng.\nTính năng phòng vệ hệ thống Host firewall, agent và FIM Baseline; agent state; log.\nTC-077\nBật firewall/phát hiện/ngăn theo baseline đã kiểm thử tương Mã BC: [CẦN ĐIỀN].\n6.13.2.2\nchặn xâm nhập của OS/hệ thích. Kết quả: Chưa đủ bằng\ntr.75\nthống nếu có. Hiện trạng: [CẦN ĐIỀN]. chứng.\nPort map; cấu hình;\nCổng kết nối và quản trị Admin endpoint riêng, ACL\nTC-078 endpoint catalog.\nKiểm soát cổng thiết bị nếu hỗ qua PAM; port security trên\n6.13.2.3 Mã BC: [CẦN ĐIỀN].\ntrợ; tách cổng quản trị ứng switch/SDN.\ntr.76 Kết quả: Chưa đủ bằng\ndụng với cổng dịch vụ. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nCấu hình exporter; mẫu\nThu NetFlow/IPFIX/SDN flow\nTC-079 Dữ liệu mạng flow; rule.\nhoặc cảm biến phù hợp; bảo vệ\n6.13.2.4 Thu flow log và/hoặc lưu Mã BC: [CẦN ĐIỀN].\ndữ liệu thu.\ntr.76 lượng để rà soát, cảnh báo. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nBiên bản quý; phiên bản\nSOC đánh giá false positive và\nTC-080 Điều chỉnh cảnh báo rule; kết quả thử.\nca bỏ sót, có phê duyệt thay đổi\n6.13.2.5 Rà soát ngưỡng cảnh báo ít Mã BC: [CẦN ĐIỀN].\nrule.\ntr.76 nhất hằng quý. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\n16",
+    "chars": 1651,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 18,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-18.png",
+    "text": "6 14 NHÂN SỰ\nĐơn vị chủ trì: Nhân sự và chủ quản. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả\nhai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nTổ chức và độc lập chuyên Sơ đồ tổ chức; quyết\nTC-081 môn Quyết định giao nhiệm vụ và định; hồ sơ năng lực; ma\n6.14.1; Có bộ phận vận hành, quản trị RACI; kiểm soát xung đột trận quyền.\n6.14.2.1 và bảo vệ an ninh riêng; độc quyền. Mã BC: [CẦN ĐIỀN].\ntr.76 lập chuyên môn; nhân sự đủ Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nnăng lực. chứng.\nNhận thức và nghỉ việc Danh sách học; kết quả;\nOnboarding/offboarding nối HR\nTC-082 Đào tạo toàn bộ người dùng ít NDA; phiếu thu hồi.\nvới IAM/IDC/IT; đào tạo nhận\n6.14.2.2 nhất hằng năm; khi đổi/nghỉ Mã BC: [CẦN ĐIỀN].\nthức và kiểm tra.\ntr.76 việc thu hồi tài sản, quyền vật Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nlý/lô-gic, có cam kết bảo mật. chứng.\nĐào tạo theo vai trò Kế hoạch; tài liệu; điểm\nChương trình riêng Platform,\nTC-083 Đào tạo chuyên môn và trách kiểm tra; hồ sơ năng lực.\nNetwork, SOC, phát triển và\n6.14.2.3 nhiệm pháp lý ít nhất hằng Mã BC: [CẦN ĐIỀN].\nquản trị khóa.\ntr.77 năm hoặc khi thay đổi nhân sự Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nliên quan. chứng.\n17",
+    "chars": 1242,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 19,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-19.png",
+    "text": "6 15 NHÀ CUNG CẤP\nĐơn vị chủ trì: Mua sắm và GRC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nDanh mục nhà cung cấp Danh mục; hợp đồng;\nTC-084 Kiểm kê/phân loại, ranh giới Danh mục IDC, ISP, SOC, phần giấy tờ năng lực/điều kiện\n6.15.1; trách nhiệm; nhà cung cấp mềm và hỗ trợ; kiểm tra pháp lý khi áp dụng.\n6.15.2.1 ANM đủ điều kiện theo quy theo dịch vụ thực tế. Mã BC: [CẦN ĐIỀN].\ntr.77 định; rà soát hằng năm/khi Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nđổi. chứng.\nQuy định; biên bản rà\nQuy định lựa chọn, đánh giá,\nTC-085 Quy định nhà cung cấp soát.\ntruy cập, giám sát và kết thúc\n6.15.2.2 Có quy định quản lý; rà soát Mã BC: [CẦN ĐIỀN].\ndịch vụ.\ntr.77 hằng năm/khi đổi. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nHợp đồng/SLA/phụ lục;\nThỏa thuận quyền truy cập, dữ\nTC-086 Điều khoản bảo mật review pháp chế.\nliệu/log, sự cố, khôi phục, kiểm\n6.15.2.3 Hợp đồng có yêu cầu bảo mật; Mã BC: [CẦN ĐIỀN].\ntra và chấm dứt.\ntr.77 rà soát khi gia hạn. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nBáo cáo SLA; biên bản\nTC-087 Theo dõi nhà cung cấp Đối soát SLA, quyền truy cập, đánh giá; ticket.\n6.15.2.4 Giám sát việc thực hiện yêu sự cố và bằng chứng định kỳ. Mã BC: [CẦN ĐIỀN].\ntr.77 cầu cung cấp dịch vụ. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nChecklist kết thúc; biên\nThu hồi quyền, nhận dữ liệu và\nTC-088 bản; log thu hồi.\nKết thúc hợp đồng log, xác nhận xóa/hoàn trả theo\n6.15.2.5 Mã BC: [CẦN ĐIỀN].\nRà soát an ninh khi chấm dứt. hợp đồng.\ntr.77 Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\n18",
+    "chars": 1648,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 20,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-20.png",
+    "text": "6 16 PHÁT TRIỂN AN TOÀN\nĐơn vị chủ trì: DevSecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC\nvà dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nQuy trình phát triển\nSSDLC; hợp đồng;\nCó SSDLC, rà soát hằng Áp dụng cho bản fork XOR,\nreview; release checklist;\nTC-089 năm/khi đổi; phần thuê ngoài portal và API; yêu cầu release\nbáo cáo thử.\n6.16.2.1 có cam kết, mã nguồn hoặc qua review, staging và phê\nMã BC: [CẦN ĐIỀN].\ntr.78 biện pháp thay thế theo điều duyệt.\nKết quả: Chưa đủ bằng\nkhoản; thử và đánh giá trước Hiện trạng: [CẦN ĐIỀN].\nchứng.\ndùng/khi đổi kiến trúc.\nQuy trình; kênh liên hệ;\nTiếp nhận lỗ hổng phần mềm Đầu mối PSIRT/XOR tiếp\nTC-090 ticket đã che dữ liệu.\nCó kênh bên ngoài báo cáo và nhận, phân loại, khắc phục,\n6.16.2.2 Mã BC: [CẦN ĐIỀN].\nquy trình xử lý; rà soát hằng phản hồi.\ntr.78 Kết quả: Chưa đủ bằng\nnăm/khi đổi. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nRCA; ticket; thay đổi\nTC-091 Nguyên nhân lỗ hổng Gắn RCA với defect và cập test/code.\n6.16.2.3 Phân tích nguyên nhân gốc nhật rule/test để tránh tái diễn. Mã BC: [CẦN ĐIỀN].\ntr.78 của lỗ hổng. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nSBOM; SCA; catalog\nThành phần bên thứ ba SBOM theo release, nguồn gói,\nTC-092 dependency; review quý.\nQuản lý danh sách thành phần giấy phép, CVE và bản vá\n6.16.2.4 Mã BC: [CẦN ĐIỀN].\nhiện tại/dự kiến và rủi ro; cập upstream.\ntr.78–79 Kết quả: Chưa đủ bằng\nnhật ít nhất hằng quý. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nSơ đồ; quyền CI; secret\nTách môi trường Project/credential/runner riêng;\nTC-093 scan.\nTách dev/test/production; secret manager và dữ liệu thử\n6.16.2.5 Mã BC: [CẦN ĐIỀN].\nkhông lưu bí mật trong mã đã xử lý.\ntr.79 Kết quả: Chưa đủ bằng\nnguồn. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nDanh sách học; nội dung;\nĐào tạo lập trình Chương trình cho\nTC-094 bài kiểm tra.\nĐào tạo phát triển an toàn phù Python/API/IaC/container và\n6.16.2.6 Mã BC: [CẦN ĐIỀN].\nhợp môi trường ít nhất hằng phần tùy biến XOR.\ntr.79 Kết quả: Chưa đủ bằng\nnăm. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nKiến trúc ứng dụng an toàn Threat model; code\nThreat model portal/API;\nTC-095 Kiểm tra đầu vào/ra; chống review; test; secret scan.\nvalidation, encoding, session và\n6.16.2.7 tấn công phổ biến; xử lý lỗi; Mã BC: [CẦN ĐIỀN].\nerror handling theo thiết kế.\ntr.79 quản lý phiên; không Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nhardcode bí mật. chứng.\nDanh mục thư viện;\nThành phần bảo mật tin cậy Thư viện xác thực/mật mã có\nTC-096 review; mẫu audit.\nDùng mô-đun được kiểm quản lý vòng đời; audit API\n6.16.2.8 Mã BC: [CẦN ĐIỀN].\nchứng, mật mã mạnh và log theo request ID.\ntr.79 Kết quả: Chưa đủ bằng\nhành vi người dùng. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nKiểm tra trước phát hành Báo cáo; waiver có hạn;\nSAST/SCA/secret scan/DAST\nTC-097 Kiểm tra mã phê duyệt release.\nvà pentest theo phạm vi; gate\n6.16.2.9 nguồn/dependency; pentest và Mã BC: [CẦN ĐIỀN].\nphát hành, retest.\ntr.79 xử lý lỗ hổng trước Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nproduction. chứng.\n19",
+    "chars": 2997,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 21,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-21.png",
+    "text": "6 17 ỨNG PHÓ SỰ CỐ\nĐơn vị chủ trì: CSIRT và SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nLực lượng ứng phó Quyết định; danh bạ; lịch\nChỉ định chỉ huy, kỹ thuật, pháp\nTC-098 Có đầu mối chính và ít nhất trực; xác minh liên hệ.\nchế, truyền thông và đầu mối\n6.17.2.1 một dự phòng, vai trò phối Mã BC: [CẦN ĐIỀN].\nIDC/ISP.\ntr.80 hợp; xác minh liên hệ hằng Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nnăm. chứng.\nQuy trình; mẫu báo cáo;\nBáo cáo sự cố SOC phân loại, mở hồ sơ, báo\nTC-099 ticket.\nCó quy trình nội bộ, phân cáo chỉ huy và chuyển tuyến\n6.17.2.2 Mã BC: [CẦN ĐIỀN].\nnhóm; rà soát hằng năm/khi theo nghĩa vụ áp dụng.\ntr.80 Kết quả: Chưa đủ bằng\nđổi. Hiện trạng: [CẦN ĐIỀN].\nchứng.\nQuy trình ứng phó Playbook; danh sách phối\nPlaybook lộ khóa, ransomware,\nTC-100 Có quy trình phối hợp cơ quan hợp; biên bản.\ntruy cập chéo tenant, mất DC và\n6.17.2.3 chức năng, chuyên gia, nhà Mã BC: [CẦN ĐIỀN].\nDDoS.\ntr.80 cung cấp; rà soát hằng Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nnăm/khi đổi. chứng.\nDanh bạ ngoại tuyến\nDanh bạ và kênh ngoài nền tảng được bảo vệ; biên bản\nTC-101 Kênh liên lạc dự phòng\nvẫn dùng được khi IAM/cloud thử.\n6.17.2.4 Có kênh chính/phụ; rà soát\ndừng. Mã BC: [CẦN ĐIỀN].\ntr.80 hằng năm/khi đổi.\nHiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nBáo cáo hậu kiểm; ticket\nLập timeline, nguyên nhân, tác\nTC-102 cải tiến.\nĐánh giá sau sự cố động và hành động có\n6.17.2.5 Mã BC: [CẦN ĐIỀN].\nThực hiện đánh giá sau sự cố. owner/hạn.\ntr.80 Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nKế hoạch; biên bản; bài\nTC-103 Diễn tập Kết hợp tabletop và thử kỹ thuật học; danh sách tham dự.\n6.17.2.6 Có kế hoạch và diễn tập ít theo phạm vi đã duyệt. Mã BC: [CẦN ĐIỀN].\ntr.80 nhất hằng năm. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nĐịnh nghĩa mức nghiêm trọng Ma trận phân loại; phê\nTC-104 Ngưỡng sự cố theo phạm vi dữ liệu, số tenant, duyệt; lịch sử sửa.\n6.17.2.7 Thiết lập, duy trì ngưỡng và thời gian gián đoạn và tác động Mã BC: [CẦN ĐIỀN].\ntr.80 cập nhật hằng năm/khi đổi. xã hội. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN]. chứng.\n20",
+    "chars": 2184,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 22,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-22.png",
+    "text": "6 18 KIỂM TRA AN NINH\nĐơn vị chủ trì: Đánh giá độc lập và GRC. Phạm vi hiện trạng: [CẦN XÁC\nNHẬN cả hai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nChương trình pentest ROE; phê duyệt; danh\nPhê duyệt phạm vi, thời gian, ROE riêng cho portal/API, nội sách mục tiêu; cam kết\nTC-105\ncách thử, đầu mối, giới hạn, bộ, tenant isolation và đặc bảo mật.\n6.18.2.1\nbảo vệ dữ liệu và vận hành; ưu quyền; có dừng khẩn cấp. Mã BC: [CẦN ĐIỀN].\ntr.81\ntiên môi trường phát triển/cửa Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nsổ được duyệt. chứng.\nBáo cáo; phạm vi; ngày;\nTC-106 Pentest bên ngoài Pentest endpoint Internet của retest.\n6.18.2.2 Kiểm thử ứng dụng/dịch vụ XOR theo FQDN/IP đã chốt. Mã BC: [CẦN ĐIỀN].\ntr.81 công khai ít nhất hằng năm. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nDanh sách phát hiện;\nGắn phát hiện với ticket, SLA\nTC-107 Khắc phục sau pentest ticket; retest.\nnội bộ, chủ sở hữu và phép thử\n6.18.2.3 Xử lý tồn tại theo phạm vi và Mã BC: [CẦN ĐIỀN].\nlại.\ntr.81 mức ưu tiên của tổ chức. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nBiên bản review; rule/test\nSOC/Platform cập nhật rule,\nTC-108 Hiệu lực kiểm soát bổ sung.\nbaseline và playbook theo bài\n6.18.2.4 Đánh giá lại hiệu quả biện Mã BC: [CẦN ĐIỀN].\nhọc.\ntr.81 pháp sau mỗi đợt pentest. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\nBáo cáo nội bộ; ROE;\nĐánh giá ranh giới quản trị,\nTC-109 Pentest bên trong retest.\ntenant, storage và dịch vụ nền\n6.18.2.5 Kiểm thử tài nguyên nội bộ ít Mã BC: [CẦN ĐIỀN].\ntrong phạm vi duyệt.\ntr.81 nhất hằng năm. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\n21",
+    "chars": 1663,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 23,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-23.png",
+    "text": "A 4 AN TOÀN VẬT LÝ\nĐơn vị chủ trì: IDC và Hạ tầng XOR. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả\nhai IDC và dịch vụ áp dụng].\nMã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nVị trí phòng máy Bản vẽ vị trí; biên bản\nKhảo sát riêng IDC Cầu Giấy\nTC-110 Vị trí tránh tầng cao, tầng khảo sát; xác nhận IDC.\nvà IDC Nam Thăng Long; ghi\nA.4.1 hầm, nơi chứa nước và vùng Mã BC: [CẦN ĐIỀN].\nvị trí thực, rủi ro và xử lý.\ntr.109 dễ cháy/nhiễu mạnh theo điều Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nkhoản. chứng.\nQuy chế; access log; mẫu\nRa vào và camera\ncamera đủ mốc; hợp\nTC-111 Cổng điện tử; camera tập Kiểm soát thẻ, khách thăm, rack\nđồng.\nA.4.2 trung 24/7, lưu tối thiểu 6 và camera tại cả hai IDC.\nMã BC: [CẦN ĐIỀN].\ntr.109 tháng; vành đai và bảo vệ Hiện trạng: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng\nvùng thiết bị quan trọng.\nchứng.\nẢnh hiện trạng; danh mục\nChống trộm phá hoại\nrack; biên bản thử báo\nTC-112 Rack cố định, nhãn, cáp đi Khóa rack, quản lý chìa, giám\nđộng.\nA.4.3 ngầm có bảo vệ, báo động sát cửa và tuyến cáp.\nMã BC: [CẦN ĐIỀN].\ntr.109 chống trộm tự động hoặc Hiện trạng: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng\ntương đương.\nchứng.\nNghiệm thu; bản vẽ; đo\nChống sét\nTC-113 Thu hồ sơ chống sét, tiếp địa và kiểm; bảo trì.\nChống sét tòa nhà được\nA.4.4 kiểm tra định kỳ từ IDC. Mã BC: [CẦN ĐIỀN].\nnghiệm thu/kiểm tra; bảo vệ\ntr.110 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nlan truyền điện và kết nối.\nchứng.\nPhòng cháy Hồ sơ nghiệm thu; bảo\nXác minh hệ thống PCCC và\nTC-114 Báo/chữa cháy tự động, tín trì; sơ đồ; diễn tập.\nphương án phối hợp tại từng\nA.4.5 hiệu cảnh báo, vật liệu chịu Mã BC: [CẦN ĐIỀN].\nIDC.\ntr.110 lửa và cách ly vùng quan Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\ntrọng. chứng.\nBản vẽ; biên bản khảo\nChống nước\nTC-115 Kiểm tra đường ống, cảm biến sát; log/cảnh báo nếu có.\nBảo vệ thoát nước, trần/cửa và\nA.4.6 rò và xử lý sự cố nước tại IDC. Mã BC: [CẦN ĐIỀN].\nchống tích tụ, thấm nước vào\ntr.110 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nphòng máy.\nchứng.\nHồ sơ vật liệu; kiểm tra;\nTC-116 Chống tĩnh điện Quy trình thao tác phần cứng và quy trình bảo trì.\nA.4.7 Biện pháp chống tĩnh điện và bảo trì sàn tại IDC. Mã BC: [CẦN ĐIỀN].\ntr.110 sàn chống tĩnh điện. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\n22",
+    "chars": 2280,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 24,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-24.png",
+    "text": "Mã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nSơ đồ điều hòa; log\nNhiệt độ độ ẩm Giám sát môi trường 24/7, giới nhiệt/ẩm; cảnh báo; bảo\nTC-117\nĐiều hòa phòng máy riêng, hạn theo thiết bị và quy trình trì.\nA.4.8\nduy trì ổn định; đo/cảnh báo phản ứng. Mã BC: [CẦN ĐIỀN].\ntr.110\nđộ ẩm và hút ẩm. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nSơ đồ một sợi; xác nhận\nTC-118 Nguồn điện Xác minh đường cấp điện, trạm nguồn; log UPS; biên bản\nA.4.9 Nguồn ổn định có chống quá nguồn, UPS và đấu A/B cho chuyển nguồn.\ntr.110– tải; hai nguồn từ hai trạm điện rack XOR. Mã BC: [CẦN ĐIỀN].\n111 khác nhau; UPS liên tục. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\nBảo vệ điện từ Bản vẽ; ảnh; hồ sơ vật\nKhảo sát tuyến cáp, thiết bị gây\nTC-119 Tách điện và tín hiệu, che liệu; kiểm tra của IDC.\nnhiễu và che chắn khu vực\nA.4.10 nguồn nhiễu; tấm chắn điện từ Mã BC: [CẦN ĐIỀN].\ntương ứng.\ntr.111 vùng máy chủ quan trọng/thiết Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nbị mạng chính. chứng.\n23",
+    "chars": 1035,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 3,
+    "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx",
+    "page": 25,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/03_02_Phu_luc_doi_chieu_yeu_cau_TCVN/page-25.png",
+    "text": "XÁC NHẬN KẾT QUẢ ĐỐI CHIẾU\nTổng số điểm áp dụng: [ ]; không áp dụng có căn cứ: [ ]; đạt: [ ]; không đạt:\n[ ]; chưa đủ bằng chứng: [ ]. Ngày chốt và phạm vi: [CẦN ĐIỀN].\nTồn tại chưa xử lý: [CẦN ĐIỀN mã yêu cầu, ảnh hưởng, hành động, người chịu\ntrách nhiệm, hạn và biện pháp tạm thời].\nKết luận của người kiểm tra: [CẦN ĐIỀN kết luận trong phạm vi và giới hạn\nkiểm tra thực tế].\nNơi nhận: NGƯỜI CÓ THẨM QUYỀN XÁC NHẬN\nNhư trên;\nLưu: hồ sơ XOR SECURE\nCLOUD.\n[CẦN ĐIỀN NGƯỜI KIỂM TRA ĐƯỢC\nPHÂN CÔNG]\n24",
+    "chars": 499,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nQUY CHẾ VÀ QUY TRÌNH\nBẢO ĐẢM AN NINH MẠNG XOR SECURE CLOUD\nXOR SECURE CLOUD\nKèm theo Quyết định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN]\nNền tảng XOR STACK CLOUD\nĐơn vị vận hành: Khối Hạ tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nHà Nội, tháng 10 năm 2026",
+    "chars": 349,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-2.png",
+    "text": "Ban hành kèm theo Quyết định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của Công ty\nCổ phần XOR CLOUD.\nĐiều 1 Phạm vi và đối tượng áp dụng\nQuy chế áp dụng cho toàn bộ nền tảng XOR STACK CLOUD và dịch vụ quản\ntrị chung tại IDC Cầu Giấy, IDC Nam Thăng Long; nhân sự XOR, đơn vị vận hành,\nđơn vị an ninh và bên thứ ba có quyền tác động đến hệ thống trong phạm vi hợp đồng.\nĐiều 2 Nguyên tắc bảo vệ\nBảo vệ theo cấp độ được phê duyệt; quản lý theo rủi ro; quyền tối thiểu; tách\nnhiệm vụ; phân vùng và chặn mặc định; bảo vệ dữ liệu theo phân loại; kiểm chứng\nbằng bằng chứng và phép thử. Các đơn vị được giao nhiệm vụ chịu trách nhiệm triển\nkhai và duy trì hiệu lực của biện pháp bảo vệ.\nĐiều 3 Trách nhiệm\nChủ quản phê duyệt phạm vi, nguồn lực, rủi ro và quyết định theo thẩm quyền.\nĐơn vị vận hành triển khai, cập nhật hiện trạng và khắc phục. Đơn vị chuyên trách về\nan ninh mạng hướng dẫn, kiểm tra và cho ý kiến chuyên môn. GRC quản lý hồ sơ;\nSOC giám sát 24/7; chủ tài sản chịu trách nhiệm dữ liệu và quyền. Người thực hiện và\nngười xác nhận phải tuân thủ cơ chế độc lập chuyên môn đã được giao.\n1",
+    "chars": 1083,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 3,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-3.png",
+    "text": "ĐIỀU 4 TỔ CHỨC THỰC THI VÀ LƯU HỒ SƠ\nMỗi quy trình QT01–QT12 phải được gắn đầu mối chính, dự phòng và danh sách\nhệ thống áp dụng. Kết quả thực hiện được lưu bằng mã hồ sơ/ticket, ngày, phiên bản,\nngười lập và xác nhận. Hồ sơ có dữ liệu nhạy cảm được cấp quyền tối thiểu; bản gửi\nbên ngoài chỉ chứa thông tin cần thiết và được chủ quản cho phép.\nĐiều 5 Xử lý trường hợp khẩn cấp và ngoại lệ\nTrường hợp khẩn cấp thực hiện theo phân quyền và điều kiện dừng đã quy định,\ncó ghi log và hậu kiểm. Ngoại lệ phải nêu yêu cầu, lý do, rủi ro, biện pháp bù, thời hạn\nvà người phê duyệt; được rà soát khi hết hạn hoặc thay đổi. Không dùng ngoại lệ nội\nbộ để thay yêu cầu bắt buộc khi quy định không cho phép.\nĐiều 6 Kiểm tra và cập nhật\nĐơn vị chuyên trách theo dõi lịch kiểm tra, tình trạng bằng chứng và hành động\nkhắc phục; báo cáo chủ quản các mục chưa đáp ứng. Quy chế và quy trình được rà\nsoát theo tần suất tương ứng trong TCVN, khi thay đổi tổ chức/kiến trúc hoặc sau sự\ncố. Các mốc phản ứng, thời hạn vá và mục tiêu phục hồi phải được chốt trong phụ lục\nvận hành có người duyệt.\nTham số phải phê duyệt Giá trị hoặc văn bản\nChỉ huy sự cố/DR và người dự phòng [CẦN ĐIỀN họ tên, vai trò, liên hệ và quyền quyết định]\nThời gian phản ứng và báo cáo sự cố [CẦN ĐIỀN theo loại sự cố và nghĩa vụ pháp lý/hợp đồng]\nThời hạn xử lý lỗ hổng theo rủi ro [CẦN ĐIỀN mức, thời hạn, ngoại lệ và quyền phê duyệt]\nRPO RTO lịch backup và bất biến [CẦN ĐIỀN theo BIA từng dịch vụ]\n[CẦN ĐIỀN theo loại; log ANM/camera bảo đảm tối thiểu 6\nLưu giữ hồ sơ và bằng chứng\ntháng theo TCVN]\n2",
+    "chars": 1559,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 4,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-4.png",
+    "text": "QT01 QUẢN LÝ RỦI RO VÀ NGOẠI LỆ\nTrách nhiệm: GRC; chủ quản phê duyệt.\nCăn cứ: TCVN 6.1; 6.4; 6.15. Tần suất: Ít nhất 6 tháng nhận diện/đánh giá hiệu\nlực; quy trình hằng năm và khi thay đổi.\nBước 1. Chủ tài sản cung cấp danh mục, dữ liệu, phụ thuộc và hậu quả gián\nđoạn; GRC nhận diện mối đe dọa, điểm yếu, nhà cung cấp và sự kiện có thể xảy ra.\nBước 2. Nhóm đánh giá xác định khả năng, tác động và căn cứ; BIA xem xét cả\nkhách hàng, lợi ích công cộng, trật tự/an toàn xã hội hoặc an ninh quốc gia nếu liên\nquan.\nBước 3. Chọn tránh, giảm, chuyển giao hoặc chấp nhận theo thẩm quyền; chỉ\nđịnh người, hạn, kinh phí và chỉ tiêu kiểm tra; quản lý biện pháp tương đương bằng hồ\nsơ riêng.\nBước 4. Đầu mối kỹ thuật triển khai qua quản lý thay đổi; người kiểm tra xác\nnhận hiệu lực; GRC đánh giá tồn dư và trình chủ quản.\nBước 5. Theo dõi thay đổi, thông báo bên liên quan và đóng có chứng cứ. Ngoại\nlệ có lý do, thời hạn, biện pháp bù và người duyệt; không thay thế yêu cầu bắt buộc.\nHồ sơ lưu và điều kiện hoàn thành\nSổ rủi ro, BIA, phiếu ngoại lệ, kế hoạch xử lý, biên bản xác nhận và quyết định\nchấp nhận.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n3",
+    "chars": 1308,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 5,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-5.png",
+    "text": "QT02 QUẢN LÝ TÀI SẢN DỮ LIỆU VÀ VÒNG ĐỜI\nTrách nhiệm: Hạ tầng, Platform, chủ dữ liệu.\nCăn cứ: TCVN 6.2–6.4. Tần suất: Kiểm kê hằng năm; phát hiện phần\ncứng/DHCP hằng quý; phần mềm trái phép 6 tháng; rà quyền dữ liệu hằng quý.\nBước 1. Tiếp nhận tài sản có chủ sở hữu, ID, site/rack/vùng, IP/MAC/serial,\nphiên bản, EOL, mục đích và bằng chứng kiểm tra trước sử dụng.\nBước 2. Cập nhật CMDB, danh mục phần mềm và dữ liệu; phân loại độ nhạy\ncảm, quyền, thời hạn lưu và hủy; phần mềm phải thuộc danh sách được phép.\nBước 3. Đối soát discovery, DHCP/IPAM, inventory nền tảng và danh mục; xử\nlý tài sản lạ bằng từ chối/cách ly/tiếp nhận có phê duyệt.\nBước 4. Khi thay đổi hoặc thu hồi, cập nhật quan hệ tài sản/dữ liệu và quyền;\nkiểm tra snapshot, backup, image và dữ liệu còn lại theo thời hạn áp dụng.\nBước 5. Thanh lý bằng phương pháp sanitize phù hợp media hoặc hủy vật lý; lập\nbiên bản, xác minh và đóng vòng đời trong CMDB.\nHồ sơ lưu và điều kiện hoàn thành\nCMDB, catalog phần mềm/SBOM, danh mục dữ liệu, ACL, phiếu tiếp nhận và\nbiên bản hủy.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n4",
+    "chars": 1248,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 6,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-6.png",
+    "text": "QT03 QUẢN LÝ TÀI KHOẢN VÀ TRUY CẬP ĐẶC QUYỀN\nTrách nhiệm: IAM; chủ tài sản duyệt; bảo mật kiểm tra.\nCăn cứ: TCVN 6.6; 6.12.2.5–6.12.2.6. Tần suất: Rà tài khoản ít nhất hằng quý; rà\nquy trình hằng năm; thu hồi ngay theo thay đổi nhân sự.\nBước 1. Người yêu cầu lập phiếu nêu hệ thống, vai trò, mục đích, thời hạn và\nngười quản lý; chủ tài sản xét quyền tối thiểu, tách nhiệm vụ.\nBước 2. IAM tạo tài khoản cá nhân/nhóm kỹ thuật có người sở hữu; áp MFA đối\nvới đặc quyền, bên ngoài và đối tác; tách tài khoản vận hành với tài khoản tenant.\nBước 3. Truy cập từ PAW được bảo vệ qua gateway và PAM; chỉ\nđích/lệnh/quyền/thời gian được duyệt; ghi phiên và log; không cấp route rộng hoặc\nInternet cho tài nguyên quản trị.\nBước 4. Thay đổi/thu hồi qua ticket, đối soát tất cả hệ thống liên quan; vô hiệu tài\nkhoản nhàn rỗi sau 45 ngày theo điều khoản; quản lý ngoại lệ và tài khoản mặc định.\nBước 5. Khẩn cấp dùng danh tính được kiểm soát, cảnh báo, giới hạn thời gian\nvà hậu kiểm; người có quyền không tự phê duyệt và xóa dấu vết phiên của mình.\nHồ sơ lưu và điều kiện hoàn thành\nPhiếu cấp/đổi/thu hồi, ma trận quyền, log MFA/PAM, rà soát quý và biên bản\nkhẩn cấp.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n5",
+    "chars": 1362,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 7,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-7.png",
+    "text": "QT04 CẤU HÌNH THAY ĐỔI VÀ BẢN VÁ\nTrách nhiệm: Platform và Network; CAB hoặc người được giao duyệt.\nCăn cứ: TCVN 6.5; 6.7; 6.12. Tần suất: Scan toàn hệ thống 6 tháng, tài sản quan\ntrọng quý; máy người dùng kiểm tra vá tháng; baseline/quy trình theo điều khoản.\nBước 1. Duy trì baseline theo loại tài sản, bản dựng và yêu cầu an ninh; ghi nhận\nport/service, xác thực, thời gian, log, mã hóa, session và cấu hình không được phép.\nBước 2. Tiếp nhận CVE/thay đổi; đánh giá phạm vi, mức rủi ro và phụ thuộc;\nxác định kiểm thử, phương án rollback, cửa sổ và người phối hợp.\nBước 3. Thử trên môi trường phù hợp, kiểm tra tương thích/hiệu năng; chỉ triển\nkhai sau phê duyệt; nhập gói đã kiểm tra vào kho nội bộ thay vì mở Internet mạng\nquản trị.\nBước 4. Thực hiện theo kế hoạch, lưu cấu hình trước/sau và log; kiểm tra chức\nnăng/an ninh, rollback khi vượt điều kiện dừng đã chốt.\nBước 5. Cập nhật CMDB/baseline/sơ đồ, scan và retest; ngoại lệ có hạn và kiểm\nsoát bù; theo dõi drift và tài sản hết hỗ trợ.\nHồ sơ lưu và điều kiện hoàn thành\nYêu cầu thay đổi, đánh giá tác động, phê duyệt, log triển khai, rollback, scan và\nretest.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n6",
+    "chars": 1327,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 8,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-8.png",
+    "text": "QT05 BẢO VỆ DỮ LIỆU KHÓA VÀ CHỮ KÝ SỐ\nTrách nhiệm: Chủ dữ liệu; quản trị khóa; bảo mật.\nCăn cứ: TCVN 6.4; 6.11. Tần suất: Theo vòng đời dữ liệu/khóa; rà quyền và log\ndữ liệu ít nhất hằng quý.\nBước 1. Lập danh mục dữ liệu, chủ sở hữu, phân loại, luồng, quyền truy cập và\nnghĩa vụ lưu/hủy; xác định dữ liệu quan trọng và giao dịch cần chữ ký số.\nBước 2. Áp mã hóa lưu và truyền hoặc phương án tương đương có thuyết minh;\nluồng quan trọng kiểm tra hai lớp mã hóa đồng thời theo yêu cầu; dùng thuật toán\nmạnh.\nBước 3. Quản lý sinh, phân phối, dùng, luân chuyển, thu hồi, sao lưu và khôi\nphục khóa; người quản trị khóa và hạ tầng tách nhiệm vụ; không lưu bí mật trong\ncode/hồ sơ.\nBước 4. Giám sát toàn vẹn, DLP và truy cập dữ liệu; ghi việc xuất/sao chép; xác\nminh chữ ký, chứng thư và quyền khi trao đổi dữ liệu quan trọng.\nBước 5. Hủy dữ liệu/khóa theo phân loại và thời hạn; khi lộ khóa, kích hoạt ứng\nphó, thu hồi, thay thế và kiểm tra ảnh hưởng bản sao.\nHồ sơ lưu và điều kiện hoàn thành\nDanh mục dữ liệu, DFD, ma trận mật mã, log KMS, chứng thư, thử restore khóa,\nlog DLP và biên bản hủy.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n7",
+    "chars": 1297,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 9,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-9.png",
+    "text": "QT06 NHẬT KÝ GIÁM SÁT VÀ TRỰC AN NINH\nTrách nhiệm: SOC và SecOps.\nCăn cứ: TCVN 6.8; 6.10; 6.13. Tần suất: Trực 24/7; log tối thiểu 6 tháng; rà log\ntháng; điều chỉnh cảnh báo quý.\nBước 1. Lập ma trận tài sản/nguồn log, loại sự kiện và trường dữ liệu; đồng bộ\ngiờ; cấu hình agent/collector có xác thực và giám sát mất nguồn.\nBước 2. Thu log vào vùng Z08 khác vùng sinh log; giới hạn quyền, chống\nsửa/xóa; tính dung lượng theo số đo, cảnh báo đầy kho và xác minh retention.\nBước 3. SOC nhận cảnh báo, phân loại, xác minh, mở ticket và chuyển chỉ huy\ntheo mức sự cố; ca sau nhận đầy đủ công việc đang mở.\nBước 4. Kết hợp EDR, network flow, WAF/IPS, IAM/PAM và dữ liệu ứng dụng;\nchỉ cô lập tài sản theo quyền hạn/playbook và lưu chứng cứ.\nBước 5. Rà soát nguồn, quy tắc và ngưỡng; thử use case; lập báo cáo hoạt động,\nsự kiện thiếu nguồn và hành động khắc phục.\nHồ sơ lưu và điều kiện hoàn thành\nLịch trực, log bàn giao, ma trận nguồn, rule, ticket, báo cáo tháng/quý và phép\nthử.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n8",
+    "chars": 1183,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 10,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-10.png",
+    "text": "QT07 SAO LƯU VÀ KHÔI PHỤC DỮ LIỆU\nTrách nhiệm: Backup; chủ dịch vụ duyệt; người kiểm tra xác nhận.\nCăn cứ: TCVN 6.11. Tần suất: Tần suất theo dữ liệu/BIA; thử khôi phục ít nhất 6\ntháng; quy trình hằng năm/khi đổi.\nBước 1. Chốt danh mục dữ liệu/config/image/DB và khóa phụ thuộc; xác định\nlịch, RPO/RTO, retention, phương pháp nhất quán và kho độc lập.\nBước 2. Tự động chạy job, mã hóa dữ liệu nhạy cảm, quản lý phiên bản, quyền\nvà giám sát lỗi; bảo vệ theo 3-2-1 hoặc phương án tương đương đã thuyết minh.\nBước 3. Theo dõi lần thành công, khối lượng, checksum, trạng thái bản sao ngoài\nmiền lỗi chung; điều tra lỗi và chạy bù có kiểm soát.\nBước 4. Phục hồi vào vùng cô lập với bản sao được chọn; kiểm tra khóa, toàn\nvẹn và nghiệp vụ; đo dữ liệu mất/thời gian phục hồi so với mục tiêu.\nBước 5. Lập biên bản, khắc phục và retest; điều chỉnh lịch/khả năng lưu trữ khi\ndữ liệu hoặc mục tiêu thay đổi.\nHồ sơ lưu và điều kiện hoàn thành\nCatalog job, log, chứng cứ độc lập/bất biến nếu dùng, checksum và biên bản\nrestore.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n9",
+    "chars": 1222,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 11,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-11.png",
+    "text": "QT08 CHUYỂN ĐỔI DR VÀ KHỞI ĐỘNG LẠI NỀN TẢNG\nTrách nhiệm: Chỉ huy DR; Platform; chủ quản quyết định.\nCăn cứ: TCVN 6.11; 6.12; BIA và thiết kế XOR. Tần suất: Theo kế hoạch được\nphê duyệt và khi thay đổi lớn; mục tiêu do BIA quyết định.\nBước 1. Xác nhận sự cố, phạm vi, trạng thái dữ liệu/replica và điều kiện kích\nhoạt; chỉ huy xin quyết định theo phân quyền và thông báo đầu mối liên quan.\nBước 2. Cô lập nguồn ghi ở DC bằng cơ chế fencing được thiết kế; xác định bản\ndữ liệu hợp lệ; ghi thời điểm giao dịch cuối cùng có thể khôi phục.\nBước 3. Phục hồi mạng, thời gian, DNS, IAM/khóa, lưu trữ, DB/queue, API và\nworkload theo đồ thị phụ thuộc; dùng bí mật khẩn cấp có kiểm soát khi cần.\nBước 4. Kiểm tra nghiệp vụ và năng lực DR, ghi RPO/RTO từng dịch vụ; mở lưu\nlượng theo phê duyệt, theo dõi lỗi và tính nhất quán.\nBước 5. Chuyển về sau sửa lỗi, đồng bộ và đối soát; có điểm quyết định/rollback;\ndiễn tập cả failback và khởi động nguội, lưu toàn bộ timeline.\nHồ sơ lưu và điều kiện hoàn thành\nBIA, runbook, sơ đồ phụ thuộc, quyết định kích hoạt, fencing log, số đo và biên\nbản chuyển về.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n10",
+    "chars": 1297,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 12,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-12.png",
+    "text": "QT09 ỨNG PHÓ SỰ CỐ VÀ BẢO TOÀN CHỨNG CỨ\nTrách nhiệm: CSIRT; SOC; pháp chế; chủ quản.\nCăn cứ: TCVN 6.17. Tần suất: Diễn tập ít nhất hằng năm; rà quy\ntrình/ngưỡng/danh bạ hằng năm hoặc khi đổi.\nBước 1. SOC tiếp nhận, mở mã sự cố, phân loại và báo đầu mối chính/dự phòng;\nghi người, thời gian, tài sản, ảnh hưởng và dấu hiệu ban đầu.\nBước 2. Chỉ huy phân công kiểm soát sự cố; cô lập theo playbook, tránh phá\nchứng cứ; lưu bản gốc, hash, chuỗi bàn giao và quyền truy cập.\nBước 3. Điều tra phạm vi, nguyên nhân, dữ liệu ảnh hưởng; phối hợp\nIDC/ISP/đối tác và cơ quan có thẩm quyền theo nghĩa vụ áp dụng; pháp chế xác nhận\nthông báo bên ngoài.\nBước 4. Loại bỏ nguyên nhân, vá/cấu hình lại, khôi phục bản sạch, đổi khóa khi\ncần và kiểm tra trước mở dịch vụ.\nBước 5. Hậu kiểm timeline, tác động, quyết định và bài học; giao hành động,\nhạn, retest; rà lại ngưỡng và tổ chức diễn tập.\nHồ sơ lưu và điều kiện hoàn thành\nHồ sơ sự cố, log gốc, chuỗi chứng cứ, thông báo, quyết định, biên bản khôi phục\nvà hậu kiểm.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n11",
+    "chars": 1211,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 13,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-13.png",
+    "text": "QT10 PHÁT TRIỂN ĐÓNG GÓI VÀ PHÁT HÀNH XOR STACK\nTrách nhiệm: DevSecOps; reviewer; người duyệt production.\nCăn cứ: TCVN 6.16. Tần suất: Mỗi phát hành/thay đổi; danh mục bên thứ ba\nquý; đào tạo và quy trình hằng năm.\nBước 1. Yêu cầu và threat model xác định tài sản, ranh giới tenant, dữ liệu, API,\nsession và yêu cầu an ninh cần kiểm thử.\nBước 2. Phát triển trong môi trường riêng; review code; không lưu bí mật; quản\nlý dependency, SBOM, bản quyền và nguồn upstream.\nBước 3. Chạy SAST/SCA/secret scan và kiểm thử chức năng/an ninh; xử lý lỗ\nhổng và pentest trước production theo phạm vi; ghi nhận ngoại lệ đúng thẩm quyền.\nBước 4. Đóng gói bản dựng có commit, digest và chữ ký theo thiết kế; lưu\nprovenance; runner có quyền hẹp; phê duyệt release và kế hoạch rollback.\nBước 5. Triển khai, xác minh bản đang chạy, theo dõi lỗi và rollback khi cần;\ntiếp nhận báo cáo bên ngoài, RCA và bổ sung kiểm thử chống tái diễn.\nHồ sơ lưu và điều kiện hoàn thành\nYêu cầu, threat model, review, SBOM, scan/pentest, release manifest, log deploy\nvà rollback.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n12",
+    "chars": 1251,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 14,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-14.png",
+    "text": "QT11 QUẢN LÝ NHÂN SỰ NHÀ CUNG CẤP VÀ VẬT LÝ\nTrách nhiệm: HR; mua sắm; IDC; chủ quản.\nCăn cứ: TCVN 6.14; 6.15; A.4. Tần suất: Đào tạo và rà danh mục/quy định hằng\nnăm; theo sự kiện nhân sự/hợp đồng; camera ít nhất 6 tháng.\nBước 1. Chủ quản giao riêng vai trò vận hành, quản trị và an ninh; HR xác minh\nnăng lực, NDA, đào tạo và quyền được cấp.\nBước 2. Mua sắm phân loại nhà cung cấp, kiểm tra điều kiện tương ứng dịch vụ,\nphạm vi trách nhiệm và yêu cầu bảo mật trong hợp đồng.\nBước 3. IDC và XOR quản lý người ra vào, khách, rack, điện/UPS, PCCC, nước,\nmôi trường và điện từ; lưu camera và log theo yêu cầu; cung cấp bằng chứng từng site.\nBước 4. Theo dõi SLA, truy cập nhà cung cấp và bảo trì; giám sát mọi phiên đặc\nquyền; xử lý sự cố theo đầu mối đã chốt.\nBước 5. Khi nhân sự hoặc hợp đồng kết thúc, thu hồi thẻ/tài khoản/tài sản, bàn\ngiao dữ liệu và log, xác nhận xóa theo nghĩa vụ; kiểm tra không còn truy cập.\nHồ sơ lưu và điều kiện hoàn thành\nQuyết định phân công, hồ sơ đào tạo/NDA, hợp đồng/SLA, bằng chứng IDC,\nphiếu thu hồi.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n13",
+    "chars": 1243,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 4,
+    "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.docx",
+    "page": 15,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/04_03_Quy_che_va_quy_trinh_bao_dam_ANM/page-15.png",
+    "text": "QT12 KIỂM TRA NGHIỆM THU VÀ QUẢN LÝ HỒ SƠ\nTrách nhiệm: GRC; đơn vị kiểm tra; chủ quản.\nCăn cứ: TCVN 6.12.2.7; 6.18. Tần suất: Pentest ngoài và trong mỗi loại ít nhất\nhằng năm; kiểm tra trước vận hành/phát hành theo phạm vi.\nBước 1. Lập phạm vi, mục tiêu, tiêu chí, ROE, thời gian, dữ liệu thử, điều kiện\ndừng và đầu mối; người có thẩm quyền phê duyệt trước thử.\nBước 2. Tổ chức kiểm tra có tư vấn/giám sát độc lập theo yêu cầu; lưu bước, cấu\nhình, bản dựng, log và giới hạn phương pháp.\nBước 3. Lập phát hiện theo tài sản, tác động, bằng chứng; gắn người, hạn và\nhành động; không kết luận đạt ở nơi chưa đủ bằng chứng.\nBước 4. Retest sau khắc phục, đánh giá hiệu lực kiểm soát và lập biên bản\nnghiệm thu có xác nhận chuyên trách, trình chủ quản phê duyệt.\nBước 5. Đóng phiên bản hồ sơ, danh mục tài liệu/hash và quyền nhận; theo dõi\nphản hồi thẩm định; cập nhật khi phạm vi, dữ liệu hoặc kiến trúc thay đổi.\nHồ sơ lưu và điều kiện hoàn thành\nROE, báo cáo kiểm tra, findings, retest, nghiệm thu, danh mục hồ sơ và lịch sử\nthay đổi.\nHoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n14",
+    "chars": 1239,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 5,
+    "file": "04_Cong_van_xin_y_kien_chuyen_mon.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/05_04_Cong_van_xin_y_kien_chuyen_mon/page-1.png",
+    "text": "KHỐI HẠ TẦNG & VẬN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nHÀNH Độc lập - Tự do - Hạnh phúc\nSố: [CẦN ĐIỀN]/[KÝ HIỆU]\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nV/v xin ý kiến chuyên môn về hồ sơ đề xuất cấp độ 4 hệ thống XOR\nSECURE CLOUD\nKính gửi: Trung tâm Vận hành — đơn vị chuyên trách về an ninh mạng của\nCông ty Cổ phần XOR CLOUD.\nCăn cứ Luật An ninh mạng số 116/2025/QH15;\nCăn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ\nvề bảo vệ an ninh mạng đối với hệ thống thông tin;\nCăn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan,\ntổ chức].\nKhối Hạ tầng & Vận hành đề nghị Quý đơn vị cho ý kiến chuyên môn về hồ sơ\nđề xuất cấp độ hệ thống thông tin với các nội dung sau:\nPhần 1 Thông tin chung\n1. Tên hệ thống thông tin: XOR SECURE CLOUD.\n2. Đơn vị vận hành hệ thống thông tin: Khối Hạ tầng & Vận hành.\n3. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP\nHà Nội.\n4. Cấp độ hệ thống thông tin đề xuất: Cấp độ 4.\nPhạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung; DC tại Trung\ntâm Hạ tầng IDC Cầu Giấy, DR tại Trung tâm Hạ tầng IDC Nam Thăng Long.\nPhần 2 Hồ sơ kèm theo\n1. Tài liệu mô tả, thuyết minh tổng quan hệ thống thông tin.\n2. Thiết kế thi công đã được phê duyệt hoặc tài liệu có giá trị tương đương, kèm\nphụ lục hiện trạng.\n3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi\nro chi tiết.\n1",
+    "chars": 1388,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 5,
+    "file": "04_Cong_van_xin_y_kien_chuyen_mon.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/05_04_Cong_van_xin_y_kien_chuyen_mon/page-2.png",
+    "text": "4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu\ncầu và quy trình.\nDanh mục tệp, phiên bản và số trang: [CẦN ĐIỀN danh mục đã đóng phiên bản].\nĐề nghị Quý đơn vị xem xét sự phù hợp của đề xuất cấp độ và phương án bảo\nđảm an ninh mạng hệ thống XOR SECURE CLOUD; chỉ rõ nội dung cần điều chỉnh,\nbổ sung để đơn vị vận hành hoàn thiện trước khi trình chủ quản gửi thẩm định.\nĐầu mối phối hợp: Chử Quang Thắng — Giám đốc Vận hành; [CẦN ĐIỀN điện\nthoại, email].\nNơi nhận: GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\nNhư trên;\nLưu: hồ sơ XOR SECURE\nCLOUD.\nTrần Văn Dũng\n2",
+    "chars": 577,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 6,
+    "file": "05_Cong_van_de_nghi_tham_dinh.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/06_05_Cong_van_de_nghi_tham_dinh/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nCLOUD Độc lập - Tự do - Hạnh phúc\nSố: [CẦN ĐIỀN]/[KÝ HIỆU]\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nV/v đề nghị thẩm định hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE\nCLOUD\nKính gửi: Bộ Công an [CẦN ĐIỀN đơn vị tiếp nhận].\nCăn cứ Luật An ninh mạng số 116/2025/QH15;\nCăn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ\nvề bảo vệ an ninh mạng đối với hệ thống thông tin;\nCăn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan,\ntổ chức].\nCông ty Cổ phần XOR CLOUD đề nghị thẩm định hồ sơ đề xuất cấp độ đối với\nhệ thống XOR SECURE CLOUD với các nội dung sau:\nPhần 1 Thông tin chung\n1. Tên hệ thống thông tin: XOR SECURE CLOUD.\n2. Đơn vị vận hành hệ thống thông tin: Khối Hạ tầng & Vận hành.\n3. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP\nHà Nội.\n4. Cấp độ hệ thống thông tin đề xuất: Cấp độ 4.\nPhạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung; DC tại Trung\ntâm Hạ tầng IDC Cầu Giấy, DR tại Trung tâm Hạ tầng IDC Nam Thăng Long.\nPhần 2 Hồ sơ kèm theo\n1. Tài liệu mô tả, thuyết minh tổng quan hệ thống thông tin.\n2. Thiết kế thi công đã được phê duyệt hoặc tài liệu có giá trị tương đương, kèm\nphụ lục hiện trạng.\n3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi\nro chi tiết.\n4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu\ncầu và quy trình.\n1",
+    "chars": 1417,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 6,
+    "file": "05_Cong_van_de_nghi_tham_dinh.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/06_05_Cong_van_de_nghi_tham_dinh/page-2.png",
+    "text": "5. Ý kiến chuyên môn của đơn vị chuyên trách về an ninh mạng của chủ quản: số\n[ ], ngày [ ].\nDanh mục tệp, phiên bản và số trang: [CẦN ĐIỀN danh mục đã đóng phiên bản].\nĐề nghị Quý cơ quan xem xét, cho ý kiến thẩm định hồ sơ đề xuất cấp độ đối với\nhệ thống XOR SECURE CLOUD để chủ quản tổ chức phê duyệt và thực hiện biện\npháp bảo vệ theo quy định.\nChủ quản chịu trách nhiệm về thông tin, tài liệu gửi kèm và phối hợp cung cấp,\ngiải trình theo yêu cầu. Đầu mối: [CẦN ĐIỀN].\nNơi nhận: TỔNG GIÁM ĐỐC\nNhư trên;\nLưu: hồ sơ XOR SECURE\nCLOUD.\nLê Anh Vũ\n2",
+    "chars": 548,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 7,
+    "file": "06_To_trinh_phe_duyet.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/07_06_To_trinh_phe_duyet/page-1.png",
+    "text": "KHỐI HẠ TẦNG & VẬN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nHÀNH Độc lập - Tự do - Hạnh phúc\nSố: [CẦN ĐIỀN]/TTr-[KÝ HIỆU]\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nTỜ TRÌNH\nVề việc phê duyệt đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD\nKính gửi: Công ty Cổ phần XOR CLOUD.\nCăn cứ Luật An ninh mạng số 116/2025/QH15;\nCăn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ\nvề bảo vệ an ninh mạng đối với hệ thống thông tin;\nCăn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan,\ntổ chức].\nCăn cứ ý kiến thẩm định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của [CƠ QUAN\nCHỦ TRÌ THẨM ĐỊNH]; căn cứ ý kiến chuyên môn số [ ] ngày [ ] và hồ sơ giải\ntrình/hoàn thiện [ ];\nKhối Hạ tầng & Vận hành trình chủ quản phê duyệt hồ sơ đề xuất cấp độ với các\nnội dung sau:\nPhần 1 Thông tin chung\n1. Tên hệ thống thông tin: XOR SECURE CLOUD.\n2. Đơn vị vận hành hệ thống thông tin: Khối Hạ tầng & Vận hành.\n3. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP\nHà Nội.\n4. Cấp độ hệ thống thông tin đề xuất: Cấp độ 4.\nPhạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung; DC tại Trung\ntâm Hạ tầng IDC Cầu Giấy, DR tại Trung tâm Hạ tầng IDC Nam Thăng Long.\nPhần 2 Hồ sơ kèm theo\n1. Tài liệu mô tả, thuyết minh tổng quan hệ thống thông tin.\n2. Thiết kế thi công đã được phê duyệt hoặc tài liệu có giá trị tương đương, kèm\nphụ lục hiện trạng.\n1",
+    "chars": 1357,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 7,
+    "file": "06_To_trinh_phe_duyet.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/07_06_To_trinh_phe_duyet/page-2.png",
+    "text": "3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi\nro chi tiết.\n4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu\ncầu và quy trình.\n5. Ý kiến chuyên môn của đơn vị chuyên trách về an ninh mạng của chủ quản: số\n[ ], ngày [ ].\n6. Ý kiến thẩm định của cơ quan chủ trì thẩm định và tài liệu phối hợp liên quan:\nsố [ ], ngày [ ]; giải trình/khắc phục kèm theo nếu có.\nDanh mục tệp, phiên bản và số trang: [CẦN ĐIỀN danh mục đã đóng phiên bản].\nPhần 3 Nội dung đề nghị\nĐề nghị chủ quản xem xét, quyết định phê duyệt cấp độ 4 đối với hệ thống XOR\nSECURE CLOUD trong phạm vi hồ sơ kèm theo; giao đơn vị vận hành thực hiện\nphương án bảo đảm an ninh mạng và giao đơn vị chuyên trách kiểm tra, giám sát theo\nquy định.\nTình trạng tiếp thu ý kiến thẩm định và các điều kiện còn phải thực hiện: [CẦN\nĐIỀN nội dung tiếp thu, tình trạng thực hiện và mã bằng chứng].\nNơi nhận: GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\nNhư trên;\nLưu: hồ sơ XOR SECURE\nCLOUD.\nTrần Văn Dũng\n2",
+    "chars": 998,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 8,
+    "file": "07_Quyet_dinh_phe_duyet_cap_do.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/08_07_Quyet_dinh_phe_duyet_cap_do/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nCLOUD Độc lập - Tự do - Hạnh phúc\nSố: [CẦN ĐIỀN]/QĐ-[KÝ HIỆU]\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nQUYẾT ĐỊNH\nVề việc phê duyệt cấp độ hệ thống thông tin XOR SECURE CLOUD\nTỔNG GIÁM ĐỐC\nCăn cứ Luật An ninh mạng số 116/2025/QH15;\nCăn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ\nvề bảo vệ an ninh mạng đối với hệ thống thông tin;\nCăn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan,\ntổ chức].\nCăn cứ ý kiến thẩm định số [ ] ngày [ ] của [CƠ QUAN CÓ THẨM QUYỀN];\nxét đề nghị của Khối Hạ tầng & Vận hành tại Tờ trình số [ ] ngày [ ];\nQUYẾT ĐỊNH\nĐiều 1 Phê duyệt cấp độ hệ thống thông tin\n1. Tên hệ thống thông tin: XOR SECURE CLOUD. Đơn vị vận hành: Khối Hạ\ntầng & Vận hành. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu\nGiấy, TP Hà Nội. Phạm vi hệ thống và các thành phần được xác định tại hồ sơ mã [ ],\nphiên bản [ ], ngày [ ] kèm theo Quyết định này.\n2. Cấp độ hệ thống thông tin: Cấp độ 4.\n3. Phương án bảo đảm an ninh mạng trong thiết kế và trong vận hành: [CẦN\nĐIỀN kết luận phù hợp với tiêu chuẩn quốc gia/quy chuẩn áp dụng, đúng nội dung ý\nkiến thẩm định và hồ sơ đã hoàn thiện; tên, phiên bản và phạm vi tài liệu kèm theo].\n4. Điều kiện, nội dung phải hoàn thiện hoặc yêu cầu duy trì theo ý kiến thẩm\nđịnh: [CẦN ĐIỀN điều kiện và yêu cầu theo ý kiến thẩm định].\nĐiều 2 Tổ chức thực hiện\n1. Khối Hạ tầng & Vận hành chịu trách nhiệm tổ chức thực hiện phương án bảo\nđảm an ninh mạng; duy trì các biện pháp quản lý, kỹ thuật, vật lý; kiểm tra, khắc phục\nvà cập nhật hồ sơ theo quy định.\n1",
+    "chars": 1604,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 8,
+    "file": "07_Quyet_dinh_phe_duyet_cap_do.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/08_07_Quyet_dinh_phe_duyet_cap_do/page-2.png",
+    "text": "2. Trung tâm Vận hành là đơn vị chuyên trách về an ninh mạng, kiểm tra, giám\nsát việc thực hiện; báo cáo chủ quản các thay đổi, rủi ro và tồn tại cần xử lý.\n3. [CÁC ĐƠN VỊ LIÊN QUAN] thực hiện trách nhiệm theo phân công và hợp\nđồng; phối hợp cung cấp bằng chứng, ứng phó sự cố và bảo đảm liên tục.\nĐiều 3 Điều khoản thi hành\nQuyết định có hiệu lực kể từ ngày [CẦN ĐIỀN]. Thủ trưởng các đơn vị nêu tại\nĐiều 2 và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Quyết định này.\nNơi nhận: TỔNG GIÁM ĐỐC\nNhư trên;\nLưu: hồ sơ XOR SECURE\nCLOUD.\nLê Anh Vũ\n2",
+    "chars": 558,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 9,
+    "file": "08_Y_kien_chuyen_mon.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/09_08_Y_kien_chuyen_mon/page-1.png",
+    "text": "TRUNG TÂM VẬN HÀNH CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nSố: [CẦN ĐIỀN]/[KÝ HIỆU] Độc lập - Tự do - Hạnh phúc\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nÝ KIẾN CHUYÊN MÔN\nVề hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD\nKính gửi: Khối Hạ tầng & Vận hành.\nCăn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ\nvề bảo vệ an ninh mạng đối với hệ thống thông tin; căn cứ Công văn số [CẦN ĐIỀN]\nngày [CẦN ĐIỀN] của Khối Hạ tầng & Vận hành về việc xin ý kiến chuyên môn đối\nvới hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD;\nTrung tâm Vận hành có ý kiến đối với hồ sơ như sau:\n1. Phạm vi xem xét\nNội dung Thông tin\nXOR SECURE CLOUD; toàn bộ nền tảng XOR STACK CLOUD và dịch\nHệ thống\nvụ quản trị chung tại DC Cầu Giấy và DR Nam Thăng Long.\nHồ sơ xem xét [CẦN ĐIỀN mã, phiên bản, ngày, danh mục tài liệu]\n[CẦN ĐIỀN số, ngày văn bản phân công; người thực hiện và cơ chế độc lập\nPhân công thực hiện\nchuyên môn]\n[CẦN ĐIỀN thời gian, phương pháp, phạm vi lấy mẫu và phần ngoài phạm\nThời gian và giới hạn\nvi]\n2. Ý kiến đối với hồ sơ\nNội dung xem xét Ý kiến và căn cứ\nPhạm vi và tiêu chí cấp [CẦN ĐIỀN kết quả phù hợp/chưa phù hợp/chưa đủ cơ sở; khoản áp dụng tại\nđộ Điều 14 và mã bằng chứng]\n[CẦN ĐIỀN kết quả đối chiếu Điều 21–22; thiết kế, tài sản, dịch vụ và văn\nTổng quan và thiết kế\nbản phê duyệt]\n[CẦN ĐIỀN kết quả xem xét BIA, phụ thuộc, tác động và căn cứ hoạt động\nĐánh giá rủi ro\nliên tục]\n[CẦN ĐIỀN yêu cầu đáp ứng, chưa đáp ứng, tình trạng triển khai và mã bằng\nBiện pháp bảo đảm ANM\nchứng]\nKiểm thử và vận hành [CẦN ĐIỀN phạm vi, ngày, phiên bản, kết quả và giới hạn kiểm tra]\n1",
+    "chars": 1593,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 9,
+    "file": "08_Y_kien_chuyen_mon.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/09_08_Y_kien_chuyen_mon/page-2.png",
+    "text": "Nội dung xem xét Ý kiến và căn cứ\nNội dung cần bổ sung [CẦN ĐIỀN yêu cầu, tài liệu, đơn vị chịu trách nhiệm và thời hạn]\n3. Kết luận và kiến nghị\n[CẦN ĐIỀN kết luận của đơn vị chuyên trách về sự phù hợp của cấp độ đề xuất\nvà phương án bảo đảm an ninh mạng; nội dung cần hoàn thiện và kiến nghị].\nNơi nhận: ĐẠI DIỆN ĐƠN VỊ CHUYÊN TRÁCH VỀ\nNhư trên; AN NINH MẠNG\nLưu: hồ sơ XOR SECURE\nCLOUD.\n[CẦN ĐIỀN người ký theo phân công]\n2",
+    "chars": 426,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 10,
+    "file": "09_Bao_cao_ket_qua_ra_soat.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/10_09_Bao_cao_ket_qua_ra_soat/page-1.png",
+    "text": "KHỐI HẠ TẦNG & VẬN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nHÀNH Độc lập - Tự do - Hạnh phúc\nSố: [CẦN ĐIỀN]/BC-[KÝ HIỆU]\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nBÁO CÁO\nKết quả rà soát an ninh mạng hệ thống XOR SECURE CLOUD\nKính gửi: Công ty Cổ phần XOR CLOUD.\nThực hiện [CẦN ĐIỀN số, ngày kế hoạch hoặc văn bản giao nhiệm vụ], Khối Hạ\ntầng & Vận hành báo cáo kết quả rà soát như sau:\n1. Phạm vi và phương pháp\nPhạm vi: toàn bộ nền tảng XOR STACK CLOUD và các dịch vụ quản trị chung\ntại DC Cầu Giấy, DR Nam Thăng Long. Thời gian: [CẦN ĐIỀN]. Phiên bản hệ thống\nvà hồ sơ: [CẦN ĐIỀN]. Chủ trì và người kiểm tra: [CẦN ĐIỀN].\nCăn cứ đối chiếu: TCVN 14423:2026 và hồ sơ thiết kế được phê duyệt [CẦN\nĐIỀN số, ngày]. Phương pháp, phạm vi lấy mẫu, giới hạn và danh mục bằng chứng:\n[CẦN ĐIỀN].\n2. Kết quả tổng hợp\nChưa đủ bằng Không áp\nNhóm Áp dụng Đạt Không đạt\nchứng dụng\nRủi ro và tài sản [ ] [ ] [ ] [ ] [ ]\nDữ liệu, cấu hình, quyền [ ] [ ] [ ] [ ] [ ]\nMạng và nền tảng [ ] [ ] [ ] [ ] [ ]\nNhật ký, SOC, mã độc [ ] [ ] [ ] [ ] [ ]\nSao lưu và DR [ ] [ ] [ ] [ ] [ ]\nNhân sự, nhà cung cấp [ ] [ ] [ ] [ ] [ ]\nPhát triển, sự cố, kiểm tra [ ] [ ] [ ] [ ] [ ]\nVật lý DC [ ] [ ] [ ] [ ] [ ]\nVật lý DR [ ] [ ] [ ] [ ] [ ]\nCăn cứ không áp dụng: [CẦN ĐIỀN mã yêu cầu, lý do và văn bản xác nhận].\n1",
+    "chars": 1272,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 10,
+    "file": "09_Bao_cao_ket_qua_ra_soat.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/10_09_Bao_cao_ket_qua_ra_soat/page-2.png",
+    "text": "3. Kết quả kiểm thử kỹ thuật\n[CẦN ĐIỀN kết quả T01–T12 trong phạm vi áp dụng; RPO/RTO đo được; kết\nquả cách ly tenant, quản trị đặc quyền/MFA, nhật ký, sao lưu, phục hồi và các phát\nhiện].\nPhát hiện và ảnh\nBiện pháp xử lý Đơn vị / thời hạn Kết quả kiểm tra lại\nhưởng\n[CẦN ĐIỀN mã bằng\n[CẦN ĐIỀN] [CẦN ĐIỀN] [CẦN ĐIỀN]\nchứng và kết quả]\n[CẦN ĐIỀN mã bằng\n[CẦN ĐIỀN] [CẦN ĐIỀN] [CẦN ĐIỀN]\nchứng và kết quả]\n[CẦN ĐIỀN mã bằng\n[CẦN ĐIỀN] [CẦN ĐIỀN] [CẦN ĐIỀN]\nchứng và kết quả]\n4. Kết luận và đề nghị\n[CẦN ĐIỀN mức độ đáp ứng, nội dung còn thiếu, rủi ro còn lại, biện pháp xử lý,\nthời hạn và nội dung đề nghị chủ quản xem xét].\nNơi nhận: GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\nNhư trên;\nLưu: hồ sơ XOR SECURE\nCLOUD.\nTrần Văn Dũng\n2",
+    "chars": 721,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 11,
+    "file": "11_Cong_van_de_nghi_danh_gia.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/11_11_Cong_van_de_nghi_danh_gia/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nCLOUD Độc lập - Tự do - Hạnh phúc\nSố: [CẦN ĐIỀN]/[KÝ HIỆU]\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nV/v đề nghị đánh giá độc lập hệ thống XOR SECURE CLOUD\nKính gửi: [CẦN ĐIỀN cơ quan, tổ chức đánh giá].\nCông ty Cổ phần XOR CLOUD đề nghị Quý cơ quan, tổ chức đánh giá độc lập\nhệ thống XOR SECURE CLOUD với các nội dung sau:\n1. Phạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung tại DC Cầu\nGiấy, DR Nam Thăng Long; danh mục tài sản và phiên bản theo hồ sơ kèm theo.\n2. Cơ sở đánh giá: yêu cầu áp dụng đối với hệ thống thông tin cấp độ 4 và TCVN\n14423:2026. Tiêu chuẩn, quy chuẩn hoặc chương trình bổ sung: [CẦN ĐIỀN nếu áp\ndụng].\n3. Nội dung: đánh giá biện pháp quản lý, kỹ thuật, vật lý; đối chiếu thiết kế, hiện\ntrạng và bằng chứng; kiểm thử theo phạm vi thống nhất; xác định tồn tại và kiểm tra\nkết quả khắc phục.\n4. Phương án thực hiện: phương pháp, phạm vi lấy mẫu, phép thử, điều kiện truy\ncập, bảo mật, lịch thực hiện, đầu mối và chi phí do hai bên thống nhất.\n5. Kết quả: báo cáo đánh giá nêu phạm vi, căn cứ, kết quả và giới hạn. Nếu thực\nhiện chứng nhận sự phù hợp, đề nghị xác định chương trình, thẩm quyền/năng lực\nchứng nhận, loại văn bản, thời hạn và điều kiện duy trì.\n6. Tài liệu kèm theo: [CẦN ĐIỀN danh mục hồ sơ, phiên bản, ngày và số trang].\nĐề nghị Quý cơ quan, tổ chức có ý kiến bằng văn bản để hai bên thống nhất\nphạm vi và kế hoạch thực hiện. Đầu mối phối hợp: Chử Quang Thắng — Giám đốc\nVận hành; [CẦN ĐIỀN điện thoại, email].\nNơi nhận: TỔNG GIÁM ĐỐC\nNhư trên;\nLưu: hồ sơ XOR SECURE\nCLOUD.\nLê Anh Vũ\n1",
+    "chars": 1581,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 12,
+    "file": "12_Thong_bao_cap_do.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/12_12_Thong_bao_cap_do/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nCLOUD Độc lập - Tự do - Hạnh phúc\nSố: [CẦN ĐIỀN]/TB-[KÝ HIỆU]\nHà Nội, ngày [ ] tháng [ ] năm [ ]\nTHÔNG BÁO\nVề cấp độ hệ thống thông tin XOR SECURE CLOUD\nCăn cứ Quyết định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của Công ty Cổ phần\nXOR CLOUD về việc phê duyệt cấp độ hệ thống thông tin XOR SECURE CLOUD,\nCông ty Cổ phần XOR CLOUD thông báo:\n1. Tên hệ thống thông tin: XOR SECURE CLOUD. Đơn vị vận hành: Khối Hạ\ntầng & Vận hành.\n2. Cấp độ được phê duyệt: [CẦN ĐIỀN theo Quyết định phê duyệt]. Phạm vi:\n[CẦN ĐIỀN dịch vụ, hạ tầng, địa điểm và phiên bản hồ sơ được phê duyệt].\n3. Văn bản thẩm định và phê duyệt: [CẦN ĐIỀN số, ngày, cơ quan ban hành và\nphạm vi]. Tình trạng thực hiện biện pháp bảo đảm an ninh mạng tại ngày thông báo:\n[CẦN ĐIỀN kết quả được xác nhận và điều kiện còn lại nếu có].\n4. Ranh giới trách nhiệm giữa XOR và khách hàng được xác định tại [CẦN\nĐIỀN hợp đồng hoặc phụ lục trách nhiệm]. Phạm vi hệ thống khách hàng thuộc hồ sơ\nnày: [CẦN ĐIỀN phạm vi cụ thể hoặc xác nhận không thuộc phạm vi].\n5. Đầu mối cung cấp thông tin: [CẦN ĐIỀN họ tên, chức vụ, điện thoại, email].\nViệc rà soát và cập nhật khi thay đổi phạm vi, cấp độ được thực hiện theo quy định.\nNơi nhận: TỔNG GIÁM ĐỐC\n[CẦN ĐIỀN đối tượng nhận thông\nbáo];\nLưu: hồ sơ XOR SECURE\nCLOUD.\nLê Anh Vũ\n1",
+    "chars": 1318,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 13,
+    "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/13_03_Ke_hoach_doi_soat_nguon_v094/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nTÀI LIỆU KỸ THUẬT\nKẾ HOẠCH ĐỐI SOÁT THIẾT KẾ\nVÀ TỒN TẠI TỪ HỒ SƠ THAM KHẢO\nXOR SECURE CLOUD\nBổ sung cho sổ tay và checklist kỹ thuật\nNền tảng XOR STACK CLOUD\nĐơn vị vận hành: Khối Hạ tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nHà Nội, tháng 10 năm 2026",
+    "chars": 350,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 13,
+    "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/13_03_Ke_hoach_doi_soat_nguon_v094/page-2.png",
+    "text": "Khối Hạ tầng & Vận hành sử dụng tài liệu này để đối soát thiết kế trong bản\n0.9.4 với nền tảng đang vận hành tại DC Cầu Giấy và DR Nam Thăng Long. Đầu ra\ncần có là danh mục tài sản được xác nhận, các thay đổi đã nghiệm thu và bằng chứng\ngắn với từng kiểm soát.\n1 Dữ liệu kế thừa và cách xác nhận\nNguồn tham khảo: XOR_SECURE_CLOUD_Ho_so_Cap_do_4_v0.9.4.docx,\nngày lập 06/10/2026; Phần II–III, Phụ lục D–G. Số liệu BOM/VLAN là thiết kế ghi\ntrong nguồn, chưa có biên bản kiểm kê hoặc nghiệm thu đi kèm. Không tự phân bổ\nBOM này cho DC hoặc nhân đôi thành cấu hình DR.\nThông tin Cách dùng khi rà soát\nDùng tên Công ty Cổ phần XOR CLOUD; Khối Hạ tầng & Vận hành; toàn\nTổ chức và phạm vi bộ XOR STACK CLOUD và quản trị chung. Hai IDC theo xác nhận của\nchủ quản cung cấp hồ sơ.\nGiữ đủ mã, nội dung, trạng thái và tồn tại trong workbook\n129 mục cũ 04_Doi_soat_129_hang_muc_v094.xlsx. Cột kết quả hiện tại tách riêng và\nbắt đầu Chưa xác minh.\nTiếp tục dùng workbook 02 để kiểm tra yêu cầu đã diễn giải. Số dòng nội\n119 dòng TC và 18 dòng\nbộ không phải số điều khoản hoặc chứng nhận; không cộng 129 với 119\nCL\nthành số kiểm soát đã đáp ứng.\nĐiền kết quả thật, người kiểm tra, ngày và EV. Mọi khác biệt với nguồn\nDữ liệu thiếu\nphải có kết luận giữ, sửa, thay thế hoặc không áp dụng có căn cứ.\nThống kê trong bản nguồn: 97 Chưa đánh giá; 21 Đang thực hiện; 6 Không đạt; 4\nCần xác minh; 1 Đạt. Đây là trạng thái lịch sử của tài liệu tham khảo, không phải kết\nquả đánh giá hiện tại.\n1",
+    "chars": 1470,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 13,
+    "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+    "page": 3,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/13_03_Ke_hoach_doi_soat_nguon_v094/page-3.png",
+    "text": "2 ĐỐI SOÁT THIẾT BỊ VÀ NĂNG LỰC\nNguồn: Phần II mục 4, trang 12–13 của bản 0.9.4. Kỹ thuật bổ sung serial,\nsite/rack/U, đường điện A/B, NIC–switch, firmware, hạn hỗ trợ và mã EV cho từng\nthiết bị.\nSL và model\nNhóm Quy hoạch nguồn Việc cần chốt\nnguồn\n128 GB RAM/node; 2 × 480 GB Chốt vai trò ổ 800 GB, NIC\nController 03 Dell R630 OS và 2 × 800 GB/node; máy 1– 10/25 Gb, placement và\n2 kiêm SEED. inventory.\nChốt gateway/agent đồng vị trí,\n512 GB RAM/node; 2 × 480 GB\nCompute 03 Dell R630 uplink và năng lực khi mất một\nOS/node; máy 4–6.\nhost.\n128 GB RAM/node; 10 ổ 1,92 Chốt CRUSH, replica, dung\nCeph SSD 03 Dell R630\nTB phân bố 4/3/3; 19,2 TB raw. lượng sử dụng và thử recovery.\n24 ổ 600 GB SAS; 14,4 TB raw; Chốt giao thức, RAID,\nSAN 01 chưa rõ model\nbackend riêng. controller, fabric và multipath.\n02 Nexus N9K- Hai nhánh mạng A/B theo quy Port map, peer/keepalive, MTU,\nMạng lõi\nC93180YC-EX hoạch. cấu hình và failover.\nNGFW/IPS/VPN và HA theo Xác nhận license/support, state\nTường lửa 02 FortiGate 500E\nthiết kế. sync và phép thử HA.\nMạng SAN 01 switch SAN; 01 Chưa có model và phương án dự Đánh giá điểm lỗi đơn, phương\nvà OOB Access phòng xác nhận. án xử lý và kiểm thử.\nTổng RAM theo vai trò: 3 × 128 + 3 × 512 + 3 × 128 = 2.304 GB. Đây là tổng\ntheo thiết kế, không phải RAM bán được. Không dùng số 5.120 GB của bảng định giá\ncũ thay cho cụm này.\n19,2 TB Ceph và 14,4 TB SAN đều là dung lượng raw. Cần tính dung lượng sử\ndụng riêng theo replica/RAID, dự phòng, mức đầy và khả năng phục hồi. Nguồn chưa\ncó CPU, tải thực, usable/IOPS hoặc kết quả N+1 đủ để cam kết SLA.\n2",
+    "chars": 1575,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 13,
+    "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+    "page": 4,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/13_03_Ke_hoach_doi_soat_nguon_v094/page-4.png",
+    "text": "3 ĐỐI SOÁT PHÂN VÙNG MẠNG\nNguồn: Phần II mục 5, trang 14–15. Bảng sau là quy hoạch logic tham khảo. Giữ\nsơ đồ kiến trúc mục tiêu của bộ hồ sơ và bổ sung bản vẽ triển khai tại từng site sau khi\nphê duyệt.\nVLAN Vai trò trong nguồn Điểm kiểm tra\n10 Internal service Control/service nội bộ; chỉ luồng đã duyệt sang API private.\n20 Tenant overlay Transport tenant; không cấp quyền tới underlay/control/OOB.\nClient I/O; tên “public” của Ceph không có nghĩa Internet công\n30 Ceph client\nkhai.\n31 Ceph cluster Replication, recovery và heartbeat; cô lập tenant.\nTách quyền PAM, SIEM, backup và kho log; cần chốt cách phân\n40 Security và quản trị\ntách nội vùng.\nXOR STACK API nội Broker/gateway và quản trị được duyệt; TLS, audit và giới hạn\n70\nbộ quyền.\n99 OOB BMC iDRAC Quản trị ngoài băng; không mở trực tiếp cho tenant/Internet.\n100 Portal DMZ Web/ingress; đường portal tới API thông qua broker theo thiết kế.\nChốt VLAN/VRF, external gateway, SAN zoning hoặc multipath\nChưa chốt Provider và SAN\nphù hợp.\nNguồn ghi VLAN 30/40 trong bảng cũ từng có ý nghĩa khác. Không áp cấu hình\ntheo số VLAN khi chưa xác minh ngữ nghĩa. Lập bảng chuyển đổi gồm VLAN/VRF\ncũ, VLAN/VRF mới, CIDR, gateway, owner, chính sách, ảnh hưởng, kế hoạch chuyển\nvà rollback.\nVới mỗi luồng: ghi nguồn, đích, hướng, cổng/giao thức, mục đích, điểm kiểm\nsoát, rule ID và phép thử cho phép/từ chối. WAF chỉ áp dụng giao thức web phù hợp;\nkhông bắt mọi lưu lượng VM đi qua WAF. OOB, control, storage và tenant phải được\nkiểm tra cô lập theo thiết kế đã duyệt.\n3",
+    "chars": 1520,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 13,
+    "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+    "page": 5,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/13_03_Ke_hoach_doi_soat_nguon_v094/page-5.png",
+    "text": "4 CÁC MỤC CẦN KIỂM TRA TRƯỚC\nCác mục dưới đây được chọn từ trạng thái Không đạt và Đạt trong bản nguồn.\nƯu tiên xác minh phạm vi và phiên bản trước khi quyết định khắc phục; chưa có kết\nluận chúng còn tồn tại trong production hiện tại.\nĐầu mối đề\nMã nguồn Ghi nhận cũ Công việc kiểm tra\nxuất\nNguồn ghi bundle 07 Đối soát Kolla inventory, CMDB và cấu\nC4-GOV-10 node, LVM/no-Ceph khác hình thực tế; phân biệt lab, staging, Platform / PMO\nthiết kế 09 server. production.\nNguồn ghi registry Kiểm tra bản dựng hiện hành, TLS/trust,\nPlatform /\nC4-SW-02 insecure và CVE Critical digest; đối chiếu báo cáo quét và kết quả\nSecOps\ncòn bản vá. xử lý.\nXác minh image/digest; loại khóa dùng\nNguồn ghi 6 SSH host DevSecOps /\nC4-IAM-06 chung nếu còn, xoay khóa liên quan, lưu\nprivate key trong image. IAM\nkết quả quét lại.\nNguồn chưa chứng minh Thu hợp đồng/tuyến vật lý, cấu hình\nC4-NET-07 hai tuyến độc lập và routing và biên bản thử mất tuyến, mất NetOps / IDC\nfailover. thiết bị.\nKiểm tra cấu hình production, DNS,\nNguồn còn IP và tên miền\nC4-CLD-16 chứng thư và endpoint; ghi nhận thay thế Platform\nví dụ.\ntheo change.\nCập nhật DC Cầu Giấy và DR Nam\nNguồn cũ ghi một DC và\nC4-DC-18 Thăng Long; kiểm tra tài sản, hợp đồng, SRE / IDC\nchưa có DR độc lập.\nbản sao và diễn tập.\nTái kiểm tra đúng bundle đang dùng;\nNguồn ghi Đạt đối chiếu\nC4-SW-04 checksum không tự chứng minh chữ ký DevSecOps\nchecksum bundle.\nhay nguồn phát hành.\nKhông xóa nhận xét cũ khi đóng việc. Giữ báo cáo trước và sau, ticket thay đổi,\nEV retest và người chấp nhận. Nếu cùng một tồn tại ảnh hưởng nhiều kiểm soát, dùng\nchung mã việc/EV và liên kết đủ các dòng.\n4",
+    "chars": 1622,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 13,
+    "file": "03_Ke_hoach_doi_soat_nguon_v094.docx",
+    "page": 6,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/13_03_Ke_hoach_doi_soat_nguon_v094/page-6.png",
+    "text": "5 TRÌNH TỰ BÀN GIAO SANG HỒ SƠ HÀNH CHÍNH\nBước 1. Giao từng dòng trong workbook 04 cho một cá nhân. Các trường nền\nxám nhạt là nơi nhập kết quả hiện tại, thời hạn, hành động và bằng chứng. Tab\nNguon_v094 giữ dữ liệu lịch sử để đối chiếu.\nBước 2. Mỗi mã C4 được liên kết với mã TC/CL/HS/T liên quan trong workbook\n02 khi người kiểm tra xác định đúng yêu cầu. Một mục C4 có thể liên quan nhiều\ndòng; không ghép tự động theo số thứ tự hoặc lấy căn cứ cũ làm căn cứ hiện hành.\nBước 3. Hoàn thành rà soát và phép thử phù hợp. Nếu đánh dấu Đạt hoặc Không\náp dụng, phải có kết luận/hành động, EV, người xác minh và ngày. Trạng thái Đủ dữ\nliệu xác minh chỉ thể hiện đủ trường khai báo để người kiểm tra xem xét, không thay\nkết luận chuyên môn.\nBước 4. Chuyển dữ liệu được xác nhận sang phụ lục 10 của Bộ 2, thuyết minh,\nsổ rủi ro và báo cáo tự rà soát. Chủ quản chốt phạm vi, căn cứ cấp độ, phân công và\nthẩm quyền; kỹ thuật bàn giao bằng chứng có kiểm soát phiên bản.\nMốc nội bộ đề xuất Đầu ra Người xác nhận\nPhạm vi hai site, danh sách dịch vụ, chủ việc 129 Khối Hạ tầng & Vận\nKhởi động đối soát\ndòng và kho EV. hành\nChốt thiết kế triển BOM theo site, inventory, IP/port/rack map, luồng Kiến trúc / Platform /\nkhai mạng và danh mục thay đổi. NetOps / Storage\nXác nhận kết quả kỹ Kết quả T01–T12 áp dụng, retest, RPO/RTO đo được Người kiểm tra được\nthuật và rủi ro còn lại. phân công\nWorkbook khóa phiên bản, phụ lục xác nhận, hồ sơ Chủ trì lập hồ sơ / chuyên\nBàn giao hồ sơ\nchuyên môn và danh sách còn thiếu. trách ANM\nThời hạn thực hiện và ngày hoàn thành do các đầu mối thống nhất, nhập vào\nworkbook; chưa ấn định mốc cam kết khi chưa có kế hoạch nguồn lực được phê duyệt.\n5",
+    "chars": 1670,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 14,
+    "file": "10_Phu_luc_thiet_ke_va_hien_trang.docx",
+    "page": 1,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/14_10_Phu_luc_thiet_ke_va_hien_trang/page-1.png",
+    "text": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nPHỤ LỤC THIẾT KẾ VÀ HIỆN TRẠNG HỆ THỐNG\nXOR SECURE CLOUD\nKèm theo hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD\nNền tảng XOR STACK CLOUD\nĐơn vị vận hành: Khối Hạ tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nHà Nội, tháng 10 năm 2026",
+    "chars": 338,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 14,
+    "file": "10_Phu_luc_thiet_ke_va_hien_trang.docx",
+    "page": 2,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/14_10_Phu_luc_thiet_ke_va_hien_trang/page-2.png",
+    "text": "1. Thông tin hệ thống\nNội dung Thông tin\nTên hệ thống XOR SECURE CLOUD; nền tảng XOR STACK CLOUD.\nChủ quản và đơn vị vận\nCông ty Cổ phần XOR CLOUD; Khối Hạ tầng & Vận hành.\nhành\nToàn bộ nền tảng cloud và các dịch vụ quản trị chung. Ranh giới với phần\nPhạm vi\nkhách hàng quản lý được xác định theo hợp đồng và ma trận trách nhiệm.\nDC: Trung tâm Hạ tầng IDC Cầu Giấy. DR: Trung tâm Hạ tầng IDC Nam\nĐịa điểm\nThăng Long.\nHồ sơ thiết kế [CẦN ĐIỀN tên, số, ngày, phiên bản và văn bản phê duyệt]\nThời điểm chốt hiện\n[CẦN ĐIỀN ngày, người kiểm kê/xác nhận và biên bản]\ntrạng\n2. Thông số thiết kế hạ tầng\nThành phần Thông số thiết kế Hiện trạng và bằng chứng\n09 Dell R630: 03 Controller, 03 [CẦN ĐIỀN số lượng theo site; serial; cấu\nMáy chủ\nCompute KVM, 03 Ceph SSD. hình; vai trò; phiên bản; mã EV]\n2.304 GB RAM theo cấu hình các [CẦN ĐIỀN bộ nhớ khả dụng, dự phòng,\nBộ nhớ\nvai trò. năng lực chịu lỗi và mã EV]\nCeph SSD: 19,2 TB dung lượng [CẦN ĐIỀN dung lượng sử dụng,\nLưu trữ thô; SAN: 14,4 TB dung lượng replica/RAID, backend, mã hóa và kết quả\nthô; 18 ổ OS 480 GB. phục hồi]\n02 Nexus N9K-C93180YC-EX; 02\nMạng và bảo vệ [CẦN ĐIỀN phân bổ theo site, port map, dự\nFortiGate 500E; 01 switch SAN;\nbiên phòng, giấy phép, hỗ trợ và kết quả chịu lỗi]\n01 Access.\nKết nối liên trung Kết nối DC Cầu Giấy – DR Nam [CẦN ĐIỀN nhà mạng, tuyến, băng thông,\ntâm Thăng Long. mã hóa, độ trễ và cơ chế đồng bộ]\n[CẦN XÁC NHẬN phạm vi của bảng cấu hình: một site hoặc toàn hệ thống;\nphân bổ thiết bị tại DC/DR; sai khác giữa thiết kế và hiện trạng; biên bản nghiệm thu].\n1",
+    "chars": 1546,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 14,
+    "file": "10_Phu_luc_thiet_ke_va_hien_trang.docx",
+    "page": 3,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/14_10_Phu_luc_thiet_ke_va_hien_trang/page-3.png",
+    "text": "3. PHÂN VÙNG VÀ LUỒNG THÔNG TIN\nVLAN thiết\nChức năng Thông tin triển khai\nkế\n[CẦN ĐIỀN site, VLAN/VRF/CIDR, gateway, owner,\n10 Dịch vụ điều khiển nội bộ\nvùng Z và mã rule]\n[CẦN ĐIỀN underlay/overlay, VNI, MTU, chính sách\n20 Transport cho mạng tenant\ncách ly và mã EV]\n[CẦN ĐIỀN mạng I/O, client được phép, ACL và mã\n30 Lưu trữ Ceph client\nEV]\n[CẦN ĐIỀN mạng đồng bộ, recovery, heartbeat và mã\n31 Lưu trữ Ceph cluster\nEV]\n[CẦN ĐIỀN phân khu PAM, SIEM, sao lưu, kho log\n40 Quản trị và an ninh\nvà quyền quản trị]\nAPI nội bộ XOR STACK [CẦN ĐIỀN endpoint, TLS, danh tính, quyền, audit và\n70\nCLOUD mã EV]\n[CẦN ĐIỀN BMC/console, điểm truy cập qua PAM và\n99 Quản trị ngoài băng\nACL]\n[CẦN ĐIỀN endpoint, WAF/LB, origin, luồng API và\n100 DMZ và cổng thông tin\nmã EV]\n[CẦN ĐIỀN VLAN/VRF, gateway, giao thức,\n[CẦN ĐIỀN] Provider/external và SAN\nzoning/multipath]\nHồ sơ luồng kết nối: [CẦN ĐIỀN mã PL04, nguồn, đích, chiều khởi tạo,\ncổng/giao thức, mục đích, biện pháp kiểm soát, rule ID, người phê duyệt và bằng\nchứng thử cho phép/từ chối].\n4. Phạm vi dịch vụ\nNhóm dịch vụ Thành phần Trạng thái và phạm vi triển khai\nVM, image, flavor, volume, mạng riêng, [CẦN ĐIỀN dịch vụ, phiên bản, site,\nTính toán và mạng\nrouter, SG, floating IP, cân bằng tải. trạng thái và mã EV]\nPortal/API, định danh, quota,\n[CẦN ĐIỀN thành phần, trách\nQuản trị chung usage/billing, CMDB, giám sát, nhật ký,\nnhiệm, trạng thái và mã EV]\nhỗ trợ.\nBackend, snapshot, backup, cấu hình và [CẦN ĐIỀN dữ liệu, vị trí, thời hạn\nDữ liệu và sao lưu\nkhóa phục hồi. lưu, quyền và mã EV]\n[CẦN XÁC NHẬN đã triển khai, dự\nKubernetes, GPU, S3, cơ sở dữ liệu quản\nDịch vụ mở rộng kiến hoặc không thuộc phạm vi; mã\ntrị và các dịch vụ khác.\nEV]\n2",
+    "chars": 1689,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  },
+  {
+    "index": 14,
+    "file": "10_Phu_luc_thiet_ke_va_hien_trang.docx",
+    "page": 4,
+    "png": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/tmp/ho-so-v2-4/render/14_10_Phu_luc_thiet_ke_va_hien_trang/page-4.png",
+    "text": "5. PHÂN BỔ TẠI DC VÀ DR\nĐịa điểm Vai trò Hồ sơ hiện trạng\nTrung tâm Hạ tầng IDC [CẦN ĐIỀN địa chỉ chi tiết, hợp đồng/SLA, rack/điện/lạnh,\nDC chính\nCầu Giấy thiết bị, kết nối, kiểm soát vật lý và mã EV]\n[CẦN ĐIỀN cấu hình phục hồi, dữ liệu đồng bộ, tài\nTrung tâm Hạ tầng IDC\nDR khoản/khóa, hồ sơ IDC, kết quả chuyển đổi/chuyển về và mã\nNam Thăng Long\nEV]\nChỉ tiêu phục hồi: [CẦN ĐIỀN mã dịch vụ, RPO/RTO/MTD được duyệt, kết quả\nđo, ngày thử và người xác nhận]. Thứ tự phục hồi và phụ thuộc: [CẦN ĐIỀN mạng,\nthời gian, DNS, IAM, KMS, lưu trữ, cơ sở dữ liệu, hàng đợi, API và workload].\n6. Danh mục hồ sơ xác nhận\nMã Tài liệu Đơn vị chủ trì Mã EV / phiên bản\nBOM theo site; serial; rack; port; nguồn điện\nXN01 Hạ tầng / IDC [CẦN ĐIỀN]\nA/B.\nInventory nền tảng, bản dựng XOR, SBOM,\nXN02 Platform [CẦN ĐIỀN]\ncấu hình.\nVLAN/VRF/IP, rule liên vùng, OOB, kết nối\nXN03 Network [CẦN ĐIỀN]\nhai site.\nBackend, mã hóa, khóa, dung lượng và chịu\nXN04 Storage / IAM [CẦN ĐIỀN]\nlỗi.\nQuét lỗ hổng, kiểm thử, kiểm tra lại và thay\nXN05 Chuyên trách ANM [CẦN ĐIỀN]\nđổi.\nBIA, sao lưu/phục hồi, diễn tập DR và\nXN06 Vận hành [CẦN ĐIỀN]\nRPO/RTO.\nPháp nhân, phân công, thẩm quyền ký, liên\nXN07 Chủ quản / pháp chế [CẦN ĐIỀN]\nhệ.\nĐơn vị lập: Khối Hạ tầng & Vận hành. Người lập: [CẦN ĐIỀN]. Người kiểm tra:\n[CẦN ĐIỀN]. Văn bản xác nhận: [CẦN ĐIỀN số, ngày, người ký].\n3",
+    "chars": 1340,
+    "width": 595.303937007874,
+    "height": 841.889763779528
+  }
+]

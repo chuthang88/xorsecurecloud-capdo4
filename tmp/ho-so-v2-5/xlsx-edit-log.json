@@ -1,0 +1,472 @@
+[
+  [
+    "Huong dan",
+    "B4",
+    "2026-10-18T00:00:00.000Z"
+  ],
+  [
+    "Huong dan",
+    "B8",
+    "Đã nhập EV-001 kiểm kê 18/10/2026: 13 thiết bị chính và 46 VM. Chưa có kết luận kiểm thử an ninh mạng; trạng thái kiểm soát tiếp tục chờ xác minh."
+  ],
+  [
+    "Tai san",
+    "A2",
+    "Danh mục tài sản theo kiểm kê ngày 18/10/2026"
+  ],
+  [
+    "Tai san",
+    "A3",
+    "59 bản ghi = 13 thiết bị chính + 46 VM theo EV-001; mã KK là mã hồ sơ. Các trường thiếu và vị trí ngoài site còn phải xác nhận."
+  ],
+  [
+    "Tai san",
+    "B5",
+    "Nhóm tài sản"
+  ],
+  [
+    "Bang chung",
+    "A3",
+    "EV-001 là báo cáo đã nhận. H01–H06 chỉ được báo cáo dẫn nguồn, chưa nhận tệp gốc; không đánh dấu Đã xác minh khi chưa đối soát."
+  ],
+  [
+    "TCVN",
+    "K12",
+    "EV-001; phụ lục 10. 13 thiết bị chính và 46 VM; có IP, serial và cấu hình trong phụ lục 10."
+  ],
+  [
+    "TCVN",
+    "O12",
+    "Bổ sung rack/U, chủ sở hữu, MAC, EOL/EOS, tài sản phụ trợ và phạm vi DR. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K14",
+    "EV-001; phụ lục 10. Có ảnh chụp kiểm kê ngày 18/10/2026; chưa có kết quả discovery toàn mạng."
+  ],
+  [
+    "TCVN",
+    "O14",
+    "Bổ sung phạm vi rà quét, đối soát chênh lệch và lịch sử định kỳ. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K17",
+    "EV-001; phụ lục 10. Đã ghi NX-OS 9.3(8), FortiOS 7.6.6 build3652; có danh mục VM."
+  ],
+  [
+    "TCVN",
+    "O17",
+    "Bổ sung OS, bản dựng XOR, hypervisor, agent, SBOM, giấy phép và EOL. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K33",
+    "EV-001; phụ lục 10. Có thông số bond, VLAN, storage và cấu hình VM tại ngày kiểm kê."
+  ],
+  [
+    "TCVN",
+    "O33",
+    "Đối chiếu baseline được duyệt, hardening và báo cáo sai lệch. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K47",
+    "EV-001; phụ lục 10. Kiểm kê có wazuh-01, monitor-01 và VM cysiem; chưa kiểm tra bên trong guest."
+  ],
+  [
+    "TCVN",
+    "O47",
+    "Xác minh nguồn log, NTP, TLS, thu tập trung và thử cảnh báo. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K64",
+    "EV-001; phụ lục 10. Ceph dùng size 3/min_size 2 trong cùng cụm; S3 ngoài site chưa kiểm kê."
+  ],
+  [
+    "TCVN",
+    "O64",
+    "Xác nhận sơ đồ bản sao độc lập, mã hóa và phép thử phục hồi. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K65",
+    "EV-001; phụ lục 10. Pool backups trong Ceph ghi 0,00 GB logic; chưa xác nhận repository ngoài cụm."
+  ],
+  [
+    "TCVN",
+    "O65",
+    "Bổ sung kho sao lưu độc lập, versioning, quyền xóa và dữ liệu thực tế. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K68",
+    "EV-001; phụ lục 10. Có 02 Nexus, 02 FortiGate trong HA và bond 10/25 Gb theo từng host."
+  ],
+  [
+    "TCVN",
+    "O68",
+    "Xác minh port map, ISP/tuyến độc lập, state sync và biên bản failover. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K75",
+    "EV-001; phụ lục 10. Đã ghi nhận VLAN/NIC của VM và IP iDRAC; có VLAN 235 trunk 40."
+  ],
+  [
+    "TCVN",
+    "O75",
+    "Chốt ánh xạ vùng, bridge/route/ACL và kiểm thử cách ly liên vùng. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K78",
+    "EV-001; phụ lục 10. Có pam-01, mfa-01 trên Proxmox và mfa-02 ngoài site."
+  ],
+  [
+    "TCVN",
+    "O78",
+    "Xác nhận luồng quản trị, MFA bắt buộc, ghi phiên và thử từ chối. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "TCVN",
+    "K81",
+    "EV-001; phụ lục 10. Có monitor-01, wazuh-01 và các VM an ninh trong danh mục."
+  ],
+  [
+    "TCVN",
+    "O81",
+    "Bổ sung bằng chứng chức năng, độ phủ, ca trực 24/7 và xử lý sự kiện. Chưa kết luận đạt từ kiểm kê."
+  ],
+  [
+    "Cloud",
+    "K7",
+    "EV-001. 03 controller VM trên 03 Proxmox; mỗi VM 24 vCPU/48 GiB, local-lvm 300G."
+  ],
+  [
+    "Cloud",
+    "O7",
+    "Xác minh quorum DB/queue, HA VM, bản sao local disk và cụm DR."
+  ],
+  [
+    "Cloud",
+    "K8",
+    "EV-001. Có VLAN/NIC VM và 24 VM thuộc 07 project; chưa kiểm tra ACL."
+  ],
+  [
+    "Cloud",
+    "O8",
+    "Kiểm tra VLAN 235 trunk 40, NIC trùng VLAN, forwarding và cách ly tenant."
+  ],
+  [
+    "Cloud",
+    "K10",
+    "EV-001. 26 volume, 2.387 GiB logic; Ceph size 3/min_size 2."
+  ],
+  [
+    "Cloud",
+    "O10",
+    "Kiểm thử quyền attach/detach, snapshot, mã hóa và xóa/tái cấp phát."
+  ],
+  [
+    "Cloud",
+    "K13",
+    "EV-001. 01 VM mfa-02 ngoài site; địa điểm vật lý chưa xác nhận."
+  ],
+  [
+    "Cloud",
+    "O13",
+    "Thu hợp đồng, địa chỉ IDC và đánh giá miền lỗi chung."
+  ],
+  [
+    "Cloud",
+    "K15",
+    "EV-001. 09 host, 02 Nexus, 02 FortiGate HA; bond 10/25 Gb; 03 VM controller."
+  ],
+  [
+    "Cloud",
+    "O15",
+    "Bổ sung DNS/IAM/queue, điện và thử mất thành phần."
+  ],
+  [
+    "Cloud",
+    "K16",
+    "EV-001. Controller VM dùng local-lvm; storage Proxmox liệt kê không shared."
+  ],
+  [
+    "Cloud",
+    "O16",
+    "Lập phụ thuộc phục hồi, bản sao cấu hình/khóa và diễn tập cold start."
+  ],
+  [
+    "Cloud",
+    "K19",
+    "EV-001. Có mfa-01 và mfa-02 trong danh mục; chưa kiểm tra cơ chế xác thực."
+  ],
+  [
+    "Cloud",
+    "O19",
+    "Xác nhận phạm vi MFA, yếu tố phần cứng nếu áp dụng và phép thử."
+  ],
+  [
+    "Cloud",
+    "K22",
+    "EV-001. Có wazuh-01 và VM cysiem theo danh mục."
+  ],
+  [
+    "Cloud",
+    "O22",
+    "Xác minh log theo tenant, quyền xem/xóa và lưu độc lập."
+  ],
+  [
+    "Cloud",
+    "K23",
+    "EV-001. Pool backups ghi 0,00 GB logic; S3 và cụm DR đầy đủ chưa kiểm kê."
+  ],
+  [
+    "Cloud",
+    "O23",
+    "Thu job backup, kho bất biến, bản sao ngoài cụm và diễn tập RPO/RTO."
+  ],
+  [
+    "Ho so",
+    "G6",
+    "Một phần"
+  ],
+  [
+    "Ho so",
+    "H6",
+    "EV-001; tài liệu 10 (kiểm kê, chưa xác nhận đáp ứng)."
+  ],
+  [
+    "Ho so",
+    "K6",
+    "Đã bổ sung quy mô tài sản; còn pháp nhân, chức năng, số khách hàng, dữ liệu và phạm vi dịch vụ."
+  ],
+  [
+    "Ho so",
+    "G7",
+    "Một phần"
+  ],
+  [
+    "Ho so",
+    "H7",
+    "EV-001; tài liệu 10 (kiểm kê, chưa xác nhận đáp ứng)."
+  ],
+  [
+    "Ho so",
+    "K7",
+    "Có cấu hình kiểm kê và sơ đồ tài sản; còn thiết kế phê duyệt, rack/cáp, route/rule và đối chiếu DR."
+  ],
+  [
+    "Ho so",
+    "G16",
+    "Một phần"
+  ],
+  [
+    "Ho so",
+    "H16",
+    "EV-001; tài liệu 10 (kiểm kê, chưa xác nhận đáp ứng)."
+  ],
+  [
+    "Ho so",
+    "K16",
+    "Có 13 thiết bị, 46 VM; còn chủ tài sản, vòng đời, phụ trợ, phân loại dữ liệu và phần DR."
+  ],
+  [
+    "Ho so",
+    "G17",
+    "Một phần"
+  ],
+  [
+    "Ho so",
+    "H17",
+    "EV-001; tài liệu 10 (kiểm kê, chưa xác nhận đáp ứng)."
+  ],
+  [
+    "Ho so",
+    "K17",
+    "Có bond/VLAN/NIC và hai phiên bản thiết bị; còn baseline, ACL, RBAC, TLS và phép thử."
+  ],
+  [
+    "Ho so",
+    "G18",
+    "Một phần"
+  ],
+  [
+    "Ho so",
+    "H18",
+    "EV-001; tài liệu 10 (kiểm kê, chưa xác nhận đáp ứng)."
+  ],
+  [
+    "Ho so",
+    "K18",
+    "Có VM mang tên Wazuh/monitor/SIEM; chưa xác nhận nguồn log, retention, chức năng hoặc ca trực."
+  ],
+  [
+    "Ho so",
+    "G19",
+    "Một phần"
+  ],
+  [
+    "Ho so",
+    "H19",
+    "EV-001; tài liệu 10 (kiểm kê, chưa xác nhận đáp ứng)."
+  ],
+  [
+    "Ho so",
+    "K19",
+    "Có Ceph replica và VM ngoài site; còn kho backup độc lập, job, RPO/RTO và diễn tập."
+  ],
+  [
+    "Ho so",
+    "G21",
+    "Một phần"
+  ],
+  [
+    "Ho so",
+    "H21",
+    "EV-001; tài liệu 10 (kiểm kê, chưa xác nhận đáp ứng)."
+  ],
+  [
+    "Ho so",
+    "K21",
+    "Có serial thiết bị chính; còn hợp đồng, vị trí rack/U, điện/lạnh/PCCC và trách nhiệm IDC."
+  ],
+  [
+    "Rui ro",
+    "C6",
+    "pam-01; mfa-01 trên Proxmox-01; mfa-02 ngoài site"
+  ],
+  [
+    "Rui ro",
+    "K6",
+    "Xác minh chính sách/PAM/MFA, quyền và phục hồi mfa-01 trên SSD-480GB RAID0."
+  ],
+  [
+    "Rui ro",
+    "M6",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C7",
+    "24 VM compute/07 project; controller-03 và wazuh-01 nhiều NIC"
+  ],
+  [
+    "Rui ro",
+    "K7",
+    "Kiểm tra bridge/forwarding, VLAN 235 trunk 40, ACL và đường vượt ranh giới."
+  ],
+  [
+    "Rui ro",
+    "M7",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C8",
+    "Ceph 03 host/10 OSD; pool backups; S3 chưa kiểm kê"
+  ],
+  [
+    "Rui ro",
+    "K8",
+    "Xác nhận bản sao độc lập và bất biến; thử restore; replica không thay backup."
+  ],
+  [
+    "Rui ro",
+    "M8",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C9",
+    "13 thiết bị chính, 45 VM tại site chính; mfa-02 ngoài site"
+  ],
+  [
+    "Rui ro",
+    "K9",
+    "Xác định cụm DR, khả năng phục hồi control plane/storage/VM và RPO/RTO."
+  ],
+  [
+    "Rui ro",
+    "M9",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C10",
+    "Kênh riêng 172.16.100.241 của mfa-02; liên site chưa đầy đủ"
+  ],
+  [
+    "Rui ro",
+    "K10",
+    "Thu tuyến, mã hóa, luồng đồng bộ, quorum/fencing và kiểm thử."
+  ],
+  [
+    "Rui ro",
+    "M10",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C11",
+    "03 controller VM local-lvm; các VM IAM/PAM/MFA"
+  ],
+  [
+    "Rui ro",
+    "K11",
+    "Lập phụ thuộc, lưu khóa/cấu hình ngoài nền tảng và thử khởi động nguội."
+  ],
+  [
+    "Rui ro",
+    "M11",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C13",
+    "KK-NET-01–04; bond các host; 02 FortiGate HA"
+  ],
+  [
+    "Rui ro",
+    "K13",
+    "Xác minh tuyến ISP, mapping cổng, state sync và kết quả failover."
+  ],
+  [
+    "Rui ro",
+    "M13",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C14",
+    "wazuh-01; monitor-01; cysiem; network-detection-01"
+  ],
+  [
+    "Rui ro",
+    "K14",
+    "Đối chiếu nguồn log, quyền, retention, cảnh báo và ca trực."
+  ],
+  [
+    "Rui ro",
+    "M14",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ],
+  [
+    "Rui ro",
+    "C15",
+    "DC Cầu Giấy; DR Nam Thăng Long; VM ngoài site chưa xác nhận IDC"
+  ],
+  [
+    "Rui ro",
+    "K15",
+    "Đánh giá điện, cáp, ISP và hợp đồng theo địa điểm thực tế."
+  ],
+  [
+    "Rui ro",
+    "M15",
+    "EV-001: kiểm kê; chưa xác nhận hiệu lực kiểm soát."
+  ]
+]

@@ -1,0 +1,68 @@
+XOR SECURE CLOUD — KẾT QUẢ THỬ LẠI NGÀY 15/10/2026
+Thời gian: khoảng 11:08–11:30, Asia/Ho_Chi_Minh.
+Project: userdemo — 5a4b1b40880a4c1fa754cb7f6e8269d4
+Tài khoản đăng nhập: userdemo; UI hiển thị My Role: member, reader; domain Default.
+Chỉ dùng giao diện WEB-XOR-Portal trong JumpServer. Không sửa hệ thống hoặc project khác.
+
+ĐÃ THỰC HIỆN ĐƯỢC
+- Đăng nhập bằng thông tin có sẵn; chụp màn hình đăng nhập với mật khẩu dạng dấu chấm.
+- Tạo blank volume 1 GiB: Available.
+- Tạo snapshot volume 1 GiB: Available.
+- Tạo và xóa IPsec policy: sha256, aes-256, tunnel, esp, group14, lifetime 3600 s.
+- IPsec Site Connections tải danh sách và biểu mẫu được; chưa thử đường hầm vì chưa có peer endpoint/PSK.
+- Tạo mạng riêng và subnet 192.168.242.0/24; dùng cho VM thử, sau đó xóa thành công.
+
+LỖI VÀ ĐIỂM CHẶN CÒN TÁI HIỆN
+1. VM docretry-1015-vm, ID 6ee008be-f9c1-4234-9f0f-dcbe9611d8e5:
+   Ubuntu 24.04, GP_2C_2G, boot volume 20GiB; người dùng tự nhập/gửi mật khẩu.
+   Build -> Error 500 lúc 11:24:40. Boot volume e9ecd5eb-8919-49c8-b1fb-90907985ea71
+   không hoàn tất sau 187 giây/61 lần thử, vẫn creating.
+   Console và Attach Volume bị vô hiệu hóa; chưa thể thử SSH/console/start/stop/reboot/gắn đĩa.
+   Xóa thông thường: Not Found. Immediately delete thành công; VM và boot volume đã hết.
+2. Snapshot Schedules: HTTP 400 Invalid filters id are found in query options.
+   Request-ID req-71e57019-b98e-497b-bb5b-43f95b830834.
+3. Full backup nhận yêu cầu nhưng vẫn Creating sau hơn 12 phút; source Backing Up.
+   Xóa backup trảHTTP 400: Backup status must be available or error.
+4. Tạo volume từ snapshot nhận yêu cầu nhưng vẫn Creating sau 19 phút.
+5. Backup Schedules: biểu mẫu No volumes; các volume lúc kiểm tra đang Creating/Backing Up.
+   Chưa kiểm chứng việc lưu/chạy lịch hoặc phục hồi từ backup hoàn tất.
+6. K8s Clusters và K8s Templates: HTTP 404 Not Found.
+7. Recycle Bin: Volumes và Database Instances đềuHTTP 404 Not Found.
+8. Monitor Overview: 0 Networks/0 Security groups dù lúc đó có 1 network Active và defaultSG.
+9. X-OR SECURE cấp 1/2/3 và cả 9 module Security Center:
+   Security Center temporarily paused by administrator.
+   Không kích hoạt module hoặc thay đổi cấu hình dùng chung.
+10. Wizard VM: nút Confirm nằm trong biểu mẫu Network Config trả Networkstep successfully
+    và về Home, không tạo VM. Dùng nút Next: System Config để tiếp tục wizard đúng bước.
+
+TÀI NGUYÊN CÒN LẠI CẦN QUẢN TRỊ VIÊN XỬ LÝ DỊCH VỤ
+Mọi mục dưới đây đều là dữ liệu thử 1 GiB, không chứa dữ liệu ứng dụng.
+- Volume cũ doccheck-1014-data:
+  05a04a1e-32da-4e50-9d81-98c3fe87654b — Creating khoảng 11 giờ.
+- Volume docretry-1015-data:
+  a12547db-c2b9-4955-b034-83e638d1e21a — Backing Up.
+- Volume docretry-1015-restored:
+  f9df6e00-d558-4db1-a57c-1552592a81ce — Creating sau 19 phút.
+  Cổng chặn xóa cả 3 volume trong bước kiểm tra điều kiện.
+- Snapshot docretry-1015-snapshot:
+  0b25e44a-3338-4167-b67d-05b353e8def2 — Available.
+  Cổng chặn xóa vì đang được volume docretry-1015-restored đang tạo sử dụng.
+- Backup docretry-1015-backup:
+  6a0558af-31b9-4731-aab9-40d756a524d2 — Creating; xóa bịHTTP 400.
+
+ĐÃ DỌN XONG
+VM thử, boot volume 20GiB, mạng/subnet/port của lượt thử, IPsec policy.
+Tổng quan cuối: 0 VM/vCPU/RAM, 0 network/subnet/port/router/FIP;
+1 default SG/4 rules không thay đổi; 3volume, 1snapshot, 1backup còn lại như trên.
+Không force/reset trạng thái hoặc truy cập backend để vượt kiểm tra của cổng.
+
+TÀI LIỆU ĐÃ CẬP NHẬT
+https://xor-secure-cloud-docs.chudaihiep.chatgpt.site
+Bản 0.7; 25 bài/ngôn ngữ; 54 trang HTML; 18 ảnh, thêm 5 ảnh thực tế.
+Bổ sung ảnh và nút Log in; thao tác snapshot/volume phục hồi/backup;
+bài VPN IPsec và cách đối chiếu số liệu giám sát. Bản VI/EN cùng cấu trúc.
+Giữ cách viết user guide theo OpenStack Mitaka, không đưa hồ sơ kiểm thử này lên website.
+Kiểm tra: build/check PASS 3006 liên kết + anchor, đồng bộ bản dịch và ảnh;
+UI 1280 px / 390 px không tràn ngang; chuyển ngôn ngữ giữ anchor; không lỗi JS.
+Nguồn commit 1a6499eab58dad7eb7840032e7c2ffd59c3ff499; triển khai succeeded.
+Ảnh gốc và trạng thái UI nằm cùng thư mục; retry-run.json lưu danh mục tài nguyên.

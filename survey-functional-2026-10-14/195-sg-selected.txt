@@ -1,0 +1,164 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/security-group
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+							177 menu Secondary Actions: Cancel
+								178 Audit Logs
+								179 Recycle Bin
+						180 pop up button X-OR SECURE
+						181 Security Center
+						182 Security Posture
+						183 Web Application Firewall
+						184 Vulnerability Management
+						185 SIEM
+						186 Endpoint Security
+						187 Network Detection
+						188 Data Protection
+						189 Automation
+						190 Network Access Control
+					191 image left
+					192 container
+						193 text Network / Security Groups
+						194 container
+							195 button Create Security Group
+							196 button Delete
+							197 text field (settable) Multiple filter tags are separated by enter
+							198 image search
+							199 button sync
+								200 image sync
+							201 button download
+								202 image download
+							203 button eye
+								204 image eye
+							205 button pause-circle
+								206 image pause-circle
+						207 container
+							208 table
+								209 row
+									210 column header
+										211 container
+											212 checkbox  , Value: 0
+									213 column header
+										214 text ID/Name
+										215 image caret-up
+										216 image caret-down
+									217 column header
+										218 text Description
+										219 image caret-up
+										220 image caret-down
+									221 column header
+										222 text Created At
+										223 image caret-up
+										224 image caret-down
+									225 column header
+										226 text Action
+							227 table
+								228 row
+									229 cell
+										230 container
+											231 checkbox  , Value: 1
+									232 cell
+										233 link Description: 603c6b96 Copy, Value: 10.3.10.100:9999/network/security-group/detail/603c6b96-d61f-40a2-b325-bf85feb0bcaa
+										234 text doccheck-1014-sg
+									235 cell
+										236 text Disposable documentation test; unattached
+									237 cell
+										238 text a few seconds ago
+									239 cell
+										240 button Edit
+										241 button More down
+											242 text More
+											243 image down
+								244 row
+									245 cell
+										246 container
+											247 checkbox  , Value: 0
+									248 cell
+										249 link Description: ce0c9cec Copy, Value: 10.3.10.100:9999/network/security-group/detail/ce0c9cec-45ca-4071-882b-e3fa111e8893
+										250 text default
+									251 cell
+										252 text Default security group
+									253 cell
+										254 text 2 hours ago
+									255 cell
+										256 button (disabled) Edit
+										257 button Create Rule
+							258 container
+								259 text Total 2 items
+								260 button (disabled) left
+									261 image left
+								262 button 1
+								263 button (disabled) right
+									264 image right
+								265 container
+									266 combo box
+									267 text 10 items/page
+	268 close button
+	269 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	270 minimize button
+271 menu bar
+	272 JumpServer
+	273 File
+	274 Edit
+	275 View
+	276 Window
+	277 Help

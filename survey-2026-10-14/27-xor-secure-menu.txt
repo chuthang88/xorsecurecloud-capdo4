@@ -1,0 +1,127 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/management/audit-logs
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+								166 menu Secondary Actions: Cancel
+									167 Audit Logs
+									168 Recycle Bin
+						169 pop up button X-OR SECURE
+						170 Hồ sơ thiết kế
+						171 TCVN Cấp độ 1
+						172 TCVN Cấp độ 2
+						173 TCVN Cấp độ 3
+						174 Security Center
+					175 image left
+					176 container
+						177 text Maintenance / Audit Logs
+						178 container
+							179 text field (settable) Multiple filter tags are separated by enter
+							180 image search
+							181 button sync
+								182 image sync
+							183 button download
+								184 image download
+							185 button pause-circle
+								186 image pause-circle
+						187 container
+							188 table
+								189 row
+									190 column header
+										191 text Log
+										192 image caret-up
+										193 image caret-down
+									194 column header
+										195 image caret-up
+										196 image caret-down
+							197 table
+								198 row
+									199 cell
+										200 container
+											201 text 2026-10-14 15:38:07 [ 200 ] userdemo LOGOUT session 339 ms
+									202 cell
+										203 button eye
+											204 image eye
+								205 row
+									206 cell
+										207 container
+											208 text 2026-10-14 15:19:33 [ 200 ] userdemo LOGOUT session 257 ms
+									209 cell
+										210 button eye
+											211 image eye
+								212 row
+									213 cell
+										214 container
+											215 text 2026-10-14 15:09:23 [ 200 ] userdemo LOGOUT session 249 ms
+									216 cell
+										217 button eye
+											218 image eye
+							219 content list
+								220 text Total 3 items
+								221 container Previous Page
+									222 button (disabled) left
+										223 image left
+								224 text 1
+								225 container Next Page
+									226 button (disabled) right
+										227 image right
+								228 container
+									229 combo box
+									230 text 10 / page
+	231 close button
+	232 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	233 minimize button
+234 menu bar
+	235 JumpServer
+	236 File
+	237 Edit
+	238 View
+	239 Window
+	240 Help

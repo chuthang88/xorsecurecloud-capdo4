@@ -1,0 +1,137 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/management/audit-logs
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+								166 menu Secondary Actions: Cancel
+									167 Audit Logs
+									168 Recycle Bin
+						169 pop up button X-OR SECURE
+						170 Security Center
+					171 image left
+					172 container
+						173 text Maintenance / Audit Logs
+						174 container
+							175 text field (settable) Multiple filter tags are separated by enter
+							176 image search
+							177 button sync
+								178 image sync
+							179 button download
+								180 image download
+							181 button pause-circle
+								182 image pause-circle
+						183 container
+							184 table
+								185 row
+									186 column header
+										187 text Log
+										188 image caret-up
+										189 image caret-down
+									190 column header
+										191 image caret-up
+										192 image caret-down
+							193 table
+								194 row
+									195 cell
+										196 container
+											197 text 2026-10-14 17:05:51 [ 404 ] userdemo ACTION 548 ms
+									198 cell
+										199 button eye
+											200 image eye
+								201 row
+									202 cell
+										203 container
+											204 text 2026-10-14 17:04:36 [ 500 ] userdemo ACTION 187 ms
+									205 cell
+										206 button eye
+											207 image eye
+								208 row
+									209 cell
+										210 container
+											211 text 2026-10-14 15:38:07 [ 200 ] userdemo LOGOUT session 339 ms
+									212 cell
+										213 button eye
+											214 image eye
+								215 row
+									216 cell
+										217 container
+											218 text 2026-10-14 15:19:33 [ 200 ] userdemo LOGOUT session 257 ms
+									219 cell
+										220 button eye
+											221 image eye
+								222 row
+									223 cell
+										224 container
+											225 text 2026-10-14 15:09:23 [ 200 ] userdemo LOGOUT session 249 ms
+									226 cell
+										227 button eye
+											228 image eye
+							229 content list
+								230 text Total 5 items
+								231 container Previous Page
+									232 button (disabled) left
+										233 image left
+								234 text 1
+								235 container Next Page
+									236 button (disabled) right
+										237 image right
+								238 container
+									239 combo box
+									240 text 10 / page
+	241 close button
+	242 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	243 minimize button
+244 menu bar
+	245 JumpServer
+	246 File
+	247 Edit
+	248 View
+	249 Window
+	250 Help

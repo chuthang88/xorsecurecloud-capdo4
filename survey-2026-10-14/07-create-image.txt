@@ -1,0 +1,160 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/image/create
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Compute /
+						182 link Description: Images, Value: 10.3.10.100:9999/compute/image
+						183 text / Create Image
+						184 container
+							185 container
+								186 container
+									187 text * Name
+								188 container
+									189 text field (settable) * Name, Placeholder: Please input name
+									190 text The name should start with upper letter, lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].".
+								191 container
+									192 text Upload Type
+								193 container
+									194 radio button Upload File, Value: 1
+									195 text Upload File
+									196 radio button File URL, Value: 0
+									197 text File URL
+								198 container
+									199 text * File
+								200 button upload Click to Upload
+									201 button upload Click to Upload
+										202 image upload
+										203 text Click to Upload
+								204 container
+									205 text * Disk Format
+								206 container
+									207 combo box (settable) * Disk Format
+									208 text Please select
+								209 container
+									210 text * Container Format
+								211 container
+									212 combo box (settable) * Container Format
+									213 text Bare
+								214 container
+									215 text * OS
+								216 container
+									217 combo box (settable) * OS
+									218 text Please select
+								219 container
+									220 text * OS Version
+								221 text field (settable) * OS Version
+								222 container
+									223 text * OS Admin
+								224 container
+									225 text field (settable) * OS Admin
+									226 text In general, administrator for Windows, root for Linux, please fill by image uploading.
+								227 container
+									228 text Min System Disk (GiB)
+								229 container
+									230 button Increase Value
+										231 image up
+									232 button Decrease Value
+										233 image down
+									234 stepper (settable, float) Min System Disk (GiB), Value: 0
+								235 container
+									236 text Min Memory (GiB)
+								237 container
+									238 button Increase Value
+										239 image up
+									240 button Decrease Value
+										241 image down
+									242 stepper (settable, float) Min Memory (GiB), Value: 0
+								243 container
+									244 text Protected
+								245 container
+									246 checkbox Protected  , Value: 0
+									247 text Protected
+								248 container
+									249 text Usage Type
+								250 container
+									251 combo box (settable) Usage Type
+									252 text Common Server
+								253 container
+									254 text Description
+								255 text entry area (settable) Description
+								256 container
+									257 text Advanced Options
+								258 button Expand Advanced Options caret-down
+									259 text Expand Advanced Options
+									260 image caret-down
+							261 container
+								262 button Cancel
+								263 button Confirm
+	264 close button
+	265 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	266 minimize button
+267 menu bar
+	268 JumpServer
+	269 File
+	270 Edit
+	271 View
+	272 Window
+	273 Help

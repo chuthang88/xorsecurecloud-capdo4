@@ -1,0 +1,136 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/base/overview
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+						166 pop up button X-OR SECURE
+						167 Security Center
+					168 image left
+					169 container
+						170 container
+							171 text 👋  Hello, userdemo
+						172 text User Account : userdemo My Role : member, reader Affiliated Domain : Default
+						173 link Description: Instances Instances 0, Value: 10.3.10.100:9999/compute/instance
+						174 link Description: Volumes Volumes 0, Value: 10.3.10.100:9999/storage/volume
+						175 link Description: Networks Networks 0, Value: 10.3.10.100:9999/network/networks
+						176 link Description: Routers Routers 0, Value: 10.3.10.100:9999/network/router
+						177 container
+							178 text Quota Overview
+							179 text Normal
+							180 text Danger
+							181 text Full
+							182 container
+								183 text Compute Instances  :  0 / 10
+								184 text vCPUs  :  0 / 20
+								185 text Memory (GiB)  :  0 / 50
+								186 text Key Pairs
+								187 image question-circle
+								188 text  :  0 / 100
+								189 text Server Groups  :  0 / 10  ( Members of Each Group  : 10 )
+							190 container
+								191 text Network Routers  :  0 / 10
+								192 text Networks  :  0 / 100
+								193 text Subnets  :  0 / 100
+								194 text Floating IPs  :  0 / 50
+								195 text Ports  :  0 / 500
+								196 text Security Groups  :  1 / 10
+								197 text Security Group Rules  :  4 / 100
+							198 container
+								199 text Storage
+								200 container
+									201 image
+									202 text 0%
+								203 text Volumes
+								204 container
+									205 text 0  /  10
+								206 container
+									207 image
+									208 text 0%
+								209 text Volume Capacity (GiB)
+								210 container
+									211 text 0  /  1000
+								212 container
+									213 image
+									214 text 0%
+								215 text Volume Snapshots
+								216 container
+									217 text 0  /  10
+								218 container
+									219 image
+									220 text 0%
+								221 text Volume Backups
+								222 container
+									223 text 0  /  10
+								224 container
+									225 image
+									226 text 0%
+								227 text Volume Backup Capacity (GiB)
+								228 container
+									229 text 0  /  1000
+							230 container
+								231 text Clusters Management Clusters  :  0 / 20
+							232 text Storage Types
+							233 content list
+								234 container
+									235 text __DEFAULT__ type  :  0 / Unlimit
+								236 container
+									237 text __DEFAULT__ type capacity (GiB)  :  0 / Unlimit
+								238 container
+									239 text __DEFAULT__ type snapshots  :  0 / Unlimit
+	240 close button
+	241 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	242 minimize button
+243 menu bar
+	244 JumpServer
+	245 File
+	246 Edit
+	247 View
+	248 Window
+	249 Help

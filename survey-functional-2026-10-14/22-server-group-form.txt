@@ -1,0 +1,138 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/server-group
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Compute / Server Groups
+						182 container
+							183 button Create Server Group
+							184 button (disabled) Delete
+							185 text field (settable) Multiple filter tags are separated by enter
+							186 image search
+							187 button sync
+								188 image sync
+							189 button download
+								190 image download
+							191 button eye
+								192 image eye
+							193 button pause-circle
+								194 image pause-circle
+						195 container
+							196 table
+								197 row
+									198 column header
+										199 container
+											200 checkbox (disabled)  , Value: 0
+									201 column header
+										202 text ID/Name
+										203 image caret-up
+										204 image caret-down
+									205 column header
+										206 text Member Count
+										207 image caret-up
+										208 image caret-down
+									209 column header
+										210 text Policy
+										211 image caret-up
+										212 image caret-down
+									213 column header
+										214 text Action
+							215 table
+								216 row
+									217 cell 0-4
+										218 text No Data
+				219 container
+					220 container Create Server Group
+						221 container
+							222 button Close
+								223 image close
+							224 text Create Server Group
+							225 container
+								226 container
+									227 container
+										228 text * Name
+									229 container
+										230 text field (settable) * Name, Placeholder: Please input name
+										231 text The name should start with upper letter, lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].:^".
+									232 container
+										233 text * Policy
+										234 image question-circle
+									235 container
+										236 combo box (settable) * Policy  question-circle
+										237 text Please select policy
+								238 image
+							239 container
+								240 button Cancel
+								241 button OK
+	242 close button
+	243 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	244 minimize button
+245 menu bar
+	246 JumpServer
+	247 File
+	248 Edit
+	249 View
+	250 Window
+	251 Help

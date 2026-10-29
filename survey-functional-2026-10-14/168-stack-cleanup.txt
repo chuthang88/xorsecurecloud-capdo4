@@ -1,0 +1,148 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/stack
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+								151 menu Secondary Actions: Cancel
+									152 Stacks
+									153 Resource Types
+									154 Template Versions
+									155 Template Generator
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+							172 menu Secondary Actions: Cancel
+								173 Audit Logs
+								174 Recycle Bin
+						175 pop up button X-OR SECURE
+						176 Security Center
+						177 Security Posture
+						178 Web Application Firewall
+						179 Vulnerability Management
+						180 SIEM
+						181 Endpoint Security
+						182 Network Detection
+						183 Data Protection
+						184 Automation
+						185 Network Access Control
+					186 image left
+					187 container
+						188 text Orchestration / Stacks
+						189 container
+							190 button Create Stack
+							191 button (disabled) Delete
+							192 text field (settable) Multiple filter tags are separated by enter
+							193 image search
+							194 button sync
+								195 image sync
+							196 button download
+								197 image download
+							198 button eye
+								199 image eye
+							200 button pause-circle
+								201 image pause-circle
+						202 container
+							203 container
+								204 table
+									205 row
+										206 column header
+											207 container
+												208 checkbox (disabled)  , Value: 0
+										209 column header
+											210 text ID/Name
+											211 image caret-up
+											212 image caret-down
+										213 column header
+											214 text Stack Status
+											215 image caret-up
+											216 image caret-down
+										217 column header
+											218 text Created At
+											219 image caret-up
+											220 image caret-down
+										221 column header
+											222 text Updated At
+											223 image caret-up
+											224 image caret-down
+										225 column header
+											226 text Action
+								227 table
+									228 row
+										229 cell 0-5
+											230 text No Data
+								231 container
+									232 button (disabled) left
+										233 image left
+									234 button 1
+									235 button (disabled) right
+										236 image right
+									237 container
+										238 combo box
+										239 text 10 items/page
+				240 container
+					241 container
+						242 image close-circle
+						243 text Get recycle volumes error.
+						244 button Click to show detail
+					245 link close
+						246 image close
+					247 container
+						248 image close-circle
+						249 text Get recycle database instances error.
+						250 button Click to show detail
+					251 link close
+						252 image close
+	253 close button
+	254 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	255 minimize button
+256 menu bar
+	257 JumpServer
+	258 File
+	259 Edit
+	260 View
+	261 Window
+	262 Help

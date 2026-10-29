@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1520" viewBox="0 0 1200 1520">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="#000000"/></marker></defs><rect width="1200" height="1520" fill="#FFFFFF"/>
+<text x="40" y="54" font-family="Times New Roman, Times, serif" font-size="36" fill="#000000" font-weight="700">XOR SECURE CLOUD</text>
+<text x="40" y="94" font-family="Times New Roman, Times, serif" font-size="25" fill="#000000" font-weight="400">Kiến trúc tham chiếu cấp độ 4  |  XOR STACK CLOUD</text>
+<text x="40" y="130" font-family="Times New Roman, Times, serif" font-size="20" fill="#000000" font-weight="400">Bản thiết kế đề xuất • 17/10/2026 • Chưa phải kết quả đánh giá đạt</text>
+<rect x="40" y="160" width="530" height="85" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="58" y="193" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Người dùng và hệ thống kết nối</text>
+<text x="58" y="226" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Internet / kênh riêng theo dịch vụ</text>
+<rect x="630" y="160" width="530" height="85" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="648" y="193" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Quản trị viên XOR</text>
+<text x="648" y="226" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Máy trạm chuyên dụng • MFA phần cứng</text>
+<rect x="25" y="275" width="1150" height="895" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-dasharray="9 6"/>
+<text x="50" y="311" font-family="Times New Roman, Times, serif" font-size="27" fill="#000000" font-weight="700">DC  |  Trung tâm Hạ tầng IDC Cầu Giấy</text>
+<rect x="50" y="335" width="520" height="120" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="68" y="368" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z01  BIÊN VÀ KẾT NỐI</text>
+<text x="68" y="401" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">2 ISP • Anti-DDoS • NGFW / IPS HA</text>
+<text x="68" y="430" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Cổng VPN / ZTNA tách khỏi dịch vụ công khai</text>
+<rect x="630" y="335" width="520" height="120" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="648" y="368" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z02  DMZ CÔNG KHAI</text>
+<text x="648" y="401" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">WAF • API gateway • Load Balancer HA</text>
+<text x="648" y="430" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Portal tenant / API được phép • TLS</text>
+<polyline points="300,245 300,260 10,260 10,395 50,395" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="0" marker-end="url(#arr)"/>
+<polyline points="570,390 630,390" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="0" marker-end="url(#arr)"/>
+<polyline points="895,245 895,265 595,265 595,440 570,440" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="9" marker-end="url(#arr)"/>
+<text x="630" y="260" font-family="Times New Roman, Times, serif" font-size="18" fill="#000000" font-weight="400">Tới VPN / ZTNA tại Z01</text>
+<rect x="50" y="500" width="520" height="150" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="68" y="533" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z04  TÀI NGUYÊN KHÁCH HÀNG</text>
+<text x="68" y="566" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Nova / KVM • VM • Kubernetes theo dịch vụ</text>
+<text x="68" y="595" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Project / VPC / SG / NetworkPolicy</text>
+<text x="68" y="624" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Cách ly tenant và môi trường sản xuất</text>
+<rect x="630" y="500" width="520" height="150" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="648" y="533" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z05  DỮ LIỆU VÀ LƯU TRỮ</text>
+<text x="648" y="566" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">CSDL • Block / Object / File theo danh mục</text>
+<text x="648" y="595" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Mạng lưu trữ riêng • DBF / DAM</text>
+<text x="648" y="624" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Mã hóa • quyền truy cập theo tenant</text>
+<polyline points="890,455 890,478 300,478 300,500" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="0" marker-end="url(#arr)"/>
+<text x="580" y="492" font-family="Times New Roman, Times, serif" font-size="18" fill="#000000" font-weight="400">Chỉ qua endpoint được duyệt</text>
+<polyline points="570,575 630,575" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="0" marker-end="url(#arr)"/>
+<text x="580" y="563" font-family="Times New Roman, Times, serif" font-size="18" fill="#000000" font-weight="400">TLS</text>
+<rect x="50" y="690" width="520" height="150" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="68" y="723" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z06 + Z10  QUẢN TRỊ VÀ OOB</text>
+<text x="68" y="756" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">PAM / Bastion • phê duyệt • ghi phiên</text>
+<text x="68" y="785" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">IdP • KMS / HSM • PKI • DNS / NTP</text>
+<text x="68" y="814" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">BMC / console ở mạng ngoài băng riêng</text>
+<rect x="630" y="690" width="520" height="150" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="637.0" y="697.0" width="506.0" height="136.0" fill="none" stroke="#000000" stroke-width="1" rx="4"/><text x="648" y="723" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z07  ĐIỀU KHIỂN CLOUD</text>
+<text x="648" y="756" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">XOR STACK • Keystone • Nova • Neutron</text>
+<text x="648" y="785" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Cinder • Glance • dịch vụ đã kiểm chứng</text>
+<text x="648" y="814" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">DB / hàng đợi HA • API nội bộ riêng</text>
+<polyline points="50,440 30,440 30,765 50,765" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="9" marker-end="url(#arr)"/>
+<polyline points="570,765 630,765" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="0" marker-end="url(#arr)"/>
+<text x="575" y="752" font-family="Times New Roman, Times, serif" font-size="18" fill="#000000" font-weight="400">PAM</text>
+<polyline points="890,690 890,670 310,670 310,650" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="0" marker-end="url(#arr)"/>
+<text x="580" y="685" font-family="Times New Roman, Times, serif" font-size="18" fill="#000000" font-weight="400">Điều phối qua mạng chuyên dụng</text>
+<rect x="50" y="880" width="520" height="145" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text x="68" y="913" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z08  AN NINH VÀ NHẬT KÝ</text>
+<text x="68" y="946" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">SOC 24/7 • SIEM • NDR • EDR / FIM</text>
+<text x="68" y="975" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Collector và kho log riêng vùng mạng</text>
+<text x="68" y="1004" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Log ≥ 6 tháng • chống sửa / xóa</text>
+<rect x="630" y="880" width="520" height="145" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="637.0" y="887.0" width="506.0" height="131.0" fill="none" stroke="#000000" stroke-width="1" rx="4"/><text x="648" y="913" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">Z09  SAO LƯU ĐỘC LẬP</text>
+<text x="648" y="946" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Hạ tầng và miền quản trị riêng</text>
+<text x="648" y="975" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Bản sao bất biến • khôi phục đã kiểm thử</text>
+<text x="648" y="1004" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Sao lưu cả control plane và khóa khôi phục</text>
+<text x="65" y="1059" font-family="Times New Roman, Times, serif" font-size="22" fill="#000000" font-weight="700">Z03  Nội bộ / NAC  |  Z11  Dev và CI/CD riêng  |  Z12  Đồng bộ DC ↔ DR</text>
+<text x="65" y="1097" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Mọi vùng gửi log qua collector tới Z08; PAM kiểm soát mọi luồng quản trị.</text>
+<text x="65" y="1133" font-family="Times New Roman, Times, serif" font-size="20" fill="#000000" font-weight="400">Nét đứt: luồng quản trị qua VPN/PAM. Ma trận kết nối quy định quyền chi tiết.</text>
+<polyline points="600,1170 600,1230" fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="0" marker-end="url(#arr)"/>
+<text x="90" y="1208" font-family="Times New Roman, Times, serif" font-size="18" fill="#000000" font-weight="400">Z12 • kênh riêng mã hóa • đồng bộ có giám sát</text>
+<rect x="40" y="1230" width="1120" height="155" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect x="47.0" y="1237.0" width="1106.0" height="141.0" fill="none" stroke="#000000" stroke-width="1" rx="4"/><text x="58" y="1263" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000" font-weight="700">DR  |  Trung tâm Hạ tầng IDC Nam Thăng Long</text>
+<text x="58" y="1296" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Cụm XOR STACK CLOUD và lưu trữ độc lập • Quorum nằm trong từng site</text>
+<text x="58" y="1325" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Có sẵn mạng, IAM, khóa, log, backup và năng lực chạy tập dịch vụ cần phục hồi</text>
+<text x="58" y="1354" font-family="Times New Roman, Times, serif" font-size="21" fill="#000000" font-weight="400">Chuyển đổi có fencing, kiểm tra nhất quán và phê duyệt • diễn tập cả chuyển về</text>
+<text x="40" y="1428" font-family="Times New Roman, Times, serif" font-size="23" fill="#000000" font-weight="700">NGUYÊN TẮC  Chặn mặc định • Phân tách nhiệm vụ • Kiểm chứng bằng phép thử</text>
+<text x="40" y="1464" font-family="Times New Roman, Times, serif" font-size="20" fill="#000000" font-weight="400">DC và DR do người dùng xác nhận; cấu phần, HA và năng lực nêu trên là phương án đề xuất.</text>
+</svg>

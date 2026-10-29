@@ -1,0 +1,101 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/security-center/network-detection
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+							166 menu Secondary Actions: Cancel
+								167 Audit Logs
+								168 Recycle Bin
+						169 pop up button X-OR SECURE
+						170 Security Center
+						171 Security Posture
+						172 Web Application Firewall
+						173 Vulnerability Management
+						174 SIEM
+						175 Endpoint Security
+						176 Network Detection
+						177 Data Protection
+						178 Automation
+						179 Network Access Control
+					180 image left
+				181 container
+					182 container
+						183 image close-circle
+						184 text Get recycle volumes error.
+						185 button Click to show detail
+					186 link close
+						187 image close
+					188 container
+						189 image close-circle
+						190 text Get recycle database instances error.
+						191 button Click to show detail
+					192 link close
+						193 image close
+				194 container X-OR Security Center
+					195 HTML content X-OR Network Detection, URL: 10.3.10.100:9999/security-ndr.html?v=sec54&section=overview
+						196 container
+							197 text X-OR CLOUD SECURITY / NDR
+							198 text Network Detection
+							199 text Project-isolated sensor health, zone-level traffic summaries and normalized network detections.
+							200 container
+								201 text loading viewer
+							202 button Refresh
+							203 button Add sensor connector
+						204 text Security Center temporarily paused by administrator
+	205 close button
+	206 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	207 minimize button
+208 menu bar
+	209 JumpServer
+	210 File
+	211 Edit
+	212 View
+	213 Window
+	214 Help

@@ -1,0 +1,275 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 pop up button New connection
+					9 container
+						10 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						11 pop up button Chử Quang Thắng
+						12 toggle button Description: Open right panel, Value: 0
+					13 container
+						14 outline Resource
+							15 container
+								16 button Assets
+								17 button Switch to type tree
+								18 button Refresh
+								19 pop up button Batch actions
+								20 container
+									21 button Recent connections
+										22 text Recent connections
+									23 button Clear recent connections
+								24 button DEFAULT (46), Help: DEFAULT
+									25 text DEFAULT
+									26 text (46)
+								27 container
+									28 row iDRAC - Hardware Management (9)
+										29 button iDRAC - Hardware Management (9), Help: iDRAC - Hardware Management
+											30 text iDRAC - Hardware Management
+											31 text (9)
+									32 row Monitoring (2)
+										33 button Monitoring (2), Help: Monitoring
+											34 text Monitoring
+											35 text (2)
+									36 row XOR Infrastructure (35)
+										37 button XOR Infrastructure (35), Help: XOR Infrastructure
+											38 text XOR Infrastructure
+											39 text (35)
+										40 container
+											41 row Application VMs (6)
+												42 button Application VMs (6), Help: Application VMs
+													43 text Application VMs
+													44 text (6)
+											45 row Ceph (3)
+												46 button Ceph (3), Help: Ceph
+													47 text Ceph
+													48 text (3)
+											49 row Compute (3)
+												50 button Compute (3), Help: Compute
+													51 text Compute
+													52 text (3)
+											53 row Controllers (3)
+												54 button Controllers (3), Help: Controllers
+													55 text Controllers
+													56 text (3)
+											57 row Proxmox (3)
+												58 button Proxmox (3), Help: Proxmox
+													59 text Proxmox
+													60 text (3)
+											61 row Security Services (9)
+												62 button Security Services (9), Help: Security Services
+													63 text Security Services
+													64 text (9)
+											65 row Web Management (8)
+												66 button Web Management (8), Help: Web Management
+													67 text Web Management
+													68 text (8)
+												69 container
+													70 row WEB-Ceph-Dashboard
+														71 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Ceph-Dashboard
+													73 row WEB-FortiGate
+														74 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-FortiGate
+													76 row WEB-Horizon
+														77 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Horizon
+													79 row WEB-Proxmox-01
+														80 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-01
+													82 row WEB-Proxmox-02
+														83 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Proxmox-02
+													85 row WEB-Proxmox-03
+														86 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-Proxmox-03
+													88 row WEB-Wazuh
+														89 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															90 text WEB-Wazuh
+													91 row WEB-XOR-Portal
+														92 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															93 text WEB-XOR-Portal
+									94 row Wazuh-01
+										95 button Wazuh-01, Help: 10.3.70.94
+											96 text Wazuh-01
+						97 button Favorites Create folder Refresh
+							98 text Favorites
+							99 container
+								100 button Create folder
+								101 button Refresh
+					102 container
+						103 button 后退
+						104 button 前进
+						105 button 刷新
+						106 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/storage/backup
+						107 button 会话状态：已通过代理连接 · 账号代填未配置
+						108 text Connected
+					109 text Signed in Chử Quang Thắng
+					110 text WEB-XOR-Portal HTTP 1 tabs 1 connected
+					111 button Description: Transfer center, Help: Transfer queue
+					112 pop up button (disabled) Virtual keyboard
+				113 container Notifications (F8)
+					114 content list
+			115 HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/backup
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+								143 menu Secondary Actions: Cancel
+									144 Volumes
+									145 Volume Backups
+									146 Volume Snapshots
+									147 Snapshot Schedules
+									148 Backup Schedules
+						149 Network Network
+							150 pop up button Network Network
+								151 image Network
+								152 text Network
+						153 Orchestration Orchestration
+							154 pop up button Orchestration Orchestration
+								155 image Orchestration
+								156 text Orchestration
+						157 Database Database
+							158 pop up button Database Database
+								159 image Database
+								160 text Database
+						161 Container Container
+							162 pop up button Container Container
+								163 image Container
+								164 text Container
+						165 Monitor Center Monitor Center
+							166 pop up button Monitor Center Monitor Center
+								167 image Monitor Center
+								168 text Monitor Center
+						169 Alert Management Maintenance
+							170 pop up button Alert Management Maintenance
+								171 image Alert Management
+								172 text Maintenance
+						173 pop up button X-OR SECURE
+						174 Security Center
+						175 Security Posture
+						176 Web Application Firewall
+						177 Vulnerability Management
+						178 SIEM
+						179 Endpoint Security
+						180 Network Detection
+						181 Data Protection
+						182 Automation
+						183 Network Access Control
+					184 image left
+					185 container
+						186 text Storage / Volume Backups
+						187 container
+							188 button Create Volume Backup
+							189 button (disabled) Delete
+							190 text field (settable) Multiple filter tags are separated by enter
+							191 image search
+							192 button sync
+								193 image sync
+							194 button download
+								195 image download
+							196 button eye
+								197 image eye
+							198 button pause-circle
+								199 image pause-circle
+						200 container
+							201 container
+								202 table
+									203 row
+										204 column header
+											205 container
+												206 checkbox  , Value: 0
+										207 column header
+											208 text ID/Name
+											209 image caret-up
+											210 image caret-down
+										211 column header
+											212 text Volume ID/Name
+											213 image caret-up
+											214 image caret-down
+										215 column header
+											216 text Backup Mode
+										217 column header
+											218 text Size
+										219 column header
+											220 text Status
+											221 image caret-up
+											222 image caret-down
+										223 column header
+											224 text Created At
+											225 image caret-up
+											226 image caret-down
+										227 column header
+											228 text Action
+								229 table
+									230 row
+										231 cell
+											232 container
+												233 checkbox  , Value: 0
+										234 cell
+											235 link Description: 6a0558af Copy, Value: 10.3.10.100:9999/storage/backup/detail/6a0558af-31b9-4731-aab9-40d756a524d2
+											236 text docretry-1015-backup
+										237 cell
+											238 link Description: a12547db Copy, Value: 10.3.10.100:9999/storage/volume/detail/a12547db-c2b9-4955-b034-83e638d1e21a?tab=backup
+											239 text -
+										240 cell
+											241 text Full Backup
+										242 cell
+											243 text 1GiB
+										244 cell
+											245 text Creating
+										246 cell
+											247 text 12 minutes ago
+										248 cell
+											249 button Edit
+											250 button More down
+												251 text More
+												252 image down
+								253 container
+									254 button (disabled) left
+										255 image left
+									256 button 1
+									257 button (disabled) right
+										258 image right
+									259 container
+										260 combo box
+										261 text 10 items/page
+	262 close button
+	263 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	264 minimize button
+265 menu bar
+	266 JumpServer
+	267 File
+	268 Edit
+	269 View
+	270 Window
+	271 Help
+
+The focused UI element is 3 HTML content JumpServer, URL: jms-app://app/

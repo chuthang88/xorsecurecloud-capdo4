@@ -1,0 +1,86 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/database/configurations/detail/c00477a3-859f-4fbc-aee9-00ede5145d16
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+						166 pop up button X-OR SECURE
+						167 Security Center
+					168 image left
+					169 container
+						170 text ID: c00477a3-859f-4fbc-aee9-00ede5145d16
+						171 button Copy
+							172 image copy
+						173 button Back
+						174 button sync
+							175 image sync
+						176 button up
+							177 image up
+						178 container Name doccheck-1014-db-config
+							179 text Name doccheck-1014-db-config
+						180 tab group
+							181 container
+								182 tab (selected) Detail, Value: 1
+								183 tab (settable, integer) Values, Value: 0
+								184 tab (settable, integer) Instances, Value: 0
+						185 container Detail
+							186 container
+								187 heading Base Info, Value: 3
+									188 text Base Info
+								189 text Name doccheck-1014-db-config Description - Datastore mysql Datastore Version 8.0.46 Created At 2026-10-15 00:17:15 Updated At 2026-10-15 00:17:15
+	190 close button
+	191 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	192 minimize button
+193 menu bar
+	194 JumpServer
+	195 File
+	196 Edit
+	197 View
+	198 Window
+	199 Help

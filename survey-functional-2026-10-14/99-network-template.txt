@@ -1,0 +1,112 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/template-generator
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+								150 menu Secondary Actions: Cancel
+									151 Stacks
+									152 Resource Types
+									153 Template Versions
+									154 Template Generator
+						155 Database Database
+							156 pop up button Database Database
+								157 image Database
+								158 text Database
+						159 Container Container
+							160 pop up button Container Container
+								161 image Container
+								162 text Container
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Orchestration / Template Generator
+						176 container
+							177 text Template Generator
+							178 button copy Copy
+								179 image copy
+								180 text Copy
+							181 button download Download
+								182 image download
+								183 text Download
+							184 text Select Resource Type
+							185 container
+								186 text OS::Neutron::Net
+								187 combo box
+								188 text OS::Neutron::Net
+							189 text Generated HOT Template (YAML)
+							190 text entry area (settable) heat_template_version: 2021-04-16
+description: Create a Neutron network
+
+parameters:
+  name:
+    type: string
+    default: my-network
+  cidr:
+    type: string
+    default: 192.168.100.0/24
+
+resources:
+  net:
+    type: OS::Neutron::Net
+    properties:
+      name: { get_param: name }
+  subnet:
+    type: OS::Neutron::Subnet
+    properties:
+      network: { get_resource: net }
+      cidr: { get_param: cidr }
+
+outputs:
+  network_id:
+    value: { get_resource: net }
+
+	191 close button
+	192 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	193 minimize button
+194 menu bar
+	195 JumpServer
+	196 File
+	197 Edit
+	198 View
+	199 Window
+	200 Help

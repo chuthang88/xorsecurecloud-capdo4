@@ -1,0 +1,26 @@
+[
+  [
+    "initial",
+    "Chưa đủ bằng chứng"
+  ],
+  [
+    "implemented_without_evidence",
+    "Thiếu bằng chứng"
+  ],
+  [
+    "missing_reviewer",
+    "Chờ xác nhận"
+  ],
+  [
+    "complete",
+    "Đủ hồ sơ kiểm tra"
+  ],
+  [
+    "na_unapproved",
+    "Chờ duyệt không áp dụng"
+  ],
+  [
+    "na_approved",
+    "Không áp dụng đã duyệt"
+  ]
+]

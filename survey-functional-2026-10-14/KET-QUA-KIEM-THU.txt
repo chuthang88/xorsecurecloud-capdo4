@@ -1,0 +1,48 @@
+XOR SECURE CLOUD — KẾT QUẢ KIỂM THỬ 14–15/10/2026
+Phạm vi: JumpServer / WEB-XOR-Portal / userdemo / Default.
+Vai trò hiển thị: member, reader. Không đổi quyền, project khác hoặc cấu hình hệ thống.
+
+ĐÃ THÀNH CÔNG
+- Network/subnet, port riêng: tạo và xóa.
+- Router riêng: tạo, connect/disconnect subnet, xóa; không external gateway.
+- Floating IP: cấp và thu hồi; chưa liên kết tài nguyên, không mở truy cập Internet.
+- Server Group Soft-Anti-Affinity rỗng: tạo và xóa.
+- IKE policy chưa gắn: tạo và xóa; không tạo VPN tunnel.
+- Security Group thử chưa gắn: tạo, đọc hai egress rule, xóa.
+- Stack Neutron network/subnet: Create Complete; Stack và tài nguyên con đã xóa.
+- Database Configuration Group mysql 8.0.46 chưa gắn: tạo, xem chi tiết, xóa.
+
+LỖI / PHỤ THUỘC
+- VM doccheck-1014-vm: Error 500; boot volume vẫn Creating sau 187 giây / 61 lần kiểm tra.
+  Xóa mặc định trả Not Found; Immediately delete dọn VM thử thành công.
+- Volume dữ liệu còn Creating hơn 22 phút; portal chặn xóa.
+- Snapshot Schedule: HTTP400 Invalid filters id are found in query options.
+  Request ID req-12788439-956e-4801-acd0-612d69e68c32. Không có lịch được tạo.
+- K8s Clusters/Templates, Recycle Bin Volumes/Database Instances: HTTP404 Not Found.
+- IPsec Policies: Network Error; IPsec Site Connections: timeout of 0ms exceeded.
+- Monitor Overview trả 0 dù Home/danh sách có mạng/router/port/SG.
+- X-OR SECURE và cả 9 mô-đun Security Center: temporarily paused by administrator.
+- DB Instance dừng trước nhập mật khẩu; không tạo DB. Keypair/certificate/PSK không nhập.
+- Chưa kiểm chứng VM hoạt động, console/SSH, lưu lượng, backup/restore dữ liệu,
+  autoscaling, metric/cảnh báo, gửi thông báo, API/CLI hoặc ma trận quyền.
+
+CÒN CẦN VẬN HÀNH DỌN
+Tên: doccheck-1014-data
+ID: 05a04a1e-32da-4e50-9d81-98c3fe87654b
+Project: userdemo (5a4b1b40880a4c1fa754cb7f6e8269d4)
+Dung lượng/type: 1 GiB / __DEFAULT__
+Trạng thái cuối: Creating; không attach, không ghi dữ liệu.
+Portal Delete: tài nguyên không thể xóa. Không ép trạng thái/backend.
+
+MỐC CUỐI ĐÃ ĐỐI CHIẾU
+0 VM, 0 vCPU, 0 GiB RAM; 0 network/subnet/router/port/Floating IP; 0 Server Group.
+1 Security Group default / 4 rule, giữ nguyên mốc ban đầu.
+1 volume / 1 GiB còn Creating; 0 volume snapshot, 0 volume backup.
+Stacks trống; IKE policy và Database Configuration Group thử đã xóa.
+Bằng chứng cuối: 200-final-home-loaded.txt và 201-final-quota.jpg.
+
+TÀI LIỆU 0.5
+29 bài mỗi ngôn ngữ, 62 trang HTML, 17 ảnh thực tế không có mật khẩu.
+Kiểm tra: 4168 liên kết/mục neo; VI/EN cùng ID bài/mục; tìm kiếm không dấu;
+chuyển VI/EN giữ hash; desktop và mobile 390px không tràn ngang; ảnh tải được.
+Bằng chứng chi tiết: run.json và các file đánh số trong thư mục này.

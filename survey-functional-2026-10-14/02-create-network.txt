@@ -1,0 +1,180 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/networks
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Network / Networks
+						182 tab group
+							183 container
+								184 tab (selected) Current Project Networks, Value: 1
+								185 tab (settable, integer) Shared Networks, Value: 0
+								186 tab (settable, integer) External Networks, Value: 0
+						187 container Current Project Networks
+							188 container
+								189 button Create Network
+								190 button (disabled) Delete
+								191 text field (settable) Multiple filter tags are separated by enter
+								192 image search
+								193 button sync
+									194 image sync
+								195 button download
+									196 image download
+								197 button eye
+									198 image eye
+								199 button pause-circle
+									200 image pause-circle
+							201 container
+								202 table
+									203 row
+										204 column header
+											205 container
+												206 checkbox (disabled)  , Value: 0
+										207 column header
+											208 text ID/Name
+											209 image caret-up
+											210 image caret-down
+										211 column header
+											212 text External
+										213 column header
+											214 text Shared
+										215 column header
+											216 text Status
+											217 image caret-up
+											218 image caret-down
+										219 column header
+											220 text Subnet Count
+										221 column header
+											222 text Created At
+										223 column header
+											224 text Action
+								225 table
+									226 row
+										227 cell 0-7
+											228 text No Data
+								229 container
+									230 text Total 0 items
+									231 button (disabled) left
+										232 image left
+									233 button 1
+									234 button (disabled) right
+										235 image right
+									236 container
+										237 combo box
+										238 text 10 items/page
+				239 container
+					240 container Create Network
+						241 container
+							242 button Close
+								243 image close
+							244 text Create Network
+							245 container
+								246 container
+									247 container
+										248 text * Network Name
+									249 container
+										250 text field (settable) * Network Name, Placeholder: Please input name
+										251 text The name should start with upper letter or lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].:^".
+									252 container
+										253 text Description
+									254 text entry area (settable) Description
+									255 container
+										256 text Available Zone
+									257 container
+										258 combo box (settable) Available Zone
+										259 text Please select
+									260 container
+										261 text MTU
+									262 container
+										263 container
+											264 button Increase Value
+												265 image up
+											266 button Decrease Value
+												267 image down
+											268 stepper (settable, float) MTU, Value: 0
+										269 text Minimum value is 68 for IPv4, and 1280 for IPv6.
+									270 container
+										271 text Create Subnet
+									272 container
+										273 checkbox  , Value: 0
+									274 container
+										275 text * Port Security Enabled
+									276 switch On, Value: on
+										277 text On
+								278 image
+								279 container
+									280 text Subnet Quota:  0/100
+							281 container
+								282 button Cancel
+								283 button OK
+	284 close button
+	285 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	286 minimize button
+287 menu bar
+	288 JumpServer
+	289 File
+	290 Edit
+	291 View
+	292 Window
+	293 Help

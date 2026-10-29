@@ -1,0 +1,107 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/monitor-center/overview
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+								162 menu Secondary Actions: Cancel
+									163 Monitor Overview
+									164 Alarm Rules
+									165 Notification Channels
+									166 Alarm History
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Monitor Center / Monitor Overview
+						176 heading Project monitor, Value: 2
+							177 text Project monitor
+						178 text Instances, networks and alarms in the current project — not hypervisor stats.
+						179 text Project
+						180 text Instances
+						181 text 0
+						182 text this project
+						183 text Networks
+						184 text 0
+						185 text 0 ports
+						186 text Images
+						187 text 0
+						188 text 0 flavors
+						189 text Floating IPs
+						190 text 0
+						191 text 0 routers
+						192 text Alarms
+						193 text 0
+						194 text 0 events
+						195 text Virtual machines
+						196 text No instances in this project yet. Tenant CPU/RAM appears after you launch a VM — this page does not show hypervisor stats.
+						197 text Project resources
+						198 text Flavors
+						199 text 0
+						200 text Images
+						201 text 0
+						202 text Networks
+						203 text 0
+						204 text Ports
+						205 text 0
+						206 text Sec. groups
+						207 text 0
+						208 text Routers
+						209 text 0
+						210 text No alarm rules yet — native trend charts stay empty until you add a rule under Alarm Rules.
+	211 close button
+	212 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	213 minimize button
+214 menu bar
+	215 JumpServer
+	216 File
+	217 Edit
+	218 View
+	219 Window
+	220 Help

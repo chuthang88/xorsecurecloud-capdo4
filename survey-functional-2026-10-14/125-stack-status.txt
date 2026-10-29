@@ -1,0 +1,166 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/stack
+				116 container
+					117 image bell
+					118 text Close all notifications.
+					119 container
+						120 image menu-icon
+						121 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						122 container
+							123 text Cloud
+							124 image down
+						125 button
+						126 image appstore
+						127 text userdemo
+						128 image swap
+						129 text Default
+						130 image bell
+						131 button user
+							132 image user
+					133 menu Secondary Actions: Cancel
+						134 Home Home
+							135 image Home
+							136 text Home
+						137 Compute Compute
+							138 pop up button Compute Compute
+								139 image Compute
+								140 text Compute
+						141 Storage Storage
+							142 pop up button Storage Storage
+								143 image Storage
+								144 text Storage
+						145 Network Network
+							146 pop up button Network Network
+								147 image Network
+								148 text Network
+						149 Orchestration Orchestration
+							150 pop up button Orchestration Orchestration
+								151 image Orchestration
+								152 text Orchestration
+								153 menu Secondary Actions: Cancel
+									154 Stacks
+									155 Resource Types
+									156 Template Versions
+									157 Template Generator
+						158 Database Database
+							159 pop up button Database Database
+								160 image Database
+								161 text Database
+						162 Container Container
+							163 pop up button Container Container
+								164 image Container
+								165 text Container
+						166 Monitor Center Monitor Center
+							167 pop up button Monitor Center Monitor Center
+								168 image Monitor Center
+								169 text Monitor Center
+						170 Alert Management Maintenance
+							171 pop up button Alert Management Maintenance
+								172 image Alert Management
+								173 text Maintenance
+						174 pop up button X-OR SECURE
+						175 Security Center
+					176 image left
+					177 container
+						178 text Orchestration / Stacks
+						179 container
+							180 button Create Stack
+							181 button (disabled) Delete
+							182 text field (settable) Multiple filter tags are separated by enter
+							183 image search
+							184 button sync
+								185 image sync
+							186 button download
+								187 image download
+							188 button eye
+								189 image eye
+							190 button pause-circle
+								191 image pause-circle
+						192 container
+							193 container
+								194 table
+									195 row
+										196 column header
+											197 container
+												198 checkbox  , Value: 0
+										199 column header
+											200 text ID/Name
+											201 image caret-up
+											202 image caret-down
+										203 column header
+											204 text Stack Status
+											205 image caret-up
+											206 image caret-down
+										207 column header
+											208 text Created At
+											209 image caret-up
+											210 image caret-down
+										211 column header
+											212 text Updated At
+											213 image caret-up
+											214 image caret-down
+										215 column header
+											216 text Action
+								217 table
+									218 row
+										219 cell
+											220 container
+												221 checkbox  , Value: 0
+										222 cell
+											223 link Description: afc0219b Copy, Value: 10.3.10.100:9999/heat/stack/detail/afc0219b-b80d-49e8-a885-82863ccaf202/doccheck-1014-stack
+											224 text doccheck-1014-stack
+										225 cell
+											226 text Create In Progress
+										227 cell
+											228 text 3 minutes ago
+										229 cell
+											230 text -
+										231 cell
+											232 button Delete
+											233 button More down
+												234 text More
+												235 image down
+								236 container
+									237 text Total 1 items
+									238 button (disabled) left
+										239 image left
+									240 button 1
+									241 button (disabled) right
+										242 image right
+									243 container
+										244 combo box
+										245 text 10 items/page
+				246 container
+					247 container
+						248 image close-circle
+						249 text Get clusters error.
+						250 button Click to show detail
+					251 link close
+						252 image close
+					253 container
+						254 image close-circle
+						255 text Get clusters error.
+						256 button Click to show detail
+					257 link close
+						258 image close
+					259 container
+						260 image close-circle
+						261 text Get clustertemplates error.
+						262 button Click to show detail
+					263 link close
+						264 image close
+					265 container
+						266 image close-circle
+						267 text Get clustertemplates error.
+						268 button Click to show detail
+					269 link close
+						270 image close
+	271 close button
+	272 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	273 minimize button
+274 menu bar
+	275 JumpServer
+	276 File
+	277 Edit
+	278 View
+	279 Window
+	280 Help

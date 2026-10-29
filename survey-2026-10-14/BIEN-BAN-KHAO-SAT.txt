@@ -1,0 +1,40 @@
+BIÊN BẢN KHẢO SÁT / UI REVIEW RECORD — 14/10/2026
+
+PHẠM VI / SCOPE
+WEB-XOR-Portal qua ứng dụng JumpServer, project userdemo, domain Default.
+Phiên cuối hiển thị My Role: member, reader. Phiên bản nền tảng chưa xác nhận.
+Only project userdemo was inspected. The final session shows member, reader.
+The software version is unconfirmed. No resource writes were submitted.
+
+KẾT QUẢ / RESULTS
+Đọc Home, Instances, Flavors, Images, Volumes, Volume Backups, Networks,
+Floating IPs, Security Groups, Monitor Overview, Alarm Rules và Audit Logs.
+Đọc biểu mẫu Create Instance (Base Config / Network Config), Create Image,
+Create Volume, Create Volume Backup, Create Network/Subnet, Allocate IP,
+Create Rule. Tất cả biểu mẫu được hủy; không tạo, sửa, xóa hay đổi quyền.
+All reviewed forms were canceled. No resources or permissions were changed.
+Home cuối phiên vẫn 0 instance, 0 volume, 0 network, 0 router; 1 security group,
+4 rules. Last recorded Home counts remained unchanged.
+
+SỰ CỐ / OBSERVED ISSUES
+- Phiên đầu gặp 401 khi đọc Instances/Volumes. Sau đăng nhập lại, danh sách
+  đọc được. Chưa kết luận nguyên nhân gốc.
+  Earlier 401 responses cleared after owner reauthentication; cause unknown.
+- JumpServer ngắt với The operation was aborted. Kết nối lại cùng asset dẫn
+  về SIGN IN; chủ tài khoản đăng nhập lại và tiếp tục khảo sát.
+- Monitor Overview: Sec. groups 0; Security Groups: 1. Chưa xác định nguyên nhân.
+  Monitoring counter discrepancy recorded without attributing a root cause.
+
+TÀI LIỆU / DOCUMENTATION
+16 bài đối chiếu giao diện ở cả VI/EN, 11 ảnh thật đã kiểm tra trực quan.
+Các file 01,03,05,07,09,11,15,18,20,23,26 được đưa vào Site riêng tư.
+The documentation contains 16 UI-reviewed article pairs and 11 reviewed images.
+The sign-in screenshot is excluded because it contains an authentication form.
+Raw AX evidence and remaining screenshots stay in this local survey directory.
+Nguồn biên soạn: xor-secure-cloud-docs/content/review.mjs.
+
+CHƯA KIỂM CHỨNG / UNTESTED
+Tạo tài nguyên và kết nối, vòng đời VM/volume, backup/restore, snapshot/schedules,
+telemetry thực, cảnh báo và notification, export/retention/timezone của log,
+API/CLI, ma trận quyền; các dịch vụ chỉ ghi nhận tên trong bảng menu.
+System administration and other projects are outside the granted scope.

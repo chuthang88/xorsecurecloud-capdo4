@@ -1,0 +1,470 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 pop up button New connection
+					9 container
+						10 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						11 pop up button Chử Quang Thắng
+						12 toggle button Description: Open right panel, Value: 0
+					13 container
+						14 outline Resource
+							15 container
+								16 button Assets
+								17 button Switch to type tree
+								18 button Refresh
+								19 pop up button Batch actions
+								20 container
+									21 button Recent connections
+										22 text Recent connections
+									23 button Clear recent connections
+								24 button DEFAULT (46), Help: DEFAULT
+									25 text DEFAULT
+									26 text (46)
+								27 container
+									28 row iDRAC - Hardware Management (9)
+										29 button iDRAC - Hardware Management (9), Help: iDRAC - Hardware Management
+											30 text iDRAC - Hardware Management
+											31 text (9)
+									32 row Monitoring (2)
+										33 button Monitoring (2), Help: Monitoring
+											34 text Monitoring
+											35 text (2)
+									36 row XOR Infrastructure (35)
+										37 button XOR Infrastructure (35), Help: XOR Infrastructure
+											38 text XOR Infrastructure
+											39 text (35)
+										40 container
+											41 row Application VMs (6)
+												42 button Application VMs (6), Help: Application VMs
+													43 text Application VMs
+													44 text (6)
+											45 row Ceph (3)
+												46 button Ceph (3), Help: Ceph
+													47 text Ceph
+													48 text (3)
+											49 row Compute (3)
+												50 button Compute (3), Help: Compute
+													51 text Compute
+													52 text (3)
+											53 row Controllers (3)
+												54 button Controllers (3), Help: Controllers
+													55 text Controllers
+													56 text (3)
+											57 row Proxmox (3)
+												58 button Proxmox (3), Help: Proxmox
+													59 text Proxmox
+													60 text (3)
+											61 row Security Services (9)
+												62 button Security Services (9), Help: Security Services
+													63 text Security Services
+													64 text (9)
+											65 row Web Management (8)
+												66 button Web Management (8), Help: Web Management
+													67 text Web Management
+													68 text (8)
+												69 container
+													70 row WEB-Ceph-Dashboard
+														71 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Ceph-Dashboard
+													73 row WEB-FortiGate
+														74 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-FortiGate
+													76 row WEB-Horizon
+														77 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Horizon
+													79 row WEB-Proxmox-01
+														80 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-01
+													82 row WEB-Proxmox-02
+														83 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Proxmox-02
+													85 row WEB-Proxmox-03
+														86 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-Proxmox-03
+													88 row WEB-Wazuh
+														89 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															90 text WEB-Wazuh
+													91 row WEB-XOR-Portal
+														92 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															93 text WEB-XOR-Portal
+									94 row Wazuh-01
+										95 button Wazuh-01, Help: 10.3.70.94
+											96 text Wazuh-01
+						97 button Favorites Create folder Refresh
+							98 text Favorites
+							99 container
+								100 button Create folder
+								101 button Refresh
+					102 container
+						103 button 后退
+						104 button 前进
+						105 button 刷新
+						106 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/compute/instance/create
+						107 button 会话状态：已通过代理连接 · 账号代填未配置
+					108 text Signed in Chử Quang Thắng
+					109 text WEB-XOR-Portal HTTP 1 tabs 1 connected
+					110 button Description: Transfer center, Help: Transfer queue
+					111 pop up button (disabled) Virtual keyboard
+				112 container Notifications (F8)
+					113 content list
+			114 HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/create
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+							157 menu Secondary Actions: Cancel
+								158 Networks
+								159 Ports
+								160 QoS Policies
+								161 Routers
+								162 Floating IPs
+								163 Topology
+								164 Load Balancers
+								165 Certificates
+								166 VPNs
+								167 Security Groups
+						168 Orchestration Orchestration
+							169 pop up button Orchestration Orchestration
+								170 image Orchestration
+								171 text Orchestration
+						172 Database Database
+							173 pop up button Database Database
+								174 image Database
+								175 text Database
+						176 Container Container
+							177 pop up button Container Container
+								178 image Container
+								179 text Container
+						180 Monitor Center Monitor Center
+							181 pop up button Monitor Center Monitor Center
+								182 image Monitor Center
+								183 text Monitor Center
+						184 Alert Management Maintenance
+							185 pop up button Alert Management Maintenance
+								186 image Alert Management
+								187 text Maintenance
+						188 pop up button X-OR SECURE
+						189 Security Center
+						190 Security Posture
+						191 Web Application Firewall
+						192 Vulnerability Management
+						193 SIEM
+						194 Endpoint Security
+						195 Network Detection
+						196 Data Protection
+						197 Automation
+						198 Network Access Control
+					199 image left
+					200 container
+						201 text Compute /
+						202 link Description: Instances, Value: 10.3.10.100:9999/compute/instance
+						203 text / Create Instance
+						204 container
+							205 container
+								206 image check
+								207 container
+									208 text Base Config
+							209 container
+								210 text 2
+								211 container
+									212 text Network Config
+							213 container
+								214 text 3
+								215 container
+									216 text System Config
+							217 container
+								218 text 4
+								219 text Confirm Config
+							220 container
+								221 container
+									222 container
+										223 text * Networks
+									224 container
+										225 text Please reasonably plan the network and subnet to which the virtual network card belongs.  You can go to the console to 
+										226 link Description: create a new network/subnet >, Value: 10.3.10.100:9999/network/networks
+										227 tab group
+											228 container
+												229 tab (selected) Current Project Networks, Value: 1
+												230 tab (settable, integer) Shared Networks, Value: 0
+												231 tab (settable, integer) External Networks, Value: 0
+										232 container Current Project Networks
+											233 container
+												234 text field (settable) Click here for filters.
+												235 image search
+											236 button sync
+												237 image sync
+											238 container
+												239 table
+													240 row
+														241 column header
+															242 container
+																243 checkbox  , Value: 1
+														244 column header
+															245 text ID/Name
+															246 image caret-up
+															247 image caret-down
+														248 column header
+															249 text Is Current Project
+														250 column header
+															251 text External
+														252 column header
+															253 text Shared
+														254 column header
+															255 text Status
+															256 image caret-up
+															257 image caret-down
+														258 column header
+															259 text Subnet Count
+														260 column header
+															261 text Created At
+													262 row
+														263 cell
+															264 container
+																265 checkbox  , Value: 1
+														266 cell
+															267 link Description: 2260455b Copy, Value: 10.3.10.100:9999/network/networks/detail/2260455b-797a-442d-b84c-8f1c1a6abdb2
+															268 text docretry-1015-net
+														269 cell
+															270 text Yes
+														271 cell
+															272 text No
+														273 cell
+															274 text No
+														275 cell
+															276 text Active
+														277 cell
+															278 text 1
+															279 image file-text
+														280 cell
+															281 text 2 minutes ago
+												282 container
+													283 text Total 1 items
+													284 button (disabled) left
+														285 image left
+													286 button 1
+													287 button (disabled) right
+														288 image right
+													289 container
+														290 combo box
+														291 text 5 items/page
+										292 text Selected  :  
+										293 button clear
+											294 image clear
+										295 container
+											296 text docretry-1015-net
+											297 image close
+									298 container
+										299 text * Virtual LAN
+									300 container
+										301 container
+											302 button (disabled) minus-circle
+												303 image minus-circle
+											304 container
+												305 container
+													306 combo box (settable)
+													307 text docretry-1015-net
+												308 container
+													309 combo box (settable)
+													310 text Automatically Assigned Address
+												311 text Allocation Pools :  192.168.242.2 -- 192.168.242.254
+											312 button minus-circle
+												313 image minus-circle
+											314 container
+												315 container
+													316 combo box (settable)
+													317 text please select network
+												318 text Please select a network!
+										319 button plus-circle Add Virtual LAN
+											320 image plus-circle
+											321 text Add Virtual LAN
+									322 container
+										323 text Ports
+									324 container
+										325 text Ports provide extra communication channels to your instances. You can select ports instead of networks or a mix of both (The port executes its own security group rules by default).
+										326 text field (settable) Click here for filters.
+										327 image search
+										328 button sync
+											329 image sync
+										330 container
+											331 table
+												332 row
+													333 column header
+														334 container
+															335 checkbox  , Value: 0
+													336 column header
+														337 text ID/Name
+														338 image caret-up
+														339 image caret-down
+													340 column header
+														341 text Owned Network
+													342 column header
+														343 text IPv4 Address
+													344 column header
+														345 text IPv6 Address
+													346 column header
+														347 text Mac Address
+													348 column header
+														349 text Status
+												350 row
+													351 cell
+														352 container
+															353 checkbox  , Value: 0
+													354 cell
+														355 container
+															356 text 001bced0
+															357 button Copy
+																358 image copy
+														359 text -
+													360 cell
+														361 text docretry-1015-net
+													362 cell
+														363 text 192.168.242.2
+													364 cell
+														365 text fa:16:3e:7e:89:f2
+													366 cell
+														367 text Down
+											368 container
+												369 text Total 1 items
+												370 button (disabled) left
+													371 image left
+												372 button 1
+												373 button (disabled) right
+													374 image right
+												375 container
+													376 combo box
+													377 text 5 items/page
+										378 text Selected :  
+									379 container
+										380 text * Security Group
+										381 image question-circle
+									382 container
+										383 text The security group is similar to the firewall function and is used to set up network access control.  You can go to the console to 
+										384 link Description: create a new security group> , Value: 10.3.10.100:9999/network/security-group
+										385 text Note: The security group you use will act on all virtual adapters of the instance.
+										386 text field (settable) Click here for filters.
+										387 image search
+										388 button sync
+											389 image sync
+										390 container
+											391 table
+												392 row
+													393 column header
+														394 container
+															395 checkbox  , Value: 1
+													396 column header
+														397 text Name
+														398 image caret-up
+														399 image caret-down
+													400 column header
+														401 text Description
+														402 image caret-up
+														403 image caret-down
+													404 column header
+														405 text Created At
+														406 image caret-up
+														407 image caret-down
+													408 column header
+														409 text Rules
+														410 image caret-up
+														411 image caret-down
+												412 row
+													413 cell
+														414 container
+															415 checkbox  , Value: 1
+													416 cell
+														417 text default
+													418 cell
+														419 text Default security group
+													420 cell
+														421 text 13 hours ago
+													422 cell
+														423 button View Rules
+											424 container
+												425 text Total 1 items
+												426 button (disabled) left
+													427 image left
+												428 button 1
+												429 button (disabled) right
+													430 image right
+												431 container
+													432 combo box
+													433 text 5 items/page
+										434 text Selected :  
+										435 button clear
+											436 image clear
+										437 container
+											438 text default
+											439 image close
+								440 container
+									441 button Cancel
+									442 button Confirm
+							443 button expand
+								444 image expand
+							445 container
+								446 text Count
+								447 container
+									448 button Increase Value
+										449 image up
+									450 button (disabled) Decrease Value
+										451 image down
+								452 stepper (settable, float) 1
+							453 container
+								454 button Cancel
+								455 button Previous: Base Config
+								456 button Next: System Config
+	457 close button
+	458 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	459 minimize button
+460 menu bar
+	461 JumpServer
+	462 File
+	463 Edit
+	464 View
+	465 Window
+	466 Help
+
+The focused UI element is 442 button Confirm

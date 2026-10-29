@@ -1,0 +1,95 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/backup-schedules
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+								143 menu Secondary Actions: Cancel
+									144 Volumes
+									145 Volume Backups
+									146 Volume Snapshots
+									147 Snapshot Schedules
+									148 Backup Schedules
+						149 Network Network
+							150 pop up button Network Network
+								151 image Network
+								152 text Network
+						153 Orchestration Orchestration
+							154 pop up button Orchestration Orchestration
+								155 image Orchestration
+								156 text Orchestration
+						157 Database Database
+							158 pop up button Database Database
+								159 image Database
+								160 text Database
+						161 Container Container
+							162 pop up button Container Container
+								163 image Container
+								164 text Container
+						165 Monitor Center Monitor Center
+							166 pop up button Monitor Center Monitor Center
+								167 image Monitor Center
+								168 text Monitor Center
+						169 Alert Management Maintenance
+							170 pop up button Alert Management Maintenance
+								171 image Alert Management
+								172 text Maintenance
+						173 pop up button X-OR SECURE
+						174 Security Center
+					175 image left
+				176 container
+					177 image close-circle
+					178 text Unable to create snapshot schedule, instance: doccheck-1014-snapshot-schedule.
+					179 button Click to show detail
+					180 link close
+						181 image close
+				182 container Backup Schedules
+					183 HTML content Backup Schedules — X-OR, URL: 10.3.10.100:9999/backup-schedules.html?embed=1&v=sky24
+						184 heading Backup Schedules, Value: 1
+							185 text Backup Schedules
+						186 text Automate volume backups on a cadence — retention, enablement, and one-click runs in one place.
+						187 button Create Backup Schedule
+						188 button (disabled) Delete
+						189 text field (settable) Filter by name, volume, schedule…
+						190 button Refresh
+							191 image
+						192 button (disabled) Panel
+							193 image
+						194 container
+							195 image
+							196 heading No backup schedules yet, Value: 3
+								197 text No backup schedules yet
+							198 text Set a cadence, pick a volume, and keep retention under control.
+							199 button Create Backup Schedule
+	200 close button
+	201 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	202 minimize button
+203 menu bar
+	204 JumpServer
+	205 File
+	206 Edit
+	207 View
+	208 Window
+	209 Help

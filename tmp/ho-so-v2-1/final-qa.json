@@ -1,0 +1,23 @@
+{
+  "version": "2.1",
+  "docx_count": 11,
+  "pages": 91,
+  "render_success": true,
+  "visual_review": "Changed content pages visually inspected; unchanged body pages compared to previously reviewed v2 renders; footer verified on updated pages.",
+  "source_unchanged": true,
+  "checklist_identical_to_v2": true,
+  "bundles": [
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2.1/Bo-1-Ky-thuat-XOR-CD4-v2.1.zip",
+      "files": 5,
+      "bytes": 814662,
+      "sha256": "028fed0a0c738dc88554d118b24a55f08a9e5986d1e0607e6a04cd722903986d"
+    },
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2.1/Bo-2-Hanh-chinh-XOR-CD4-v2.1.zip",
+      "files": 13,
+      "bytes": 1819290,
+      "sha256": "0a63cc8f116cda609395e62fe43e368f820c328d464e47c9f122031a77e2df22"
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 button WEB-Horizon, Help: WEB-Horizon · http://10.3.10.100/
+						9 text WEB-Horizon
+					10 pop up button New connection
+					11 container
+						12 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						13 pop up button Chử Quang Thắng
+						14 toggle button Description: Open right panel, Value: 0
+					15 container
+						16 outline Resource
+							17 container
+								18 button Assets
+								19 button Switch to type tree
+								20 button Refresh
+								21 pop up button Batch actions
+								22 container
+									23 button Recent connections
+										24 text Recent connections
+									25 button Clear recent connections
+								26 button DEFAULT (35), Help: DEFAULT
+									27 text DEFAULT
+									28 text (35)
+								29 container
+									30 row XOR Infrastructure (35)
+										31 button XOR Infrastructure (35), Help: XOR Infrastructure
+											32 text XOR Infrastructure
+											33 text (35)
+										34 container
+											35 row Application VMs (6)
+												36 button Application VMs (6), Help: Application VMs
+													37 text Application VMs
+													38 text (6)
+											39 row Ceph (3)
+												40 button Ceph (3), Help: Ceph
+													41 text Ceph
+													42 text (3)
+											43 row Compute (3)
+												44 button Compute (3), Help: Compute
+													45 text Compute
+													46 text (3)
+											47 row Controllers (3)
+												48 button Controllers (3), Help: Controllers
+													49 text Controllers
+													50 text (3)
+											51 row Proxmox (3)
+												52 button Proxmox (3), Help: Proxmox
+													53 text Proxmox
+													54 text (3)
+											55 row Security Services (9)
+												56 button Security Services (9), Help: Security Services
+													57 text Security Services
+													58 text (9)
+											59 row Web Management (8)
+												60 button Web Management (8), Help: Web Management
+													61 text Web Management
+													62 text (8)
+												63 container
+													64 row WEB-Ceph-Dashboard
+														65 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															66 text WEB-Ceph-Dashboard
+													67 row WEB-FortiGate
+														68 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															69 text WEB-FortiGate
+													70 row WEB-Horizon
+														71 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Horizon
+													73 row WEB-Proxmox-01
+														74 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-Proxmox-01
+													76 row WEB-Proxmox-02
+														77 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Proxmox-02
+													79 row WEB-Proxmox-03
+														80 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-03
+													82 row WEB-Wazuh
+														83 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Wazuh
+													85 row WEB-XOR-Portal
+														86 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-XOR-Portal
+									88 row Wazuh-01
+										89 button Wazuh-01, Help: 10.3.70.94
+											90 text Wazuh-01
+						91 button Favorites Create folder Refresh
+							92 text Favorites
+							93 container
+								94 button Create folder
+								95 button Refresh
+					96 container
+						97 button 后退
+						98 button 前进
+						99 button 刷新
+						100 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/security-center/posture
+						101 button 会话状态：已通过代理连接 · 账号代填未配置
+					102 text Signed in Chử Quang Thắng
+					103 text WEB-XOR-Portal HTTP 2 tabs 2 connected
+					104 button Description: Transfer center, Help: Transfer queue
+					105 pop up button (disabled) Virtual keyboard
+				106 container Notifications (F8)
+					107 content list
+			108 HTML content XOR Cloud, URL: 10.3.10.100:9999/security-center/posture
+				109 container
+					110 container
+						111 image menu-icon
+						112 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						113 container
+							114 text Cloud
+							115 image down
+						116 button
+						117 image appstore
+						118 text admin
+						119 image swap
+						120 text Default
+						121 link Description: Administrator, Value: 10.3.10.100:9999/base/overview-admin
+						122 image bell
+						123 button user
+							124 image user
+					125 menu Secondary Actions: Cancel
+						126 Home Home
+							127 image Home
+							128 text Home
+						129 Compute Compute
+							130 pop up button Compute Compute
+								131 image Compute
+								132 text Compute
+							133 menu Secondary Actions: Cancel
+								134 Instances
+								135 Instance Snapshots
+								136 Flavors
+								137 Server Groups
+								138 Images
+								139 Key Pairs
+								140 Autoscale Rules (V)
+								141 Autoscale History
+								142 Auto Scaling Groups
+								143 ASG History
+						144 Storage Storage
+							145 pop up button Storage Storage
+								146 image Storage
+								147 text Storage
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+							168 menu Secondary Actions: Cancel
+								169 Monitor Overview
+								170 Alarm Rules
+								171 Notification Channels
+								172 Alarm History
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+						179 Security Posture
+						180 Web Application Firewall
+						181 Vulnerability Management
+						182 SIEM
+						183 Endpoint Security
+						184 Network Detection
+						185 Data Protection
+						186 Automation
+						187 Network Access Control
+					188 image left
+				189 container X-OR Security Center
+					190 HTML content X-OR Security Posture, URL: 10.3.10.100:9999/security-posture.html?v=sec54&section=overview
+						191 container
+							192 text X-OR CLOUD SECURITY / POSTURE
+							193 text Security Posture
+							194 text Read-only OpenStack inventory, misconfiguration checks and controlled remediation tracking for the current project.
+							195 container
+								196 text active operator
+							197 button Export CSV, Help: Findings with control references, score and metered usage
+							198 button Printable report, Help: Opens a printable report; use Print > Save as PDF
+							199 button Refresh
+							200 button Run posture scan
+							201 button Overview
+							202 button Assets
+							203 button Scans
+							204 button Findings
+							205 button Policies
+							206 button Remediation
+							207 container
+								208 text SECURITY SCORE 44 ASSETS 19 OPEN FINDINGS 38 CRITICAL 0 IN REMEDIATION 0 SCHEDULER disabled
+							209 text Risk distribution
+							210 container
+								211 text critical
+								212 text 0
+								213 text high
+								214 text 14
+								215 text medium
+								216 text 22
+								217 text low
+								218 text 2
+							219 text Latest scan
+							220 container
+								221 table
+									222 row
+										223 row header
+											224 text STATUS
+										225 cell
+											226 text completed
+									227 row
+										228 row header
+											229 text STARTED
+										230 cell
+											231 text 10/9/2026, 2:48:29 AM
+									232 row
+										233 row header
+											234 text ASSETS
+										235 cell
+											236 text 19
+									237 row
+										238 row header
+											239 text OPEN / RESOLVED
+										240 cell
+											241 text 38 / 0
+									242 row
+										243 row header
+											244 text SCORE
+										245 cell
+											246 text 44
+									247 row
+										248 row header
+											249 text SCHEDULER
+										250 cell
+											251 text disabled · 0 consecutive failures
+									252 row
+										253 row header
+											254 text NEXT SCHEDULED RUN
+										255 cell
+											256 text —
+								257 text Operational alert active high  Critical or high posture findings await triage 0 critical and 14 high posture findings are open and not yet acknowledged. Acknowledge, plan or resolve the findings in Security Posture > Findings. These alerts also appear in Security Center findings and clear automatically once the condition is fixed.
+							258 text Asset coverage
+							259 container
+								260 text image
+								261 text 5
+								262 text network
+								263 text 3
+								264 text security group
+								265 text 3
+								266 text server
+								267 text 2
+								268 text snapshot
+								269 text 1
+								270 text subnet
+								271 text 5
+							272 text Posture engine
+							273 container
+								274 table
+									275 row
+										276 row header
+											277 text ENGINE
+										278 cell
+											279 text Prowler 5.44.0 · central
+									280 row
+										281 row header
+											282 text SUBSCRIPTION
+										283 cell
+											284 text active · basic
+									285 row
+										286 row header
+											287 text WORKER
+										288 cell
+											289 text Connected
+									290 row
+										291 row header
+											292 text CREDENTIALS
+										293 cell
+											294 text Temporary project reader, revoked after each scan
+									295 row
+										296 row header
+											297 text LAST SCAN COVERAGE
+										298 cell
+											299 text 22 checks with results / 34 catalog checks. Checks without results are not a PASS.
+									300 row
+										301 row header
+											302 text RESULTS
+										303 cell
+											304 text PASS 30 · FAIL 38 · ERROR 0 · inventory gaps 0
+											305 text After project policy: PASS 30 · FAIL 38
+								306 text Score is based only on evaluated PASS/FAIL results. Review findings and coverage together.
+								307 button Pause
+								308 button Disable add-on
+							309 text Posture scans call OpenStack read APIs only. No configuration is changed automatically.
+							310 text Every finding and remediation record is isolated by the current project ID.
+			311 HTML content System Information - OpenStack Dashboard, URL: 10.3.10.100/admin/info/
+				312 container
+					313 container
+						314 link Description: OpenStack Dashboard, Value: 10.3.10.100/home/
+						315 content list
+							316 button  admin 
+								317 text 
+								318 text admin
+								319 text 
+						320 content list
+							321 button  admin 
+								322 text 
+								323 text admin
+								324 text 
+					325 content list
+						326 link Project 
+							327 text Project 
+						328 container
+							329 link Admin 
+								330 text Admin 
+							331 content list
+								332 link Description: Overview, Value: 10.3.10.100/admin/
+								333 link Compute 
+									334 text Compute 
+								335 link Volume 
+									336 text Volume 
+								337 link Network 
+									338 text Network 
+								339 link Container Infra 
+									340 text Container Infra 
+								341 container
+									342 link System 
+										343 text System 
+									344 link Description: Default Quotas, Value: 10.3.10.100/admin/defaults/
+									345 link Description: Metadata Definitions, Value: 10.3.10.100/admin/metadata_defs/
+									346 link Description: System Information, Value: 10.3.10.100/admin/info/
+						347 link Identity 
+							348 text Identity 
+						349 link Workflow 
+							350 text Workflow 
+					351 container
+						352 content list
+							353 text Admin
+							354 container
+								355 text /  System
+							356 container
+								357 text /  System Information
+						358 heading System Information
+							359 text System Information
+						360 content list
+							361 link Description: Services, Value: 10.3.10.100/admin/info/?tab=system_info__services
+							362 link Description: Compute Services, Value: 10.3.10.100/admin/info/?tab=system_info__nova_services
+							363 link Description: Block Storage Services, Value: 10.3.10.100/admin/info/?tab=system_info__cinder_services
+							364 link Description: Network Agents, Value: 10.3.10.100/admin/info/?tab=system_info__network_agents
+						365 table Filter 
+							366 container
+								367 text field (settable) Filter
+								368 text 
+							369 row
+								370 cell
+									371 text Displaying 14 items
+							372 row
+								373 column header
+									374 text Name
+								375 column header
+									376 text Service
+								377 column header
+									378 text Region
+								379 column header
+									380 text Endpoints
+							381 row
+								382 cell
+									383 text cinderv3-compat
+								384 cell
+									385 text volumev3
+								386 cell
+									387 text RegionOne
+								388 cell
+									389 definition list
+										390 container Internal
+											391 text Internal
+										392 text http://10.3.10.100:8776/v3
+										393 container Public
+											394 text Public
+										395 text http://10.3.10.100:8776/v3
+							396 row
+								397 cell
+									398 text glance
+								399 cell
+									400 text image
+								401 cell
+									402 text RegionOne
+								403 cell
+									404 definition list
+										405 container Internal
+											406 text Internal
+										407 text http://10.3.10.100:9292
+										408 container Public
+											409 text Public
+										410 text http://10.3.10.100:9292
+							411 row
+								412 cell
+									413 text placement
+								414 cell
+									415 text placement
+								416 cell
+									417 text RegionOne
+								418 cell
+									419 definition list
+										420 container Internal
+											421 text Internal
+										422 text http://10.3.10.100:8780
+										423 container Public
+											424 text Public
+										425 text http://10.3.10.100:8780
+							426 row
+								427 cell
+									428 text trove
+								429 cell
+									430 text database
+								431 cell
+									432 text RegionOne
+								433 cell
+									434 definition list
+										435 container Internal
+											436 text Internal
+										437 text http://10.3.10.100:8779/v1.0/14392d0fbbfc43978f247eedbedc7661
+										438 container Public
+											439 text Public
+										440 text http://10.3.10.100:8779/v1.0/14392d0fbbfc43978f247eedbedc7661
+							441 row
+								442 cell
+									443 text octavia
+								444 cell
+									445 text load-balancer
+								446 cell
+									447 text RegionOne
+								448 cell
+									449 definition list
+										450 container Internal
+											451 text Internal
+										452 text http://10.3.10.100:9876
+										453 container Public
+											454 text Public
+										455 text http://10.3.10.100:9876
+							456 row
+								457 cell
+									458 text heat-cfn
+								459 cell
+									460 text cloudformation
+								461 cell
+									462 text RegionOne
+								463 cell
+									464 definition list
+										465 container Internal
+											466 text Internal
+										467 text http://10.3.10.100:8000/v1
+										468 container Public
+											469 text Public
+										470 text http://10.3.10.100:8000/v1
+							471 row
+								472 cell
+									473 text barbican
+								474 cell
+									475 text key-manager
+								476 cell
+									477 text RegionOne
+								478 cell
+									479 definition list
+										480 container Internal
+											481 text Internal
+										482 text http://10.3.10.100:9311
+										483 container Public
+											484 text Public
+										485 text http://10.3.10.100:9311
+							486 row
+								487 cell
+									488 text mistral
+								489 cell
+									490 text workflowv2
+								491 cell
+									492 text RegionOne
+								493 cell
+									494 definition list
+										495 container Internal
+											496 text Internal
+										497 text http://10.3.10.100:8989/v2
+										498 container Public
+											499 text Public
+										500 text http://10.3.10.100:8989/v2
+							501 row
+								502 cell
+									503 text neutron
+								504 cell
+									505 text network
+								506 cell
+									507 text RegionOne
+								508 cell
+									509 definition list
+										510 container Internal
+											511 text Internal
+										512 text http://10.3.10.100:9696
+										513 container Public
+											514 text Public
+										515 text http://10.3.10.100:9696
+							516 row
+								517 cell
+									518 text cinder
+								519 cell
+									520 text block-storage
+								521 cell
+									522 text RegionOne
+								523 cell
+									524 definition list
+										525 container Internal
+											526 text Internal
+										527 text http://10.3.10.100:8776/v3
+										528 container Public
+											529 text Public
+										530 text http://10.3.10.100:8776/v3
+							531 row
+								532 cell
+									533 text nova
+								534 cell
+									535 text compute
+								536 cell
+									537 text RegionOne
+								538 cell
+									539 definition list
+										540 container Internal
+											541 text Internal
+										542 text http://10.3.10.100:8774/v2.1
+										543 container Public
+											544 text Public
+										545 text http://10.3.10.100:8774/v2.1
+							546 row
+								547 cell
+									548 text magnum
+								549 cell
+									550 text container-infra
+								551 cell
+									552 text RegionOne
+								553 cell
+									554 definition list
+										555 container Internal
+											556 text Internal
+										557 text http://10.3.10.100:9511/v1
+										558 container Public
+											559 text Public
+										560 text http://10.3.10.100:9511/v1
+							561 row
+								562 cell
+									563 text keystone
+								564 cell
+									565 text identity
+								566 cell
+									567 text RegionOne
+								568 cell
+									569 definition list
+										570 container Internal
+											571 text Internal
+										572 text http://10.3.10.100:5000
+										573 container Public
+											574 text Public
+										575 text http://10.3.10.100:5000
+							576 row
+								577 cell
+									578 text heat
+								579 cell
+									580 text orchestration
+								581 cell
+									582 text RegionOne
+								583 cell
+									584 definition list
+										585 container Internal
+											586 text Internal
+										587 text http://10.3.10.100:8004/v1/14392d0fbbfc43978f247eedbedc7661
+										588 container Public
+											589 text Public
+										590 text http://10.3.10.100:8004/v1/14392d0fbbfc43978f247eedbedc7661
+							591 row
+								592 cell
+									593 text Displaying 14 items
+						594 text Version: 25.7.4
+	595 close button
+	596 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	597 minimize button
+598 menu bar
+	599 JumpServer
+	600 File
+	601 Edit
+	602 View
+	603 Window
+	604 Help
+
+The focused UI element is 108 HTML content XOR Cloud, URL: 10.3.10.100:9999/security-center/posture

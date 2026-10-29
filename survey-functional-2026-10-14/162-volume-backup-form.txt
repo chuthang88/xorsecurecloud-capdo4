@@ -1,0 +1,249 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/backup
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+								142 menu Secondary Actions: Cancel
+									143 Volumes
+									144 Volume Backups
+									145 Volume Snapshots
+									146 Snapshot Schedules
+									147 Backup Schedules
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+							172 menu Secondary Actions: Cancel
+								173 Audit Logs
+								174 Recycle Bin
+						175 pop up button X-OR SECURE
+						176 Security Center
+						177 Security Posture
+						178 Web Application Firewall
+						179 Vulnerability Management
+						180 SIEM
+						181 Endpoint Security
+						182 Network Detection
+						183 Data Protection
+						184 Automation
+						185 Network Access Control
+					186 image left
+					187 container
+						188 text Storage / Volume Backups
+						189 container
+							190 button Create Volume Backup
+							191 button (disabled) Delete
+							192 text field (settable) Multiple filter tags are separated by enter
+							193 image search
+							194 button sync
+								195 image sync
+							196 button download
+								197 image download
+							198 button eye
+								199 image eye
+							200 button pause-circle
+								201 image pause-circle
+						202 container
+							203 table
+								204 row
+									205 column header
+										206 container
+											207 checkbox (disabled)  , Value: 0
+									208 column header
+										209 text ID/Name
+										210 image caret-up
+										211 image caret-down
+									212 column header
+										213 text Volume ID/Name
+										214 image caret-up
+										215 image caret-down
+									216 column header
+										217 text Backup Mode
+									218 column header
+										219 text Size
+									220 column header
+										221 text Status
+										222 image caret-up
+										223 image caret-down
+									224 column header
+										225 text Created At
+										226 image caret-up
+										227 image caret-down
+									228 column header
+										229 text Action
+							230 table
+								231 row
+									232 cell 0-7
+										233 text No Data
+							234 container
+								235 text Total 0 items
+								236 button (disabled) left
+									237 image left
+								238 button 1
+								239 button (disabled) right
+									240 image right
+								241 container
+									242 combo box
+									243 text 10 items/page
+				244 container
+					245 container
+						246 image close-circle
+						247 text Get recycle volumes error.
+						248 button Click to show detail
+					249 link close
+						250 image close
+					251 container
+						252 image close-circle
+						253 text Get recycle database instances error.
+						254 button Click to show detail
+					255 link close
+						256 image close
+				257 container
+					258 container Create Volume Backup
+						259 container
+							260 button Close
+								261 image close
+							262 text Create Volume Backup
+							263 container
+								264 image info-circle
+								265 text When you do online backup of the volume that has been bound, you need to pay attention to the following points:
+								266 text 1. The backup can only capture the data that has been written to the volume at the beginning of the backup task, excluding the data in the cache at that time.
+								267 text 2. To ensure the integrity of the data, it is recommended that you suspend the write operation of all files when creating a backup.
+								268 container
+									269 container
+										270 text * Volume Backup Name
+									271 container
+										272 text field (settable) * Volume Backup Name, Placeholder: Please input name
+										273 text The name should start with upper letter, lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].:^".
+									274 container
+										275 text Backup Mode
+										276 image question-circle
+									277 container
+										278 radio button Full Backup, Value: 1
+										279 text Full Backup
+										280 radio button Increment Backup, Value: 0
+										281 text Increment Backup
+									282 container
+										283 text * Volume
+									284 container
+										285 text field (settable) Click here for filters.
+										286 image search
+										287 button sync
+											288 image sync
+										289 container
+											290 table
+												291 row
+													292 column header
+														293 text ID/Name
+														294 image caret-up
+														295 image caret-down
+													296 column header
+														297 text Type
+													298 column header
+														299 text Size
+														300 image caret-up
+														301 image caret-down
+													302 column header
+														303 text Status
+														304 image caret-up
+														305 image caret-down
+													306 column header
+														307 text Shared
+													308 column header
+														309 text Attached To
+													310 column header
+														311 text Created At
+														312 image caret-up
+														313 image caret-down
+												314 row
+													315 cell
+														316 container
+															317 radio button (disabled)  , Value: 0
+													318 cell
+														319 container
+															320 text 05a04a1e
+															321 button Copy
+																322 image copy
+														323 text doccheck-1014-data
+													324 cell
+														325 text __DEFAULT__
+													326 cell
+														327 text 1GiB
+													328 cell
+														329 text Creating
+													330 cell
+														331 text No
+													332 cell
+														333 text -
+													334 cell
+														335 text 22 minutes ago
+											336 container
+												337 text Total 1 items
+												338 button (disabled) left
+													339 image left
+												340 button 1
+												341 button (disabled) right
+													342 image right
+												343 container
+													344 combo box
+													345 text 5 items/page
+										346 text Selected :  
+								347 image
+								348 container
+									349 text Volume Backup Capacity (GiB) Quota:  0/1000
+							350 container
+								351 button Cancel
+								352 button OK
+	353 close button
+	354 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	355 minimize button
+356 menu bar
+	357 JumpServer
+	358 File
+	359 Edit
+	360 View
+	361 Window
+	362 Help

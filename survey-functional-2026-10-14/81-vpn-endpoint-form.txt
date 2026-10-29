@@ -1,0 +1,234 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/vpn?tab=vpn_endpoint_groups
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Network / VPNs
+						182 tab group
+							183 container
+								184 tab (settable, integer) VPN Gateways, Value: 0
+								185 tab (selected) VPN EndPoint Groups, Value: 1
+								186 tab (settable, integer) IKE Policies, Value: 0
+								187 tab (settable, integer) IPsec Policies, Value: 0
+								188 tab (settable, integer) IPsec Site Connections, Value: 0
+						189 container VPN EndPoint Groups
+							190 container
+								191 button Create
+								192 button (disabled) Delete
+								193 text field (settable) Multiple filter tags are separated by enter
+								194 image search
+								195 button sync
+									196 image sync
+								197 button download
+									198 image download
+								199 button eye
+									200 image eye
+								201 button pause-circle
+									202 image pause-circle
+							203 container
+								204 table
+									205 row
+										206 column header
+											207 container
+												208 checkbox (disabled)  , Value: 0
+										209 column header
+											210 text ID/Name
+											211 image caret-up
+											212 image caret-down
+										213 column header
+											214 text Description
+											215 image caret-up
+											216 image caret-down
+										217 column header
+											218 text Type
+											219 image caret-up
+											220 image caret-down
+										221 column header
+											222 text Endpoint Counts
+											223 image caret-up
+											224 image caret-down
+										225 column header
+											226 text Action
+								227 table
+									228 row
+										229 cell 0-5
+											230 text No Data
+								231 container
+									232 text Total 0 items
+									233 button (disabled) left
+										234 image left
+									235 button 1
+									236 button (disabled) right
+										237 image right
+									238 container
+										239 combo box
+										240 text 10 items/page
+				241 container
+					242 container Create VPN Endpoint Group
+						243 container
+							244 button Close
+								245 image close
+							246 text Create VPN Endpoint Group
+							247 container
+								248 container
+									249 text * Name
+								250 container
+									251 text field (settable) * Name, Placeholder: Please input name
+									252 text The name should start with upper letter or lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].:^".
+								253 container
+									254 text Description
+								255 text entry area (settable) Description
+								256 container
+									257 text * Type
+								258 container
+									259 combo box (settable) * Type
+									260 text Local
+								261 container
+									262 text * Router
+								263 container
+									264 text field (settable) Click here for filters.
+									265 image search
+									266 button sync
+										267 image sync
+									268 container
+										269 table
+											270 row
+												271 column header
+													272 text ID/Name
+													273 image caret-up
+													274 image caret-down
+												275 column header
+													276 text Status
+													277 image caret-up
+													278 image caret-down
+												279 column header
+													280 text Open External Gateway
+												281 column header
+													282 text External Network ID/Name
+												283 column header
+													284 text External Fixed IP
+												285 column header
+													286 text Created At
+											287 row
+												288 cell
+													289 container
+														290 radio button  , Value: 0
+												291 cell
+													292 link Description: 28cbd86a Copy, Value: 10.3.10.100:9999/network/router/detail/28cbd86a-05f7-495c-8a58-1dbbe753a8c7
+													293 text doccheck-1014-router
+												294 cell
+													295 text Active
+												296 cell
+													297 text No
+												298 cell
+													299 text -
+												300 cell
+													301 text 3 minutes ago
+										302 container
+											303 text Total 1 items
+											304 button (disabled) left
+												305 image left
+											306 button 1
+											307 button (disabled) right
+												308 image right
+											309 container
+												310 combo box
+												311 text 5 items/page
+									312 text Selected :  
+								313 container
+									314 text * Subnet
+								315 container
+									316 text field (settable) Click here for filters.
+									317 image search
+									318 table
+										319 row
+											320 column header
+												321 container
+													322 checkbox (disabled)  , Value: 0
+											323 column header
+												324 text Name
+												325 image caret-up
+												326 image caret-down
+											327 column header
+												328 text CIDR
+												329 image caret-up
+												330 image caret-down
+										331 row
+											332 cell 0-2
+												333 text No Data
+									334 text Selected :  
+							335 container
+								336 button Cancel
+								337 button OK
+	338 close button
+	339 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	340 minimize button
+341 menu bar
+	342 JumpServer
+	343 File
+	344 Edit
+	345 View
+	346 Window
+	347 Help

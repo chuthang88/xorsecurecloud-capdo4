@@ -1,0 +1,117 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/container-infra/clusters
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+						155 Container Container
+							156 pop up button Container Container
+								157 image Container
+								158 text Container
+								159 menu Secondary Actions: Cancel
+									160 K8s Clusters
+									161 K8s Templates
+						162 Monitor Center Monitor Center
+							163 pop up button Monitor Center Monitor Center
+								164 image Monitor Center
+								165 text Monitor Center
+						166 Alert Management Maintenance
+							167 pop up button Alert Management Maintenance
+								168 image Alert Management
+								169 text Maintenance
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Container / K8s Clusters
+						175 container
+							176 button Create Cluster
+							177 button (disabled) Delete
+							178 text field (settable) Multiple filter tags are separated by enter
+							179 image search
+							180 button sync
+								181 image sync
+							182 button download
+								183 image download
+							184 button eye
+								185 image eye
+							186 button pause-circle
+								187 image pause-circle
+						188 container
+							189 table
+								190 row
+									191 column header
+										192 container
+											193 checkbox (disabled)  , Value: 0
+									194 column header
+										195 text ID/Name
+										196 image caret-up
+										197 image caret-down
+									198 column header
+										199 text Status
+										200 image caret-up
+										201 image caret-down
+									202 column header
+										203 text Health Status
+										204 image caret-up
+										205 image caret-down
+									206 column header
+										207 text Keypair
+										208 image caret-up
+										209 image caret-down
+									210 column header
+										211 text Action
+							212 table
+								213 row
+									214 cell 0-5
+										215 text No Data
+				216 container
+					217 image close-circle
+					218 text Get clusters error.
+					219 button Click to show detail
+					220 link close
+						221 image close
+	222 close button
+	223 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	224 minimize button
+225 menu bar
+	226 JumpServer
+	227 File
+	228 Edit
+	229 View
+	230 Window
+	231 Help

@@ -1,0 +1,375 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 pop up button New connection
+					9 container
+						10 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						11 pop up button Chử Quang Thắng
+						12 toggle button Description: Open right panel, Value: 0
+					13 container
+						14 outline Resource
+							15 container
+								16 button Assets
+								17 button Switch to type tree
+								18 button Refresh
+								19 pop up button Batch actions
+								20 container
+									21 button Recent connections
+										22 text Recent connections
+									23 button Clear recent connections
+								24 button DEFAULT (46), Help: DEFAULT
+									25 text DEFAULT
+									26 text (46)
+								27 container
+									28 row iDRAC - Hardware Management (9)
+										29 button iDRAC - Hardware Management (9), Help: iDRAC - Hardware Management
+											30 text iDRAC - Hardware Management
+											31 text (9)
+									32 row Monitoring (2)
+										33 button Monitoring (2), Help: Monitoring
+											34 text Monitoring
+											35 text (2)
+									36 row XOR Infrastructure (35)
+										37 button XOR Infrastructure (35), Help: XOR Infrastructure
+											38 text XOR Infrastructure
+											39 text (35)
+										40 container
+											41 row Application VMs (6)
+												42 button Application VMs (6), Help: Application VMs
+													43 text Application VMs
+													44 text (6)
+											45 row Ceph (3)
+												46 button Ceph (3), Help: Ceph
+													47 text Ceph
+													48 text (3)
+											49 row Compute (3)
+												50 button Compute (3), Help: Compute
+													51 text Compute
+													52 text (3)
+											53 row Controllers (3)
+												54 button Controllers (3), Help: Controllers
+													55 text Controllers
+													56 text (3)
+											57 row Proxmox (3)
+												58 button Proxmox (3), Help: Proxmox
+													59 text Proxmox
+													60 text (3)
+											61 row Security Services (9)
+												62 button Security Services (9), Help: Security Services
+													63 text Security Services
+													64 text (9)
+											65 row Web Management (8)
+												66 button Web Management (8), Help: Web Management
+													67 text Web Management
+													68 text (8)
+												69 container
+													70 row WEB-Ceph-Dashboard
+														71 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Ceph-Dashboard
+													73 row WEB-FortiGate
+														74 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-FortiGate
+													76 row WEB-Horizon
+														77 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Horizon
+													79 row WEB-Proxmox-01
+														80 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-01
+													82 row WEB-Proxmox-02
+														83 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Proxmox-02
+													85 row WEB-Proxmox-03
+														86 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-Proxmox-03
+													88 row WEB-Wazuh
+														89 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															90 text WEB-Wazuh
+													91 row WEB-XOR-Portal
+														92 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															93 text WEB-XOR-Portal
+									94 row Wazuh-01
+										95 button Wazuh-01, Help: 10.3.70.94
+											96 text Wazuh-01
+						97 button Favorites Create folder Refresh
+							98 text Favorites
+							99 container
+								100 button Create folder
+								101 button Refresh
+					102 container
+						103 button 后退
+						104 button 前进
+						105 button 刷新
+						106 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/storage/volume
+						107 button 会话状态：已通过代理连接 · 账号代填未配置
+					108 text Signed in Chử Quang Thắng
+					109 text WEB-XOR-Portal HTTP 1 tabs 1 connected
+					110 button Description: Transfer center, Help: Transfer queue
+					111 pop up button (disabled) Virtual keyboard
+				112 container Notifications (F8)
+					113 content list
+			114 HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/volume
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+								142 menu Secondary Actions: Cancel
+									143 Volumes
+									144 Volume Backups
+									145 Volume Snapshots
+									146 Snapshot Schedules
+									147 Backup Schedules
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+						174 Security Posture
+						175 Web Application Firewall
+						176 Vulnerability Management
+						177 SIEM
+						178 Endpoint Security
+						179 Network Detection
+						180 Data Protection
+						181 Automation
+						182 Network Access Control
+					183 image left
+					184 container
+						185 text Storage / Volumes
+						186 container
+							187 button Create Volume
+							188 button Accept Volume Transfer
+							189 button (disabled) Delete
+							190 text field (settable) Multiple filter tags are separated by enter
+							191 image search
+							192 button sync
+								193 image sync
+							194 button download
+								195 image download
+							196 button eye
+								197 image eye
+							198 button pause-circle
+								199 image pause-circle
+						200 container
+							201 container
+								202 table
+									203 row
+										204 column header
+											205 container
+												206 checkbox  , Value: 0
+										207 column header
+											208 text ID/Name
+											209 image caret-up
+											210 image caret-down
+										211 column header
+											212 text Size
+											213 image caret-up
+											214 image caret-down
+										215 column header
+											216 text Status
+											217 image caret-up
+											218 image caret-down
+										219 column header
+											220 text Type
+										221 column header
+											222 text Disk Tag
+										223 column header
+											224 text Attached To
+										225 column header
+											226 text Bootable
+											227 image question-circle
+											228 image caret-up
+											229 image caret-down
+										230 column header
+											231 text Shared
+											232 image question-circle
+										233 column header
+											234 text Created At
+											235 image caret-up
+											236 image caret-down
+										237 column header
+											238 text Action
+								239 table
+									240 row
+										241 cell
+											242 container
+												243 checkbox  , Value: 0
+										244 cell
+											245 link Description: e9ecd5eb Copy, Value: 10.3.10.100:9999/storage/volume/detail/e9ecd5eb-8919-49c8-b1fb-90907985ea71
+											246 text -
+										247 cell
+											248 text 20GiB
+										249 cell
+											250 text Creating
+										251 cell
+											252 text __DEFAULT__
+										253 cell
+											254 text Data Disk
+										255 cell
+											256 text -
+										257 cell
+											258 text No
+										259 cell
+											260 text No
+										261 cell
+											262 text a few seconds ago
+										263 cell
+											264 button (disabled) Edit
+											265 button More down
+												266 text More
+												267 image down
+									268 row
+										269 cell
+											270 container
+												271 checkbox  , Value: 0
+										272 cell
+											273 link Description: f9df6e00 Copy, Value: 10.3.10.100:9999/storage/volume/detail/f9df6e00-d558-4db1-a57c-1552592a81ce
+											274 text docretry-1015-restored
+										275 cell
+											276 text 1GiB
+										277 cell
+											278 text Creating
+										279 cell
+											280 text __DEFAULT__
+										281 cell
+											282 text Data Disk
+										283 cell
+											284 text -
+										285 cell
+											286 text No
+										287 cell
+											288 text No
+										289 cell
+											290 text 11 minutes ago
+										291 cell
+											292 button (disabled) Edit
+											293 button More down
+												294 text More
+												295 image down
+									296 row
+										297 cell
+											298 container
+												299 checkbox  , Value: 0
+										300 cell
+											301 link Description: a12547db Copy, Value: 10.3.10.100:9999/storage/volume/detail/a12547db-c2b9-4955-b034-83e638d1e21a
+											302 text docretry-1015-data
+										303 cell
+											304 text 1GiB
+										305 cell
+											306 text Backing Up
+										307 cell
+											308 text __DEFAULT__
+										309 cell
+											310 text Data Disk
+										311 cell
+											312 text -
+										313 cell
+											314 text No
+										315 cell
+											316 text No
+										317 cell
+											318 text 13 minutes ago
+										319 cell
+											320 button (disabled) Edit
+											321 button More down
+												322 text More
+												323 image down
+									324 row
+										325 cell
+											326 container
+												327 checkbox  , Value: 0
+										328 cell
+											329 link Description: 05a04a1e Copy, Value: 10.3.10.100:9999/storage/volume/detail/05a04a1e-32da-4e50-9d81-98c3fe87654b
+											330 text doccheck-1014-data
+										331 cell
+											332 text 1GiB
+										333 cell
+											334 text Creating
+										335 cell
+											336 text __DEFAULT__
+										337 cell
+											338 text Data Disk
+										339 cell
+											340 text -
+										341 cell
+											342 text No
+										343 cell
+											344 text No
+										345 cell
+											346 text 11 hours ago
+										347 cell
+											348 button (disabled) Edit
+											349 button More down
+												350 text More
+												351 image down
+								352 container
+									353 text Total 4 items
+									354 button (disabled) left
+										355 image left
+									356 button 1
+									357 button (disabled) right
+										358 image right
+									359 container
+										360 combo box
+										361 text 10 items/page
+	362 close button
+	363 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	364 minimize button
+365 menu bar
+	366 JumpServer
+	367 File
+	368 Edit
+	369 View
+	370 Window
+	371 Help
+
+The focused UI element is 192 button sync

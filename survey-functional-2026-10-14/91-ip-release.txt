@@ -1,0 +1,155 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/floatingip
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Network / Floating IPs
+						182 container
+							183 button Allocate IP
+							184 button Release
+								185 text Release
+							186 text field (settable) Multiple filter tags are separated by enter
+							187 image search
+							188 button sync
+								189 image sync
+							190 button download
+								191 image download
+							192 button eye
+								193 image eye
+							194 button pause-circle
+								195 image pause-circle
+						196 container
+							197 table
+								198 row
+									199 column header
+										200 container
+											201 checkbox  , Value: 1
+									202 column header
+										203 text ID/Floating IP
+										204 image caret-up
+										205 image caret-down
+									206 column header
+										207 text QoS Policy ID/Name
+									208 column header
+										209 text Description
+									210 column header
+										211 text Associated Resource
+									212 column header
+										213 text Status
+										214 image caret-up
+										215 image caret-down
+									216 column header
+										217 text Created At
+									218 column header
+										219 text Action
+							220 table
+								221 row
+									222 cell
+										223 container
+											224 checkbox  , Value: 1
+									225 cell
+										226 link Description: 9c8ab230 Copy, Value: 10.3.10.100:9999/network/floatingip/detail/9c8ab230-639e-4f88-90a8-e1b455258c6d
+										227 text 203.162.235.118
+									228 cell
+										229 text -
+									230 cell
+										231 text doccheck-1014-ip - temporary unassociated allocation
+									232 cell
+										233 text -
+									234 cell
+										235 text Down
+									236 cell
+										237 text 2026-10-15 00:12:47
+									238 cell
+										239 button Edit
+										240 button More down
+											241 text More
+											242 image down
+							243 container
+								244 text Total 1 items
+								245 button (disabled) left
+									246 image left
+								247 button 1
+								248 button (disabled) right
+									249 image right
+								250 container
+									251 combo box
+									252 text 10 items/page
+				253 container
+					254 container
+						255 image question-circle
+						256 text Release Are you sure to release (instance: 203.162.235.118)?
+						257 button Cancel
+						258 button Confirm
+	259 close button
+	260 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	261 minimize button
+262 menu bar
+	263 JumpServer
+	264 File
+	265 Edit
+	266 View
+	267 Window
+	268 Help

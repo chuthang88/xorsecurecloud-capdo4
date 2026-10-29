@@ -1,0 +1,122 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+								147 menu Secondary Actions: Cancel
+									148 Networks
+									149 Ports
+									150 QoS Policies
+									151 Routers
+									152 Floating IPs
+									153 Topology
+									154 Load Balancers
+									155 Certificates
+									156 VPNs
+									157 Security Groups
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Network /
+						183 link Description: Networks, Value: 10.3.10.100:9999/network/networks
+						184 text / Network Detail
+						185 container
+							186 button Edit
+							187 button More down
+								188 text More
+								189 image down
+						190 container
+							191 text ID: 560e44c8-6fc0-4947-885d-97f50ec3bdb4
+							192 button Copy
+								193 image copy
+							194 button Back
+							195 button sync
+								196 image sync
+							197 button up
+								198 image up
+						199 container
+							200 container Name doccheck-1014-net
+								201 text Name doccheck-1014-net
+							202 container Project ID 5a4b1b40880a4c1fa754cb7f6e8269d4
+								203 text Project ID
+								204 text 5a4b1b40880a4c1fa754cb7f6e8269d4
+							205 container Status Active
+								206 text Status Active
+							207 container Admin State Yes
+								208 text Admin State Yes
+							209 container Shared No
+								210 text Shared No
+							211 container Created At 2026-10-14 23:53:04
+								212 text Created At 2026-10-14 23:53:04
+							213 container Update At 2026-10-14 23:53:06
+								214 text Update At 2026-10-14 23:53:06
+							215 container Description Disposable documentation test in userdemo; isolated network.
+								216 text Description Disposable documentation test in userdemo; isolated network.
+						217 tab group
+							218 container
+								219 tab (selected) Detail, Value: 1
+								220 tab (settable, integer) Subnets, Value: 0
+								221 tab (settable, integer) Ports, Value: 0
+						222 container Detail
+							223 container
+								224 heading Base Info, Value: 3
+									225 text Base Info
+								226 text Availability Zone Availability Zone Hints MTU 1442 Router External No Provider Network Type - Provider Physical Network - Segmentation ID - Port Security Enabled Yes QoS Policy -
+	227 close button
+	228 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	229 minimize button
+230 menu bar
+	231 JumpServer
+	232 File
+	233 Edit
+	234 View
+	235 Window
+	236 Help

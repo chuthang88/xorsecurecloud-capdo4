@@ -1,0 +1,140 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/resource-types
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+								150 menu Secondary Actions: Cancel
+									151 Stacks
+									152 Resource Types
+									153 Template Versions
+									154 Template Generator
+						155 Database Database
+							156 pop up button Database Database
+								157 image Database
+								158 text Database
+						159 Container Container
+							160 pop up button Container Container
+								161 image Container
+								162 text Container
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Orchestration / Resource Types
+						176 container
+							177 text field (settable) Multiple filter tags are separated by enter
+							178 image search
+							179 button sync
+								180 image sync
+							181 button download
+								182 image download
+							183 button pause-circle
+								184 image pause-circle
+						185 container
+							186 table
+								187 row
+									188 column header
+										189 text Resource Type
+										190 image caret-up
+										191 image caret-down
+							192 table
+								193 row
+									194 cell
+										195 text AWS::AutoScaling::AutoScalingGroup
+								196 row
+									197 cell
+										198 text AWS::AutoScaling::LaunchConfiguration
+								199 row
+									200 cell
+										201 text AWS::AutoScaling::ScalingPolicy
+								202 row
+									203 cell
+										204 text AWS::CloudFormation::Stack
+								205 row
+									206 cell
+										207 text AWS::CloudFormation::WaitCondition
+								208 row
+									209 cell
+										210 text AWS::CloudFormation::WaitConditionHandle
+								211 row
+									212 cell
+										213 text AWS::EC2::EIP
+								214 row
+									215 cell
+										216 text AWS::EC2::EIPAssociation
+								217 row
+									218 cell
+										219 text AWS::EC2::Instance
+								220 row
+									221 cell
+										222 text AWS::EC2::InternetGateway
+							223 content list
+								224 text Total 97 items
+								225 container Previous Page
+									226 button (disabled) left
+										227 image left
+								228 text 1
+								229 text 2
+								230 text 3
+								231 text 4
+								232 text 5
+								233 container Next 5 Pages
+									234 container
+										235 image double-right
+										236 text •••
+								237 text 10
+								238 container Next Page
+									239 button right
+										240 image right
+								241 container
+									242 combo box
+									243 text 10 / page
+	244 close button
+	245 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	246 minimize button
+247 menu bar
+	248 JumpServer
+	249 File
+	250 Edit
+	251 View
+	252 Window
+	253 Help

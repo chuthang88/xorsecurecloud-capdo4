@@ -1,0 +1,299 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 pop up button New connection
+					9 container
+						10 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						11 pop up button Chử Quang Thắng
+						12 toggle button Description: Open right panel, Value: 0
+					13 container
+						14 outline Resource
+							15 container
+								16 button Assets
+								17 button Switch to type tree
+								18 button Refresh
+								19 pop up button Batch actions
+								20 container
+									21 button Recent connections
+										22 text Recent connections
+									23 button Clear recent connections
+								24 button DEFAULT (46), Help: DEFAULT
+									25 text DEFAULT
+									26 text (46)
+								27 container
+									28 row iDRAC - Hardware Management (9)
+										29 button iDRAC - Hardware Management (9), Help: iDRAC - Hardware Management
+											30 text iDRAC - Hardware Management
+											31 text (9)
+									32 row Monitoring (2)
+										33 button Monitoring (2), Help: Monitoring
+											34 text Monitoring
+											35 text (2)
+									36 row XOR Infrastructure (35)
+										37 button XOR Infrastructure (35), Help: XOR Infrastructure
+											38 text XOR Infrastructure
+											39 text (35)
+										40 container
+											41 row Application VMs (6)
+												42 button Application VMs (6), Help: Application VMs
+													43 text Application VMs
+													44 text (6)
+											45 row Ceph (3)
+												46 button Ceph (3), Help: Ceph
+													47 text Ceph
+													48 text (3)
+											49 row Compute (3)
+												50 button Compute (3), Help: Compute
+													51 text Compute
+													52 text (3)
+											53 row Controllers (3)
+												54 button Controllers (3), Help: Controllers
+													55 text Controllers
+													56 text (3)
+											57 row Proxmox (3)
+												58 button Proxmox (3), Help: Proxmox
+													59 text Proxmox
+													60 text (3)
+											61 row Security Services (9)
+												62 button Security Services (9), Help: Security Services
+													63 text Security Services
+													64 text (9)
+											65 row Web Management (8)
+												66 button Web Management (8), Help: Web Management
+													67 text Web Management
+													68 text (8)
+												69 container
+													70 row WEB-Ceph-Dashboard
+														71 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Ceph-Dashboard
+													73 row WEB-FortiGate
+														74 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-FortiGate
+													76 row WEB-Horizon
+														77 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Horizon
+													79 row WEB-Proxmox-01
+														80 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-01
+													82 row WEB-Proxmox-02
+														83 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Proxmox-02
+													85 row WEB-Proxmox-03
+														86 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-Proxmox-03
+													88 row WEB-Wazuh
+														89 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															90 text WEB-Wazuh
+													91 row WEB-XOR-Portal
+														92 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															93 text WEB-XOR-Portal
+									94 row Wazuh-01
+										95 button Wazuh-01, Help: 10.3.70.94
+											96 text Wazuh-01
+						97 button Favorites Create folder Refresh
+							98 text Favorites
+							99 container
+								100 button Create folder
+								101 button Refresh
+					102 container
+						103 button 后退
+						104 button 前进
+						105 button 刷新
+						106 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/compute/instance/detail/6ee008be-f9c1-4234-9f0f-dcbe9611d8e5
+						107 button 会话状态：已通过代理连接 · 账号代填未配置
+					108 text Signed in Chử Quang Thắng
+					109 text WEB-XOR-Portal HTTP 1 tabs 1 connected
+					110 button Description: Transfer center, Help: Transfer queue
+					111 pop up button (disabled) Virtual keyboard
+				112 container Notifications (F8)
+					113 content list
+			114 HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/detail/6ee008be-f9c1-4234-9f0f-dcbe9611d8e5
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+						179 Security Posture
+						180 Web Application Firewall
+						181 Vulnerability Management
+						182 SIEM
+						183 Endpoint Security
+						184 Network Detection
+						185 Data Protection
+						186 Automation
+						187 Network Access Control
+					188 image left
+					189 container
+						190 text Compute /
+						191 link Description: Instances, Value: 10.3.10.100:9999/compute/instance
+						192 text / Instance Detail
+						193 container
+							194 button (disabled) Console
+							195 button More down
+								196 text More
+								197 image down
+						198 container
+							199 text ID: 6ee008be-f9c1-4234-9f0f-dcbe9611d8e5
+							200 button Copy
+								201 image copy
+							202 button Back
+							203 button sync
+								204 image sync
+							205 button up
+								206 image up
+						207 container
+							208 container Name docretry-1015-vm
+								209 text Name docretry-1015-vm
+							210 container Status Error
+								211 text Status Error
+							212 container Lock Status unlock
+								213 text Lock Status
+								214 image unlock
+							215 container Created At 2026-10-15 11:21:18
+								216 text Created At 2026-10-15 11:21:18
+							217 container Host -
+								218 text Host -
+							219 container Compute Source -
+								220 text Compute Source -
+						221 tab group
+							222 container
+								223 tab (selected) Detail, Value: 1
+								224 tab (settable, integer) Volumes, Value: 0
+								225 tab (settable, integer) Instance Snapshots, Value: 0
+								226 tab (settable, integer) Interfaces, Value: 0
+								227 tab (settable, integer) Floating IPs, Value: 0
+								228 tab (settable, integer) Security Groups, Value: 0
+								229 tab (settable, integer) Action Logs, Value: 0
+								230 tab (settable, integer) Logs, Value: 0
+						231 container Detail
+							232 container
+								233 heading Network Info, Value: 3
+									234 text Network Info
+								235 text Network
+								236 heading Flavor Info, Value: 3
+									237 text Flavor Info
+								238 text Flavor Name GP_2C_2G RAM 2 GiB VCPUs 2
+								239 heading Image Info, Value: 3
+									240 text Image Info
+								241 text Name - ID -
+								242 heading Security Group Info, Value: 3
+									243 text Security Group Info
+								244 text Name -
+								245 heading Tags Info, Value: 3
+									246 text Tags Info
+								247 text Tags -
+								248 heading Keypair Info, Value: 3
+									249 text Keypair Info
+								250 text Name -
+								251 heading Server Group, Value: 3
+									252 text Server Group
+								253 text Name -
+							254 container
+								255 heading Error, Value: 3
+									256 text Error
+								257 text Message Build of instance 6ee008be-f9c1-4234-9f0f-dcbe9611d8e5 aborted: Volume e9ecd5eb-8919-49c8-b1fb-90907985ea71 did not finish being created even after we waited 187 seconds or 61 attempts. And its status is creating. Code 500 Created At 2026-10-15 11:24:40
+								258 heading Instance Architecture, Value: 3
+									259 text Instance Architecture
+								260 image info-circle
+								261 button sync
+									262 image sync
+								263 image instance_icon
+								264 Unlabeled image /PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyBjbGFzcz0iaWNvbiIgd2lkdGg9IjIwMHB4IiBoZWlnaHQ9IjIwMC4wMHB4IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTc5Mi4xNzc3NzggODYxLjI5Nzc3OGgtMTc2LjkyNDQ0NWE3MS4xMTExMTEgNzEuMTExMTExIDAgMCAxLTcxLjExMTExMS03MS4xMTExMTF2LTE3Ni45MjQ0NDVhNzEuMTExMTExIDcxLjExMTExMSAwIDAgMSA3MS4xMTExMTEtNzEuMTExMTExaDE3Ni45MjQ0NDVhNzE
+								265 container
+									266 text Error
+								267 button (disabled) Attach Volume
+				268 container
+					269 image close-circle
+					270 text Unable to delete instance, instance: docretry-1015-vm.
+					271 button Click to show detail
+					272 link close
+						273 image close
+				274 container
+					275 container
+						276 button Close
+							277 image close
+						278 container
+							279 text entry area
+							280 container
+								281 text {
+								282 container
+									283 text "detail" :  "Not Found"
+								284 text }
+						285 button Confirm
+	286 close button
+	287 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	288 minimize button
+289 menu bar
+	290 JumpServer
+	291 File
+	292 Edit
+	293 View
+	294 Window
+	295 Help
+
+The focused UI element is 296 container

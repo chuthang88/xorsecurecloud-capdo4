@@ -1,0 +1,242 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/security-group/detail/ce0c9cec-45ca-4071-882b-e3fa111e8893
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+								147 menu Secondary Actions: Cancel
+									148 Networks
+									149 Ports
+									150 QoS Policies
+									151 Routers
+									152 Floating IPs
+									153 Topology
+									154 Load Balancers
+									155 Certificates
+									156 VPNs
+									157 Security Groups
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Network /
+						183 link Description: Security Groups, Value: 10.3.10.100:9999/network/security-group
+						184 text / Security Group Detail
+						185 container
+							186 button (disabled) Edit
+							187 button Create Rule
+						188 container
+							189 text ID: ce0c9cec-45ca-4071-882b-e3fa111e8893
+							190 button Copy
+								191 image copy
+							192 button Back
+							193 button sync
+								194 image sync
+							195 button up
+								196 image up
+						197 container
+							198 container Name default
+								199 text Name default
+							200 container Description Default security group
+								201 text Description Default security group
+						202 tab group
+							203 container
+								204 tab (selected) Rules, Value: 1
+						205 container Rules
+							206 container
+								207 button Create Rule
+								208 button (disabled) Delete
+								209 text field (settable) Multiple filter tags are separated by enter
+								210 image search
+								211 button sync
+									212 image sync
+								213 button download
+									214 image download
+								215 button eye
+									216 image eye
+								217 button pause-circle
+									218 image pause-circle
+							219 container
+								220 table
+									221 row
+										222 column header
+											223 container
+												224 checkbox  , Value: 0
+										225 column header
+											226 text Direction
+											227 image caret-up
+											228 image caret-down
+										229 column header
+											230 text Ether Type
+											231 image caret-up
+											232 image caret-down
+										233 column header
+											234 text IP Protocol
+											235 image caret-up
+											236 image caret-down
+										237 column header
+											238 text Port Range
+											239 image caret-up
+											240 image caret-down
+										241 column header
+											242 text Remote IP Prefix
+											243 image caret-up
+											244 image caret-down
+										245 column header
+											246 text Remote Group Id
+											247 image caret-up
+											248 image caret-down
+										249 column header
+											250 text ICMP Type/ICMP Code
+											251 image caret-up
+											252 image caret-down
+										253 column header
+											254 text Action
+									255 row
+										256 cell
+											257 container
+												258 checkbox  , Value: 0
+										259 cell
+											260 text Egress
+										261 cell
+											262 text IPv4
+										263 cell
+											264 text Any
+										265 cell
+											266 text Any
+										267 cell
+											268 text 0.0.0.0/0
+										269 cell
+											270 text -
+										271 cell
+											272 text -
+										273 cell
+											274 button Delete
+									275 row
+										276 cell
+											277 container
+												278 checkbox  , Value: 0
+										279 cell
+											280 text Ingress
+										281 cell
+											282 text IPv6
+										283 cell
+											284 text Any
+										285 cell
+											286 text Any
+										287 cell
+											288 text ::/0
+										289 cell
+											290 link Description: ce0c9cec-45ca-4071-882b-e3fa111e8893, Value: 10.3.10.100:9999/network/security-group/detail/ce0c9cec-45ca-4071-882b-e3fa111e8893
+										291 cell
+											292 text -
+										293 cell
+											294 button Delete
+									295 row
+										296 cell
+											297 container
+												298 checkbox  , Value: 0
+										299 cell
+											300 text Egress
+										301 cell
+											302 text IPv6
+										303 cell
+											304 text Any
+										305 cell
+											306 text Any
+										307 cell
+											308 text ::/0
+										309 cell
+											310 text -
+										311 cell
+											312 text -
+										313 cell
+											314 button Delete
+									315 row
+										316 cell
+											317 container
+												318 checkbox  , Value: 0
+										319 cell
+											320 text Ingress
+										321 cell
+											322 text IPv4
+										323 cell
+											324 text Any
+										325 cell
+											326 text Any
+										327 cell
+											328 text 0.0.0.0/0
+										329 cell
+											330 link Description: ce0c9cec-45ca-4071-882b-e3fa111e8893, Value: 10.3.10.100:9999/network/security-group/detail/ce0c9cec-45ca-4071-882b-e3fa111e8893
+										331 cell
+											332 text -
+										333 cell
+											334 button Delete
+								335 content list
+									336 text Total 4 items
+									337 container Previous Page
+										338 button (disabled) left
+											339 image left
+									340 text 1
+									341 container Next Page
+										342 button (disabled) right
+											343 image right
+									344 container
+										345 combo box
+										346 text 10 / page
+	347 close button
+	348 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	349 minimize button
+350 menu bar
+	351 JumpServer
+	352 File
+	353 Edit
+	354 View
+	355 Window
+	356 Help

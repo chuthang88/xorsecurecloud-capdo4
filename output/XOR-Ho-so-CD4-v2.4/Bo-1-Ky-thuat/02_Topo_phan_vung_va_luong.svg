@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4.5 L0 9 Z" fill="#111"/></marker></defs>
+<rect width="1600" height="960" fill="white"/>
+<text x="800" y="32" fill="#111" font-family="Times New Roman,Times,serif" font-size="27" font-weight="700" font-style="normal" text-anchor="middle">PHÂN VÙNG MẠNG VÀ CÁC LUỒNG KẾT NỐI CHÍNH</text>
+<rect x="30" y="70" width="200" height="85" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="130.0" y="100" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="700" font-style="normal" text-anchor="middle">Z03 | NỘI BỘ</text>
+<text x="130.0" y="130" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="400" font-style="normal" text-anchor="middle">Người dùng nội bộ</text>
+<path d="M230 112 H265 V248 H290" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<rect x="30" y="205" width="200" height="85" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="130.0" y="235" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">KẾT NỐI NGOÀI</text>
+<text x="130.0" y="265" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Internet / riêng</text>
+<rect x="290" y="200" width="260" height="100" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="420.0" y="230" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">Z01 | BIÊN</text>
+<text x="420.0" y="260" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">DDoS • NGFW/IPS</text>
+<text x="420.0" y="288" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">Kiểm soát kết nối</text>
+<rect x="630" y="200" width="260" height="100" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="760.0" y="230" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">Z02 | DMZ</text>
+<text x="760.0" y="260" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">WAF • API Gateway</text>
+<text x="760.0" y="288" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">Load Balancer</text>
+<rect x="970" y="200" width="260" height="100" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1100.0" y="230" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">Z04 | TENANT</text>
+<text x="1100.0" y="260" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">VM / Container</text>
+<text x="1100.0" y="288" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">SG • Mạng ảo</text>
+<rect x="1310" y="200" width="260" height="100" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1440.0" y="230" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">Z05 | DỮ LIỆU</text>
+<text x="1440.0" y="260" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">DB • Block/Object/File</text>
+<text x="1440.0" y="288" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">Quyền • Mã hóa</text>
+<path d="M230 248 H290" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<path d="M550 248 H630" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<path d="M890 248 H970" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<path d="M1230 248 H1310" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<text x="590" y="230" fill="#111" font-family="Times New Roman,Times,serif" font-size="20" font-weight="400" font-style="normal" text-anchor="middle">Web/API</text>
+<text x="930" y="230" fill="#111" font-family="Times New Roman,Times,serif" font-size="20" font-weight="400" font-style="normal" text-anchor="middle">Dịch vụ</text>
+<text x="1270" y="230" fill="#111" font-family="Times New Roman,Times,serif" font-size="20" font-weight="400" font-style="normal" text-anchor="middle">Dữ liệu</text>
+<path d="M420 200 V125 H1100 V200" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<rect x="570" y="105" width="390" height="31" fill="white"/>
+<text x="765" y="127" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Kết nối IaaS theo cổng được phê duyệt</text>
+<text x="30" y="345" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start">Ranh giới mạng: chặn mặc định;</text>
+<text x="30" y="374" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start">chỉ mở các luồng được phê duyệt.</text>
+<rect x="30" y="450" width="200" height="110" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="130.0" y="480" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">QUẢN TRỊ VIÊN</text>
+<text x="130.0" y="510" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Máy trạm quản trị</text>
+<text x="130.0" y="538" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Tài khoản cá nhân</text>
+<rect x="290" y="455" width="220" height="100" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="400.0" y="485" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">Z01 | TRUY CẬP</text>
+<text x="400.0" y="515" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">VPN / ZTNA</text>
+<text x="400.0" y="543" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">MFA</text>
+<rect x="570" y="425" width="300" height="155" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="720.0" y="455" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle">Z06 | QUẢN TRỊ</text>
+<text x="720.0" y="485" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">PAM / Bastion</text>
+<text x="720.0" y="513" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">IAM</text>
+<text x="720.0" y="541" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">PKI / KMS</text>
+<path d="M230 505 H290" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<path d="M510 505 H570" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<rect x="950" y="455" width="280" height="100" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1090.0" y="485" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">Z07 | ĐIỀU KHIỂN</text>
+<text x="1090.0" y="515" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Controller • API nội bộ</text>
+<text x="1090.0" y="543" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">DB trạng thái • Hàng đợi</text>
+<rect x="1310" y="455" width="260" height="100" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1440.0" y="485" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">Z10 | NGOÀI BĂNG</text>
+<text x="1440.0" y="515" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">BMC / Console</text>
+<text x="1440.0" y="543" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">Thiết bị hạ tầng</text>
+<path d="M870 495 H910 V390 H1440" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6"/>
+<path d="M1090 390 V455" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<path d="M1440 390 V455" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<path d="M1100 390 V300" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<path d="M1440 390 V300" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<text x="1265" y="420" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="400" font-style="italic" text-anchor="middle">Phiên quản trị qua PAM</text>
+<rect x="30" y="665" width="370" height="118" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="215.0" y="695" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle">Z08 | AN NINH</text>
+<text x="215.0" y="725" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">SOC • SIEM • Collector</text>
+<text x="215.0" y="753" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">Nhật ký từ các vùng mạng</text>
+<rect x="430" y="665" width="370" height="118" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="615.0" y="695" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle">Z09 | SAO LƯU</text>
+<text x="615.0" y="725" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">Kho và quyền quản trị riêng</text>
+<text x="615.0" y="753" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">Dữ liệu / cấu hình / khóa</text>
+<rect x="830" y="665" width="370" height="118" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1015.0" y="695" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle">Z11 | PHÁT TRIỂN</text>
+<text x="1015.0" y="725" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">Git • CI/CD • Registry</text>
+<text x="1015.0" y="753" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle">Dev/Test tách Production</text>
+<rect x="1230" y="665" width="340" height="118" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1400.0" y="695" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">Z12 | LIÊN SITE</text>
+<text x="1400.0" y="725" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">Peer và luồng đồng bộ</text>
+<text x="1400.0" y="753" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">DC–DR được phê duyệt</text>
+<text x="800" y="630" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle">CÁC VÙNG CHỨC NĂNG ĐỘC LẬP</text>
+<path d="M55 840 H155" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" marker-end="url(#arrow)"/>
+<text x="175" y="848" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="start">Luồng dịch vụ / dữ liệu</text>
+<path d="M675 840 H775" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" stroke-dasharray="9 6" marker-end="url(#arrow)"/>
+<text x="795" y="848" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="start">Luồng quản trị</text>
+<text x="800" y="900" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="italic" text-anchor="middle">Nhật ký, sao lưu và phát hành: kiểm soát theo ma trận luồng PL04 và phương án PL06–PL07.</text>
+</svg>

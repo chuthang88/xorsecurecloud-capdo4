@@ -1,0 +1,188 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/database/instances/create
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+								154 menu Secondary Actions: Cancel
+									155 Database Instances
+									156 Backups
+									157 Configuration Groups
+						158 Container Container
+							159 pop up button Container Container
+								160 image Container
+								161 text Container
+						162 Monitor Center Monitor Center
+							163 pop up button Monitor Center Monitor Center
+								164 image Monitor Center
+								165 text Monitor Center
+						166 Alert Management Maintenance
+							167 pop up button Alert Management Maintenance
+								168 image Alert Management
+								169 text Maintenance
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Database /
+						175 link Description: Database Instances, Value: 10.3.10.100:9999/database/instances
+						176 text / Create Database Instance
+						177 container
+							178 container
+								179 image check
+								180 container
+									181 text Details *
+							182 container
+								183 text 2
+								184 container
+									185 text Networking *
+							186 container
+								187 text 3
+								188 container
+									189 text Initialize Databases
+							190 container
+								191 text 4
+								192 text Advanced
+							193 container
+								194 container
+									195 container
+										196 text Project
+									197 text userdemo
+								198 container
+									199 container
+										200 text * Network
+									201 container
+										202 tab group
+											203 container
+												204 tab (selected) Current Project Networks, Value: 1
+												205 tab (settable, integer) Shared Networks, Value: 0
+										206 container Current Project Networks
+											207 container
+												208 text field (settable) Click here for filters.
+												209 image search
+											210 button sync
+												211 image sync
+											212 container
+												213 table
+													214 row
+														215 column header
+															216 text ID/Name
+															217 image caret-up
+															218 image caret-down
+														219 column header
+															220 text Is Current Project
+														221 column header
+															222 text External
+														223 column header
+															224 text Shared
+														225 column header
+															226 text Status
+															227 image caret-up
+															228 image caret-down
+														229 column header
+															230 text Subnet Count
+														231 column header
+															232 text Created At
+													233 row
+														234 cell
+															235 container
+																236 radio button  , Value: 0
+														237 cell
+															238 link Description: 560e44c8 Copy, Value: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4
+															239 text doccheck-1014-net
+														240 cell
+															241 text Yes
+														242 cell
+															243 text No
+														244 cell
+															245 text No
+														246 cell
+															247 text Active
+														248 cell
+															249 text 1
+															250 image file-text
+														251 cell
+															252 text 23 minutes ago
+													253 row
+														254 cell
+															255 container
+																256 radio button  , Value: 0
+														257 cell
+															258 link Description: 7674c938 Copy, Value: 10.3.10.100:9999/network/networks/detail/7674c938-c5c6-483a-81f2-34d0348deb5c
+															259 text doccheck-1014-stack-net
+														260 cell
+															261 text Yes
+														262 cell
+															263 text No
+														264 cell
+															265 text No
+														266 cell
+															267 text Active
+														268 cell
+															269 text 1
+															270 image file-text
+														271 cell
+															272 text a minute ago
+												273 container
+													274 text Total 2 items
+													275 button (disabled) left
+														276 image left
+													277 button 1
+													278 button (disabled) right
+														279 image right
+													280 container
+														281 combo box
+														282 text 5 items/page
+										283 text Selected  :  
+								284 container
+									285 button Cancel
+									286 button Confirm
+							287 container
+								288 button Cancel
+								289 button Previous: Details *
+								290 button Next: Initialize Databases
+									291 text Next: Initialize Databases
+	292 close button
+	293 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	294 minimize button
+295 menu bar
+	296 JumpServer
+	297 File
+	298 Edit
+	299 View
+	300 Window
+	301 Help

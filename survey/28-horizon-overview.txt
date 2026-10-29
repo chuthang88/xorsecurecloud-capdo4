@@ -1,0 +1,534 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 button WEB-Horizon, Help: WEB-Horizon · http://10.3.10.100/
+						9 text WEB-Horizon
+					10 pop up button New connection
+					11 container
+						12 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						13 pop up button Chử Quang Thắng
+						14 toggle button Description: Open right panel, Value: 0
+					15 container
+						16 outline Resource
+							17 container
+								18 button Assets
+								19 button Switch to type tree
+								20 button Refresh
+								21 pop up button Batch actions
+								22 container
+									23 button Recent connections
+										24 text Recent connections
+									25 button Clear recent connections
+								26 button DEFAULT (35), Help: DEFAULT
+									27 text DEFAULT
+									28 text (35)
+								29 container
+									30 row XOR Infrastructure (35)
+										31 button XOR Infrastructure (35), Help: XOR Infrastructure
+											32 text XOR Infrastructure
+											33 text (35)
+										34 container
+											35 row Application VMs (6)
+												36 button Application VMs (6), Help: Application VMs
+													37 text Application VMs
+													38 text (6)
+											39 row Ceph (3)
+												40 button Ceph (3), Help: Ceph
+													41 text Ceph
+													42 text (3)
+											43 row Compute (3)
+												44 button Compute (3), Help: Compute
+													45 text Compute
+													46 text (3)
+											47 row Controllers (3)
+												48 button Controllers (3), Help: Controllers
+													49 text Controllers
+													50 text (3)
+											51 row Proxmox (3)
+												52 button Proxmox (3), Help: Proxmox
+													53 text Proxmox
+													54 text (3)
+											55 row Security Services (9)
+												56 button Security Services (9), Help: Security Services
+													57 text Security Services
+													58 text (9)
+											59 row Web Management (8)
+												60 button Web Management (8), Help: Web Management
+													61 text Web Management
+													62 text (8)
+												63 container
+													64 row WEB-Ceph-Dashboard
+														65 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															66 text WEB-Ceph-Dashboard
+													67 row WEB-FortiGate
+														68 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															69 text WEB-FortiGate
+													70 row WEB-Horizon
+														71 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Horizon
+													73 row WEB-Proxmox-01
+														74 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-Proxmox-01
+													76 row WEB-Proxmox-02
+														77 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Proxmox-02
+													79 row WEB-Proxmox-03
+														80 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-03
+													82 row WEB-Wazuh
+														83 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Wazuh
+													85 row WEB-XOR-Portal
+														86 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-XOR-Portal
+									88 row Wazuh-01
+										89 button Wazuh-01, Help: 10.3.70.94
+											90 text Wazuh-01
+						91 button Favorites Create folder Refresh
+							92 text Favorites
+							93 container
+								94 button Create folder
+								95 button Refresh
+					96 container
+						97 button 后退
+						98 button 前进
+						99 button 刷新
+						100 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100/project/
+						101 button 会话状态：已通过代理连接 · 账号代填未配置
+						102 text Connected
+					103 text Signed in Chử Quang Thắng
+					104 text WEB-Horizon HTTP 2 tabs 2 connected
+					105 button Description: Transfer center, Help: Transfer queue
+					106 pop up button (disabled) Virtual keyboard
+				107 container Notifications (F8)
+					108 content list
+			109 HTML content XOR Cloud, URL: 10.3.10.100:9999/management/audit-logs
+				110 container
+					111 container
+						112 image menu-icon
+						113 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						114 container
+							115 text Cloud
+							116 image down
+						117 button
+						118 image appstore
+						119 text admin
+						120 image swap
+						121 text Default
+						122 link Description: Administrator, Value: 10.3.10.100:9999/base/overview-admin
+						123 image bell
+						124 button user
+							125 image user
+					126 menu Secondary Actions: Cancel
+						127 Home Home
+							128 image Home
+							129 text Home
+						130 Compute Compute
+							131 pop up button Compute Compute
+								132 image Compute
+								133 text Compute
+							134 menu Secondary Actions: Cancel
+								135 Instances
+								136 Instance Snapshots
+								137 Flavors
+								138 Server Groups
+								139 Images
+								140 Key Pairs
+								141 Autoscale Rules (V)
+								142 Autoscale History
+								143 Auto Scaling Groups
+								144 ASG History
+						145 Storage Storage
+							146 pop up button Storage Storage
+								147 image Storage
+								148 text Storage
+						149 Network Network
+							150 pop up button Network Network
+								151 image Network
+								152 text Network
+						153 Orchestration Orchestration
+							154 pop up button Orchestration Orchestration
+								155 image Orchestration
+								156 text Orchestration
+						157 Database Database
+							158 pop up button Database Database
+								159 image Database
+								160 text Database
+						161 Container Container
+							162 pop up button Container Container
+								163 image Container
+								164 text Container
+						165 Monitor Center Monitor Center
+							166 pop up button Monitor Center Monitor Center
+								167 image Monitor Center
+								168 text Monitor Center
+							169 menu Secondary Actions: Cancel
+								170 Monitor Overview
+								171 Alarm Rules
+								172 Notification Channels
+								173 Alarm History
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+								178 menu Secondary Actions: Cancel
+									179 Audit Logs
+									180 Recycle Bin
+						181 pop up button X-OR SECURE
+						182 Hồ sơ thiết kế
+						183 TCVN Cấp độ 1
+						184 TCVN Cấp độ 2
+						185 TCVN Cấp độ 3
+						186 Security Center
+					187 image left
+					188 container
+						189 text Maintenance / Audit Logs
+						190 container
+							191 text field (settable) Multiple filter tags are separated by enter
+							192 image search
+							193 button sync
+								194 image sync
+							195 button download
+								196 image download
+							197 button pause-circle
+								198 image pause-circle
+						199 container
+							200 table
+								201 row
+									202 column header
+										203 text Log
+										204 image caret-up
+										205 image caret-down
+									206 column header
+										207 image caret-up
+										208 image caret-down
+							209 table
+								210 row
+									211 cell
+										212 container
+											213 text 2026-10-13 09:35:12 [ 200 ] admin ACTION 2332 ms
+									214 cell
+										215 button eye
+											216 image eye
+								217 row
+									218 cell
+										219 container
+											220 text 2026-10-13 08:38:38 [ 200 ] admin ACTION 1089 ms
+									221 cell
+										222 button eye
+											223 image eye
+								224 row
+									225 cell
+										226 container
+											227 text 2026-10-13 08:36:51 [ 200 ] admin ACTION 2167 ms
+									228 cell
+										229 button eye
+											230 image eye
+								231 row
+									232 cell
+										233 container
+											234 text 2026-10-12 03:01:03 [ 200 ] admin LOGOUT session 241 ms
+									235 cell
+										236 button eye
+											237 image eye
+								238 row
+									239 cell
+										240 container
+											241 text 2026-10-12 02:58:56 [ 401 ] admin ACTION 129 ms
+									242 cell
+										243 button eye
+											244 image eye
+								245 row
+									246 cell
+										247 container
+											248 text 2026-10-12 02:57:15 [ 200 ] admin ACTION 1768 ms
+									249 cell
+										250 button eye
+											251 image eye
+								252 row
+									253 cell
+										254 container
+											255 text 2026-10-10 04:07:29 [ 404 ] admin ACTION 5 ms
+									256 cell
+										257 button eye
+											258 image eye
+								259 row
+									260 cell
+										261 container
+											262 text 2026-10-10 04:02:49 [ 200 ] admin LOGOUT session 498 ms
+									263 cell
+										264 button eye
+											265 image eye
+								266 row
+									267 cell
+										268 container
+											269 text 2026-10-10 04:02:21 [ 200 ] admin ACTION 5 ms
+									270 cell
+										271 button eye
+											272 image eye
+								273 row
+									274 cell
+										275 container
+											276 text 2026-10-10 04:02:13 [ 200 ] admin ACTION 6 ms
+									277 cell
+										278 button eye
+											279 image eye
+							280 content list
+								281 text Total 10 items
+								282 container Previous Page
+									283 button (disabled) left
+										284 image left
+								285 text 1
+								286 container Next Page
+									287 button (disabled) right
+										288 image right
+								289 container
+									290 combo box
+									291 text 10 / page
+				292 container
+					293 image close-circle
+					294 text Get clusters error.
+					295 button Click to show detail
+					296 link close
+						297 image close
+			298 HTML content Overview - OpenStack Dashboard, URL: 10.3.10.100/project/
+				299 container
+					300 container
+						301 link Description: OpenStack Dashboard, Value: 10.3.10.100/home/
+						302 content list
+							303 button  admin 
+								304 text 
+								305 text admin
+								306 text 
+						307 content list
+							308 button  admin 
+								309 text 
+								310 text admin
+								311 text 
+					312 content list
+						313 container
+							314 link Project 
+								315 text Project 
+							316 content list
+								317 link Description: API Access, Value: 10.3.10.100/project/api_access/
+								318 container
+									319 link Compute 
+										320 text Compute 
+									321 link Description: Overview, Value: 10.3.10.100/project/
+									322 link Description: Instances, Value: 10.3.10.100/project/instances/
+									323 link Description: Images, Value: 10.3.10.100/project/images/
+									324 link Description: Key Pairs, Value: 10.3.10.100/project/key_pairs/
+									325 link Description: Server Groups, Value: 10.3.10.100/project/server_groups/
+								326 link Volumes 
+									327 text Volumes 
+								328 link Container Infra 
+									329 text Container Infra 
+								330 link Network 
+									331 text Network 
+								332 link Orchestration 
+									333 text Orchestration 
+								334 link Databases 
+									335 text Databases 
+						336 link Admin 
+							337 text Admin 
+						338 link Identity 
+							339 text Identity 
+						340 link Workflow 
+							341 text Workflow 
+					342 container
+						343 content list
+							344 text Project
+							345 container
+								346 text /  Compute
+							347 container
+								348 text /  Overview
+						349 heading Overview, Value: 1
+							350 text Overview
+						351 heading Limit Summary, Value: 3
+							352 text Limit Summary
+						353 heading Compute, Value: 4
+							354 text Compute
+						355 container
+							356 image
+							357 text Instances Used 5 of 10
+						358 container
+							359 image
+							360 text vCPUs Used 17 of 20
+						361 container
+							362 image
+							363 text RAM Used 24.5GB of 50GB
+						364 heading Volume, Value: 4
+							365 text Volume
+						366 container
+							367 image
+							368 text Volumes Used 1 of 10
+						369 container
+							370 image
+							371 text Volume Snapshots Used 1 of 10
+						372 container
+							373 image
+							374 text Volume Storage Used 81GB of 1000GB
+						375 heading Network, Value: 4
+							376 text Network
+						377 container
+							378 image
+							379 text Floating IPs Allocated 2 of 50
+						380 container
+							381 image
+							382 text Security Groups Used 7 of 10
+						383 container
+							384 image
+							385 text Security Group Rules Used 46 of 100
+						386 container
+							387 image
+							388 text Networks Used 4 of 100
+						389 container
+							390 image
+							391 text Ports Used 14 of 500
+						392 container
+							393 image
+							394 text Routers Used 3 of 10
+						395 heading Usage Summary, Value: 3
+							396 text Usage Summary
+						397 heading Select a period of time to query its usage: The date should be in YYYY-MM-DD format., Value: 4
+							398 text Select a period of time to query its usage: The date should be in YYYY-MM-DD format.
+						399 container
+							400 text field (settable) 2026-10-12
+							401 text From 
+						402 text to
+						403 container
+							404 text field (settable) 2026-10-13
+							405 text To 
+						406 button Submit
+						407 definition list
+							408 container Active Instances:
+								409 text Active Instances:
+							410 text 7
+							411 container Active RAM:
+								412 text Active RAM:
+							413 text 32.5GB
+							414 container This Period's vCPU-Hours:
+								415 text This Period's vCPU-Hours:
+							416 text 541.71
+							417 container This Period's GB-Hours:
+								418 text This Period's GB-Hours:
+							419 text 3189.40
+							420 container This Period's RAM-Hours:
+								421 text This Period's RAM-Hours:
+							422 text 857210.24
+						423 table Usage  Download CSV Summary
+							424 container
+								425 text Usage
+								426 link Description:  Download CSV Summary, Value: 10.3.10.100/project/?start=2026-10-12&end=2026-10-13&format=csv
+							427 row
+								428 cell 0-4
+									429 text Displaying 7 items
+							430 row
+								431 column header
+									432 text Instance Name
+								433 column header
+									434 text vCPUs
+								435 column header
+									436 text Disk
+								437 column header
+									438 text RAM
+								439 column header
+									440 text Age
+							441 row
+								442 cell
+									443 link Description: cloudops-ovn-backend, Value: 10.3.10.100/project/instances/14b2c38e-57d8-4e77-bc4a-415d98028dca/
+								444 cell
+									445 text 2
+								446 cell
+									447 text 20GB
+								448 cell
+									449 text 4GB
+								450 cell
+									451 text 1 day, 1 hour
+							452 row
+								453 cell
+									454 link Description: Ozawa, Value: 10.3.10.100/project/instances/2fc78ef1-ce61-49e7-83d4-47f66532013c/
+								455 cell
+									456 text 8
+								457 cell
+									458 text 0B
+								459 cell
+									460 text 8GB
+								461 cell
+									462 text 1 day
+							463 row
+								464 cell
+									465 link Description: cloudops-k8s-verification-wynymvkaykva-master-0, Value: 10.3.10.100/project/instances/3536833b-f37a-4d03-be47-badf069d986e/
+								466 cell
+									467 text 4
+								468 cell
+									469 text 40GB
+								470 cell
+									471 text 8GB
+								472 cell
+									473 text 23 hours, 23 minutes
+							474 row
+								475 cell
+									476 link Description: security-agent-enrollment-test, Value: 10.3.10.100/project/instances/797ff389-abe4-480f-a900-260c6f4f1ba1/
+								477 cell
+									478 text 2
+								479 cell
+									480 text 20GB
+								481 cell
+									482 text 4GB
+								483 cell
+									484 text 4 days, 16 hours
+							485 row
+								486 cell
+									487 link Description: xor-test-public29, Value: 10.3.10.100/project/instances/9a2598c4-0e23-4904-a17a-123555a9cb99/
+								488 cell
+									489 text 1
+								490 cell
+									491 text 2GB
+								492 cell
+									493 text 512MB
+								494 cell
+									495 text 5 days
+							496 row
+								497 cell
+									498 link Description: cloudops-ovn-client, Value: 10.3.10.100/project/instances/a0f920bb-10f1-40aa-869e-c48b0be4619f/
+								499 cell
+									500 text 2
+								501 cell
+									502 text 20GB
+								503 cell
+									504 text 4GB
+								505 cell
+									506 text 1 day, 1 hour
+							507 row
+								508 cell
+									509 link Description: cloudops-k8s-verification-wynymvkaykva-node-0, Value: 10.3.10.100/project/instances/e99444e5-49ae-4c24-a3ca-dbc50fcbdbe4/
+								510 cell
+									511 text 2
+								512 cell
+									513 text 20GB
+								514 cell
+									515 text 4GB
+								516 cell
+									517 text 23 hours, 20 minutes
+							518 row
+								519 cell 0-4
+									520 text Displaying 7 items
+	521 close button
+	522 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	523 minimize button
+524 menu bar
+	525 JumpServer
+	526 File
+	527 Edit
+	528 View
+	529 Window
+	530 Help
+
+The focused UI element is 298 HTML content Overview - OpenStack Dashboard, URL: 10.3.10.100/project/

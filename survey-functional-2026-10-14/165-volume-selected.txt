@@ -1,0 +1,202 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/volume
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+								142 menu Secondary Actions: Cancel
+									143 Volumes
+									144 Volume Backups
+									145 Volume Snapshots
+									146 Snapshot Schedules
+									147 Backup Schedules
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+							172 menu Secondary Actions: Cancel
+								173 Audit Logs
+								174 Recycle Bin
+						175 pop up button X-OR SECURE
+						176 Security Center
+						177 Security Posture
+						178 Web Application Firewall
+						179 Vulnerability Management
+						180 SIEM
+						181 Endpoint Security
+						182 Network Detection
+						183 Data Protection
+						184 Automation
+						185 Network Access Control
+					186 image left
+					187 container
+						188 text Storage / Volumes
+						189 container
+							190 button Create Volume
+							191 button Accept Volume Transfer
+							192 button Delete
+							193 text field (settable) Multiple filter tags are separated by enter
+							194 image search
+							195 button sync
+								196 image sync
+							197 button download
+								198 image download
+							199 button eye
+								200 image eye
+							201 button pause-circle
+								202 image pause-circle
+						203 container
+							204 table
+								205 row
+									206 column header
+										207 container
+											208 checkbox  , Value: 1
+									209 column header
+										210 text ID/Name
+										211 image caret-up
+										212 image caret-down
+									213 column header
+										214 text Size
+										215 image caret-up
+										216 image caret-down
+									217 column header
+										218 text Status
+										219 image caret-up
+										220 image caret-down
+									221 column header
+										222 text Type
+									223 column header
+										224 text Disk Tag
+									225 column header
+										226 text Attached To
+									227 column header
+										228 text Bootable
+										229 image question-circle
+										230 image caret-up
+										231 image caret-down
+									232 column header
+										233 text Shared
+										234 image question-circle
+									235 column header
+										236 text Created At
+										237 image caret-up
+										238 image caret-down
+									239 column header
+										240 text Action
+							241 table
+								242 row
+									243 cell
+										244 container
+											245 checkbox  , Value: 1
+									246 cell
+										247 link Description: 05a04a1e Copy, Value: 10.3.10.100:9999/storage/volume/detail/05a04a1e-32da-4e50-9d81-98c3fe87654b
+										248 text doccheck-1014-data
+									249 cell
+										250 text 1GiB
+									251 cell
+										252 text Creating
+									253 cell
+										254 text __DEFAULT__
+									255 cell
+										256 text Data Disk
+									257 cell
+										258 text -
+									259 cell
+										260 text No
+									261 cell
+										262 text No
+									263 cell
+										264 text 22 minutes ago
+									265 cell
+										266 button (disabled) Edit
+										267 button More down
+											268 text More
+											269 image down
+							270 container
+								271 text Total 1 items
+								272 button (disabled) left
+									273 image left
+								274 button 1
+								275 button (disabled) right
+									276 image right
+								277 container
+									278 combo box
+									279 text 10 items/page
+				280 container
+					281 container
+						282 image close-circle
+						283 text Get recycle volumes error.
+						284 button Click to show detail
+					285 link close
+						286 image close
+					287 container
+						288 image close-circle
+						289 text Get recycle database instances error.
+						290 button Click to show detail
+					291 link close
+						292 image close
+				293 menu Secondary Actions: Cancel
+					294 Data Protection right
+						295 pop up button Data Protection right
+							296 text Data Protection
+							297 image right
+					298 Instance Related right
+						299 pop up button Instance Related right
+							300 text Instance Related
+							301 image right
+					302 Capacity & Type right
+						303 pop up button Capacity & Type right
+							304 text Capacity & Type
+							305 image right
+	306 close button
+	307 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	308 minimize button
+309 menu bar
+	310 JumpServer
+	311 File
+	312 Edit
+	313 View
+	314 Window
+	315 Help

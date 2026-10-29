@@ -1,0 +1,132 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/management/audit-logs
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+								150 menu Secondary Actions: Cancel
+									151 Stacks
+									152 Resource Types
+									153 Template Versions
+									154 Template Generator
+						155 Database Database
+							156 pop up button Database Database
+								157 image Database
+								158 text Database
+						159 Container Container
+							160 pop up button Container Container
+								161 image Container
+								162 text Container
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+							171 menu Secondary Actions: Cancel
+								172 Audit Logs
+								173 Recycle Bin
+						174 pop up button X-OR SECURE
+						175 Hồ sơ thiết kế
+						176 TCVN Cấp độ 1
+						177 TCVN Cấp độ 2
+						178 TCVN Cấp độ 3
+						179 Security Center
+					180 image left
+					181 container
+						182 text Maintenance / Audit Logs
+						183 container
+							184 text field (settable) Multiple filter tags are separated by enter
+							185 image search
+							186 button sync
+								187 image sync
+							188 button download
+								189 image download
+							190 button pause-circle
+								191 image pause-circle
+						192 container
+							193 table
+								194 row
+									195 column header
+										196 text Log
+										197 image caret-up
+										198 image caret-down
+									199 column header
+										200 image caret-up
+										201 image caret-down
+							202 table
+								203 row
+									204 cell
+										205 container
+											206 text 2026-10-14 15:38:07 [ 200 ] userdemo LOGOUT session 339 ms
+									207 cell
+										208 button eye
+											209 image eye
+								210 row
+									211 cell
+										212 container
+											213 text 2026-10-14 15:19:33 [ 200 ] userdemo LOGOUT session 257 ms
+									214 cell
+										215 button eye
+											216 image eye
+								217 row
+									218 cell
+										219 container
+											220 text 2026-10-14 15:09:23 [ 200 ] userdemo LOGOUT session 249 ms
+									221 cell
+										222 button eye
+											223 image eye
+							224 content list
+								225 text Total 3 items
+								226 container Previous Page
+									227 button (disabled) left
+										228 image left
+								229 text 1
+								230 container Next Page
+									231 button (disabled) right
+										232 image right
+								233 container
+									234 combo box
+									235 text 10 / page
+	236 close button
+	237 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	238 minimize button
+239 menu bar
+	240 JumpServer
+	241 File
+	242 Edit
+	243 View
+	244 Window
+	245 Help

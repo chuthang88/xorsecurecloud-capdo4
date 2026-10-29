@@ -1,0 +1,160 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/management/recycle-bin?tab=databases
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+								166 menu Secondary Actions: Cancel
+									167 Audit Logs
+									168 Recycle Bin
+						169 pop up button X-OR SECURE
+						170 Security Center
+					171 image left
+					172 container
+						173 text Maintenance / Recycle Bin
+						174 tab group
+							175 container
+								176 tab (settable, integer) Servers, Value: 0
+								177 tab (settable, integer) Volumes, Value: 0
+								178 tab (selected) Database Instances, Value: 1
+						179 container Database Instances
+							180 container
+								181 button (disabled) Recover
+								182 button (disabled) Delete
+								183 text field (settable) Multiple filter tags are separated by enter
+								184 image search
+								185 button sync
+									186 image sync
+								187 button download
+									188 image download
+								189 button eye
+									190 image eye
+								191 button pause-circle
+									192 image pause-circle
+							193 container
+								194 table
+									195 row
+										196 column header
+											197 container
+												198 checkbox (disabled)  , Value: 0
+										199 column header
+											200 text ID/Name
+											201 image caret-up
+											202 image caret-down
+										203 column header
+											204 text Status
+											205 image caret-up
+											206 image caret-down
+										207 column header
+											208 text Datastore
+										209 column header
+											210 text Datastore Version
+										211 column header
+											212 text Flavor
+										213 column header
+											214 text Deleted At
+											215 image caret-up
+											216 image caret-down
+										217 column header
+											218 text Action
+								219 table
+									220 row
+										221 cell 0-7
+											222 text No Data
+								223 container
+									224 text Total 0 items
+									225 button (disabled) left
+										226 image left
+									227 button 1
+									228 button (disabled) right
+										229 image right
+									230 container
+										231 combo box
+										232 text 10 items/page
+				233 container
+					234 container
+						235 image close-circle
+						236 text Get recycle volumes error.
+						237 button Click to show detail
+					238 link close
+						239 image close
+					240 container
+						241 image close-circle
+						242 text Get recycle database instances error.
+						243 button Click to show detail
+					244 link close
+						245 image close
+				246 container
+					247 container
+						248 button Close
+							249 image close
+						250 container
+							251 text entry area
+							252 container
+								253 text {
+								254 container
+									255 text "message" :  {
+								256 container
+									257 text "detail" :  "Not Found"
+								258 container
+									259 text } ,
+								260 container
+									261 text "status" :  404
+								262 text }
+						263 button Confirm
+	264 close button
+	265 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	266 minimize button
+267 menu bar
+	268 JumpServer
+	269 File
+	270 Edit
+	271 View
+	272 Window
+	273 Help

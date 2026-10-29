@@ -1,0 +1,1 @@
+{"kind":"match","sheet":"Nguon_v094","address":"F123","value":"Rack_Power V4 đề xuất 6 kW cơ sở + 01 block 3 kW = 9 kW; OPEX còn công thức #REF!, chưa chứng minh công suất đã ký. Chưa có A/B feed hoặc số đo UPS/generator autonomy; cần hợp đồng điện, single-line, PDU mapping và load/failover test.","formula":null,"match":"value"}

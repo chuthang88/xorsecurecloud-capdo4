@@ -1,0 +1,125 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/monitor-center/alarm-rules
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+								166 menu Secondary Actions: Cancel
+									167 Audit Logs
+									168 Recycle Bin
+						169 pop up button X-OR SECURE
+						170 Security Center
+					171 image left
+					172 container
+						173 text Monitor Center / Alarm Rules
+						174 container
+							175 button Create Alarm Rule
+							176 button (disabled) Delete
+							177 text field (settable) Multiple filter tags are separated by enter
+							178 image search
+							179 button sync
+								180 image sync
+							181 button download
+								182 image download
+							183 button eye
+								184 image eye
+							185 button pause-circle
+								186 image pause-circle
+						187 container
+							188 table
+								189 row
+									190 column header
+										191 container
+											192 checkbox (disabled)  , Value: 0
+									193 column header
+										194 text Name
+									195 column header
+										196 text State
+										197 image caret-up
+										198 image caret-down
+									199 column header
+										200 text Severity
+										201 image caret-up
+										202 image caret-down
+									203 column header
+										204 text Condition
+										205 image caret-up
+										206 image caret-down
+									207 column header
+										208 text Metric Query
+										209 image caret-up
+										210 image caret-down
+									211 column header
+										212 text Enabled
+										213 image caret-up
+										214 image caret-down
+									215 column header
+										216 text Interval
+										217 image caret-up
+										218 image caret-down
+									219 column header
+										220 text Created At
+										221 image caret-up
+										222 image caret-down
+									223 column header
+										224 text Action
+							225 table
+								226 row
+									227 cell 0-9
+										228 text No Data
+	229 close button
+	230 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	231 minimize button
+232 menu bar
+	233 JumpServer
+	234 File
+	235 Edit
+	236 View
+	237 Window
+	238 Help

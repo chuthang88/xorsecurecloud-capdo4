@@ -1,0 +1,14 @@
+{
+  "rows": 129,
+  "uniqueIds": 129,
+  "workflowStates": [
+    "Thiếu hồ sơ xác minh",
+    "Đủ dữ liệu xác minh",
+    "Thiếu hồ sơ xác minh",
+    "Cần khắc phục",
+    "Thiếu hồ sơ xác minh"
+  ],
+  "initialUnverified": 129,
+  "initialComplete": 0,
+  "output": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2.2/Bo-1-Ky-thuat/04_Doi_soat_129_hang_muc_v094.xlsx"
+}

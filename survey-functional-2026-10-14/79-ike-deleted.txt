@@ -1,0 +1,154 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/vpn?tab=ike_policy
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Network / VPNs
+						182 tab group
+							183 container
+								184 tab (settable, integer) VPN Gateways, Value: 0
+								185 tab (settable, integer) VPN EndPoint Groups, Value: 0
+								186 tab (selected) IKE Policies, Value: 1
+								187 tab (settable, integer) IPsec Policies, Value: 0
+								188 tab (settable, integer) IPsec Site Connections, Value: 0
+						189 container IKE Policies
+							190 container
+								191 button Create
+								192 button (disabled) Delete
+								193 text field (settable) Multiple filter tags are separated by enter
+								194 image search
+								195 button sync
+									196 image sync
+								197 button download
+									198 image download
+								199 button eye
+									200 image eye
+								201 button pause-circle
+									202 image pause-circle
+							203 container
+								204 table
+									205 row
+										206 column header
+											207 container
+												208 checkbox (disabled)  , Value: 0
+										209 column header
+											210 text ID/Name
+											211 image caret-up
+											212 image caret-down
+										213 column header
+											214 text Description
+											215 image caret-up
+											216 image caret-down
+										217 column header
+											218 text Auth Algorithm
+											219 image caret-up
+											220 image caret-down
+										221 column header
+											222 text Encryption Algorithm
+											223 image caret-up
+											224 image caret-down
+										225 column header
+											226 text IKE Version
+											227 image caret-up
+											228 image caret-down
+										229 column header
+											230 text Lifetime
+											231 image caret-up
+											232 image caret-down
+										233 column header
+											234 text PFS
+											235 image caret-up
+											236 image caret-down
+										237 column header
+											238 text Action
+								239 table
+									240 row
+										241 cell 0-8
+											242 text No Data
+								243 container
+									244 text Total 0 items
+									245 button (disabled) left
+										246 image left
+									247 button 1
+									248 button (disabled) right
+										249 image right
+									250 container
+										251 combo box
+										252 text 10 items/page
+				253 container
+					254 image check-circle
+					255 text Delete vpn ike policy successfully, instance: doccheck-1014-ike.
+					256 link close
+						257 image close
+	258 close button
+	259 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	260 minimize button
+261 menu bar
+	262 JumpServer
+	263 File
+	264 Edit
+	265 View
+	266 Window
+	267 Help

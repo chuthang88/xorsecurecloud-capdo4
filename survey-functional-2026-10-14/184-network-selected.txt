@@ -1,0 +1,172 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/networks
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+							177 menu Secondary Actions: Cancel
+								178 Audit Logs
+								179 Recycle Bin
+						180 pop up button X-OR SECURE
+						181 Security Center
+						182 Security Posture
+						183 Web Application Firewall
+						184 Vulnerability Management
+						185 SIEM
+						186 Endpoint Security
+						187 Network Detection
+						188 Data Protection
+						189 Automation
+						190 Network Access Control
+					191 image left
+					192 container
+						193 text Network / Networks
+						194 tab group
+							195 container
+								196 tab (selected) Current Project Networks, Value: 1
+								197 tab (settable, integer) Shared Networks, Value: 0
+								198 tab (settable, integer) External Networks, Value: 0
+						199 container Current Project Networks
+							200 container
+								201 button Create Network
+								202 button Delete
+								203 text field (settable) Multiple filter tags are separated by enter
+								204 image search
+								205 button sync
+									206 image sync
+								207 button download
+									208 image download
+								209 button eye
+									210 image eye
+								211 button pause-circle
+									212 image pause-circle
+							213 container
+								214 table
+									215 row
+										216 column header
+											217 container
+												218 checkbox  , Value: 1
+										219 column header
+											220 text ID/Name
+											221 image caret-up
+											222 image caret-down
+										223 column header
+											224 text External
+										225 column header
+											226 text Shared
+										227 column header
+											228 text Status
+											229 image caret-up
+											230 image caret-down
+										231 column header
+											232 text Subnet Count
+										233 column header
+											234 text Created At
+										235 column header
+											236 text Action
+								237 table
+									238 row
+										239 cell
+											240 container
+												241 checkbox  , Value: 1
+										242 cell
+											243 link Description: 560e44c8 Copy, Value: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4
+											244 text doccheck-1014-net
+										245 cell
+											246 text No
+										247 cell
+											248 text No
+										249 cell
+											250 text Active
+										251 cell
+											252 text 1
+											253 image file-text
+										254 cell
+											255 text 35 minutes ago
+										256 cell
+											257 button Edit
+											258 button More down
+												259 text More
+												260 image down
+								261 container
+									262 text Total 1 items
+									263 button (disabled) left
+										264 image left
+									265 button 1
+									266 button (disabled) right
+										267 image right
+									268 container
+										269 combo box
+										270 text 10 items/page
+				271 container
+					272 image check-circle
+					273 text Delete virtual adapter successfully, instance: doccheck-1014-port.
+					274 link close
+						275 image close
+	276 close button
+	277 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	278 minimize button
+279 menu bar
+	280 JumpServer
+	281 File
+	282 Edit
+	283 View
+	284 Window
+	285 Help

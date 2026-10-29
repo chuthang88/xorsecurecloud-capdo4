@@ -1,0 +1,117 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/database/configurations
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+								154 menu Secondary Actions: Cancel
+									155 Database Instances
+									156 Backups
+									157 Configuration Groups
+						158 Container Container
+							159 pop up button Container Container
+								160 image Container
+								161 text Container
+						162 Monitor Center Monitor Center
+							163 pop up button Monitor Center Monitor Center
+								164 image Monitor Center
+								165 text Monitor Center
+						166 Alert Management Maintenance
+							167 pop up button Alert Management Maintenance
+								168 image Alert Management
+								169 text Maintenance
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Database / Configuration Groups
+						175 container
+							176 button Create Configurations
+							177 button (disabled) Delete Configuration
+							178 text field (settable) Multiple filter tags are separated by enter
+							179 image search
+							180 button sync
+								181 image sync
+							182 button download
+								183 image download
+							184 button eye
+								185 image eye
+							186 button pause-circle
+								187 image pause-circle
+						188 container
+							189 table
+								190 row
+									191 column header
+										192 container
+											193 checkbox (disabled)  , Value: 0
+									194 column header
+										195 text Configuration Group ID/Name
+										196 image caret-up
+										197 image caret-down
+									198 column header
+										199 text Description
+										200 image caret-up
+										201 image caret-down
+									202 column header
+										203 text Datastore
+										204 image caret-up
+										205 image caret-down
+									206 column header
+										207 text Datastore Version
+										208 image caret-up
+										209 image caret-down
+									210 column header
+										211 text Action
+							212 table
+								213 row
+									214 cell 0-5
+										215 text No Data
+				216 container
+					217 image check-circle
+					218 text Delete configuration successfully, instance: doccheck-1014-db-config.
+					219 link close
+						220 image close
+	221 close button
+	222 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	223 minimize button
+224 menu bar
+	225 JumpServer
+	226 File
+	227 Edit
+	228 View
+	229 Window
+	230 Help

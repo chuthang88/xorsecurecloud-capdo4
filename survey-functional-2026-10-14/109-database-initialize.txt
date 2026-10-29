@@ -1,0 +1,124 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/database/instances/create
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+								154 menu Secondary Actions: Cancel
+									155 Database Instances
+									156 Backups
+									157 Configuration Groups
+						158 Container Container
+							159 pop up button Container Container
+								160 image Container
+								161 text Container
+						162 Monitor Center Monitor Center
+							163 pop up button Monitor Center Monitor Center
+								164 image Monitor Center
+								165 text Monitor Center
+						166 Alert Management Maintenance
+							167 pop up button Alert Management Maintenance
+								168 image Alert Management
+								169 text Maintenance
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Database /
+						175 link Description: Database Instances, Value: 10.3.10.100:9999/database/instances
+						176 text / Create Database Instance
+						177 container
+							178 container
+								179 image check
+								180 container
+									181 text Details *
+							182 container
+								183 image check
+								184 container
+									185 text Networking *
+							186 container
+								187 text 3
+								188 container
+									189 text Initialize Databases
+							190 container
+								191 text 4
+								192 text Advanced
+							193 container
+								194 container
+									195 container
+										196 text Project
+									197 text userdemo
+								198 container
+									199 container
+										200 text * Initial Databases
+									201 text field (settable) * Initial Databases, Placeholder: Please input name
+									202 text The name should contain letter or number, the length is 2 to 64, characters can only contain "0-9, a-z, A-Z, -, _."
+								203 container
+									204 container
+										205 text * Initial Admin User
+									206 text field (settable) * Initial Admin User, Placeholder: Please input name
+									207 text The name should contain letter or number, the length is 1 to 16, characters can only contain "0-9, a-z, A-Z, -, _."
+								208 container
+									209 container
+										210 text * Password
+									211 container
+										212 secure text field [redacted]
+										213 image eye-invisible
+								214 container
+									215 container
+										216 text * Confirm Password
+									217 container
+										218 secure text field [redacted]
+										219 image eye-invisible
+								220 container
+									221 button Cancel
+									222 button Confirm
+							223 container
+								224 button Cancel
+								225 button Previous: Networking *
+								226 button Next: Advanced
+									227 text Next: Advanced
+	228 close button
+	229 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	230 minimize button
+231 menu bar
+	232 JumpServer
+	233 File
+	234 Edit
+	235 View
+	236 Window
+	237 Help

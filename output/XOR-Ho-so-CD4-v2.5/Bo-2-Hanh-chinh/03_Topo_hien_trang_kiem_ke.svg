@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L8 4.5 L0 9 Z" fill="#111"/></marker></defs>
+<rect width="1600" height="950" fill="white"/>
+<text x="800" y="34" fill="#111" font-family="Times New Roman,Times,serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle">CẤU TRÚC TÀI SẢN THEO KIỂM KÊ NGÀY 18/10/2026</text>
+<rect x="30" y="75" width="1100" height="790" fill="white" stroke="#111" stroke-width="2"/>
+<text x="580" y="113" fill="#111" font-family="Times New Roman,Times,serif" font-size="26" font-weight="700" font-style="normal" text-anchor="middle">SITE CHÍNH — 13 THIẾT BỊ VẬT LÝ VÀ 45 MÁY ẢO</text>
+<text x="580" y="144" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Đối chiếu DC Cầu Giấy theo phạm vi hồ sơ; vị trí rack/U cần xác nhận</text>
+<rect x="75" y="180" width="460" height="115" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="305.0" y="210" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">02 FORTIGATE-500E • CỤM HA</text>
+<text x="305.0" y="240" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">FG-01: FG5H0E5818904450</text>
+<text x="305.0" y="268" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">FG-02: FG5H0E5819903810</text>
+<rect x="620" y="180" width="460" height="115" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="850.0" y="210" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">02 CISCO N9K-C93180YC-EX</text>
+<text x="850.0" y="240" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Core 100: 10.3.99.100</text>
+<text x="850.0" y="268" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Core 101: 10.3.99.101</text>
+<text x="580" y="336" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">09 DELL POWEREDGE R630 • 324 NHÂN / 648 LUỒNG • RAM 2.336 GiB</text>
+<rect x="75" y="375" width="325" height="155" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="237.5" y="405" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">03 HOST PROXMOX</text>
+<text x="237.5" y="435" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">RAM 256 / 192 / 192 GiB</text>
+<text x="237.5" y="463" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">IP 10.3.99.151–153</text>
+<text x="237.5" y="491" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">21 VM • 166 vCPU / 340 GiB</text>
+<rect x="415" y="375" width="325" height="155" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="577.5" y="405" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">03 HOST COMPUTE</text>
+<text x="577.5" y="435" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">RAM 288 / 512 / 512 GiB</text>
+<text x="577.5" y="463" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">IP 10.3.10.21–23</text>
+<text x="577.5" y="491" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">24 VM • 113 vCPU / 215,5 GiB</text>
+<rect x="755" y="375" width="325" height="155" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="917.5" y="405" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">03 HOST CEPH</text>
+<text x="917.5" y="435" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">RAM 128 / 128 / 128 GiB</text>
+<text x="917.5" y="463" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">IP 10.3.31.31–33</text>
+<text x="917.5" y="491" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">10 OSD SSD • 19,20 TB raw</text>
+<path d="M237 530 V570" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter"/>
+<path d="M577 530 V570" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter"/>
+<path d="M917 530 V570" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter"/>
+<rect x="75" y="570" width="325" height="165" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="237.5" y="600" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="700" font-style="normal" text-anchor="middle">VM ĐIỀU KHIỂN / HẠ TẦNG</text>
+<text x="237.5" y="630" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="400" font-style="normal" text-anchor="middle">03 controller, mỗi VM:</text>
+<text x="237.5" y="658" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="400" font-style="normal" text-anchor="middle">24 vCPU / 48 GiB / 300G</text>
+<text x="237.5" y="686" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="400" font-style="normal" text-anchor="middle">18 VM hạ tầng khác</text>
+<text x="237.5" y="714" fill="#111" font-family="Times New Roman,Times,serif" font-size="21" font-weight="400" font-style="normal" text-anchor="middle">Controller đã nằm trong 21 VM</text>
+<rect x="415" y="570" width="325" height="165" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="577.5" y="600" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">PHÂN BỔ VM COMPUTE</text>
+<text x="577.5" y="630" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Compute-01: 10 VM</text>
+<text x="577.5" y="658" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Compute-02: 0 VM</text>
+<text x="577.5" y="686" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Compute-03: 14 VM</text>
+<text x="577.5" y="714" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">07 project có VM</text>
+<rect x="755" y="570" width="325" height="165" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="917.5" y="600" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">POOL LƯU TRỮ</text>
+<text x="917.5" y="630" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">size 3 • min_size 2</text>
+<text x="917.5" y="658" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">.mgr / images / volumes</text>
+<text x="917.5" y="686" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">vms / backups</text>
+<text x="917.5" y="714" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Không phải bản sao ngoài cụm</text>
+<text x="580" y="780" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Bond 10/25 Gb theo từng host; port map và tuyến cáp còn phải xác nhận.</text>
+<text x="580" y="815" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">VM controller dùng local-lvm; storage Proxmox liệt kê là không shared.</text>
+<rect x="1170" y="75" width="400" height="410" fill="white" stroke="#111" stroke-width="2"/>
+<text x="1370" y="113" fill="#111" font-family="Times New Roman,Times,serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle">THÀNH PHẦN NGOÀI SITE</text>
+<rect x="1200" y="155" width="340" height="180" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1370.0" y="185" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle">01 VM KVM • mfa-02</text>
+<text x="1370.0" y="215" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">2 vCPU • RAM Linux 3,82 GiB</text>
+<text x="1370.0" y="243" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">vda 80 GiB</text>
+<text x="1370.0" y="271" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Public: 103.252.74.40</text>
+<text x="1370.0" y="299" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Kênh riêng: 172.16.100.241</text>
+<text x="1370" y="380" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Chưa xác nhận IDC đặt VM</text>
+<text x="1370" y="410" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">và cấu hình host nhà cung cấp.</text>
+<text x="1370" y="440" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Chưa chứng minh cụm DR đầy đủ.</text>
+<rect x="1170" y="520" width="400" height="345" fill="white" stroke="#111" stroke-width="1.6"/>
+<text x="1370" y="555" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle">CHƯA ĐỦ DỮ LIỆU KIỂM KÊ</text>
+<text x="1370" y="600" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">SAN FC • S3 ngoài site</text>
+<text x="1370" y="634" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">UPS / PDU / rack / ISP</text>
+<text x="1370" y="668" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">Switch quản trị phụ trợ</text>
+<text x="1370" y="702" fill="#111" font-family="Times New Roman,Times,serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle">Cụm phục hồi Nam Thăng Long</text>
+<text x="1370" y="770" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">Chưa tính vào tổng tài sản</text>
+<text x="1370" y="800" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle">đã xác định trong sơ đồ.</text>
+<text x="800" y="912" fill="#111" font-family="Times New Roman,Times,serif" font-size="22" font-weight="400" font-style="italic" text-anchor="middle">Nguồn EV-001. Đường nối thể hiện quan hệ chứa tài nguyên; không thể hiện cáp mạng hoặc đồng bộ DC–DR.</text>
+</svg>

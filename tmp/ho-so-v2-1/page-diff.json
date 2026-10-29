@@ -1,0 +1,176 @@
+[
+  {
+    "dir": "00_01_So_tay_ra_soat_ky_thuat",
+    "pages": 12,
+    "changed_above_footer": [
+      1
+    ],
+    "identical_above_footer": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "dir": "01_00_Huong_dan_hoan_thien_va_trinh_ho_so",
+    "pages": 4,
+    "changed_above_footer": [
+      1,
+      4
+    ],
+    "identical_above_footer": [
+      2,
+      3
+    ]
+  },
+  {
+    "dir": "02_01_Thuyet_minh_ho_so_de_xuat_cap_do_4",
+    "pages": 21,
+    "changed_above_footer": [
+      1,
+      2
+    ],
+    "identical_above_footer": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "dir": "03_02_Phu_luc_doi_chieu_yeu_cau_TCVN",
+    "pages": 25,
+    "changed_above_footer": [
+      1,
+      25
+    ],
+    "identical_above_footer": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "dir": "04_03_Quy_che_va_quy_trinh_bao_dam_ANM",
+    "pages": 14,
+    "changed_above_footer": [
+      1
+    ],
+    "identical_above_footer": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "dir": "05_04_Cong_van_xin_y_kien_chuyen_mon_Mau_03",
+    "pages": 2,
+    "changed_above_footer": [
+      1,
+      2
+    ],
+    "identical_above_footer": []
+  },
+  {
+    "dir": "06_05_Cong_van_de_nghi_tham_dinh_Mau_02",
+    "pages": 2,
+    "changed_above_footer": [
+      1,
+      2
+    ],
+    "identical_above_footer": []
+  },
+  {
+    "dir": "07_06_To_trinh_phe_duyet_Mau_05",
+    "pages": 2,
+    "changed_above_footer": [
+      1,
+      2
+    ],
+    "identical_above_footer": []
+  },
+  {
+    "dir": "08_07_Du_thao_Quyet_dinh_phe_duyet_Mau_06",
+    "pages": 2,
+    "changed_above_footer": [
+      1,
+      2
+    ],
+    "identical_above_footer": []
+  },
+  {
+    "dir": "09_08_Y_kien_chuyen_mon_va_Bao_cao_tu_ra_soat",
+    "pages": 4,
+    "changed_above_footer": [
+      1,
+      2,
+      4
+    ],
+    "identical_above_footer": [
+      3
+    ]
+  },
+  {
+    "dir": "10_09_Thong_bao_cap_do_va_De_nghi_danh_gia",
+    "pages": 3,
+    "changed_above_footer": [
+      1,
+      2,
+      3
+    ],
+    "identical_above_footer": []
+  }
+]

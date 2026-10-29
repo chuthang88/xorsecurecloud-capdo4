@@ -1,0 +1,260 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/database/instances/create
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+								154 menu Secondary Actions: Cancel
+									155 Database Instances
+									156 Backups
+									157 Configuration Groups
+						158 Container Container
+							159 pop up button Container Container
+								160 image Container
+								161 text Container
+						162 Monitor Center Monitor Center
+							163 pop up button Monitor Center Monitor Center
+								164 image Monitor Center
+								165 text Monitor Center
+						166 Alert Management Maintenance
+							167 pop up button Alert Management Maintenance
+								168 image Alert Management
+								169 text Maintenance
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Database /
+						175 link Description: Database Instances, Value: 10.3.10.100:9999/database/instances
+						176 text / Create Database Instance
+						177 container
+							178 container
+								179 text 1
+								180 container
+									181 text Details *
+							182 container
+								183 text 2
+								184 container
+									185 text Networking *
+							186 container
+								187 text 3
+								188 container
+									189 text Initialize Databases
+							190 container
+								191 text 4
+								192 text Advanced
+							193 container
+								194 container
+									195 container
+										196 text Project
+									197 text userdemo
+									198 container
+										199 text * Availability Zone
+									200 container
+										201 combo box (settable) * Availability Zone
+										202 text Please select
+									203 container
+										204 text * Database Instance Name
+									205 text field (settable) * Database Instance Name
+									206 container
+										207 text * Database Disk (GiB)
+									208 container
+										209 button Increase Value
+											210 image up
+										211 button Decrease Value
+											212 image down
+										213 stepper (settable, float) * Database Disk (GiB), Value: 0, Placeholder: Size
+									214 container
+										215 text * Datastore Type
+									216 container
+										217 combo box (settable) * Datastore Type
+										218 text mysql
+									219 container
+										220 text * Datastore Version
+									221 container
+										222 combo box (settable) * Datastore Version
+										223 text Please select
+									224 container
+										225 text * Database Flavor
+									226 container
+										227 text field (settable) Click here for filters.
+										228 image search
+										229 text Architecture
+										230 container
+											231 radio button All Flavors, Value: 1
+											232 text All Flavors
+											233 radio button X86 Architecture, Value: 0
+											234 text X86 Architecture
+											235 radio button Custom, Value: 0
+											236 text Custom
+										237 container
+											238 table
+												239 row
+													240 column header
+														241 text Name
+														242 image caret-up
+														243 image caret-down
+													244 column header
+														245 text CPU
+														246 image caret-up
+														247 image caret-down
+													248 column header
+														249 text Memory
+														250 image caret-up
+														251 image caret-down
+													252 column header
+														253 text Internal Network Bandwidth (Gbps)
+														254 image caret-up
+														255 image caret-down
+													256 column header
+														257 text Architecture
+														258 image caret-up
+														259 image caret-down
+												260 row
+													261 cell
+														262 container
+															263 radio button  , Value: 0
+													264 cell
+														265 text GP_8C_8G
+													266 cell
+														267 text 8
+													268 cell
+														269 text 8.00 GiB
+													270 cell
+														271 text -
+													272 cell
+														273 text X86 Architecture - General Purpose
+												274 row
+													275 cell
+														276 container
+															277 radio button  , Value: 0
+													278 cell
+														279 text GP_32C_32G
+													280 cell
+														281 text 32
+													282 cell
+														283 text 32.00 GiB
+													284 cell
+														285 text -
+													286 cell
+														287 text X86 Architecture - General Purpose
+												288 row
+													289 cell
+														290 container
+															291 radio button  , Value: 0
+													292 cell
+														293 text GP_64C_512G
+													294 cell
+														295 text 64
+													296 cell
+														297 text 512.00 GiB
+													298 cell
+														299 text -
+													300 cell
+														301 text X86 Architecture - General Purpose
+												302 row
+													303 cell
+														304 container
+															305 radio button  , Value: 0
+													306 cell
+														307 text GP_12C_12G
+													308 cell
+														309 text 12
+													310 cell
+														311 text 12.00 GiB
+													312 cell
+														313 text -
+													314 cell
+														315 text X86 Architecture - General Purpose
+												316 row
+													317 cell
+														318 container
+															319 radio button  , Value: 0
+													320 cell
+														321 text GP_64C_64G
+													322 cell
+														323 text 64
+													324 cell
+														325 text 64.00 GiB
+													326 cell
+														327 text -
+													328 cell
+														329 text X86 Architecture - General Purpose
+											330 content list
+												331 container Previous Page
+													332 button (disabled) left
+														333 image left
+												334 text 1
+												335 text 2
+												336 text 3
+												337 text 4
+												338 text 5
+												339 container Next 5 Pages
+													340 container
+														341 image double-right
+														342 text •••
+												343 text 8
+												344 container Next Page
+													345 button right
+														346 image right
+										347 text Selected :  
+									348 container
+										349 text Locality
+										350 image question-circle
+									351 container
+										352 combo box (settable) Locality  question-circle
+										353 text Please select
+								354 container
+									355 button Cancel
+									356 button Confirm
+							357 container
+								358 button Cancel
+								359 button Next: Networking *
+				360 container
+					361 list box
+						362 text 8.0.46
+					363 text 8.0.46
+	364 close button
+	365 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	366 minimize button
+367 menu bar
+	368 JumpServer
+	369 File
+	370 Edit
+	371 View
+	372 Window
+	373 Help

@@ -1,0 +1,151 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/load-balancers
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+								147 menu Secondary Actions: Cancel
+									148 Networks
+									149 Ports
+									150 QoS Policies
+									151 Routers
+									152 Floating IPs
+									153 Topology
+									154 Load Balancers
+									155 Certificates
+									156 VPNs
+									157 Security Groups
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Network / Load Balancers
+						183 container
+							184 text field (settable) Multiple filter tags are separated by enter
+							185 image search
+							186 button sync
+								187 image sync
+							188 button download
+								189 image download
+							190 button eye
+								191 image eye
+							192 button pause-circle
+								193 image pause-circle
+						194 container
+							195 table
+								196 row
+									197 column header
+										198 container
+											199 checkbox (disabled)  , Value: 0
+									200 column header
+										201 text ID/Name
+										202 image caret-up
+										203 image caret-down
+									204 column header
+										205 text Network ID
+										206 image caret-up
+										207 image caret-down
+									208 column header
+										209 text IP
+										210 image caret-up
+										211 image caret-down
+									212 column header
+										213 text Floating IP
+										214 image caret-up
+										215 image caret-down
+									216 column header
+										217 text Port ID
+										218 image caret-up
+										219 image caret-down
+									220 column header
+										221 text Operating Status
+										222 image question-circle
+										223 image caret-up
+										224 image caret-down
+									225 column header
+										226 text Provisioning Status
+										227 image caret-up
+										228 image caret-down
+									229 column header
+										230 text Listener Number
+										231 image caret-up
+										232 image caret-down
+									233 column header
+										234 text Created At
+										235 image caret-up
+										236 image caret-down
+									237 column header
+										238 text Action
+							239 table
+								240 row
+									241 cell 0-10
+										242 text No Data
+							243 container
+								244 text Total 0 items
+								245 button (disabled) left
+									246 image left
+								247 button 1
+								248 button (disabled) right
+									249 image right
+								250 container
+									251 combo box
+									252 text 10 items/page
+				253 container
+					254 container Download all data
+						255 text Download all data
+	256 close button
+	257 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	258 minimize button
+259 menu bar
+	260 JumpServer
+	261 File
+	262 Edit
+	263 View
+	264 Window
+	265 Help

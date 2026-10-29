@@ -1,0 +1,401 @@
+{
+  "date": "2026-10-14",
+  "project": "userdemo",
+  "domain": "Default",
+  "displayed_roles": [
+    "member",
+    "reader"
+  ],
+  "resource_prefix": "doccheck-1014-",
+  "authorized_scope": "Create and delete test resources only in project userdemo; no changes affecting other projects or shared infrastructure.",
+  "baseline": {
+    "instances": 0,
+    "volumes": 0,
+    "networks": 0,
+    "routers": 0,
+    "security_groups": 1,
+    "security_group_rules": 4
+  },
+  "resources": [
+    {
+      "type": "network",
+      "name": "doccheck-1014-net",
+      "id": "560e44c8-6fc0-4947-885d-97f50ec3bdb4",
+      "status": "Active",
+      "shared": false,
+      "external": false,
+      "cleanup": "deleted; final project quotas networks/subnets/routers/ports all zero; Stacks list empty"
+    },
+    {
+      "type": "subnet",
+      "name": "doccheck-1014-subnet",
+      "id": "b283f0e6-7003-4754-bc6e-92272c29377d",
+      "network_id": "560e44c8-6fc0-4947-885d-97f50ec3bdb4",
+      "cidr": "192.168.240.0/24",
+      "gateway": "192.168.240.1",
+      "allocation_pool": "192.168.240.2 - 192.168.240.254",
+      "cleanup": "deleted; final project quotas networks/subnets/routers/ports all zero; Stacks list empty"
+    },
+    {
+      "type": "instance",
+      "name": "doccheck-1014-vm",
+      "id": "01c51a31-620b-4f4f-864f-a24e041ffa79",
+      "status": "Error",
+      "cleanup": "deleted with Immediately delete; verified empty Instances list",
+      "credential_submission": "user performed creation"
+    },
+    {
+      "type": "volume",
+      "name": "doccheck-1014-data",
+      "id": "05a04a1e-32da-4e50-9d81-98c3fe87654b",
+      "size_gib": 1,
+      "status": "Creating",
+      "cleanup": "BLOCKED: portal precheck refuses deletion while Creating; remained after more than 22 minutes",
+      "evidence": "167-volume-cleanup-blocked.txt"
+    },
+    {
+      "type": "volume",
+      "name": "VM system disk",
+      "id": "92b24e75-8bd4-475c-943b-2cfc58f2a0e0",
+      "size_gib": 20,
+      "status": "absent from volume list after VM error",
+      "cleanup": "absent from final volume list; final total one volume / 1 GiB, corresponding to data volume"
+    },
+    {
+      "type": "server_group",
+      "name": "doccheck-1014-group",
+      "id": "506245b8-7e2f-4ccd-937c-941b56eb044e",
+      "policy": "soft-anti-affinity",
+      "cleanup": "deleted"
+    },
+    {
+      "type": "port",
+      "name": "doccheck-1014-port",
+      "id": "d079433d-ce00-4a90-9a0d-d93de653fe0f",
+      "ip": "192.168.240.153",
+      "network_id": "560e44c8-6fc0-4947-885d-97f50ec3bdb4",
+      "cleanup": "deleted; final project quotas networks/subnets/routers/ports all zero; Stacks list empty"
+    },
+    {
+      "type": "router",
+      "name": "doccheck-1014-router",
+      "id": "28cbd86a-05f7-495c-8a58-1dbbe753a8c7",
+      "external_gateway": false,
+      "status": "Active",
+      "cleanup": "deleted; final project quotas networks/subnets/routers/ports all zero; Stacks list empty"
+    },
+    {
+      "type": "ike_policy",
+      "name": "doccheck-1014-ike",
+      "short_id": "0348196d",
+      "cleanup": "deleted; list verified empty"
+    },
+    {
+      "type": "floating_ip",
+      "name": "doccheck-1014-ip",
+      "id": "9c8ab230-639e-4f88-90a8-e1b455258c6d",
+      "ip": "203.162.235.118",
+      "associated": false,
+      "cleanup": "released; list empty"
+    },
+    {
+      "type": "stack",
+      "name": "doccheck-1014-stack",
+      "id": "afc0219b-b80d-49e8-a885-82863ccaf202",
+      "status": "Create Complete",
+      "cleanup": "deleted; final project quotas networks/subnets/routers/ports all zero; Stacks list empty",
+      "child_network": "7674c938-c5c6-483a-81f2-34d0348deb5c",
+      "child_subnet": "708624c7-3472-4c19-929a-b0facd906e40"
+    },
+    {
+      "type": "database_configuration",
+      "name": "doccheck-1014-db-config",
+      "id": "c00477a3-859f-4fbc-aee9-00ede5145d16",
+      "cleanup": "deleted; list empty"
+    },
+    {
+      "type": "security_group",
+      "name": "doccheck-1014-sg",
+      "id": "603c6b96-d61f-40a2-b325-bf85feb0bcaa",
+      "rules": "two default egress IPv4/IPv6 rules",
+      "attached": false,
+      "cleanup": "deleted; only default remains, final quota one group/four rules"
+    }
+  ],
+  "coverage": [
+    {
+      "feature": "Networks.create",
+      "result": "passed",
+      "evidence": "05-network-result.txt"
+    },
+    {
+      "feature": "Subnets.create",
+      "result": "passed",
+      "evidence": "07-subnet-list.txt"
+    },
+    {
+      "feature": "Server Groups.create-delete",
+      "result": "passed",
+      "evidence": [
+        "23-server-group-result.txt",
+        "25-server-group-deleted.txt"
+      ]
+    },
+    {
+      "feature": "Snapshot Schedules.create",
+      "result": "failed",
+      "error": "HTTP 400: Invalid filters id are found in query options",
+      "evidence": "40-snapshot-schedule-error.txt"
+    },
+    {
+      "feature": "Backup Schedules.create",
+      "result": "blocked_no_selectable_volumes",
+      "evidence": "42-backup-schedule-form.txt"
+    },
+    {
+      "feature": "Key Pairs",
+      "result": "form reviewed; credential creation not submitted",
+      "evidence": "29-keypair-import.txt"
+    },
+    {
+      "feature": "Autoscale Rules (V)",
+      "result": "form reviewed; needs scoped metric query and operational VM",
+      "evidence": "31-autoscale-form.txt"
+    },
+    {
+      "feature": "Auto Scaling Groups",
+      "result": "form reviewed; requires Octavia pool and metric configuration",
+      "evidence": "34-asg-form.txt"
+    },
+    {
+      "feature": "Autoscale History / ASG History",
+      "result": "empty lists viewed",
+      "evidence": [
+        "32-autoscale-history.txt",
+        "35-asg-history.txt"
+      ]
+    },
+    {
+      "feature": "Instances.create",
+      "result": "failed",
+      "error": "500: boot volume still creating after 187 seconds / 61 attempts",
+      "evidence": "45-vm-error-detail.txt"
+    },
+    {
+      "feature": "Instances.delete-default",
+      "result": "failed",
+      "error": "Not Found",
+      "evidence": "51-vm-delete-error.txt"
+    },
+    {
+      "feature": "Instances.delete-immediate",
+      "result": "passed",
+      "evidence": "54-vm-cleanup-status.txt"
+    },
+    {
+      "feature": "Ports.create",
+      "result": "passed",
+      "evidence": "58-port-created.txt"
+    },
+    {
+      "feature": "QoS Policies",
+      "result": "current project list empty; no Create control",
+      "evidence": "59-qos.txt"
+    },
+    {
+      "feature": "Routers.create",
+      "result": "passed",
+      "evidence": "62-router-result.txt"
+    },
+    {
+      "feature": "Routers.connect-subnet",
+      "result": "passed",
+      "evidence": "66-router-connected.txt"
+    },
+    {
+      "feature": "Topology",
+      "result": "project map displayed; includes visible external network",
+      "evidence": "67-topology.txt"
+    },
+    {
+      "feature": "Load Balancers",
+      "result": "empty list; no Create control",
+      "evidence": "68-load-balancers.txt"
+    },
+    {
+      "feature": "Certificates",
+      "result": "form reviewed; no certificate/private key supplied",
+      "evidence": "70-certificate-form.txt"
+    },
+    {
+      "feature": "VPN Gateways",
+      "result": "form reviewed; no eligible router in selector",
+      "evidence": "72-vpn-gateway-form.txt"
+    },
+    {
+      "feature": "IKE Policies.create-delete",
+      "result": "passed",
+      "evidence": [
+        "77-ike-created.txt",
+        "79-ike-deleted.txt"
+      ]
+    },
+    {
+      "feature": "VPN Endpoint Groups",
+      "result": "form reviewed",
+      "evidence": "81-vpn-endpoint-form.txt"
+    },
+    {
+      "feature": "IPsec Policies.list",
+      "result": "observed Network Error; cause unconfirmed",
+      "evidence": "84-ipsec-list-error.txt"
+    },
+    {
+      "feature": "IPsec Site Connections.list",
+      "result": "observed timeout of 0ms exceeded; form inspected; no service/peer/PSK configured",
+      "evidence": "87-vpn-connection-error.txt"
+    },
+    {
+      "feature": "Floating IPs.allocate-unassociated",
+      "result": "passed",
+      "evidence": "90-ip-allocation-result.txt"
+    },
+    {
+      "feature": "Floating IPs.release",
+      "result": "passed",
+      "evidence": "92-ip-release-result.txt"
+    },
+    {
+      "feature": "Stacks.create",
+      "result": "passed; network and subnet Create Complete",
+      "evidence": [
+        "126-stack-complete.txt",
+        "127-stack-resources.txt"
+      ]
+    },
+    {
+      "feature": "Heat Resource Types / Template Versions / Template Generator",
+      "result": "reviewed; generated network template used in successful stack",
+      "evidence": [
+        "95-resource-types.txt",
+        "97-template-versions.txt",
+        "99-network-template.txt"
+      ]
+    },
+    {
+      "feature": "Database Instances",
+      "result": "MySQL 8.0.46; reached Initialize Databases; requires user credential entry; not submitted",
+      "evidence": "109-database-initialize.txt"
+    },
+    {
+      "feature": "Database Backups",
+      "result": "form reviewed; no database instance",
+      "evidence": "111-database-backup-form.txt"
+    },
+    {
+      "feature": "Database Configuration Groups.create-delete",
+      "result": "passed",
+      "evidence": [
+        "116-db-config-detail.txt",
+        "118-db-config-deleted.txt"
+      ]
+    },
+    {
+      "feature": "K8s Clusters.list",
+      "result": "HTTP 404 Not Found",
+      "evidence": "120-k8s-list-error.txt"
+    },
+    {
+      "feature": "K8s Templates.list",
+      "result": "HTTP 404 Not Found",
+      "evidence": "123-k8s-template-error.txt"
+    },
+    {
+      "feature": "Security Groups.create-read-delete",
+      "result": "passed; unattached, no ingress added",
+      "evidence": [
+        "192-sg-rules.txt",
+        "198-sg-final.txt"
+      ]
+    },
+    {
+      "feature": "Monitor Overview",
+      "result": "all counters zero despite actual network/router/port/SG resources",
+      "evidence": "130-monitor-overview.txt"
+    },
+    {
+      "feature": "Alarm Rules / Notification Channels / Alarm History",
+      "result": "forms and Webhook/Telegram/Email types reviewed; no submissions or messages",
+      "evidence": [
+        "132-alarm-form.txt",
+        "135-channel-types.txt",
+        "136-alarm-history.txt"
+      ]
+    },
+    {
+      "feature": "Audit Logs",
+      "result": "five userdemo rows; three LOGOUT and two ACTION 404/500; completeness/timezone unverified",
+      "evidence": "139-audit-result.txt"
+    },
+    {
+      "feature": "Recycle Bin",
+      "result": "Servers empty; Volumes and Database Instances HTTP404, cannot claim empty or recovery working",
+      "evidence": [
+        "140-recycle-bin.txt",
+        "142-recycle-volume-error.txt",
+        "145-recycle-database-error.txt"
+      ]
+    },
+    {
+      "feature": "X-OR SECURE / all nine Security Center modules",
+      "result": "all opened, temporarily paused by administrator; no activation/config changes",
+      "evidence": "150-secure-paused.txt"
+    },
+    {
+      "feature": "Network and stack cleanup",
+      "result": "passed; router disconnected and deleted, manual port deleted, network deleted including metadata port/subnet, Stack list empty",
+      "evidence": [
+        "168-stack-cleanup.txt",
+        "177-router-empty.txt",
+        "187-network-final.txt",
+        "200-final-home-loaded.txt"
+      ]
+    }
+  ],
+  "project_id": "5a4b1b40880a4c1fa754cb7f6e8269d4",
+  "review_period": "2026-10-14/2026-10-15",
+  "completed_menu_groups": [
+    "Compute",
+    "Storage",
+    "Network",
+    "Orchestration",
+    "Database",
+    "Container",
+    "Monitor Center",
+    "Maintenance",
+    "X-OR SECURE",
+    "Security Center"
+  ],
+  "pending": [
+    "Storage provisioning and stuck volume cleanup",
+    "VM/DB operational workflows and data recovery",
+    "Service errors and paused security modules",
+    "API/CLI and permission matrix"
+  ],
+  "final_state": {
+    "instances": 0,
+    "networks": 0,
+    "subnets": 0,
+    "routers": 0,
+    "ports": 0,
+    "floating_ips": 0,
+    "server_groups": 0,
+    "security_groups": 1,
+    "security_group_rules": 4,
+    "volumes": 1,
+    "volume_capacity_gib": 1,
+    "volume_snapshots": 0,
+    "volume_backups": 0,
+    "cleanup_blocked_volume": "05a04a1e-32da-4e50-9d81-98c3fe87654b"
+  }
+}

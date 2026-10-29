@@ -1,0 +1,196 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/volume
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+								142 menu Secondary Actions: Cancel
+									143 Volumes
+									144 Volume Backups
+									145 Volume Snapshots
+									146 Snapshot Schedules
+									147 Backup Schedules
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+							172 menu Secondary Actions: Cancel
+								173 Audit Logs
+								174 Recycle Bin
+						175 pop up button X-OR SECURE
+						176 Security Center
+						177 Security Posture
+						178 Web Application Firewall
+						179 Vulnerability Management
+						180 SIEM
+						181 Endpoint Security
+						182 Network Detection
+						183 Data Protection
+						184 Automation
+						185 Network Access Control
+					186 image left
+					187 container
+						188 text Storage / Volumes
+						189 container
+							190 button Create Volume
+							191 button Accept Volume Transfer
+							192 button Delete
+								193 text Delete
+							194 text field (settable) Multiple filter tags are separated by enter
+							195 image search
+							196 button sync
+								197 image sync
+							198 button download
+								199 image download
+							200 button eye
+								201 image eye
+							202 button pause-circle
+								203 image pause-circle
+						204 container
+							205 table
+								206 row
+									207 column header
+										208 container
+											209 checkbox  , Value: 1
+									210 column header
+										211 text ID/Name
+										212 image caret-up
+										213 image caret-down
+									214 column header
+										215 text Size
+										216 image caret-up
+										217 image caret-down
+									218 column header
+										219 text Status
+										220 image caret-up
+										221 image caret-down
+									222 column header
+										223 text Type
+									224 column header
+										225 text Disk Tag
+									226 column header
+										227 text Attached To
+									228 column header
+										229 text Bootable
+										230 image question-circle
+										231 image caret-up
+										232 image caret-down
+									233 column header
+										234 text Shared
+										235 image question-circle
+									236 column header
+										237 text Created At
+										238 image caret-up
+										239 image caret-down
+									240 column header
+										241 text Action
+							242 table
+								243 row
+									244 cell
+										245 container
+											246 checkbox  , Value: 1
+									247 cell
+										248 link Description: 05a04a1e Copy, Value: 10.3.10.100:9999/storage/volume/detail/05a04a1e-32da-4e50-9d81-98c3fe87654b
+										249 text doccheck-1014-data
+									250 cell
+										251 text 1GiB
+									252 cell
+										253 text Creating
+									254 cell
+										255 text __DEFAULT__
+									256 cell
+										257 text Data Disk
+									258 cell
+										259 text -
+									260 cell
+										261 text No
+									262 cell
+										263 text No
+									264 cell
+										265 text 22 minutes ago
+									266 cell
+										267 button (disabled) Edit
+										268 button More down
+											269 text More
+											270 image down
+							271 container
+								272 text Total 1 items
+								273 button (disabled) left
+									274 image left
+								275 button 1
+								276 button (disabled) right
+									277 image right
+								278 container
+									279 combo box
+									280 text 10 items/page
+				281 container
+					282 container
+						283 image close-circle
+						284 text Get recycle volumes error.
+						285 button Click to show detail
+					286 link close
+						287 image close
+					288 container
+						289 image close-circle
+						290 text Get recycle database instances error.
+						291 button Click to show detail
+					292 link close
+						293 image close
+				294 container
+					295 container
+						296 image close-circle
+						297 text Error There are resources that cannot be deleted in the selected resources, such as: instance: doccheck-1014-data.
+						298 button Cancel
+						299 button Confirm
+	300 close button
+	301 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	302 minimize button
+303 menu bar
+	304 JumpServer
+	305 File
+	306 Edit
+	307 View
+	308 Window
+	309 Help

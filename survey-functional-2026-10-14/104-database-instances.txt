@@ -1,0 +1,124 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/database/instances
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+								155 menu Secondary Actions: Cancel
+									156 Database Instances
+									157 Backups
+									158 Configuration Groups
+						159 Container Container
+							160 pop up button Container Container
+								161 image Container
+								162 text Container
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Database / Database Instances
+						176 container
+							177 button Create Database Instance
+							178 button (disabled) Delete
+							179 text field (settable) Multiple filter tags are separated by enter
+							180 image search
+							181 button sync
+								182 image sync
+							183 button download
+								184 image download
+							185 button eye
+								186 image eye
+							187 button pause-circle
+								188 image pause-circle
+						189 container
+							190 container
+								191 table
+									192 row
+										193 column header
+											194 container
+												195 checkbox (disabled)  , Value: 0
+										196 column header
+											197 text ID/Name
+											198 image caret-up
+											199 image caret-down
+										200 column header
+											201 text Datastore
+											202 image caret-up
+											203 image caret-down
+										204 column header
+											205 text Datastore Version
+											206 image caret-up
+											207 image caret-down
+										208 column header
+											209 text Host
+											210 image caret-up
+											211 image caret-down
+										212 column header
+											213 text Database Disk (GiB)
+											214 image caret-up
+											215 image caret-down
+										216 column header
+											217 text Status
+											218 image caret-up
+											219 image caret-down
+										220 column header
+											221 text Action
+								222 table
+									223 row
+										224 cell 0-7
+											225 text No Data
+				226 container
+					227 container Configuration Groups
+						228 text Configuration Groups
+	229 close button
+	230 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	231 minimize button
+232 menu bar
+	233 JumpServer
+	234 File
+	235 Edit
+	236 View
+	237 Window
+	238 Help

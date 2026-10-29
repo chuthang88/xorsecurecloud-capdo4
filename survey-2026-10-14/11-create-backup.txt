@@ -1,0 +1,205 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/backup
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+								142 menu Secondary Actions: Cancel
+									143 Volumes
+									144 Volume Backups
+									145 Volume Snapshots
+									146 Snapshot Schedules
+									147 Backup Schedules
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+					175 container
+						176 text Storage / Volume Backups
+						177 container
+							178 button Create Volume Backup
+							179 button (disabled) Delete
+							180 text field (settable) Multiple filter tags are separated by enter
+							181 image search
+							182 button sync
+								183 image sync
+							184 button download
+								185 image download
+							186 button eye
+								187 image eye
+							188 button pause-circle
+								189 image pause-circle
+						190 container
+							191 table
+								192 row
+									193 column header
+										194 container
+											195 checkbox (disabled)  , Value: 0
+									196 column header
+										197 text ID/Name
+										198 image caret-up
+										199 image caret-down
+									200 column header
+										201 text Volume ID/Name
+										202 image caret-up
+										203 image caret-down
+									204 column header
+										205 text Backup Mode
+									206 column header
+										207 text Size
+									208 column header
+										209 text Status
+										210 image caret-up
+										211 image caret-down
+									212 column header
+										213 text Created At
+										214 image caret-up
+										215 image caret-down
+									216 column header
+										217 text Action
+							218 table
+								219 row
+									220 cell 0-7
+										221 text No Data
+							222 container
+								223 text Total 0 items
+								224 button (disabled) left
+									225 image left
+								226 button 1
+								227 button (disabled) right
+									228 image right
+								229 container
+									230 combo box
+									231 text 10 items/page
+				232 container
+					233 container Create Volume Backup
+						234 container
+							235 button Close
+								236 image close
+							237 text Create Volume Backup
+							238 container
+								239 image info-circle
+								240 text When you do online backup of the volume that has been bound, you need to pay attention to the following points:
+								241 text 1. The backup can only capture the data that has been written to the volume at the beginning of the backup task, excluding the data in the cache at that time.
+								242 text 2. To ensure the integrity of the data, it is recommended that you suspend the write operation of all files when creating a backup.
+								243 container
+									244 container
+										245 text * Volume Backup Name
+									246 container
+										247 text field (settable) * Volume Backup Name, Placeholder: Please input name
+										248 text The name should start with upper letter, lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].:^".
+									249 container
+										250 text Backup Mode
+										251 image question-circle
+									252 container
+										253 radio button Full Backup, Value: 1
+										254 text Full Backup
+										255 radio button Increment Backup, Value: 0
+										256 text Increment Backup
+									257 container
+										258 text * Volume
+									259 container
+										260 text field (settable) Click here for filters.
+										261 image search
+										262 button sync
+											263 image sync
+										264 container
+											265 table
+												266 row
+													267 column header
+														268 text ID/Name
+														269 image caret-up
+														270 image caret-down
+													271 column header
+														272 text Type
+													273 column header
+														274 text Size
+														275 image caret-up
+														276 image caret-down
+													277 column header
+														278 text Status
+														279 image caret-up
+														280 image caret-down
+													281 column header
+														282 text Shared
+													283 column header
+														284 text Attached To
+													285 column header
+														286 text Created At
+														287 image caret-up
+														288 image caret-down
+												289 row
+													290 cell 0-7
+														291 text No Data
+											292 container
+												293 text Total 0 items
+												294 button (disabled) left
+													295 image left
+												296 button 1
+												297 button (disabled) right
+													298 image right
+												299 container
+													300 combo box
+													301 text 5 items/page
+										302 text Selected :  
+								303 image
+								304 container
+									305 text Volume Backup Capacity (GiB) Quota:  0/1000
+							306 container
+								307 button Cancel
+								308 button OK
+	309 close button
+	310 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	311 minimize button
+312 menu bar
+	313 JumpServer
+	314 File
+	315 Edit
+	316 View
+	317 Window
+	318 Help

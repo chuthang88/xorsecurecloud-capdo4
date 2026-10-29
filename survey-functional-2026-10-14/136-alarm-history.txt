@@ -1,0 +1,111 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/monitor-center/alarm-history
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+						155 Container Container
+							156 pop up button Container Container
+								157 image Container
+								158 text Container
+						159 Monitor Center Monitor Center
+							160 pop up button Monitor Center Monitor Center
+								161 image Monitor Center
+								162 text Monitor Center
+								163 menu Secondary Actions: Cancel
+									164 Monitor Overview
+									165 Alarm Rules
+									166 Notification Channels
+									167 Alarm History
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+					175 container
+						176 text Monitor Center / Alarm History
+						177 container
+							178 text field (settable) Enter query conditions to filter
+							179 button sync
+								180 image sync
+							181 button download
+								182 image download
+							183 button pause-circle
+								184 image pause-circle
+						185 container
+							186 table
+								187 row
+									188 column header
+										189 text Alarm Rule ID
+										190 image caret-up
+										191 image caret-down
+									192 column header
+										193 text Previous State
+										194 image caret-up
+										195 image caret-down
+									196 column header
+										197 text New State
+										198 image caret-up
+										199 image caret-down
+									200 column header
+										201 text Metric Value
+										202 image caret-up
+										203 image caret-down
+									204 column header
+										205 text Reason
+										206 image caret-up
+										207 image caret-down
+									208 column header
+										209 text Timestamp
+										210 image caret-up
+										211 image caret-down
+							212 table
+								213 row
+									214 cell 0-5
+										215 text No Data
+	216 close button
+	217 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	218 minimize button
+219 menu bar
+	220 JumpServer
+	221 File
+	222 Edit
+	223 View
+	224 Window
+	225 Help

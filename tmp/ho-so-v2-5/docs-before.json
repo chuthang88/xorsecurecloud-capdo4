@@ -1,0 +1,3402 @@
+{
+  "Bo-1-Ky-thuat/03_Ke_hoach_doi_soat_nguon_v094.docx": {
+    "paragraphs": [
+      "CÔNG TY CỔ PHẦN XOR CLOUD",
+      "KHỐI HẠ TẦNG & VẬN HÀNH",
+      "",
+      "TÀI LIỆU KỸ THUẬT",
+      "KẾ HOẠCH ĐỐI SOÁT THIẾT KẾ\nVÀ TỒN TẠI TỪ HỒ SƠ THAM KHẢO",
+      "XOR SECURE CLOUD",
+      "Bổ sung cho sổ tay và checklist kỹ thuật",
+      "Nền tảng XOR STACK CLOUD",
+      "Đơn vị vận hành: Khối Hạ tầng & Vận hành",
+      "DC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long",
+      "",
+      "Hà Nội, tháng 10 năm 2026",
+      "",
+      "Khối Hạ tầng & Vận hành sử dụng tài liệu này để đối soát thiết kế trong bản 0.9.4 với nền tảng đang vận hành tại DC Cầu Giấy và DR Nam Thăng Long. Đầu ra cần có là danh mục tài sản được xác nhận, các thay đổi đã nghiệm thu và bằng chứng gắn với từng kiểm soát.",
+      "1 Dữ liệu kế thừa và cách xác nhận",
+      "Nguồn tham khảo: XOR_SECURE_CLOUD_Ho_so_Cap_do_4_v0.9.4.docx, ngày lập 06/10/2026; Phần II–III, Phụ lục D–G. Số liệu BOM/VLAN là thiết kế ghi trong nguồn, chưa có biên bản kiểm kê hoặc nghiệm thu đi kèm. Không tự phân bổ BOM này cho DC hoặc nhân đôi thành cấu hình DR.",
+      "",
+      "Thống kê trong bản nguồn: 97 Chưa đánh giá; 21 Đang thực hiện; 6 Không đạt; 4 Cần xác minh; 1 Đạt. Đây là trạng thái lịch sử của tài liệu tham khảo, không phải kết quả đánh giá hiện tại.",
+      "2 ĐỐI SOÁT THIẾT BỊ VÀ NĂNG LỰC",
+      "Nguồn: Phần II mục 4, trang 12–13 của bản 0.9.4. Kỹ thuật bổ sung serial, site/rack/U, đường điện A/B, NIC–switch, firmware, hạn hỗ trợ và mã EV cho từng thiết bị.",
+      "",
+      "Tổng RAM theo vai trò: 3 × 128 + 3 × 512 + 3 × 128 = 2.304 GB. Đây là tổng theo thiết kế, không phải RAM bán được. Không dùng số 5.120 GB của bảng định giá cũ thay cho cụm này.",
+      "19,2 TB Ceph và 14,4 TB SAN đều là dung lượng raw. Cần tính dung lượng sử dụng riêng theo replica/RAID, dự phòng, mức đầy và khả năng phục hồi. Nguồn chưa có CPU, tải thực, usable/IOPS hoặc kết quả N+1 đủ để cam kết SLA.",
+      "3 ĐỐI SOÁT PHÂN VÙNG MẠNG",
+      "Nguồn: Phần II mục 5, trang 14–15. Bảng sau là quy hoạch logic tham khảo. Giữ sơ đồ kiến trúc mục tiêu của bộ hồ sơ và bổ sung bản vẽ triển khai tại từng site sau khi phê duyệt.",
+      "",
+      "Nguồn ghi VLAN 30/40 trong bảng cũ từng có ý nghĩa khác. Không áp cấu hình theo số VLAN khi chưa xác minh ngữ nghĩa. Lập bảng chuyển đổi gồm VLAN/VRF cũ, VLAN/VRF mới, CIDR, gateway, owner, chính sách, ảnh hưởng, kế hoạch chuyển và rollback.",
+      "Với mỗi luồng: ghi nguồn, đích, hướng, cổng/giao thức, mục đích, điểm kiểm soát, rule ID và phép thử cho phép/từ chối. WAF chỉ áp dụng giao thức web phù hợp; không bắt mọi lưu lượng VM đi qua WAF. OOB, control, storage và tenant phải được kiểm tra cô lập theo thiết kế đã duyệt.",
+      "4 CÁC MỤC CẦN KIỂM TRA TRƯỚC",
+      "Các mục dưới đây được chọn từ trạng thái Không đạt và Đạt trong bản nguồn. Ưu tiên xác minh phạm vi và phiên bản trước khi quyết định khắc phục; chưa có kết luận chúng còn tồn tại trong production hiện tại.",
+      "",
+      "Không xóa nhận xét cũ khi đóng việc. Giữ báo cáo trước và sau, ticket thay đổi, EV retest và người chấp nhận. Nếu cùng một tồn tại ảnh hưởng nhiều kiểm soát, dùng chung mã việc/EV và liên kết đủ các dòng.",
+      "5 TRÌNH TỰ BÀN GIAO SANG HỒ SƠ HÀNH CHÍNH",
+      "Bước 1. Giao từng dòng trong workbook 04 cho một cá nhân. Các trường nền xám nhạt là nơi nhập kết quả hiện tại, thời hạn, hành động và bằng chứng. Tab Nguon_v094 giữ dữ liệu lịch sử để đối chiếu.",
+      "Bước 2. Mỗi mã C4 được liên kết với mã TC/CL/HS/T liên quan trong workbook 02 khi người kiểm tra xác định đúng yêu cầu. Một mục C4 có thể liên quan nhiều dòng; không ghép tự động theo số thứ tự hoặc lấy căn cứ cũ làm căn cứ hiện hành.",
+      "Bước 3. Hoàn thành rà soát và phép thử phù hợp. Nếu đánh dấu Đạt hoặc Không áp dụng, phải có kết luận/hành động, EV, người xác minh và ngày. Trạng thái Đủ dữ liệu xác minh chỉ thể hiện đủ trường khai báo để người kiểm tra xem xét, không thay kết luận chuyên môn.",
+      "Bước 4. Chuyển dữ liệu được xác nhận sang phụ lục 10 của Bộ 2, thuyết minh, sổ rủi ro và báo cáo tự rà soát. Chủ quản chốt phạm vi, căn cứ cấp độ, phân công và thẩm quyền; kỹ thuật bàn giao bằng chứng có kiểm soát phiên bản.",
+      "",
+      "Thời hạn thực hiện và ngày hoàn thành do các đầu mối thống nhất, nhập vào workbook; chưa ấn định mốc cam kết khi chưa có kế hoạch nguồn lực được phê duyệt."
+    ],
+    "tables": [
+      [
+        [
+          "Thông tin",
+          "Cách dùng khi rà soát"
+        ],
+        [
+          "Tổ chức và phạm vi",
+          "Dùng tên Công ty Cổ phần XOR CLOUD; Khối Hạ tầng & Vận hành; toàn bộ XOR STACK CLOUD và quản trị chung. Hai IDC theo xác nhận của chủ quản cung cấp hồ sơ."
+        ],
+        [
+          "129 mục cũ",
+          "Giữ đủ mã, nội dung, trạng thái và tồn tại trong workbook 04_Doi_soat_129_hang_muc_v094.xlsx. Cột kết quả hiện tại tách riêng và bắt đầu Chưa xác minh."
+        ],
+        [
+          "119 dòng TC và 18 dòng CL",
+          "Tiếp tục dùng workbook 02 để kiểm tra yêu cầu đã diễn giải. Số dòng nội bộ không phải số điều khoản hoặc chứng nhận; không cộng 129 với 119 thành số kiểm soát đã đáp ứng."
+        ],
+        [
+          "Dữ liệu thiếu",
+          "Điền kết quả thật, người kiểm tra, ngày và EV. Mọi khác biệt với nguồn phải có kết luận giữ, sửa, thay thế hoặc không áp dụng có căn cứ."
+        ]
+      ],
+      [
+        [
+          "Nhóm",
+          "SL và model nguồn",
+          "Quy hoạch nguồn",
+          "Việc cần chốt"
+        ],
+        [
+          "Controller",
+          "03 Dell R630",
+          "128 GB RAM/node; 2 × 480 GB OS và 2 × 800 GB/node; máy 1–2 kiêm SEED.",
+          "Chốt vai trò ổ 800 GB, NIC 10/25 Gb, placement và inventory."
+        ],
+        [
+          "Compute",
+          "03 Dell R630",
+          "512 GB RAM/node; 2 × 480 GB OS/node; máy 4–6.",
+          "Chốt gateway/agent đồng vị trí, uplink và năng lực khi mất một host."
+        ],
+        [
+          "Ceph SSD",
+          "03 Dell R630",
+          "128 GB RAM/node; 10 ổ 1,92 TB phân bố 4/3/3; 19,2 TB raw.",
+          "Chốt CRUSH, replica, dung lượng sử dụng và thử recovery."
+        ],
+        [
+          "SAN",
+          "01 chưa rõ model",
+          "24 ổ 600 GB SAS; 14,4 TB raw; backend riêng.",
+          "Chốt giao thức, RAID, controller, fabric và multipath."
+        ],
+        [
+          "Mạng lõi",
+          "02 Nexus N9K-C93180YC-EX",
+          "Hai nhánh mạng A/B theo quy hoạch.",
+          "Port map, peer/keepalive, MTU, cấu hình và failover."
+        ],
+        [
+          "Tường lửa",
+          "02 FortiGate 500E",
+          "NGFW/IPS/VPN và HA theo thiết kế.",
+          "Xác nhận license/support, state sync và phép thử HA."
+        ],
+        [
+          "Mạng SAN và OOB",
+          "01 switch SAN; 01 Access",
+          "Chưa có model và phương án dự phòng xác nhận.",
+          "Đánh giá điểm lỗi đơn, phương án xử lý và kiểm thử."
+        ]
+      ],
+      [
+        [
+          "VLAN",
+          "Vai trò trong nguồn",
+          "Điểm kiểm tra"
+        ],
+        [
+          "10",
+          "Internal service",
+          "Control/service nội bộ; chỉ luồng đã duyệt sang API private."
+        ],
+        [
+          "20",
+          "Tenant overlay",
+          "Transport tenant; không cấp quyền tới underlay/control/OOB."
+        ],
+        [
+          "30",
+          "Ceph client",
+          "Client I/O; tên “public” của Ceph không có nghĩa Internet công khai."
+        ],
+        [
+          "31",
+          "Ceph cluster",
+          "Replication, recovery và heartbeat; cô lập tenant."
+        ],
+        [
+          "40",
+          "Security và quản trị",
+          "Tách quyền PAM, SIEM, backup và kho log; cần chốt cách phân tách nội vùng."
+        ],
+        [
+          "70",
+          "XOR STACK API nội bộ",
+          "Broker/gateway và quản trị được duyệt; TLS, audit và giới hạn quyền."
+        ],
+        [
+          "99",
+          "OOB BMC iDRAC",
+          "Quản trị ngoài băng; không mở trực tiếp cho tenant/Internet."
+        ],
+        [
+          "100",
+          "Portal DMZ",
+          "Web/ingress; đường portal tới API thông qua broker theo thiết kế."
+        ],
+        [
+          "Chưa chốt",
+          "Provider và SAN",
+          "Chốt VLAN/VRF, external gateway, SAN zoning hoặc multipath phù hợp."
+        ]
+      ],
+      [
+        [
+          "Mã nguồn",
+          "Ghi nhận cũ",
+          "Công việc kiểm tra",
+          "Đầu mối đề xuất"
+        ],
+        [
+          "C4-GOV-10",
+          "Nguồn ghi bundle 07 node, LVM/no-Ceph khác thiết kế 09 server.",
+          "Đối soát Kolla inventory, CMDB và cấu hình thực tế; phân biệt lab, staging, production.",
+          "Platform / PMO"
+        ],
+        [
+          "C4-SW-02",
+          "Nguồn ghi registry insecure và CVE Critical còn bản vá.",
+          "Kiểm tra bản dựng hiện hành, TLS/trust, digest; đối chiếu báo cáo quét và kết quả xử lý.",
+          "Platform / SecOps"
+        ],
+        [
+          "C4-IAM-06",
+          "Nguồn ghi 6 SSH host private key trong image.",
+          "Xác minh image/digest; loại khóa dùng chung nếu còn, xoay khóa liên quan, lưu kết quả quét lại.",
+          "DevSecOps / IAM"
+        ],
+        [
+          "C4-NET-07",
+          "Nguồn chưa chứng minh hai tuyến độc lập và failover.",
+          "Thu hợp đồng/tuyến vật lý, cấu hình routing và biên bản thử mất tuyến, mất thiết bị.",
+          "NetOps / IDC"
+        ],
+        [
+          "C4-CLD-16",
+          "Nguồn còn IP và tên miền ví dụ.",
+          "Kiểm tra cấu hình production, DNS, chứng thư và endpoint; ghi nhận thay thế theo change.",
+          "Platform"
+        ],
+        [
+          "C4-DC-18",
+          "Nguồn cũ ghi một DC và chưa có DR độc lập.",
+          "Cập nhật DC Cầu Giấy và DR Nam Thăng Long; kiểm tra tài sản, hợp đồng, bản sao và diễn tập.",
+          "SRE / IDC"
+        ],
+        [
+          "C4-SW-04",
+          "Nguồn ghi Đạt đối chiếu checksum bundle.",
+          "Tái kiểm tra đúng bundle đang dùng; checksum không tự chứng minh chữ ký hay nguồn phát hành.",
+          "DevSecOps"
+        ]
+      ],
+      [
+        [
+          "Mốc nội bộ đề xuất",
+          "Đầu ra",
+          "Người xác nhận"
+        ],
+        [
+          "Khởi động đối soát",
+          "Phạm vi hai site, danh sách dịch vụ, chủ việc 129 dòng và kho EV.",
+          "Khối Hạ tầng & Vận hành"
+        ],
+        [
+          "Chốt thiết kế triển khai",
+          "BOM theo site, inventory, IP/port/rack map, luồng mạng và danh mục thay đổi.",
+          "Kiến trúc / Platform / NetOps / Storage"
+        ],
+        [
+          "Xác nhận kết quả kỹ thuật",
+          "Kết quả T01–T12 áp dụng, retest, RPO/RTO đo được và rủi ro còn lại.",
+          "Người kiểm tra được phân công"
+        ],
+        [
+          "Bàn giao hồ sơ",
+          "Workbook khóa phiên bản, phụ lục xác nhận, hồ sơ chuyên môn và danh sách còn thiếu.",
+          "Chủ trì lập hồ sơ / chuyên trách ANM"
+        ]
+      ]
+    ]
+  },
+  "Bo-1-Ky-thuat/01_So_tay_ra_soat_ky_thuat.docx": {
+    "paragraphs": [
+      "CÔNG TY CỔ PHẦN XOR CLOUD",
+      "KHỐI HẠ TẦNG & VẬN HÀNH",
+      "",
+      "TÀI LIỆU KỸ THUẬT",
+      "SỔ TAY RÀ SOÁT KỸ THUẬT\nHỆ THỐNG THÔNG TIN CẤP ĐỘ 4",
+      "XOR SECURE CLOUD",
+      "Bộ 1 dành cho đội kỹ thuật và các đầu mối cung cấp bằng chứng",
+      "Nền tảng XOR STACK CLOUD",
+      "Đơn vị vận hành: Khối Hạ tầng & Vận hành",
+      "DC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long",
+      "",
+      "Hà Nội, tháng 10 năm 2026",
+      "",
+      "Công ty Cổ phần XOR CLOUD. Đơn vị vận hành: Khối Hạ tầng & Vận hành. Đầu mối lập hồ sơ: Chử Quang Thắng — Giám đốc Vận hành.",
+      "Mục tiêu là xác định rõ kiểm soát nào đã triển khai, bằng chứng nào đã có, nội dung nào chưa đủ và ai chịu trách nhiệm bổ sung. Dùng cùng workbook 02_Checklist_ra_soat_XOR_cap_do_4.xlsx; chưa có hạng mục nào được xác nhận đạt chỉ từ việc lập bộ hồ sơ này.",
+      "",
+      "Sản phẩm của một đợt rà soát",
+      "Workbook đã cập nhật; kho bằng chứng có mã, phiên bản và người xác minh; danh sách thiếu sót có đầu mối và hạn; biên bản kiểm thử; báo cáo kết quả có giới hạn phạm vi. Chỉ chuyển số liệu đã xác nhận sang bộ hồ sơ hành chính.",
+      "1 CÁCH SỬ DỤNG CHECKLIST",
+      "",
+      "Ý nghĩa trạng thái tổng hợp",
+      "“Đủ hồ sơ kiểm tra” cần đồng thời: áp dụng Có, triển khai Đầy đủ, có mã hoặc đường dẫn bằng chứng, kết quả Đạt, có người và ngày kiểm tra. Công thức chỉ kiểm tra dữ liệu khai báo; người xác nhận chịu trách nhiệm về nội dung bằng chứng. Trạng thái này không phải quyết định phê duyệt cấp độ.",
+      "“Không áp dụng đã duyệt” cần lý do và văn bản/người có thẩm quyền chấp thuận, người xác nhận và ngày. Nếu chưa chốt phạm vi hoặc chưa có bằng chứng, giữ nguyên trạng thái chờ, không ghi đạt.",
+      "2 PHÂN CÔNG VÀ RANH GIỚI RÀ SOÁT",
+      "",
+      "Dịch vụ khách hàng tự quản phải có ma trận trách nhiệm chung. Hạ tầng nền đạt yêu cầu không tự chứng minh ứng dụng, hệ điều hành khách, dữ liệu hoặc tài khoản của khách hàng đã được phê duyệt cùng cấp độ.",
+      "3 THU THẬP VÀ QUẢN LÝ BẰNG CHỨNG",
+      "Mỗi bằng chứng dùng mã EV và liên kết tới mã TC, CL, HS hoặc T. Tên tệp gợi ý: EV-001_TC-001_DC_20261017_v1. Ghi ngày giờ, phạm vi, bản dựng, người thu, người xác minh và đường dẫn kho. Tạo bản đã che dữ liệu để đưa vào hồ sơ; giữ bản gốc ở kho có phân quyền và kiểm soát toàn vẹn.",
+      "",
+      "Thứ tự ưu tiên bằng chứng",
+      "Kết hợp tài liệu đã phê duyệt, cấu hình thực tế, log vận hành và phép thử. Bằng chứng phải trả lời được yêu cầu đã triển khai ở đâu, có hoạt động hay không, ai chịu trách nhiệm và còn hiệu lực tại thời điểm đánh giá. Không thay phép thử bằng cam kết mua sắm hoặc mô tả tính năng sản phẩm.",
+      "4 CÁC MỐC KIỂM TRA ĐỊNH KỲ",
+      "",
+      "Các quy trình và danh mục còn có mốc rà soát riêng tại từng dòng TCVN. RPO/RTO, thời gian phản ứng SOC, thời hạn khắc phục lỗ hổng và số ngày bất biến phải được XOR phê duyệt theo rủi ro/hợp đồng; không gán một giá trị mẫu thành yêu cầu pháp luật.",
+      "5 KỊCH BẢN KIỂM THỬ T01 VÀ T02",
+      "T01 Phân vùng và công khai dịch vụ",
+      "Đầu mối: Network. Căn cứ: 6.12.2.2–6.12.2.6.",
+      "Điều kiện trước thử: Danh mục IP/FQDN, luồng và cửa sổ thử đã duyệt.",
+      "Thực hiện: Kiểm kê endpoint từ ngoài và từ tenant; thử luồng được phép, luồng cấm, origin bypass WAF và Internet từ mạng quản trị.",
+      "Tiêu chí chấp nhận: Chỉ có endpoint/luồng được duyệt; quản trị, DB, OOB không lộ; chặn truy cập sai vùng.",
+      "Lưu bằng chứng: Rule export; log cho phép/từ chối; ảnh kết quả; phạm vi thử.",
+      "T02 Cách ly tenant",
+      "Đầu mối: Platform và Network. Căn cứ: 6.4.2.3; 6.12.",
+      "Điều kiện trước thử: Hai project và dữ liệu giả lập, tài khoản phân quyền rõ.",
+      "Thực hiện: Thử API/list/read/write, metadata, console, attach/snapshot/restore, object ACL và traffic từ A tới B; ghi từng trường hợp.",
+      "Tiêu chí chấp nhận: Không đọc, sửa hoặc quản trị chéo tenant; không thấy dữ liệu dư khi cấp lại tài nguyên.",
+      "Lưu bằng chứng: Request ID; log; cấu hình; biên bản từng bề mặt.",
+      "6 KỊCH BẢN KIỂM THỬ T03 VÀ T04",
+      "T03 MFA và đặc quyền",
+      "Đầu mối: IAM. Căn cứ: 6.6; 6.12.2.5.",
+      "Điều kiện trước thử: Tài khoản thử, ticket và tài khoản khẩn cấp trong phạm vi.",
+      "Thực hiện: Thử thiếu MFA, thiết bị lạ, quyền hết hạn, bỏ qua PAM; thử cấp/thu hồi; kiểm tra một phiên khẩn cấp.",
+      "Tiêu chí chấp nhận: Đúng người/đích/thời hạn; phiên truy vết được; các đường bị cấm bị chặn; khẩn cấp được hậu kiểm.",
+      "Lưu bằng chứng: Policy; log IdP/VPN/PAM; ticket; bản ghi phiên.",
+      "T04 Dữ liệu và khóa",
+      "Đầu mối: Quản trị khóa. Căn cứ: 6.4.2.4–6.4.2.10.",
+      "Điều kiện trước thử: Dữ liệu thử, bản sao khóa và phương án quay lại được duyệt.",
+      "Thực hiện: Kiểm tra mã hóa lưu/truyền; hai lớp hoặc tương đương; thử sai quyền giải mã, luân chuyển/thu hồi/restore khóa và xác minh chữ ký.",
+      "Tiêu chí chấp nhận: Dữ liệu và khóa được bảo vệ theo phân loại; không có quyền giải mã ngoài ma trận; khôi phục không mất khả năng đọc.",
+      "Lưu bằng chứng: Cấu hình; log KMS; biên bản kiểm tra; không chụp khóa/bí mật.",
+      "7 KỊCH BẢN KIỂM THỬ T05 VÀ T06",
+      "T05 Nhật ký và cảnh báo",
+      "Đầu mối: SOC. Căn cứ: 6.8; 6.13.",
+      "Điều kiện trước thử: Ma trận nguồn log, tài khoản thử, truy cập kho theo quyền.",
+      "Thực hiện: Tạo mỗi loại sự kiện; tìm actor/tenant/thời gian; ngắt nguồn thử; kiểm tra lưu giữ đủ 6 tháng và thử sửa/xóa log bằng quyền cloud admin.",
+      "Tiêu chí chấp nhận: Đủ trường và nguồn; có cảnh báo mất nguồn; kho tách vùng; bảo vệ sửa/xóa hoạt động; retention được chứng minh.",
+      "Lưu bằng chứng: Mẫu log đã che dữ liệu; truy vấn theo mốc; ticket ngoài giờ.",
+      "T06 EDR và DLP",
+      "Đầu mối: SecOps. Căn cứ: 6.4.2.8; 6.10.",
+      "Điều kiện trước thử: Mẫu thử an toàn của sản phẩm; máy/tệp giả lập.",
+      "Thực hiện: Thử phát hiện hành vi và kênh thất thoát áp dụng; kiểm tra gửi SIEM, cô lập, hoàn tác và tương thích ứng dụng.",
+      "Tiêu chí chấp nhận: Phát hiện/chặn theo chính sách; có người xử lý; không gây tác động ngoài phạm vi.",
+      "Lưu bằng chứng: Agent state; cảnh báo; ticket; biên bản xử lý.",
+      "8 KỊCH BẢN KIỂM THỬ T07 VÀ T08",
+      "T07 Lỗi thành phần HA",
+      "Đầu mối: Hạ tầng và Platform. Căn cứ: 6.12.2.2.",
+      "Điều kiện trước thử: Kế hoạch bảo trì, ngưỡng chấp nhận, tải thử và rollback.",
+      "Thực hiện: Lần lượt thử mất controller, compute, storage node, NIC, FW/LB, ISP theo thiết kế; đo và xác minh dữ liệu.",
+      "Tiêu chí chấp nhận: Đạt ngưỡng đã phê duyệt; không mất nhất quán; đủ năng lực còn lại và không phát sinh điểm lỗi đơn chưa kiểm soát.",
+      "Lưu bằng chứng: Timeline; metrics; cluster log; kiểm tra dữ liệu.",
+      "T08 Sao lưu và restore",
+      "Đầu mối: Backup. Căn cứ: 6.11.2.1–6.11.2.5.",
+      "Điều kiện trước thử: Kho restore cô lập, catalog dữ liệu và khóa cần thiết.",
+      "Thực hiện: Chọn bản sao VM/DB/config/khóa; thử truy cập/xóa theo vai trò; restore và kiểm tra checksum, đăng nhập, dữ liệu nghiệp vụ.",
+      "Tiêu chí chấp nhận: Bản sao độc lập khôi phục được; kiểm tra bất biến nếu thiết kế dùng; thời gian và dữ liệu mất nằm trong chỉ tiêu đã chốt.",
+      "Lưu bằng chứng: Job ID; bản sao được chọn; log; checksum; số đo.",
+      "9 KỊCH BẢN KIỂM THỬ T09 VÀ T10",
+      "T09 Mất DC và chuyển về",
+      "Đầu mối: Chỉ huy DR. Căn cứ: BIA; 6.11; 6.12.",
+      "Điều kiện trước thử: BIA/RPO/RTO đã duyệt, cửa sổ thử, kênh phối hợp và rollback.",
+      "Thực hiện: Xác nhận replica; cô lập nguồn ghi DC; kích hoạt DR cùng IAM/DNS/KMS; thử nghiệp vụ; đồng bộ và chuyển về theo runbook.",
+      "Tiêu chí chấp nhận: Đạt RPO/RTO từng dịch vụ; không dual writer; đủ công suất; failback được kiểm chứng.",
+      "Lưu bằng chứng: Timeline; fencing log; lag; đối soát DB; phê duyệt chuyển đổi.",
+      "T10 Khởi động nguội",
+      "Đầu mối: Platform. Căn cứ: Thiết kế XOR; tham khảo dự thảo 5.3.9.",
+      "Điều kiện trước thử: Môi trường khôi phục riêng; tài liệu và bí mật khẩn cấp có thể tiếp cận.",
+      "Thực hiện: Giả lập dừng toàn nền tảng; lần lượt dựng dịch vụ theo dependency; không dùng bí mật chỉ nằm trên hệ thống đang dừng.",
+      "Tiêu chí chấp nhận: Dựng lại được control plane và dịch vụ mẫu; phát hiện/xử lý mọi vòng phụ thuộc.",
+      "Lưu bằng chứng: Dependency map; thứ tự bước; log; biên bản truy cập khẩn cấp.",
+      "10 KỊCH BẢN KIỂM THỬ T11 VÀ T12",
+      "T11 Phát hành an toàn",
+      "Đầu mối: DevSecOps. Căn cứ: 6.16.",
+      "Điều kiện trước thử: Pipeline thử, artifact đúng/sai chữ ký và bản rollback.",
+      "Thực hiện: Thử image chưa duyệt/sai digest, secret scan, quyền runner dev; phát hành bản hợp lệ rồi hoàn tác.",
+      "Tiêu chí chấp nhận: Gate từ chối bản không đạt; bản được duyệt truy nguyên được; rollback thành công.",
+      "Lưu bằng chứng: Pipeline run; review; SAST/SCA; digest; biên bản rollback.",
+      "T12 Pentest và đánh giá độc lập",
+      "Đầu mối: Đơn vị đánh giá. Căn cứ: 6.18; 6.12.2.7.",
+      "Điều kiện trước thử: ROE ký, phạm vi IP/tenant, lịch, dữ liệu và điều kiện dừng.",
+      "Thực hiện: Kiểm thử từ ngoài và trong; kiểm tra quyền nội bộ/cách ly; lập phát hiện; xử lý và retest; ghi giới hạn phương pháp.",
+      "Tiêu chí chấp nhận: Kết luận theo tiêu chí và phạm vi đã phê duyệt; phát hiện được xử lý hoặc quản lý đúng thẩm quyền; không tự đánh dấu đạt khi thiếu retest.",
+      "Lưu bằng chứng: Báo cáo ký; ROE; ticket; retest; ý kiến nghiệm thu.",
+      "11 BIÊN BẢN VÀ ĐIỀU KIỆN CHUYỂN HỒ SƠ",
+      "",
+      "Đợt rà soát được đóng khi phạm vi và danh mục đã chốt, các mục áp dụng có bằng chứng được xác minh, kết quả thử được lưu, phát hiện được xử lý theo quyết định đúng thẩm quyền. Việc chấp nhận rủi ro không tự thay thế một yêu cầu bắt buộc chưa đáp ứng.",
+      "Trước gửi thẩm định: chuyển dữ liệu thực tế sang Bộ 2; đính kèm thiết kế đã phê duyệt hoặc tài liệu tương đương; hoàn thiện đánh giá rủi ro chi tiết và ý kiến chuyên trách. Không gửi bản còn [CẦN ĐIỀN], không dùng bảng tổng hợp Excel như quyết định phê duyệt.",
+      "Tài liệu tham chiếu",
+      "[S1] Nghị định 331/2026/NĐ-CP: Điều 14, 18, 20–24 và Phụ lục. Nguồn chính thức: https://vanban.chinhphu.vn/?docid=219243&pageid=27160",
+      "[S2] TCVN 14423:2026: Điều 6, trang 58–81; Phụ lục A.4, trang 109–111.",
+      "Dự thảo TCVN Cloud năm 2026 chỉ dùng để rà soát thiết kế bổ sung. Các điểm bổ sung không tạo kết luận Hạng B/Mức 4 và không thay checklist toàn bộ dự thảo.",
+      "",
+      "Phụ lục 1 Phương án kiến trúc tổng thể DC–DR",
+      "",
+      "Hình 1. Kiến trúc tổng thể hệ thống XOR SECURE CLOUD.",
+      "",
+      "Phụ lục 2 Phương án phân vùng mạng và kết nối",
+      "",
+      "Hình 2. Phân vùng mạng và các luồng kết nối chính."
+    ],
+    "tables": [
+      [
+        [
+          "Đầu vào đã xác nhận",
+          "Dữ liệu phải bổ sung"
+        ],
+        [
+          "Toàn bộ nền tảng cloud và dịch vụ quản trị chung.",
+          "Danh mục tài sản, dịch vụ thực tế, phiên bản, số lượng và ranh giới khách hàng."
+        ],
+        [
+          "Nền tảng XOR STACK CLOUD.",
+          "Upstream release, bản dựng XOR, SBOM, cấu hình và kết quả thử."
+        ],
+        [
+          "DC Cầu Giấy; DR Nam Thăng Long; lập hồ sơ lần đầu.",
+          "Hợp đồng và tài liệu IDC; phê duyệt thiết kế; mã số doanh nghiệp, thẩm quyền ký và liên hệ."
+        ]
+      ],
+      [
+        [
+          "Bước",
+          "Thực hiện",
+          "Điều kiện kết thúc"
+        ],
+        [
+          "1 Chốt phạm vi",
+          "Điền phạm vi từng dòng, dịch vụ và hai IDC. Chốt phần Cloud tham khảo tự nguyện.",
+          "Không dùng “không áp dụng” để che hạng mục chưa có."
+        ],
+        [
+          "2 Giao việc",
+          "Gán cá nhân thực hiện từ đầu mối đề xuất; nhập hạn xử lý.",
+          "Mỗi mục có người chịu trách nhiệm rõ ràng."
+        ],
+        [
+          "3 Kiểm tra hiện trạng",
+          "Đối chiếu cấu hình, tài liệu, log, quan sát và phép thử.",
+          "Phân biệt Chưa xác minh, Chưa triển khai, Một phần, Đầy đủ."
+        ],
+        [
+          "4 Ghi bằng chứng",
+          "Đăng ký mã EV, kho lưu, ngày, phiên bản, phạm vi và người thu.",
+          "Bằng chứng đọc được, khớp môi trường và không lộ bí mật."
+        ],
+        [
+          "5 Xác nhận",
+          "Người kiểm tra độc lập với người thực hiện khi phù hợp ghi kết quả/ngày.",
+          "Đạt chỉ khi đáp ứng đủ các ý trong dòng và phạm vi."
+        ],
+        [
+          "6 Khắc phục",
+          "Lập hành động, thay đổi theo quy trình và retest.",
+          "Giữ kết quả cũ và mới; không xóa dấu vết chưa đạt."
+        ]
+      ],
+      [
+        [
+          "Nhóm",
+          "Chịu trách nhiệm",
+          "Bằng chứng chính"
+        ],
+        [
+          "Chủ quản và GRC",
+          "Phạm vi, căn cứ cấp độ, rủi ro, thẩm quyền và hồ sơ trình.",
+          "HS01–HS10, BIA, sổ rủi ro."
+        ],
+        [
+          "Platform và DevSecOps",
+          "Bản dựng, control plane, hypervisor, image và pipeline.",
+          "CMDB, SBOM, baseline, release, T02/T07/T10/T11."
+        ],
+        [
+          "Network và Storage",
+          "Phân vùng, kết nối, dữ liệu, HA và hiệu năng.",
+          "LLD, rule, route, ACL, replica, T01/T02/T04/T07."
+        ],
+        [
+          "IAM và quản trị khóa",
+          "Định danh, MFA, đặc quyền, khóa và chứng thư.",
+          "RBAC, PAM, vòng đời khóa, T03/T04."
+        ],
+        [
+          "SOC và CSIRT",
+          "Log, trực giám sát, sự cố, EDR/DLP và diễn tập.",
+          "Ma trận nguồn, lịch trực, ticket, T05/T06."
+        ],
+        [
+          "Backup và chỉ huy DR",
+          "Bản sao, phụ thuộc phục hồi, failover và failback.",
+          "BIA, job, runbook, T08/T09/T10."
+        ],
+        [
+          "IDC và mua sắm",
+          "Vật lý, nguồn điện, PCCC, ra vào và nhà cung cấp.",
+          "Hồ sơ từng site, SLA, phân định trách nhiệm."
+        ],
+        [
+          "Người kiểm tra",
+          "Kiểm tra phạm vi, bằng chứng, kết quả và retest.",
+          "Biên bản, kết luận có giới hạn, danh sách tồn tại."
+        ]
+      ],
+      [
+        [
+          "Nguồn",
+          "Cách thu",
+          "Lưu ý kiểm tra"
+        ],
+        [
+          "XOR STACK CLOUD",
+          "Xuất inventory service, endpoint, project/role, network, port, SG, image và volume theo quyền được cấp.",
+          "Ghi phiên bản CLI/API và project scope; không xuất token hoặc mật khẩu."
+        ],
+        [
+          "Host/cluster",
+          "Thu phiên bản OS/gói, cấu hình đã lọc bí mật, cluster status, route và trạng thái agent.",
+          "Bản cấu hình trích phải gắn host, ngày, hash; không dùng ảnh menu làm chứng cứ tính năng đang hoạt động."
+        ],
+        [
+          "IAM/PAM/KMS",
+          "Xuất chính sách, vai trò, log mẫu, lịch sử cấp/thu hồi và luân chuyển.",
+          "Không đưa khóa riêng, recovery code hoặc secret vào tài liệu."
+        ],
+        [
+          "SOC/backup",
+          "Xuất nguồn log, rule, retention, job, mẫu cảnh báo và biên bản restore.",
+          "Có số đo thời gian và bản ghi xử lý; ảnh dashboard riêng lẻ chưa đủ."
+        ],
+        [
+          "IDC",
+          "Thu hồ sơ nghiệm thu, bảo trì, điện, camera, ra vào và hợp đồng.",
+          "Xác minh phạm vi chứng chỉ bao phủ đúng cơ sở/phòng/rack và còn hiệu lực."
+        ]
+      ],
+      [
+        [
+          "Hoạt động",
+          "Mốc tối thiểu theo TCVN",
+          "Điều khoản"
+        ],
+        [
+          "Nhận diện và xem lại hiệu lực xử lý rủi ro",
+          "1 lần/6 tháng và khi có thay đổi liên quan",
+          "6.1.2.2; 6.1.2.4"
+        ],
+        [
+          "Rà thiết bị trái phép, tài sản kết nối, DHCP/IPAM",
+          "1 lần/quý",
+          "6.2.2.2–6.2.2.4"
+        ],
+        [
+          "Danh mục tài khoản và quyền dữ liệu",
+          "1 lần/quý",
+          "6.6.2.1; 6.4.2.1"
+        ],
+        [
+          "Scan toàn hệ thống / tài sản quan trọng",
+          "1 lần/6 tháng / 1 lần/quý",
+          "6.7.2.1"
+        ],
+        [
+          "Máy người dùng và di động được cấp",
+          "Kiểm tra/cập nhật vá ít nhất 1 lần/tháng nếu có",
+          "6.7.2.2"
+        ],
+        [
+          "Rà nhật ký an ninh",
+          "1 lần/tháng",
+          "6.8.2.1"
+        ],
+        [
+          "Lưu nhật ký an ninh / camera phòng máy",
+          "Tối thiểu 6 tháng cho mỗi loại",
+          "6.8.2.1; A.4.2"
+        ],
+        [
+          "Thử phục hồi bản sao",
+          "1 lần/6 tháng",
+          "6.11.2.5"
+        ],
+        [
+          "Rà sơ đồ mạng",
+          "1 lần/6 tháng và khi thay đổi",
+          "6.12.2.1"
+        ],
+        [
+          "Điều chỉnh ngưỡng cảnh báo",
+          "1 lần/quý",
+          "6.13.2.5"
+        ],
+        [
+          "Đào tạo và diễn tập sự cố",
+          "1 lần/năm; theo vai trò và thay đổi khi áp dụng",
+          "6.14.2; 6.16.2.6; 6.17.2.6"
+        ],
+        [
+          "Danh mục thư viện/thành phần bên thứ ba",
+          "1 lần/quý",
+          "6.16.2.4"
+        ],
+        [
+          "Pentest bên trong và bên ngoài",
+          "Mỗi loại ít nhất 1 lần/năm",
+          "6.18.2.2; 6.18.2.5"
+        ]
+      ],
+      [
+        [
+          "Trường biên bản",
+          "Nội dung cần ghi"
+        ],
+        [
+          "Mã và phạm vi",
+          "Mã T/TC/CL; site; asset ID; project; bản dựng; ngày giờ; cửa sổ thử."
+        ],
+        [
+          "Thành phần tham gia",
+          "Người thực hiện, người chứng kiến, người xác nhận và phạm vi quyền."
+        ],
+        [
+          "Kết quả",
+          "Điều kiện đầu vào, bước đã làm, số đo, kết quả so với tiêu chí và mã EV."
+        ],
+        [
+          "Tồn tại",
+          "Mô tả, ảnh hưởng, mức ưu tiên theo rủi ro, đầu mối và hạn."
+        ],
+        [
+          "Retest",
+          "Ngày thử lại, phiên bản mới, kết quả, bằng chứng và người xác nhận."
+        ],
+        [
+          "Kết luận",
+          "Đạt/Không đạt/Chưa đủ bằng chứng trong phạm vi cụ thể; các giới hạn và ngoại lệ."
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/09_Bao_cao_ket_qua_ra_soat.docx": {
+    "paragraphs": [
+      "BÁO CÁO",
+      "Kết quả rà soát an ninh mạng hệ thống XOR SECURE CLOUD",
+      "Kính gửi: Công ty Cổ phần XOR CLOUD.",
+      "Thực hiện [CẦN ĐIỀN số, ngày kế hoạch hoặc văn bản giao nhiệm vụ], Khối Hạ tầng & Vận hành báo cáo kết quả rà soát như sau:",
+      "1. Phạm vi và phương pháp",
+      "Phạm vi: toàn bộ nền tảng XOR STACK CLOUD và các dịch vụ quản trị chung tại DC Cầu Giấy, DR Nam Thăng Long. Thời gian: [CẦN ĐIỀN]. Phiên bản hệ thống và hồ sơ: [CẦN ĐIỀN]. Chủ trì và người kiểm tra: [CẦN ĐIỀN].",
+      "Căn cứ đối chiếu: TCVN 14423:2026 và hồ sơ thiết kế được phê duyệt [CẦN ĐIỀN số, ngày]. Phương pháp, phạm vi lấy mẫu, giới hạn và danh mục bằng chứng: [CẦN ĐIỀN].",
+      "2. Kết quả tổng hợp",
+      "",
+      "Căn cứ không áp dụng: [CẦN ĐIỀN mã yêu cầu, lý do và văn bản xác nhận].",
+      "3. Kết quả kiểm thử kỹ thuật",
+      "[CẦN ĐIỀN kết quả T01–T12 trong phạm vi áp dụng; RPO/RTO đo được; kết quả cách ly tenant, quản trị đặc quyền/MFA, nhật ký, sao lưu, phục hồi và các phát hiện].",
+      "",
+      "4. Kết luận và đề nghị",
+      "[CẦN ĐIỀN mức độ đáp ứng, nội dung còn thiếu, rủi ro còn lại, biện pháp xử lý, thời hạn và nội dung đề nghị chủ quản xem xét]."
+    ],
+    "tables": [
+      [
+        [
+          "KHỐI HẠ TẦNG & VẬN HÀNH\nSố: [CẦN ĐIỀN]/BC-[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nhóm",
+          "Áp dụng",
+          "Đạt",
+          "Không đạt",
+          "Chưa đủ bằng chứng",
+          "Không áp dụng"
+        ],
+        [
+          "Rủi ro và tài sản",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Dữ liệu, cấu hình, quyền",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Mạng và nền tảng",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Nhật ký, SOC, mã độc",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Sao lưu và DR",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Nhân sự, nhà cung cấp",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Phát triển, sự cố, kiểm tra",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Vật lý DC",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ],
+        [
+          "Vật lý DR",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]",
+          "[ ]"
+        ]
+      ],
+      [
+        [
+          "Phát hiện và ảnh hưởng",
+          "Biện pháp xử lý",
+          "Đơn vị / thời hạn",
+          "Kết quả kiểm tra lại"
+        ],
+        [
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN mã bằng chứng và kết quả]"
+        ],
+        [
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN mã bằng chứng và kết quả]"
+        ],
+        [
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN]",
+          "[CẦN ĐIỀN mã bằng chứng và kết quả]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\n\n\n\nTrần Văn Dũng"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/00_Danh_muc_ho_so.docx": {
+    "paragraphs": [
+      "CÔNG TY CỔ PHẦN XOR CLOUD",
+      "DANH MỤC HỒ SƠ",
+      "Đề xuất cấp độ 4 hệ thống thông tin XOR SECURE CLOUD",
+      "Chủ quản: Công ty Cổ phần XOR CLOUD. Đơn vị vận hành: Khối Hạ tầng & Vận hành.",
+      "Mã hồ sơ: XOR-CD4. Phiên bản: 2.4. Ngày lập: [CẦN ĐIỀN].",
+      "",
+      "Tài liệu kèm theo: [CẦN ĐIỀN danh mục thiết kế được phê duyệt, ý kiến thẩm định, bằng chứng đánh giá và tài liệu pháp lý; số, ngày, phiên bản, số trang].",
+      "Đầu mối: Chử Quang Thắng — Giám đốc Vận hành. Liên hệ: [CẦN ĐIỀN điện thoại, email]."
+    ],
+    "tables": [
+      [
+        [
+          "STT",
+          "Tên tài liệu",
+          "Số / ngày văn bản"
+        ],
+        [
+          "01",
+          "Thuyết minh hồ sơ đề xuất cấp độ 4",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "02",
+          "Phụ lục đối chiếu yêu cầu TCVN",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "03",
+          "Quy chế và quy trình bảo đảm an ninh mạng",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "04",
+          "Công văn xin ý kiến chuyên môn",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "05",
+          "Công văn đề nghị thẩm định",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "06",
+          "Tờ trình phê duyệt cấp độ",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "07",
+          "Quyết định phê duyệt cấp độ",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "08",
+          "Ý kiến chuyên môn",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "09",
+          "Báo cáo kết quả rà soát",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "10",
+          "Phụ lục thiết kế và hiện trạng",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "11",
+          "Công văn đề nghị đánh giá độc lập",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "12",
+          "Thông báo về cấp độ hệ thống thông tin",
+          "[CẦN ĐIỀN]"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/07_Quyet_dinh_phe_duyet_cap_do.docx": {
+    "paragraphs": [
+      "QUYẾT ĐỊNH",
+      "Về việc phê duyệt cấp độ hệ thống thông tin XOR SECURE CLOUD",
+      "TỔNG GIÁM ĐỐC",
+      "Căn cứ Luật An ninh mạng số 116/2025/QH15;",
+      "Căn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin;",
+      "Căn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan, tổ chức].",
+      "Căn cứ ý kiến thẩm định số [  ] ngày [  ] của [CƠ QUAN CÓ THẨM QUYỀN]; xét đề nghị của Khối Hạ tầng & Vận hành tại Tờ trình số [  ] ngày [  ];",
+      "QUYẾT ĐỊNH",
+      "Điều 1 Phê duyệt cấp độ hệ thống thông tin",
+      "1. Tên hệ thống thông tin: XOR SECURE CLOUD. Đơn vị vận hành: Khối Hạ tầng & Vận hành. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà Nội. Phạm vi hệ thống và các thành phần được xác định tại hồ sơ mã [  ], phiên bản [  ], ngày [  ] kèm theo Quyết định này.",
+      "2. Cấp độ hệ thống thông tin: Cấp độ 4.",
+      "3. Phương án bảo đảm an ninh mạng trong thiết kế và trong vận hành: [CẦN ĐIỀN kết luận phù hợp với tiêu chuẩn quốc gia/quy chuẩn áp dụng, đúng nội dung ý kiến thẩm định và hồ sơ đã hoàn thiện; tên, phiên bản và phạm vi tài liệu kèm theo].",
+      "4. Điều kiện, nội dung phải hoàn thiện hoặc yêu cầu duy trì theo ý kiến thẩm định: [CẦN ĐIỀN điều kiện và yêu cầu theo ý kiến thẩm định].",
+      "Điều 2 Tổ chức thực hiện",
+      "1. Khối Hạ tầng & Vận hành chịu trách nhiệm tổ chức thực hiện phương án bảo đảm an ninh mạng; duy trì các biện pháp quản lý, kỹ thuật, vật lý; kiểm tra, khắc phục và cập nhật hồ sơ theo quy định.",
+      "2. Trung tâm Vận hành là đơn vị chuyên trách về an ninh mạng, kiểm tra, giám sát việc thực hiện; báo cáo chủ quản các thay đổi, rủi ro và tồn tại cần xử lý.",
+      "3. [CÁC ĐƠN VỊ LIÊN QUAN] thực hiện trách nhiệm theo phân công và hợp đồng; phối hợp cung cấp bằng chứng, ứng phó sự cố và bảo đảm liên tục.",
+      "Điều 3 Điều khoản thi hành",
+      "Quyết định có hiệu lực kể từ ngày [CẦN ĐIỀN]. Thủ trưởng các đơn vị nêu tại Điều 2 và các tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Quyết định này."
+    ],
+    "tables": [
+      [
+        [
+          "CÔNG TY CỔ PHẦN XOR CLOUD\nSố: [CẦN ĐIỀN]/QĐ-[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "TỔNG GIÁM ĐỐC\n\n\n\nLê Anh Vũ"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/02_Phu_luc_doi_chieu_yeu_cau_TCVN.docx": {
+    "paragraphs": [
+      "CÔNG TY CỔ PHẦN XOR CLOUD",
+      "KHỐI HẠ TẦNG & VẬN HÀNH",
+      "",
+      "HỒ SƠ",
+      "PHỤ LỤC ĐỐI CHIẾU YÊU CẦU\nVÀ PHƯƠNG ÁN BẢO ĐẢM AN NINH MẠNG",
+      "XOR SECURE CLOUD",
+      "Kèm theo hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD",
+      "Nền tảng XOR STACK CLOUD",
+      "Đơn vị vận hành: Khối Hạ tầng & Vận hành",
+      "DC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long",
+      "",
+      "Hà Nội, tháng 10 năm 2026",
+      "",
+      "Phụ lục đối chiếu 119 nội dung kiểm tra thuộc Điều 6.1–6.18 và Phụ lục A.4 TCVN 14423:2026 với phương án bảo đảm an ninh mạng của hệ thống XOR SECURE CLOUD.",
+      "Thời điểm chốt hiện trạng: [CẦN ĐIỀN]. Hồ sơ kiểm tra và bằng chứng kèm theo: [CẦN ĐIỀN danh mục, phiên bản, người lập và người xác nhận].",
+      "",
+      "6 1 RỦI RO",
+      "Đơn vị chủ trì: GRC và chủ quản. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 2 PHẦN CỨNG",
+      "Đơn vị chủ trì: Hạ tầng và IT. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 3 PHẦN MỀM",
+      "Đơn vị chủ trì: Platform và DevSecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 4 DỮ LIỆU",
+      "Đơn vị chủ trì: Chủ dữ liệu và bảo mật. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 5 CẤU HÌNH",
+      "Đơn vị chủ trì: Platform và IT. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 6 TÀI KHOẢN VÀ QUYỀN",
+      "Đơn vị chủ trì: IAM và bộ phận an ninh. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 7 LỖ HỔNG VÀ BẢN VÁ",
+      "Đơn vị chủ trì: SecOps và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 8 NHẬT KÝ",
+      "Đơn vị chủ trì: SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 9 WEB VÀ EMAIL",
+      "Đơn vị chủ trì: IT và SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 10 CHỐNG MÃ ĐỘC",
+      "Đơn vị chủ trì: SecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 11 SAO LƯU",
+      "Đơn vị chủ trì: Backup và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 12 HẠ TẦNG MẠNG",
+      "Đơn vị chủ trì: Network và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 13 GIÁM SÁT",
+      "Đơn vị chủ trì: SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 14 NHÂN SỰ",
+      "Đơn vị chủ trì: Nhân sự và chủ quản. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 15 NHÀ CUNG CẤP",
+      "Đơn vị chủ trì: Mua sắm và GRC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 16 PHÁT TRIỂN AN TOÀN",
+      "Đơn vị chủ trì: DevSecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "6 17 ỨNG PHÓ SỰ CỐ",
+      "Đơn vị chủ trì: CSIRT và SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "6 18 KIỂM TRA AN NINH",
+      "Đơn vị chủ trì: Đánh giá độc lập và GRC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "A 4 AN TOÀN VẬT LÝ",
+      "Đơn vị chủ trì: IDC và Hạ tầng XOR. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và dịch vụ áp dụng].",
+      "",
+      "XÁC NHẬN KẾT QUẢ ĐỐI CHIẾU",
+      "Tổng số điểm áp dụng: [  ]; không áp dụng có căn cứ: [  ]; đạt: [  ]; không đạt: [  ]; chưa đủ bằng chứng: [  ]. Ngày chốt và phạm vi: [CẦN ĐIỀN].",
+      "Tồn tại chưa xử lý: [CẦN ĐIỀN mã yêu cầu, ảnh hưởng, hành động, người chịu trách nhiệm, hạn và biện pháp tạm thời].",
+      "Kết luận của người kiểm tra: [CẦN ĐIỀN kết luận trong phạm vi và giới hạn kiểm tra thực tế]."
+    ],
+    "tables": [
+      [
+        [
+          "Thông tin chung",
+          "Nội dung"
+        ],
+        [
+          "Phạm vi",
+          "Cả DC Cầu Giấy và DR Nam Thăng Long cùng toàn bộ dịch vụ quản trị chung."
+        ],
+        [
+          "Người lập",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "Người kiểm tra",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "Bản dựng và ngày chốt",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "Quy tắc kết luận",
+          "Đạt / Không đạt / Chưa đủ bằng chứng / Không áp dụng có căn cứ và phê duyệt."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-001\n6.1.2.1\ntr.58",
+          "Quy trình rủi ro\nCó quy trình xác định, phân tích, đánh giá, xử lý; rà soát ít nhất hằng năm và khi thay đổi.",
+          "Ban hành QT01 cho nền tảng, tenant và dịch vụ chung; phân công người phê duyệt rủi ro.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quy trình đã ký; lịch sử sửa đổi; biên bản rà soát.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-002\n6.1.2.2\ntr.58",
+          "Nhận diện rủi ro\nNhận diện cả rủi ro nội bộ và nhà cung cấp ít nhất 1 lần/6 tháng, khi thay đổi liên quan.",
+          "Lập sổ rủi ro DC, DR, XOR STACK, IDC, ISP và chuỗi phần mềm.\nHiện trạng: [CẦN ĐIỀN].",
+          "Sổ rủi ro; đầu vào CVE; đánh giá IDC/ISP.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-003\n6.1.2.3\ntr.58",
+          "Đánh giá tác động\nPhân tích khả năng, tác động, quyết định xử lý hoặc chấp nhận; đánh giá lại khi thay đổi.",
+          "Thực hiện BIA theo từng dịch vụ; phân tích ảnh hưởng khách hàng và lợi ích công cộng.\nHiện trạng: [CẦN ĐIỀN].",
+          "BIA; thang điểm; hồ sơ quyết định của chủ quản.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-004\n6.1.2.4\ntr.58",
+          "Xử lý rủi ro\nCó biện pháp, ứng phó rủi ro còn lại; đánh giá hiệu lực ít nhất 1 lần/6 tháng.",
+          "Gắn rủi ro với ticket khắc phục, người phụ trách, hạn và phép thử lại.\nHiện trạng: [CẦN ĐIỀN].",
+          "Kế hoạch xử lý; ticket; kết quả retest; chấp nhận tồn dư.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-005\n6.1.2.5\ntr.59",
+          "Theo dõi rủi ro\nTheo dõi thay đổi khả năng, tác động, mức rủi ro, tài sản và biện pháp.",
+          "GRC cập nhật sổ rủi ro theo cảnh báo SOC và thay đổi kiến trúc.\nHiện trạng: [CẦN ĐIỀN].",
+          "Phiên bản sổ rủi ro; báo cáo định kỳ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-006\n6.1.2.6\ntr.59",
+          "Thông tin rủi ro\nChia sẻ kết quả và thông báo kịp thời thay đổi quan trọng cho bên liên quan.",
+          "Thiết lập danh sách nhận thông tin theo phạm vi và trách nhiệm.\nHiện trạng: [CẦN ĐIỀN].",
+          "Thông báo; biên bản họp; xác nhận tiếp nhận.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-007\n6.2.1; 6.2.2.1\ntr.59",
+          "Danh mục phần cứng\nKiểm kê toàn bộ tài sản, kể cả bên ngoài kết nối; rà soát ít nhất hằng năm; đủ IP/MAC/serial, vị trí, EOL, mục đích, chủ sở hữu; kiểm tra trước dùng và đăng ký thiết bị di động.",
+          "CMDB chung DC/DR chứa host, switch, storage, BMC, PAW và thiết bị thuê; tài sản mới có phiếu tiếp nhận.\nHiện trạng: [CẦN ĐIỀN].",
+          "CMDB; rack map; biên bản bàn giao và kiểm tra; danh sách thiết bị di động.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-008\n6.2.2.2\ntr.59",
+          "Thiết bị chưa quản lý\nCó quy trình phát hiện và xử lý thiết bị trái phép ít nhất hằng quý; loại bỏ, chặn hoặc cách ly theo quyết định.",
+          "NAC và kiểm kê định kỳ; gắn ticket cho thiết bị chưa rõ chủ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quy trình; kết quả phát hiện; ticket cách ly.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-009\n6.2.2.3\ntr.60",
+          "Rà quét tài sản\nRà quét thiết bị kết nối ít nhất hằng quý và cập nhật danh mục.",
+          "So khớp discovery với Neutron, hypervisor, IPAM và CMDB.\nHiện trạng: [CẦN ĐIỀN].",
+          "Báo cáo discovery có ngày; đối soát chênh lệch.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-010\n6.2.2.4\ntr.60",
+          "DHCP và IPAM\nGhi DHCP hoặc sử dụng IPAM nếu có; rà soát nhật ký ít nhất hằng quý để cập nhật tài sản.",
+          "Lưu DHCP/Neutron/IPAM về kho log có định danh tenant.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình log; mẫu log; biên bản đối soát.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-011\n6.2.2.5\ntr.60",
+          "Thanh lý và xóa dữ liệu\nCó quy trình thanh lý; xóa sạch dữ liệu khi chuyển giao hoặc đổi mục đích.",
+          "Sanitize ổ đĩa, volume và thiết bị theo loại media; xác nhận hủy khóa khi phù hợp.\nHiện trạng: [CẦN ĐIỀN].",
+          "Phiếu thanh lý; chứng cứ sanitize; biên bản xác nhận.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-012\n6.3.1; 6.3.2.1\ntr.60",
+          "Danh mục phần mềm\nKiểm kê ít nhất hằng năm; có phiên bản, bản quyền, phạm vi, EOL, người quản lý và phần mềm thực tế cài đặt.",
+          "Quản lý phiên bản XOR, phần mềm nguồn, OS, agent, firmware và container theo release.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh mục; SBOM; inventory máy chủ; giấy phép.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-013\n6.3.2.2\ntr.60–61",
+          "Phần mềm được phép\nDanh sách được duyệt bao gồm runtime và dịch vụ nhà cung cấp; kiểm soát cài/gỡ/thực thi trái phép; rà soát ít nhất hằng năm hoặc khi thay đổi.",
+          "Kho gói và image đã duyệt; quyền cài đặt qua ticket; ghi vết thay đổi.\nHiện trạng: [CẦN ĐIỀN].",
+          "Allowlist; quyền repository; log cài đặt; phê duyệt ngoại lệ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-014\n6.3.2.3\ntr.61",
+          "Hỗ trợ vòng đời\nRà soát ít nhất hằng năm để phần mềm được phép còn được hỗ trợ.",
+          "Lập kế hoạch hỗ trợ bản fork XOR và bản upstream; xử lý thành phần hết hỗ trợ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ma trận EOL; cam kết hỗ trợ; kế hoạch nâng cấp.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-015\n6.3.2.4\ntr.61",
+          "Phần mềm trái phép\nPhát hiện và xử lý ít nhất 1 lần/6 tháng; ngoại lệ có biện pháp giảm rủi ro; gỡ phần mềm không được chấp thuận.",
+          "Đối soát inventory với allowlist; quản lý ngoại lệ có hạn.\nHiện trạng: [CẦN ĐIỀN].",
+          "Báo cáo đối soát; sổ ngoại lệ; ticket gỡ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-016\n6.4.2.1\ntr.61–62",
+          "Quy định quản lý dữ liệu\nQuy định phân loại, chủ sở hữu, xử lý, lưu giữ, hủy và thay đổi dữ liệu; kiểm tra phân quyền ít nhất hằng quý; rà soát quy định hằng năm/khi thay đổi.",
+          "Phân loại dữ liệu nền tảng và tenant; gắn chính sách truy cập và retention theo loại.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quy định; danh mục phân loại; biên bản rà soát quyền.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-017\n6.4.2.2\ntr.62",
+          "Danh mục dữ liệu\nLập và cập nhật danh mục ít nhất hằng năm hoặc khi có thay đổi.",
+          "Liệt kê DB nền tảng, bí mật, log, ảnh, volume, backup và dữ liệu khách hàng theo phạm vi.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh mục dữ liệu có phiên bản.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-018\n6.4.2.3\ntr.62",
+          "Quyền trên dữ liệu\nCó danh sách quyền của từng tài khoản/nhóm đối với từng loại dữ liệu.",
+          "Ánh xạ Keystone, DB role, object ACL và tài khoản backup tới chủ thể.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ma trận quyền; trích cấu hình ACL/RBAC.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-019\n6.4.2.4 a\ntr.62",
+          "Mã hóa khi lưu\nBảo vệ dữ liệu xác thực, nhạy cảm và quan trọng khi lưu bằng mã hóa hoặc kiểm soát rủi ro tương đương.",
+          "Mã hóa volume/object/backup và kho bí mật; mô tả các ngoại lệ và giới hạn bảo vệ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình; danh mục phạm vi mã hóa; đánh giá tương đương.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-020\n6.4.2.4 b c\ntr.62",
+          "Mã hóa khi truyền\nBảo vệ dữ liệu quan trọng khi truyền; tối thiểu hai lần mã hóa hoặc kiểm soát rủi ro tương đương theo điều khoản.",
+          "Đề xuất TLS ứng dụng trong kênh IPsec cho luồng quan trọng; thuyết minh từng luồng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ma trận luồng; cấu hình TLS/IPsec; hồ sơ tương đương.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-021\n6.4.2.4 d e\ntr.62",
+          "Quản lý khóa và thuật toán\nCó phương án chuyên dụng bảo vệ khóa và dữ liệu mã hóa; sử dụng mật mã mạnh.",
+          "Quản lý vòng đời khóa trong KMS; tách người quản trị khóa; danh mục thuật toán được phép.\nHiện trạng: [CẦN ĐIỀN].",
+          "Chính sách khóa; RBAC; log luân chuyển; danh mục thuật toán.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-022\n6.4.2.5\ntr.62",
+          "Toàn vẹn dữ liệu\nCó kiểm tra toàn vẹn, cảnh báo sửa đổi và khôi phục dữ liệu quan trọng.",
+          "FIM/checksum/chữ ký phù hợp từng loại; đối chiếu bản sao tin cậy.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình FIM; cảnh báo; biên bản khôi phục.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-023\n6.4.2.6\ntr.62",
+          "Luồng dữ liệu\nTài liệu hóa luồng và quản lý phiên bản; cập nhật ít nhất hằng năm hoặc khi thay đổi.",
+          "Duy trì DFD API, metadata, lưu trữ, log, backup và liên site.\nHiện trạng: [CẦN ĐIỀN].",
+          "DFD; lịch sử sửa; phê duyệt luồng.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-024\n6.4.2.7\ntr.63",
+          "Phân tách dữ liệu nhạy cảm\nTách xử lý/lưu trữ theo độ nhạy cảm hoặc biện pháp tương đương; bảo vệ trao đổi bằng kênh riêng hoặc tương đương.",
+          "Phân khu dữ liệu và khóa; kiểm soát xuất dữ liệu; không dùng vùng ít nhạy cảm cho dữ liệu quan trọng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Sơ đồ phân khu; policy; đánh giá phương án tương đương.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-025\n6.4.2.8\ntr.63",
+          "Chống thất thoát\nTriển khai kiểm soát thất thoát dữ liệu quan trọng, nhạy cảm.",
+          "DLP và hạn chế egress/export theo kênh; tích hợp SOC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình; chính sách phân loại; cảnh báo thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-026\n6.4.2.9\ntr.63",
+          "Log dữ liệu quan trọng\nGhi hành vi truy cập và rà soát thường xuyên, ít nhất hằng quý.",
+          "Thu DB audit/object access log/volume export và rà soát theo tenant.\nHiện trạng: [CẦN ĐIỀN].",
+          "Mẫu log; biên bản rà soát; ticket bất thường.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-027\n6.4.2.10\ntr.63",
+          "Chữ ký số\nTrao đổi thông tin quan trọng dùng chữ ký số từ chủ thể có thẩm quyền hoặc nhà cung cấp được phép; bảo vệ việc sử dụng.",
+          "Xác định giao dịch cần ký số; quản lý chứng thư và thiết bị khóa; phân biệt với TLS.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh sách giao dịch; chứng thư; quy trình; kết quả xác minh chữ ký.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-028\n6.5.2.1\ntr.63–64",
+          "Cấu hình chuẩn\nCó quy trình và baseline; giao thức an toàn, host firewall, chống đăng nhập tự động vào tài sản quan trọng, vô hiệu dịch vụ thừa; hardening trước dùng; rà soát hằng năm/khi thay đổi.",
+          "Baseline riêng controller, compute, storage, network, PAW và ứng dụng XOR; theo dõi lệch cấu hình.\nHiện trạng: [CẦN ĐIỀN].",
+          "Baseline; export đã che bí mật; báo cáo drift; phê duyệt ngoại lệ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-029\n6.5.2.2\ntr.64",
+          "Khóa phiên\nThiết lập tự khóa theo nhu cầu/rủi ro và cơ chế mở khóa khẩn cấp; các ngưỡng trong điều khoản là cấu hình có thể áp dụng.",
+          "Đề xuất PAW 15 phút, phiên quản trị 5 phút; chốt ngưỡng khóa sau đăng nhập sai và phục hồi theo đánh giá rủi ro.\nHiện trạng: [CẦN ĐIỀN].",
+          "Chính sách đã chốt; cấu hình timeout; log thử và khẩn cấp.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-030\n6.5.2.3\ntr.64",
+          "Dịch vụ không cần thiết\nCó quy định gỡ hoặc vô hiệu tính năng và dịch vụ không cần thiết.",
+          "Tối thiểu hóa image OS và dịch vụ; kiểm soát package/port được phép.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh sách dịch vụ; kết quả scan port; baseline.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-031\n6.5.2.4\ntr.64",
+          "DNS tin cậy\nCấu hình DNS tin cậy trên tài sản khi có.",
+          "Resolver nội bộ có dự phòng; ACL chỉ cho DNS được duyệt.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình resolver; ACL; log DNS.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-032\n6.5.2.5\ntr.64",
+          "Xóa thiết bị từ xa\nCó khả năng xóa sạch từ xa đối với thiết bị di động cấp người dùng.",
+          "MDM cho thiết bị quản trị di động được cấp; thử trên thiết bị mẫu.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh sách MDM; cấu hình; biên bản remote wipe.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-033\n6.5.2.6\ntr.64",
+          "Không gian làm việc di động\nQuy định tách không gian làm việc trên thiết bị di động được cấp.",
+          "Tách dữ liệu công việc/cá nhân; hạn chế sao chép theo chính sách.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy MDM/work profile; cấu hình.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-034\n6.6.1; 6.6.2.1\ntr.65",
+          "Danh mục tài khoản\nQuản lý đủ tài khoản và chủ sở hữu, loại, trạng thái, tài sản, ngày kích hoạt/vô hiệu; rà soát ít nhất hằng quý; ghi log hoạt động.",
+          "Đối soát IdP, Keystone, OS, DB, network, backup và tài khoản dịch vụ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh mục; ma trận quyền; biên bản rà soát; audit log.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-035\n6.6.2.2\ntr.65–66",
+          "Chính sách mật khẩu\nĐổi mặc định; quy định độ dài, thành phần, kỳ thay và hiệu lực theo rủi ro. Điều khoản có các cấu hình tham khảo cho MFA và không MFA.",
+          "Ban hành baseline xác thực phù hợp nền tảng; chốt tham số và kiểm soát ngoại lệ; không ghi mật khẩu vào hồ sơ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy; cấu hình; thử mật khẩu; hồ sơ ngoại lệ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-036\n6.6.2.3\ntr.66",
+          "Quản lý tài khoản đặc quyền\nPAM hoặc tương đương, quản lý tập trung, tách loại tài khoản, định danh cá nhân; quản lý khóa; xử lý mặc định; vô hiệu tài khoản không hoạt động sau 45 ngày hoặc khi thay đổi nhân sự; rà soát quy định hằng năm.",
+          "Cấp phiên PAM theo ticket, ghi phiên và JIT; tài khoản dùng chung chỉ theo ngoại lệ có truy trách nhiệm.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh mục PAM; log phiên; ticket nghỉ việc; danh sách không hoạt động.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-037\n6.6.2.4\ntr.66",
+          "MFA và quyền tối thiểu\nQuyền tối thiểu, tách nhiệm vụ; MFA với truy cập ngoài tổ chức, đối tác, Internet và quyền quản trị; rà soát quy định hằng năm/khi đổi.",
+          "IdP/MFA bắt buộc cho portal quản trị, VPN và PAM; tách vận hành, bảo mật/khóa, kiểm toán.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ma trận RBAC; policy MFA; log thử; phê duyệt vai trò.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-038\n6.6.2.5\ntr.66",
+          "Cấp đổi thu hồi quyền\nCó quy trình cấp mới, thay đổi, thu hồi; rà soát quy trình và thực hiện ít nhất hằng năm/khi đổi.",
+          "Luồng yêu cầu → chủ tài sản duyệt → IAM thực hiện → người khác kiểm tra → lưu ticket.\nHiện trạng: [CẦN ĐIỀN].",
+          "Phiếu cấp quyền; phê duyệt; kết quả thực hiện và rà soát.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-039\n6.7.1; 6.7.2.1\ntr.67",
+          "Quản lý lỗ hổng\nTheo dõi mối đe dọa; scan toàn hệ thống ít nhất 1 lần/6 tháng, tài sản quan trọng hằng quý; phân loại, chia sẻ, khắc phục và retest; cập nhật quy trình 6 tháng/khi đổi.",
+          "Lịch scan theo tenant/phạm vi; nguồn CVE cho upstream và fork; ưu tiên theo khả năng khai thác và tác động.\nHiện trạng: [CẦN ĐIỀN].",
+          "Phạm vi scan; báo cáo; ticket; SLA nội bộ; retest.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-040\n6.7.2.2\ntr.67",
+          "Quản lý bản vá\nQuản lý tập trung; kiểm thử, đánh giá tác động và phương án phục hồi trước vá hệ thống quan trọng; kiểm tra/cập nhật máy người dùng ít nhất hằng tháng nếu có.",
+          "Kho vá nội bộ đã ký; staging trước production; cửa sổ thay đổi và rollback cho controller/compute.\nHiện trạng: [CẦN ĐIỀN].",
+          "Lịch vá; bằng chứng thử; phê duyệt; inventory phiên bản.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-041\n6.8.2.1 a\ntr.68",
+          "Phạm vi và trường nhật ký\nThu log truy cập, tiến trình, ứng dụng, dữ liệu và cảnh báo trên toàn bộ tài sản; có nguồn/đích, định danh, thời gian, hành vi và trường phù hợp từng loại.",
+          "Lập ma trận nguồn log; chuẩn hóa actor, tenant, request ID và sự kiện quản trị XOR STACK CLOUD.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ma trận nguồn; mẫu từng loại log; parser.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-042\n6.8.2.1 a\ntr.68",
+          "Đồng bộ và tập trung log\nĐồng bộ thời gian; SIEM hoặc tương đương; chuyển log về hệ thống tập trung.",
+          "NTP nội bộ dự phòng; agent/collector TLS; queue đệm và cảnh báo mất nguồn.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình NTP; pipeline; chứng thư; dashboard nguồn.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-043\n6.8.2.1 a b\ntr.68",
+          "Lưu giữ và rà soát log\nDung lượng lưu tối thiểu 6 tháng; theo dõi đầy kho; rà soát nhật ký ít nhất hằng tháng; cập nhật quy trình hằng năm/khi đổi.",
+          "Chính sách retention theo tháng lịch và dung lượng đo thực; quy trình rà soát SOC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình retention; truy vấn log cũ; số đo EPS; báo cáo tháng.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-044\n6.8.2.2\ntr.69",
+          "Log nhà cung cấp\nThu nhật ký an ninh của các dịch vụ nhà cung cấp có kết nối/sử dụng.",
+          "Thỏa thuận với IDC, ISP, SOC và dịch vụ dùng chung về log, phạm vi và truy xuất.\nHiện trạng: [CẦN ĐIỀN].",
+          "Hợp đồng; log nhận; biên bản đối soát.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-045\n6.8.2.3\ntr.69",
+          "Bảo vệ nhật ký\nKiểm soát và ghi lịch sử truy cập; chống sửa/xóa; kho log ở hệ thống và vùng mạng riêng; mã hóa log quan trọng nếu có.",
+          "Z08 riêng; quyền lưu/xóa tách cloud admin; bất biến hoặc cơ chế toàn vẹn tương đương.\nHiện trạng: [CẦN ĐIỀN].",
+          "ACL; sơ đồ; retention lock; log thao tác kho.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-046\n6.9.2.1\ntr.69",
+          "Trình duyệt và email\nDanh mục được phép, còn hỗ trợ, vá thường xuyên hoặc kiểm soát tương đương; bảo vệ thư điện tử.",
+          "Áp dụng cho máy trạm và email vận hành trong phạm vi; quản lý tập trung phiên bản.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh mục; policy; phiên bản; giải pháp email.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-047\n6.9.2.2\ntr.69",
+          "Lọc tên miền\nChặn tên miền độc hại và giả mạo bằng dịch vụ lọc tên miền.",
+          "Resolver có threat feed và log về SOC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình; feed; log thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-048\n6.9.2.3\ntr.69",
+          "Lọc URL\nCập nhật bộ lọc URL, hạn chế kết nối tới web độc hại/không được phép.",
+          "Proxy/secure gateway cho máy trạm được phép ra ngoài; quản trị core không ra Internet.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy URL; lịch cập nhật; log.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-049\n6.9.2.4\ntr.69",
+          "Tiện ích mở rộng\nDanh sách được phép; kiểm soát cài đặt, gỡ/vô hiệu tiện ích trái phép.",
+          "Quản lý extension trình duyệt/email theo allowlist.\nHiện trạng: [CẦN ĐIỀN].",
+          "Allowlist; policy; inventory extension.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-050\n6.9.2.5\ntr.70",
+          "Xác thực email\nÁp dụng DMARC để hạn chế giả mạo tên miền tổ chức.",
+          "Thiết lập SPF/DKIM/DMARC theo dịch vụ email thực tế, theo dõi báo cáo.\nHiện trạng: [CẦN ĐIỀN].",
+          "DNS record; cấu hình mail; báo cáo DMARC.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-051\n6.9.2.6\ntr.70",
+          "Tệp đính kèm\nQuy định loại tệp được phép; chặn ngoài danh mục và kiểm soát thư có tệp đính kèm.",
+          "Mail gateway kiểm tra tệp theo chính sách.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh sách; cấu hình; log thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-052\n6.10.1; 6.10.2.1\ntr.70",
+          "Bảo vệ mã độc\nCó quy định chống mã độc; bảo vệ tài sản và điểm kết nối; máy chủ/máy người dùng có bảo vệ thời gian thực, hành vi, cập nhật tự động hoặc tương đương.",
+          "EDR tương thích KVM/controller/storage; ghi nhận ngoại lệ kỹ thuật và bù trừ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy; độ phủ; phiên bản agent; ngoại lệ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-053\n6.10.2.2\ntr.70",
+          "Thiết bị lưu trữ ngoài\nQuét media di động và vô hiệu tự thực thi.",
+          "Kiểm soát USB trên PAW và máy vận hành.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy; log cắm thiết bị và scan.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-054\n6.10.2.3\ntr.70",
+          "Quản lý chống mã độc tập trung\nQuản lý cập nhật, cảnh báo và cấu hình tập trung.",
+          "Console SecOps độc lập quyền cloud admin; cảnh báo agent mất liên lạc.\nHiện trạng: [CẦN ĐIỀN].",
+          "Console; chính sách; log cập nhật.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-055\n6.10.2.4\ntr.70",
+          "Chống khai thác\nBật khả năng chống khai thác lỗ hổng trên tài sản nếu có.",
+          "Bật tính năng tương thích và đánh giá tác động hiệu năng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình; ma trận tương thích; thử nghiệm.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-056\n6.10.2.5\ntr.71",
+          "Phát hiện hành vi\nEDR hoặc tương đương trên máy chủ/máy người dùng, gửi SIEM và cảnh báo thời gian thực.",
+          "Luồng agent → console → SIEM; playbook cô lập có kiểm soát.\nHiện trạng: [CẦN ĐIỀN].",
+          "Mẫu sự kiện; rule; ticket phản ứng.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-057\n6.11.2.1\ntr.71",
+          "Quy trình sao lưu\nĐịnh nghĩa dữ liệu, tần suất, phương pháp, kho, thử khôi phục; gồm cấu hình, ảnh OS, DB và nghiệp vụ; sẵn sàng cao; rà soát hằng năm/khi đổi.",
+          "Backup cả control plane, cấu hình SDN, image, dữ liệu dịch vụ và khóa phục hồi; chốt RPO/RTO qua BIA.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy; catalog job; bản đồ phụ thuộc; BIA.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-058\n6.11.2.2\ntr.71",
+          "Sao lưu tự động\nPhân loại lịch và tự động sao lưu theo từng loại dữ liệu.",
+          "Job có giám sát lỗi, dung lượng và lần thành công gần nhất.\nHiện trạng: [CẦN ĐIỀN].",
+          "Lịch job; log; cảnh báo thất bại.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-059\n6.11.2.3\ntr.71–72",
+          "Bảo vệ bản sao\nÁp dụng 3-2-1 hoặc tương đương; mã hóa bản sao dữ liệu quan trọng, nhạy cảm.",
+          "Bản sao độc lập, có bản ngoài miền lỗi chung; tài khoản/khóa sao lưu riêng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Sơ đồ bản sao; quyền; cấu hình mã hóa; đánh giá tương đương.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-060\n6.11.2.4\ntr.72",
+          "Kho sao lưu tách biệt\nĐịnh danh, quản lý phiên bản và lưu trên hạ tầng độc lập với môi trường vận hành.",
+          "Z09 riêng; không chỉ giữ snapshot trên cùng cụm sản xuất; khóa và quyền xóa riêng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Inventory repository; sơ đồ; versioning; ACL.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-061\n6.11.2.5\ntr.72",
+          "Kiểm thử khôi phục\nCó phương án toàn vẹn; kiểm tra phục hồi bản sao ít nhất 1 lần/6 tháng.",
+          "Restore vào vùng cô lập; kiểm tra dữ liệu, ứng dụng và phụ thuộc khóa; lưu số đo.\nHiện trạng: [CẦN ĐIỀN].",
+          "Biên bản restore; checksum; log và thời gian.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-062\n6.12.2.1\ntr.72",
+          "Hồ sơ kiến trúc mạng\nCó thiết kế tổng thể, chi tiết, phương án bảo vệ; chuyên môn đánh giá trước triển khai; phân vùng, quyền tối thiểu, HA, phân đoạn vi mô hoặc tương đương; rà soát 6 tháng/khi đổi.",
+          "Duy trì HLD/LLD 12 vùng; quản lý phiên bản và quyền đọc tài liệu; kiểm tra route thực tế.\nHiện trạng: [CẦN ĐIỀN].",
+          "As-built; sơ đồ vật lý/lô-gic; review; ma trận kết nối.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-063\n6.12.2.2 a\ntr.73",
+          "Dự phòng mạng và Internet\nDự phòng kết nối máy chủ, cân bằng tải và dự phòng nóng thiết bị chính; nếu cần Internet, ít nhất hai luồng quốc tế từ ISP trong nước có hạ tầng khác nhau.",
+          "Dual NIC/fabric, FW/LB HA, hai ISP; xác minh tuyến cáp và miền lỗi.\nHiện trạng: [CẦN ĐIỀN].",
+          "Hợp đồng; topology; cấu hình HA; biên bản failover.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-064\n6.12.2.2 a\ntr.73",
+          "Tường lửa và IPS\nFW có chống xâm nhập hoặc tương đương giữa các vùng; kiểm soát mã độc trên môi trường mạng.",
+          "NGFW/IPS tại Z01 và ranh giới phù hợp; cập nhật chữ ký, giám sát tải.\nHiện trạng: [CẦN ĐIỀN].",
+          "Rule; signature; log; capacity.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-065\n6.12.2.2 a\ntr.73",
+          "Bảo vệ CSDL\nDBF hoặc phương án tương đương cho CSDL tập trung.",
+          "Kiểm soát truy vấn, audit, quyền và phát hiện bất thường với DB nền tảng/DBaaS thuộc trách nhiệm XOR.\nHiện trạng: [CẦN ĐIỀN].",
+          "Thiết kế DBF/DAM/tương đương; audit; rule.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-066\n6.12.2.2 a\ntr.73",
+          "Kiểm soát lớp mạng\nNAC hoặc tương đương quản lý thiết bị đầu cuối kết nối; giám sát tập trung.",
+          "802.1X/NAC hoặc kiểm soát cổng/thiết bị theo rủi ro; monitoring tập trung.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy; danh sách thiết bị; log; sơ đồ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-067\n6.12.2.2 a\ntr.73",
+          "WAF và chống DDoS\nBảo vệ ứng dụng web nếu có; chống từ chối dịch vụ bằng dịch vụ/giải pháp hoặc tương đương.",
+          "Bảo vệ portal/API công khai tại DMZ; chỉ nhận origin qua WAF; phối hợp ISP chống DDoS.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy; origin ACL; hợp đồng; kịch bản thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-068\n6.12.2.2 a\ntr.73",
+          "Biên vùng lõi ít tin cậy\nDatadiode/USG/BSG hoặc kiểm soát rủi ro tương đương cho vùng lõi/OT với vùng ít tin cậy.",
+          "Lập hồ sơ luồng một chiều/hai chiều, giới hạn giao thức và xác minh phương án tương đương.\nHiện trạng: [CẦN ĐIỀN].",
+          "DFD; đánh giá rủi ro; thiết kế cổng; kết quả thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-069\n6.12.2.2 a\ntr.73",
+          "Duy trì hạ tầng mạng\nCập nhật phát hiện tấn công; quản lý thay đổi/kết nối/gỡ thiết bị; theo dõi hiệu năng; bảo vệ Wi-Fi nếu có.",
+          "Thay đổi qua ticket, cập nhật rule, giám sát CPU/RAM/băng thông; tách Wi-Fi nếu tồn tại.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ticket; báo cáo capacity; chính sách Wi-Fi; cập nhật rule.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-070\n6.12.2.2 b\ntr.73–74",
+          "Phân vùng theo chức năng\nTách nội bộ, biên, máy chủ nội bộ, DMZ, CSDL, quản trị thiết bị và quản trị; WAN/Wi-Fi nếu có.",
+          "Ánh xạ Z01–Z12; phân khu storage, API, DB, queue và OOB; không coi một VPC là đủ.\nHiện trạng: [CẦN ĐIỀN].",
+          "VLAN/VRF/VXLAN; SG; route; sơ đồ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-071\n6.12.2.3\ntr.74",
+          "Giao thức an toàn\nChỉ sử dụng giao thức truyền thông và quản trị an toàn theo điều khoản.",
+          "Chốt phiên bản TLS/SSH và bộ mật mã phù hợp bản dựng; tắt giao thức yếu.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình; báo cáo kiểm tra TLS/SSH.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-072\n6.12.2.4\ntr.74",
+          "Quy tắc truy cập mạng\nXác thực, kết nối an toàn, allowlist vào/ra theo dịch vụ; timeout, giới hạn kết nối theo năng lực, kiểm soát nội bộ và egress máy chủ.",
+          "Default deny; rule có owner, ticket và thời hạn; egress qua điểm kiểm soát.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ma trận luồng; rule export; cấu hình timeout/rate.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-073\n6.12.2.5\ntr.74–75",
+          "Quản trị từ xa\nVPN/ZTNA hoặc tương đương; MFA và xác thực bổ sung; giới hạn nguồn/thiết bị; quản trị gián tiếp và endpoint được bảo vệ.",
+          "PAW → gateway Z01 → PAM Z06 → đích được duyệt; không route toàn mạng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Policy; cấu hình; log PAM; trạng thái EDR.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-074\n6.12.2.6\ntr.75",
+          "Mạng quản trị chuyên dụng\nTài nguyên quản trị tách vật lý/lô-gic với mạng chính và không kết nối Internet.",
+          "Z06/Z10 riêng; không egress Internet; bản vá nhập qua kho trung chuyển kiểm tra.\nHiện trạng: [CẦN ĐIỀN].",
+          "Route; ACL; topology; quy trình nhập gói.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-075\n6.12.2.7\ntr.75",
+          "Kiểm thử và nghiệm thu\nCó kế hoạch, thử trước bàn giao/vận hành, giám sát độc lập; báo cáo được chuyên trách xác nhận và chủ quản duyệt.",
+          "Tổ chức T01–T12; bằng chứng cấu hình và retest kèm biên bản.\nHiện trạng: [CẦN ĐIỀN].",
+          "Kế hoạch; phân công độc lập; biên bản; phê duyệt.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-076\n6.13.2.1\ntr.75",
+          "Giám sát tập trung 24 trên 7\nGiám sát thiết bị, máy chủ, ứng dụng, dịch vụ; liên kết sự kiện bằng SIEM; bố trí nguồn lực 24/7.",
+          "SOC có ca trực, escalation, người thay ca và phạm vi nguồn log hai IDC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Lịch trực; SLA; use case; ticket; log bàn giao.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-077\n6.13.2.2\ntr.75",
+          "Tính năng phòng vệ hệ thống\nBật firewall/phát hiện/ngăn chặn xâm nhập của OS/hệ thống nếu có.",
+          "Host firewall, agent và FIM theo baseline đã kiểm thử tương thích.\nHiện trạng: [CẦN ĐIỀN].",
+          "Baseline; agent state; log.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-078\n6.13.2.3\ntr.76",
+          "Cổng kết nối và quản trị\nKiểm soát cổng thiết bị nếu hỗ trợ; tách cổng quản trị ứng dụng với cổng dịch vụ.",
+          "Admin endpoint riêng, ACL qua PAM; port security trên switch/SDN.\nHiện trạng: [CẦN ĐIỀN].",
+          "Port map; cấu hình; endpoint catalog.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-079\n6.13.2.4\ntr.76",
+          "Dữ liệu mạng\nThu flow log và/hoặc lưu lượng để rà soát, cảnh báo.",
+          "Thu NetFlow/IPFIX/SDN flow hoặc cảm biến phù hợp; bảo vệ dữ liệu thu.\nHiện trạng: [CẦN ĐIỀN].",
+          "Cấu hình exporter; mẫu flow; rule.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-080\n6.13.2.5\ntr.76",
+          "Điều chỉnh cảnh báo\nRà soát ngưỡng cảnh báo ít nhất hằng quý.",
+          "SOC đánh giá false positive và ca bỏ sót, có phê duyệt thay đổi rule.\nHiện trạng: [CẦN ĐIỀN].",
+          "Biên bản quý; phiên bản rule; kết quả thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-081\n6.14.1; 6.14.2.1\ntr.76",
+          "Tổ chức và độc lập chuyên môn\nCó bộ phận vận hành, quản trị và bảo vệ an ninh riêng; độc lập chuyên môn; nhân sự đủ năng lực.",
+          "Quyết định giao nhiệm vụ và RACI; kiểm soát xung đột quyền.\nHiện trạng: [CẦN ĐIỀN].",
+          "Sơ đồ tổ chức; quyết định; hồ sơ năng lực; ma trận quyền.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-082\n6.14.2.2\ntr.76",
+          "Nhận thức và nghỉ việc\nĐào tạo toàn bộ người dùng ít nhất hằng năm; khi đổi/nghỉ việc thu hồi tài sản, quyền vật lý/lô-gic, có cam kết bảo mật.",
+          "Onboarding/offboarding nối HR với IAM/IDC/IT; đào tạo nhận thức và kiểm tra.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh sách học; kết quả; NDA; phiếu thu hồi.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-083\n6.14.2.3\ntr.77",
+          "Đào tạo theo vai trò\nĐào tạo chuyên môn và trách nhiệm pháp lý ít nhất hằng năm hoặc khi thay đổi nhân sự liên quan.",
+          "Chương trình riêng Platform, Network, SOC, phát triển và quản trị khóa.\nHiện trạng: [CẦN ĐIỀN].",
+          "Kế hoạch; tài liệu; điểm kiểm tra; hồ sơ năng lực.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-084\n6.15.1; 6.15.2.1\ntr.77",
+          "Danh mục nhà cung cấp\nKiểm kê/phân loại, ranh giới trách nhiệm; nhà cung cấp ANM đủ điều kiện theo quy định; rà soát hằng năm/khi đổi.",
+          "Danh mục IDC, ISP, SOC, phần mềm và hỗ trợ; kiểm tra pháp lý theo dịch vụ thực tế.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh mục; hợp đồng; giấy tờ năng lực/điều kiện khi áp dụng.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-085\n6.15.2.2\ntr.77",
+          "Quy định nhà cung cấp\nCó quy định quản lý; rà soát hằng năm/khi đổi.",
+          "Quy định lựa chọn, đánh giá, truy cập, giám sát và kết thúc dịch vụ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quy định; biên bản rà soát.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-086\n6.15.2.3\ntr.77",
+          "Điều khoản bảo mật\nHợp đồng có yêu cầu bảo mật; rà soát khi gia hạn.",
+          "Thỏa thuận quyền truy cập, dữ liệu/log, sự cố, khôi phục, kiểm tra và chấm dứt.\nHiện trạng: [CẦN ĐIỀN].",
+          "Hợp đồng/SLA/phụ lục; review pháp chế.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-087\n6.15.2.4\ntr.77",
+          "Theo dõi nhà cung cấp\nGiám sát việc thực hiện yêu cầu cung cấp dịch vụ.",
+          "Đối soát SLA, quyền truy cập, sự cố và bằng chứng định kỳ.\nHiện trạng: [CẦN ĐIỀN].",
+          "Báo cáo SLA; biên bản đánh giá; ticket.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-088\n6.15.2.5\ntr.77",
+          "Kết thúc hợp đồng\nRà soát an ninh khi chấm dứt.",
+          "Thu hồi quyền, nhận dữ liệu và log, xác nhận xóa/hoàn trả theo hợp đồng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Checklist kết thúc; biên bản; log thu hồi.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-089\n6.16.2.1\ntr.78",
+          "Quy trình phát triển\nCó SSDLC, rà soát hằng năm/khi đổi; phần thuê ngoài có cam kết, mã nguồn hoặc biện pháp thay thế theo điều khoản; thử và đánh giá trước dùng/khi đổi kiến trúc.",
+          "Áp dụng cho bản fork XOR, portal và API; yêu cầu release qua review, staging và phê duyệt.\nHiện trạng: [CẦN ĐIỀN].",
+          "SSDLC; hợp đồng; review; release checklist; báo cáo thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-090\n6.16.2.2\ntr.78",
+          "Tiếp nhận lỗ hổng phần mềm\nCó kênh bên ngoài báo cáo và quy trình xử lý; rà soát hằng năm/khi đổi.",
+          "Đầu mối PSIRT/XOR tiếp nhận, phân loại, khắc phục, phản hồi.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quy trình; kênh liên hệ; ticket đã che dữ liệu.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-091\n6.16.2.3\ntr.78",
+          "Nguyên nhân lỗ hổng\nPhân tích nguyên nhân gốc của lỗ hổng.",
+          "Gắn RCA với defect và cập nhật rule/test để tránh tái diễn.\nHiện trạng: [CẦN ĐIỀN].",
+          "RCA; ticket; thay đổi test/code.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-092\n6.16.2.4\ntr.78–79",
+          "Thành phần bên thứ ba\nQuản lý danh sách thành phần hiện tại/dự kiến và rủi ro; cập nhật ít nhất hằng quý.",
+          "SBOM theo release, nguồn gói, giấy phép, CVE và bản vá upstream.\nHiện trạng: [CẦN ĐIỀN].",
+          "SBOM; SCA; catalog dependency; review quý.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-093\n6.16.2.5\ntr.79",
+          "Tách môi trường\nTách dev/test/production; không lưu bí mật trong mã nguồn.",
+          "Project/credential/runner riêng; secret manager và dữ liệu thử đã xử lý.\nHiện trạng: [CẦN ĐIỀN].",
+          "Sơ đồ; quyền CI; secret scan.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-094\n6.16.2.6\ntr.79",
+          "Đào tạo lập trình\nĐào tạo phát triển an toàn phù hợp môi trường ít nhất hằng năm.",
+          "Chương trình cho Python/API/IaC/container và phần tùy biến XOR.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh sách học; nội dung; bài kiểm tra.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-095\n6.16.2.7\ntr.79",
+          "Kiến trúc ứng dụng an toàn\nKiểm tra đầu vào/ra; chống tấn công phổ biến; xử lý lỗi; quản lý phiên; không hardcode bí mật.",
+          "Threat model portal/API; validation, encoding, session và error handling theo thiết kế.\nHiện trạng: [CẦN ĐIỀN].",
+          "Threat model; code review; test; secret scan.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-096\n6.16.2.8\ntr.79",
+          "Thành phần bảo mật tin cậy\nDùng mô-đun được kiểm chứng, mật mã mạnh và log hành vi người dùng.",
+          "Thư viện xác thực/mật mã có quản lý vòng đời; audit API theo request ID.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh mục thư viện; review; mẫu audit.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-097\n6.16.2.9\ntr.79",
+          "Kiểm tra trước phát hành\nKiểm tra mã nguồn/dependency; pentest và xử lý lỗ hổng trước production.",
+          "SAST/SCA/secret scan/DAST và pentest theo phạm vi; gate phát hành, retest.\nHiện trạng: [CẦN ĐIỀN].",
+          "Báo cáo; waiver có hạn; phê duyệt release.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-098\n6.17.2.1\ntr.80",
+          "Lực lượng ứng phó\nCó đầu mối chính và ít nhất một dự phòng, vai trò phối hợp; xác minh liên hệ hằng năm.",
+          "Chỉ định chỉ huy, kỹ thuật, pháp chế, truyền thông và đầu mối IDC/ISP.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quyết định; danh bạ; lịch trực; xác minh liên hệ.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-099\n6.17.2.2\ntr.80",
+          "Báo cáo sự cố\nCó quy trình nội bộ, phân nhóm; rà soát hằng năm/khi đổi.",
+          "SOC phân loại, mở hồ sơ, báo cáo chỉ huy và chuyển tuyến theo nghĩa vụ áp dụng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quy trình; mẫu báo cáo; ticket.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-100\n6.17.2.3\ntr.80",
+          "Quy trình ứng phó\nCó quy trình phối hợp cơ quan chức năng, chuyên gia, nhà cung cấp; rà soát hằng năm/khi đổi.",
+          "Playbook lộ khóa, ransomware, truy cập chéo tenant, mất DC và DDoS.\nHiện trạng: [CẦN ĐIỀN].",
+          "Playbook; danh sách phối hợp; biên bản.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-101\n6.17.2.4\ntr.80",
+          "Kênh liên lạc dự phòng\nCó kênh chính/phụ; rà soát hằng năm/khi đổi.",
+          "Danh bạ và kênh ngoài nền tảng vẫn dùng được khi IAM/cloud dừng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh bạ ngoại tuyến được bảo vệ; biên bản thử.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-102\n6.17.2.5\ntr.80",
+          "Đánh giá sau sự cố\nThực hiện đánh giá sau sự cố.",
+          "Lập timeline, nguyên nhân, tác động và hành động có owner/hạn.\nHiện trạng: [CẦN ĐIỀN].",
+          "Báo cáo hậu kiểm; ticket cải tiến.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-103\n6.17.2.6\ntr.80",
+          "Diễn tập\nCó kế hoạch và diễn tập ít nhất hằng năm.",
+          "Kết hợp tabletop và thử kỹ thuật theo phạm vi đã duyệt.\nHiện trạng: [CẦN ĐIỀN].",
+          "Kế hoạch; biên bản; bài học; danh sách tham dự.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-104\n6.17.2.7\ntr.80",
+          "Ngưỡng sự cố\nThiết lập, duy trì ngưỡng và cập nhật hằng năm/khi đổi.",
+          "Định nghĩa mức nghiêm trọng theo phạm vi dữ liệu, số tenant, thời gian gián đoạn và tác động xã hội.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ma trận phân loại; phê duyệt; lịch sử sửa.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-105\n6.18.2.1\ntr.81",
+          "Chương trình pentest\nPhê duyệt phạm vi, thời gian, cách thử, đầu mối, giới hạn, bảo vệ dữ liệu và vận hành; ưu tiên môi trường phát triển/cửa sổ được duyệt.",
+          "ROE riêng cho portal/API, nội bộ, tenant isolation và đặc quyền; có dừng khẩn cấp.\nHiện trạng: [CẦN ĐIỀN].",
+          "ROE; phê duyệt; danh sách mục tiêu; cam kết bảo mật.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-106\n6.18.2.2\ntr.81",
+          "Pentest bên ngoài\nKiểm thử ứng dụng/dịch vụ công khai ít nhất hằng năm.",
+          "Pentest endpoint Internet của XOR theo FQDN/IP đã chốt.\nHiện trạng: [CẦN ĐIỀN].",
+          "Báo cáo; phạm vi; ngày; retest.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-107\n6.18.2.3\ntr.81",
+          "Khắc phục sau pentest\nXử lý tồn tại theo phạm vi và mức ưu tiên của tổ chức.",
+          "Gắn phát hiện với ticket, SLA nội bộ, chủ sở hữu và phép thử lại.\nHiện trạng: [CẦN ĐIỀN].",
+          "Danh sách phát hiện; ticket; retest.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-108\n6.18.2.4\ntr.81",
+          "Hiệu lực kiểm soát\nĐánh giá lại hiệu quả biện pháp sau mỗi đợt pentest.",
+          "SOC/Platform cập nhật rule, baseline và playbook theo bài học.\nHiện trạng: [CẦN ĐIỀN].",
+          "Biên bản review; rule/test bổ sung.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-109\n6.18.2.5\ntr.81",
+          "Pentest bên trong\nKiểm thử tài nguyên nội bộ ít nhất hằng năm.",
+          "Đánh giá ranh giới quản trị, tenant, storage và dịch vụ nền trong phạm vi duyệt.\nHiện trạng: [CẦN ĐIỀN].",
+          "Báo cáo nội bộ; ROE; retest.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Mã và nguồn",
+          "Nội dung đối chiếu",
+          "Phương án tại XOR và hiện trạng",
+          "Bằng chứng và kết quả"
+        ],
+        [
+          "TC-110\nA.4.1\ntr.109",
+          "Vị trí phòng máy\nVị trí tránh tầng cao, tầng hầm, nơi chứa nước và vùng dễ cháy/nhiễu mạnh theo điều khoản.",
+          "Khảo sát riêng IDC Cầu Giấy và IDC Nam Thăng Long; ghi vị trí thực, rủi ro và xử lý.\nHiện trạng: [CẦN ĐIỀN].",
+          "Bản vẽ vị trí; biên bản khảo sát; xác nhận IDC.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-111\nA.4.2\ntr.109",
+          "Ra vào và camera\nCổng điện tử; camera tập trung 24/7, lưu tối thiểu 6 tháng; vành đai và bảo vệ vùng thiết bị quan trọng.",
+          "Kiểm soát thẻ, khách thăm, rack và camera tại cả hai IDC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Quy chế; access log; mẫu camera đủ mốc; hợp đồng.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-112\nA.4.3\ntr.109",
+          "Chống trộm phá hoại\nRack cố định, nhãn, cáp đi ngầm có bảo vệ, báo động chống trộm tự động hoặc tương đương.",
+          "Khóa rack, quản lý chìa, giám sát cửa và tuyến cáp.\nHiện trạng: [CẦN ĐIỀN].",
+          "Ảnh hiện trạng; danh mục rack; biên bản thử báo động.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-113\nA.4.4\ntr.110",
+          "Chống sét\nChống sét tòa nhà được nghiệm thu/kiểm tra; bảo vệ lan truyền điện và kết nối.",
+          "Thu hồ sơ chống sét, tiếp địa và kiểm tra định kỳ từ IDC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Nghiệm thu; bản vẽ; đo kiểm; bảo trì.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-114\nA.4.5\ntr.110",
+          "Phòng cháy\nBáo/chữa cháy tự động, tín hiệu cảnh báo, vật liệu chịu lửa và cách ly vùng quan trọng.",
+          "Xác minh hệ thống PCCC và phương án phối hợp tại từng IDC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Hồ sơ nghiệm thu; bảo trì; sơ đồ; diễn tập.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-115\nA.4.6\ntr.110",
+          "Chống nước\nBảo vệ thoát nước, trần/cửa và chống tích tụ, thấm nước vào phòng máy.",
+          "Kiểm tra đường ống, cảm biến rò và xử lý sự cố nước tại IDC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Bản vẽ; biên bản khảo sát; log/cảnh báo nếu có.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-116\nA.4.7\ntr.110",
+          "Chống tĩnh điện\nBiện pháp chống tĩnh điện và sàn chống tĩnh điện.",
+          "Quy trình thao tác phần cứng và bảo trì sàn tại IDC.\nHiện trạng: [CẦN ĐIỀN].",
+          "Hồ sơ vật liệu; kiểm tra; quy trình bảo trì.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-117\nA.4.8\ntr.110",
+          "Nhiệt độ độ ẩm\nĐiều hòa phòng máy riêng, duy trì ổn định; đo/cảnh báo độ ẩm và hút ẩm.",
+          "Giám sát môi trường 24/7, giới hạn theo thiết bị và quy trình phản ứng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Sơ đồ điều hòa; log nhiệt/ẩm; cảnh báo; bảo trì.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-118\nA.4.9\ntr.110–111",
+          "Nguồn điện\nNguồn ổn định có chống quá tải; hai nguồn từ hai trạm điện khác nhau; UPS liên tục.",
+          "Xác minh đường cấp điện, trạm nguồn, UPS và đấu A/B cho rack XOR.\nHiện trạng: [CẦN ĐIỀN].",
+          "Sơ đồ một sợi; xác nhận nguồn; log UPS; biên bản chuyển nguồn.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ],
+        [
+          "TC-119\nA.4.10\ntr.111",
+          "Bảo vệ điện từ\nTách điện và tín hiệu, che nguồn nhiễu; tấm chắn điện từ vùng máy chủ quan trọng/thiết bị mạng chính.",
+          "Khảo sát tuyến cáp, thiết bị gây nhiễu và che chắn khu vực tương ứng.\nHiện trạng: [CẦN ĐIỀN].",
+          "Bản vẽ; ảnh; hồ sơ vật liệu; kiểm tra của IDC.\nMã BC: [CẦN ĐIỀN].\nKết quả: Chưa đủ bằng chứng."
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "NGƯỜI CÓ THẨM QUYỀN XÁC NHẬN\n\n\n\n[CẦN ĐIỀN NGƯỜI KIỂM TRA ĐƯỢC PHÂN CÔNG]"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/03_Quy_che_va_quy_trinh_bao_dam_ANM.docx": {
+    "paragraphs": [
+      "CÔNG TY CỔ PHẦN XOR CLOUD",
+      "KHỐI HẠ TẦNG & VẬN HÀNH",
+      "",
+      "HỒ SƠ",
+      "QUY CHẾ VÀ QUY TRÌNH\nBẢO ĐẢM AN NINH MẠNG XOR SECURE CLOUD",
+      "XOR SECURE CLOUD",
+      "Kèm theo Quyết định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN]",
+      "Nền tảng XOR STACK CLOUD",
+      "Đơn vị vận hành: Khối Hạ tầng & Vận hành",
+      "DC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long",
+      "",
+      "Hà Nội, tháng 10 năm 2026",
+      "",
+      "Ban hành kèm theo Quyết định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của Công ty Cổ phần XOR CLOUD.",
+      "Điều 1 Phạm vi và đối tượng áp dụng",
+      "Quy chế áp dụng cho toàn bộ nền tảng XOR STACK CLOUD và dịch vụ quản trị chung tại IDC Cầu Giấy, IDC Nam Thăng Long; nhân sự XOR, đơn vị vận hành, đơn vị an ninh và bên thứ ba có quyền tác động đến hệ thống trong phạm vi hợp đồng.",
+      "Điều 2 Nguyên tắc bảo vệ",
+      "Bảo vệ theo cấp độ được phê duyệt; quản lý theo rủi ro; quyền tối thiểu; tách nhiệm vụ; phân vùng và chặn mặc định; bảo vệ dữ liệu theo phân loại; kiểm chứng bằng bằng chứng và phép thử. Các đơn vị được giao nhiệm vụ chịu trách nhiệm triển khai và duy trì hiệu lực của biện pháp bảo vệ.",
+      "Điều 3 Trách nhiệm",
+      "Chủ quản phê duyệt phạm vi, nguồn lực, rủi ro và quyết định theo thẩm quyền. Đơn vị vận hành triển khai, cập nhật hiện trạng và khắc phục. Đơn vị chuyên trách về an ninh mạng hướng dẫn, kiểm tra và cho ý kiến chuyên môn. GRC quản lý hồ sơ; SOC giám sát 24/7; chủ tài sản chịu trách nhiệm dữ liệu và quyền. Người thực hiện và người xác nhận phải tuân thủ cơ chế độc lập chuyên môn đã được giao.",
+      "ĐIỀU 4 TỔ CHỨC THỰC THI VÀ LƯU HỒ SƠ",
+      "Mỗi quy trình QT01–QT12 phải được gắn đầu mối chính, dự phòng và danh sách hệ thống áp dụng. Kết quả thực hiện được lưu bằng mã hồ sơ/ticket, ngày, phiên bản, người lập và xác nhận. Hồ sơ có dữ liệu nhạy cảm được cấp quyền tối thiểu; bản gửi bên ngoài chỉ chứa thông tin cần thiết và được chủ quản cho phép.",
+      "Điều 5 Xử lý trường hợp khẩn cấp và ngoại lệ",
+      "Trường hợp khẩn cấp thực hiện theo phân quyền và điều kiện dừng đã quy định, có ghi log và hậu kiểm. Ngoại lệ phải nêu yêu cầu, lý do, rủi ro, biện pháp bù, thời hạn và người phê duyệt; được rà soát khi hết hạn hoặc thay đổi. Không dùng ngoại lệ nội bộ để thay yêu cầu bắt buộc khi quy định không cho phép.",
+      "Điều 6 Kiểm tra và cập nhật",
+      "Đơn vị chuyên trách theo dõi lịch kiểm tra, tình trạng bằng chứng và hành động khắc phục; báo cáo chủ quản các mục chưa đáp ứng. Quy chế và quy trình được rà soát theo tần suất tương ứng trong TCVN, khi thay đổi tổ chức/kiến trúc hoặc sau sự cố. Các mốc phản ứng, thời hạn vá và mục tiêu phục hồi phải được chốt trong phụ lục vận hành có người duyệt.",
+      "",
+      "QT01 QUẢN LÝ RỦI RO VÀ NGOẠI LỆ",
+      "Trách nhiệm: GRC; chủ quản phê duyệt.",
+      "Căn cứ: TCVN 6.1; 6.4; 6.15. Tần suất: Ít nhất 6 tháng nhận diện/đánh giá hiệu lực; quy trình hằng năm và khi thay đổi.",
+      "Bước 1. Chủ tài sản cung cấp danh mục, dữ liệu, phụ thuộc và hậu quả gián đoạn; GRC nhận diện mối đe dọa, điểm yếu, nhà cung cấp và sự kiện có thể xảy ra.",
+      "Bước 2. Nhóm đánh giá xác định khả năng, tác động và căn cứ; BIA xem xét cả khách hàng, lợi ích công cộng, trật tự/an toàn xã hội hoặc an ninh quốc gia nếu liên quan.",
+      "Bước 3. Chọn tránh, giảm, chuyển giao hoặc chấp nhận theo thẩm quyền; chỉ định người, hạn, kinh phí và chỉ tiêu kiểm tra; quản lý biện pháp tương đương bằng hồ sơ riêng.",
+      "Bước 4. Đầu mối kỹ thuật triển khai qua quản lý thay đổi; người kiểm tra xác nhận hiệu lực; GRC đánh giá tồn dư và trình chủ quản.",
+      "Bước 5. Theo dõi thay đổi, thông báo bên liên quan và đóng có chứng cứ. Ngoại lệ có lý do, thời hạn, biện pháp bù và người duyệt; không thay thế yêu cầu bắt buộc.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Sổ rủi ro, BIA, phiếu ngoại lệ, kế hoạch xử lý, biên bản xác nhận và quyết định chấp nhận.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT02 QUẢN LÝ TÀI SẢN DỮ LIỆU VÀ VÒNG ĐỜI",
+      "Trách nhiệm: Hạ tầng, Platform, chủ dữ liệu.",
+      "Căn cứ: TCVN 6.2–6.4. Tần suất: Kiểm kê hằng năm; phát hiện phần cứng/DHCP hằng quý; phần mềm trái phép 6 tháng; rà quyền dữ liệu hằng quý.",
+      "Bước 1. Tiếp nhận tài sản có chủ sở hữu, ID, site/rack/vùng, IP/MAC/serial, phiên bản, EOL, mục đích và bằng chứng kiểm tra trước sử dụng.",
+      "Bước 2. Cập nhật CMDB, danh mục phần mềm và dữ liệu; phân loại độ nhạy cảm, quyền, thời hạn lưu và hủy; phần mềm phải thuộc danh sách được phép.",
+      "Bước 3. Đối soát discovery, DHCP/IPAM, inventory nền tảng và danh mục; xử lý tài sản lạ bằng từ chối/cách ly/tiếp nhận có phê duyệt.",
+      "Bước 4. Khi thay đổi hoặc thu hồi, cập nhật quan hệ tài sản/dữ liệu và quyền; kiểm tra snapshot, backup, image và dữ liệu còn lại theo thời hạn áp dụng.",
+      "Bước 5. Thanh lý bằng phương pháp sanitize phù hợp media hoặc hủy vật lý; lập biên bản, xác minh và đóng vòng đời trong CMDB.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "CMDB, catalog phần mềm/SBOM, danh mục dữ liệu, ACL, phiếu tiếp nhận và biên bản hủy.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT03 QUẢN LÝ TÀI KHOẢN VÀ TRUY CẬP ĐẶC QUYỀN",
+      "Trách nhiệm: IAM; chủ tài sản duyệt; bảo mật kiểm tra.",
+      "Căn cứ: TCVN 6.6; 6.12.2.5–6.12.2.6. Tần suất: Rà tài khoản ít nhất hằng quý; rà quy trình hằng năm; thu hồi ngay theo thay đổi nhân sự.",
+      "Bước 1. Người yêu cầu lập phiếu nêu hệ thống, vai trò, mục đích, thời hạn và người quản lý; chủ tài sản xét quyền tối thiểu, tách nhiệm vụ.",
+      "Bước 2. IAM tạo tài khoản cá nhân/nhóm kỹ thuật có người sở hữu; áp MFA đối với đặc quyền, bên ngoài và đối tác; tách tài khoản vận hành với tài khoản tenant.",
+      "Bước 3. Truy cập từ PAW được bảo vệ qua gateway và PAM; chỉ đích/lệnh/quyền/thời gian được duyệt; ghi phiên và log; không cấp route rộng hoặc Internet cho tài nguyên quản trị.",
+      "Bước 4. Thay đổi/thu hồi qua ticket, đối soát tất cả hệ thống liên quan; vô hiệu tài khoản nhàn rỗi sau 45 ngày theo điều khoản; quản lý ngoại lệ và tài khoản mặc định.",
+      "Bước 5. Khẩn cấp dùng danh tính được kiểm soát, cảnh báo, giới hạn thời gian và hậu kiểm; người có quyền không tự phê duyệt và xóa dấu vết phiên của mình.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Phiếu cấp/đổi/thu hồi, ma trận quyền, log MFA/PAM, rà soát quý và biên bản khẩn cấp.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT04 CẤU HÌNH THAY ĐỔI VÀ BẢN VÁ",
+      "Trách nhiệm: Platform và Network; CAB hoặc người được giao duyệt.",
+      "Căn cứ: TCVN 6.5; 6.7; 6.12. Tần suất: Scan toàn hệ thống 6 tháng, tài sản quan trọng quý; máy người dùng kiểm tra vá tháng; baseline/quy trình theo điều khoản.",
+      "Bước 1. Duy trì baseline theo loại tài sản, bản dựng và yêu cầu an ninh; ghi nhận port/service, xác thực, thời gian, log, mã hóa, session và cấu hình không được phép.",
+      "Bước 2. Tiếp nhận CVE/thay đổi; đánh giá phạm vi, mức rủi ro và phụ thuộc; xác định kiểm thử, phương án rollback, cửa sổ và người phối hợp.",
+      "Bước 3. Thử trên môi trường phù hợp, kiểm tra tương thích/hiệu năng; chỉ triển khai sau phê duyệt; nhập gói đã kiểm tra vào kho nội bộ thay vì mở Internet mạng quản trị.",
+      "Bước 4. Thực hiện theo kế hoạch, lưu cấu hình trước/sau và log; kiểm tra chức năng/an ninh, rollback khi vượt điều kiện dừng đã chốt.",
+      "Bước 5. Cập nhật CMDB/baseline/sơ đồ, scan và retest; ngoại lệ có hạn và kiểm soát bù; theo dõi drift và tài sản hết hỗ trợ.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Yêu cầu thay đổi, đánh giá tác động, phê duyệt, log triển khai, rollback, scan và retest.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT05 BẢO VỆ DỮ LIỆU KHÓA VÀ CHỮ KÝ SỐ",
+      "Trách nhiệm: Chủ dữ liệu; quản trị khóa; bảo mật.",
+      "Căn cứ: TCVN 6.4; 6.11. Tần suất: Theo vòng đời dữ liệu/khóa; rà quyền và log dữ liệu ít nhất hằng quý.",
+      "Bước 1. Lập danh mục dữ liệu, chủ sở hữu, phân loại, luồng, quyền truy cập và nghĩa vụ lưu/hủy; xác định dữ liệu quan trọng và giao dịch cần chữ ký số.",
+      "Bước 2. Áp mã hóa lưu và truyền hoặc phương án tương đương có thuyết minh; luồng quan trọng kiểm tra hai lớp mã hóa đồng thời theo yêu cầu; dùng thuật toán mạnh.",
+      "Bước 3. Quản lý sinh, phân phối, dùng, luân chuyển, thu hồi, sao lưu và khôi phục khóa; người quản trị khóa và hạ tầng tách nhiệm vụ; không lưu bí mật trong code/hồ sơ.",
+      "Bước 4. Giám sát toàn vẹn, DLP và truy cập dữ liệu; ghi việc xuất/sao chép; xác minh chữ ký, chứng thư và quyền khi trao đổi dữ liệu quan trọng.",
+      "Bước 5. Hủy dữ liệu/khóa theo phân loại và thời hạn; khi lộ khóa, kích hoạt ứng phó, thu hồi, thay thế và kiểm tra ảnh hưởng bản sao.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Danh mục dữ liệu, DFD, ma trận mật mã, log KMS, chứng thư, thử restore khóa, log DLP và biên bản hủy.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT06 NHẬT KÝ GIÁM SÁT VÀ TRỰC AN NINH",
+      "Trách nhiệm: SOC và SecOps.",
+      "Căn cứ: TCVN 6.8; 6.10; 6.13. Tần suất: Trực 24/7; log tối thiểu 6 tháng; rà log tháng; điều chỉnh cảnh báo quý.",
+      "Bước 1. Lập ma trận tài sản/nguồn log, loại sự kiện và trường dữ liệu; đồng bộ giờ; cấu hình agent/collector có xác thực và giám sát mất nguồn.",
+      "Bước 2. Thu log vào vùng Z08 khác vùng sinh log; giới hạn quyền, chống sửa/xóa; tính dung lượng theo số đo, cảnh báo đầy kho và xác minh retention.",
+      "Bước 3. SOC nhận cảnh báo, phân loại, xác minh, mở ticket và chuyển chỉ huy theo mức sự cố; ca sau nhận đầy đủ công việc đang mở.",
+      "Bước 4. Kết hợp EDR, network flow, WAF/IPS, IAM/PAM và dữ liệu ứng dụng; chỉ cô lập tài sản theo quyền hạn/playbook và lưu chứng cứ.",
+      "Bước 5. Rà soát nguồn, quy tắc và ngưỡng; thử use case; lập báo cáo hoạt động, sự kiện thiếu nguồn và hành động khắc phục.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Lịch trực, log bàn giao, ma trận nguồn, rule, ticket, báo cáo tháng/quý và phép thử.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT07 SAO LƯU VÀ KHÔI PHỤC DỮ LIỆU",
+      "Trách nhiệm: Backup; chủ dịch vụ duyệt; người kiểm tra xác nhận.",
+      "Căn cứ: TCVN 6.11. Tần suất: Tần suất theo dữ liệu/BIA; thử khôi phục ít nhất 6 tháng; quy trình hằng năm/khi đổi.",
+      "Bước 1. Chốt danh mục dữ liệu/config/image/DB và khóa phụ thuộc; xác định lịch, RPO/RTO, retention, phương pháp nhất quán và kho độc lập.",
+      "Bước 2. Tự động chạy job, mã hóa dữ liệu nhạy cảm, quản lý phiên bản, quyền và giám sát lỗi; bảo vệ theo 3-2-1 hoặc phương án tương đương đã thuyết minh.",
+      "Bước 3. Theo dõi lần thành công, khối lượng, checksum, trạng thái bản sao ngoài miền lỗi chung; điều tra lỗi và chạy bù có kiểm soát.",
+      "Bước 4. Phục hồi vào vùng cô lập với bản sao được chọn; kiểm tra khóa, toàn vẹn và nghiệp vụ; đo dữ liệu mất/thời gian phục hồi so với mục tiêu.",
+      "Bước 5. Lập biên bản, khắc phục và retest; điều chỉnh lịch/khả năng lưu trữ khi dữ liệu hoặc mục tiêu thay đổi.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Catalog job, log, chứng cứ độc lập/bất biến nếu dùng, checksum và biên bản restore.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT08 CHUYỂN ĐỔI DR VÀ KHỞI ĐỘNG LẠI NỀN TẢNG",
+      "Trách nhiệm: Chỉ huy DR; Platform; chủ quản quyết định.",
+      "Căn cứ: TCVN 6.11; 6.12; BIA và thiết kế XOR. Tần suất: Theo kế hoạch được phê duyệt và khi thay đổi lớn; mục tiêu do BIA quyết định.",
+      "Bước 1. Xác nhận sự cố, phạm vi, trạng thái dữ liệu/replica và điều kiện kích hoạt; chỉ huy xin quyết định theo phân quyền và thông báo đầu mối liên quan.",
+      "Bước 2. Cô lập nguồn ghi ở DC bằng cơ chế fencing được thiết kế; xác định bản dữ liệu hợp lệ; ghi thời điểm giao dịch cuối cùng có thể khôi phục.",
+      "Bước 3. Phục hồi mạng, thời gian, DNS, IAM/khóa, lưu trữ, DB/queue, API và workload theo đồ thị phụ thuộc; dùng bí mật khẩn cấp có kiểm soát khi cần.",
+      "Bước 4. Kiểm tra nghiệp vụ và năng lực DR, ghi RPO/RTO từng dịch vụ; mở lưu lượng theo phê duyệt, theo dõi lỗi và tính nhất quán.",
+      "Bước 5. Chuyển về sau sửa lỗi, đồng bộ và đối soát; có điểm quyết định/rollback; diễn tập cả failback và khởi động nguội, lưu toàn bộ timeline.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "BIA, runbook, sơ đồ phụ thuộc, quyết định kích hoạt, fencing log, số đo và biên bản chuyển về.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT09 ỨNG PHÓ SỰ CỐ VÀ BẢO TOÀN CHỨNG CỨ",
+      "Trách nhiệm: CSIRT; SOC; pháp chế; chủ quản.",
+      "Căn cứ: TCVN 6.17. Tần suất: Diễn tập ít nhất hằng năm; rà quy trình/ngưỡng/danh bạ hằng năm hoặc khi đổi.",
+      "Bước 1. SOC tiếp nhận, mở mã sự cố, phân loại và báo đầu mối chính/dự phòng; ghi người, thời gian, tài sản, ảnh hưởng và dấu hiệu ban đầu.",
+      "Bước 2. Chỉ huy phân công kiểm soát sự cố; cô lập theo playbook, tránh phá chứng cứ; lưu bản gốc, hash, chuỗi bàn giao và quyền truy cập.",
+      "Bước 3. Điều tra phạm vi, nguyên nhân, dữ liệu ảnh hưởng; phối hợp IDC/ISP/đối tác và cơ quan có thẩm quyền theo nghĩa vụ áp dụng; pháp chế xác nhận thông báo bên ngoài.",
+      "Bước 4. Loại bỏ nguyên nhân, vá/cấu hình lại, khôi phục bản sạch, đổi khóa khi cần và kiểm tra trước mở dịch vụ.",
+      "Bước 5. Hậu kiểm timeline, tác động, quyết định và bài học; giao hành động, hạn, retest; rà lại ngưỡng và tổ chức diễn tập.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Hồ sơ sự cố, log gốc, chuỗi chứng cứ, thông báo, quyết định, biên bản khôi phục và hậu kiểm.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT10 PHÁT TRIỂN ĐÓNG GÓI VÀ PHÁT HÀNH XOR STACK",
+      "Trách nhiệm: DevSecOps; reviewer; người duyệt production.",
+      "Căn cứ: TCVN 6.16. Tần suất: Mỗi phát hành/thay đổi; danh mục bên thứ ba quý; đào tạo và quy trình hằng năm.",
+      "Bước 1. Yêu cầu và threat model xác định tài sản, ranh giới tenant, dữ liệu, API, session và yêu cầu an ninh cần kiểm thử.",
+      "Bước 2. Phát triển trong môi trường riêng; review code; không lưu bí mật; quản lý dependency, SBOM, bản quyền và nguồn upstream.",
+      "Bước 3. Chạy SAST/SCA/secret scan và kiểm thử chức năng/an ninh; xử lý lỗ hổng và pentest trước production theo phạm vi; ghi nhận ngoại lệ đúng thẩm quyền.",
+      "Bước 4. Đóng gói bản dựng có commit, digest và chữ ký theo thiết kế; lưu provenance; runner có quyền hẹp; phê duyệt release và kế hoạch rollback.",
+      "Bước 5. Triển khai, xác minh bản đang chạy, theo dõi lỗi và rollback khi cần; tiếp nhận báo cáo bên ngoài, RCA và bổ sung kiểm thử chống tái diễn.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Yêu cầu, threat model, review, SBOM, scan/pentest, release manifest, log deploy và rollback.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT11 QUẢN LÝ NHÂN SỰ NHÀ CUNG CẤP VÀ VẬT LÝ",
+      "Trách nhiệm: HR; mua sắm; IDC; chủ quản.",
+      "Căn cứ: TCVN 6.14; 6.15; A.4. Tần suất: Đào tạo và rà danh mục/quy định hằng năm; theo sự kiện nhân sự/hợp đồng; camera ít nhất 6 tháng.",
+      "Bước 1. Chủ quản giao riêng vai trò vận hành, quản trị và an ninh; HR xác minh năng lực, NDA, đào tạo và quyền được cấp.",
+      "Bước 2. Mua sắm phân loại nhà cung cấp, kiểm tra điều kiện tương ứng dịch vụ, phạm vi trách nhiệm và yêu cầu bảo mật trong hợp đồng.",
+      "Bước 3. IDC và XOR quản lý người ra vào, khách, rack, điện/UPS, PCCC, nước, môi trường và điện từ; lưu camera và log theo yêu cầu; cung cấp bằng chứng từng site.",
+      "Bước 4. Theo dõi SLA, truy cập nhà cung cấp và bảo trì; giám sát mọi phiên đặc quyền; xử lý sự cố theo đầu mối đã chốt.",
+      "Bước 5. Khi nhân sự hoặc hợp đồng kết thúc, thu hồi thẻ/tài khoản/tài sản, bàn giao dữ liệu và log, xác nhận xóa theo nghĩa vụ; kiểm tra không còn truy cập.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "Quyết định phân công, hồ sơ đào tạo/NDA, hợp đồng/SLA, bằng chứng IDC, phiếu thu hồi.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].",
+      "QT12 KIỂM TRA NGHIỆM THU VÀ QUẢN LÝ HỒ SƠ",
+      "Trách nhiệm: GRC; đơn vị kiểm tra; chủ quản.",
+      "Căn cứ: TCVN 6.12.2.7; 6.18. Tần suất: Pentest ngoài và trong mỗi loại ít nhất hằng năm; kiểm tra trước vận hành/phát hành theo phạm vi.",
+      "Bước 1. Lập phạm vi, mục tiêu, tiêu chí, ROE, thời gian, dữ liệu thử, điều kiện dừng và đầu mối; người có thẩm quyền phê duyệt trước thử.",
+      "Bước 2. Tổ chức kiểm tra có tư vấn/giám sát độc lập theo yêu cầu; lưu bước, cấu hình, bản dựng, log và giới hạn phương pháp.",
+      "Bước 3. Lập phát hiện theo tài sản, tác động, bằng chứng; gắn người, hạn và hành động; không kết luận đạt ở nơi chưa đủ bằng chứng.",
+      "Bước 4. Retest sau khắc phục, đánh giá hiệu lực kiểm soát và lập biên bản nghiệm thu có xác nhận chuyên trách, trình chủ quản phê duyệt.",
+      "Bước 5. Đóng phiên bản hồ sơ, danh mục tài liệu/hash và quyền nhận; theo dõi phản hồi thẩm định; cập nhật khi phạm vi, dữ liệu hoặc kiến trúc thay đổi.",
+      "Hồ sơ lưu và điều kiện hoàn thành",
+      "ROE, báo cáo kiểm tra, findings, retest, nghiệm thu, danh mục hồ sơ và lịch sử thay đổi.",
+      "Hoàn thành khi các bước trong phạm vi đã thực hiện, bằng chứng có người kiểm tra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng: [CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN]."
+    ],
+    "tables": [
+      [
+        [
+          "Tham số phải phê duyệt",
+          "Giá trị hoặc văn bản"
+        ],
+        [
+          "Chỉ huy sự cố/DR và người dự phòng",
+          "[CẦN ĐIỀN họ tên, vai trò, liên hệ và quyền quyết định]"
+        ],
+        [
+          "Thời gian phản ứng và báo cáo sự cố",
+          "[CẦN ĐIỀN theo loại sự cố và nghĩa vụ pháp lý/hợp đồng]"
+        ],
+        [
+          "Thời hạn xử lý lỗ hổng theo rủi ro",
+          "[CẦN ĐIỀN mức, thời hạn, ngoại lệ và quyền phê duyệt]"
+        ],
+        [
+          "RPO RTO lịch backup và bất biến",
+          "[CẦN ĐIỀN theo BIA từng dịch vụ]"
+        ],
+        [
+          "Lưu giữ hồ sơ và bằng chứng",
+          "[CẦN ĐIỀN theo loại; log ANM/camera bảo đảm tối thiểu 6 tháng theo TCVN]"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/04_Cong_van_xin_y_kien_chuyen_mon.docx": {
+    "paragraphs": [
+      "V/v xin ý kiến chuyên môn về hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD",
+      "Kính gửi: Trung tâm Vận hành — đơn vị chuyên trách về an ninh mạng của Công ty Cổ phần XOR CLOUD.",
+      "Căn cứ Luật An ninh mạng số 116/2025/QH15;",
+      "Căn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin;",
+      "Căn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan, tổ chức].",
+      "Khối Hạ tầng & Vận hành đề nghị Quý đơn vị cho ý kiến chuyên môn về hồ sơ đề xuất cấp độ hệ thống thông tin với các nội dung sau:",
+      "Phần 1 Thông tin chung",
+      "1. Tên hệ thống thông tin: XOR SECURE CLOUD.",
+      "2. Đơn vị vận hành hệ thống thông tin: Khối Hạ tầng & Vận hành.",
+      "3. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà Nội.",
+      "4. Cấp độ hệ thống thông tin đề xuất: Cấp độ 4.",
+      "Phạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung; DC tại Trung tâm Hạ tầng IDC Cầu Giấy, DR tại Trung tâm Hạ tầng IDC Nam Thăng Long.",
+      "Phần 2 Hồ sơ kèm theo",
+      "1. Tài liệu mô tả, thuyết minh tổng quan hệ thống thông tin.",
+      "2. Thiết kế thi công đã được phê duyệt hoặc tài liệu có giá trị tương đương, kèm phụ lục hiện trạng.",
+      "3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi ro chi tiết.",
+      "4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu cầu và quy trình.",
+      "Danh mục tệp, phiên bản và số trang: [CẦN ĐIỀN danh mục đã đóng phiên bản].",
+      "Đề nghị Quý đơn vị xem xét sự phù hợp của đề xuất cấp độ và phương án bảo đảm an ninh mạng hệ thống XOR SECURE CLOUD; chỉ rõ nội dung cần điều chỉnh, bổ sung để đơn vị vận hành hoàn thiện trước khi trình chủ quản gửi thẩm định.",
+      "Đầu mối phối hợp: Chử Quang Thắng — Giám đốc Vận hành; [CẦN ĐIỀN điện thoại, email]."
+    ],
+    "tables": [
+      [
+        [
+          "KHỐI HẠ TẦNG & VẬN HÀNH\nSố: [CẦN ĐIỀN]/[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\n\n\n\nTrần Văn Dũng"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/10_Phu_luc_thiet_ke_va_hien_trang.docx": {
+    "paragraphs": [
+      "CÔNG TY CỔ PHẦN XOR CLOUD",
+      "KHỐI HẠ TẦNG & VẬN HÀNH",
+      "",
+      "HỒ SƠ",
+      "PHỤ LỤC THIẾT KẾ VÀ HIỆN TRẠNG HỆ THỐNG",
+      "XOR SECURE CLOUD",
+      "Kèm theo hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD",
+      "Nền tảng XOR STACK CLOUD",
+      "Đơn vị vận hành: Khối Hạ tầng & Vận hành",
+      "DC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long",
+      "",
+      "Hà Nội, tháng 10 năm 2026",
+      "",
+      "1. Thông tin hệ thống",
+      "",
+      "2. Thông số thiết kế hạ tầng",
+      "",
+      "[CẦN XÁC NHẬN phạm vi của bảng cấu hình: một site hoặc toàn hệ thống; phân bổ thiết bị tại DC/DR; sai khác giữa thiết kế và hiện trạng; biên bản nghiệm thu].",
+      "3. PHÂN VÙNG VÀ LUỒNG THÔNG TIN",
+      "",
+      "Hồ sơ luồng kết nối: [CẦN ĐIỀN mã PL04, nguồn, đích, chiều khởi tạo, cổng/giao thức, mục đích, biện pháp kiểm soát, rule ID, người phê duyệt và bằng chứng thử cho phép/từ chối].",
+      "4. Phạm vi dịch vụ",
+      "",
+      "5. PHÂN BỔ TẠI DC VÀ DR",
+      "",
+      "Chỉ tiêu phục hồi: [CẦN ĐIỀN mã dịch vụ, RPO/RTO/MTD được duyệt, kết quả đo, ngày thử và người xác nhận]. Thứ tự phục hồi và phụ thuộc: [CẦN ĐIỀN mạng, thời gian, DNS, IAM, KMS, lưu trữ, cơ sở dữ liệu, hàng đợi, API và workload].",
+      "6. Danh mục hồ sơ xác nhận",
+      "",
+      "Đơn vị lập: Khối Hạ tầng & Vận hành. Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận: [CẦN ĐIỀN số, ngày, người ký]."
+    ],
+    "tables": [
+      [
+        [
+          "Nội dung",
+          "Thông tin"
+        ],
+        [
+          "Tên hệ thống",
+          "XOR SECURE CLOUD; nền tảng XOR STACK CLOUD."
+        ],
+        [
+          "Chủ quản và đơn vị vận hành",
+          "Công ty Cổ phần XOR CLOUD; Khối Hạ tầng & Vận hành."
+        ],
+        [
+          "Phạm vi",
+          "Toàn bộ nền tảng cloud và các dịch vụ quản trị chung. Ranh giới với phần khách hàng quản lý được xác định theo hợp đồng và ma trận trách nhiệm."
+        ],
+        [
+          "Địa điểm",
+          "DC: Trung tâm Hạ tầng IDC Cầu Giấy. DR: Trung tâm Hạ tầng IDC Nam Thăng Long."
+        ],
+        [
+          "Hồ sơ thiết kế",
+          "[CẦN ĐIỀN tên, số, ngày, phiên bản và văn bản phê duyệt]"
+        ],
+        [
+          "Thời điểm chốt hiện trạng",
+          "[CẦN ĐIỀN ngày, người kiểm kê/xác nhận và biên bản]"
+        ]
+      ],
+      [
+        [
+          "Thành phần",
+          "Thông số thiết kế",
+          "Hiện trạng và bằng chứng"
+        ],
+        [
+          "Máy chủ",
+          "09 Dell R630: 03 Controller, 03 Compute KVM, 03 Ceph SSD.",
+          "[CẦN ĐIỀN số lượng theo site; serial; cấu hình; vai trò; phiên bản; mã EV]"
+        ],
+        [
+          "Bộ nhớ",
+          "2.304 GB RAM theo cấu hình các vai trò.",
+          "[CẦN ĐIỀN bộ nhớ khả dụng, dự phòng, năng lực chịu lỗi và mã EV]"
+        ],
+        [
+          "Lưu trữ",
+          "Ceph SSD: 19,2 TB dung lượng thô; SAN: 14,4 TB dung lượng thô; 18 ổ OS 480 GB.",
+          "[CẦN ĐIỀN dung lượng sử dụng, replica/RAID, backend, mã hóa và kết quả phục hồi]"
+        ],
+        [
+          "Mạng và bảo vệ biên",
+          "02 Nexus N9K-C93180YC-EX; 02 FortiGate 500E; 01 switch SAN; 01 Access.",
+          "[CẦN ĐIỀN phân bổ theo site, port map, dự phòng, giấy phép, hỗ trợ và kết quả chịu lỗi]"
+        ],
+        [
+          "Kết nối liên trung tâm",
+          "Kết nối DC Cầu Giấy – DR Nam Thăng Long.",
+          "[CẦN ĐIỀN nhà mạng, tuyến, băng thông, mã hóa, độ trễ và cơ chế đồng bộ]"
+        ]
+      ],
+      [
+        [
+          "VLAN thiết kế",
+          "Chức năng",
+          "Thông tin triển khai"
+        ],
+        [
+          "10",
+          "Dịch vụ điều khiển nội bộ",
+          "[CẦN ĐIỀN site, VLAN/VRF/CIDR, gateway, owner, vùng Z và mã rule]"
+        ],
+        [
+          "20",
+          "Transport cho mạng tenant",
+          "[CẦN ĐIỀN underlay/overlay, VNI, MTU, chính sách cách ly và mã EV]"
+        ],
+        [
+          "30",
+          "Lưu trữ Ceph client",
+          "[CẦN ĐIỀN mạng I/O, client được phép, ACL và mã EV]"
+        ],
+        [
+          "31",
+          "Lưu trữ Ceph cluster",
+          "[CẦN ĐIỀN mạng đồng bộ, recovery, heartbeat và mã EV]"
+        ],
+        [
+          "40",
+          "Quản trị và an ninh",
+          "[CẦN ĐIỀN phân khu PAM, SIEM, sao lưu, kho log và quyền quản trị]"
+        ],
+        [
+          "70",
+          "API nội bộ XOR STACK CLOUD",
+          "[CẦN ĐIỀN endpoint, TLS, danh tính, quyền, audit và mã EV]"
+        ],
+        [
+          "99",
+          "Quản trị ngoài băng",
+          "[CẦN ĐIỀN BMC/console, điểm truy cập qua PAM và ACL]"
+        ],
+        [
+          "100",
+          "DMZ và cổng thông tin",
+          "[CẦN ĐIỀN endpoint, WAF/LB, origin, luồng API và mã EV]"
+        ],
+        [
+          "[CẦN ĐIỀN]",
+          "Provider/external và SAN",
+          "[CẦN ĐIỀN VLAN/VRF, gateway, giao thức, zoning/multipath]"
+        ]
+      ],
+      [
+        [
+          "Nhóm dịch vụ",
+          "Thành phần",
+          "Trạng thái và phạm vi triển khai"
+        ],
+        [
+          "Tính toán và mạng",
+          "VM, image, flavor, volume, mạng riêng, router, SG, floating IP, cân bằng tải.",
+          "[CẦN ĐIỀN dịch vụ, phiên bản, site, trạng thái và mã EV]"
+        ],
+        [
+          "Quản trị chung",
+          "Portal/API, định danh, quota, usage/billing, CMDB, giám sát, nhật ký, hỗ trợ.",
+          "[CẦN ĐIỀN thành phần, trách nhiệm, trạng thái và mã EV]"
+        ],
+        [
+          "Dữ liệu và sao lưu",
+          "Backend, snapshot, backup, cấu hình và khóa phục hồi.",
+          "[CẦN ĐIỀN dữ liệu, vị trí, thời hạn lưu, quyền và mã EV]"
+        ],
+        [
+          "Dịch vụ mở rộng",
+          "Kubernetes, GPU, S3, cơ sở dữ liệu quản trị và các dịch vụ khác.",
+          "[CẦN XÁC NHẬN đã triển khai, dự kiến hoặc không thuộc phạm vi; mã EV]"
+        ]
+      ],
+      [
+        [
+          "Địa điểm",
+          "Vai trò",
+          "Hồ sơ hiện trạng"
+        ],
+        [
+          "Trung tâm Hạ tầng IDC Cầu Giấy",
+          "DC chính",
+          "[CẦN ĐIỀN địa chỉ chi tiết, hợp đồng/SLA, rack/điện/lạnh, thiết bị, kết nối, kiểm soát vật lý và mã EV]"
+        ],
+        [
+          "Trung tâm Hạ tầng IDC Nam Thăng Long",
+          "DR",
+          "[CẦN ĐIỀN cấu hình phục hồi, dữ liệu đồng bộ, tài khoản/khóa, hồ sơ IDC, kết quả chuyển đổi/chuyển về và mã EV]"
+        ]
+      ],
+      [
+        [
+          "Mã",
+          "Tài liệu",
+          "Đơn vị chủ trì",
+          "Mã EV / phiên bản"
+        ],
+        [
+          "XN01",
+          "BOM theo site; serial; rack; port; nguồn điện A/B.",
+          "Hạ tầng / IDC",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "XN02",
+          "Inventory nền tảng, bản dựng XOR, SBOM, cấu hình.",
+          "Platform",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "XN03",
+          "VLAN/VRF/IP, rule liên vùng, OOB, kết nối hai site.",
+          "Network",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "XN04",
+          "Backend, mã hóa, khóa, dung lượng và chịu lỗi.",
+          "Storage / IAM",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "XN05",
+          "Quét lỗ hổng, kiểm thử, kiểm tra lại và thay đổi.",
+          "Chuyên trách ANM",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "XN06",
+          "BIA, sao lưu/phục hồi, diễn tập DR và RPO/RTO.",
+          "Vận hành",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "XN07",
+          "Pháp nhân, phân công, thẩm quyền ký, liên hệ.",
+          "Chủ quản / pháp chế",
+          "[CẦN ĐIỀN]"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/01_Thuyet_minh_ho_so_de_xuat_cap_do_4.docx": {
+    "paragraphs": [
+      "CÔNG TY CỔ PHẦN XOR CLOUD",
+      "KHỐI HẠ TẦNG & VẬN HÀNH",
+      "",
+      "HỒ SƠ",
+      "HỒ SƠ ĐỀ XUẤT CẤP ĐỘ 4\nHỆ THỐNG XOR SECURE CLOUD",
+      "XOR SECURE CLOUD",
+      "Tài liệu thuyết minh theo Điều 21 và Điều 22 Nghị định 331 năm 2026",
+      "Nền tảng XOR STACK CLOUD",
+      "Đơn vị vận hành: Khối Hạ tầng & Vận hành",
+      "DC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long",
+      "",
+      "Hà Nội, tháng 10 năm 2026",
+      "",
+      "",
+      "Hồ sơ đề xuất cấp độ 4 đối với toàn bộ nền tảng XOR SECURE CLOUD và các dịch vụ quản trị chung, bao gồm thuyết minh hệ thống, phương án thiết kế, đánh giá rủi ro và phương án bảo đảm an ninh mạng.",
+      "PHẦN I TỔNG QUAN VỀ HỆ THỐNG THÔNG TIN",
+      "1 Căn cứ lập hồ sơ",
+      "Căn cứ Luật An ninh mạng số 116/2025/QH15; Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin; căn cứ chức năng, nhiệm vụ và thẩm quyền của chủ quản [CẦN ĐÍNH KÈM VĂN BẢN]; căn cứ hiện trạng và nhu cầu bảo vệ hệ thống XOR SECURE CLOUD, đơn vị vận hành lập hồ sơ đề xuất cấp độ 4 để xin ý kiến chuyên môn, thẩm định và trình phê duyệt theo quy định.",
+      "Phương án bảo đảm an ninh mạng được đối chiếu với Điều 6 và Phụ lục A.4 TCVN 14423:2026. [S1, Điều 21–22; S2]",
+      "2 Thông tin chủ quản và đơn vị vận hành",
+      "",
+      "Đầu mối lập hồ sơ: Chử Quang Thắng — Giám đốc Vận hành. [CẦN ĐIỀN số, ngày văn bản xác định tư cách chủ quản, giao nhiệm vụ vận hành/chuyên trách, thẩm quyền ký và cơ chế kiểm tra độc lập].",
+      "3 CHỨC NĂNG PHẠM VI VÀ QUY MÔ",
+      "XOR SECURE CLOUD là hệ thống cung cấp và quản lý tài nguyên điện toán đám mây trên nền tảng XOR STACK CLOUD. Phạm vi hồ sơ gồm hạ tầng, phần mềm nền tảng và các dịch vụ quản trị chung tại Trung tâm Hạ tầng IDC Cầu Giấy (DC) và Trung tâm Hạ tầng IDC Nam Thăng Long (DR).",
+      "Phạm vi kỹ thuật bao gồm máy chủ, ảo hóa, mạng, lưu trữ, portal/API, control plane, định danh và đặc quyền, quản lý khóa/chứng thư, DNS/thời gian, giám sát/nhật ký, sao lưu/DR, chuỗi phát hành và máy trạm quản trị. Danh mục dịch vụ và các thành phần thuê ngoài được xác định tại Phụ lục PL01. [S1, Điều 22.3]",
+      "",
+      "4 Ranh giới trách nhiệm",
+      "XOR chịu trách nhiệm đối với hạ tầng, nền tảng và dịch vụ đã cam kết quản lý. Chủ quản của từng hệ thống khách hàng chịu trách nhiệm mục đích sử dụng, phân loại dữ liệu, tài khoản và các cấu hình/ứng dụng thuộc phần mình quản lý. Ranh giới phải được cụ thể hóa theo hợp đồng, dịch vụ và ma trận trách nhiệm; việc phê duyệt cấp độ nền tảng không thay thế hồ sơ cấp độ của từng hệ thống khách hàng.",
+      "PHẦN II THIẾT KẾ VÀ HIỆN TRẠNG HỆ THỐNG",
+      "Thiết kế hệ thống gồm kiến trúc tổng thể DC–DR, phân vùng mạng, các luồng kết nối, hạ tầng vật lý và các thành phần quản trị. Hồ sơ thiết kế được phê duyệt hoặc tài liệu có giá trị tương đương: [CẦN ĐIỀN tên, số, ngày, cơ quan phê duyệt và danh mục bản vẽ]. [S1, Điều 21.2 b]",
+      "1 Danh mục thiết kế và phụ lục hiện trạng",
+      "",
+      "Hiện trạng triển khai: [CẦN ĐIỀN số, ngày hồ sơ kiểm kê/nghiệm thu; phiên bản cấu hình; sai khác giữa thiết kế và hiện trạng; mã tài liệu tại PL01–PL07].",
+      "",
+      "2.1 Phương án kiến trúc tổng thể DC–DR",
+      "",
+      "Hình 1. Kiến trúc tổng thể hệ thống XOR SECURE CLOUD.",
+      "",
+      "2.2 Phương án phân vùng mạng và kết nối",
+      "",
+      "Hình 2. Phân vùng mạng và các luồng kết nối chính.",
+      "",
+      "3 PHƯƠNG ÁN PHÂN VÙNG VÀ LUỒNG KẾT NỐI",
+      "",
+      "Mọi vùng áp dụng chặn mặc định; quyền kết nối được xác định theo nhu cầu dịch vụ và có người sở hữu. Quyền quản trị đi qua cổng kiểm soát và PAM; không cấp tuyến mạng rộng cho người truy cập từ xa. Phương án kiểm soát ranh giới lõi với vùng ít tin cậy phải thuyết minh Datadiode/USG/BSG hoặc biện pháp tương đương phù hợp từng luồng. [S2, 6.12.2.1–6.12.2.6]",
+      "4 PHƯƠNG ÁN NỀN TẢNG DỮ LIỆU VÀ PHỤC HỒI",
+      "4 1 Nền tảng XOR STACK CLOUD",
+      "Mỗi IDC được thiết kế thành cụm độc lập, có quorum nội bộ cho các thành phần yêu cầu đồng thuận. Việc bố trí số controller, DB, queue, compute và storage căn cứ vào bản dựng được hỗ trợ và phép đo tải. Cụm đồng thuận được thiết lập trong từng IDC; rủi ro miền lỗi chung giữa hai IDC được đánh giá trong phương án DR. Hệ thống mạng ảo hóa/SDN, hypervisor và storage được kiểm tra cách ly tenant, metadata, console, snapshot và tái cấp phát tài nguyên.",
+      "4 2 Bảo vệ dữ liệu và khóa",
+      "Dữ liệu được phân loại theo chủ sở hữu, độ nhạy cảm và mục đích xử lý. Quyền đọc, ghi, xuất, sao lưu và hủy được kiểm soát. Phương án mã hóa dữ liệu quan trọng khi truyền/lưu, bảo vệ khóa, toàn vẹn, chữ ký số, chống thất thoát và nhật ký truy cập được thuyết minh theo từng dòng 6.4 tại tài liệu 02. Giải pháp kiểm soát tương đương được thuyết minh và kiểm chứng theo phạm vi áp dụng.",
+      "4 3 Sao lưu và DR",
+      "Bản sao dữ liệu, cấu hình và thông tin phục hồi phải được lưu trên hạ tầng độc lập với môi trường vận hành; có phiên bản, mã hóa phù hợp, quản lý quyền và phép thử restore. Danh mục sao lưu bao gồm control plane, dữ liệu dịch vụ thuộc trách nhiệm XOR, cấu hình mạng, image và khóa/chứng thư cần khôi phục. RPO, RTO, dung lượng DR và lịch đồng bộ được chốt theo BIA tại Phần III.",
+      "Kịch bản mất DC phải xác nhận nguồn dữ liệu hợp lệ, cô lập nguồn ghi cũ trước kích hoạt DR, phục hồi cả IAM/DNS/KMS và dịch vụ phụ thuộc, đối soát nghiệp vụ và thực hiện chuyển về có kiểm soát. Hai IDC trong cùng khu vực phải được đánh giá rủi ro đồng thời về điện, tuyến cáp, ISP và thiên tai; có biện pháp đối với miền lỗi chung.",
+      "4 4 Độc lập dịch vụ phục hồi",
+      "Tài liệu khôi phục và bí mật khẩn cấp được lưu ở nơi truy cập được khi nền tảng dừng. Đơn vị vận hành lập đồ thị phụ thuộc và kiểm thử khởi động nguội để phát hiện vòng phụ thuộc. [CẦN ĐIỀN mã bằng chứng triển khai và biên bản kiểm thử T07–T10].",
+      "PHẦN III THUYẾT MINH ĐỀ XUẤT CẤP ĐỘ VÀ RỦI RO",
+      "1 Loại hệ thống và tiêu chí đề xuất",
+      "XOR SECURE CLOUD thuộc loại hệ thống cơ sở hạ tầng thông tin cung cấp tài nguyên điện toán đám mây. Cấp độ đề xuất: cấp độ 4. Chức năng, phạm vi phục vụ, loại thông tin và hậu quả rủi ro được thuyết minh theo Điều 14 và Điều 22 Nghị định 331/2026/NĐ-CP.",
+      "",
+      "Tiêu chí đề xuất cấp độ: [CẦN ĐIỀN khoản áp dụng tại Điều 14]. Căn cứ và tài liệu chứng minh: [CẦN ĐIỀN phạm vi phục vụ, hợp đồng, BIA, kết quả đánh giá rủi ro và mã tài liệu].",
+      "2 Hệ thống liên quan",
+      "[CẦN LẬP danh mục hệ thống kết nối, phụ thuộc hoặc bị ảnh hưởng khi XOR dừng; tên chủ quản, cấp độ đã được phê duyệt nếu có, dịch vụ trao đổi, loại dữ liệu và mức tác động]. Các phụ thuộc IAM, DNS, khóa, ISP, IDC và nhà cung cấp được xác định tại PL04 và BIA. [S1, Điều 22.5 a]",
+      "3 BÁO CÁO ĐÁNH GIÁ RỦI RO CHI TIẾT",
+      "Phương pháp đánh giá rủi ro gồm xác định tài sản và dịch vụ; nhận diện mối đe dọa, điểm yếu; xác định khả năng và tác động; đánh giá hiệu lực kiểm soát; lựa chọn biện pháp xử lý; đánh giá rủi ro còn lại và phê duyệt. [CẦN ĐIỀN phương pháp, thang điểm và văn bản phê duyệt áp dụng]. [S1, Điều 22.5; S2, 6.1]",
+      "",
+      "Kết quả đánh giá rủi ro: [CẦN ĐIỀN tài sản, mức khả năng, mức tác động, căn cứ chấm điểm, biện pháp xử lý, rủi ro còn lại, người chịu trách nhiệm, thời hạn và quyết định chấp nhận].",
+      "4 PHÂN TÍCH TÁC ĐỘNG VÀ YÊU CẦU LIÊN TỤC",
+      "Phân tích tác động nghiệp vụ xác định số khách hàng và hệ thống bị ảnh hưởng; nguy cơ mất, lộ, sửa dữ liệu; thời gian gián đoạn; hậu quả tài chính, pháp lý và tác động đối với lợi ích công cộng, trật tự, an toàn xã hội, an ninh quốc gia. [CẦN ĐIỀN báo cáo BIA, số liệu, nguồn và người xác nhận]. [S1, Điều 22.5 b c]",
+      "",
+      "Yêu cầu hoạt động liên tục: [CẦN ĐIỀN nghĩa vụ 24/7; điều kiện về ngừng vận hành có kế hoạch và không có kế hoạch; bên yêu cầu, phạm vi dịch vụ, tác động và biện pháp đáp ứng]. [S1, Điều 22.5 d]",
+      "PHẦN IV PHƯƠNG ÁN BẢO ĐẢM AN NINH MẠNG",
+      "1 Biện pháp quản lý và kỹ thuật",
+      "Phương án đối với từng yêu cầu TCVN được xác định tại Phụ lục đối chiếu yêu cầu và phương án bảo đảm an ninh mạng. Quy chế và quy trình quy định trách nhiệm, trình tự thực hiện và hồ sơ lưu. Hiện trạng và kết quả kiểm tra: [CẦN ĐIỀN ngày chốt, danh mục cấu hình, văn bản ban hành, biên bản kiểm tra và mã bằng chứng]. [S1, Điều 22.6]",
+      "",
+      "2 Điều kiện đối với giải pháp tương đương",
+      "Giải pháp tương đương được đánh giá theo yêu cầu áp dụng, rủi ro, kiến trúc kiểm soát, khả năng bảo vệ, giới hạn, kết quả thử nghiệm và thẩm quyền chấp thuận. Hồ sơ giải pháp tương đương: [CẦN ĐIỀN mã yêu cầu, thuyết minh, kết quả kiểm chứng và văn bản chấp thuận nếu áp dụng].",
+      "3 BẢO ĐẢM AN TOÀN VẬT LÝ VÀ TRÁCH NHIỆM THUÊ NGOÀI",
+      "Phương án bảo đảm an toàn vật lý áp dụng riêng tại DC Cầu Giấy và DR Nam Thăng Long theo Phụ lục A.4. Phạm vi kiểm soát gồm phòng máy, rack thiết bị, điện/UPS, phòng cháy và chữa cháy, chống sét, chống nước, tĩnh điện, môi trường, bảo vệ điện từ, camera và kiểm soát ra vào. Hồ sơ đối chiếu của từng IDC: [CẦN ĐIỀN hợp đồng, phạm vi, thời hạn hiệu lực, biên bản kiểm tra và mã bằng chứng].",
+      "",
+      "4 Ranh giới trách nhiệm với khách hàng",
+      "Phụ lục hợp đồng xác định bên quản lý OS, ứng dụng, DB, dữ liệu, khóa, tài khoản, sao lưu và log. Đối với IaaS, khách hàng thường quản lý OS khách và ứng dụng; với dịch vụ quản lý, phần XOR chịu trách nhiệm phải được mô tả cụ thể. Cấp độ được công bố chỉ gắn với phạm vi đã phê duyệt và không chuyển toàn bộ trách nhiệm của chủ quản khách hàng sang XOR.",
+      "PHẦN V KẾ HOẠCH HOÀN THIỆN VÀ TÀI LIỆU KÈM THEO",
+      "",
+      "DANH MỤC KÈM THEO HỒ SƠ TRÌNH",
+      "HS01 Tổng quan HTTT: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS02 Thiết kế hệ thống đang vận hành: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS03 Căn cứ đề xuất cấp độ: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS04 Phương án bảo đảm an ninh mạng: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS05 Ý kiến chuyên môn của đơn vị chuyên trách: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS06 Công văn đề nghị thẩm định: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS07 Ý kiến thẩm định: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS08 Tờ trình phê duyệt: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "HS09 Quyết định phê duyệt cấp độ: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang thực tế].",
+      "Tài liệu tham chiếu",
+      "[S1] Nghị định 331/2026/NĐ-CP: Điều 14, 18, 20–24 và Phụ lục. Nguồn chính thức: https://vanban.chinhphu.vn/?docid=219243&pageid=27160",
+      "[S2] TCVN 14423:2026: Điều 6, trang 58–81; Phụ lục A.4, trang 109–111.",
+      "PHỤ LỤC PL01 DANH MỤC DỊCH VỤ VÀ ỨNG DỤNG",
+      "Mã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+      "",
+      "Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê duyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].",
+      "PHỤ LỤC PL02 THIẾT BỊ VÀ CẤU HÌNH VẬT LÝ",
+      "Mã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+      "",
+      "Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê duyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].",
+      "PHỤ LỤC PL03 PHÂN VÙNG MẠNG VÀ ĐỊA CHỈ",
+      "Mã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+      "",
+      "Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê duyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].",
+      "PHỤ LỤC PL04 LUỒNG DỮ LIỆU VÀ KẾT NỐI HỆ THỐNG",
+      "Mã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+      "",
+      "Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê duyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].",
+      "PHỤ LỤC PL05 DỮ LIỆU VÀ QUYỀN TRUY CẬP",
+      "Mã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+      "",
+      "Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê duyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].",
+      "PHỤ LỤC PL06 DỰ PHÒNG SAO LƯU VÀ KHÔI PHỤC THẢM HỌA",
+      "Mã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+      "",
+      "Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê duyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].",
+      "PHỤ LỤC PL07 CẤU HÌNH VÀ PHIÊN BẢN NỀN TẢNG",
+      "Mã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+      "",
+      "Người lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê duyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu]."
+    ],
+    "tables": [
+      [
+        [
+          "Thông tin quản lý hồ sơ",
+          "Nội dung"
+        ],
+        [
+          "Chủ quản",
+          "Công ty Cổ phần XOR CLOUD"
+        ],
+        [
+          "Đơn vị vận hành",
+          "Khối Hạ tầng & Vận hành"
+        ],
+        [
+          "Địa chỉ trụ sở",
+          "Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà Nội"
+        ],
+        [
+          "Đại diện chủ quản",
+          "Lê Anh Vũ — Tổng Giám đốc"
+        ],
+        [
+          "Mã hồ sơ",
+          "XOR-CD4-HS-01 — phiên bản 2.4"
+        ],
+        [
+          "Tình trạng",
+          "Lập lần đầu; chưa có quyết định phê duyệt cấp độ hoặc chứng nhận."
+        ],
+        [
+          "Phạm vi",
+          "Toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung tại DC Cầu Giấy, DR Nam Thăng Long."
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Chủ quản",
+          "Đơn vị vận hành"
+        ],
+        [
+          "Tên đầy đủ",
+          "Công ty Cổ phần XOR CLOUD",
+          "Khối Hạ tầng & Vận hành"
+        ],
+        [
+          "Mã số doanh nghiệp/định danh",
+          "[CẦN ĐIỀN theo đăng ký doanh nghiệp]",
+          "Đơn vị nội bộ của chủ quản"
+        ],
+        [
+          "Chức năng, nhiệm vụ và quyền hạn",
+          "[CẦN ĐIỀN; dẫn văn bản]",
+          "[CẦN ĐIỀN; dẫn quyết định giao vận hành]"
+        ],
+        [
+          "Đại diện và đầu mối phụ trách",
+          "Lê Anh Vũ — Tổng Giám đốc",
+          "Trần Văn Dũng — Giám đốc Khối Hạ tầng & Vận hành"
+        ],
+        [
+          "Địa chỉ và liên hệ",
+          "Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà Nội; [điện thoại/email]",
+          "Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà Nội; [CẦN ĐIỀN điện thoại/email]"
+        ],
+        [
+          "Đơn vị chuyên trách ANM",
+          "Trung tâm Vận hành; [CẦN ĐÍNH KÈM quyết định giao nhiệm vụ]",
+          "Trần Văn Dũng; [CẦN XÁC NHẬN phân công và cơ chế độc lập]"
+        ]
+      ],
+      [
+        [
+          "Nội dung",
+          "Thông tin và tài liệu chứng minh"
+        ],
+        [
+          "Đối tượng phục vụ",
+          "[CẦN ĐIỀN nhóm khách hàng, địa bàn, số tổ chức/tenant/người dùng và phạm vi toàn quốc nếu có]."
+        ],
+        [
+          "Quy mô hai IDC",
+          "[CẦN ĐIỀN số rack, host/controller/compute/storage/network; dung lượng; tải và năng lực dự phòng từng site]."
+        ],
+        [
+          "Dịch vụ",
+          "[CẦN CHỐT IaaS/VM, network, block/object/file, K8s, DBaaS, GPU và dịch vụ quản lý thực tế]."
+        ],
+        [
+          "Thông tin xử lý",
+          "[CẦN ĐIỀN loại dữ liệu, độ nhạy cảm, dữ liệu cá nhân/quan trọng và dữ liệu thuộc quy định chuyên ngành nếu có]."
+        ],
+        [
+          "Kết nối ngoài",
+          "[CẦN ĐIỀN ISP, hệ thống khách hàng, đối tác, dịch vụ dùng chung, cơ quan quản lý và kênh liên site]."
+        ],
+        [
+          "SLA và thời gian hoạt động",
+          "[CẦN ĐIỀN nghĩa vụ 24/7, thời gian bảo trì, RPO/RTO và điều khoản hợp đồng/BIA]."
+        ]
+      ],
+      [
+        [
+          "Mã",
+          "Tài liệu phải kèm theo",
+          "Nội dung"
+        ],
+        [
+          "PL01",
+          "Dịch vụ và ứng dụng",
+          "Tên, chức năng, đối tượng, máy chủ/vị trí, OS, phiên bản, chủ sở hữu và phạm vi XOR quản lý."
+        ],
+        [
+          "PL02",
+          "Thiết bị và cấu hình vật lý",
+          "ID, loại, model/serial, rack, site, vai trò, kết nối, nguồn, phiên bản và EOL."
+        ],
+        [
+          "PL03",
+          "Phân vùng mạng và IP",
+          "VLAN/VRF/VXLAN, CIDR, IP private/public, route, endpoint, owner và mục đích."
+        ],
+        [
+          "PL04",
+          "Luồng dữ liệu và kết nối",
+          "Nguồn/đích/cổng/giao thức, phân loại dữ liệu, xác thực, mã hóa, log, tần suất và phê duyệt."
+        ],
+        [
+          "PL05",
+          "Danh mục dữ liệu và quyền",
+          "Chủ dữ liệu, mức nhạy cảm, kho, quyền, thời hạn lưu, hủy, sao lưu và khóa."
+        ],
+        [
+          "PL06",
+          "HA backup và DR",
+          "Phụ thuộc, quorum, miền lỗi, capacity, replica, RPO/RTO, runbook, restore và diễn tập."
+        ],
+        [
+          "PL07",
+          "Cấu hình và phiên bản",
+          "Baseline, inventory, SBOM, khác biệt XOR/upstream, CI/CD, phê duyệt và rollback."
+        ]
+      ],
+      [
+        [
+          "Vùng",
+          "Chức năng và giới hạn"
+        ],
+        [
+          "Z01 Biên",
+          "Kết nối ISP, chống DDoS, NGFW/IPS và cổng VPN/ZTNA; tách listener quản trị."
+        ],
+        [
+          "Z02 DMZ",
+          "WAF, API gateway/LB và endpoint công khai được duyệt; chặn truy cập trực tiếp origin."
+        ],
+        [
+          "Z03 Nội bộ",
+          "Người dùng nội bộ và thiết bị; kiểm soát kết nối bằng NAC hoặc tương đương."
+        ],
+        [
+          "Z04 Tài nguyên tenant",
+          "VM/container, project/SG/policy; tách tenant và môi trường."
+        ],
+        [
+          "Z05 Dữ liệu",
+          "DB, block/object/file; tách mạng lưu trữ, quyền và khóa theo phạm vi."
+        ],
+        [
+          "Z06 Quản trị",
+          "PAM, IAM, PKI/KMS và dịch vụ quản trị; phân khu chức năng; không truy cập Internet trực tiếp."
+        ],
+        [
+          "Z07 Điều khiển",
+          "Controller/API nội bộ, DB trạng thái và hàng đợi; mTLS/ACL theo phiên bản."
+        ],
+        [
+          "Z08 An ninh",
+          "SOC, collector, SIEM và kho log khác vùng phát sinh; quyền quản trị độc lập."
+        ],
+        [
+          "Z09 Sao lưu",
+          "Kho và miền quản trị độc lập; kiểm soát xóa, phiên bản và mã hóa."
+        ],
+        [
+          "Z10 Ngoài băng",
+          "BMC/console và quản trị thiết bị; chỉ qua đích quản trị được phép."
+        ],
+        [
+          "Z11 Phát triển",
+          "Git/CI/build/registry/dev/test, tách production và bí mật."
+        ],
+        [
+          "Z12 Liên site",
+          "Đồng bộ DC–DR trên kết nối riêng được bảo vệ; chỉ cho phép peer/luồng đã duyệt."
+        ]
+      ],
+      [
+        [
+          "Tiêu chí Điều 14",
+          "Nội dung cần chứng minh đối với XOR",
+          "Tình trạng"
+        ],
+        [
+          "Khoản 1",
+          "Thông tin bí mật nhà nước/quốc phòng/an ninh và hậu quả nghiêm trọng [CẦN ĐIỀN phạm vi phục vụ nếu áp dụng].",
+          "[CẦN XÁC NHẬN áp dụng và mã bằng chứng]"
+        ],
+        [
+          "Khoản 2",
+          "Hạ tầng phục vụ cơ quan/tổ chức phạm vi toàn quốc, yêu cầu 24/7 và không chấp nhận ngừng không có kế hoạch. Phạm vi khách hàng, nghĩa vụ dịch vụ và BIA: [CẦN ĐIỀN].",
+          "[CẦN XÁC NHẬN áp dụng và mã bằng chứng]"
+        ],
+        [
+          "Khoản 3",
+          "Hệ thống điều khiển công nghiệp phục vụ công trình thuộc trường hợp được quy định.",
+          "[CẦN XÁC NHẬN áp dụng và mã bằng chứng]"
+        ],
+        [
+          "Khoản 4",
+          "Quyết định của Thủ tướng hoặc kết quả đánh giá theo Khung quản lý rủi ro an ninh mạng trong trường hợp tương ứng.",
+          "[CẦN ĐIỀN văn bản làm căn cứ nếu áp dụng]"
+        ]
+      ],
+      [
+        [
+          "Rủi ro cần đánh giá",
+          "Tác động phải làm rõ",
+          "Kiểm soát dự kiến"
+        ],
+        [
+          "RR01 Tài khoản cloud admin bị chiếm hoặc lạm dụng",
+          "Lộ/sửa dữ liệu nhiều tenant; ảnh hưởng dịch vụ diện rộng",
+          "PAM, MFA, tách quyền, log độc lập"
+        ],
+        [
+          "RR02 Vượt ranh giới tenant qua API hoặc SDN",
+          "Lộ dữ liệu, thay đổi trái phép tài nguyên khách hàng",
+          "RBAC, SG, kiểm tra sở hữu và cách ly"
+        ],
+        [
+          "RR03 Ransomware phá cả bản chính và bản sao",
+          "Không khôi phục được dịch vụ và dữ liệu",
+          "Kho độc lập, bất biến, tách quyền và restore"
+        ],
+        [
+          "RR04 Mất toàn bộ IDC Cầu Giấy",
+          "Gián đoạn đồng thời nhiều dịch vụ khách hàng",
+          "DR độc lập, replica, fencing, capacity"
+        ],
+        [
+          "RR05 Mất kênh liên site hoặc hai site ghi đồng thời",
+          "Dữ liệu không nhất quán hoặc mất giao dịch",
+          "Theo dõi lag, quorum riêng, fencing và quy trình DR"
+        ],
+        [
+          "RR06 Mất khóa hoặc vòng phụ thuộc phục hồi",
+          "Có bản sao nhưng không giải mã/dựng được hệ thống",
+          "Backup khóa, bí mật khẩn cấp và cold start"
+        ],
+        [
+          "RR07 Lỗ hổng hoặc mã độc trong bản đóng gói XOR",
+          "Tấn công chuỗi cung ứng vào nhiều host/tenant",
+          "SBOM, review, ký image, gate và rollback"
+        ],
+        [
+          "RR08 DDoS hoặc lỗi thiết bị mạng/ISP",
+          "Mất truy cập dịch vụ công khai, suy giảm khả dụng",
+          "Hai ISP, chống DDoS, FW/LB HA"
+        ],
+        [
+          "RR09 SOC thiếu nguồn log hoặc mất dấu vết",
+          "Không phát hiện hoặc điều tra được sự cố",
+          "Ma trận nguồn, retention, chống sửa/xóa"
+        ],
+        [
+          "RR10 Sự cố khu vực ảnh hưởng cả DC và DR",
+          "Hai IDC cùng gián đoạn do điện/cáp/thiên tai hoặc nhà cung cấp",
+          "Phân tích miền lỗi chung, bản sao và kế hoạch thay thế"
+        ]
+      ],
+      [
+        [
+          "Dịch vụ",
+          "Phụ thuộc cần đối chiếu",
+          "Chỉ tiêu và căn cứ"
+        ],
+        [
+          "DV01 IAM và quyền quản trị",
+          "IdP, Keystone, MFA, PAM",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV02 Khóa và chứng thư",
+          "KMS/HSM, PKI, bản sao khóa",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV03 Điều khiển cloud",
+          "API, DB trạng thái, queue, SDN controller",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV04 Máy ảo và container",
+          "Compute, network, image, storage",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV05 Dữ liệu và lưu trữ",
+          "Block, object, file, DB theo dịch vụ",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV06 DNS và thời gian",
+          "DNS nội bộ/công khai, NTP",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV07 SOC và nhật ký",
+          "Collector, SIEM, kho log",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV08 Sao lưu và DR",
+          "Repository, replication, runbook",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ],
+        [
+          "DV09 Phát hành XOR",
+          "Git, CI/CD, registry, signing",
+          "[CẦN ĐIỀN RPO, RTO, MTD; hợp đồng/BIA; người phê duyệt]"
+        ]
+      ],
+      [
+        [
+          "Nhóm",
+          "Phương án tổ chức thực hiện"
+        ],
+        [
+          "Quản trị rủi ro và tài sản",
+          "Lập CMDB, phân loại dữ liệu, BIA, quản lý thay đổi và sổ rủi ro; cập nhật theo tần suất từng điều khoản."
+        ],
+        [
+          "Định danh và đặc quyền",
+          "Tài khoản cá nhân, quyền tối thiểu, MFA, PAM, tách vận hành/bảo mật/kiểm toán, thu hồi theo vòng đời."
+        ],
+        [
+          "Mạng và nền tảng",
+          "Phân vùng, microsegmentation, HA, FW/IPS/WAF/DDoS/DBF/NAC hoặc giải pháp tương đương có kiểm chứng; bảo vệ API và tenant."
+        ],
+        [
+          "Dữ liệu và khôi phục",
+          "Mã hóa, khóa, toàn vẹn, DLP, chữ ký số khi áp dụng; sao lưu độc lập; kiểm thử restore và DR."
+        ],
+        [
+          "Giám sát và ứng phó",
+          "SOC 24/7, log tối thiểu 6 tháng, đồng bộ thời gian, kho tách mạng, EDR, cảnh báo và playbook."
+        ],
+        [
+          "Phát triển và đánh giá",
+          "Phát triển an toàn phần mềm nền tảng XOR; SBOM, kiểm tra mã nguồn/dependency, kiểm thử trước phát hành, pentest trong/ngoài, retest."
+        ]
+      ],
+      [
+        [
+          "Nội dung",
+          "XOR",
+          "IDC hoặc bên cung cấp"
+        ],
+        [
+          "Rack thiết bị và tài sản",
+          "Quản lý thiết bị, người được phép, niêm phong/bàn giao và inventory.",
+          "Hạ tầng phòng máy, điều kiện vật lý và kiểm soát vào/ra theo hợp đồng."
+        ],
+        [
+          "Điện và môi trường",
+          "Đấu nối, giám sát tải, cảnh báo và phối hợp bảo trì.",
+          "Bằng chứng hai nguồn từ hai trạm khác nhau, UPS, điều hòa, chống cháy/nước/sét theo A.4."
+        ],
+        [
+          "Camera và ra vào",
+          "Phê duyệt người, rà soát log liên quan, xử lý bất thường.",
+          "Giám sát 24/7, lưu camera tối thiểu 6 tháng, cung cấp trích xuất theo thẩm quyền."
+        ],
+        [
+          "Sự cố",
+          "Chỉ huy phản ứng với hệ thống, thông tin khách hàng theo trách nhiệm.",
+          "Thông báo sự cố cơ sở, hỗ trợ điều tra/phục hồi theo SLA."
+        ],
+        [
+          "Kiểm tra định kỳ",
+          "Tổ chức kiểm tra, đối soát bằng chứng và theo dõi khắc phục.",
+          "Cung cấp hồ sơ, tham gia kiểm tra theo hợp đồng và phạm vi cho phép."
+        ]
+      ],
+      [
+        [
+          "Giai đoạn",
+          "Kết quả phải có",
+          "Đầu mối và hạn"
+        ],
+        [
+          "1 Xác minh đầu vào",
+          "Pháp nhân, thẩm quyền, phạm vi, tiêu chí Điều 14, dữ liệu và dịch vụ.",
+          "[CẦN ĐIỀN người và hạn]"
+        ],
+        [
+          "2 Xác nhận hiện trạng",
+          "Bộ as-built, CMDB, phiên bản, IP và các phụ lục PL01–PL07.",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "3 Bổ sung kiểm soát",
+          "Theo từng thiếu sót trong TCVN; phê duyệt thay đổi, triển khai và lưu bằng chứng.",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "4 Kiểm tra và retest",
+          "T01–T12; báo cáo độc lập, BIA/RPO/RTO đo được, đóng phát hiện.",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "5 Ý kiến và thẩm định",
+          "Ý kiến chuyên trách; công văn và bộ hồ sơ đúng phiên bản; giải trình khi yêu cầu.",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "6 Phê duyệt và duy trì",
+          "Quyết định chủ quản; thông báo đúng phạm vi; lịch vận hành, kiểm tra và cập nhật.",
+          "[CẦN ĐIỀN]"
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Thông tin hiện trạng"
+        ],
+        [
+          "Mã dịch vụ; tên; chức năng",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "Đối tượng và phạm vi phục vụ",
+          "[Nhóm khách hàng; địa bàn; số tenant; nghiệp vụ]"
+        ],
+        [
+          "Chủ dịch vụ; đơn vị quản lý",
+          "[Tên; chức năng; đầu mối]"
+        ],
+        [
+          "Thành phần và vị trí triển khai",
+          "[DC/DR; asset ID; cụm; vùng mạng; endpoint]"
+        ],
+        [
+          "Phần mềm và hệ điều hành",
+          "[Tên; phiên bản; bản dựng; giấy phép; EOL]"
+        ],
+        [
+          "Dữ liệu và dịch vụ phụ thuộc",
+          "[Mã PL05; IAM/DNS/KMS/DB/queue/storage và bên ngoài]"
+        ],
+        [
+          "Ranh giới trách nhiệm",
+          "[XOR/khách hàng/nhà cung cấp; dẫn hợp đồng]"
+        ],
+        [
+          "Năng lực và nghĩa vụ dịch vụ",
+          "[Tải; dung lượng; SLA; lịch hoạt động; dẫn BIA]"
+        ],
+        [
+          "Tài liệu xác nhận",
+          "[Hợp đồng; CMDB; thiết kế; biên bản; mã EV]"
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Thông tin hiện trạng"
+        ],
+        [
+          "Mã tài sản; loại; vai trò",
+          "[CẦN ĐIỀN mã tài sản, loại và vai trò]"
+        ],
+        [
+          "Site và vị trí",
+          "[Cầu Giấy/Nam Thăng Long; phòng; rack; U; địa chỉ thực tế]"
+        ],
+        [
+          "Nhà sản xuất; model; serial",
+          "[CẦN ĐIỀN]"
+        ],
+        [
+          "Cấu hình và phiên bản",
+          "[CPU/RAM/disk/NIC; firmware; hypervisor/OS; license]"
+        ],
+        [
+          "Kết nối vật lý",
+          "[Cổng; peer; fabric A/B; tốc độ; loại cáp; bản vẽ số]"
+        ],
+        [
+          "Nguồn và miền lỗi",
+          "[PDU/UPS/nguồn A/B; rack; failure domain]"
+        ],
+        [
+          "Bảo trì và vòng đời",
+          "[Đơn vị; hợp đồng; EOL/EOS; lịch bảo trì]"
+        ],
+        [
+          "Trách nhiệm và hiện trạng",
+          "[Chủ sở hữu; người quản lý; hoạt động/dự phòng; ngày kiểm kê]"
+        ],
+        [
+          "Hồ sơ hiện trạng",
+          "[Bản vẽ vật lý; số/ngày phê duyệt hoặc tài liệu tương đương; EV]"
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Thông tin hiện trạng"
+        ],
+        [
+          "Mã mạng; chức năng; site",
+          "[CẦN ĐIỀN; vùng Z01–Z12 tương ứng]"
+        ],
+        [
+          "Định danh phân đoạn",
+          "[VLAN; VRF; VXLAN/VNI; project; network ID]"
+        ],
+        [
+          "Địa chỉ và điểm cuối",
+          "[CIDR; gateway; IP private/public; VIP; FQDN; asset ID]"
+        ],
+        [
+          "Định tuyến",
+          "[Bảng route; next-hop; miền định tuyến; đích được phép]"
+        ],
+        [
+          "Ranh giới và kiểm soát",
+          "[FW/SG/ACL/SDN; mã rule; chặn mặc định; chống giả mạo]"
+        ],
+        [
+          "Quản trị và truy cập Internet",
+          "[Đường PAM; OOB; kiểm chứng mạng quản trị không kết nối Internet]"
+        ],
+        [
+          "HA và phụ thuộc",
+          "[Peer; fabric; LB; DNS; NTP; khả năng failover]"
+        ],
+        [
+          "Chủ mạng và thay đổi",
+          "[Đơn vị; đầu mối; ticket; ngày phê duyệt]"
+        ],
+        [
+          "Hồ sơ hiện trạng",
+          "[Bản vẽ lô-gic; bảng IP; export route/rule đã xử lý bí mật; EV]"
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Thông tin hiện trạng"
+        ],
+        [
+          "Mã luồng; mục đích",
+          "[CẦN ĐIỀN; căn cứ nghiệp vụ]"
+        ],
+        [
+          "Hệ thống nguồn và đích",
+          "[Tên; chủ quản; cấp độ đã phê duyệt nếu có; bên chịu trách nhiệm]"
+        ],
+        [
+          "Điểm kết nối",
+          "[Site; vùng; asset/IP/FQDN; cổng; giao thức; chiều khởi tạo]"
+        ],
+        [
+          "Thông tin trao đổi",
+          "[Mã dữ liệu PL05; phân loại; dung lượng/tần suất]"
+        ],
+        [
+          "Xác thực và quyền",
+          "[Danh tính kỹ thuật; phạm vi quyền; cơ chế xác thực; chu kỳ đổi khóa]"
+        ],
+        [
+          "Mã hóa và kiểm tra toàn vẹn",
+          "[Giao thức; bộ mật mã; chứng thư; cơ chế bảo vệ theo phân loại]"
+        ],
+        [
+          "Kiểm soát tại biên",
+          "[Rule/allowlist; WAF/IPS/gateway; kiểm soát tương đương nếu áp dụng]"
+        ],
+        [
+          "Nhật ký và giám sát",
+          "[Trường log; đích collector; retention; cảnh báo; người quản lý]"
+        ],
+        [
+          "Phê duyệt và kiểm thử",
+          "[Người duyệt; thời hạn; ticket; phép thử cho phép/từ chối; EV]"
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Thông tin hiện trạng"
+        ],
+        [
+          "Mã tập dữ liệu; mô tả",
+          "[CẦN ĐIỀN; nguồn và mục đích xử lý]"
+        ],
+        [
+          "Chủ sở hữu và trách nhiệm",
+          "[Chủ dữ liệu; bên xử lý; XOR/khách hàng; căn cứ hợp đồng]"
+        ],
+        [
+          "Phân loại và căn cứ",
+          "[Độ nhạy cảm; nghĩa vụ pháp lý/chuyên ngành; người phê duyệt]"
+        ],
+        [
+          "Nơi lưu và bản sao",
+          "[Site; hệ thống; volume/bucket/DB; replica; backup; môi trường thử]"
+        ],
+        [
+          "Ma trận quyền",
+          "[Nhóm/danh tính; đọc/ghi/xuất/xóa; phê duyệt; ngày rà soát]"
+        ],
+        [
+          "Mã hóa và quản lý khóa",
+          "[Khi truyền/lưu; KMS/HSM nếu dùng; chủ khóa; khôi phục/thu hồi]"
+        ],
+        [
+          "Lưu giữ và hủy",
+          "[Thời hạn; căn cứ; phương pháp; bản sao; biên bản xác minh]"
+        ],
+        [
+          "Theo dõi và phục hồi",
+          "[Audit/DLP/toàn vẹn; job backup; RPO/RTO; phép thử]"
+        ],
+        [
+          "Bằng chứng",
+          "[Danh mục; cấu hình che bí mật; log; ticket quyền; EV]"
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Thông tin hiện trạng"
+        ],
+        [
+          "Dịch vụ và mục tiêu được duyệt",
+          "[Mã PL01/BIA; RPO; RTO; MTD; người/ngày phê duyệt]"
+        ],
+        [
+          "Phụ thuộc và thứ tự khôi phục",
+          "[Mạng/thời gian/DNS/IAM/KMS/storage/DB/queue/API/workload]"
+        ],
+        [
+          "HA và quorum",
+          "[Cụm tại từng IDC; số thành viên; failure domain; ngưỡng chịu lỗi]"
+        ],
+        [
+          "Sao lưu",
+          "[Dữ liệu/cấu hình/khóa; job; lịch; retention; mã hóa; kho độc lập]"
+        ],
+        [
+          "Đồng bộ DC–DR",
+          "[Cơ chế; chiều; lịch; độ trễ đo; băng thông; kiểm tra nhất quán]"
+        ],
+        [
+          "Năng lực DR và rủi ro chung",
+          "[Tải đáp ứng; nguồn điện; ISP/tuyến cáp; rủi ro đồng thời; biện pháp]"
+        ],
+        [
+          "Kích hoạt và chuyển đổi",
+          "[Ngưỡng; người quyết định; fencing; runbook; truyền thông]"
+        ],
+        [
+          "Chuyển về và khởi động nguội",
+          "[Điều kiện; đồng bộ ngược; rollback; bí mật khẩn cấp; phép thử]"
+        ],
+        [
+          "Kết quả xác nhận",
+          "[Ngày; kịch bản; RPO/RTO đo được; đối soát; tồn tại; EV]"
+        ]
+      ],
+      [
+        [
+          "Trường thông tin",
+          "Thông tin hiện trạng"
+        ],
+        [
+          "Thành phần và phạm vi",
+          "[Dịch vụ; site; asset/cụm; môi trường]"
+        ],
+        [
+          "Nguồn và bản dựng",
+          "[CẦN ĐIỀN nguồn phần mềm; phiên bản XOR; commit/tag; digest]"
+        ],
+        [
+          "Khác biệt và thành phần phụ thuộc",
+          "[Bản vá/tùy biến; SBOM; thư viện; giấy phép; hỗ trợ]"
+        ],
+        [
+          "Baseline cấu hình",
+          "[Mã/phiên bản; hardening; IAM; log; giao thức; người duyệt]"
+        ],
+        [
+          "Chuỗi phát hành",
+          "[Kho mã; pipeline; runner; registry; người review và duyệt]"
+        ],
+        [
+          "Kiểm tra trước phát hành",
+          "[SAST/SCA/secret scan/DAST/pentest; phạm vi; kết quả; retest]"
+        ],
+        [
+          "Triển khai và quay lui",
+          "[Ticket; ngày; cửa sổ; bản trước/sau; phương án rollback]"
+        ],
+        [
+          "Theo dõi vận hành",
+          "[Drift; CVE; vá; EOL; tương thích và hiệu năng]"
+        ],
+        [
+          "Bằng chứng và phê duyệt",
+          "[Release manifest; log triển khai; biên bản; người ký; EV]"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/05_Cong_van_de_nghi_tham_dinh.docx": {
+    "paragraphs": [
+      "V/v đề nghị thẩm định hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD",
+      "Kính gửi: Bộ Công an [CẦN ĐIỀN đơn vị tiếp nhận].",
+      "Căn cứ Luật An ninh mạng số 116/2025/QH15;",
+      "Căn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin;",
+      "Căn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan, tổ chức].",
+      "Công ty Cổ phần XOR CLOUD đề nghị thẩm định hồ sơ đề xuất cấp độ đối với hệ thống XOR SECURE CLOUD với các nội dung sau:",
+      "Phần 1 Thông tin chung",
+      "1. Tên hệ thống thông tin: XOR SECURE CLOUD.",
+      "2. Đơn vị vận hành hệ thống thông tin: Khối Hạ tầng & Vận hành.",
+      "3. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà Nội.",
+      "4. Cấp độ hệ thống thông tin đề xuất: Cấp độ 4.",
+      "Phạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung; DC tại Trung tâm Hạ tầng IDC Cầu Giấy, DR tại Trung tâm Hạ tầng IDC Nam Thăng Long.",
+      "Phần 2 Hồ sơ kèm theo",
+      "1. Tài liệu mô tả, thuyết minh tổng quan hệ thống thông tin.",
+      "2. Thiết kế thi công đã được phê duyệt hoặc tài liệu có giá trị tương đương, kèm phụ lục hiện trạng.",
+      "3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi ro chi tiết.",
+      "4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu cầu và quy trình.",
+      "5. Ý kiến chuyên môn của đơn vị chuyên trách về an ninh mạng của chủ quản: số [  ], ngày [  ].",
+      "Danh mục tệp, phiên bản và số trang: [CẦN ĐIỀN danh mục đã đóng phiên bản].",
+      "Đề nghị Quý cơ quan xem xét, cho ý kiến thẩm định hồ sơ đề xuất cấp độ đối với hệ thống XOR SECURE CLOUD để chủ quản tổ chức phê duyệt và thực hiện biện pháp bảo vệ theo quy định.",
+      "Chủ quản chịu trách nhiệm về thông tin, tài liệu gửi kèm và phối hợp cung cấp, giải trình theo yêu cầu. Đầu mối: [CẦN ĐIỀN]."
+    ],
+    "tables": [
+      [
+        [
+          "CÔNG TY CỔ PHẦN XOR CLOUD\nSố: [CẦN ĐIỀN]/[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "TỔNG GIÁM ĐỐC\n\n\n\nLê Anh Vũ"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/12_Thong_bao_cap_do.docx": {
+    "paragraphs": [
+      "THÔNG BÁO",
+      "Về cấp độ hệ thống thông tin XOR SECURE CLOUD",
+      "Căn cứ Quyết định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của Công ty Cổ phần XOR CLOUD về việc phê duyệt cấp độ hệ thống thông tin XOR SECURE CLOUD, Công ty Cổ phần XOR CLOUD thông báo:",
+      "1. Tên hệ thống thông tin: XOR SECURE CLOUD. Đơn vị vận hành: Khối Hạ tầng & Vận hành.",
+      "2. Cấp độ được phê duyệt: [CẦN ĐIỀN theo Quyết định phê duyệt]. Phạm vi: [CẦN ĐIỀN dịch vụ, hạ tầng, địa điểm và phiên bản hồ sơ được phê duyệt].",
+      "3. Văn bản thẩm định và phê duyệt: [CẦN ĐIỀN số, ngày, cơ quan ban hành và phạm vi]. Tình trạng thực hiện biện pháp bảo đảm an ninh mạng tại ngày thông báo: [CẦN ĐIỀN kết quả được xác nhận và điều kiện còn lại nếu có].",
+      "4. Ranh giới trách nhiệm giữa XOR và khách hàng được xác định tại [CẦN ĐIỀN hợp đồng hoặc phụ lục trách nhiệm]. Phạm vi hệ thống khách hàng thuộc hồ sơ này: [CẦN ĐIỀN phạm vi cụ thể hoặc xác nhận không thuộc phạm vi].",
+      "5. Đầu mối cung cấp thông tin: [CẦN ĐIỀN họ tên, chức vụ, điện thoại, email]. Việc rà soát và cập nhật khi thay đổi phạm vi, cấp độ được thực hiện theo quy định."
+    ],
+    "tables": [
+      [
+        [
+          "CÔNG TY CỔ PHẦN XOR CLOUD\nSố: [CẦN ĐIỀN]/TB-[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\n[CẦN ĐIỀN đối tượng nhận thông báo];\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "TỔNG GIÁM ĐỐC\n\n\n\nLê Anh Vũ"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/08_Y_kien_chuyen_mon.docx": {
+    "paragraphs": [
+      "Ý KIẾN CHUYÊN MÔN",
+      "Về hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD",
+      "Kính gửi: Khối Hạ tầng & Vận hành.",
+      "Căn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin; căn cứ Công văn số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của Khối Hạ tầng & Vận hành về việc xin ý kiến chuyên môn đối với hồ sơ đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD;",
+      "Trung tâm Vận hành có ý kiến đối với hồ sơ như sau:",
+      "1. Phạm vi xem xét",
+      "",
+      "2. Ý kiến đối với hồ sơ",
+      "",
+      "3. Kết luận và kiến nghị",
+      "[CẦN ĐIỀN kết luận của đơn vị chuyên trách về sự phù hợp của cấp độ đề xuất và phương án bảo đảm an ninh mạng; nội dung cần hoàn thiện và kiến nghị]."
+    ],
+    "tables": [
+      [
+        [
+          "TRUNG TÂM VẬN HÀNH\nSố: [CẦN ĐIỀN]/[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nội dung",
+          "Thông tin"
+        ],
+        [
+          "Hệ thống",
+          "XOR SECURE CLOUD; toàn bộ nền tảng XOR STACK CLOUD và dịch vụ quản trị chung tại DC Cầu Giấy và DR Nam Thăng Long."
+        ],
+        [
+          "Hồ sơ xem xét",
+          "[CẦN ĐIỀN mã, phiên bản, ngày, danh mục tài liệu]"
+        ],
+        [
+          "Phân công thực hiện",
+          "[CẦN ĐIỀN số, ngày văn bản phân công; người thực hiện và cơ chế độc lập chuyên môn]"
+        ],
+        [
+          "Thời gian và giới hạn",
+          "[CẦN ĐIỀN thời gian, phương pháp, phạm vi lấy mẫu và phần ngoài phạm vi]"
+        ]
+      ],
+      [
+        [
+          "Nội dung xem xét",
+          "Ý kiến và căn cứ"
+        ],
+        [
+          "Phạm vi và tiêu chí cấp độ",
+          "[CẦN ĐIỀN kết quả phù hợp/chưa phù hợp/chưa đủ cơ sở; khoản áp dụng tại Điều 14 và mã bằng chứng]"
+        ],
+        [
+          "Tổng quan và thiết kế",
+          "[CẦN ĐIỀN kết quả đối chiếu Điều 21–22; thiết kế, tài sản, dịch vụ và văn bản phê duyệt]"
+        ],
+        [
+          "Đánh giá rủi ro",
+          "[CẦN ĐIỀN kết quả xem xét BIA, phụ thuộc, tác động và căn cứ hoạt động liên tục]"
+        ],
+        [
+          "Biện pháp bảo đảm ANM",
+          "[CẦN ĐIỀN yêu cầu đáp ứng, chưa đáp ứng, tình trạng triển khai và mã bằng chứng]"
+        ],
+        [
+          "Kiểm thử và vận hành",
+          "[CẦN ĐIỀN phạm vi, ngày, phiên bản, kết quả và giới hạn kiểm tra]"
+        ],
+        [
+          "Nội dung cần bổ sung",
+          "[CẦN ĐIỀN yêu cầu, tài liệu, đơn vị chịu trách nhiệm và thời hạn]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "ĐẠI DIỆN ĐƠN VỊ CHUYÊN TRÁCH VỀ AN NINH MẠNG\n\n\n\n[CẦN ĐIỀN người ký theo phân công]"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/11_Cong_van_de_nghi_danh_gia.docx": {
+    "paragraphs": [
+      "V/v đề nghị đánh giá độc lập hệ thống XOR SECURE CLOUD",
+      "Kính gửi: [CẦN ĐIỀN cơ quan, tổ chức đánh giá].",
+      "Công ty Cổ phần XOR CLOUD đề nghị Quý cơ quan, tổ chức đánh giá độc lập hệ thống XOR SECURE CLOUD với các nội dung sau:",
+      "1. Phạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung tại DC Cầu Giấy, DR Nam Thăng Long; danh mục tài sản và phiên bản theo hồ sơ kèm theo.",
+      "2. Cơ sở đánh giá: yêu cầu áp dụng đối với hệ thống thông tin cấp độ 4 và TCVN 14423:2026. Tiêu chuẩn, quy chuẩn hoặc chương trình bổ sung: [CẦN ĐIỀN nếu áp dụng].",
+      "3. Nội dung: đánh giá biện pháp quản lý, kỹ thuật, vật lý; đối chiếu thiết kế, hiện trạng và bằng chứng; kiểm thử theo phạm vi thống nhất; xác định tồn tại và kiểm tra kết quả khắc phục.",
+      "4. Phương án thực hiện: phương pháp, phạm vi lấy mẫu, phép thử, điều kiện truy cập, bảo mật, lịch thực hiện, đầu mối và chi phí do hai bên thống nhất.",
+      "5. Kết quả: báo cáo đánh giá nêu phạm vi, căn cứ, kết quả và giới hạn. Nếu thực hiện chứng nhận sự phù hợp, đề nghị xác định chương trình, thẩm quyền/năng lực chứng nhận, loại văn bản, thời hạn và điều kiện duy trì.",
+      "6. Tài liệu kèm theo: [CẦN ĐIỀN danh mục hồ sơ, phiên bản, ngày và số trang].",
+      "Đề nghị Quý cơ quan, tổ chức có ý kiến bằng văn bản để hai bên thống nhất phạm vi và kế hoạch thực hiện. Đầu mối phối hợp: Chử Quang Thắng — Giám đốc Vận hành; [CẦN ĐIỀN điện thoại, email]."
+    ],
+    "tables": [
+      [
+        [
+          "CÔNG TY CỔ PHẦN XOR CLOUD\nSố: [CẦN ĐIỀN]/[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "TỔNG GIÁM ĐỐC\n\n\n\nLê Anh Vũ"
+        ]
+      ]
+    ]
+  },
+  "Bo-2-Hanh-chinh/06_To_trinh_phe_duyet.docx": {
+    "paragraphs": [
+      "TỜ TRÌNH",
+      "Về việc phê duyệt đề xuất cấp độ 4 hệ thống XOR SECURE CLOUD",
+      "Kính gửi: Công ty Cổ phần XOR CLOUD.",
+      "Căn cứ Luật An ninh mạng số 116/2025/QH15;",
+      "Căn cứ Nghị định số 331/2026/NĐ-CP ngày 19 tháng 8 năm 2026 của Chính phủ về bảo vệ an ninh mạng đối với hệ thống thông tin;",
+      "Căn cứ [CẦN ĐIỀN văn bản về chức năng, nhiệm vụ, thẩm quyền của cơ quan, tổ chức].",
+      "Căn cứ ý kiến thẩm định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của [CƠ QUAN CHỦ TRÌ THẨM ĐỊNH]; căn cứ ý kiến chuyên môn số [  ] ngày [  ] và hồ sơ giải trình/hoàn thiện [  ];",
+      "Khối Hạ tầng & Vận hành trình chủ quản phê duyệt hồ sơ đề xuất cấp độ với các nội dung sau:",
+      "Phần 1 Thông tin chung",
+      "1. Tên hệ thống thông tin: XOR SECURE CLOUD.",
+      "2. Đơn vị vận hành hệ thống thông tin: Khối Hạ tầng & Vận hành.",
+      "3. Địa chỉ: Tầng 7, Tòa nhà Việt Á, số 09 phố Duy Tân, phường Cầu Giấy, TP Hà Nội.",
+      "4. Cấp độ hệ thống thông tin đề xuất: Cấp độ 4.",
+      "Phạm vi: toàn bộ XOR STACK CLOUD và dịch vụ quản trị chung; DC tại Trung tâm Hạ tầng IDC Cầu Giấy, DR tại Trung tâm Hạ tầng IDC Nam Thăng Long.",
+      "Phần 2 Hồ sơ kèm theo",
+      "1. Tài liệu mô tả, thuyết minh tổng quan hệ thống thông tin.",
+      "2. Thiết kế thi công đã được phê duyệt hoặc tài liệu có giá trị tương đương, kèm phụ lục hiện trạng.",
+      "3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi ro chi tiết.",
+      "4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu cầu và quy trình.",
+      "5. Ý kiến chuyên môn của đơn vị chuyên trách về an ninh mạng của chủ quản: số [  ], ngày [  ].",
+      "6. Ý kiến thẩm định của cơ quan chủ trì thẩm định và tài liệu phối hợp liên quan: số [  ], ngày [  ]; giải trình/khắc phục kèm theo nếu có.",
+      "Danh mục tệp, phiên bản và số trang: [CẦN ĐIỀN danh mục đã đóng phiên bản].",
+      "Phần 3 Nội dung đề nghị",
+      "Đề nghị chủ quản xem xét, quyết định phê duyệt cấp độ 4 đối với hệ thống XOR SECURE CLOUD trong phạm vi hồ sơ kèm theo; giao đơn vị vận hành thực hiện phương án bảo đảm an ninh mạng và giao đơn vị chuyên trách kiểm tra, giám sát theo quy định.",
+      "Tình trạng tiếp thu ý kiến thẩm định và các điều kiện còn phải thực hiện: [CẦN ĐIỀN nội dung tiếp thu, tình trạng thực hiện và mã bằng chứng]."
+    ],
+    "tables": [
+      [
+        [
+          "KHỐI HẠ TẦNG & VẬN HÀNH\nSố: [CẦN ĐIỀN]/TTr-[KÝ HIỆU]",
+          "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nHà Nội, ngày [  ] tháng [  ] năm [  ]"
+        ]
+      ],
+      [
+        [
+          "Nơi nhận:\nNhư trên;\nLưu: hồ sơ XOR SECURE CLOUD.",
+          "GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\n\n\n\nTrần Văn Dũng"
+        ]
+      ]
+    ]
+  }
+}

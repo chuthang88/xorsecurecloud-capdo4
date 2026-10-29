@@ -1,0 +1,69 @@
+{
+  "docx_count": 11,
+  "word_pages": 90,
+  "pages_by_file": [
+    {
+      "file": "01_So_tay_ra_soat_ky_thuat.pdf",
+      "pages": 12
+    },
+    {
+      "file": "00_Huong_dan_hoan_thien_va_trinh_ho_so.pdf",
+      "pages": 3
+    },
+    {
+      "file": "01_Thuyet_minh_ho_so_de_xuat_cap_do_4.pdf",
+      "pages": 21
+    },
+    {
+      "file": "02_Phu_luc_doi_chieu_yeu_cau_TCVN.pdf",
+      "pages": 25
+    },
+    {
+      "file": "03_Quy_che_va_quy_trinh_bao_dam_ANM.pdf",
+      "pages": 14
+    },
+    {
+      "file": "04_Cong_van_xin_y_kien_chuyen_mon_Mau_03.pdf",
+      "pages": 2
+    },
+    {
+      "file": "05_Cong_van_de_nghi_tham_dinh_Mau_02.pdf",
+      "pages": 2
+    },
+    {
+      "file": "06_To_trinh_phe_duyet_Mau_05.pdf",
+      "pages": 2
+    },
+    {
+      "file": "07_Du_thao_Quyet_dinh_phe_duyet_Mau_06.pdf",
+      "pages": 2
+    },
+    {
+      "file": "08_Y_kien_chuyen_mon_va_Bao_cao_tu_ra_soat.pdf",
+      "pages": 4
+    },
+    {
+      "file": "09_Thong_bao_cap_do_va_De_nghi_danh_gia.pdf",
+      "pages": 3
+    }
+  ],
+  "xlsx_sheets": 10,
+  "xlsx_formulas": 249,
+  "formula_errors": 0,
+  "status_test_cases": 6,
+  "visual_review": "All current pages reviewed; unchanged pages verified using render image hashes. Workbook previews reviewed.",
+  "archives": [
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2/Bo-1-Ky-thuat-XOR-CD4.zip",
+      "files": 5,
+      "bytes": 814479,
+      "sha256": "f1d65a32f624c185c496aadb7dc1c3adff46590347cf8c0f64202bb962d9997b"
+    },
+    {
+      "path": "/Users/thangchu/Documents/ChatGPT/XOR Secure Cloud/output/XOR-Ho-so-CD4-v2/Bo-2-Hanh-chinh-XOR-CD4.zip",
+      "files": 13,
+      "bytes": 1818214,
+      "sha256": "28e7e7ad4e00a309f6d7eb55b0c3a24dbdb6a8f7bfdccfb3d3bf7abf0c830c3b"
+    }
+  ]
+}

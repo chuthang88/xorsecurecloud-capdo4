@@ -1,0 +1,1208 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 button WEB-Horizon, Help: WEB-Horizon · http://10.3.10.100/
+						9 text WEB-Horizon
+					10 pop up button New connection
+					11 container
+						12 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						13 pop up button Chử Quang Thắng
+						14 toggle button Description: Open right panel, Value: 0
+					15 container
+						16 outline Resource
+							17 container
+								18 button Assets
+								19 button Switch to type tree
+								20 button Refresh
+								21 pop up button Batch actions
+								22 container
+									23 button Recent connections
+										24 text Recent connections
+									25 button Clear recent connections
+								26 button DEFAULT (35), Help: DEFAULT
+									27 text DEFAULT
+									28 text (35)
+								29 container
+									30 row XOR Infrastructure (35)
+										31 button XOR Infrastructure (35), Help: XOR Infrastructure
+											32 text XOR Infrastructure
+											33 text (35)
+										34 container
+											35 row Application VMs (6)
+												36 button Application VMs (6), Help: Application VMs
+													37 text Application VMs
+													38 text (6)
+											39 row Ceph (3)
+												40 button Ceph (3), Help: Ceph
+													41 text Ceph
+													42 text (3)
+											43 row Compute (3)
+												44 button Compute (3), Help: Compute
+													45 text Compute
+													46 text (3)
+											47 row Controllers (3)
+												48 button Controllers (3), Help: Controllers
+													49 text Controllers
+													50 text (3)
+											51 row Proxmox (3)
+												52 button Proxmox (3), Help: Proxmox
+													53 text Proxmox
+													54 text (3)
+											55 row Security Services (9)
+												56 button Security Services (9), Help: Security Services
+													57 text Security Services
+													58 text (9)
+											59 row Web Management (8)
+												60 button Web Management (8), Help: Web Management
+													61 text Web Management
+													62 text (8)
+												63 container
+													64 row WEB-Ceph-Dashboard
+														65 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															66 text WEB-Ceph-Dashboard
+													67 row WEB-FortiGate
+														68 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															69 text WEB-FortiGate
+													70 row WEB-Horizon
+														71 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Horizon
+													73 row WEB-Proxmox-01
+														74 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-Proxmox-01
+													76 row WEB-Proxmox-02
+														77 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Proxmox-02
+													79 row WEB-Proxmox-03
+														80 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-03
+													82 row WEB-Wazuh
+														83 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Wazuh
+													85 row WEB-XOR-Portal
+														86 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-XOR-Portal
+									88 row Wazuh-01
+										89 button Wazuh-01, Help: 10.3.70.94
+											90 text Wazuh-01
+						91 button Favorites Create folder Refresh
+							92 text Favorites
+							93 container
+								94 button Create folder
+								95 button Refresh
+					96 container
+						97 button 后退
+						98 button 前进
+						99 button 刷新
+						100 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100:9999/security-center/posture/findings
+						101 button 会话状态：已通过代理连接 · 账号代填未配置
+					102 text Signed in Chử Quang Thắng
+					103 text WEB-XOR-Portal HTTP 2 tabs 2 connected
+					104 button Description: Transfer center, Help: Transfer queue
+					105 pop up button (disabled) Virtual keyboard
+				106 container Notifications (F8)
+					107 content list
+			108 HTML content XOR Cloud, URL: 10.3.10.100:9999/security-center/posture/findings
+				109 container
+					110 container
+						111 image menu-icon
+						112 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						113 container
+							114 text Cloud
+							115 image down
+						116 button
+						117 image appstore
+						118 text admin
+						119 image swap
+						120 text Default
+						121 link Description: Administrator, Value: 10.3.10.100:9999/base/overview-admin
+						122 image bell
+						123 button user
+							124 image user
+					125 menu Secondary Actions: Cancel
+						126 Home Home
+							127 image Home
+							128 text Home
+						129 Compute Compute
+							130 pop up button Compute Compute
+								131 image Compute
+								132 text Compute
+							133 menu Secondary Actions: Cancel
+								134 Instances
+								135 Instance Snapshots
+								136 Flavors
+								137 Server Groups
+								138 Images
+								139 Key Pairs
+								140 Autoscale Rules (V)
+								141 Autoscale History
+								142 Auto Scaling Groups
+								143 ASG History
+						144 Storage Storage
+							145 pop up button Storage Storage
+								146 image Storage
+								147 text Storage
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+							168 menu Secondary Actions: Cancel
+								169 Monitor Overview
+								170 Alarm Rules
+								171 Notification Channels
+								172 Alarm History
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+						179 Security Posture
+						180 Web Application Firewall
+						181 Vulnerability Management
+						182 SIEM
+						183 Endpoint Security
+						184 Network Detection
+						185 Data Protection
+						186 Automation
+						187 Network Access Control
+					188 image left
+				189 container X-OR Security Center
+					190 HTML content X-OR Security Posture, URL: 10.3.10.100:9999/security-posture.html?v=sec54&section=findings
+						191 container
+							192 text X-OR CLOUD SECURITY / POSTURE
+							193 text Security Posture
+							194 text Read-only OpenStack inventory, misconfiguration checks and controlled remediation tracking for the current project.
+							195 container
+								196 text active operator
+							197 button Export CSV, Help: Findings with control references, score and metered usage
+							198 button Printable report, Help: Opens a printable report; use Print > Save as PDF
+							199 button Refresh
+							200 button Run posture scan
+							201 button Overview
+							202 button Assets
+							203 button Scans
+							204 button Findings
+							205 button Policies
+							206 button Remediation
+							207 text Findings
+							208 text Prioritized, project-scoped misconfiguration findings with evidence and recommended action.
+							209 pop up button All severities
+								210 (selected) All severities
+							211 pop up button Open
+								212 (selected) Open
+							213 table
+								214 row
+									215 column header
+										216 text FINDING
+									217 column header
+										218 text SEVERITY
+									219 column header
+										220 text ASSET
+									221 column header
+										222 text STATUS
+									223 column header
+										224 text LAST SEEN
+									225 column header
+										226 text ACTION
+								227 row
+									228 cell
+										229 text Images have cryptographic signature verification enabled
+										230 text Image ubuntu26.04 (385fc519-5c88-46fc-8416-a4b794115d00) does not have all signature verification properties configured.
+										231 text Recommendation: Sign all production images using Barbican-managed certificates. Enable signature verification in Nova (verify_glance_signatures=True). Implement an image signing pipeline in CI/CD. Regularly rotate signing certificates and audit image signatures.
+									232 cell
+										233 text high
+									234 cell
+										235 text image
+										236 text 385fc519-5c88-46fc-8416-a4b794115d00
+									237 cell
+										238 text open
+									239 cell
+										240 text 10/9/2026, 2:49:15 AM
+									241 cell
+										242 button Acknowledge
+										243 button Plan
+										244 button Resolve
+								245 row
+									246 cell
+										247 text DHCP is enabled on subnets
+										248 text Subnet xor-vpc-transit-router-gateways (8a2ab491-de8d-4b07-95c2-f316aff952f2) on network ac9a43d4-6c6f-421f-bdd5-409423d2bb8d has DHCP disabled, which may prevent instances from obtaining IP addresses automatically.
+										249 text Recommendation: Enable DHCP on all subnets unless there is a documented reason for static IP assignment. Use DHCP for automated IP management, simplified instance deployment, and proper cloud-init functionality. For environments requiring static IPs, use DHCP reservations or allowed-address-pairs instead of disabling DHCP entirely.
+									250 cell
+										251 text medium
+									252 cell
+										253 text subnet
+										254 text 8a2ab491-de8d-4b07-95c2-f316aff952f2
+									255 cell
+										256 text open
+									257 cell
+										258 text 10/9/2026, 2:49:15 AM
+									259 cell
+										260 button Acknowledge
+										261 button Plan
+										262 button Resolve
+								263 row
+									264 cell
+										265 text Images have hardware memory encryption enabled
+										266 text Image virtio-win (a51d9f98-dce6-42a4-a500-a78487c400c8) does not have hardware memory encryption enabled.
+										267 text Recommendation: Enable hardware memory encryption on images processing sensitive data. Ensure compute hosts support AMD SEV or equivalent technology. Create dedicated SEV-enabled flavors and host aggregates. Test workload compatibility with memory encryption before production deployment.
+									268 cell
+										269 text medium
+									270 cell
+										271 text image
+										272 text a51d9f98-dce6-42a4-a500-a78487c400c8
+									273 cell
+										274 text open
+									275 cell
+										276 text 10/9/2026, 2:49:15 AM
+									277 cell
+										278 button Acknowledge
+										279 button Plan
+										280 button Resolve
+								281 row
+									282 cell
+										283 text Images are not publicly visible to all tenants
+										284 text Image ubuntu26.04 (385fc519-5c88-46fc-8416-a4b794115d00) is publicly visible to all tenants.
+										285 text Recommendation: Set image visibility to 'private' or 'shared' with specific trusted projects. Regularly audit image visibility settings. Implement policies to prevent creation of public images in production environments.
+									286 cell
+										287 text high
+									288 cell
+										289 text image
+										290 text 385fc519-5c88-46fc-8416-a4b794115d00
+									291 cell
+										292 text open
+									293 cell
+										294 text 10/9/2026, 2:49:15 AM
+									295 cell
+										296 button Acknowledge
+										297 button Plan
+										298 button Resolve
+								299 row
+									300 cell
+										301 text DHCP is enabled on subnets
+										302 text Subnet xor-public-203.162.235.112-29 (7a5d3ce1-fb74-442d-af61-a8051d4c3f6b) on network ac9a43d4-6c6f-421f-bdd5-409423d2bb8d has DHCP disabled, which may prevent instances from obtaining IP addresses automatically.
+										303 text Recommendation: Enable DHCP on all subnets unless there is a documented reason for static IP assignment. Use DHCP for automated IP management, simplified instance deployment, and proper cloud-init functionality. For environments requiring static IPs, use DHCP reservations or allowed-address-pairs instead of disabling DHCP entirely.
+									304 cell
+										305 text medium
+									306 cell
+										307 text subnet
+										308 text 7a5d3ce1-fb74-442d-af61-a8051d4c3f6b
+									309 cell
+										310 text open
+									311 cell
+										312 text 10/9/2026, 2:49:15 AM
+									313 cell
+										314 button Acknowledge
+										315 button Plan
+										316 button Resolve
+								317 row
+									318 cell
+										319 text Images have hardware memory encryption enabled
+										320 text Image ubuntu26.04 (385fc519-5c88-46fc-8416-a4b794115d00) does not have hardware memory encryption enabled.
+										321 text Recommendation: Enable hardware memory encryption on images processing sensitive data. Ensure compute hosts support AMD SEV or equivalent technology. Create dedicated SEV-enabled flavors and host aggregates. Test workload compatibility with memory encryption before production deployment.
+									322 cell
+										323 text medium
+									324 cell
+										325 text image
+										326 text 385fc519-5c88-46fc-8416-a4b794115d00
+									327 cell
+										328 text open
+									329 cell
+										330 text 10/9/2026, 2:49:15 AM
+									331 cell
+										332 button Acknowledge
+										333 button Plan
+										334 button Resolve
+								335 row
+									336 cell
+										337 text Images have deletion protection enabled
+										338 text Image ubuntu24.04 (f5d01354-60ac-4563-9e91-ac3bbf3e2999) does not have deletion protection enabled.
+										339 text Recommendation: Enable deletion protection on all production images to prevent accidental or malicious removal. Implement image lifecycle management procedures that require explicit unprotection before decommissioning images.
+									340 cell
+										341 text medium
+									342 cell
+										343 text image
+										344 text f5d01354-60ac-4563-9e91-ac3bbf3e2999
+									345 cell
+										346 text open
+									347 cell
+										348 text 10/9/2026, 2:49:15 AM
+									349 cell
+										350 button Acknowledge
+										351 button Plan
+										352 button Resolve
+								353 row
+									354 cell
+										355 text Images are not publicly visible to all tenants
+										356 text Image virtio-win (a51d9f98-dce6-42a4-a500-a78487c400c8) is publicly visible to all tenants.
+										357 text Recommendation: Set image visibility to 'private' or 'shared' with specific trusted projects. Regularly audit image visibility settings. Implement policies to prevent creation of public images in production environments.
+									358 cell
+										359 text high
+									360 cell
+										361 text image
+										362 text a51d9f98-dce6-42a4-a500-a78487c400c8
+									363 cell
+										364 text open
+									365 cell
+										366 text 10/9/2026, 2:49:15 AM
+									367 cell
+										368 button Acknowledge
+										369 button Plan
+										370 button Resolve
+								371 row
+									372 cell
+										373 text Images have Secure Boot set to required
+										374 text Image virtio-win (a51d9f98-dce6-42a4-a500-a78487c400c8) does not have Secure Boot set to required (os_secure_boot=None).
+										375 text Recommendation: Set os_secure_boot to 'required' on all production images. Ensure images use UEFI firmware type (hw_firmware_type=uefi). Test Secure Boot compatibility before enabling in production. Use signed bootloaders and kernel images.
+									376 cell
+										377 text medium
+									378 cell
+										379 text image
+										380 text a51d9f98-dce6-42a4-a500-a78487c400c8
+									381 cell
+										382 text open
+									383 cell
+										384 text 10/9/2026, 2:49:15 AM
+									385 cell
+										386 button Acknowledge
+										387 button Plan
+										388 button Resolve
+								389 row
+									390 cell
+										391 text Images have deletion protection enabled
+										392 text Image xor-windows-tools (355b4928-44da-46ec-a18b-c0e5644bef64) does not have deletion protection enabled.
+										393 text Recommendation: Enable deletion protection on all production images to prevent accidental or malicious removal. Implement image lifecycle management procedures that require explicit unprotection before decommissioning images.
+									394 cell
+										395 text medium
+									396 cell
+										397 text image
+										398 text 355b4928-44da-46ec-a18b-c0e5644bef64
+									399 cell
+										400 text open
+									401 cell
+										402 text 10/9/2026, 2:49:15 AM
+									403 cell
+										404 button Acknowledge
+										405 button Plan
+										406 button Resolve
+								407 row
+									408 cell
+										409 text DHCP is enabled on subnets
+										410 text Subnet xor-public-203.162.235.104-29 (70118b38-cf1d-4cfe-ad92-a72fca4fb8b6) on network ac9a43d4-6c6f-421f-bdd5-409423d2bb8d has DHCP disabled, which may prevent instances from obtaining IP addresses automatically.
+										411 text Recommendation: Enable DHCP on all subnets unless there is a documented reason for static IP assignment. Use DHCP for automated IP management, simplified instance deployment, and proper cloud-init functionality. For environments requiring static IPs, use DHCP reservations or allowed-address-pairs instead of disabling DHCP entirely.
+									412 cell
+										413 text medium
+									414 cell
+										415 text subnet
+										416 text 70118b38-cf1d-4cfe-ad92-a72fca4fb8b6
+									417 cell
+										418 text open
+									419 cell
+										420 text 10/9/2026, 2:49:15 AM
+									421 cell
+										422 button Acknowledge
+										423 button Plan
+										424 button Resolve
+								425 row
+									426 cell
+										427 text Block storage snapshots reference existing volumes
+										428 text Snapshot DB1-before-registry-recovery-20261008 (682c623f-2db7-4e41-b44d-0251f6a22700) references non-existent volume b066b8e2-80ac-4217-bde4-d61bfe23b2d3 and may be orphaned.
+										429 text Recommendation: Review orphaned snapshots regularly and delete those no longer needed. Before deleting a volume, review and clean up associated snapshots. Implement snapshot lifecycle policies to prevent accumulation of orphaned snapshots. Tag snapshots with ownership and purpose metadata.
+									430 cell
+										431 text low
+									432 cell
+										433 text snapshot
+										434 text 682c623f-2db7-4e41-b44d-0251f6a22700
+									435 cell
+										436 text open
+									437 cell
+										438 text 10/9/2026, 2:49:15 AM
+									439 cell
+										440 button Acknowledge
+										441 button Plan
+										442 button Resolve
+								443 row
+									444 cell
+										445 text Images have cryptographic signature verification enabled
+										446 text Image ubuntu24.04 (f5d01354-60ac-4563-9e91-ac3bbf3e2999) does not have all signature verification properties configured.
+										447 text Recommendation: Sign all production images using Barbican-managed certificates. Enable signature verification in Nova (verify_glance_signatures=True). Implement an image signing pipeline in CI/CD. Regularly rotate signing certificates and audit image signatures.
+									448 cell
+										449 text high
+									450 cell
+										451 text image
+										452 text f5d01354-60ac-4563-9e91-ac3bbf3e2999
+									453 cell
+										454 text open
+									455 cell
+										456 text 10/9/2026, 2:49:15 AM
+									457 cell
+										458 button Acknowledge
+										459 button Plan
+										460 button Resolve
+								461 row
+									462 cell
+										463 text Images have Secure Boot set to required
+										464 text Image ubuntu26.04 (385fc519-5c88-46fc-8416-a4b794115d00) does not have Secure Boot set to required (os_secure_boot=None).
+										465 text Recommendation: Set os_secure_boot to 'required' on all production images. Ensure images use UEFI firmware type (hw_firmware_type=uefi). Test Secure Boot compatibility before enabling in production. Use signed bootloaders and kernel images.
+									466 cell
+										467 text medium
+									468 cell
+										469 text image
+										470 text 385fc519-5c88-46fc-8416-a4b794115d00
+									471 cell
+										472 text open
+									473 cell
+										474 text 10/9/2026, 2:49:15 AM
+									475 cell
+										476 button Acknowledge
+										477 button Plan
+										478 button Resolve
+								479 row
+									480 cell
+										481 text Compute instances are not exposed to the internet
+										482 text Instance security-agent-enrollment-test (797ff389-abe4-480f-a900-260c6f4f1ba1) is exposed to the internet with public IP addresses: Public IPv4: 203.162.235.107.
+										483 text Recommendation: Avoid public IPs on application/database instances; use private networks only. Deploy bastion hosts or VPN gateways for operator access. Use load balancers (Octavia, HAProxy) with public IPs for web traffic instead of direct instance exposure. Apply least-privilege security groups. Enable flow logs. Use cloud NAT gateways for outbound access without inbound exposure.
+									484 cell
+										485 text medium
+									486 cell
+										487 text server
+										488 text 797ff389-abe4-480f-a900-260c6f4f1ba1
+									489 cell
+										490 text open
+									491 cell
+										492 text 10/9/2026, 2:49:15 AM
+									493 cell
+										494 button Acknowledge
+										495 button Plan
+										496 button Resolve
+								497 row
+									498 cell
+										499 text Images are not publicly visible to all tenants
+										500 text Image ubuntu24.04 (f5d01354-60ac-4563-9e91-ac3bbf3e2999) is publicly visible to all tenants.
+										501 text Recommendation: Set image visibility to 'private' or 'shared' with specific trusted projects. Regularly audit image visibility settings. Implement policies to prevent creation of public images in production environments.
+									502 cell
+										503 text high
+									504 cell
+										505 text image
+										506 text f5d01354-60ac-4563-9e91-ac3bbf3e2999
+									507 cell
+										508 text open
+									509 cell
+										510 text 10/9/2026, 2:49:15 AM
+									511 cell
+										512 button Acknowledge
+										513 button Plan
+										514 button Resolve
+								515 row
+									516 cell
+										517 text Images have Secure Boot set to required
+										518 text Image ubuntu24.04 (f5d01354-60ac-4563-9e91-ac3bbf3e2999) does not have Secure Boot set to required (os_secure_boot=None).
+										519 text Recommendation: Set os_secure_boot to 'required' on all production images. Ensure images use UEFI firmware type (hw_firmware_type=uefi). Test Secure Boot compatibility before enabling in production. Use signed bootloaders and kernel images.
+									520 cell
+										521 text medium
+									522 cell
+										523 text image
+										524 text f5d01354-60ac-4563-9e91-ac3bbf3e2999
+									525 cell
+										526 text open
+									527 cell
+										528 text 10/9/2026, 2:49:15 AM
+									529 cell
+										530 button Acknowledge
+										531 button Plan
+										532 button Resolve
+								533 row
+									534 cell
+										535 text Compute instances use SSH key-based authentication
+										536 text Instance xor-test-public29 (9a2598c4-0e23-4904-a17a-123555a9cb99) does not have SSH key-based authentication configured (no keypair assigned).
+										537 text Recommendation: Always use SSH keys instead of passwords for instance authentication. Generate keys with strong algorithms (RSA 4096-bit, Ed25519). Protect private keys with passphrases and store securely. Disable password authentication in sshd_config. Rotate keypairs periodically and revoke old keys. Use bastion hosts or VPN for SSH access instead of direct internet exposure.
+									538 cell
+										539 text high
+									540 cell
+										541 text server
+										542 text 9a2598c4-0e23-4904-a17a-123555a9cb99
+									543 cell
+										544 text open
+									545 cell
+										546 text 10/9/2026, 2:49:15 AM
+									547 cell
+										548 button Acknowledge
+										549 button Plan
+										550 button Resolve
+								551 row
+									552 cell
+										553 text Compute instances are isolated in private networks
+										554 text Instance security-agent-enrollment-test (797ff389-abe4-480f-a900-260c6f4f1ba1) has mixed public and private network exposure (not properly isolated).
+										555 text Recommendation: Deploy instances in private networks (RFC1918) with tiered architecture: web tier with public IPs, app/database tiers private only. Never mix public and private IPs on same instance. Use bastion hosts or VPN for operator access, security groups for least-privilege policies, and NAT gateways for outbound access. Enable flow logs to detect lateral movement attempts.
+									556 cell
+										557 text medium
+									558 cell
+										559 text server
+										560 text 797ff389-abe4-480f-a900-260c6f4f1ba1
+									561 cell
+										562 text open
+									563 cell
+										564 text 10/9/2026, 2:49:15 AM
+									565 cell
+										566 button Acknowledge
+										567 button Plan
+										568 button Resolve
+								569 row
+									570 cell
+										571 text Images have hardware memory encryption enabled
+										572 text Image cirros-0.6.3-x86_64 (71094371-9e38-4203-818f-30032f0c9a95) does not have hardware memory encryption enabled.
+										573 text Recommendation: Enable hardware memory encryption on images processing sensitive data. Ensure compute hosts support AMD SEV or equivalent technology. Create dedicated SEV-enabled flavors and host aggregates. Test workload compatibility with memory encryption before production deployment.
+									574 cell
+										575 text medium
+									576 cell
+										577 text image
+										578 text 71094371-9e38-4203-818f-30032f0c9a95
+									579 cell
+										580 text open
+									581 cell
+										582 text 10/9/2026, 2:49:15 AM
+									583 cell
+										584 button Acknowledge
+										585 button Plan
+										586 button Resolve
+								587 row
+									588 cell
+										589 text Images are not publicly visible to all tenants
+										590 text Image cirros-0.6.3-x86_64 (71094371-9e38-4203-818f-30032f0c9a95) is publicly visible to all tenants.
+										591 text Recommendation: Set image visibility to 'private' or 'shared' with specific trusted projects. Regularly audit image visibility settings. Implement policies to prevent creation of public images in production environments.
+									592 cell
+										593 text high
+									594 cell
+										595 text image
+										596 text 71094371-9e38-4203-818f-30032f0c9a95
+									597 cell
+										598 text open
+									599 cell
+										600 text 10/9/2026, 2:49:15 AM
+									601 cell
+										602 button Acknowledge
+										603 button Plan
+										604 button Resolve
+								605 row
+									606 cell
+										607 text Images have cryptographic signature verification enabled
+										608 text Image xor-windows-tools (355b4928-44da-46ec-a18b-c0e5644bef64) does not have all signature verification properties configured.
+										609 text Recommendation: Sign all production images using Barbican-managed certificates. Enable signature verification in Nova (verify_glance_signatures=True). Implement an image signing pipeline in CI/CD. Regularly rotate signing certificates and audit image signatures.
+									610 cell
+										611 text high
+									612 cell
+										613 text image
+										614 text 355b4928-44da-46ec-a18b-c0e5644bef64
+									615 cell
+										616 text open
+									617 cell
+										618 text 10/9/2026, 2:49:15 AM
+									619 cell
+										620 button Acknowledge
+										621 button Plan
+										622 button Resolve
+								623 row
+									624 cell
+										625 text Images have Secure Boot set to required
+										626 text Image cirros-0.6.3-x86_64 (71094371-9e38-4203-818f-30032f0c9a95) does not have Secure Boot set to required (os_secure_boot=None).
+										627 text Recommendation: Set os_secure_boot to 'required' on all production images. Ensure images use UEFI firmware type (hw_firmware_type=uefi). Test Secure Boot compatibility before enabling in production. Use signed bootloaders and kernel images.
+									628 cell
+										629 text medium
+									630 cell
+										631 text image
+										632 text 71094371-9e38-4203-818f-30032f0c9a95
+									633 cell
+										634 text open
+									635 cell
+										636 text 10/9/2026, 2:49:15 AM
+									637 cell
+										638 button Acknowledge
+										639 button Plan
+										640 button Resolve
+								641 row
+									642 cell
+										643 text Images have hardware memory encryption enabled
+										644 text Image xor-windows-tools (355b4928-44da-46ec-a18b-c0e5644bef64) does not have hardware memory encryption enabled.
+										645 text Recommendation: Enable hardware memory encryption on images processing sensitive data. Ensure compute hosts support AMD SEV or equivalent technology. Create dedicated SEV-enabled flavors and host aggregates. Test workload compatibility with memory encryption before production deployment.
+									646 cell
+										647 text medium
+									648 cell
+										649 text image
+										650 text 355b4928-44da-46ec-a18b-c0e5644bef64
+									651 cell
+										652 text open
+									653 cell
+										654 text 10/9/2026, 2:49:15 AM
+									655 cell
+										656 button Acknowledge
+										657 button Plan
+										658 button Resolve
+								659 row
+									660 cell
+										661 text Compute instances have locked status enabled
+										662 text Instance security-agent-enrollment-test (797ff389-abe4-480f-a900-260c6f4f1ba1) does not have locked status enabled.
+										663 text Recommendation: Lock production instances to prevent accidental or unauthorized modifications. Use --reason parameter to document lock purpose. Implement approval workflows requiring consent before unlocking. Apply locks to critical infrastructure (databases, authentication, logging). Use RBAC policies to restrict who can lock/unlock. Audit lock/unlock operations via OpenStack logs.
+									664 cell
+										665 text medium
+									666 cell
+										667 text server
+										668 text 797ff389-abe4-480f-a900-260c6f4f1ba1
+									669 cell
+										670 text open
+									671 cell
+										672 text 10/9/2026, 2:49:15 AM
+									673 cell
+										674 button Acknowledge
+										675 button Plan
+										676 button Resolve
+								677 row
+									678 cell
+										679 text Compute instances have config drive enabled
+										680 text Instance security-agent-enrollment-test (797ff389-abe4-480f-a900-260c6f4f1ba1) does not have config drive enabled (relies on metadata service).
+										681 text Recommendation: Enable config drive on all instances to eliminate metadata service attack surface. Config drive provides metadata via virtual CD-ROM instead of network-accessible service (169.254.169.254), preventing SSRF attacks. Combine with firewall rules blocking metadata service access from applications. Use config drive in air-gapped environments where metadata service is unavailable.
+									682 cell
+										683 text low
+									684 cell
+										685 text server
+										686 text 797ff389-abe4-480f-a900-260c6f4f1ba1
+									687 cell
+										688 text open
+									689 cell
+										690 text 10/9/2026, 2:49:15 AM
+									691 cell
+										692 button Acknowledge
+										693 button Plan
+										694 button Resolve
+								695 row
+									696 cell
+										697 text Images have deletion protection enabled
+										698 text Image virtio-win (a51d9f98-dce6-42a4-a500-a78487c400c8) does not have deletion protection enabled.
+										699 text Recommendation: Enable deletion protection on all production images to prevent accidental or malicious removal. Implement image lifecycle management procedures that require explicit unprotection before decommissioning images.
+									700 cell
+										701 text medium
+									702 cell
+										703 text image
+										704 text a51d9f98-dce6-42a4-a500-a78487c400c8
+									705 cell
+										706 text open
+									707 cell
+										708 text 10/9/2026, 2:49:15 AM
+									709 cell
+										710 button Acknowledge
+										711 button Plan
+										712 button Resolve
+								713 row
+									714 cell
+										715 text Images have deletion protection enabled
+										716 text Image cirros-0.6.3-x86_64 (71094371-9e38-4203-818f-30032f0c9a95) does not have deletion protection enabled.
+										717 text Recommendation: Enable deletion protection on all production images to prevent accidental or malicious removal. Implement image lifecycle management procedures that require explicit unprotection before decommissioning images.
+									718 cell
+										719 text medium
+									720 cell
+										721 text image
+										722 text 71094371-9e38-4203-818f-30032f0c9a95
+									723 cell
+										724 text open
+									725 cell
+										726 text 10/9/2026, 2:49:15 AM
+									727 cell
+										728 button Acknowledge
+										729 button Plan
+										730 button Resolve
+								731 row
+									732 cell
+										733 text Compute instances have locked status enabled
+										734 text Instance xor-test-public29 (9a2598c4-0e23-4904-a17a-123555a9cb99) does not have locked status enabled.
+										735 text Recommendation: Lock production instances to prevent accidental or unauthorized modifications. Use --reason parameter to document lock purpose. Implement approval workflows requiring consent before unlocking. Apply locks to critical infrastructure (databases, authentication, logging). Use RBAC policies to restrict who can lock/unlock. Audit lock/unlock operations via OpenStack logs.
+									736 cell
+										737 text medium
+									738 cell
+										739 text server
+										740 text 9a2598c4-0e23-4904-a17a-123555a9cb99
+									741 cell
+										742 text open
+									743 cell
+										744 text 10/9/2026, 2:49:15 AM
+									745 cell
+										746 button Acknowledge
+										747 button Plan
+										748 button Resolve
+								749 row
+									750 cell
+										751 text Compute instances use trusted image certificates
+										752 text Instance security-agent-enrollment-test (797ff389-abe4-480f-a900-260c6f4f1ba1) does not use trusted image certificates (image signature validation not enforced).
+										753 text Recommendation: Sign all images using GPG or X.509 certificates before uploading to Glance. Use Barbican to store signing certificates securely. Enforce trusted_image_certificates for production instances via policy. Enable signature verification in Nova (verify_glance_signatures=True). Restrict image upload permissions to authorized CI/CD pipelines. Implement certificate rotation every 12 months.
+									754 cell
+										755 text high
+									756 cell
+										757 text server
+										758 text 797ff389-abe4-480f-a900-260c6f4f1ba1
+									759 cell
+										760 text open
+									761 cell
+										762 text 10/9/2026, 2:49:15 AM
+									763 cell
+										764 button Acknowledge
+										765 button Plan
+										766 button Resolve
+								767 row
+									768 cell
+										769 text Images have deletion protection enabled
+										770 text Image ubuntu26.04 (385fc519-5c88-46fc-8416-a4b794115d00) does not have deletion protection enabled.
+										771 text Recommendation: Enable deletion protection on all production images to prevent accidental or malicious removal. Implement image lifecycle management procedures that require explicit unprotection before decommissioning images.
+									772 cell
+										773 text medium
+									774 cell
+										775 text image
+										776 text 385fc519-5c88-46fc-8416-a4b794115d00
+									777 cell
+										778 text open
+									779 cell
+										780 text 10/9/2026, 2:49:15 AM
+									781 cell
+										782 button Acknowledge
+										783 button Plan
+										784 button Resolve
+								785 row
+									786 cell
+										787 text Images have cryptographic signature verification enabled
+										788 text Image virtio-win (a51d9f98-dce6-42a4-a500-a78487c400c8) does not have all signature verification properties configured.
+										789 text Recommendation: Sign all production images using Barbican-managed certificates. Enable signature verification in Nova (verify_glance_signatures=True). Implement an image signing pipeline in CI/CD. Regularly rotate signing certificates and audit image signatures.
+									790 cell
+										791 text high
+									792 cell
+										793 text image
+										794 text a51d9f98-dce6-42a4-a500-a78487c400c8
+									795 cell
+										796 text open
+									797 cell
+										798 text 10/9/2026, 2:49:15 AM
+									799 cell
+										800 button Acknowledge
+										801 button Plan
+										802 button Resolve
+								803 row
+									804 cell
+										805 text Compute instances use trusted image certificates
+										806 text Instance xor-test-public29 (9a2598c4-0e23-4904-a17a-123555a9cb99) does not use trusted image certificates (image signature validation not enforced).
+										807 text Recommendation: Sign all images using GPG or X.509 certificates before uploading to Glance. Use Barbican to store signing certificates securely. Enforce trusted_image_certificates for production instances via policy. Enable signature verification in Nova (verify_glance_signatures=True). Restrict image upload permissions to authorized CI/CD pipelines. Implement certificate rotation every 12 months.
+									808 cell
+										809 text high
+									810 cell
+										811 text server
+										812 text 9a2598c4-0e23-4904-a17a-123555a9cb99
+									813 cell
+										814 text open
+									815 cell
+										816 text 10/9/2026, 2:49:15 AM
+									817 cell
+										818 button Acknowledge
+										819 button Plan
+										820 button Resolve
+								821 row
+									822 cell
+										823 text Images have Secure Boot set to required
+										824 text Image xor-windows-tools (355b4928-44da-46ec-a18b-c0e5644bef64) does not have Secure Boot set to required (os_secure_boot=None).
+										825 text Recommendation: Set os_secure_boot to 'required' on all production images. Ensure images use UEFI firmware type (hw_firmware_type=uefi). Test Secure Boot compatibility before enabling in production. Use signed bootloaders and kernel images.
+									826 cell
+										827 text medium
+									828 cell
+										829 text image
+										830 text 355b4928-44da-46ec-a18b-c0e5644bef64
+									831 cell
+										832 text open
+									833 cell
+										834 text 10/9/2026, 2:49:15 AM
+									835 cell
+										836 button Acknowledge
+										837 button Plan
+										838 button Resolve
+								839 row
+									840 cell
+										841 text Images have hardware memory encryption enabled
+										842 text Image ubuntu24.04 (f5d01354-60ac-4563-9e91-ac3bbf3e2999) does not have hardware memory encryption enabled.
+										843 text Recommendation: Enable hardware memory encryption on images processing sensitive data. Ensure compute hosts support AMD SEV or equivalent technology. Create dedicated SEV-enabled flavors and host aggregates. Test workload compatibility with memory encryption before production deployment.
+									844 cell
+										845 text medium
+									846 cell
+										847 text image
+										848 text f5d01354-60ac-4563-9e91-ac3bbf3e2999
+									849 cell
+										850 text open
+									851 cell
+										852 text 10/9/2026, 2:49:15 AM
+									853 cell
+										854 button Acknowledge
+										855 button Plan
+										856 button Resolve
+								857 row
+									858 cell
+										859 text Compute instances use SSH key-based authentication
+										860 text Instance security-agent-enrollment-test (797ff389-abe4-480f-a900-260c6f4f1ba1) does not have SSH key-based authentication configured (no keypair assigned).
+										861 text Recommendation: Always use SSH keys instead of passwords for instance authentication. Generate keys with strong algorithms (RSA 4096-bit, Ed25519). Protect private keys with passphrases and store securely. Disable password authentication in sshd_config. Rotate keypairs periodically and revoke old keys. Use bastion hosts or VPN for SSH access instead of direct internet exposure.
+									862 cell
+										863 text high
+									864 cell
+										865 text server
+										866 text 797ff389-abe4-480f-a900-260c6f4f1ba1
+									867 cell
+										868 text open
+									869 cell
+										870 text 10/9/2026, 2:49:15 AM
+									871 cell
+										872 button Acknowledge
+										873 button Plan
+										874 button Resolve
+								875 row
+									876 cell
+										877 text Images have cryptographic signature verification enabled
+										878 text Image cirros-0.6.3-x86_64 (71094371-9e38-4203-818f-30032f0c9a95) does not have all signature verification properties configured.
+										879 text Recommendation: Sign all production images using Barbican-managed certificates. Enable signature verification in Nova (verify_glance_signatures=True). Implement an image signing pipeline in CI/CD. Regularly rotate signing certificates and audit image signatures.
+									880 cell
+										881 text high
+									882 cell
+										883 text image
+										884 text 71094371-9e38-4203-818f-30032f0c9a95
+									885 cell
+										886 text open
+									887 cell
+										888 text 10/9/2026, 2:49:15 AM
+									889 cell
+										890 button Acknowledge
+										891 button Plan
+										892 button Resolve
+								893 row
+									894 cell
+										895 text Images are not publicly visible to all tenants
+										896 text Image xor-windows-tools (355b4928-44da-46ec-a18b-c0e5644bef64) is publicly visible to all tenants.
+										897 text Recommendation: Set image visibility to 'private' or 'shared' with specific trusted projects. Regularly audit image visibility settings. Implement policies to prevent creation of public images in production environments.
+									898 cell
+										899 text high
+									900 cell
+										901 text image
+										902 text 355b4928-44da-46ec-a18b-c0e5644bef64
+									903 cell
+										904 text open
+									905 cell
+										906 text 10/9/2026, 2:49:15 AM
+									907 cell
+										908 button Acknowledge
+										909 button Plan
+										910 button Resolve
+			911 HTML content System Information - OpenStack Dashboard, URL: 10.3.10.100/admin/info/
+				912 container
+					913 container
+						914 link Description: OpenStack Dashboard, Value: 10.3.10.100/home/
+						915 content list
+							916 button  admin 
+								917 text 
+								918 text admin
+								919 text 
+						920 content list
+							921 button  admin 
+								922 text 
+								923 text admin
+								924 text 
+					925 content list
+						926 link Project 
+							927 text Project 
+						928 container
+							929 link Admin 
+								930 text Admin 
+							931 content list
+								932 link Description: Overview, Value: 10.3.10.100/admin/
+								933 link Compute 
+									934 text Compute 
+								935 link Volume 
+									936 text Volume 
+								937 link Network 
+									938 text Network 
+								939 link Container Infra 
+									940 text Container Infra 
+								941 container
+									942 link System 
+										943 text System 
+									944 link Description: Default Quotas, Value: 10.3.10.100/admin/defaults/
+									945 link Description: Metadata Definitions, Value: 10.3.10.100/admin/metadata_defs/
+									946 link Description: System Information, Value: 10.3.10.100/admin/info/
+						947 link Identity 
+							948 text Identity 
+						949 link Workflow 
+							950 text Workflow 
+					951 container
+						952 content list
+							953 text Admin
+							954 container
+								955 text /  System
+							956 container
+								957 text /  System Information
+						958 heading System Information
+							959 text System Information
+						960 content list
+							961 link Description: Services, Value: 10.3.10.100/admin/info/?tab=system_info__services
+							962 link Description: Compute Services, Value: 10.3.10.100/admin/info/?tab=system_info__nova_services
+							963 link Description: Block Storage Services, Value: 10.3.10.100/admin/info/?tab=system_info__cinder_services
+							964 link Description: Network Agents, Value: 10.3.10.100/admin/info/?tab=system_info__network_agents
+						965 table Filter 
+							966 container
+								967 text field (settable) Filter
+								968 text 
+							969 row
+								970 cell
+									971 text Displaying 14 items
+							972 row
+								973 column header
+									974 text Name
+								975 column header
+									976 text Service
+								977 column header
+									978 text Region
+								979 column header
+									980 text Endpoints
+							981 row
+								982 cell
+									983 text cinderv3-compat
+								984 cell
+									985 text volumev3
+								986 cell
+									987 text RegionOne
+								988 cell
+									989 definition list
+										990 container Internal
+											991 text Internal
+										992 text http://10.3.10.100:8776/v3
+										993 container Public
+											994 text Public
+										995 text http://10.3.10.100:8776/v3
+							996 row
+								997 cell
+									998 text glance
+								999 cell
+									1000 text image
+								1001 cell
+									1002 text RegionOne
+								1003 cell
+									1004 definition list
+										1005 container Internal
+											1006 text Internal
+										1007 text http://10.3.10.100:9292
+										1008 container Public
+											1009 text Public
+										1010 text http://10.3.10.100:9292
+							1011 row
+								1012 cell
+									1013 text placement
+								1014 cell
+									1015 text placement
+								1016 cell
+									1017 text RegionOne
+								1018 cell
+									1019 definition list
+										1020 container Internal
+											1021 text Internal
+										1022 text http://10.3.10.100:8780
+										1023 container Public
+											1024 text Public
+										1025 text http://10.3.10.100:8780
+							1026 row
+								1027 cell
+									1028 text trove
+								1029 cell
+									1030 text database
+								1031 cell
+									1032 text RegionOne
+								1033 cell
+									1034 definition list
+										1035 container Internal
+											1036 text Internal
+										1037 text http://10.3.10.100:8779/v1.0/14392d0fbbfc43978f247eedbedc7661
+										1038 container Public
+											1039 text Public
+										1040 text http://10.3.10.100:8779/v1.0/14392d0fbbfc43978f247eedbedc7661
+							1041 row
+								1042 cell
+									1043 text octavia
+								1044 cell
+									1045 text load-balancer
+								1046 cell
+									1047 text RegionOne
+								1048 cell
+									1049 definition list
+										1050 container Internal
+											1051 text Internal
+										1052 text http://10.3.10.100:9876
+										1053 container Public
+											1054 text Public
+										1055 text http://10.3.10.100:9876
+							1056 row
+								1057 cell
+									1058 text heat-cfn
+								1059 cell
+									1060 text cloudformation
+								1061 cell
+									1062 text RegionOne
+								1063 cell
+									1064 definition list
+										1065 container Internal
+											1066 text Internal
+										1067 text http://10.3.10.100:8000/v1
+										1068 container Public
+											1069 text Public
+										1070 text http://10.3.10.100:8000/v1
+							1071 row
+								1072 cell
+									1073 text barbican
+								1074 cell
+									1075 text key-manager
+								1076 cell
+									1077 text RegionOne
+								1078 cell
+									1079 definition list
+										1080 container Internal
+											1081 text Internal
+										1082 text http://10.3.10.100:9311
+										1083 container Public
+											1084 text Public
+										1085 text http://10.3.10.100:9311
+							1086 row
+								1087 cell
+									1088 text mistral
+								1089 cell
+									1090 text workflowv2
+								1091 cell
+									1092 text RegionOne
+								1093 cell
+									1094 definition list
+										1095 container Internal
+											1096 text Internal
+										1097 text http://10.3.10.100:8989/v2
+										1098 container Public
+											1099 text Public
+										1100 text http://10.3.10.100:8989/v2
+							1101 row
+								1102 cell
+									1103 text neutron
+								1104 cell
+									1105 text network
+								1106 cell
+									1107 text RegionOne
+								1108 cell
+									1109 definition list
+										1110 container Internal
+											1111 text Internal
+										1112 text http://10.3.10.100:9696
+										1113 container Public
+											1114 text Public
+										1115 text http://10.3.10.100:9696
+							1116 row
+								1117 cell
+									1118 text cinder
+								1119 cell
+									1120 text block-storage
+								1121 cell
+									1122 text RegionOne
+								1123 cell
+									1124 definition list
+										1125 container Internal
+											1126 text Internal
+										1127 text http://10.3.10.100:8776/v3
+										1128 container Public
+											1129 text Public
+										1130 text http://10.3.10.100:8776/v3
+							1131 row
+								1132 cell
+									1133 text nova
+								1134 cell
+									1135 text compute
+								1136 cell
+									1137 text RegionOne
+								1138 cell
+									1139 definition list
+										1140 container Internal
+											1141 text Internal
+										1142 text http://10.3.10.100:8774/v2.1
+										1143 container Public
+											1144 text Public
+										1145 text http://10.3.10.100:8774/v2.1
+							1146 row
+								1147 cell
+									1148 text magnum
+								1149 cell
+									1150 text container-infra
+								1151 cell
+									1152 text RegionOne
+								1153 cell
+									1154 definition list
+										1155 container Internal
+											1156 text Internal
+										1157 text http://10.3.10.100:9511/v1
+										1158 container Public
+											1159 text Public
+										1160 text http://10.3.10.100:9511/v1
+							1161 row
+								1162 cell
+									1163 text keystone
+								1164 cell
+									1165 text identity
+								1166 cell
+									1167 text RegionOne
+								1168 cell
+									1169 definition list
+										1170 container Internal
+											1171 text Internal
+										1172 text http://10.3.10.100:5000
+										1173 container Public
+											1174 text Public
+										1175 text http://10.3.10.100:5000
+							1176 row
+								1177 cell
+									1178 text heat
+								1179 cell
+									1180 text orchestration
+								1181 cell
+									1182 text RegionOne
+								1183 cell
+									1184 definition list
+										1185 container Internal
+											1186 text Internal
+										1187 text http://10.3.10.100:8004/v1/14392d0fbbfc43978f247eedbedc7661
+										1188 container Public
+											1189 text Public
+										1190 text http://10.3.10.100:8004/v1/14392d0fbbfc43978f247eedbedc7661
+							1191 row
+								1192 cell
+									1193 text Displaying 14 items
+						1194 text Version: 25.7.4
+	1195 close button
+	1196 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	1197 minimize button
+1198 menu bar
+	1199 JumpServer
+	1200 File
+	1201 Edit
+	1202 View
+	1203 Window
+	1204 Help
+
+The focused UI element is 190 HTML content X-OR Security Posture, URL: 10.3.10.100:9999/security-posture.html?v=sec54&section=findings

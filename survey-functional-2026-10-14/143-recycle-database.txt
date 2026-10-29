@@ -1,0 +1,145 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/management/recycle-bin?tab=volumes
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+						162 Alert Management Maintenance
+							163 pop up button Alert Management Maintenance
+								164 image Alert Management
+								165 text Maintenance
+								166 menu Secondary Actions: Cancel
+									167 Audit Logs
+									168 Recycle Bin
+						169 pop up button X-OR SECURE
+						170 Security Center
+					171 image left
+					172 container
+						173 text Maintenance / Recycle Bin
+						174 tab group
+							175 container
+								176 tab (settable, integer) Servers, Value: 0
+								177 tab (selected) Volumes, Value: 1
+								178 tab (settable, integer) Database Instances, Value: 0
+						179 container Volumes
+							180 container
+								181 button (disabled) Recover
+								182 button (disabled) Delete
+								183 text field (settable) Multiple filter tags are separated by enter
+								184 image search
+								185 button sync
+									186 image sync
+								187 button download
+									188 image download
+								189 button eye
+									190 image eye
+								191 button pause-circle
+									192 image pause-circle
+							193 container
+								194 table
+									195 row
+										196 column header
+											197 container
+												198 checkbox (disabled)  , Value: 0
+										199 column header
+											200 text ID/Name
+											201 image caret-up
+											202 image caret-down
+										203 column header
+											204 text Size (GiB)
+											205 image caret-up
+											206 image caret-down
+										207 column header
+											208 text Status
+											209 image caret-up
+											210 image caret-down
+										211 column header
+											212 text Volume Type
+											213 image caret-up
+											214 image caret-down
+										215 column header
+											216 text Deleted By
+											217 image caret-up
+											218 image caret-down
+										219 column header
+											220 text Deleted At
+											221 image caret-up
+											222 image caret-down
+										223 column header
+											224 text Expired At
+											225 image caret-up
+											226 image caret-down
+										227 column header
+											228 text Action
+								229 table
+									230 row
+										231 cell 0-8
+											232 text No Data
+								233 container
+									234 text Total 0 items
+									235 button (disabled) left
+										236 image left
+									237 button 1
+									238 button (disabled) right
+										239 image right
+									240 container
+										241 combo box
+										242 text 10 items/page
+				243 container
+					244 image close-circle
+					245 text Get recycle volumes error.
+					246 button Click to show detail
+					247 link close
+						248 image close
+	249 close button
+	250 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	251 minimize button
+252 menu bar
+	253 JumpServer
+	254 File
+	255 Edit
+	256 View
+	257 Window
+	258 Help

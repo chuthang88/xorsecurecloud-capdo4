@@ -1,0 +1,141 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/vpn
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+								147 menu Secondary Actions: Cancel
+									148 Networks
+									149 Ports
+									150 QoS Policies
+									151 Routers
+									152 Floating IPs
+									153 Topology
+									154 Load Balancers
+									155 Certificates
+									156 VPNs
+									157 Security Groups
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Network / VPNs
+						183 tab group
+							184 container
+								185 tab (selected) VPN Gateways, Value: 1
+								186 tab (settable, integer) VPN EndPoint Groups, Value: 0
+								187 tab (settable, integer) IKE Policies, Value: 0
+								188 tab (settable, integer) IPsec Policies, Value: 0
+								189 tab (settable, integer) IPsec Site Connections, Value: 0
+						190 container VPN Gateways
+							191 container
+								192 button Create
+								193 button (disabled) Delete
+								194 text field (settable) Multiple filter tags are separated by enter
+								195 image search
+								196 button sync
+									197 image sync
+								198 button download
+									199 image download
+								200 button eye
+									201 image eye
+								202 button pause-circle
+									203 image pause-circle
+							204 container
+								205 table
+									206 row
+										207 column header
+											208 container
+												209 checkbox (disabled)  , Value: 0
+										210 column header
+											211 text ID/Name
+											212 image caret-up
+											213 image caret-down
+										214 column header
+											215 text Description
+											216 image caret-up
+											217 image caret-down
+										218 column header
+											219 text External IP
+											220 image caret-up
+											221 image caret-down
+										222 column header
+											223 text Router ID
+											224 image caret-up
+											225 image caret-down
+										226 column header
+											227 text Status
+											228 image caret-up
+											229 image caret-down
+										230 column header
+											231 text Action
+								232 table
+									233 row
+										234 cell 0-6
+											235 text No Data
+								236 container
+									237 text Total 0 items
+									238 button (disabled) left
+										239 image left
+									240 button 1
+									241 button (disabled) right
+										242 image right
+									243 container
+										244 combo box
+										245 text 10 items/page
+	246 close button
+	247 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	248 minimize button
+249 menu bar
+	250 JumpServer
+	251 File
+	252 Edit
+	253 View
+	254 Window
+	255 Help

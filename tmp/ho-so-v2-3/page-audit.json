@@ -1,0 +1,786 @@
+[
+  {
+    "doc": 0,
+    "page": 1,
+    "chars": 418,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nTÀI LIỆU KỸ THUẬT\nSỔ TAY RÀ SOÁT KỸ THUẬT HỆ THỐNG THÔNG TIN",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 0,
+    "page": 2,
+    "chars": 1083,
+    "head": "Công ty Cổ phần XOR CLOUD. Đơn vị vận hành: Khối Hạ tầng & Vận hành.\nĐầu mối lập hồ sơ: Chử Quang Thắng — Giám",
+    "tail": "h sách thiếu sót có đầu mối và hạn; biên bản kiểm thử; báo cáo kết quả có giới hạn\nphạm vi. Chỉ chuyển số liệu đã xác nhận sang bộ hồ sơ hành chính.\n1"
+  },
+  {
+    "doc": 0,
+    "page": 3,
+    "chars": 1356,
+    "head": "1 CÁCH SỬ DỤNG CHECKLIST\nBước Thực hiện Điều kiện kết thúc\nĐiền phạm vi từng dòng, dịch vụ và hai IDC. Không d",
+    "tail": "bản/người có thẩm quyền chấp\nthuận, người xác nhận và ngày. Nếu chưa chốt phạm vi hoặc chưa có bằng chứng, giữ\nnguyên trạng thái chờ, không ghi đạt.\n2"
+  },
+  {
+    "doc": 0,
+    "page": 4,
+    "chars": 1155,
+    "head": "2 PHÂN CÔNG VÀ RANH GIỚI RÀ SOÁT\nNhóm Chịu trách nhiệm Bằng chứng chính\nPhạm vi, căn cứ cấp độ, rủi ro, thẩm\nC",
+    "tail": "hung. Hạ tầng nền đạt\nyêu cầu không tự chứng minh ứng dụng, hệ điều hành khách, dữ liệu hoặc tài khoản\ncủa khách hàng đã được phê duyệt cùng cấp độ.\n3"
+  },
+  {
+    "doc": 0,
+    "page": 5,
+    "chars": 1498,
+    "head": "3 THU THẬP VÀ QUẢN LÝ BẰNG CHỨNG\nMỗi bằng chứng dùng mã EV và liên kết tới mã TC, CL, HS hoặc T. Tên tệp gợi\ný",
+    "tail": " động hay không, ai chịu\ntrách nhiệm và còn hiệu lực tại thời điểm đánh giá. Không thay phép thử bằng cam kết\nmua sắm hoặc mô tả tính năng sản phẩm.\n4"
+  },
+  {
+    "doc": 0,
+    "page": 6,
+    "chars": 1232,
+    "head": "4 CÁC MỐC KIỂM TRA ĐỊNH KỲ\nHoạt động Mốc tối thiểu theo TCVN Điều khoản\nNhận diện và xem lại hiệu lực xử lý 1 ",
+    "tail": "SOC, thời hạn khắc phục lỗ hổng và số ngày bất biến\nphải được XOR phê duyệt theo rủi ro/hợp đồng; không gán một giá trị mẫu thành yêu\ncầu pháp luật.\n5"
+  },
+  {
+    "doc": 0,
+    "page": 7,
+    "chars": 953,
+    "head": "5 KỊCH BẢN KIỂM THỬ T01 VÀ T02\nT01 Phân vùng và công khai dịch vụ\nĐầu mối: Network. Căn cứ: 6.12.2.2–6.12.2.6.",
+    "tail": "g đọc, sửa hoặc quản trị chéo tenant; không thấy dữ\nliệu dư khi cấp lại tài nguyên.\nLưu bằng chứng: Request ID; log; cấu hình; biên bản từng bề mặt.\n6"
+  },
+  {
+    "doc": 0,
+    "page": 8,
+    "chars": 969,
+    "head": "6 KỊCH BẢN KIỂM THỬ T03 VÀ T04\nT03 MFA và đặc quyền\nĐầu mối: IAM. Căn cứ: 6.6; 6.12.2.5.\nĐiều kiện trước thử: ",
+    "tail": "hông có quyền\ngiải mã ngoài ma trận; khôi phục không mất khả năng đọc.\nLưu bằng chứng: Cấu hình; log KMS; biên bản kiểm tra; không chụp khóa/bí\nmật.\n7"
+  },
+  {
+    "doc": 0,
+    "page": 9,
+    "chars": 935,
+    "head": "7 KỊCH BẢN KIỂM THỬ T05 VÀ T06\nT05 Nhật ký và cảnh báo\nĐầu mối: SOC. Căn cứ: 6.8; 6.13.\nĐiều kiện trước thử: M",
+    "tail": "ận: Phát hiện/chặn theo chính sách; có người xử lý; không gây\ntác động ngoài phạm vi.\nLưu bằng chứng: Agent state; cảnh báo; ticket; biên bản xử lý.\n8"
+  },
+  {
+    "doc": 0,
+    "page": 10,
+    "chars": 982,
+    "head": "8 KỊCH BẢN KIỂM THỬ T07 VÀ T08\nT07 Lỗi thành phần HA\nĐầu mối: Hạ tầng và Platform. Căn cứ: 6.12.2.2.\nĐiều kiện",
+    "tail": "ra bất biến nếu thiết\nkế dùng; thời gian và dữ liệu mất nằm trong chỉ tiêu đã chốt.\nLưu bằng chứng: Job ID; bản sao được chọn; log; checksum; số đo.\n9"
+  },
+  {
+    "doc": 0,
+    "page": 11,
+    "chars": 987,
+    "head": "9 KỊCH BẢN KIỂM THỬ T09 VÀ T10\nT09 Mất DC và chuyển về\nĐầu mối: Chỉ huy DR. Căn cứ: BIA; 6.11; 6.12.\nĐiều kiện",
+    "tail": "ược control plane và dịch vụ mẫu; phát hiện/xử lý\nmọi vòng phụ thuộc.\nLưu bằng chứng: Dependency map; thứ tự bước; log; biên bản truy cập khẩn cấp.\n10"
+  },
+  {
+    "doc": 0,
+    "page": 12,
+    "chars": 972,
+    "head": "10 KỊCH BẢN KIỂM THỬ T11 VÀ T12\nT11 Phát hành an toàn\nĐầu mối: DevSecOps. Căn cứ: 6.16.\nĐiều kiện trước thử: P",
+    "tail": "ược xử lý hoặc quản lý đúng thẩm quyền; không tự đánh dấu đạt khi thiếu retest.\nLưu bằng chứng: Báo cáo ký; ROE; ticket; retest; ý kiến nghiệm thu.\n11"
+  },
+  {
+    "doc": 0,
+    "page": 13,
+    "chars": 1576,
+    "head": "11 BIÊN BẢN VÀ ĐIỀU KIỆN CHUYỂN HỒ SƠ\nTrường biên bản Nội dung cần ghi\nMã và phạm vi Mã T/TC/CL; site; asset I",
+    "tail": "TCVN Cloud năm 2026 chỉ dùng để rà soát thiết kế bổ sung. Các điểm\nbổ sung không tạo kết luận Hạng B/Mức 4 và không thay checklist toàn bộ dự thảo.\n12"
+  },
+  {
+    "doc": 0,
+    "page": 14,
+    "chars": 614,
+    "head": "Bổ sung đối soát tài liệu tham khảo\nBắt đầu đối soát bản 0.9.4 bằng tài liệu 03 và workbook 04. Workbook 02 ti",
+    "tail": "n mẫu và hồ sơ DR. Thông tin có DC Cầu\nGiấy và DR Nam Thăng Long đã được cập nhật theo xác nhận; cấu hình và kết quả\nkiểm thử từng site còn cần EV.\n13"
+  },
+  {
+    "doc": 1,
+    "page": 1,
+    "chars": 397,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nHƯỚNG DẪN HOÀN THIỆN BỘ HỒ SƠ ĐỀ XUẤT CẤP ĐỘ 4\nXOR SEC",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 1,
+    "page": 2,
+    "chars": 1281,
+    "head": "Bộ tài liệu phục vụ lập hồ sơ lần đầu cho toàn bộ nền tảng XOR STACK\nCLOUD và dịch vụ quản trị chung tại hai I",
+    "tail": " thức đánh giá và loại văn bản đầu ra. Mẫu đề nghị tại tài liệu\n09 phục vụ làm rõ tuyến này, chưa xác nhận một cơ chế cấp chứng nhận cụ thể cho\nXOR.\n1"
+  },
+  {
+    "doc": 1,
+    "page": 3,
+    "chars": 1370,
+    "head": "DANH MỤC TÀI LIỆU VÀ TRÌNH TỰ SỬ DỤNG\nSố Tài liệu Cách sử dụng\n00 Hướng dẫn hoàn thiện Dùng nội bộ để kiểm soá",
+    "tail": "4. Ý kiến thẩm định do cơ quan thẩm định phát hành phải được bổ sung khi trình\nphê duyệt theo Điều 24. Không tự lập văn bản Mẫu 04 thay cơ quan này.\n2"
+  },
+  {
+    "doc": 1,
+    "page": 4,
+    "chars": 1733,
+    "head": "KIỂM SOÁT THÔNG TIN TRƯỚC KÝ VÀ PHÁT HÀNH\nNội dung cần chốt Người xác nhận Bằng chứng\nTên pháp nhân, mã số, đị",
+    "tail": ".4, trang 109–111. Đã\nđối chiếu bản được cấp phép nội bộ. Diễn giải trong hồ sơ phục vụ áp dụng tại XOR;\nkhông đính kèm bản tiêu chuẩn có bản quyền.\n3"
+  },
+  {
+    "doc": 1,
+    "page": 5,
+    "chars": 1337,
+    "head": "THÔNG TIN TỔ CHỨC VÀ ĐẦU MỐI TRÌNH KÝ\nVai trò Thông tin sử dụng trong bộ hồ sơ\nChủ quản Công ty Cổ phần XOR CL",
+    "tail": "phân tách nhiệm vụ và cơ\nchế xác nhận độc lập trước khi sử dụng ý kiến chuyên môn. Quyết định phân công và\nbằng chứng thực hiện được lưu cùng hồ sơ.\n4"
+  },
+  {
+    "doc": 1,
+    "page": 6,
+    "chars": 575,
+    "head": "Đối chiếu thiết kế trước khi trình\nĐọc phụ lục 10 cùng thuyết minh 01. Phụ lục bổ sung BOM, phân vùng và giới\n",
+    "tail": " 2 được dùng theo\nđiều kiện ghi trong từng văn bản. Không có chữ ký, số văn bản hoặc kết luận đánh giá\nđược tạo thay cơ quan, tổ chức có thẩm quyền.\n5"
+  },
+  {
+    "doc": 2,
+    "page": 1,
+    "chars": 409,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nHỒ SƠ ĐỀ XUẤT CẤP ĐỘ 4 HỆ THỐNG XOR SECURE CLOUD\nXOR S",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 2,
+    "page": 2,
+    "chars": 743,
+    "head": "Thông tin quản lý hồ sơ Nội dung\nChủ quản Công ty Cổ phần XOR CLOUD\nĐơn vị vận hành Khối Hạ tầng & Vận hành\nTầ",
+    "tail": " xác minh đều phải được bổ\nsung trước khi trình ký. Nội dung có cụm từ “phương án” là thiết kế dự kiến; không\nphải xác nhận biện pháp đã triển khai.\n1"
+  },
+  {
+    "doc": 2,
+    "page": 3,
+    "chars": 1719,
+    "head": "PHẦN I TỔNG QUAN VỀ HỆ THỐNG THÔNG TIN\n1 Căn cứ lập hồ sơ\nCăn cứ Luật An ninh mạng số 116/2025/QH15; Nghị định",
+    "tail": " nhiệm vụ vận hành/chuyên trách và thẩm quyền ký phải kèm văn bản phân công\nhoặc ủy quyền phù hợp; xác nhận cơ chế kiểm tra độc lập trước khi trình.\n2"
+  },
+  {
+    "doc": 2,
+    "page": 4,
+    "chars": 1856,
+    "head": "3 CHỨC NĂNG PHẠM VI VÀ QUY MÔ\nXOR SECURE CLOUD là hệ thống cung cấp và quản lý tài nguyên điện toán\nđám mây tr",
+    "tail": "c cụ thể hóa theo hợp đồng, dịch vụ và ma trận trách nhiệm; việc phê duyệt cấp độ\nnền tảng không thay thế hồ sơ cấp độ của từng hệ thống khách hàng.\n3"
+  },
+  {
+    "doc": 2,
+    "page": 5,
+    "chars": 1442,
+    "head": "PHẦN II THIẾT KẾ VÀ HIỆN TRẠNG HỆ THỐNG\nĐối với hệ thống đang vận hành, tài liệu kèm theo phải là thiết kế thi",
+    "tail": "ê duyệt và\ndanh mục phiên bản]. Dải IP, số lượng node và sản phẩm cụ thể trong tài liệu cũ\nkhông được dùng làm số liệu hiện trạng nếu chưa xác minh.\n4"
+  },
+  {
+    "doc": 2,
+    "page": 6,
+    "chars": 221,
+    "head": "2 SƠ ĐỒ KIẾN TRÚC THAM CHIẾU\nHình 1. Phương án mục tiêu cho toàn nền tảng. Bổ sung sơ đồ hiện trạng lô-gic và ",
+    "tail": "ng. Bổ sung sơ đồ hiện trạng lô-gic và vật lý đã\nxác nhận tại PL02–PL04. Các thành phần bảo mật thể hiện trên hình chưa được xác nhận đã\ntriển khai.\n5"
+  },
+  {
+    "doc": 2,
+    "page": 7,
+    "chars": 1469,
+    "head": "3 PHƯƠNG ÁN PHÂN VÙNG VÀ LUỒNG KẾT NỐI\nVùng Chức năng và giới hạn\nKết nối ISP, chống DDoS, NGFW/IPS và cổng VP",
+    "tail": "iểm soát ranh giới lõi với vùng\nít tin cậy phải thuyết minh Datadiode/USG/BSG hoặc biện pháp tương đương phù hợp\ntừng luồng. [S2, 6.12.2.1–6.12.2.6]\n6"
+  },
+  {
+    "doc": 2,
+    "page": 8,
+    "chars": 1848,
+    "head": "4 PHƯƠNG ÁN NỀN TẢNG DỮ LIỆU VÀ PHỤC HỒI\n4 1 Nền tảng XOR STACK CLOUD\nMỗi IDC được thiết kế thành cụm độc lập,",
+    "tail": "hục và bí mật khẩn cấp được lưu ở nơi truy cập được khi nền tảng\ndừng. Đơn vị vận hành lập đồ thị phụ thuộc và kiểm thử khởi động nguội để phát hiện\n7"
+  },
+  {
+    "doc": 2,
+    "page": 9,
+    "chars": 127,
+    "head": "vòng phụ thuộc. Các nội dung kỹ thuật nêu trên là phương án đề xuất, cần đối chiếu\nbằng chứng triển khai và bi",
+    "tail": "vòng phụ thuộc. Các nội dung kỹ thuật nêu trên là phương án đề xuất, cần đối chiếu\nbằng chứng triển khai và biên bản T07–T10.\n8"
+  },
+  {
+    "doc": 2,
+    "page": 10,
+    "chars": 1655,
+    "head": "PHẦN III THUYẾT MINH ĐỀ XUẤT CẤP ĐỘ VÀ RỦI RO\n1 Loại hệ thống và tiêu chí đề xuất\nXOR SECURE CLOUD được đề xuấ",
+    "tail": " đổi, loại dữ liệu và\nmức tác động]. Đối chiếu PL04 và BIA để không bỏ sót các phụ thuộc IAM, DNS,\nkhóa, ISP, IDC và nhà cung cấp. [S1, Điều 22.5 a]\n9"
+  },
+  {
+    "doc": 2,
+    "page": 11,
+    "chars": 2029,
+    "head": "3 BÁO CÁO ĐÁNH GIÁ RỦI RO CHI TIẾT\nPhương pháp nội bộ đề xuất gồm: xác định tài sản và dịch vụ, nhận diện mối ",
+    "tail": " động, người phụ trách, bằng chứng, thời hạn và quyết định chấp nhận]. Danh\nmục trên là đầu vào đánh giá, chưa phải báo cáo đánh giá đã hoàn thành.\n10"
+  },
+  {
+    "doc": 2,
+    "page": 12,
+    "chars": 1871,
+    "head": "4 PHÂN TÍCH TÁC ĐỘNG VÀ YÊU CẦU LIÊN TỤC\nĐối với từng dịch vụ thiết yếu, cần lượng hóa số khách hàng và hệ thố",
+    "tail": "hiết kế, không được chuyển thành cam kết hoặc bằng chứng hiện trạng. Bản\nhồ sơ này để trống chỉ tiêu cho đến khi chủ dịch vụ và chủ quản phê duyệt.\n11"
+  },
+  {
+    "doc": 2,
+    "page": 13,
+    "chars": 1543,
+    "head": "PHẦN IV PHƯƠNG ÁN BẢO ĐẢM AN NINH MẠNG\n1 Biện pháp quản lý và kỹ thuật\nPhương án đối với từng yêu cầu TCVN đượ",
+    "tail": "o vệ đạt được, giới hạn, kết quả\nthử và người chấp thuận. Không dùng một câu cam kết chung hoặc chỉ tên sản phẩm\nđể thay thuyết minh và bằng chứng.\n12"
+  },
+  {
+    "doc": 2,
+    "page": 14,
+    "chars": 1637,
+    "head": "3 BẢO ĐẢM AN TOÀN VẬT LÝ VÀ TRÁCH NHIỆM THUÊ NGOÀI\nCác yêu cầu A.4 được kiểm tra riêng tại DC Cầu Giấy và DR N",
+    "tail": " phải được mô tả cụ thể. Cấp độ\nđược công bố chỉ gắn với phạm vi đã phê duyệt và không chuyển toàn bộ trách nhiệm\ncủa chủ quản khách hàng sang XOR.\n13"
+  },
+  {
+    "doc": 2,
+    "page": 15,
+    "chars": 742,
+    "head": "PHẦN V KẾ HOẠCH HOÀN THIỆN VÀ TÀI LIỆU KÈM THEO\nGiai đoạn Kết quả phải có Đầu mối và hạn\n1 Xác minh đầu Pháp n",
+    "tail": "ẩm định giải trình khi yêu cầu.\n6 Phê duyệt và Quyết định chủ quản; thông báo đúng phạm vi; lịch vận\n[CẦN ĐIỀN]\nduy trì hành, kiểm tra và cập nhật.\n14"
+  },
+  {
+    "doc": 2,
+    "page": 16,
+    "chars": 1485,
+    "head": "DANH MỤC KÈM THEO HỒ SƠ TRÌNH\nHS01 Tổng quan HTTT: [CẦN ĐIỀN tên tệp, phiên bản, số/ngày và số trang\nthực tế].",
+    "tail": "4, trang 109–111. Đã\nđối chiếu bản được cấp phép nội bộ. Diễn giải trong hồ sơ phục vụ áp dụng tại XOR;\nkhông đính kèm bản tiêu chuẩn có bản quyền.\n15"
+  },
+  {
+    "doc": 2,
+    "page": 17,
+    "chars": 980,
+    "head": "PHỤ LỤC PL01 DANH MỤC DỊCH VỤ VÀ ỨNG DỤNG\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. Lập một ph",
+    "tail": "ời lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n16"
+  },
+  {
+    "doc": 2,
+    "page": 18,
+    "chars": 1004,
+    "head": "PHỤ LỤC PL02 THIẾT BỊ VÀ CẤU HÌNH VẬT LÝ\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. Lập một phi",
+    "tail": "ời lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n17"
+  },
+  {
+    "doc": 2,
+    "page": 19,
+    "chars": 1026,
+    "head": "PHỤ LỤC PL03 PHÂN VÙNG MẠNG VÀ ĐỊA CHỈ\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. Lập một phiếu",
+    "tail": "ời lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n18"
+  },
+  {
+    "doc": 2,
+    "page": 20,
+    "chars": 1102,
+    "head": "PHỤ LỤC PL04 LUỒNG DỮ LIỆU VÀ KẾT NỐI HỆ THỐNG\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. Lập m",
+    "tail": "ời lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n19"
+  },
+  {
+    "doc": 2,
+    "page": 21,
+    "chars": 1062,
+    "head": "PHỤ LỤC PL05 DỮ LIỆU VÀ QUYỀN TRUY CẬP\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. Lập một phiếu",
+    "tail": "ời lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n20"
+  },
+  {
+    "doc": 2,
+    "page": 22,
+    "chars": 1142,
+    "head": "PHỤ LỤC PL06 DỰ PHÒNG SAO LƯU VÀ KHÔI PHỤC THẢM HỌA\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. ",
+    "tail": "ời lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n21"
+  },
+  {
+    "doc": 2,
+    "page": 23,
+    "chars": 1074,
+    "head": "PHỤ LỤC PL07 CẤU HÌNH VÀ PHIÊN BẢN NỀN TẢNG\nMã bản ghi: [CẦN ĐIỀN]. Ngày chốt hiện trạng: [CẦN ĐIỀN]. Lập một ",
+    "tail": "ời lập: [CẦN ĐIỀN]. Người kiểm tra: [CẦN ĐIỀN]. Văn bản xác nhận/phê\nduyệt: [CẦN ĐIỀN]. Tài liệu kèm theo: [mã, tên, phiên bản, số trang, nơi lưu].\n22"
+  },
+  {
+    "doc": 3,
+    "page": 1,
+    "chars": 410,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nPHỤ LỤC ĐỐI CHIẾU YÊU CẦU VÀ PHƯƠNG ÁN BẢO ĐẢM\nAN NINH",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 3,
+    "page": 2,
+    "chars": 852,
+    "head": "Phụ lục ánh xạ 119 điểm kiểm tra tới các tiểu mục đánh số tại Điều 6.1–6.18 và\nPhụ lục A.4 TCVN 14423:2026. Cá",
+    "tail": "i kiểm tra [CẦN ĐIỀN]\nBản dựng và ngày chốt [CẦN ĐIỀN]\nĐạt / Không đạt / Chưa đủ bằng chứng / Không áp dụng có căn cứ và phê\nQuy tắc kết luận\nduyệt.\n1"
+  },
+  {
+    "doc": 3,
+    "page": 3,
+    "chars": 2070,
+    "head": "6 1 RỦI RO\nĐầu mối đề xuất: GRC và chủ quản. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả\nhai IDC và dịch vụ áp dụng].",
+    "tail": "à trách\n6.1.2.6 Mã BC: [CẦN ĐIỀN].\nkịp thời thay đổi quan trọng nhiệm.\ntr.59 Kết quả: Chưa đủ bằng\ncho bên liên quan. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n2"
+  },
+  {
+    "doc": 3,
+    "page": 4,
+    "chars": 1907,
+    "head": "6 2 PHẦN CỨNG\nĐầu mối đề xuất: Hạ tầng và IT. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp dụng]",
+    "tail": "\nsạch dữ liệu khi chuyển giao hủy khóa khi phù hợp. Mã BC: [CẦN ĐIỀN].\ntr.60\nhoặc đổi mục đích. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\n3"
+  },
+  {
+    "doc": 3,
+    "page": 5,
+    "chars": 1583,
+    "head": "6 3 PHẦN MỀM\nĐầu mối đề xuất: Platform và DevSecOps. Phạm vi hiện trạng: [CẦN XÁC\nNHẬN cả hai IDC và dịch vụ á",
+    "tail": "i lệ có biện Mã BC: [CẦN ĐIỀN].\nhạn.\ntr.61 pháp giảm rủi ro; gỡ phần Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nmềm không được chấp thuận. chứng.\n4"
+  },
+  {
+    "doc": 3,
+    "page": 6,
+    "chars": 2567,
+    "head": "6 4 DỮ LIỆU\nĐầu mối đề xuất: Chủ dữ liệu và bảo mật. Phạm vi hiện trạng: [CẦN XÁC\nNHẬN cả hai IDC và dịch vụ á",
+    "tail": " bản sao tin\n6.4.2.5 Mã BC: [CẦN ĐIỀN].\nbáo sửa đổi và khôi phục dữ cậy.\ntr.62 Kết quả: Chưa đủ bằng\nliệu quan trọng. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n5"
+  },
+  {
+    "doc": 3,
+    "page": 7,
+    "chars": 1712,
+    "head": "Mã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nDFD; lịch sử sửa; phê\nLuồ",
+    "tail": " nhà cung khóa; phân biệt với TLS. Mã BC: [CẦN ĐIỀN].\ntr.63\ncấp được phép; bảo vệ việc sử Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ndụng. chứng.\n6"
+  },
+  {
+    "doc": 3,
+    "page": 8,
+    "chars": 2175,
+    "head": "6 5 CẤU HÌNH\nĐầu mối đề xuất: Platform và IT. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp dụng]",
+    "tail": "sao chép theo chính\n6.5.2.6 Mã BC: [CẦN ĐIỀN].\nviệc trên thiết bị di động được sách.\ntr.64 Kết quả: Chưa đủ bằng\ncấp. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n7"
+  },
+  {
+    "doc": 3,
+    "page": 9,
+    "chars": 2261,
+    "head": "6 6 TÀI KHOẢN VÀ QUYỀN\nĐầu mối đề xuất: IAM và bộ phận an ninh. Phạm vi hiện trạng: [CẦN XÁC\nNHẬN cả hai IDC v",
+    "tail": "ười khác kiểm tra → lưu\nMã BC: [CẦN ĐIỀN].\ntr.66 và thực hiện ít nhất hằng ticket.\nKết quả: Chưa đủ bằng\nnăm/khi đổi. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n8"
+  },
+  {
+    "doc": 3,
+    "page": 10,
+    "chars": 1078,
+    "head": "6 7 LỖ HỔNG VÀ BẢN VÁ\nĐầu mối đề xuất: SecOps và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịc",
+    "tail": ".67 quan trọng; kiểm tra/cập nhật controller/compute.\nKết quả: Chưa đủ bằng\nmáy người dùng ít nhất hằng Hiện trạng: [CẦN ĐIỀN].\nchứng.\ntháng nếu có.\n9"
+  },
+  {
+    "doc": 3,
+    "page": 11,
+    "chars": 1972,
+    "head": "6 8 NHẬT KÝ\nĐầu mối đề xuất: SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và\ndịch vụ áp dụng].\nMã và Phươ",
+    "tail": "N].\nchế toàn vẹn tương đương.\ntr.69 hệ thống và vùng mạng riêng; Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nmã hóa log quan trọng nếu có. chứng.\n10"
+  },
+  {
+    "doc": 3,
+    "page": 12,
+    "chars": 1864,
+    "head": "6 9 WEB VÀ EMAIL\nĐầu mối đề xuất: IT và SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC\nvà dịch vụ áp dụng].",
+    "tail": "2.6 chính sách. Mã BC: [CẦN ĐIỀN].\nchặn ngoài danh mục và kiểm\ntr.70 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nsoát thư có tệp đính kèm.\nchứng.\n11"
+  },
+  {
+    "doc": 3,
+    "page": 13,
+    "chars": 1663,
+    "head": "6 10 CHỐNG MÃ ĐỘC\nĐầu mối đề xuất: SecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và\ndịch vụ áp dụng].\nM",
+    "tail": ".5 máy chủ/máy người dùng, gửi Mã BC: [CẦN ĐIỀN].\nsoát.\ntr.71 SIEM và cảnh báo thời gian Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nthực. chứng.\n12"
+  },
+  {
+    "doc": 3,
+    "page": 14,
+    "chars": 1831,
+    "head": "6 11 SAO LƯU\nĐầu mối đề xuất: Backup và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịch vụ áp d",
+    "tail": ".5\ntra phục hồi bản sao ít nhất 1 thuộc khóa; lưu số đo. Mã BC: [CẦN ĐIỀN].\ntr.72\nlần/6 tháng. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\n13"
+  },
+  {
+    "doc": 3,
+    "page": 15,
+    "chars": 2652,
+    "head": "6 12 HẠ TẦNG MẠNG\nĐầu mối đề xuất: Network và Platform. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịch v",
+    "tail": "ương Mã BC: [CẦN ĐIỀN].\nminh phương án tương đương.\ntr.73 cho vùng lõi/OT với vùng ít Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\ntin cậy. chứng.\n14"
+  },
+  {
+    "doc": 3,
+    "page": 16,
+    "chars": 2479,
+    "head": "Mã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nTicket; báo cáo capacity;",
+    "tail": " biên bản. Mã BC: [CẦN ĐIỀN].\nlập; báo cáo được chuyên\ntr.75 Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\ntrách xác nhận và chủ quản\nchứng.\nduyệt.\n15"
+  },
+  {
+    "doc": 3,
+    "page": 17,
+    "chars": 1652,
+    "head": "6 13 GIÁM SÁT\nĐầu mối đề xuất: SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai IDC và\ndịch vụ áp dụng].\nMã và Ph",
+    "tail": "yệt thay đổi\n6.13.2.5 Rà soát ngưỡng cảnh báo ít Mã BC: [CẦN ĐIỀN].\nrule.\ntr.76 nhất hằng quý. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\n16"
+  },
+  {
+    "doc": 3,
+    "page": 18,
+    "chars": 1243,
+    "head": "6 14 NHÂN SỰ\nĐầu mối đề xuất: Nhân sự và chủ quản. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịch vụ áp ",
+    "tail": " ít nhất hằng Mã BC: [CẦN ĐIỀN].\nquản trị khóa.\ntr.77 năm hoặc khi thay đổi nhân sự Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nliên quan. chứng.\n17"
+  },
+  {
+    "doc": 3,
+    "page": 19,
+    "chars": 1649,
+    "head": "6 15 NHÀ CUNG CẤP\nĐầu mối đề xuất: Mua sắm và GRC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả\nhai IDC và dịch vụ áp ",
+    "tail": "ận xóa/hoàn trả theo\n6.15.2.5 Mã BC: [CẦN ĐIỀN].\nRà soát an ninh khi chấm dứt. hợp đồng.\ntr.77 Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\n18"
+  },
+  {
+    "doc": 3,
+    "page": 20,
+    "chars": 2688,
+    "head": "6 16 PHÁT TRIỂN AN TOÀN\nĐầu mối đề xuất: DevSecOps. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp",
+    "tail": "16.2.8 Mã BC: [CẦN ĐIỀN].\nchứng, mật mã mạnh và log theo request ID.\ntr.79 Kết quả: Chưa đủ bằng\nhành vi người dùng. Hiện trạng: [CẦN ĐIỀN].\nchứng.\n19"
+  },
+  {
+    "doc": 3,
+    "page": 21,
+    "chars": 397,
+    "head": "Mã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nKiểm tra trước phát hành ",
+    "tail": "ndency; pentest và Mã BC: [CẦN ĐIỀN].\nphát hành, retest.\ntr.79 xử lý lỗ hổng trước Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nproduction. chứng.\n20"
+  },
+  {
+    "doc": 3,
+    "page": 22,
+    "chars": 2185,
+    "head": "6 17 ỨNG PHÓ SỰ CỐ\nĐầu mối đề xuất: CSIRT và SOC. Phạm vi hiện trạng: [CẦN XÁC NHẬN cả hai\nIDC và dịch vụ áp d",
+    "tail": "và thời gian gián đoạn và tác động Mã BC: [CẦN ĐIỀN].\ntr.80 cập nhật hằng năm/khi đổi. xã hội. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN]. chứng.\n21"
+  },
+  {
+    "doc": 3,
+    "page": 23,
+    "chars": 1664,
+    "head": "6 18 KIỂM TRA AN NINH\nĐầu mối đề xuất: Đánh giá độc lập và GRC. Phạm vi hiện trạng: [CẦN XÁC\nNHẬN cả hai IDC v",
+    "tail": "2.5 Kiểm thử tài nguyên nội bộ ít Mã BC: [CẦN ĐIỀN].\ntrong phạm vi duyệt.\ntr.81 nhất hằng năm. Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nchứng.\n22"
+  },
+  {
+    "doc": 3,
+    "page": 24,
+    "chars": 2281,
+    "head": "A 4 AN TOÀN VẬT LÝ\nĐầu mối đề xuất: IDC và Hạ tầng XOR. Phạm vi hiện trạng: [CẦN XÁC NHẬN\ncả hai IDC và dịch v",
+    "tail": "ện pháp chống tĩnh điện và bảo trì sàn tại IDC. Mã BC: [CẦN ĐIỀN].\ntr.110 sàn chống tĩnh điện. Hiện trạng: [CẦN ĐIỀN]. Kết quả: Chưa đủ bằng\nchứng.\n23"
+  },
+  {
+    "doc": 3,
+    "page": 25,
+    "chars": 1035,
+    "head": "Mã và Phương án tại XOR và hiện\nNội dung đối chiếu Bằng chứng và kết quả\nnguồn trạng\nSơ đồ điều hòa; log\nNhiệt",
+    "tail": "chắn điện từ Mã BC: [CẦN ĐIỀN].\ntương ứng.\ntr.111 vùng máy chủ quan trọng/thiết Kết quả: Chưa đủ bằng\nHiện trạng: [CẦN ĐIỀN].\nbị mạng chính. chứng.\n24"
+  },
+  {
+    "doc": 3,
+    "page": 26,
+    "chars": 695,
+    "head": "XÁC NHẬN KẾT QUẢ ĐỐI CHIẾU\nTổng số điểm áp dụng: [ ]; không áp dụng có căn cứ: [ ]; đạt: [ ]; không đạt:\n[ ]; ",
+    "tail": "THẨM QUYỀN XÁC NHẬN\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\n[CẦN ĐIỀN NGƯỜI KIỂM TRA ĐƯỢC PHÂN\nCÔNG]\n25"
+  },
+  {
+    "doc": 4,
+    "page": 1,
+    "chars": 396,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nQUY CHẾ VÀ QUY TRÌNH BẢO ĐẢM AN NINH MẠNG XOR\nSECURE C",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 4,
+    "page": 2,
+    "chars": 1237,
+    "head": "Ban hành kèm theo Quyết định số [CẦN ĐIỀN] ngày [CẦN ĐIỀN] của Công ty\nCổ phần XOR CLOUD. Quy chế chỉ có hiệu ",
+    "tail": "iám sát 24/7; chủ tài sản chịu trách nhiệm dữ liệu và quyền. Người thực hiện và\nngười xác nhận phải tuân thủ cơ chế độc lập chuyên môn đã được giao.\n1"
+  },
+  {
+    "doc": 4,
+    "page": 3,
+    "chars": 1559,
+    "head": "ĐIỀU 4 TỔ CHỨC THỰC THI VÀ LƯU HỒ SƠ\nMỗi quy trình QT01–QT12 phải được gắn đầu mối chính, dự phòng và danh sác",
+    "tail": "up và bất biến [CẦN ĐIỀN theo BIA từng dịch vụ]\n[CẦN ĐIỀN theo loại; log ANM/camera bảo đảm tối thiểu 6\nLưu giữ hồ sơ và bằng chứng\ntháng theo TCVN]\n2"
+  },
+  {
+    "doc": 4,
+    "page": 4,
+    "chars": 1308,
+    "head": "QT01 QUẢN LÝ RỦI RO VÀ NGOẠI LỆ\nTrách nhiệm: GRC; chủ quản phê duyệt.\nCăn cứ: TCVN 6.1; 6.4; 6.15. Tần suất: Í",
+    "tail": "chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n3"
+  },
+  {
+    "doc": 4,
+    "page": 5,
+    "chars": 1249,
+    "head": "QT02 QUẢN LÝ TÀI SẢN DỮ LIỆU VÀ VÒNG ĐỜI\nTrách nhiệm: Hạ tầng, Platform, chủ dữ liệu.\nCăn cứ: TCVN 6.2–6.4. Tầ",
+    "tail": "chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n4"
+  },
+  {
+    "doc": 4,
+    "page": 6,
+    "chars": 1362,
+    "head": "QT03 QUẢN LÝ TÀI KHOẢN VÀ TRUY CẬP ĐẶC QUYỀN\nTrách nhiệm: IAM; chủ tài sản duyệt; bảo mật kiểm tra.\nCăn cứ: TC",
+    "tail": "chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n5"
+  },
+  {
+    "doc": 4,
+    "page": 7,
+    "chars": 1327,
+    "head": "QT04 CẤU HÌNH THAY ĐỔI VÀ BẢN VÁ\nTrách nhiệm: Platform và Network; CAB hoặc người được giao duyệt.\nCăn cứ: TCV",
+    "tail": "chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n6"
+  },
+  {
+    "doc": 4,
+    "page": 8,
+    "chars": 1297,
+    "head": "QT05 BẢO VỆ DỮ LIỆU KHÓA VÀ CHỮ KÝ SỐ\nTrách nhiệm: Chủ dữ liệu; quản trị khóa; bảo mật.\nCăn cứ: TCVN 6.4; 6.11",
+    "tail": "chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n7"
+  },
+  {
+    "doc": 4,
+    "page": 9,
+    "chars": 1183,
+    "head": "QT06 NHẬT KÝ GIÁM SÁT VÀ TRỰC AN NINH\nTrách nhiệm: SOC và SecOps.\nCăn cứ: TCVN 6.8; 6.10; 6.13. Tần suất: Trực",
+    "tail": "chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n8"
+  },
+  {
+    "doc": 4,
+    "page": 10,
+    "chars": 1222,
+    "head": "QT07 SAO LƯU VÀ KHÔI PHỤC DỮ LIỆU\nTrách nhiệm: Backup; chủ dịch vụ duyệt; người kiểm tra xác nhận.\nCăn cứ: TCV",
+    "tail": "chứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n9"
+  },
+  {
+    "doc": 4,
+    "page": 11,
+    "chars": 1297,
+    "head": "QT08 CHUYỂN ĐỔI DR VÀ KHỞI ĐỘNG LẠI NỀN TẢNG\nTrách nhiệm: Chỉ huy DR; Platform; chủ quản quyết định.\nCăn cứ: T",
+    "tail": "hứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n10"
+  },
+  {
+    "doc": 4,
+    "page": 12,
+    "chars": 1211,
+    "head": "QT09 ỨNG PHÓ SỰ CỐ VÀ BẢO TOÀN CHỨNG CỨ\nTrách nhiệm: CSIRT; SOC; pháp chế; chủ quản.\nCăn cứ: TCVN 6.17. Tần su",
+    "tail": "hứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n11"
+  },
+  {
+    "doc": 4,
+    "page": 13,
+    "chars": 1251,
+    "head": "QT10 PHÁT TRIỂN ĐÓNG GÓI VÀ PHÁT HÀNH XOR STACK\nTrách nhiệm: DevSecOps; reviewer; người duyệt production.\nCăn ",
+    "tail": "hứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n12"
+  },
+  {
+    "doc": 4,
+    "page": 14,
+    "chars": 1243,
+    "head": "QT11 QUẢN LÝ NHÂN SỰ NHÀ CUNG CẤP VÀ VẬT LÝ\nTrách nhiệm: HR; mua sắm; IDC; chủ quản.\nCăn cứ: TCVN 6.14; 6.15; ",
+    "tail": "hứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n13"
+  },
+  {
+    "doc": 4,
+    "page": 15,
+    "chars": 1239,
+    "head": "QT12 KIỂM TRA NGHIỆM THU VÀ QUẢN LÝ HỒ SƠ\nTrách nhiệm: GRC; đơn vị kiểm tra; chủ quản.\nCăn cứ: TCVN 6.12.2.7; ",
+    "tail": "hứng có người kiểm\ntra và tồn tại đã được xử lý theo thẩm quyền. Đầu mối chính: [CẦN ĐIỀN]; dự phòng:\n[CẦN ĐIỀN]; ngày bắt đầu áp dụng: [CẦN ĐIỀN].\n14"
+  },
+  {
+    "doc": 5,
+    "page": 1,
+    "chars": 1440,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\nDự thảo theo Mẫu số 03\nKhối Hạ tầng & Vận hành CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nSố:",
+    "tail": "tài liệu có giá trị tương đương, kèm\nphụ lục hiện trạng.\n3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi\nro chi tiết.\n1"
+  },
+  {
+    "doc": 5,
+    "page": 2,
+    "chars": 650,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\n4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu\ncầu và quy t",
+    "tail": "il].\nNơi nhận: GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\nTrần Văn Dũng\n2"
+  },
+  {
+    "doc": 6,
+    "page": 1,
+    "chars": 1395,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\nDự thảo theo Mẫu số 02\nCông ty Cổ phần XOR CLOUD CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nS",
+    "tail": "tài liệu có giá trị tương đương, kèm\nphụ lục hiện trạng.\n3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi\nro chi tiết.\n1"
+  },
+  {
+    "doc": 6,
+    "page": 2,
+    "chars": 712,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\n4. Thuyết minh phương án bảo đảm an ninh mạng, kèm phụ lục đối chiếu yêu\ncầu và quy t",
+    "tail": "u cầu. Đầu mối: [CẦN ĐIỀN].\nNơi nhận: TỔNG GIÁM ĐỐC\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\nLê Anh Vũ\n2"
+  },
+  {
+    "doc": 7,
+    "page": 1,
+    "chars": 1409,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\nDự thảo theo Mẫu số 05\nKhối Hạ tầng & Vận hành CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nSố:",
+    "tail": "ô tả, thuyết minh tổng quan hệ thống thông tin.\n2. Thiết kế thi công đã được phê duyệt hoặc tài liệu có giá trị tương đương, kèm\nphụ lục hiện trạng.\n1"
+  },
+  {
+    "doc": 7,
+    "page": 2,
+    "chars": 1083,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\n3. Thuyết minh đề xuất cấp độ có căn cứ theo Điều 14, kèm báo cáo đánh giá rủi\nro chi",
+    "tail": "ng].\nNơi nhận: GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\nTrần Văn Dũng\n2"
+  },
+  {
+    "doc": 8,
+    "page": 1,
+    "chars": 1674,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\nDự thảo theo cấu trúc Mẫu số 06\nCông ty Cổ phần XOR CLOUD CỘNG HÒA XÃ HỘI CHỦ NGHĨA V",
+    "tail": "chức thực hiện phương án bảo\nđảm an ninh mạng; duy trì các biện pháp quản lý, kỹ thuật, vật lý; kiểm tra, khắc phục\nvà cập nhật hồ sơ theo quy định.\n1"
+  },
+  {
+    "doc": 8,
+    "page": 2,
+    "chars": 631,
+    "head": "DỰ THẢO CHƯA KÝ BAN HÀNH\n2. Trung tâm Vận hành là đơn vị chuyên trách về an ninh mạng, kiểm tra, giám\nsát việc",
+    "tail": "ệm thi hành Quyết định này.\nNơi nhận: TỔNG GIÁM ĐỐC\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\nLê Anh Vũ\n2"
+  },
+  {
+    "doc": 9,
+    "page": 1,
+    "chars": 397,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nMẪU Ý KIẾN CHUYÊN MÔN VÀ BÁO CÁO TỰ RÀ SOÁT\nXOR SECURE",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 9,
+    "page": 2,
+    "chars": 667,
+    "head": "Phần A do đơn vị chuyên trách về an ninh mạng của chủ quản thực hiện để cho ý\nkiến theo Điều 21 khoản 5. Phần ",
+    "tail": "ốt.\nNguồn bằng chứng [CẦN ĐIỀN danh mục EV, báo cáo và cấu hình]\n[CẦN ĐIỀN phần không thử, phương pháp lấy mẫu, dữ liệu chưa được\nGiới hạn\ncung cấp]\n1"
+  },
+  {
+    "doc": 9,
+    "page": 3,
+    "chars": 1147,
+    "head": "PHẦN A Ý KIẾN CHUYÊN MÔN VỀ HỒ SƠ ĐỀ XUẤT CẤP ĐỘ\nĐơn vị chuyên trách: Trung tâm Vận hành. Căn cứ công văn xin ",
+    "tail": "n: ĐẠI DIỆN ĐƠN VỊ CHUYÊN TRÁCH VỀ AN NINH\nNhư trên; MẠNG\nLưu: hồ sơ XOR SECURE CLOUD. (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nTrần Văn Dũng\n2"
+  },
+  {
+    "doc": 9,
+    "page": 4,
+    "chars": 1281,
+    "head": "PHẦN B BÁO CÁO KẾT QUẢ TỰ RÀ SOÁT CỦA ĐƠN VỊ VẬN HÀNH\nThời gian: [ ]; phạm vi: [ ]; người chủ trì: [ ]; người ",
+    "tail": "nh].\nNơi nhận: GIÁM ĐỐC KHỐI HẠ TẦNG & VẬN HÀNH\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\nTrần Văn Dũng\n3"
+  },
+  {
+    "doc": 10,
+    "page": 1,
+    "chars": 391,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nMẪU THÔNG BÁO CẤP ĐỘ VÀ ĐỀ NGHỊ ĐÁNH GIÁ ĐỘC LẬP\nXOR S",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 10,
+    "page": 2,
+    "chars": 561,
+    "head": "Phần A chỉ dùng sau khi có quyết định phê duyệt cấp độ hợp lệ và đã xác nhận\nphạm vi công bố. Phần B dùng để đ",
+    "tail": "hách hàng khi chưa được phép.\nKhông dùng từ “được cơ quan nhà nước cấp chứng nhận” nếu chưa có văn bản chứng\nnhận đúng đối tượng, phạm vi và căn cứ.\n1"
+  },
+  {
+    "doc": 10,
+    "page": 3,
+    "chars": 1301,
+    "head": "PHẦN A THÔNG BÁO VỀ CẤP ĐỘ HỆ THỐNG THÔNG TIN\nCông ty Cổ phần XOR CLOUD CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nSố:",
+    "tail": " và cập nhật theo\nquy định.\nNơi nhận: TỔNG GIÁM ĐỐC\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\nLê Anh Vũ\n2"
+  },
+  {
+    "doc": 10,
+    "page": 4,
+    "chars": 1261,
+    "head": "PHẦN B ĐỀ NGHỊ ĐÁNH GIÁ ĐỘC LẬP HOẶC SỰ PHÙ HỢP\nCông ty Cổ phần XOR CLOUD CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nS",
+    "tail": " sử dụng; nếu có chứng nhận, làm rõ cơ\nchế cấp, thời hạn, giám sát và điều kiện duy trì.\n6. Kế hoạch, đầu mối, chi phí và các tài liệu cần cung cấp.\n3"
+  },
+  {
+    "doc": 10,
+    "page": 5,
+    "chars": 561,
+    "head": "Hồ sơ dự kiến cung cấp: thuyết minh hệ thống, thiết kế đã xác nhận, phụ lục đối\nchiếu TCVN, BIA/rủi ro, cấu hì",
+    "tail": "ầu mối liên hệ: [CẦN ĐIỀN].\nNơi nhận: TỔNG GIÁM ĐỐC\nNhư trên; (Ký, ghi rõ họ tên và đóng dấu theo thẩm quyền)\nLưu: hồ sơ XOR SECURE CLOUD.\nLê Anh Vũ\n4"
+  },
+  {
+    "doc": 11,
+    "page": 1,
+    "chars": 402,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nTÀI LIỆU KỸ THUẬT\nKẾ HOẠCH ĐỐI SOÁT THIẾT KẾ VÀ TỒN TẠI TỪ H",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 11,
+    "page": 2,
+    "chars": 1470,
+    "head": "Khối Hạ tầng & Vận hành sử dụng tài liệu này để đối soát thiết kế trong bản\n0.9.4 với nền tảng đang vận hành t",
+    "tail": " giá; 21 Đang thực hiện; 6 Không đạt; 4\nCần xác minh; 1 Đạt. Đây là trạng thái lịch sử của tài liệu tham khảo, không phải kết\nquả đánh giá hiện tại.\n1"
+  },
+  {
+    "doc": 11,
+    "page": 3,
+    "chars": 1575,
+    "head": "2 ĐỐI SOÁT THIẾT BỊ VÀ NĂNG LỰC\nNguồn: Phần II mục 4, trang 12–13 của bản 0.9.4. Kỹ thuật bổ sung serial,\nsite",
+    "tail": "ử\ndụng riêng theo replica/RAID, dự phòng, mức đầy và khả năng phục hồi. Nguồn chưa\ncó CPU, tải thực, usable/IOPS hoặc kết quả N+1 đủ để cam kết SLA.\n2"
+  },
+  {
+    "doc": 11,
+    "page": 4,
+    "chars": 1521,
+    "head": "3 ĐỐI SOÁT PHÂN VÙNG MẠNG\nNguồn: Phần II mục 5, trang 14–15. Bảng sau là quy hoạch logic tham khảo. Giữ\nsơ đồ ",
+    "tail": "dụng giao thức web phù hợp;\nkhông bắt mọi lưu lượng VM đi qua WAF. OOB, control, storage và tenant phải được\nkiểm tra cô lập theo thiết kế đã duyệt.\n3"
+  },
+  {
+    "doc": 11,
+    "page": 5,
+    "chars": 1622,
+    "head": "4 CÁC MỤC CẦN KIỂM TRA TRƯỚC\nCác mục dưới đây được chọn từ trạng thái Không đạt và Đạt trong bản nguồn.\nƯu tiê",
+    "tail": "à sau, ticket thay đổi,\nEV retest và người chấp nhận. Nếu cùng một tồn tại ảnh hưởng nhiều kiểm soát, dùng\nchung mã việc/EV và liên kết đủ các dòng.\n4"
+  },
+  {
+    "doc": 11,
+    "page": 6,
+    "chars": 1670,
+    "head": "5 TRÌNH TỰ BÀN GIAO SANG HỒ SƠ HÀNH CHÍNH\nBước 1. Giao từng dòng trong workbook 04 cho một cá nhân. Các trường",
+    "tail": "n thực hiện và ngày hoàn thành do các đầu mối thống nhất, nhập vào\nworkbook; chưa ấn định mốc cam kết khi chưa có kế hoạch nguồn lực được phê duyệt.\n5"
+  },
+  {
+    "doc": 12,
+    "page": 1,
+    "chars": 395,
+    "head": "CÔNG TY CỔ PHẦN XOR CLOUD\nKHỐI HẠ TẦNG & VẬN HÀNH\nHỒ SƠ\nPHỤ LỤC ĐỐI CHIẾU THIẾT KẾ VÀ XÁC NHẬN HIỆN TRẠNG\nHỆ T",
+    "tail": "tầng & Vận hành\nDC: Trung tâm Hạ tầng IDC Cầu Giấy\nDR: Trung tâm Hạ tầng IDC Nam Thăng Long\nBản dự thảo 2.3 chưa ký ban hành\nHà Nội, tháng 10 năm 2026"
+  },
+  {
+    "doc": 12,
+    "page": 2,
+    "chars": 1341,
+    "head": "Phụ lục này xác định cơ sở thiết kế kế thừa, phạm vi cần xác nhận và trách nhiệm\nhoàn thiện thông tin trước kh",
+    "tail": "n\nbằng hồ sơ kiểm kê, cấu hình và biên bản nghiệm thu. Việc xác nhận có hai địa điểm\nkhông thay thế kết quả kiểm thử phục hồi tại địa điểm dự phòng.\n1"
+  },
+  {
+    "doc": 12,
+    "page": 3,
+    "chars": 1443,
+    "head": "2 CƠ SỞ THIẾT KẾ HẠ TẦNG\nThành phần Thiết kế trong tài liệu tham khảo Thông tin cần xác nhận\n09 Dell R630: 03 ",
+    "tail": "/external và SAN\ncòn phải xác định chi tiết. Bản vẽ triển khai, địa chỉ, rule và luồng cho phép là thành\nphần cần bổ sung trước xác nhận hiện trạng.\n2"
+  },
+  {
+    "doc": 12,
+    "page": 4,
+    "chars": 1466,
+    "head": "3 PHẠM VI DỊCH VỤ VÀ HAI ĐỊA ĐIỂM\nNhóm dịch vụ Phạm vi dự kiến rà soát Xác nhận triển khai\nVM, image, flavor, ",
+    "tail": "ơ sở dữ liệu, lưu trữ và giám sát. Giá trị mục tiêu, số\nđo thực tế và người xác nhận được ghi trong biên bản; không tự đặt kết quả đạt khi\nchưa thử.\n3"
+  },
+  {
+    "doc": 12,
+    "page": 5,
+    "chars": 1305,
+    "head": "4 DANH MỤC HỒ SƠ XÁC NHẬN\nMã EV và phiên\nMã Tài liệu phải đối chiếu Đơn vị chủ trì\nbản\nXN01 BOM theo site, ser",
+    "tail": "ch nhiệm và thời hạn. Hồ sơ xin ý kiến hoặc thẩm định phải phản ánh đúng\ntình trạng triển khai và kế hoạch bảo đảm an ninh mạng tại thời điểm trình.\n4"
+  }
+]

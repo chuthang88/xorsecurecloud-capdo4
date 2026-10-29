@@ -1,0 +1,148 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/database/configurations
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+								154 menu Secondary Actions: Cancel
+									155 Database Instances
+									156 Backups
+									157 Configuration Groups
+						158 Container Container
+							159 pop up button Container Container
+								160 image Container
+								161 text Container
+						162 Monitor Center Monitor Center
+							163 pop up button Monitor Center Monitor Center
+								164 image Monitor Center
+								165 text Monitor Center
+						166 Alert Management Maintenance
+							167 pop up button Alert Management Maintenance
+								168 image Alert Management
+								169 text Maintenance
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Database / Configuration Groups
+						175 container
+							176 button Create Configurations
+							177 button (disabled) Delete Configuration
+							178 text field (settable) Multiple filter tags are separated by enter
+							179 image search
+							180 button sync
+								181 image sync
+							182 button download
+								183 image download
+							184 button eye
+								185 image eye
+							186 button pause-circle
+								187 image pause-circle
+						188 container
+							189 table
+								190 row
+									191 column header
+										192 container
+											193 checkbox  , Value: 0
+									194 column header
+										195 text Configuration Group ID/Name
+										196 image caret-up
+										197 image caret-down
+									198 column header
+										199 text Description
+										200 image caret-up
+										201 image caret-down
+									202 column header
+										203 text Datastore
+										204 image caret-up
+										205 image caret-down
+									206 column header
+										207 text Datastore Version
+										208 image caret-up
+										209 image caret-down
+									210 column header
+										211 text Action
+							212 table
+								213 row
+									214 cell
+										215 container
+											216 checkbox  , Value: 0
+									217 cell
+										218 link Description: c00477a3 Copy, Value: 10.3.10.100:9999/database/configurations/detail/c00477a3-859f-4fbc-aee9-00ede5145d16
+										219 text doccheck-1014-db-config
+									220 cell
+										221 text -
+									222 cell
+										223 text -
+									224 cell
+										225 text -
+									226 cell
+										227 button Delete Configuration
+							228 content list
+								229 text Total 1 items
+								230 container Previous Page
+									231 button (disabled) left
+										232 image left
+								233 text 1
+								234 container Next Page
+									235 button (disabled) right
+										236 image right
+								237 container
+									238 combo box
+									239 text 10 / page
+				240 container
+					241 container
+						242 image question-circle
+						243 text Delete Configuration Are you sure to delete configuration (instance: doccheck-1014-db-config)?
+						244 button Cancel
+						245 button Confirm
+	246 close button
+	247 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	248 minimize button
+249 menu bar
+	250 JumpServer
+	251 File
+	252 Edit
+	253 View
+	254 Window
+	255 Help
+
+Selected text: ```
+￼
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

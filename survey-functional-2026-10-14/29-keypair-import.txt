@@ -1,0 +1,141 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/keypair
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Compute / Key Pairs
+						182 container
+							183 button Create Keypair
+							184 button (disabled) Delete
+							185 text field (settable) Multiple filter tags are separated by enter
+							186 image search
+							187 button sync
+								188 image sync
+							189 button download
+								190 image download
+							191 button pause-circle
+								192 image pause-circle
+						193 container
+							194 table
+								195 row
+									196 column header
+										197 container
+											198 checkbox (disabled)  , Value: 0
+									199 column header
+										200 text Name
+										201 image caret-up
+										202 image caret-down
+									203 column header
+										204 text Fingerprint
+										205 image caret-up
+										206 image caret-down
+									207 column header
+										208 text Action
+							209 table
+								210 row
+									211 cell 0-3
+										212 text No Data
+				213 container
+					214 container Create Keypair
+						215 container
+							216 button Close
+								217 image close
+							218 text Create Keypair
+							219 container
+								220 image info-circle
+								221 text Quota of key pair means: the number of allowed key pairs for each user.
+								222 container
+									223 container
+										224 text Create Type
+									225 container
+										226 radio button Create Keypair, Value: 0
+										227 text Create Keypair
+										228 radio button Import Keypair, Value: 1
+										229 text Import Keypair
+									230 container
+										231 text * Name
+									232 container
+										233 text field (settable) * Name, Placeholder: Please input name
+										234 text The name should start with upper letter, lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, -, _".
+									235 container
+										236 text * Public Key
+									237 container
+										238 text entry area (settable) * Public Key, Placeholder: Please input
+										239 button Load from local files
+											240 button Load from local files
+								241 image
+							242 container
+								243 button Cancel
+								244 button OK
+	245 close button
+	246 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	247 minimize button
+248 menu bar
+	249 JumpServer
+	250 File
+	251 Edit
+	252 View
+	253 Window
+	254 Help

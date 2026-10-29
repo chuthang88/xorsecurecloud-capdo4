@@ -1,0 +1,125 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/backup-schedules
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+								142 menu Secondary Actions: Cancel
+									143 Volumes
+									144 Volume Backups
+									145 Volume Snapshots
+									146 Snapshot Schedules
+									147 Backup Schedules
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+				175 container
+					176 image close-circle
+					177 text Unable to create snapshot schedule, instance: doccheck-1014-snapshot-schedule.
+					178 button Click to show detail
+					179 link close
+						180 image close
+				181 container Backup Schedules
+					182 HTML content Backup Schedules — X-OR, URL: 10.3.10.100:9999/backup-schedules.html?embed=1&v=sky24
+						183 heading Backup Schedules, Value: 1
+							184 text Backup Schedules
+						185 text Automate volume backups on a cadence — retention, enablement, and one-click runs in one place.
+						186 button Create Backup Schedule
+						187 button (disabled) Delete
+						188 text field (settable) Filter by name, volume, schedule…
+						189 button Refresh
+							190 image
+						191 button (disabled) Panel
+							192 image
+						193 container
+							194 image
+							195 heading No backup schedules yet, Value: 3
+								196 text No backup schedules yet
+							197 text Set a cadence, pick a volume, and keep retention under control.
+							198 button Create Backup Schedule
+						199 container
+							200 container
+								201 text Create Backup Schedule
+								202 button ×
+								203 text *  Name
+								204 text field (settable) e.g. nightly-volume-db
+								205 text *  Volume Select a volume
+								206 table
+									207 row
+										208 column header
+											209 text Name
+										210 column header
+											211 text Status
+										212 column header
+											213 text Size
+									214 row
+										215 cell 0-3
+											216 text No volumes
+								217 text Selected : — *  Schedule Type
+								218 button Daily
+									219 text Daily
+								220 text Schedule Hour
+								221 stepper (settable, float) 2
+								222 text Hour of day (0–23), Asia/Ho_Chi_Minh Schedule Minute
+								223 stepper (settable, float) 0
+								224 text Retention
+								225 stepper (settable, float) 7
+								226 text Keep last N backups
+								227 button Cancel
+								228 button Create schedule
+	229 close button
+	230 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	231 minimize button
+232 menu bar
+	233 JumpServer
+	234 File
+	235 Edit
+	236 View
+	237 Window
+	238 Help

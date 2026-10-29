@@ -1,0 +1,157 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+								138 menu Secondary Actions: Cancel
+									139 Instances
+									140 Instance Snapshots
+									141 Flavors
+									142 Server Groups
+									143 Images
+									144 Key Pairs
+									145 Autoscale Rules (V)
+									146 Autoscale History
+									147 Auto Scaling Groups
+									148 ASG History
+						149 Storage Storage
+							150 pop up button Storage Storage
+								151 image Storage
+								152 text Storage
+						153 Network Network
+							154 pop up button Network Network
+								155 image Network
+								156 text Network
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Compute / Instances
+						182 container
+							183 button Create Instance
+							184 button (disabled) Start
+							185 button (disabled) Stop
+							186 button (disabled) Reboot
+							187 button More Actions down
+								188 text More Actions
+								189 image down
+							190 text field (settable) Multiple filter tags are separated by enter
+							191 image search
+							192 button sync
+								193 image sync
+							194 button download
+								195 image download
+							196 button eye
+								197 image eye
+							198 button pause-circle
+								199 image pause-circle
+						200 container
+							201 table
+								202 row
+									203 column header
+										204 container
+											205 checkbox (disabled)  , Value: 0
+									206 column header
+										207 text ID/Name
+										208 image caret-up
+										209 image caret-down
+									210 column header
+										211 text Compute Source
+									212 column header
+										213 text Image
+									214 column header
+										215 text Fixed IP
+									216 column header
+										217 text Floating IP
+									218 column header
+										219 text Flavor
+									220 column header
+										221 text Status
+									222 column header
+										223 text Tags
+									224 column header
+										225 text Locked
+										226 image caret-up
+										227 image caret-down
+									228 column header
+										229 text Created At
+										230 image caret-up
+										231 image caret-down
+									232 column header
+										233 text Action
+							234 table
+								235 row
+									236 cell 0-11
+										237 text No Data
+							238 container
+								239 text Total 0 items
+								240 button (disabled) left
+									241 image left
+								242 button 1
+								243 button (disabled) right
+									244 image right
+								245 container
+									246 combo box
+									247 text 10 items/page
+				248 container
+					249 container
+						250 image close-circle
+						251 text Unable to delete instance, instance: doccheck-1014-vm.
+						252 button Click to show detail
+					253 link close
+						254 image close
+					255 container
+						256 image check-circle
+						257 text The delete instance instruction has been issued, instance: doccheck-1014-vm.
+You can wait for a few seconds to follow the changes of the list data or manually refresh the data to get the final display result.
+					258 link close
+						259 image close
+	260 close button
+	261 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	262 minimize button
+263 menu bar
+	264 JumpServer
+	265 File
+	266 Edit
+	267 View
+	268 Window
+	269 Help

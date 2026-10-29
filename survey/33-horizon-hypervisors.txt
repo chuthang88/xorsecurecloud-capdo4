@@ -1,0 +1,479 @@
+Window: "JumpServer", App: jumpserver.
+0 standard window JumpServer, Secondary Actions: Raise
+	1 container JumpServer
+		2 container
+			3 HTML content JumpServer, URL: jms-app://app/
+				4 container
+					5 button Expand sidebar
+					6 button WEB-XOR-Portal, Help: WEB-XOR-Portal · http://10.3.10.100:9999/
+						7 text WEB-XOR-Portal
+					8 button WEB-Horizon, Help: WEB-Horizon · http://10.3.10.100/
+						9 text WEB-Horizon
+					10 pop up button New connection
+					11 container
+						12 toggle button (disabled) Description: The AI assistant is disabled in system settings, Value: 0
+						13 pop up button Chử Quang Thắng
+						14 toggle button Description: Open right panel, Value: 0
+					15 container
+						16 outline Resource
+							17 container
+								18 button Assets
+								19 button Switch to type tree
+								20 button Refresh
+								21 pop up button Batch actions
+								22 container
+									23 button Recent connections
+										24 text Recent connections
+									25 button Clear recent connections
+								26 button DEFAULT (35), Help: DEFAULT
+									27 text DEFAULT
+									28 text (35)
+								29 container
+									30 row XOR Infrastructure (35)
+										31 button XOR Infrastructure (35), Help: XOR Infrastructure
+											32 text XOR Infrastructure
+											33 text (35)
+										34 container
+											35 row Application VMs (6)
+												36 button Application VMs (6), Help: Application VMs
+													37 text Application VMs
+													38 text (6)
+											39 row Ceph (3)
+												40 button Ceph (3), Help: Ceph
+													41 text Ceph
+													42 text (3)
+											43 row Compute (3)
+												44 button Compute (3), Help: Compute
+													45 text Compute
+													46 text (3)
+											47 row Controllers (3)
+												48 button Controllers (3), Help: Controllers
+													49 text Controllers
+													50 text (3)
+											51 row Proxmox (3)
+												52 button Proxmox (3), Help: Proxmox
+													53 text Proxmox
+													54 text (3)
+											55 row Security Services (9)
+												56 button Security Services (9), Help: Security Services
+													57 text Security Services
+													58 text (9)
+											59 row Web Management (8)
+												60 button Web Management (8), Help: Web Management
+													61 text Web Management
+													62 text (8)
+												63 container
+													64 row WEB-Ceph-Dashboard
+														65 button WEB-Ceph-Dashboard, Help: https://10.3.31.33:8443/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															66 text WEB-Ceph-Dashboard
+													67 row WEB-FortiGate
+														68 button WEB-FortiGate, Help: https://10.3.70.1/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															69 text WEB-FortiGate
+													70 row WEB-Horizon
+														71 button WEB-Horizon, Help: http://10.3.10.100/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															72 text WEB-Horizon
+													73 row WEB-Proxmox-01
+														74 button WEB-Proxmox-01, Help: https://10.3.99.151:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															75 text WEB-Proxmox-01
+													76 row WEB-Proxmox-02
+														77 button WEB-Proxmox-02, Help: https://10.3.99.152:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															78 text WEB-Proxmox-02
+													79 row WEB-Proxmox-03
+														80 button WEB-Proxmox-03, Help: https://10.3.99.153:8006/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															81 text WEB-Proxmox-03
+													82 row WEB-Wazuh
+														83 button WEB-Wazuh, Help: https://10.3.70.94/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															84 text WEB-Wazuh
+													85 row WEB-XOR-Portal
+														86 button WEB-XOR-Portal, Help: http://10.3.10.100:9999/ Administrative website via PAM authenticated proxy; manual service login; 2026-10-13
+															87 text WEB-XOR-Portal
+									88 row Wazuh-01
+										89 button Wazuh-01, Help: 10.3.70.94
+											90 text Wazuh-01
+						91 button Favorites Create folder Refresh
+							92 text Favorites
+							93 container
+								94 button Create folder
+								95 button Refresh
+					96 container
+						97 button 后退
+						98 button 前进
+						99 button 刷新
+						100 text field Description: 地址栏只读, Help: 当前不支持手动输入地址, Value: http://10.3.10.100/admin/hypervisors/
+						101 button 会话状态：已通过代理连接 · 账号代填未配置
+					102 text Signed in Chử Quang Thắng
+					103 text WEB-Horizon HTTP 2 tabs 2 connected
+					104 button Description: Transfer center, Help: Transfer queue
+					105 pop up button (disabled) Virtual keyboard
+				106 container Notifications (F8)
+					107 content list
+			108 HTML content XOR Cloud, URL: 10.3.10.100:9999/management/audit-logs
+				109 container
+					110 container
+						111 image menu-icon
+						112 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						113 container
+							114 text Cloud
+							115 image down
+						116 button
+						117 image appstore
+						118 text admin
+						119 image swap
+						120 text Default
+						121 link Description: Administrator, Value: 10.3.10.100:9999/base/overview-admin
+						122 image bell
+						123 button user
+							124 image user
+					125 menu Secondary Actions: Cancel
+						126 Home Home
+							127 image Home
+							128 text Home
+						129 Compute Compute
+							130 pop up button Compute Compute
+								131 image Compute
+								132 text Compute
+							133 menu Secondary Actions: Cancel
+								134 Instances
+								135 Instance Snapshots
+								136 Flavors
+								137 Server Groups
+								138 Images
+								139 Key Pairs
+								140 Autoscale Rules (V)
+								141 Autoscale History
+								142 Auto Scaling Groups
+								143 ASG History
+						144 Storage Storage
+							145 pop up button Storage Storage
+								146 image Storage
+								147 text Storage
+						148 Network Network
+							149 pop up button Network Network
+								150 image Network
+								151 text Network
+						152 Orchestration Orchestration
+							153 pop up button Orchestration Orchestration
+								154 image Orchestration
+								155 text Orchestration
+						156 Database Database
+							157 pop up button Database Database
+								158 image Database
+								159 text Database
+						160 Container Container
+							161 pop up button Container Container
+								162 image Container
+								163 text Container
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+							168 menu Secondary Actions: Cancel
+								169 Monitor Overview
+								170 Alarm Rules
+								171 Notification Channels
+								172 Alarm History
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+								177 menu Secondary Actions: Cancel
+									178 Audit Logs
+									179 Recycle Bin
+						180 pop up button X-OR SECURE
+						181 Hồ sơ thiết kế
+						182 TCVN Cấp độ 1
+						183 TCVN Cấp độ 2
+						184 TCVN Cấp độ 3
+						185 Security Center
+					186 image left
+					187 container
+						188 text Maintenance / Audit Logs
+						189 container
+							190 text field (settable) Multiple filter tags are separated by enter
+							191 image search
+							192 button sync
+								193 image sync
+							194 button download
+								195 image download
+							196 button pause-circle
+								197 image pause-circle
+						198 container
+							199 table
+								200 row
+									201 column header
+										202 text Log
+										203 image caret-up
+										204 image caret-down
+									205 column header
+										206 image caret-up
+										207 image caret-down
+							208 table
+								209 row
+									210 cell
+										211 container
+											212 text 2026-10-13 09:35:12 [ 200 ] admin ACTION 2332 ms
+									213 cell
+										214 button eye
+											215 image eye
+								216 row
+									217 cell
+										218 container
+											219 text 2026-10-13 08:38:38 [ 200 ] admin ACTION 1089 ms
+									220 cell
+										221 button eye
+											222 image eye
+								223 row
+									224 cell
+										225 container
+											226 text 2026-10-13 08:36:51 [ 200 ] admin ACTION 2167 ms
+									227 cell
+										228 button eye
+											229 image eye
+								230 row
+									231 cell
+										232 container
+											233 text 2026-10-12 03:01:03 [ 200 ] admin LOGOUT session 241 ms
+									234 cell
+										235 button eye
+											236 image eye
+								237 row
+									238 cell
+										239 container
+											240 text 2026-10-12 02:58:56 [ 401 ] admin ACTION 129 ms
+									241 cell
+										242 button eye
+											243 image eye
+								244 row
+									245 cell
+										246 container
+											247 text 2026-10-12 02:57:15 [ 200 ] admin ACTION 1768 ms
+									248 cell
+										249 button eye
+											250 image eye
+								251 row
+									252 cell
+										253 container
+											254 text 2026-10-10 04:07:29 [ 404 ] admin ACTION 5 ms
+									255 cell
+										256 button eye
+											257 image eye
+								258 row
+									259 cell
+										260 container
+											261 text 2026-10-10 04:02:49 [ 200 ] admin LOGOUT session 498 ms
+									262 cell
+										263 button eye
+											264 image eye
+								265 row
+									266 cell
+										267 container
+											268 text 2026-10-10 04:02:21 [ 200 ] admin ACTION 5 ms
+									269 cell
+										270 button eye
+											271 image eye
+								272 row
+									273 cell
+										274 container
+											275 text 2026-10-10 04:02:13 [ 200 ] admin ACTION 6 ms
+									276 cell
+										277 button eye
+											278 image eye
+							279 content list
+								280 text Total 10 items
+								281 container Previous Page
+									282 button (disabled) left
+										283 image left
+								284 text 1
+								285 container Next Page
+									286 button (disabled) right
+										287 image right
+								288 container
+									289 combo box
+									290 text 10 / page
+				291 container
+					292 image close-circle
+					293 text Get clusters error.
+					294 button Click to show detail
+					295 link close
+						296 image close
+			297 HTML content Hypervisors - OpenStack Dashboard, URL: 10.3.10.100/admin/hypervisors/
+				298 container
+					299 container
+						300 link Description: OpenStack Dashboard, Value: 10.3.10.100/home/
+						301 content list
+							302 button  admin 
+								303 text 
+								304 text admin
+								305 text 
+						306 content list
+							307 button  admin 
+								308 text 
+								309 text admin
+								310 text 
+					311 content list
+						312 link Project 
+							313 text Project 
+						314 container
+							315 link Admin 
+								316 text Admin 
+							317 content list
+								318 link Description: Overview, Value: 10.3.10.100/admin/
+								319 container
+									320 link Compute 
+										321 text Compute 
+									322 link Description: Hypervisors, Value: 10.3.10.100/admin/hypervisors/
+									323 link Description: Host Aggregates, Value: 10.3.10.100/admin/aggregates/
+									324 link Description: Instances, Value: 10.3.10.100/admin/instances/
+									325 link Description: Flavors, Value: 10.3.10.100/admin/flavors/
+									326 link Description: Images, Value: 10.3.10.100/admin/images/
+								327 link Volume 
+									328 text Volume 
+								329 link Network 
+									330 text Network 
+								331 link Container Infra 
+									332 text Container Infra 
+								333 link System 
+									334 text System 
+						335 link Identity 
+							336 text Identity 
+						337 link Workflow 
+							338 text Workflow 
+					339 container
+						340 content list
+							341 text Admin
+							342 container
+								343 text /  Compute
+							344 container
+								345 text /  All Hypervisors
+						346 heading All Hypervisors, Value: 1
+							347 text All Hypervisors
+						348 heading Hypervisor Summary, Value: 3
+							349 text Hypervisor Summary
+						350 text Memory Usage
+						351 container
+							352 text Used  182.5GB  of  1.3TB
+						353 text Local Disk Usage
+						354 container
+							355 text Used  204GB  of  52.4TB
+						356 heading Resource Providers Summary, Value: 3
+							357 text Resource Providers Summary
+						358 heading compute-01, Value: 4
+							359 text compute-01
+						360 text vCPU Usage
+						361 container
+							362 text Used  74  of  288
+						363 text pCPU Usage
+						364 text Memory Usage
+						365 container
+							366 text Used  144GB  of  283.3GB
+						367 text Local Disk Usage
+						368 container
+							369 text Used  110GB  of  17.5TB
+						370 heading compute-03, Value: 4
+							371 text compute-03
+						372 text vCPU Usage
+						373 container
+							374 text Used  12  of  288
+						375 text pCPU Usage
+						376 text Memory Usage
+						377 container
+							378 text Used  16GB  of  503.6GB
+						379 text Local Disk Usage
+						380 container
+							381 text Used  30GB  of  17.5TB
+						382 heading compute-02, Value: 4
+							383 text compute-02
+						384 text vCPU Usage
+						385 container
+							386 text Used  12  of  288
+						387 text pCPU Usage
+						388 text Memory Usage
+						389 container
+							390 text Used  21GB  of  503.8GB
+						391 text Local Disk Usage
+						392 container
+							393 text Used  64GB  of  17.5TB
+						394 container
+							395 content list
+								396 link Description: Hypervisor, Value: 10.3.10.100/admin/hypervisors/?tab=hypervisor_info__hypervisor
+								397 link Description: Compute Host, Value: 10.3.10.100/admin/hypervisors/?tab=hypervisor_info__compute_host
+								398 link Description: Resource Provider, Value: 10.3.10.100/admin/hypervisors/?tab=hypervisor_info__provider
+							399 table
+								400 row
+									401 cell 0-6
+										402 text Displaying 3 items
+								403 row
+									404 column header
+										405 text Hostname
+									406 column header
+										407 text Type
+									408 column header
+										409 text RAM (used)
+									410 column header
+										411 text RAM (total)
+									412 column header
+										413 text Local Storage (used)
+									414 column header
+										415 text Local Storage (total)
+									416 column header
+										417 text Instances
+								418 row
+									419 cell
+										420 link Description: compute-01, Value: 10.3.10.100/admin/hypervisors/2_compute-01/
+									421 cell
+										422 text QEMU
+									423 cell
+										424 text 144.5GB
+									425 cell
+										426 text 283.3GB
+									427 cell
+										428 text 110GB
+									429 cell
+										430 text 17.5TB
+									431 cell
+										432 text 15
+								433 row
+									434 cell
+										435 link Description: compute-02, Value: 10.3.10.100/admin/hypervisors/5_compute-02/
+									436 cell
+										437 text QEMU
+									438 cell
+										439 text 21.5GB
+									440 cell
+										441 text 503.8GB
+									442 cell
+										443 text 64GB
+									444 cell
+										445 text 17.5TB
+									446 cell
+										447 text 7
+								448 row
+									449 cell
+										450 link Description: compute-03, Value: 10.3.10.100/admin/hypervisors/8_compute-03/
+									451 cell
+										452 text QEMU
+									453 cell
+										454 text 16.5GB
+									455 cell
+										456 text 503.6GB
+									457 cell
+										458 text 30GB
+									459 cell
+										460 text 17.5TB
+									461 cell
+										462 text 3
+								463 row
+									464 cell 0-6
+										465 text Displaying 3 items
+	466 close button
+	467 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	468 minimize button
+469 menu bar
+	470 JumpServer
+	471 File
+	472 Edit
+	473 View
+	474 Window
+	475 Help
+
+The focused UI element is 108 HTML content XOR Cloud, URL: 10.3.10.100:9999/management/audit-logs

@@ -1,0 +1,132 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/qos-policy
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+								147 menu Secondary Actions: Cancel
+									148 Networks
+									149 Ports
+									150 QoS Policies
+									151 Routers
+									152 Floating IPs
+									153 Topology
+									154 Load Balancers
+									155 Certificates
+									156 VPNs
+									157 Security Groups
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Network / QoS Policies
+						183 tab group
+							184 container
+								185 tab (selected) Current Project QoS Policies, Value: 1
+								186 tab (settable, integer) Shared QoS Policies, Value: 0
+						187 container Current Project QoS Policies
+							188 container
+								189 text field (settable) Multiple filter tags are separated by enter
+								190 image search
+								191 button sync
+									192 image sync
+								193 button download
+									194 image download
+								195 button eye
+									196 image eye
+								197 button pause-circle
+									198 image pause-circle
+							199 container
+								200 table
+									201 row
+										202 column header
+											203 container
+												204 checkbox (disabled)  , Value: 0
+										205 column header
+											206 text ID/Name
+											207 image caret-up
+											208 image caret-down
+										209 column header
+											210 text Description
+										211 column header
+											212 text Rules Number
+										213 column header
+											214 text Rules
+										215 column header
+											216 text Shared
+										217 column header
+											218 text Default Policy
+										219 column header
+											220 text Created At
+										221 column header
+											222 text Action
+								223 table
+									224 row
+										225 cell 0-8
+											226 text No Data
+								227 container
+									228 text Total 0 items
+									229 button (disabled) left
+										230 image left
+									231 button 1
+									232 button (disabled) right
+										233 image right
+									234 container
+										235 combo box
+										236 text 10 items/page
+	237 close button
+	238 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	239 minimize button
+240 menu bar
+	241 JumpServer
+	242 File
+	243 Edit
+	244 View
+	245 Window
+	246 Help

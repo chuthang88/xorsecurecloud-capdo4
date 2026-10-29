@@ -1,0 +1,22 @@
+XOR SECURE CLOUD — HAI BỘ HỒ SƠ CẤP ĐỘ 4
+Bản dự thảo 2.1 — 17/10/2026
+
+Bộ 1: mở Sổ tay kỹ thuật và workbook Excel; cập nhật hiện trạng, bằng chứng, người kiểm tra, thiếu sót, người xử lý và hạn.
+Bộ 2: bắt đầu từ 00_Huong_dan; hoàn thiện thuyết minh, phụ lục, quy chế và các văn bản trình ký theo trình tự.
+
+Phạm vi đã xác nhận: toàn bộ XOR STACK CLOUD và quản trị chung; DC IDC Cầu Giấy, DR IDC Nam Thăng Long; lập hồ sơ lần đầu.
+Chưa có kết quả kiểm tra thực tế hoặc kết luận đạt được tạo bởi bộ tài liệu này.
+Đã cập nhật tên chủ quản, địa chỉ và các đầu mối từ hồ sơ v0.9.4; đơn vị vận hành thống nhất là Khối Hạ tầng & Vận hành theo xác nhận của chủ quản cung cấp hồ sơ. Mã số doanh nghiệp, thông tin liên hệ, văn bản phân công/ủy quyền và bằng chứng thực tế còn cần bổ sung.
+Không phát hành bản còn trường trống, nhãn dự thảo hoặc thiếu bằng chứng; không tự tạo chữ ký, dấu, số văn bản hoặc ý kiến của cơ quan thẩm định.
+Thủ tục cấp độ 4 thông thường: ý kiến chuyên trách → Bộ Công an chủ trì thẩm định → chủ quản phê duyệt. Tự công bố không thay thủ tục này; tuyến chứng nhận sự phù hợp nếu có phải xác nhận riêng.
+Nguồn pháp lý chính: https://vanban.chinhphu.vn/?docid=219243&pageid=27160
+Không đính kèm PDF TCVN có bản quyền. Sơ đồ là kiến trúc mục tiêu, cần thay/bổ sung as-built đã xác nhận khi trình.
+
+THÀNH PHẦN BỘ TÀI LIỆU
+Bộ 1: Sổ tay kỹ thuật (12 trang), checklist Excel (10 trang tính), sơ đồ kiến trúc PNG/SVG và hướng dẫn này.
+Bộ 2: 10 tài liệu Word (79 trang), sơ đồ kiến trúc PNG/SVG và hướng dẫn này.
+
+THAY ĐỔI Ở BẢN 2.1
+Điền thông tin tổ chức, địa chỉ, đầu mối và người ký dự kiến từ tài liệu v0.9.4; thống nhất tên Khối Hạ tầng & Vận hành theo xác nhận của người cung cấp hồ sơ. Bổ sung bảng thông tin tổ chức và các mục cần xác nhận tại trang 4 của Hướng dẫn.
+Các tên trong ô ký là thông tin dự kiến để hoàn thiện hồ sơ, chưa phải chữ ký hoặc xác nhận thẩm quyền. Cần xác nhận phân công và cơ chế kiểm tra an ninh mạng độc lập.
+Checklist và kiến trúc mục tiêu giữ nguyên nội dung bản 2.0; không chuyển các trạng thái đánh giá cũ trong v0.9.4 thành kết quả đã xác minh.

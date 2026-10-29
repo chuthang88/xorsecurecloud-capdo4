@@ -1,0 +1,3 @@
+The following is a diff from the previous accessibility tree for Window: "JumpServer" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 564
+The focused UI element is 220 tab (selected) Action Logs, Value: 1

@@ -1,0 +1,20 @@
+{
+  "source": "/Users/thangchu/Work/XOR/Xor Secure Cloud/XOR_SECURE_CLOUD_Ho_so_Cap_do_4_v0.9.4.docx",
+  "sha256": "ec28ac067dba4d046d7586798dc38c744e7c09c71ca25dca48883f334ebdc5c5",
+  "source_pages": [
+    2,
+    3,
+    7
+  ],
+  "operator_confirmation": "Khối Hạ tầng & Vận hành; human user confirmed in chat",
+  "address_normalization": "Corrected obvious typographical Hà Nộ to Hà Nội; capitalization normalized; no public registry verification implied",
+  "missing": [
+    "Enterprise registration number",
+    "Phone/email",
+    "Authority/delegation documents",
+    "Independent specialist review arrangements"
+  ],
+  "source_technical_status": "No legacy control state or BOM promoted into current evidence status in this identity update",
+  "source_unchanged": true,
+  "checklist_copied_identically": true
+}

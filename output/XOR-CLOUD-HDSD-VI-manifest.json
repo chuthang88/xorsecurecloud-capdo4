@@ -1,0 +1,4003 @@
+{
+  "title": "XOR CLOUD — Hướng dẫn sử dụng 3 sản phẩm",
+  "language": "vi",
+  "generatedOn": "2026-10-26",
+  "sourceCommit": "76285aa0c2baddc9e74720e0f486e21f8509e85c",
+  "guideCount": 242,
+  "outlineCount": 11,
+  "imageCount": 288,
+  "sectionCount": 787,
+  "tableCount": 137,
+  "documents": [
+    {
+      "id": "stack-user-introduction",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "stack-sign-in",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-navigation",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-permissions",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-resource-planning",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-change-checklist",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-overview",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-instances",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-server-groups",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-images",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-instance-snapshots",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-shared-images",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-flavors",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-ssh-keys",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-networks",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-subnets",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-ports",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-routers",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-floating-ips",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-qos-policies",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-address-scopes",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-subnet-pools",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-security-groups",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-load-balancers",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-dns-zones",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-network-topology",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-volumes",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-snapshots",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-snapshot-schedules",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-backups",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-object-storage",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-heat-stacks",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-kubernetes",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-databases",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-autoscale",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-project-alerts",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-cost-reports",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-projects",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-quotas",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-account",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-service-connections",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-security-center",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-appearance",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-iso-installation",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "stack-console",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-instance-lifecycle",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-resize",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-volume-operations",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-restore",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-https-l7",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-reverse-dns",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-resource-deletion",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-resource-forms",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1",
+        "section-2",
+        "section-3",
+        "section-4",
+        "section-5",
+        "section-6"
+      ]
+    },
+    {
+      "id": "stack-troubleshooting",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "stack-handover",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "section-1",
+        "section-2"
+      ]
+    },
+    {
+      "id": "stack-glossary",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-screens",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-introduction",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "stack-admin-sign-in",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-navigation",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-permissions",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-resource-planning",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-change-checklist",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-overview",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-instances",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-server-groups",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-hypervisors",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-nova",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-host-aggregates",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-availability-zones",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-images",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-instance-snapshots",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-flavors",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-networks",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-subnets",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-routers",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-ports",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-neutron-agents",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-floating-ips",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-qos-policies",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-address-scopes",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-subnet-pools",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-load-balancers",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-security-groups",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-dns-zones",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-network-topology",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-volumes",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-snapshots",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-backups",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-snapshot-schedules",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-cinder",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-storage-pools",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-projects",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-users",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-domains",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-user-groups",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-roles",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-role-assignments",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-quotas",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-sso",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-cost-reports",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-service-catalog",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-api-endpoints",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-monitoring",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-alerts",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-autoscale",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "parameters",
+        "procedure"
+      ]
+    },
+    {
+      "id": "stack-admin-iso-installation",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "stack-admin-console",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-instance-lifecycle",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-resize",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-volume-operations",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-restore",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-https-l7",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-reverse-dns",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-resource-deletion",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-resource-forms",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1",
+        "section-2",
+        "section-3",
+        "section-4",
+        "section-5",
+        "section-6",
+        "section-7"
+      ]
+    },
+    {
+      "id": "stack-admin-project-handover",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-cross-project",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-network-planning",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-ceph-operations",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-alerts-autoscale",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-routine-operations",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-change-recovery",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-layered-troubleshooting",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-troubleshooting",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "stack-admin-handover",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "section-1",
+        "section-2"
+      ]
+    },
+    {
+      "id": "stack-admin-glossary",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "stack-admin-screens",
+      "status": "guide",
+      "collection": "stack",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "gioi-thieu",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "navigation",
+        "conventions",
+        "sources"
+      ]
+    },
+    {
+      "id": "bat-dau-nhanh",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "create",
+        "connect"
+      ]
+    },
+    {
+      "id": "dang-nhap",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "sign-in",
+        "session",
+        "problems"
+      ]
+    },
+    {
+      "id": "du-an",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "project",
+        "select",
+        "overview"
+      ]
+    },
+    {
+      "id": "image",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "choose",
+        "upload",
+        "use"
+      ]
+    },
+    {
+      "id": "cau-hinh",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "fields",
+        "select"
+      ]
+    },
+    {
+      "id": "key-pair",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "import",
+        "use"
+      ]
+    },
+    {
+      "id": "nhom-bao-mat",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "create",
+        "examples",
+        "apply"
+      ]
+    },
+    {
+      "id": "may-ao",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "base",
+        "network",
+        "system",
+        "manage",
+        "delete"
+      ]
+    },
+    {
+      "id": "server-group",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "create",
+        "delete"
+      ]
+    },
+    {
+      "id": "dien-toan-nang-cao",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "vertical",
+        "horizontal",
+        "history"
+      ]
+    },
+    {
+      "id": "mang",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "create",
+        "options",
+        "topology",
+        "delete"
+      ]
+    },
+    {
+      "id": "router",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "create",
+        "connect",
+        "external",
+        "delete"
+      ]
+    },
+    {
+      "id": "port",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "create",
+        "use"
+      ]
+    },
+    {
+      "id": "dia-chi-ip",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "types",
+        "allocate",
+        "connect",
+        "release"
+      ]
+    },
+    {
+      "id": "vpn",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "ipsec",
+        "connection",
+        "manage"
+      ]
+    },
+    {
+      "id": "luu-tru",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "create",
+        "status",
+        "delete"
+      ]
+    },
+    {
+      "id": "sao-luu",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "backup",
+        "schedule",
+        "snapshots",
+        "restore",
+        "snapshot-schedule"
+      ]
+    },
+    {
+      "id": "stack",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "prepare",
+        "launch",
+        "inspect"
+      ]
+    },
+    {
+      "id": "database",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "prepare",
+        "create",
+        "configuration",
+        "backup"
+      ]
+    },
+    {
+      "id": "giam-sat",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "overview",
+        "alarm",
+        "channels",
+        "history"
+      ]
+    },
+    {
+      "id": "nhat-ky",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "audit",
+        "instance",
+        "support"
+      ]
+    },
+    {
+      "id": "han-muc",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "read",
+        "plan",
+        "limit"
+      ]
+    },
+    {
+      "id": "xu-ly-su-co",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "create",
+        "connect",
+        "delete",
+        "service"
+      ]
+    },
+    {
+      "id": "thuat-ngu",
+      "status": "guide",
+      "collection": "user",
+      "sectionIds": [
+        "compute",
+        "network",
+        "services"
+      ]
+    },
+    {
+      "id": "app-start-signin",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-start-shell",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-start-account",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-start-notices",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-home-provision",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-home-dashboard",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-home-services",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-compute-instances",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-compute-instance-detail",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-compute-instance-create",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-compute-images",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-compute-key-pairs",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-compute-auto-scaling",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-storage-volumes",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-storage-backup-vaults",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-storage-snapshots",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-storage-lifecycle",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-storage-backup-plans",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-vpcs",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-subnets",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-route-tables",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-elastic-ips",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-load-balancers",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-certificates",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-vpn",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-network-security-groups",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-database-databases",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-database-snapshots",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-database-parameter-groups",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-container-clusters",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-container-templates",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-monitor-dashboards",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-monitor-alarms",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-monitor-topics",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-monitor-alarm-history",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-audit-guide",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-audit-assessment",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-audit-checks",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-audit-dossier",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-audit-letter",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-audit-levels",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-security-hub",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-security-functions",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-agentic-ops",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "app-migration-preview",
+      "status": "guide",
+      "collection": "app",
+      "sectionIds": [
+        "overview",
+        "screenshots",
+        "tasks",
+        "states",
+        "tips",
+        "related"
+      ]
+    },
+    {
+      "id": "admin-identity",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "identities",
+        "roles",
+        "authentication",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-compute",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "hosts",
+        "scheduling",
+        "lifecycle",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-placement",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "inventory",
+        "allocations",
+        "maintenance",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-images",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "stores",
+        "policies",
+        "operations",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-networking",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "architecture",
+        "addressing",
+        "policies",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-block-storage",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "backends",
+        "protection",
+        "operations",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-orchestration",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "authorization",
+        "stack-users",
+        "operations",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-databases",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "datastores",
+        "isolation",
+        "operations",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-telemetry",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "collection",
+        "alarms",
+        "troubleshooting",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-extensions",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "catalog",
+        "structure",
+        "references"
+      ]
+    },
+    {
+      "id": "admin-libraries",
+      "status": "outline",
+      "collection": "admin",
+      "sectionIds": [
+        "logging",
+        "policies",
+        "operations",
+        "references"
+      ]
+    },
+    {
+      "id": "data-overview",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "data-install",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "section-1",
+        "section-2",
+        "section-3"
+      ]
+    },
+    {
+      "id": "data-connect",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "data-profiles",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-main-window",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-appearance",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-home",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-buckets",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "data-browse",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-search",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "section-1",
+        "section-2"
+      ]
+    },
+    {
+      "id": "data-favorites-recent",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-transfer",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-url-import",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-download",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-transfers",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-large-files",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-context-menu",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1",
+        "section-2"
+      ]
+    },
+    {
+      "id": "data-tray",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-preview",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-edit",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-files",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-selection",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-file-operations",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "section-1",
+        "section-2",
+        "section-3"
+      ]
+    },
+    {
+      "id": "data-properties",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-versions",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-sharing",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "section-1",
+        "section-2"
+      ]
+    },
+    {
+      "id": "data-permissions",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-cross-profile-copy",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-sync",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-backup-overview",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-backup-sources",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "section-1",
+        "section-2",
+        "section-3"
+      ]
+    },
+    {
+      "id": "data-connections",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1",
+        "section-2"
+      ]
+    },
+    {
+      "id": "data-backup-jobs",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-backup-run",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-database-backup",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-ransomware-guard",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-restore",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1"
+      ]
+    },
+    {
+      "id": "data-backup-status",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-encrypted-backup",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1",
+        "section-2",
+        "section-3",
+        "section-4"
+      ]
+    },
+    {
+      "id": "data-reports",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-settings",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview",
+        "section-1",
+        "section-2",
+        "section-3",
+        "section-4",
+        "section-5",
+        "section-6",
+        "section-7"
+      ]
+    },
+    {
+      "id": "data-shortcuts",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    },
+    {
+      "id": "data-troubleshooting",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "section-1",
+        "section-2",
+        "section-3"
+      ]
+    },
+    {
+      "id": "data-support",
+      "status": "guide",
+      "collection": "data",
+      "sectionIds": [
+        "overview"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "src": "/assets/x-or-logo.png",
+      "sha256": "dde8d46fc14f5ccf59adab4e271a1f7729e903ab1e3e1d229313bc0219fc2652",
+      "bytes": 44597
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image1.png",
+      "sha256": "85dcbf8c4a755e6911bc05a02710f0378156acbe015d8274ee1889c388dbeed1",
+      "bytes": 130049
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image2.png",
+      "sha256": "0ee181074a48f97922468579e49fd7e3e9ef2ba23c1198a4e86e24fda6c0cd73",
+      "bytes": 209975
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image3.png",
+      "sha256": "40345c85123ae937d56d4d5ab0a67a228d2889f40d12e8dc34e584d9273ddbdb",
+      "bytes": 192634
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image4.png",
+      "sha256": "862d67a8baf6e171d5febaa85c822f8906351c973bd56cb518453529c112cb7d",
+      "bytes": 174705
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image5.png",
+      "sha256": "b7cbf55442f490c7055c04423b38f5d8b8f7812542ff3e5bb99eba1d7afd16bd",
+      "bytes": 190222
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image6.png",
+      "sha256": "fe3435d6c5e36b7b9706f5b8997dcc8f178377c8e7256f644bef8cc3759e1b68",
+      "bytes": 165168
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image7.png",
+      "sha256": "409a24cf0a4f98f091fae5be9bd55c11298486b861638f3f1db2a96930370d71",
+      "bytes": 166766
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image8.png",
+      "sha256": "b13e41e81463e4c887fcc48ead24297dfafd2d3813fab99508c3cfb66f760f79",
+      "bytes": 155240
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image9.png",
+      "sha256": "1a1ad0ad357c71672f3a761371b7e6b9365a3dd2ad9a76f573280406cc6d0a14",
+      "bytes": 162746
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image10.png",
+      "sha256": "0290d1a51f644666c70c5b28d8e691a12a22bb521ee1129ef3abec1b7ccc5346",
+      "bytes": 181675
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image11.png",
+      "sha256": "591a6ae9128a73633bc9fe4d7f7f401f3400e9b6c9d1532dc7d0a3ce9ca5f0b6",
+      "bytes": 168820
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image12.png",
+      "sha256": "3676149ac72b889e1e8a182783c137df73d13fb547a57ed3cd8b072352b76efa",
+      "bytes": 245312
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image13.png",
+      "sha256": "7ebb416f89da6aea7150015efbd2e195c9ac40aa6d662566b0afffcc68060327",
+      "bytes": 147730
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image14.png",
+      "sha256": "7fb63350c2e9a5d27f0a4d6b79e9cc4af7856d237a12e1dfbdcfbdef869b2d4b",
+      "bytes": 155138
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image15.png",
+      "sha256": "5f7c4a84d6d6f8143c46bbb94c6d4d4d21b417c93bec19a43e84e89c0198162f",
+      "bytes": 159735
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image16.png",
+      "sha256": "8e952773f331e036ac9b700bf3c6e0e1ee3247eec5d633d7a4901b7c43e60a54",
+      "bytes": 158284
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image17.png",
+      "sha256": "2178598f63783c46cd48336a8a3c777833ae4b6d1e2a288ef1d675b87cee925c",
+      "bytes": 157017
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image18.png",
+      "sha256": "d0bc2a558e5e62003722137e3e2ec9c7e26b16d434f18f50286d6ead00d2dfd4",
+      "bytes": 180258
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image19.png",
+      "sha256": "c4db0ab448a8a30e5da49b35bdd7608c149469b84b4d3c1ade243c0ac177f28f",
+      "bytes": 157921
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image20.png",
+      "sha256": "89392f49bc7259d4f429403034abbf9f7ff0c5d8dca04d5c673933a18694505d",
+      "bytes": 153217
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image21.png",
+      "sha256": "ccff9df0fde539296a2877af09e21771b209b5fecbf30027b2468d346c1896a4",
+      "bytes": 297163
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image22.png",
+      "sha256": "3ae09c887e91a20f8eb4a98290e7ec3aca4cd027925696ab88490129e196ca1f",
+      "bytes": 166087
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image23.png",
+      "sha256": "d507a62c8a9c443061a5d45480e3df3b55beffbf67bc55fffa9a8b929845de8a",
+      "bytes": 151087
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image24.png",
+      "sha256": "4097da4fe5746d850f584e803a13b27c214f109c93756fe8858de5eb5bc530be",
+      "bytes": 177546
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image25.png",
+      "sha256": "66969c38235813405f51cfd97c86b220bcc0afb8cd37e205c802e7ef89dc296e",
+      "bytes": 149242
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image26.png",
+      "sha256": "2625588af2f90b65f5ce423b82aa99f09f17968da514896d5379e0c39a180d58",
+      "bytes": 153444
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image27.png",
+      "sha256": "5de36acc4b87e5024557bd32743f1853cfea8220b21fb8b6a350eeaed7259a34",
+      "bytes": 147787
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image28.png",
+      "sha256": "c7860114d3c4fa940eb99a9a8321b239cb2ef3adc0b4499e602373648ab67000",
+      "bytes": 147779
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image29.png",
+      "sha256": "e8d6961d7a4c374a5ff409f082ab6d053013a1fdf200c816d209810ce4769cc3",
+      "bytes": 255135
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image30.png",
+      "sha256": "4c21137b588b58d04cc38200d75b72fc1ca0a55b6ee4d6ea1f99ef1868d60660",
+      "bytes": 215714
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image31.png",
+      "sha256": "2a52297d55ac26ab464b54d468e42ba8e52afad53e2cb3f591b76194f5c4b2e2",
+      "bytes": 167933
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image32.png",
+      "sha256": "95b1dc4a107d0465513258cdd15b48a107360e723a99181ce139f6af762d1999",
+      "bytes": 146328
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image33.png",
+      "sha256": "88ce2aa36a0cf230046fc6321ea0ec1cc19a652529123798fdbf3cebdeea401b",
+      "bytes": 197629
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image34.png",
+      "sha256": "ac072f52c05b24fb241b71e260747fa578d1bfbc15b8517a3f74d186d8c42347",
+      "bytes": 212395
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image35.png",
+      "sha256": "02364732858c335bb01380def13c6cbe27fb1bac5c4de3447e521b689c2dfc23",
+      "bytes": 203154
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image36.png",
+      "sha256": "e44f6d7174c34f602ef1adfd763990c9da139fe02c882506221bf2f3ba19e734",
+      "bytes": 162271
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image37.png",
+      "sha256": "6661e52891362df863e2823d2b71ebf58df529cec853e47e179258ea57850912",
+      "bytes": 163948
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image38.png",
+      "sha256": "75aa20d3c0435066e45118395708b0e2f685e03e867f928d9b31229fc3db4e65",
+      "bytes": 277443
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image39.png",
+      "sha256": "fb85a5f8ed68bd946ff65a6a63dc88d2e1cdc30ae64886dca5105539e74d79a8",
+      "bytes": 293158
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image40.png",
+      "sha256": "074f75e525ee9c95b0a2c7411d9d2c65ba1d7817fba087cb34dd7ae503a12004",
+      "bytes": 287827
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image41.png",
+      "sha256": "0bb835343173b893eba548f2d415958996fd001dd8011f642400b793f7654f3c",
+      "bytes": 275315
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image42.png",
+      "sha256": "ce34d616b006e5bb6dca8bbd5aa7392800d7ed95c6ae9a5a35e21c3b32f76d82",
+      "bytes": 220200
+    },
+    {
+      "src": "/assets/xor-stack-manual/user-image43.png",
+      "sha256": "6f0bee71236a20e0704af1fd1af9fdf9197cc07bbf9f823aa2974544e512c57a",
+      "bytes": 312219
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image1.png",
+      "sha256": "85dcbf8c4a755e6911bc05a02710f0378156acbe015d8274ee1889c388dbeed1",
+      "bytes": 130049
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image2.png",
+      "sha256": "444bbf4d7955adad79cd20db394584615b96895714cdae4fdd230b20da11d402",
+      "bytes": 229343
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image3.png",
+      "sha256": "2a6e31c09d4c9d418bc2b83e49b37115c41d4dc5e7f88b5075b4af44b8bbf41a",
+      "bytes": 257323
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image4.png",
+      "sha256": "e851e0daa6aaa35da4b28d1df271274fc6bf189d649e40ebb122a9c3d740fad3",
+      "bytes": 202756
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image5.png",
+      "sha256": "8a969f81ac82f01ddb794c34173df749901f7f46cdb541b26414e8dd4f79e64e",
+      "bytes": 197485
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image6.png",
+      "sha256": "34d2568a94e15108d19e80356718d1dea59c6dc021970141848dbff5dbda6fce",
+      "bytes": 260830
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image7.png",
+      "sha256": "9f6b69b20444c44099da94caed52b46e81c803267e62185f09bd335dc06da300",
+      "bytes": 188973
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image8.png",
+      "sha256": "68afc25f89adcb2cdecd13c8d32c1671c1c74a8ef16eec222236451d098e04dd",
+      "bytes": 180178
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image9.png",
+      "sha256": "4ab65a143368afdb1ee8e92d3f5eebb4ae6f557fa8829845a62eba38e41d6eac",
+      "bytes": 251710
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image10.png",
+      "sha256": "f3c592b4d4161168409646e1e8b21d9c87f6419e8d9480a8bd7413c92e941790",
+      "bytes": 197085
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image11.png",
+      "sha256": "d81affd870e761aadfef0deed2106270eafdf2a8db85ff500f5ef49d96eebe95",
+      "bytes": 209071
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image12.png",
+      "sha256": "579cddb2448fbd3275287f4a8a8f277a43535cc45f9cd6c6f4eaf916aa7e264e",
+      "bytes": 243501
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image13.png",
+      "sha256": "588502bb1fb1a6c7194b85543718b8b1034cbfed0f12e1e2c4e7e5b911fbab0b",
+      "bytes": 252135
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image14.png",
+      "sha256": "4279852ed200bb37dfc222f36eb4a2e3f52be5ad919c25492f063416c27ce562",
+      "bytes": 186825
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image15.png",
+      "sha256": "4d5602fadbb2562b22d5938fad0cc17c7caa2769fb5320a46e1350131f7d9673",
+      "bytes": 303693
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image16.png",
+      "sha256": "95c738249ad7e26b7e2f70407901428b6e58cf98ff1677a7a85bd262b56b6390",
+      "bytes": 252800
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image17.png",
+      "sha256": "bb99756d7744d415389e695ebf9f094f9fe6c90baa3bbb2c392beef967c0e561",
+      "bytes": 187125
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image18.png",
+      "sha256": "63f57ef3160d8251ae5cee5d18868034f6d3510f124f6042dab8a5248225cbac",
+      "bytes": 189992
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image19.png",
+      "sha256": "1f8c1f057b6e9412cfd3e425a6b7b931eb3b45df592d0982d67fc59f2d5863f4",
+      "bytes": 190918
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image20.png",
+      "sha256": "e35822f262eee507dee1405fb0cd20b809ef6f268ea157216e33e1c86c9f251c",
+      "bytes": 187277
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image21.png",
+      "sha256": "51ecee63d5461b6859298ff89d9bb9b81082e77ff5af7c593bc9a38a1cbacec6",
+      "bytes": 195350
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image22.png",
+      "sha256": "6f03272a78bb2b7fd506f5f4fedd3ad1ec84f7e60c0c63e1042cd8b687a09d9a",
+      "bytes": 281960
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image23.png",
+      "sha256": "244896dbbb55b202f50205938ae73f95bb63966511de04d3e9af0d2c9df10c1f",
+      "bytes": 191894
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image24.png",
+      "sha256": "5e037f1f7098d0a9d1b1d3e813f059ff0b9880c279d38e6f3982c2bd1671ba36",
+      "bytes": 418555
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image25.png",
+      "sha256": "5668514234d00875073b30c23aa67c8de65f67cd2b443f432d5f9ffcc2940b39",
+      "bytes": 206721
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image26.png",
+      "sha256": "9326f3e6efce95844a9eecaec59baed3e7e3609061d06ec72d683ddd3f1c1313",
+      "bytes": 184616
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image27.png",
+      "sha256": "96452e5a0731288bf64cc9ade4bd3b4f32f1130c31ab4c36136e564ae14b7b86",
+      "bytes": 183399
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image28.png",
+      "sha256": "9512f18be9b30b6d0799328f742f9bf6555aeb6b8b664bf45498c4140dc486ac",
+      "bytes": 208183
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image29.png",
+      "sha256": "91be04d7de34a5f89be81632e4c8fce9f8b993dcee55fb412514d39a0c7c5d59",
+      "bytes": 225104
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image30.png",
+      "sha256": "5dfc21422e269f2675875a2fe4370807a8b06614dd265f72c3dfbeb77245faa0",
+      "bytes": 207407
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image31.png",
+      "sha256": "45289bcef6e5968e16aaf8cd1981791fe02e6c2c823414c9510cd06be2badd23",
+      "bytes": 207757
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image32.png",
+      "sha256": "c55588ed9b4945da926c46a335601c51896622c7ce13672f34d149eab3610ee2",
+      "bytes": 282484
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image33.png",
+      "sha256": "f0f0ef35d05b26abc3169a1190e4d9bb17c4481832af0124300bb98b551d9ad7",
+      "bytes": 208577
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image34.png",
+      "sha256": "adc4b362b60eda6619200e8cd91b568fd963901b81165db53ac4e7ec68cecb85",
+      "bytes": 180211
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image35.png",
+      "sha256": "edbd200aebad7abb8e10163ebdc75922b54fcc4d10276d5bf950b26b6c4caab5",
+      "bytes": 293437
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image36.png",
+      "sha256": "7a439922be9a78e2d98c2066421aa47f5782de21e91ee818cffce57bbadadd45",
+      "bytes": 276889
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image37.png",
+      "sha256": "e23ceaf1dfdd7ecf31b47ff0c0f33a0aba253c58217519cbf1bba0a7c7635216",
+      "bytes": 216300
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image38.png",
+      "sha256": "67bda4ac528829e3a8b16dedfab6c7391d996e6cb95f600155377d6eeab5d6f8",
+      "bytes": 217973
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image39.png",
+      "sha256": "5b1216cf75b2577abd16a59936299b65954b75ccb4dc79699871d192e30e5694",
+      "bytes": 200461
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image40.png",
+      "sha256": "9a77e32e0f699760c39881a70fecb0df37448a6897811b904e051a22fffe4dda",
+      "bytes": 254435
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image41.png",
+      "sha256": "87805a1df4fc39b8b113f04cbc9abda5c44a201595174d570c309c84235bd0ad",
+      "bytes": 295400
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image42.png",
+      "sha256": "e501f358811e810138ee786a899231770b0117502fa8042f5afe53f6ae9d4e76",
+      "bytes": 301667
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image43.png",
+      "sha256": "84bd5a16ca9a379ee0e23e1aa14fe30ee6fdca8434aa06e50714da76470be50d",
+      "bytes": 259138
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image44.png",
+      "sha256": "e932ea474b8e14f3d5ab8f195576429e83ccdb01c032e0694b75d830d11dc55b",
+      "bytes": 288021
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image45.png",
+      "sha256": "75aa20d3c0435066e45118395708b0e2f685e03e867f928d9b31229fc3db4e65",
+      "bytes": 277443
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image46.png",
+      "sha256": "fb85a5f8ed68bd946ff65a6a63dc88d2e1cdc30ae64886dca5105539e74d79a8",
+      "bytes": 293158
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image47.png",
+      "sha256": "074f75e525ee9c95b0a2c7411d9d2c65ba1d7817fba087cb34dd7ae503a12004",
+      "bytes": 287827
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image48.png",
+      "sha256": "0bb835343173b893eba548f2d415958996fd001dd8011f642400b793f7654f3c",
+      "bytes": 275315
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image49.png",
+      "sha256": "ce34d616b006e5bb6dca8bbd5aa7392800d7ed95c6ae9a5a35e21c3b32f76d82",
+      "bytes": 220200
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image50.png",
+      "sha256": "6f0bee71236a20e0704af1fd1af9fdf9197cc07bbf9f823aa2974544e512c57a",
+      "bytes": 312219
+    },
+    {
+      "src": "/assets/xor-stack-manual/admin-image51.png",
+      "sha256": "d9b4f71c3df1f6a43f941cec246fa91e2f09427dcb27b1a5d7da2fa0ca620f8c",
+      "bytes": 306521
+    },
+    {
+      "src": "/assets/screenshots/login.jpg",
+      "sha256": "1c0423dbbb4c0310c41067c4c76947a63ec624bf05e8ca3f3dfc65751437ebfb",
+      "bytes": 415306
+    },
+    {
+      "src": "/assets/screenshots/overview.jpg",
+      "sha256": "463e5005922956e96011339258112fcf4a20490b0a95e2ebc3b0413521e3c425",
+      "bytes": 392972
+    },
+    {
+      "src": "/assets/screenshots/create-image.jpg",
+      "sha256": "edb3faf60d45361687b785a3691d287e78174ab811d7b052bb4c584e4616ba52",
+      "bytes": 367304
+    },
+    {
+      "src": "/assets/screenshots/flavors.jpg",
+      "sha256": "5e819a5599d0cd20382ca7f1c6cc76f9463fec2eaf43a0917648bd22b23d1908",
+      "bytes": 441904
+    },
+    {
+      "src": "/assets/screenshots/security-rule.jpg",
+      "sha256": "c8f7a8c44dd72fb193b3dccdf15fc041b12daf08c1330323e898c87708ad68c3",
+      "bytes": 433478
+    },
+    {
+      "src": "/assets/screenshots/create-instance.jpg",
+      "sha256": "a89e2e6558f9eb6f8a1b4d1ece8b17276ab473fcc1fb5fa4e3ca1e0b27035c2c",
+      "bytes": 441915
+    },
+    {
+      "src": "/assets/screenshots/network-list.jpg",
+      "sha256": "478cf4623c6cd509a4dc9dd1aac1576d9950351bef5e7f65b6d5dcac79f14386",
+      "bytes": 371856
+    },
+    {
+      "src": "/assets/screenshots/topology.jpg",
+      "sha256": "d5643b40e8edcae25a217b23ee6de4f61ab729c0aa5ba7c5dcf04f119acb6bd5",
+      "bytes": 503163
+    },
+    {
+      "src": "/assets/screenshots/router-interface.jpg",
+      "sha256": "ede53df0547bd8aff99ba3a9a698cb95d4726381a7554264f8d22092f7aed175",
+      "bytes": 432532
+    },
+    {
+      "src": "/assets/screenshots/port-list.jpg",
+      "sha256": "a0ec325ab816a135cfe62b8bac59927c67dde97d38de3d26d8906a5926fbf387",
+      "bytes": 417776
+    },
+    {
+      "src": "/assets/screenshots/floating-ip.jpg",
+      "sha256": "142d4f535f713279cb84954a7eba59cae685bf6622cb55843ab3bbc7d26c2928",
+      "bytes": 377831
+    },
+    {
+      "src": "/assets/screenshots/ipsec-policy.jpg",
+      "sha256": "f6fa66b5ff3eef570b5ed591dd4f936248029fb2dcf90ec8e00ce6a06340d92d",
+      "bytes": 408886
+    },
+    {
+      "src": "/assets/screenshots/create-volume.jpg",
+      "sha256": "8b0aa1a51b17303100ecda1c640f9053ba72bd888b1dcd7bfa7f5b674d6dcff2",
+      "bytes": 414684
+    },
+    {
+      "src": "/assets/screenshots/volume-available.jpg",
+      "sha256": "25412bbe3321dfd41903cfb0fde1771d7fdccabf58c4f381fb451fe1d311b913",
+      "bytes": 406172
+    },
+    {
+      "src": "/assets/screenshots/volume-backup.jpg",
+      "sha256": "f3a527e56aacc0e2569b89f458bdb5705cc969a284c7cfdada0f8964f471bd77",
+      "bytes": 508177
+    },
+    {
+      "src": "/assets/screenshots/volume-snapshot.jpg",
+      "sha256": "2fd395be3defae91a0294b1b1aabd4189402948956f2a83fd51bbe3ee5090cec",
+      "bytes": 376019
+    },
+    {
+      "src": "/assets/screenshots/stack.jpg",
+      "sha256": "d7d31a96c2a269180f48f538cb30ab46444dc78b633f16d31bca1653cd72800c",
+      "bytes": 445208
+    },
+    {
+      "src": "/assets/screenshots/database-config.jpg",
+      "sha256": "2b5af2c267f20f46343942cf3e6a50dbbcaab816616151bc8a70e2de7efa67cc",
+      "bytes": 350670
+    },
+    {
+      "src": "/assets/secure-app/start-signin.webp",
+      "sha256": "e05aca080e7a78c2962978c44e186218c65f20c2db5a2a9d788b0b35d12e0e5c",
+      "bytes": 15090
+    },
+    {
+      "src": "/assets/secure-app/start-profile.webp",
+      "sha256": "4e50670a54f6d6236180b30307fe69497fa985be88310ced665e73cffce27c08",
+      "bytes": 11676
+    },
+    {
+      "src": "/assets/secure-app/start-topbar.webp",
+      "sha256": "8485c6d2ba2e791983243b57e06c99733c7c9415f3cb527e7ecb381cd45f85d0",
+      "bytes": 6674
+    },
+    {
+      "src": "/assets/secure-app/start-menu.webp",
+      "sha256": "2aae851bbc629fbab8335a9fe315fb8d1a1fc4addf8ae611c9f416030d1ef169",
+      "bytes": 47492
+    },
+    {
+      "src": "/assets/secure-app/start-picker.webp",
+      "sha256": "6c357d6ee753ce521913d116f12836dcaa73a21b6163b62140e6433eb8643001",
+      "bytes": 6336
+    },
+    {
+      "src": "/assets/secure-app/start-user-menu.webp",
+      "sha256": "4dcf2f6ee53a56142d4f3ca19f61920bf018bbdefacffbf56ab6f3bdbecc42ba",
+      "bytes": 9082
+    },
+    {
+      "src": "/assets/secure-app/start-password.webp",
+      "sha256": "546d0f9f1cdb7f304ffd625eeb5132ea0bd7be41b9e9be437621553d306bb230",
+      "bytes": 13762
+    },
+    {
+      "src": "/assets/secure-app/start-mfa.webp",
+      "sha256": "14312d95c07b4c467f0a03d666f49665086a5a0b740301defa4fa58193b4ef74",
+      "bytes": 8076
+    },
+    {
+      "src": "/assets/secure-app/start-settings.webp",
+      "sha256": "fa179b7c2282584cc06cfd856dad6310d22694b53d9f7c37ac390a891ae9978a",
+      "bytes": 28920
+    },
+    {
+      "src": "/assets/secure-app/start-settings-data.webp",
+      "sha256": "431c531c569838627f74664ed2718f04c6c621f5cb6c244d046bf17d102c2d72",
+      "bytes": 26840
+    },
+    {
+      "src": "/assets/secure-app/start-settings-about.webp",
+      "sha256": "c78c6fc54fafba72e8d851a8fad8f133d3f2ca2c934f3d213dec2c02bc790383",
+      "bytes": 20690
+    },
+    {
+      "src": "/assets/secure-app/start-about.webp",
+      "sha256": "4da28661eb68821b0b9e34ab05af2f0f2d72f9f52a29f8c1ebeda73bc3cc85e5",
+      "bytes": 14116
+    },
+    {
+      "src": "/assets/secure-app/start-notice.webp",
+      "sha256": "9de07c69c40dce45b471e396c18e0aa96fe008240a4ae0569cd06c2ecedec26c",
+      "bytes": 10994
+    },
+    {
+      "src": "/assets/secure-app/start-coming-soon.webp",
+      "sha256": "f043ef4c8f25e236a814954552280f940436faddf4d95f01dd262a6b7d077eeb",
+      "bytes": 35714
+    },
+    {
+      "src": "/assets/secure-app/home-hero.webp",
+      "sha256": "1420bc08c1321e4da8e121d02f901bd1336ee42d45ab864ebb554f7756bb694a",
+      "bytes": 34268
+    },
+    {
+      "src": "/assets/secure-app/home-provision.webp",
+      "sha256": "a227f2b52da898bd7772103993c6de132f0bc4290c7867926ff8934be1a7def8",
+      "bytes": 44028
+    },
+    {
+      "src": "/assets/secure-app/home-systems.webp",
+      "sha256": "8e853587e11db8cc85d2ba27f207bcf68280b3fd14419032aed1ab482f807dfa",
+      "bytes": 21406
+    },
+    {
+      "src": "/assets/secure-app/home-confirm.webp",
+      "sha256": "11daee233da2635549e292b567bdb03bea271719f83dce2683e9142f8d90f621",
+      "bytes": 31406
+    },
+    {
+      "src": "/assets/secure-app/home-next.webp",
+      "sha256": "fce4a292f51de7cbb49c6d09c1dd42d4212c40ca9489643bf749e52b13e4fa61",
+      "bytes": 24192
+    },
+    {
+      "src": "/assets/secure-app/home-compliance.webp",
+      "sha256": "9cecc0e1063dc1b210fff94a17e08600b47e1a344b200fdefabae930e20a2582",
+      "bytes": 30130
+    },
+    {
+      "src": "/assets/secure-app/home-dashboard.webp",
+      "sha256": "fe5f362fb5a495094784a181a407370c438e122b33b7dacc74cb2ac0d35fc096",
+      "bytes": 32058
+    },
+    {
+      "src": "/assets/secure-app/home-dashboard-monitor.webp",
+      "sha256": "df6f72cea0ac82930e7adc6b580a28151b1ebdef5fc290dd2c0e0ca09594d186",
+      "bytes": 45700
+    },
+    {
+      "src": "/assets/secure-app/home-dashboard-activity.webp",
+      "sha256": "2ad7ee71417452c1f191a3c47be2a23df2d3164a23914dab408023b5d98db4b0",
+      "bytes": 32716
+    },
+    {
+      "src": "/assets/secure-app/home-services.webp",
+      "sha256": "d7c923cde29e2a39da33653077bcc0992fc1010bbb617a9f3b5b7eae34bd496b",
+      "bytes": 42744
+    },
+    {
+      "src": "/assets/secure-app/compute-instances.webp",
+      "sha256": "6a53f11894ec1a227b71f0426747f40d16c9ec578b8dc9087eb4a653b72d0bb4",
+      "bytes": 27106
+    },
+    {
+      "src": "/assets/secure-app/compute-row-menu.webp",
+      "sha256": "bbeac5c59754c9fd460268473d0550b5c7162f26d97b292cfc3430217f399410",
+      "bytes": 34266
+    },
+    {
+      "src": "/assets/secure-app/compute-server-groups.webp",
+      "sha256": "08304088b3588bff1ed1da21bef96a6ef625872f44c1ec68486a02f721427179",
+      "bytes": 17270
+    },
+    {
+      "src": "/assets/secure-app/compute-detail.webp",
+      "sha256": "e14249c7914de64925a20fdbf8fcbab63d02348da06d8594e585439a2285f198",
+      "bytes": 39724
+    },
+    {
+      "src": "/assets/secure-app/compute-actions.webp",
+      "sha256": "68935cfbf6f075407a44a6f7caef1359d14e5b223269aa0eaca9786525a9e568",
+      "bytes": 14190
+    },
+    {
+      "src": "/assets/secure-app/compute-create.webp",
+      "sha256": "8efd81e1a9f78d7bdc0999cf40901b0069a3d118e779e508fe6adf8fb42d7b7a",
+      "bytes": 84962
+    },
+    {
+      "src": "/assets/secure-app/compute-create-aside.webp",
+      "sha256": "c17304f53868f6d4cc762c0e060c34a61ef293c5a79fda2ecd3389595c5ac468",
+      "bytes": 40822
+    },
+    {
+      "src": "/assets/secure-app/compute-images.webp",
+      "sha256": "2ada25dcc6cd6db3dcc8866af608ba12c1217f6517497dba71063df6f53258e5",
+      "bytes": 23690
+    },
+    {
+      "src": "/assets/secure-app/compute-key-pairs.webp",
+      "sha256": "876146bd78cb36c6d6bed8ff17d82cd8f7cdfb80baeff45edb79c8a038d656bc",
+      "bytes": 23020
+    },
+    {
+      "src": "/assets/secure-app/compute-key-pair-create.webp",
+      "sha256": "93ebe912417f7311fbe76a2cdbc72e86a00a2b123a2b5082a9cef208b18eb004",
+      "bytes": 20208
+    },
+    {
+      "src": "/assets/secure-app/compute-asg.webp",
+      "sha256": "8b05d57f35f287c362e9851f1420ecfff3072bd2953de3a62f6723393613737a",
+      "bytes": 23820
+    },
+    {
+      "src": "/assets/secure-app/compute-asg-create.webp",
+      "sha256": "7a00f35a2a345382774ded03dc041f91c1fd9caf5cd594b7876b034baf766531",
+      "bytes": 43242
+    },
+    {
+      "src": "/assets/secure-app/storage-volumes.webp",
+      "sha256": "9aebf796ada71deb309dfed6737501224c85b81f426065a564e9b6eba1e5ff6e",
+      "bytes": 18150
+    },
+    {
+      "src": "/assets/secure-app/storage-volume-create.webp",
+      "sha256": "99627ff92e4fed08e84c7ed7a59620c7a78cb02fcc4d44424ef0c80af5a1d424",
+      "bytes": 17164
+    },
+    {
+      "src": "/assets/secure-app/storage-volume-detail.webp",
+      "sha256": "34b11ef74e1a60db3fb513993ecda1015045d413da276e09886f7fb2674d8c82",
+      "bytes": 13260
+    },
+    {
+      "src": "/assets/secure-app/storage-backup-vaults.webp",
+      "sha256": "5b4f336f089a374d86c5ae9b635d27c1e5362436501b96c4245e421bb592e6bd",
+      "bytes": 18110
+    },
+    {
+      "src": "/assets/secure-app/storage-backup-restore.webp",
+      "sha256": "6464bc6b544cf1f2ef0f3d2b5dde18e8c3b7b7831bcdd256946d63a078649f2d",
+      "bytes": 4942
+    },
+    {
+      "src": "/assets/secure-app/storage-snapshots.webp",
+      "sha256": "2518c4fd7b1085e3e872838038858939dfcbcc8ad41ba0433e24fc846d1f13b6",
+      "bytes": 14792
+    },
+    {
+      "src": "/assets/secure-app/storage-snapshot-revert.webp",
+      "sha256": "8c6e77f8f23dfae6425cee020beb61f0bd931185a52d1e7019672bcf62d9580f",
+      "bytes": 23822
+    },
+    {
+      "src": "/assets/secure-app/storage-lifecycle.webp",
+      "sha256": "c6d34f397feb40dc05170711e7cb31992f34efedc850a58c28b0f7f0ad48ae3c",
+      "bytes": 21124
+    },
+    {
+      "src": "/assets/secure-app/storage-lifecycle-create.webp",
+      "sha256": "824bdd4a68d995d6f6e18b3ebf436663b147a802b700086e93346475589e4410",
+      "bytes": 28004
+    },
+    {
+      "src": "/assets/secure-app/storage-lifecycle-detail.webp",
+      "sha256": "51d4914c02d8cb4730ce577eba8e2a7264ece7c6f2028f05f1ab3bdd9c964a65",
+      "bytes": 12862
+    },
+    {
+      "src": "/assets/secure-app/storage-backup-plans.webp",
+      "sha256": "296d0dca22b4cb3ae61052b87c2e44778da6394d7ac9fe611c365a9e4774cf7a",
+      "bytes": 18766
+    },
+    {
+      "src": "/assets/secure-app/storage-backup-plan-create.webp",
+      "sha256": "281d3380899e2d9296e15fc68e1fb7aef326913a4f72664a5d510ae2a24aeb95",
+      "bytes": 28456
+    },
+    {
+      "src": "/assets/secure-app/network-vpcs.webp",
+      "sha256": "10fa24e3ff20465feb07a151ad2fc155528f4566e5e6d654097bf63f55accdd8",
+      "bytes": 14354
+    },
+    {
+      "src": "/assets/secure-app/network-routers.webp",
+      "sha256": "0073be86e12d4ad3bb32581c17531317693fd53de021d7208b6261c59d18885d",
+      "bytes": 12364
+    },
+    {
+      "src": "/assets/secure-app/network-router-detail.webp",
+      "sha256": "76bd9b66ed82def8b5b147f12a0a7f529ee8c64285225cd96307a49c68e23745",
+      "bytes": 13284
+    },
+    {
+      "src": "/assets/secure-app/network-vpc-create.webp",
+      "sha256": "78c742192194037b658a95f810dc5bad1b2a2fe41a08dcda3cba19d295a24fb9",
+      "bytes": 17558
+    },
+    {
+      "src": "/assets/secure-app/network-subnets.webp",
+      "sha256": "f1edddbe37e7841c5e8138091ccd23d8fb3b293810944684050141fa11fc86b0",
+      "bytes": 15482
+    },
+    {
+      "src": "/assets/secure-app/network-subnet-create.webp",
+      "sha256": "c4b1101bcfc31221a024d4d8415779398c5e1313fca433de42f6c88b36761ceb",
+      "bytes": 21764
+    },
+    {
+      "src": "/assets/secure-app/network-elastic-ips.webp",
+      "sha256": "1c8eb8f19ee32f150d3bdd4165775af5a917f8cb0fe48f2749e98da4b8178eb7",
+      "bytes": 13500
+    },
+    {
+      "src": "/assets/secure-app/network-eip-menu.webp",
+      "sha256": "469caf4171102db23b71f0ea6e437dc78d5dce52976a58a71be17bcf1055b980",
+      "bytes": 14254
+    },
+    {
+      "src": "/assets/secure-app/network-eip-associate.webp",
+      "sha256": "32e4572815d1773e8c7e1a2cb78ffda3396cbcdf0e681384a2be79f81a5401da",
+      "bytes": 9300
+    },
+    {
+      "src": "/assets/secure-app/network-eip-forwarding.webp",
+      "sha256": "138b5fd00cc00fc87dd1e477957a2ccc743d1e08deb3318f940cc2153085c81d",
+      "bytes": 18950
+    },
+    {
+      "src": "/assets/secure-app/network-elastic-ip-create.webp",
+      "sha256": "5e72877d5fc0417a3cda7a6a72dc5e00e2bad1d62f8dd3a7e849508f35044e9c",
+      "bytes": 10704
+    },
+    {
+      "src": "/assets/secure-app/network-load-balancers.webp",
+      "sha256": "0acc90e5e42e34c82f25b504b68097e094a1eddb45722b7068ad2e08762ebc56",
+      "bytes": 13270
+    },
+    {
+      "src": "/assets/secure-app/network-lb-create.webp",
+      "sha256": "1825840ec7db8e807ffc3f7076963a33064d5cee6d5b2e5d5a9add6c54987f70",
+      "bytes": 27364
+    },
+    {
+      "src": "/assets/secure-app/network-lb-detail.webp",
+      "sha256": "6329c928b618aeade75156d3019138c8a92b4ebe43b2c0b8e1b275acfebaab4a",
+      "bytes": 13150
+    },
+    {
+      "src": "/assets/secure-app/network-lb-listeners.webp",
+      "sha256": "5ea40dfc0d7d5ba4a602cdbc04d8be366da6ac640ac4b4a95e210288d7a39ebe",
+      "bytes": 26280
+    },
+    {
+      "src": "/assets/secure-app/network-lb-pools.webp",
+      "sha256": "b93e3c6b50bf0a16f207625857d6cee1373705eceb3ee2ebb8aa2d1e49c84f33",
+      "bytes": 16440
+    },
+    {
+      "src": "/assets/secure-app/network-certificates.webp",
+      "sha256": "b7b34f7b7dd033ed6552b22cac47c38e6e4b011adbe1b907513ff1c90b865a89",
+      "bytes": 14176
+    },
+    {
+      "src": "/assets/secure-app/network-certificate-create.webp",
+      "sha256": "e788471b1c060b5ba2be39f2148f1cf3e3040519b9578ff40e44c859a3eb02a1",
+      "bytes": 18908
+    },
+    {
+      "src": "/assets/secure-app/network-vpn.webp",
+      "sha256": "d1eea0daef3cdab314ae79647caf371c87acfba0c2941bd246ef526fcebfbbc8",
+      "bytes": 15182
+    },
+    {
+      "src": "/assets/secure-app/network-vpn-create.webp",
+      "sha256": "cbb1b6acfe99682b96f54948526de3a39f7ce30ffe6938ff7830dcdc376d8ac7",
+      "bytes": 26262
+    },
+    {
+      "src": "/assets/secure-app/network-security-groups.webp",
+      "sha256": "19b582f3537b9c8794eedf4d3be0b133b04841e5aa13913b767f745c4add93f4",
+      "bytes": 11280
+    },
+    {
+      "src": "/assets/secure-app/network-sg-detail.webp",
+      "sha256": "9275c728f883f72d92f536e2bec054b2bbf70cc86304f6eac33eb116d84159ab",
+      "bytes": 22834
+    },
+    {
+      "src": "/assets/secure-app/network-sg-rule-create.webp",
+      "sha256": "ccae13b82a605e3d55644e9ac7697dc45185b74e36ae9633b15452f4cf7c8680",
+      "bytes": 20424
+    },
+    {
+      "src": "/assets/secure-app/database-list.webp",
+      "sha256": "c5403e5d6c58792b2f883d184c139af6a94f00aee048f688752ffc6da56a6b3e",
+      "bytes": 23686
+    },
+    {
+      "src": "/assets/secure-app/database-menu.webp",
+      "sha256": "7b7aefbdc87b871b9a84cbe1406fee9076e51388cebbcb11abba8773a9d2b9ac",
+      "bytes": 30746
+    },
+    {
+      "src": "/assets/secure-app/database-create.webp",
+      "sha256": "d3ebfe0e3ef8f4955d796b7370875b1fa95be96b9c17275b5bb45320e90f5ec0",
+      "bytes": 32262
+    },
+    {
+      "src": "/assets/secure-app/database-detail.webp",
+      "sha256": "927df1416d57975100017fa0e36f910fd65a2668fce2f65af4309070f9bfc8d9",
+      "bytes": 30178
+    },
+    {
+      "src": "/assets/secure-app/database-backups.webp",
+      "sha256": "cd077463a6bd04e81ab804bd2ddbebb28573bfc86738504961b8cb744add77dd",
+      "bytes": 25094
+    },
+    {
+      "src": "/assets/secure-app/database-snapshots.webp",
+      "sha256": "d28df591d5cc6732baec2630c9318df3830c094a1d1f8d3461c866a0b2b4b50e",
+      "bytes": 26470
+    },
+    {
+      "src": "/assets/secure-app/database-parameter-groups.webp",
+      "sha256": "6b11b1d9b9f9cf6c840b8d497ed64cef3cc046f7a3311567998b7007f4f0c270",
+      "bytes": 19994
+    },
+    {
+      "src": "/assets/secure-app/container-clusters.webp",
+      "sha256": "f687bcd3e37a0c06fe40425176950fba57a633b85767a015ab8ce749df3f6f7c",
+      "bytes": 21772
+    },
+    {
+      "src": "/assets/secure-app/container-cluster-detail.webp",
+      "sha256": "01c34d1e535810e860dd3a7c21932138c5dbc98c566b29b0c9d0289e8963ead0",
+      "bytes": 27460
+    },
+    {
+      "src": "/assets/secure-app/container-cluster-groups.webp",
+      "sha256": "478f02eb6f7455d3cfe1b428e59a4a13982f35ad519f3d1b77782d48eb323b71",
+      "bytes": 27102
+    },
+    {
+      "src": "/assets/secure-app/container-templates.webp",
+      "sha256": "a16c5544c145d230b3347e6c1180ddc8560cf0ebff869bf60fe966f523681437",
+      "bytes": 25110
+    },
+    {
+      "src": "/assets/secure-app/monitor-dashboards.webp",
+      "sha256": "ea1a61cc0ec8e5f6293de0d99027b37aaf98219feff2c9344c1f87cbe32268ee",
+      "bytes": 54220
+    },
+    {
+      "src": "/assets/secure-app/monitor-alarms.webp",
+      "sha256": "6d530e8a2d9b82a40edc247ba7685e5b189fa33336852082dce98d71e52366a0",
+      "bytes": 25818
+    },
+    {
+      "src": "/assets/secure-app/monitor-alarm-detail.webp",
+      "sha256": "3b081899a15d723a60f5839082c888f1fcd3b6fead5a5d74bc37545519b64e70",
+      "bytes": 18952
+    },
+    {
+      "src": "/assets/secure-app/monitor-alarm-events.webp",
+      "sha256": "260d12b8c76aa7803d8d7cae9eef33beea8c5004ee7292792595605ad024efa4",
+      "bytes": 20332
+    },
+    {
+      "src": "/assets/secure-app/monitor-topics.webp",
+      "sha256": "3c593076fad28831d7ffb20c65fea8532e98a13fab4c7d53816e03d6674525a9",
+      "bytes": 24998
+    },
+    {
+      "src": "/assets/secure-app/monitor-alarm-history.webp",
+      "sha256": "ccc872d33453ce244c9f71ae3aa65e25a2b86dc1d29961279151590ac8d4d2cd",
+      "bytes": 26484
+    },
+    {
+      "src": "/assets/secure-app/audit-guide.webp",
+      "sha256": "b70b070a3b792d091a76712e813a648383ed0352828cfd7e085172df0c608372",
+      "bytes": 51370
+    },
+    {
+      "src": "/assets/secure-app/audit-guide-zone.webp",
+      "sha256": "1a73cc74b5225dba3fe1f56466a397dbc15f6b5ef0b46a07f254afc4dc39bebf",
+      "bytes": 53158
+    },
+    {
+      "src": "/assets/secure-app/audit-guide-steps.webp",
+      "sha256": "cb855d8b1ab2fa3b7c1e9115e0883b6aaabb4dc2ab7c27d3ac261a797b9750fc",
+      "bytes": 39450
+    },
+    {
+      "src": "/assets/secure-app/audit-scope.webp",
+      "sha256": "a0b593366140ac4d3bce4bfc9e07912b6557f8dad74368eb08b4e22b5244a8bf",
+      "bytes": 21292
+    },
+    {
+      "src": "/assets/secure-app/audit-overview.webp",
+      "sha256": "2b2530b94d26a2813b8898b7b68d304b5d8029f61205590efe84e21802bd6f82",
+      "bytes": 48784
+    },
+    {
+      "src": "/assets/secure-app/audit-architecture.webp",
+      "sha256": "c230ffad63e38b383eb170813a6461122c238feaab6d0519a67ef442ca9e045c",
+      "bytes": 56792
+    },
+    {
+      "src": "/assets/secure-app/audit-check-drawer.webp",
+      "sha256": "f675caa8887ec019fab1bdc1496dd8cf6dcbc78e175ac1691f127fa63216e170",
+      "bytes": 32636
+    },
+    {
+      "src": "/assets/secure-app/audit-controls.webp",
+      "sha256": "418c3ac259ce34049fe44bcb148e6b64c0dd0122d4b0bfa434a15259044e6588",
+      "bytes": 50020
+    },
+    {
+      "src": "/assets/secure-app/audit-requirement.webp",
+      "sha256": "a0daaeec724a85a5f2b580f5f29b08667d81ea3cf41eab2e795cd2e98bc3b0b5",
+      "bytes": 42470
+    },
+    {
+      "src": "/assets/secure-app/audit-history.webp",
+      "sha256": "4d215fac7153b433173eee214c88b401cda73e7cae67ac1eb667511a04ad2218",
+      "bytes": 55920
+    },
+    {
+      "src": "/assets/secure-app/audit-dossier.webp",
+      "sha256": "d3844a8d18d56c3b8a3537d6e4dcb34ad6cedd51105ae5406192f33d48a2de9b",
+      "bytes": 47592
+    },
+    {
+      "src": "/assets/secure-app/audit-topology.webp",
+      "sha256": "1b959687c2921efba5b721f74f28ef0910874f55c063e6b617ec35d22dc2904c",
+      "bytes": 40318
+    },
+    {
+      "src": "/assets/secure-app/audit-letter.webp",
+      "sha256": "31860ee623f018bd515a39fe07e5c8657788cb8c8189a0b82aeb7b5c4fbce9b2",
+      "bytes": 85124
+    },
+    {
+      "src": "/assets/secure-app/security-hub.webp",
+      "sha256": "ec933cd34bec20488dc20061012eb862e5854873e7ebfd2f13b8c91793ca6633",
+      "bytes": 28566
+    },
+    {
+      "src": "/assets/secure-app/security-menu.webp",
+      "sha256": "ee9a2cedf5c561a7f9211d8291dd83eb8afcff29ad6cd8d5b6bc760a200218ce",
+      "bytes": 26720
+    },
+    {
+      "src": "/assets/secure-app/security-function.webp",
+      "sha256": "5fa2e62bc10d4b7fabeee3b604e0408d87b36f798d088e8af2fa5861b8a8c05f",
+      "bytes": 16942
+    },
+    {
+      "src": "/assets/secure-app/security-deploy.webp",
+      "sha256": "88e06fe9650deb091e04da2b7aeb0ffe1151c0a913f68e112372bad21a12ab72",
+      "bytes": 38268
+    },
+    {
+      "src": "/assets/secure-app/security-empty.webp",
+      "sha256": "919b25a736fa9d0f5cfc0e740b954c02a1590b4b70d6d65dfa94b20575d6fdbd",
+      "bytes": 18598
+    },
+    {
+      "src": "/assets/secure-app/agentic-home.webp",
+      "sha256": "c89b9e00e436a370a2bca51f7bbd485cfcf2fc46fb7427a024dffcdeb67dbcfd",
+      "bytes": 33236
+    },
+    {
+      "src": "/assets/secure-app/agentic-panels.webp",
+      "sha256": "aed5a8d5b95ce5e56c981ae0b911b1de54f0fa30370f93293d63fb000c39cd37",
+      "bytes": 36504
+    },
+    {
+      "src": "/assets/secure-app/agentic-keys.webp",
+      "sha256": "b507a873a6a59d885eeb6c12c3a463e0fb4f3152cebaeb377f06f4b3186ebef2",
+      "bytes": 16078
+    },
+    {
+      "src": "/assets/secure-app/migration-overview.webp",
+      "sha256": "e5b94831d70e4b2b75958917d331095e37d68bf3931962f502127471a29a78f0",
+      "bytes": 71572
+    },
+    {
+      "src": "/assets/secure-app/migration-source.webp",
+      "sha256": "f620a2e288166350a153520ab9d7f9c60d6b9528391a420c9fd6007c062b201a",
+      "bytes": 32566
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-01.webp",
+      "sha256": "04375231df94aa354a51e101476296486e178c8a799c6d1d4fd9436ed2f63513",
+      "bytes": 77522
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-02.webp",
+      "sha256": "eac80ac89d07be20339926b6b25d93487cc32c002ae9d5d0fb050f1f914fa2c4",
+      "bytes": 46634
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-03.webp",
+      "sha256": "014e945b5daf95dcdb3c0b406026a1f3b6d2c578b0966d6e90f0adfc5c0eff4f",
+      "bytes": 89400
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-04.webp",
+      "sha256": "4556e88aa6a97ffd5149387f42cab6581d80a493ec5c71ace411358b357e4555",
+      "bytes": 27006
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-05.webp",
+      "sha256": "4b4d954a44237f6cb190aa6e87cfb7a4761eeb4ff0bd9c445ad64dd0eb552d55",
+      "bytes": 37462
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-06.webp",
+      "sha256": "c9a479c37a5e0eb20a64ce58154711a56fd8709eddb4ed9ea82f86c4fb9db28d",
+      "bytes": 88436
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-07.webp",
+      "sha256": "5fd05bdd1469e20e0f5edf8a5c5f0a8e6fa9748f2316930ff6efce627ac04a12",
+      "bytes": 47680
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-08.webp",
+      "sha256": "282a9890761b4321972b400272400198627ea15d76637e7b335678a2eab8bf00",
+      "bytes": 40266
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-09.webp",
+      "sha256": "e205b36294754810a4620b297713a7871c9aaef21d0722712f70c008644912da",
+      "bytes": 158018
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-10.webp",
+      "sha256": "ab7cee96cb46031845b6efa4dff9e5295c48c4a9055b16ca477c9f0c2a4905c2",
+      "bytes": 31534
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-11.webp",
+      "sha256": "835a04144cfa004d5a58fcb5a7c34623ed6bafcc24d622b22c58f7c80b9cacf3",
+      "bytes": 10882
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-13.webp",
+      "sha256": "ba75272127c47c43398080b022779ee890a5a91e27b402a791c882dfae9462dd",
+      "bytes": 28278
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-14.webp",
+      "sha256": "78b63eea90f04e0fcf670b381d0a09a173be15040a6387a98822e0105e79d124",
+      "bytes": 39554
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-15.webp",
+      "sha256": "558ce433f22f690482c5d06f4a214a366cd7b7842f5f2d34469f289da65815da",
+      "bytes": 27666
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-16.webp",
+      "sha256": "07e2f083d1bc54831f9a95c91d241830c3421488014a31b9f908975947515f56",
+      "bytes": 31470
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-17.webp",
+      "sha256": "d87bf634a8250c7f0063eb2424e015af538d1d1b16d0481357a323644e28c52d",
+      "bytes": 42074
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-18.webp",
+      "sha256": "0cc96e43b72021b1ef8286709dbf5e7f08b2a8efc9008892cb1b33972d6cd029",
+      "bytes": 24704
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-19.webp",
+      "sha256": "f944a9ece809fffde1d6224b3631d186d44cb35d83141340a1641cf4e199709d",
+      "bytes": 42378
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-20.webp",
+      "sha256": "465f170c6de4ff4fc548caa5e90725a0003626dc87f9654cf5c06bf047e295e8",
+      "bytes": 52328
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-21.webp",
+      "sha256": "16de8a6a68f1d8017f7db9faeee30174156d533e659c0f761c4120dd5ddeafce",
+      "bytes": 12458
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-22.webp",
+      "sha256": "131ba87eb87f0aeb16210d3699f16a1fe7278f059a448302f8d8e6bd7edf5e54",
+      "bytes": 18998
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-23.webp",
+      "sha256": "5701503de7c0f4a1b2b96e6666ad75880c4a1e1b43f4ab755b804d942b6efb15",
+      "bytes": 28104
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-24.webp",
+      "sha256": "69f567ed292199d518fa0f19c3cea61670f36d10ba14857e67ea170bed86ca45",
+      "bytes": 17560
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-25.webp",
+      "sha256": "ee7ef0f567be823e5d6cdafaa91a71cebf5e928030a99f58804910162736e86e",
+      "bytes": 9354
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-26.webp",
+      "sha256": "34505b7b19fb05ba4297f1f0eb9ed18989bd432072c19bbfa9190e8f42071839",
+      "bytes": 18610
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-27.webp",
+      "sha256": "bc51d8d5fd6b7550f6210f2b3ceb66a6379f87c030c7ec3f3ec49c80df728b37",
+      "bytes": 47112
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-28.webp",
+      "sha256": "4c0630cd23cbf6126a4d96437128f4fab93551d22c347a348b122e0c1e8beaeb",
+      "bytes": 40258
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-29.webp",
+      "sha256": "11148397c701c727f928e94015e212ac666250747efaa8a9ed3e0f39678edf7a",
+      "bytes": 3264
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-30.webp",
+      "sha256": "93f8d7df4804c6100bcd0313118ee6a75a9e9e34da86d1aebf119731439a25f6",
+      "bytes": 3286
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-31.webp",
+      "sha256": "01627c812271f209801addeb51586e936c6c1256172390d8b13df583cdb6db9c",
+      "bytes": 5922
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-32.webp",
+      "sha256": "6063a81b33e271911cf27a0f0cd1a5b589ebfff397f15f53ab19c5ffccb87e7b",
+      "bytes": 17620
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-33.webp",
+      "sha256": "22a909146d06a0d9946c6609f97f71d74d9f6cdde37c3549c66b4f904dc17c80",
+      "bytes": 30020
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-34.webp",
+      "sha256": "55e2a83260b2b6fa09dd1079b7f35bff6b84567126b8f5d516ef15fc70689cbf",
+      "bytes": 28070
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-35.webp",
+      "sha256": "c44dd1e8f51201286f93ef6643abdbb58e0561d0b44e65adeb02b6323fae27dc",
+      "bytes": 23584
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-36.webp",
+      "sha256": "4e514c3e5553f772c57dbf5e3d260fb8479a7117a69d1e98d01987cefada61b4",
+      "bytes": 7744
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-37.webp",
+      "sha256": "c3e7163f8b7eae4426c02174674dd3b2a77f4eadfef2596cc2b72e2c5238be9d",
+      "bytes": 32086
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-38.webp",
+      "sha256": "2cb2e1aaba59253791fff803e50f1adfd04e949ae58e57abc0296379b5b3490d",
+      "bytes": 30496
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-39.webp",
+      "sha256": "331da931210c479a876aaad53b65b5d8947b3e6c07392e858c6fff9f35a0f47d",
+      "bytes": 52674
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-40.webp",
+      "sha256": "4e32a9769882f0329dba7bc6d1c598d6951342dfcbe2e726924603ff6345f1d9",
+      "bytes": 78504
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-41.webp",
+      "sha256": "1f9b99dee4f41fdf0a3aba73588b14bc326e0c4d64f0e6f3de78a1ef355e6623",
+      "bytes": 51064
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-42.webp",
+      "sha256": "8bfc9cd4e9773abca4caeaa960dfc75ec8de48fcfae9301d4767dc5fdc9d1587",
+      "bytes": 19776
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-43.webp",
+      "sha256": "b61af158f5e029576d196d9798650c0d5afc3dbc142e5c2020ae3113f25e2db1",
+      "bytes": 18212
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-44.webp",
+      "sha256": "8e56fdbdc5313c10f569ea95ab5a11bdb8f3af7dda86b2f054df7c455a9e2545",
+      "bytes": 65862
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-45.webp",
+      "sha256": "d428309f7910bd8d7e6cf75776103f3e8c12f0f3a0f96a6c0cb02c3087ac4e6b",
+      "bytes": 80110
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-46.webp",
+      "sha256": "4a789459bb9270660ec680ba0952866ffe2e0a79ef02b789375137fe94b873d0",
+      "bytes": 81922
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-47.webp",
+      "sha256": "3ebf6691f56aad1fad4ed0d7dea020aef89913bd4adb7b7cd16e729f8b301f30",
+      "bytes": 29534
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-48.webp",
+      "sha256": "7567c9be724ab6a269cf5d1555a0c7701e9772297e4e506fe515a83147edc76e",
+      "bytes": 104216
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-49.webp",
+      "sha256": "2e3d1e41a7210998c9ae4469971c2bbbd903ad8b32eddaf8c32247dc064e687b",
+      "bytes": 73160
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-50.webp",
+      "sha256": "48dbff72605b0594ed65e14bf8ba3aa3b962a11892fdb5559afb067ccde49d81",
+      "bytes": 79314
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-51.webp",
+      "sha256": "db78bd97fe0fd75cba3d794bec59c95915d222cb6f9885169c224322276411c8",
+      "bytes": 48848
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-52.webp",
+      "sha256": "4d1b1f38c9293e35ba5f69af4f4cc84c71e3a8854a7c74b023b162cfb2f89b52",
+      "bytes": 67464
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-53.webp",
+      "sha256": "4c471676acf976a2520d2305cbfe68869e475b7dc26b5bc3bca82a59e985ee4b",
+      "bytes": 31732
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-54.webp",
+      "sha256": "10714d45313c4be308bb0f761666f57f4fbe9baf917ef4f2b247f97e2cfb1d93",
+      "bytes": 44322
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-55.webp",
+      "sha256": "82d9f43d531eb6556cf08654291290f9ebaa80eaf598a0e3afad19448473fbe4",
+      "bytes": 28432
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-56.webp",
+      "sha256": "c49b650592e96f84d3f97799f958f06ea9c66d3218bce2b77a9d6c574fcf2efe",
+      "bytes": 43410
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-57.webp",
+      "sha256": "e1344981ecb90a03807cd57e808a00427153682b0a229a77b3f51c7ea3683b29",
+      "bytes": 18110
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-58.webp",
+      "sha256": "6e40aaa2b4ee3f93bf2cb8221b4f6107bd7034d0e7dde323372705f9a82f71e3",
+      "bytes": 79484
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-59.webp",
+      "sha256": "4f13155b06a1f4dcbe0c24a4ddec1774a3ec9aefff419f18c932470715e6147c",
+      "bytes": 9996
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-60.webp",
+      "sha256": "783f5f939cb8f19b56df6099cacc6a786f2491c12c423733e672b3741317d38e",
+      "bytes": 42336
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-61.webp",
+      "sha256": "be4f3a6697c39df25f5ad56e917e0de7b167d0fb1a7a52d97dc2d37c006b3ff9",
+      "bytes": 18664
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-62.webp",
+      "sha256": "62ab92771d6d34bddffd484e14107c36f177670b2b9afc33447a9dfd74ea83a0",
+      "bytes": 23142
+    },
+    {
+      "src": "/assets/secure-data-manual/data012-image-63.webp",
+      "sha256": "f241a5c8799985a49bc947a699e51972a52e3741446ffc4c16c12894bf572002",
+      "bytes": 11204
+    }
+  ]
+}

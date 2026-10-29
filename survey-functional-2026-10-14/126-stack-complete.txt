@@ -1,0 +1,124 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/heat/stack/detail/afc0219b-b80d-49e8-a885-82863ccaf202/doccheck-1014-stack
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+								150 menu Secondary Actions: Cancel
+									151 Stacks
+									152 Resource Types
+									153 Template Versions
+									154 Template Generator
+						155 Database Database
+							156 pop up button Database Database
+								157 image Database
+								158 text Database
+						159 Container Container
+							160 pop up button Container Container
+								161 image Container
+								162 text Container
+						163 Monitor Center Monitor Center
+							164 pop up button Monitor Center Monitor Center
+								165 image Monitor Center
+								166 text Monitor Center
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Orchestration /
+						176 link Description: Stacks, Value: 10.3.10.100:9999/heat/stack
+						177 text / Stack Detail
+						178 container
+							179 button Delete
+							180 button More down
+								181 text More
+								182 image down
+						183 container
+							184 text ID: afc0219b-b80d-49e8-a885-82863ccaf202
+							185 button Copy
+								186 image copy
+							187 button Back
+							188 button sync
+								189 image sync
+							190 button up
+								191 image up
+						192 container
+							193 container Name doccheck-1014-stack
+								194 text Name doccheck-1014-stack
+							195 container Stack Status Create Complete
+								196 text Stack Status Create Complete
+							197 container Description Disposable isolated network test in userdemo
+								198 text Description Disposable isolated network test in userdemo
+							199 container Created At 2026-10-15 00:15:08
+								200 text Created At 2026-10-15 00:15:08
+							201 container Updated At -
+								202 text Updated At -
+						203 tab group
+							204 container
+								205 tab (selected) Detail, Value: 1
+								206 tab (settable, integer) Stack Resources, Value: 0
+								207 tab (settable, integer) Stack Events, Value: 0
+								208 tab (settable, integer) YAML File, Value: 0
+						209 container Detail
+							210 container
+								211 heading Startup Parameters, Value: 3
+									212 text Startup Parameters
+								213 text Timeout(Minute) 5 Fail Rollback Enable
+								214 heading Outputs, Value: 3
+									215 text Outputs
+								216 text network_id
+								217 text 7674c938-c5c6-483a-81f2-34d0348deb5c
+								218 text No description given
+							219 container
+								220 heading Deployment Parameters, Value: 3
+									221 text Deployment Parameters
+								222 text OS::stack_id
+								223 text afc0219b-b80d-49e8-a885-82863ccaf202
+								224 text OS::project_id
+								225 text 5a4b1b40880a4c1fa754cb7f6e8269d4
+								226 text OS::stack_name doccheck-1014-stack name doccheck-1014-stack-net cidr
+								227 text 192.168.241.0/24
+	228 close button
+	229 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	230 minimize button
+231 menu bar
+	232 JumpServer
+	233 File
+	234 Edit
+	235 View
+	236 Window
+	237 Help

@@ -1,0 +1,325 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/flavor
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+								139 menu Secondary Actions: Cancel
+									140 Instances
+									141 Instance Snapshots
+									142 Flavors
+									143 Server Groups
+									144 Images
+									145 Key Pairs
+									146 Autoscale Rules (V)
+									147 Autoscale History
+									148 Auto Scaling Groups
+									149 ASG History
+						150 Storage Storage
+							151 pop up button Storage Storage
+								152 image Storage
+								153 text Storage
+						154 Network Network
+							155 pop up button Network Network
+								156 image Network
+								157 text Network
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Compute / Flavors
+						183 tab group
+							184 container
+								185 tab (selected) X86 Architecture, Value: 1
+								186 tab (settable, integer) Custom, Value: 0
+						187 container X86 Architecture
+							188 container
+								189 text field (settable) Multiple filter tags are separated by enter
+								190 image search
+								191 button sync
+									192 image sync
+								193 button download
+									194 image download
+								195 button eye
+									196 image eye
+								197 button pause-circle
+									198 image pause-circle
+							199 container
+								200 table
+									201 row
+										202 column header
+											203 text ID/Name
+											204 image caret-up
+											205 image caret-down
+										206 column header
+											207 text Category
+											208 image caret-up
+											209 image caret-down
+										210 column header
+											211 text CPU
+											212 image caret-up
+											213 image caret-down
+										214 column header
+											215 text Memory
+											216 image caret-up
+											217 image caret-down
+										218 column header
+											219 text Internal Network Bandwidth (Gbps)
+											220 image caret-up
+											221 image caret-down
+										222 column header
+											223 text Ephemeral Disk (GiB)
+											224 image caret-up
+											225 image caret-down
+										226 column header
+											227 text Storage IOPS
+											228 image caret-up
+											229 image caret-down
+										230 column header
+											231 text Public
+											232 image caret-up
+											233 image caret-down
+								234 table
+									235 row
+										236 cell
+											237 link Description: 01129ca8 Copy, Value: 10.3.10.100:9999/compute/flavor/detail/01129ca8-476a-4ddd-8603-32f58b4c1d32
+											238 text GP_8C_8G
+										239 cell
+											240 text General Purpose
+										241 cell
+											242 text 8
+										243 cell
+											244 text 8.00 GiB
+										245 cell
+											246 text -
+										247 cell
+											248 text 0
+										249 cell
+											250 text -
+										251 cell
+											252 text Yes
+									253 row
+										254 cell
+											255 link Description: 159e9e5c Copy, Value: 10.3.10.100:9999/compute/flavor/detail/159e9e5c-8ccd-43a0-afc5-7a1a31931d2e
+											256 text GP_32C_32G
+										257 cell
+											258 text General Purpose
+										259 cell
+											260 text 32
+										261 cell
+											262 text 32.00 GiB
+										263 cell
+											264 text -
+										265 cell
+											266 text 0
+										267 cell
+											268 text -
+										269 cell
+											270 text Yes
+									271 row
+										272 cell
+											273 link Description: 176bec1b Copy, Value: 10.3.10.100:9999/compute/flavor/detail/176bec1b-630b-43a4-b7d9-b26f9184c112
+											274 text GP_64C_512G
+										275 cell
+											276 text General Purpose
+										277 cell
+											278 text 64
+										279 cell
+											280 text 512.00 GiB
+										281 cell
+											282 text -
+										283 cell
+											284 text 0
+										285 cell
+											286 text -
+										287 cell
+											288 text Yes
+									289 row
+										290 cell
+											291 link Description: 193ba2da Copy, Value: 10.3.10.100:9999/compute/flavor/detail/193ba2da-3d5f-4cce-b106-6c5a1596039c
+											292 text GP_12C_12G
+										293 cell
+											294 text General Purpose
+										295 cell
+											296 text 12
+										297 cell
+											298 text 12.00 GiB
+										299 cell
+											300 text -
+										301 cell
+											302 text 0
+										303 cell
+											304 text -
+										305 cell
+											306 text Yes
+									307 row
+										308 cell
+											309 link Description: 194c7161 Copy, Value: 10.3.10.100:9999/compute/flavor/detail/194c7161-14c1-42ed-9e48-184b25d76edc
+											310 text GP_64C_64G
+										311 cell
+											312 text General Purpose
+										313 cell
+											314 text 64
+										315 cell
+											316 text 64.00 GiB
+										317 cell
+											318 text -
+										319 cell
+											320 text 0
+										321 cell
+											322 text -
+										323 cell
+											324 text Yes
+									325 row
+										326 cell
+											327 link Description: 1a927413 Copy, Value: 10.3.10.100:9999/compute/flavor/detail/1a927413-5c21-4240-a475-047f688ddd20
+											328 text GP_4C_4G
+										329 cell
+											330 text General Purpose
+										331 cell
+											332 text 4
+										333 cell
+											334 text 4.00 GiB
+										335 cell
+											336 text -
+										337 cell
+											338 text 0
+										339 cell
+											340 text -
+										341 cell
+											342 text Yes
+									343 row
+										344 cell
+											345 link Description: 1e4b4a72 Copy, Value: 10.3.10.100:9999/compute/flavor/detail/1e4b4a72-6832-440a-864c-3734c7a3c384
+											346 text GP_8C_64G
+										347 cell
+											348 text General Purpose
+										349 cell
+											350 text 8
+										351 cell
+											352 text 64.00 GiB
+										353 cell
+											354 text -
+										355 cell
+											356 text 0
+										357 cell
+											358 text -
+										359 cell
+											360 text Yes
+									361 row
+										362 cell
+											363 link Description: 2b1c4c10 Copy, Value: 10.3.10.100:9999/compute/flavor/detail/2b1c4c10-7244-4e4e-a875-91f6df1bf275
+											364 text GP_12C_24G
+										365 cell
+											366 text General Purpose
+										367 cell
+											368 text 12
+										369 cell
+											370 text 24.00 GiB
+										371 cell
+											372 text -
+										373 cell
+											374 text 0
+										375 cell
+											376 text -
+										377 cell
+											378 text Yes
+									379 row
+										380 cell
+											381 link Description: 2f7fcf45 Copy, Value: 10.3.10.100:9999/compute/flavor/detail/2f7fcf45-60b4-43b0-8b99-5aa9bd632a40
+											382 text GP_128C_128G
+										383 cell
+											384 text General Purpose
+										385 cell
+											386 text 128
+										387 cell
+											388 text 128.00 GiB
+										389 cell
+											390 text -
+										391 cell
+											392 text 0
+										393 cell
+											394 text -
+										395 cell
+											396 text Yes
+									397 row
+										398 cell
+											399 link Description: 3116bd4d Copy, Value: 10.3.10.100:9999/compute/flavor/detail/3116bd4d-3adb-40eb-be90-1ff6a8bd0922
+											400 text GP_128C_256G
+										401 cell
+											402 text General Purpose
+										403 cell
+											404 text 128
+										405 cell
+											406 text 256.00 GiB
+										407 cell
+											408 text -
+										409 cell
+											410 text 0
+										411 cell
+											412 text -
+										413 cell
+											414 text Yes
+								415 content list
+									416 text Total 32 items
+									417 container Previous Page
+										418 button (disabled) left
+											419 image left
+									420 text 1
+									421 text 2
+									422 text 3
+									423 text 4
+									424 container Next Page
+										425 button right
+											426 image right
+									427 container
+										428 combo box
+										429 text 10 / page
+	430 close button
+	431 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	432 minimize button
+433 menu bar
+	434 JumpServer
+	435 File
+	436 Edit
+	437 View
+	438 Window
+	439 Help

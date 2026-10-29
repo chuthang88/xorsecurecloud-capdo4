@@ -1,0 +1,137 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/container-infra/cluster-template/create
+				116 container
+					117 image bell
+					118 text Close all notifications.
+					119 container
+						120 image menu-icon
+						121 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						122 container
+							123 text Cloud
+							124 image down
+						125 button
+						126 image appstore
+						127 text userdemo
+						128 image swap
+						129 text Default
+						130 image bell
+						131 button user
+							132 image user
+					133 menu Secondary Actions: Cancel
+						134 Home Home
+							135 image Home
+							136 text Home
+						137 Compute Compute
+							138 pop up button Compute Compute
+								139 image Compute
+								140 text Compute
+						141 Storage Storage
+							142 pop up button Storage Storage
+								143 image Storage
+								144 text Storage
+						145 Network Network
+							146 pop up button Network Network
+								147 image Network
+								148 text Network
+						149 Orchestration Orchestration
+							150 pop up button Orchestration Orchestration
+								151 image Orchestration
+								152 text Orchestration
+						153 Database Database
+							154 pop up button Database Database
+								155 image Database
+								156 text Database
+						157 Container Container
+							158 pop up button Container Container
+								159 image Container
+								160 text Container
+								161 menu Secondary Actions: Cancel
+									162 K8s Clusters
+									163 K8s Templates
+						164 Monitor Center Monitor Center
+							165 pop up button Monitor Center Monitor Center
+								166 image Monitor Center
+								167 text Monitor Center
+						168 Alert Management Maintenance
+							169 pop up button Alert Management Maintenance
+								170 image Alert Management
+								171 text Maintenance
+						172 pop up button X-OR SECURE
+						173 Security Center
+					174 image left
+					175 container
+						176 text Container /
+						177 link Description: K8s Templates, Value: 10.3.10.100:9999/container-infra/cluster-template
+						178 text / Create Cluster Template
+						179 container
+							180 container
+								181 text 1
+								182 container
+									183 text Cluster Info
+							184 container
+								185 text 2
+								186 container
+									187 text Node Spec
+							188 container
+								189 text 3
+								190 container
+									191 text Network Setting
+							192 container
+								193 text 4
+								194 text Additional Labels
+							195 container
+								196 container
+									197 text * Cluster Template Name
+								198 text field (settable) * Cluster Template Name, Placeholder: Please input cluster template name
+								199 container
+									200 text * COE
+								201 container
+									202 combo box (settable) * COE
+									203 text Please select
+								204 container
+									205 text Public
+								206 container
+									207 checkbox  , Value: 0
+								208 container
+									209 text Hidden
+								210 container
+									211 checkbox  , Value: 0
+								212 container
+									213 text Enable Registry
+								214 container
+									215 checkbox  , Value: 0
+								216 container
+									217 text Disable TLS
+								218 container
+									219 checkbox  , Value: 0
+							220 container
+								221 button Cancel
+								222 button Next: Node Spec
+				223 container
+					224 container
+						225 image close-circle
+						226 text Get clusters error.
+						227 button Click to show detail
+					228 link close
+						229 image close
+					230 container
+						231 image close-circle
+						232 text Get clusters error.
+						233 button Click to show detail
+					234 link close
+						235 image close
+					236 container
+						237 image close-circle
+						238 text Get clustertemplates error.
+						239 button Click to show detail
+					240 link close
+						241 image close
+	242 close button
+	243 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	244 minimize button
+245 menu bar
+	246 JumpServer
+	247 File
+	248 Edit
+	249 View
+	250 Window
+	251 Help

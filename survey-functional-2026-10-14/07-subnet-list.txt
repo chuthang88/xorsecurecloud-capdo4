@@ -1,0 +1,195 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4?tab=subnets
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+								146 menu Secondary Actions: Cancel
+									147 Networks
+									148 Ports
+									149 QoS Policies
+									150 Routers
+									151 Floating IPs
+									152 Topology
+									153 Load Balancers
+									154 Certificates
+									155 VPNs
+									156 Security Groups
+						157 Orchestration Orchestration
+							158 pop up button Orchestration Orchestration
+								159 image Orchestration
+								160 text Orchestration
+						161 Database Database
+							162 pop up button Database Database
+								163 image Database
+								164 text Database
+						165 Container Container
+							166 pop up button Container Container
+								167 image Container
+								168 text Container
+						169 Monitor Center Monitor Center
+							170 pop up button Monitor Center Monitor Center
+								171 image Monitor Center
+								172 text Monitor Center
+						173 Alert Management Maintenance
+							174 pop up button Alert Management Maintenance
+								175 image Alert Management
+								176 text Maintenance
+						177 pop up button X-OR SECURE
+						178 Security Center
+					179 image left
+					180 container
+						181 text Network /
+						182 link Description: Networks, Value: 10.3.10.100:9999/network/networks
+						183 text / Network Detail
+						184 container
+							185 button Edit
+							186 button More down
+								187 text More
+								188 image down
+						189 container
+							190 text ID: 560e44c8-6fc0-4947-885d-97f50ec3bdb4
+							191 button Copy
+								192 image copy
+							193 button Back
+							194 button sync
+								195 image sync
+							196 button up
+								197 image up
+						198 container
+							199 container Name doccheck-1014-net
+								200 text Name doccheck-1014-net
+							201 container Project ID 5a4b1b40880a4c1fa754cb7f6e8269d4
+								202 text Project ID
+								203 text 5a4b1b40880a4c1fa754cb7f6e8269d4
+							204 container Status Active
+								205 text Status Active
+							206 container Admin State Yes
+								207 text Admin State Yes
+							208 container Shared No
+								209 text Shared No
+							210 container Created At 2026-10-14 23:53:04
+								211 text Created At 2026-10-14 23:53:04
+							212 container Update At 2026-10-14 23:53:06
+								213 text Update At 2026-10-14 23:53:06
+							214 container Description Disposable documentation test in userdemo; isolated network.
+								215 text Description Disposable documentation test in userdemo; isolated network.
+						216 tab group
+							217 container
+								218 tab (settable, integer) Detail, Value: 0
+								219 tab (selected) Subnets, Value: 1
+								220 tab (settable, integer) Ports, Value: 0
+						221 container Subnets
+							222 container
+								223 button Create Subnet
+								224 button (disabled) Delete
+								225 text field (settable) Multiple filter tags are separated by enter
+								226 image search
+								227 button sync
+									228 image sync
+								229 button download
+									230 image download
+								231 button eye
+									232 image eye
+								233 button pause-circle
+									234 image pause-circle
+							235 container
+								236 table
+									237 row
+										238 column header
+											239 container
+												240 checkbox  , Value: 0
+										241 column header
+											242 text Subnet ID/Name
+											243 image caret-up
+											244 image caret-down
+										245 column header
+											246 text CIDR
+											247 image caret-up
+											248 image caret-down
+										249 column header
+											250 text Gateway IP
+											251 image caret-up
+											252 image caret-down
+										253 column header
+											254 text IP Version
+											255 image caret-up
+											256 image caret-down
+										257 column header
+											258 text Port Count
+											259 image caret-up
+											260 image caret-down
+										261 column header
+											262 text Created At
+											263 image caret-up
+											264 image caret-down
+										265 column header
+											266 text Action
+									267 row
+										268 cell
+											269 container
+												270 checkbox  , Value: 0
+										271 cell
+											272 link Description: b283f0e6 Copy, Value: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4/subnet/b283f0e6-7003-4754-bc6e-92272c29377d
+											273 text doccheck-1014-subnet
+										274 cell
+											275 text 192.168.240.0/24
+										276 cell
+											277 text 192.168.240.1
+										278 cell
+											279 text 4
+										280 cell
+											281 link Description: 1, Value: 10.3.10.100:9999/network/networks/detail/560e44c8-6fc0-4947-885d-97f50ec3bdb4/subnet/b283f0e6-7003-4754-bc6e-92272c29377d?tab=ports
+										282 cell
+											283 text 2026-10-14 23:53:06
+										284 cell
+											285 button Edit
+											286 button Delete
+								287 content list
+									288 text Total 1 items
+									289 container Previous Page
+										290 button (disabled) left
+											291 image left
+									292 text 1
+									293 container Next Page
+										294 button (disabled) right
+											295 image right
+									296 container
+										297 combo box
+										298 text 10 / page
+	299 close button
+	300 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	301 minimize button
+302 menu bar
+	303 JumpServer
+	304 File
+	305 Edit
+	306 View
+	307 Window
+	308 Help

@@ -1,0 +1,190 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/monitor-center/alarm-rules
+				115 container
+					116 container
+						117 image menu-icon
+						118 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						119 container
+							120 text Cloud
+							121 image down
+						122 button
+						123 image appstore
+						124 text userdemo
+						125 image swap
+						126 text Default
+						127 image bell
+						128 button user
+							129 image user
+					130 menu Secondary Actions: Cancel
+						131 Home Home
+							132 image Home
+							133 text Home
+						134 Compute Compute
+							135 pop up button Compute Compute
+								136 image Compute
+								137 text Compute
+						138 Storage Storage
+							139 pop up button Storage Storage
+								140 image Storage
+								141 text Storage
+						142 Network Network
+							143 pop up button Network Network
+								144 image Network
+								145 text Network
+						146 Orchestration Orchestration
+							147 pop up button Orchestration Orchestration
+								148 image Orchestration
+								149 text Orchestration
+						150 Database Database
+							151 pop up button Database Database
+								152 image Database
+								153 text Database
+						154 Container Container
+							155 pop up button Container Container
+								156 image Container
+								157 text Container
+						158 Monitor Center Monitor Center
+							159 pop up button Monitor Center Monitor Center
+								160 image Monitor Center
+								161 text Monitor Center
+								162 menu Secondary Actions: Cancel
+									163 Monitor Overview
+									164 Alarm Rules
+									165 Notification Channels
+									166 Alarm History
+						167 Alert Management Maintenance
+							168 pop up button Alert Management Maintenance
+								169 image Alert Management
+								170 text Maintenance
+						171 pop up button X-OR SECURE
+						172 Security Center
+					173 image left
+					174 container
+						175 text Monitor Center / Alarm Rules
+						176 container
+							177 button Create Alarm Rule
+							178 button (disabled) Delete
+							179 text field (settable) Multiple filter tags are separated by enter
+							180 image search
+							181 button sync
+								182 image sync
+							183 button download
+								184 image download
+							185 button eye
+								186 image eye
+							187 button pause-circle
+								188 image pause-circle
+						189 container
+							190 table
+								191 row
+									192 column header
+										193 container
+											194 checkbox (disabled)  , Value: 0
+									195 column header
+										196 text Name
+									197 column header
+										198 text State
+										199 image caret-up
+										200 image caret-down
+									201 column header
+										202 text Severity
+										203 image caret-up
+										204 image caret-down
+									205 column header
+										206 text Condition
+										207 image caret-up
+										208 image caret-down
+									209 column header
+										210 text Metric Query
+										211 image caret-up
+										212 image caret-down
+									213 column header
+										214 text Enabled
+										215 image caret-up
+										216 image caret-down
+									217 column header
+										218 text Interval
+										219 image caret-up
+										220 image caret-down
+									221 column header
+										222 text Created At
+										223 image caret-up
+										224 image caret-down
+									225 column header
+										226 text Action
+							227 table
+								228 row
+									229 cell 0-9
+										230 text No Data
+				231 container
+					232 container Create Alarm Rule
+						233 container
+							234 button Close
+								235 image close
+							236 text Create Alarm Rule
+							237 container
+								238 container
+									239 text * Name
+								240 text field (settable) * Name, Placeholder: Please input alarm rule name
+								241 container
+									242 text Description
+								243 text entry area (settable) Description
+								244 container
+									245 text * Metric Query (PromQL)
+								246 text entry area (settable) * Metric Query (PromQL), Placeholder: e.g. avg(rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100
+								247 container
+									248 text * Comparison
+								249 container
+									250 combo box (settable) * Comparison
+									251 text Please select
+								252 container
+									253 text * Threshold
+								254 container
+									255 button Increase Value
+										256 image up
+									257 button Decrease Value
+										258 image down
+									259 stepper (settable, float) * Threshold, Value: 0
+								260 container
+									261 text * Severity
+								262 container
+									263 combo box (settable) * Severity
+									264 text Please select
+								265 container
+									266 text Evaluation Interval (seconds)
+								267 container
+									268 container
+										269 button Increase Value
+											270 image up
+										271 button Decrease Value
+											272 image down
+										273 stepper (settable, float) Evaluation Interval (seconds), Value: 0
+									274 text How often to check the metric (10-3600 seconds)
+								275 container
+									276 text Consecutive Breaches
+								277 container
+									278 container
+										279 button Increase Value
+											280 image up
+										281 button Decrease Value
+											282 image down
+										283 stepper (settable, float) Consecutive Breaches, Value: 0
+									284 text Number of consecutive threshold breaches before firing alarm
+								285 container
+									286 text Resource Type
+								287 text field (settable) Resource Type, Placeholder: e.g. compute, network, storage
+								288 container
+									289 text Resource ID
+								290 text field (settable) Resource ID, Placeholder: Optional: specific resource UUID
+							291 container
+								292 button Cancel
+								293 button OK
+	294 close button
+	295 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	296 minimize button
+297 menu bar
+	298 JumpServer
+	299 File
+	300 Edit
+	301 View
+	302 Window
+	303 Help

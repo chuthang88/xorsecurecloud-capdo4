@@ -1,0 +1,370 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance/create
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+								139 menu Secondary Actions: Cancel
+									140 Instances
+									141 Instance Snapshots
+									142 Flavors
+									143 Server Groups
+									144 Images
+									145 Key Pairs
+									146 Autoscale Rules (V)
+									147 Autoscale History
+									148 Auto Scaling Groups
+									149 ASG History
+						150 Storage Storage
+							151 pop up button Storage Storage
+								152 image Storage
+								153 text Storage
+						154 Network Network
+							155 pop up button Network Network
+								156 image Network
+								157 text Network
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Compute /
+						183 link Description: Instances, Value: 10.3.10.100:9999/compute/instance
+						184 text / Create Instance
+						185 container
+							186 container
+								187 text 1
+								188 container
+									189 text Base Config
+							190 container
+								191 text 2
+								192 container
+									193 text Network Config
+							194 container
+								195 text 3
+								196 container
+									197 text System Config
+							198 container
+								199 text 4
+								200 text Confirm Config
+							201 container
+								202 container
+									203 text Project
+								204 text userdemo
+								205 container
+									206 text * Available Zone
+									207 image question-circle
+								208 container
+									209 combo box (settable) * Available Zone  question-circle
+									210 text nova
+								211 container
+									212 text * Specification
+								213 container
+									214 text field (settable) Click here for filters.
+									215 image search
+									216 text Architecture
+									217 container
+										218 radio button All Flavors, Value: 1
+										219 text All Flavors
+										220 radio button X86 Architecture, Value: 0
+										221 text X86 Architecture
+										222 radio button Custom, Value: 0
+										223 text Custom
+									224 container
+										225 table
+											226 row
+												227 column header
+													228 text Name
+													229 image caret-up
+													230 image caret-down
+												231 column header
+													232 text CPU
+													233 image caret-up
+													234 image caret-down
+												235 column header
+													236 text Memory
+													237 image caret-up
+													238 image caret-down
+												239 column header
+													240 text Internal Network Bandwidth (Gbps)
+													241 image caret-up
+													242 image caret-down
+												243 column header
+													244 text Architecture
+													245 image caret-up
+													246 image caret-down
+											247 row
+												248 cell
+													249 container
+														250 radio button  , Value: 0
+												251 cell
+													252 text GP_8C_8G
+												253 cell
+													254 text 8
+												255 cell
+													256 text 8.00 GiB
+												257 cell
+													258 text -
+												259 cell
+													260 text X86 Architecture - General Purpose
+											261 row
+												262 cell
+													263 container
+														264 radio button  , Value: 0
+												265 cell
+													266 text GP_32C_32G
+												267 cell
+													268 text 32
+												269 cell
+													270 text 32.00 GiB
+												271 cell
+													272 text -
+												273 cell
+													274 text X86 Architecture - General Purpose
+											275 row
+												276 cell
+													277 container
+														278 radio button  , Value: 0
+												279 cell
+													280 text GP_64C_512G
+												281 cell
+													282 text 64
+												283 cell
+													284 text 512.00 GiB
+												285 cell
+													286 text -
+												287 cell
+													288 text X86 Architecture - General Purpose
+											289 row
+												290 cell
+													291 container
+														292 radio button  , Value: 0
+												293 cell
+													294 text GP_12C_12G
+												295 cell
+													296 text 12
+												297 cell
+													298 text 12.00 GiB
+												299 cell
+													300 text -
+												301 cell
+													302 text X86 Architecture - General Purpose
+											303 row
+												304 cell
+													305 container
+														306 radio button  , Value: 0
+												307 cell
+													308 text GP_64C_64G
+												309 cell
+													310 text 64
+												311 cell
+													312 text 64.00 GiB
+												313 cell
+													314 text -
+												315 cell
+													316 text X86 Architecture - General Purpose
+										317 content list
+											318 container Previous Page
+												319 button (disabled) left
+													320 image left
+											321 text 1
+											322 text 2
+											323 text 3
+											324 text 4
+											325 text 5
+											326 container Next 5 Pages
+												327 container
+													328 image double-right
+													329 text •••
+											330 text 8
+											331 container Next Page
+												332 button right
+													333 image right
+									334 text Selected :  
+								335 container
+									336 text * Start Source
+									337 image question-circle
+								338 container
+									339 radio button Image, Value: 1
+									340 text Image
+									341 radio button Instance Snapshot, Value: 0
+									342 text Instance Snapshot
+									343 radio button Bootable Volume, Value: 0
+									344 text Bootable Volume
+								345 container
+									346 text * Operating System
+								347 container
+									348 container
+										349 radio button centos Centos, Value: 1
+										350 image centos
+										351 text Centos
+										352 radio button ubuntu Ubuntu, Value: 0
+										353 image ubuntu
+										354 text Ubuntu
+										355 radio button fedora Fedora, Value: 0
+										356 image fedora
+										357 text Fedora
+										358 radio button windows Windows, Value: 0
+										359 image windows
+										360 text Windows
+										361 radio button debian Debian, Value: 0
+										362 image debian
+										363 text Debian
+										364 radio button coreos Coreos, Value: 0
+										365 image coreos
+										366 text Coreos
+										367 radio button arch Arch, Value: 0
+										368 image arch
+										369 text Arch
+										370 radio button freebsd Freebsd, Value: 0
+										371 image freebsd
+										372 text Freebsd
+										373 radio button others Others, Value: 0
+										374 image others
+										375 text Others
+									376 container
+										377 text field (settable) Click here for filters.
+										378 image search
+									379 table
+										380 row
+											381 column header
+												382 text Name
+												383 image caret-up
+												384 image caret-down
+											385 column header
+												386 text System
+												387 image caret-up
+												388 image caret-down
+											389 column header
+												390 text OS Version
+												391 image caret-up
+												392 image caret-down
+											393 column header
+												394 text Min System Disk
+												395 image caret-up
+												396 image caret-down
+											397 column header
+												398 text Min Memory
+												399 image caret-up
+												400 image caret-down
+											401 column header
+												402 text Access Control
+												403 image caret-up
+												404 image caret-down
+											405 column header
+												406 text Format
+												407 image caret-up
+												408 image caret-down
+											409 column header
+												410 text Image Size
+												411 image caret-up
+												412 image caret-down
+										413 row
+											414 cell 0-8
+												415 text No Data
+									416 container
+										417 text Selected Image :  
+									418 text Please select Operating System!
+								419 container
+									420 text * Boot From Volume
+								421 container
+									422 radio button Yes - Create a new system disk, Value: 1
+									423 text Yes - Create a new system disk
+									424 radio button No - Do not create a new system disk, Value: 0
+									425 text No - Do not create a new system disk
+								426 container
+									427 text * System Disk
+								428 container
+									429 container
+										430 container
+											431 text Type
+											432 container
+												433 combo box
+												434 text Please select type
+											435 text Size
+											436 container
+												437 button Increase Value
+													438 image up
+												439 button Decrease Value
+													440 image down
+												441 stepper (settable, float) 10
+											442 text GiB
+											443 container
+												444 checkbox Deleted with the instance  , Value: 1
+												445 text Deleted with the instance
+										446 text Please select a type!
+									447 text Disk size is limited by the min disk of flavor, image, etc.
+								448 container
+									449 text Data Disk
+								450 container
+									451 button plus-circle Add Data Disks
+										452 image plus-circle
+										453 text Add Data Disks
+									454 text Too many disks mounted on the instance will affect the read and write performance. It is recommended not to exceed 16 disks.
+							455 container
+								456 switch on
+								457 button compress
+									458 image compress
+								459 image
+								460 text CPU Quota:  0/20
+								461 text Memory (GiB) Quota:  0/50
+								462 text Volume Quota:  0/10
+								463 text Volume Capacity (GiB) Quota:  0/1000
+							464 container
+								465 text Count
+								466 container
+									467 button Increase Value
+										468 image up
+									469 button (disabled) Decrease Value
+										470 image down
+								471 stepper (settable, float) 1
+							472 container
+								473 button Cancel
+								474 button Next: Network Config
+	475 close button
+	476 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	477 minimize button
+478 menu bar
+	479 JumpServer
+	480 File
+	481 Edit
+	482 View
+	483 Window
+	484 Help

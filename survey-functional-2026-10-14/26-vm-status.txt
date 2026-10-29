@@ -1,0 +1,171 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/compute/instance
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+								139 menu Secondary Actions: Cancel
+									140 Instances
+									141 Instance Snapshots
+									142 Flavors
+									143 Server Groups
+									144 Images
+									145 Key Pairs
+									146 Autoscale Rules (V)
+									147 Autoscale History
+									148 Auto Scaling Groups
+									149 ASG History
+						150 Storage Storage
+							151 pop up button Storage Storage
+								152 image Storage
+								153 text Storage
+						154 Network Network
+							155 pop up button Network Network
+								156 image Network
+								157 text Network
+						158 Orchestration Orchestration
+							159 pop up button Orchestration Orchestration
+								160 image Orchestration
+								161 text Orchestration
+						162 Database Database
+							163 pop up button Database Database
+								164 image Database
+								165 text Database
+						166 Container Container
+							167 pop up button Container Container
+								168 image Container
+								169 text Container
+						170 Monitor Center Monitor Center
+							171 pop up button Monitor Center Monitor Center
+								172 image Monitor Center
+								173 text Monitor Center
+						174 Alert Management Maintenance
+							175 pop up button Alert Management Maintenance
+								176 image Alert Management
+								177 text Maintenance
+						178 pop up button X-OR SECURE
+						179 Security Center
+					180 image left
+					181 container
+						182 text Compute / Instances
+						183 container
+							184 button Create Instance
+							185 button (disabled) Start
+							186 button (disabled) Stop
+							187 button (disabled) Reboot
+							188 button More Actions down
+								189 text More Actions
+								190 image down
+							191 text field (settable) Multiple filter tags are separated by enter
+							192 image search
+							193 button sync
+								194 image sync
+							195 button download
+								196 image download
+							197 button eye
+								198 image eye
+							199 button pause-circle
+								200 image pause-circle
+						201 container
+							202 container
+								203 table
+									204 row
+										205 column header
+											206 container
+												207 checkbox  , Value: 0
+										208 column header
+											209 text ID/Name
+											210 image caret-up
+											211 image caret-down
+										212 column header
+											213 text Compute Source
+										214 column header
+											215 text Image
+										216 column header
+											217 text Fixed IP
+										218 column header
+											219 text Floating IP
+										220 column header
+											221 text Flavor
+										222 column header
+											223 text Status
+										224 column header
+											225 text Tags
+										226 column header
+											227 text Locked
+											228 image caret-up
+											229 image caret-down
+										230 column header
+											231 text Created At
+											232 image caret-up
+											233 image caret-down
+										234 column header
+											235 text Action
+								236 table
+									237 row
+										238 cell
+											239 container
+												240 checkbox  , Value: 0
+										241 cell
+											242 link Description: 01c51a31 Copy, Value: 10.3.10.100:9999/compute/instance/detail/01c51a31-620b-4f4f-864f-a24e041ffa79
+											243 text doccheck-1014-vm
+										244 cell
+											245 text OpenStack (KVM)
+										246 cell
+											247 Unlabeled image /PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyBjbGFzcz0iaWNvbiIgd2lkdGg9IjIwMHB4IiBoZWlnaHQ9IjIwMC4wMHB4IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTc5Mi4xNzc3NzggODYxLjI5Nzc3OGgtMTc2LjkyNDQ0NWE3MS4xMTExMTEgNzEuMTExMTExIDAgMCAxLTcxLjExMTExMS03MS4xMTExMTF2LTE3Ni45MjQ0NDVhNzEuMTExMTExIDcxLjExMTExMSAwIDAgMSA3MS4xMTExMTEtNzEuMTExMTExaDE3Ni45MjQ0NDVhNzE
+										248 cell
+											249 text -
+										250 cell
+											251 text -
+										252 cell
+											253 text GP_2C_2G
+										254 cell
+											255 text Build
+										256 cell
+											257 text -
+										258 cell
+											259 image unlock
+										260 cell
+											261 text 2 minutes ago
+										262 cell
+											263 button (disabled) Console
+											264 button More down
+												265 text More
+												266 image down
+								267 container
+									268 button (disabled) left
+										269 image left
+									270 button 1
+									271 button (disabled) right
+										272 image right
+									273 container
+										274 combo box
+										275 text 10 items/page
+	276 close button
+	277 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	278 minimize button
+279 menu bar
+	280 JumpServer
+	281 File
+	282 Edit
+	283 View
+	284 Window
+	285 Help

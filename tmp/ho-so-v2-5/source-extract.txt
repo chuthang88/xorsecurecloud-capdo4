@@ -1,0 +1,452 @@
+Báo cáo kiểm kê hạ tầng hệ thống XOR Secure
+
+Thiết bị vật lý cấu hình máy chủ lưu trữ và máy ảo
+
+Ngày kiểm kê 18/10/2026  |  Số liệu thu thập khoảng 21:19 đến 21:31 GMT+7
+
+Hạ tầng chính được xác minh trực tiếp gồm 9 máy chủ Dell PowerEdge R630, 2 switch Cisco Nexus và 2 firewall FortiGate. Báo cáo thống kê số lượng thiết bị, cấu hình CPU/RAM, dung lượng lưu trữ, kết nối mạng và vị trí máy ảo; không chấm mức độ an toàn thông tin hoặc đánh giá tình trạng vận hành dịch vụ.
+
+TABLE 0
+Nhóm tài sản | Số lượng | Ghi chú kiểm kê
+Máy chủ Proxmox | 3 | Máy chủ vật lý dùng đặt controller và VM hạ tầng.
+Máy chủ compute OpenStack | 3 | Máy chủ vật lý chạy VM thuộc các project.
+Máy chủ Ceph | 3 | Máy chủ vật lý lưu trữ tập trung.
+Switch Cisco Nexus | 2 | Model N9K-C93180YC-EX.
+Firewall FortiGate | 2 | Model FortiGate-500E, hai thiết bị trong cụm HA.
+Tổng thiết bị chính | 13 | 9 chassis server + 2 chassis switch + 2 chassis firewall.
+VM trên Proxmox | 21 | Đã bao gồm 3 controller; không cộng controller lần nữa.
+VM trong OpenStack | 24 | Danh mục lấy từ Nova theo toàn bộ project.
+VM MFA tại DR ngoài site | 1 | Máy ảo bên ngoài, không cộng vào 9 server vật lý.
+
+Tổng tài nguyên máy chủ vật lý 324 nhân CPU  648 luồng xử lý và 2 336 GiB RAM lắp đặt  tương đương 2.28 TiB. RAM lắp đặt được tính từ DIMM  không lấy RAM khả dụng của hệ điều hành.
+
+Lưu trữ Ceph 10 OSD SSD, tổng raw khoảng 19.20 TB. Đây là dung lượng trước hệ số nhân bản, không phải dung lượng dữ liệu độc lập có thể cấp cho khách.
+
+Danh mục chín máy chủ vật lý
+
+Cả chín máy trả về Dell PowerEdge R630 và không nhận diện đang chạy trong máy ảo. Mỗi máy có 2 socket, 18 nhân/socket và 2 luồng/nhân, tương ứng 36 nhân và 72 luồng. Tám máy dùng E5-2699 v3; Ceph-01 dùng E5-2696 v3.
+
+TABLE 1
+Máy chủ | IP kiểm kê | Service tag | CPU mỗi socket | RAM GiB | Nhân / luồng
+Proxmox-01 | 10.3.99.151 | JVR6S52 | E5-2699 v3 | 256 | 36 / 72
+Proxmox-02 | 10.3.99.152 | 3740KL2 | E5-2699 v3 | 192 | 36 / 72
+Proxmox-03 | 10.3.99.153 | 11G9172 | E5-2699 v3 | 192 | 36 / 72
+Compute-01 | 10.3.10.21 | 4ND2C72 | E5-2699 v3 | 288 | 36 / 72
+Compute-02 | 10.3.10.22 | 5RH3D92 | E5-2699 v3 | 512 | 36 / 72
+Compute-03 | 10.3.10.23 | 7QR5LN2 | E5-2699 v3 | 512 | 36 / 72
+Ceph-01 | 10.3.31.31 | 779ZRG2 | E5-2696 v3 | 128 | 36 / 72
+Ceph-02 | 10.3.31.32 | 7XS6YL2 | E5-2699 v3 | 128 | 36 / 72
+Ceph-03 | 10.3.31.33 | 955TLG2 | E5-2699 v3 | 128 | 36 / 72
+
+Tổng hợp tài nguyên theo nhóm
+
+TABLE 2
+Nhóm | Server | Socket | Nhân | Luồng | RAM GiB
+Proxmox | 3 | 6 | 108 | 216 | 640
+Compute | 3 | 6 | 108 | 216 | 1312
+Ceph | 3 | 6 | 108 | 216 | 384
+
+CPU vật lý khác với vCPU cấp cho VM. Không cộng vCPU của Proxmox hoặc OpenStack vào tổng 324 nhân vật lý. RAM do Linux thấy có thể thấp hơn DIMM vì phần dành cho firmware và hệ thống.
+
+Chi tiết RAM và quản trị phần cứng
+
+TABLE 3
+Máy chủ | DIMM | Cấu hình RAM đọc từ DMI | Lắp đặt GiB | Linux thấy GiB | iDRAC
+Proxmox-01 | 8 | 8 × 32 GB | 256 | 251.6 | 10.3.99.11
+Proxmox-02 | 6 | 6 × 32 GB | 192 | 188.6 | 10.3.99.12
+Proxmox-03 | 6 | 6 × 32 GB | 192 | 188.6 | 10.3.99.13
+Compute-01 | 9 | 9 × 32 GB | 288 | 283.3 | 10.3.99.21
+Compute-02 | 16 | 16 × 32 GB | 512 | 503.8 | 10.3.99.22
+Compute-03 | 16 | 16 × 32 GB | 512 | 503.6 | 10.3.99.23
+Ceph-01 | 4 | 4 × 32 GB | 128 | 125.8 | 10.3.99.31
+Ceph-02 | 4 | 4 × 32 GB | 128 | 125.6 | 10.3.99.32
+Ceph-03 | 4 | 4 × 32 GB | 128 | 125.6 | 10.3.99.33
+
+Địa chỉ iDRAC được đối chiếu theo service tag từ danh mục phần cứng đã lập ngày 14/10. iDRAC là bộ quản trị tích hợp của cùng chassis, không phải thêm chín thiết bị máy chủ độc lập.
+
+Card mạng và lưu trữ
+
+Các máy có card Ethernet Intel/Mellanox tùy host; các bond đang sử dụng đường 10 Gb hoặc 25 Gb được liệt kê ở phần kết nối. Bộ điều khiển đĩa là Dell PERC H330 Mini hoặc H730 Mini. Những ổ sau PERC có thể xuất hiện như một đĩa logic, vì vậy không suy số ổ vật lý hoặc SSD/HDD chỉ từ lsblk.
+
+Lần kiểm kê không thấy host FC trong /sys/class/fc_host của chín server và không thấy thiết bị PCI Fibre Channel trong kết quả đã thu. Chưa có bằng chứng SAN FC đang được gắn vào các host; cần đối chiếu phần cứng/card/driver nếu bổ sung SAN sau này.
+
+Thiết bị mạng và firewall
+
+TABLE 4
+Thiết bị | Địa chỉ truy cập | Model | Serial | Phiên bản
+Core 100 | 10.3.99.100 | Cisco N9K-C93180YC-EX | FDO22150SW9 | NX-OS 9.3(8)
+Core 101 | 10.3.99.101 | Cisco N9K-C93180YC-EX | FDO214620SQ | NX-OS 9.3(8)
+FG-01 | 172.16.16.10 qua cụm HA | FortiGate-500E | FG5H0E5818904450 | FortiOS 7.6.6 build3652
+FG-02 | Truy cập qua HA manage | FortiGate-500E | FG5H0E5819903810 | FortiOS 7.6.6 build3652
+
+Số cổng switch theo inventory thiết bị
+
+TABLE 5
+Thiết bị | Cổng 10 hoặc 25 Gb | Cổng 40 hoặc 100 Gb | Nguồn
+Nexus 10.3.99.100 | 48 | 6 | 2 module nguồn 650 W theo show inventory
+Nexus 10.3.99.101 | 48 | 6 | 2 module nguồn 650 W theo show inventory
+Tổng danh định | 96 | 12 | 4 module nguồn switch
+
+Số cổng danh định không đồng nghĩa tất cả đã gắn module hoặc đang sử dụng. Hai Nexus có cùng hostname hiển thị “switch”; báo cáo dùng IP để phân biệt. Không tính module nguồn, quạt và transceiver như chassis độc lập.
+
+Thiết bị chưa đưa vào tổng chính
+
+Chưa có danh mục kiểm kê đủ cho switch quản trị phụ trợ nếu có, ODF/patch panel, UPS, PDU, thiết bị ISP, rack và SAN ngoài hệ thống. Tổng 13 là tổng thiết bị chính đã xác minh trong phạm vi truy cập, không phải khẳng định toàn bộ trung tâm dữ liệu chỉ có 13 thiết bị.
+
+Kết nối mạng máy chủ
+
+Bảng dưới lấy từ cấu hình bonding đang có trên host. Tốc độ là tốc độ từng cổng thành viên, không phải tốc độ bảo đảm của một phiên truyền. Bridge, VLAN và đường đi VM được liệt kê riêng trong danh mục Proxmox.
+
+TABLE 6
+Máy chủ | Bond | Chế độ | Cổng thành viên và tốc độ
+Proxmox-01 | bond0 | LACP | enp130s0f1np1 25000 Mbps
+enp3s0f0np0 25000 Mbps
+Proxmox-01 | bond1 | LACP | enp3s0f1np1 25000 Mbps
+enp130s0f0np0 25000 Mbps
+Proxmox-02 | bond0 | LACP | enp4s0f1np1 25000 Mbps
+enp130s0f1np1 25000 Mbps
+Proxmox-02 | bond1 | LACP | enp4s0f0np0 25000 Mbps
+enp130s0f0np0 25000 Mbps
+Proxmox-03 | bond0 | LACP | enp3s0f0np0 25000 Mbps
+enp3s0f1np1 25000 Mbps
+Proxmox-03 | bond1 | LACP | enp130s0f0np0 25000 Mbps
+enp130s0f1np1 25000 Mbps
+Compute-01 | bond0 | LACP | eno1np0 25000 Mbps
+eno2np1 25000 Mbps
+Compute-01 | bondex | fault-tolerance (active-backup) | enp3s0f0 10000 Mbps
+enp3s0f1 10000 Mbps
+Compute-02 | bond0 | LACP | eno2np1 25000 Mbps
+eno1np0 25000 Mbps
+Compute-02 | bondex | fault-tolerance (active-backup) | enp3s0f0 10000 Mbps
+enp3s0f1 10000 Mbps
+Compute-03 | bond0 | LACP | eno2np1 25000 Mbps
+eno1np0 25000 Mbps
+Compute-03 | bondex | fault-tolerance (active-backup) | enp3s0f0 10000 Mbps
+enp3s0f1 10000 Mbps
+Ceph-01 | bond31 | fault-tolerance (active-backup) | eno2np1 25000 Mbps
+eno1np0 25000 Mbps
+Ceph-01 | bonddata | fault-tolerance (active-backup) | enp3s0f1 10000 Mbps
+enp3s0f0 10000 Mbps
+Ceph-02 | bond31 | fault-tolerance (active-backup) | eno1np0 25000 Mbps
+eno2np1 25000 Mbps
+Ceph-02 | bonddata | fault-tolerance (active-backup) | enp3s0f0np0 25000 Mbps
+enp3s0f1np1 25000 Mbps
+Ceph-03 | bond31 | fault-tolerance (active-backup) | eno1np0 25000 Mbps
+eno2np1 25000 Mbps
+Ceph-03 | bonddata | fault-tolerance (active-backup) | enp129s0f0np0 25000 Mbps
+enp129s0f1np1 25000 Mbps
+
+Thông tin cho phép nhận biết cấu hình vật lý đang đấu nối; không thay thế sơ đồ cáp có số rack, vị trí cổng và nhãn dây. Bản cấu hình switch đã thu gồm port-channel và trạng thái interface để đối chiếu khi bổ sung sơ đồ đấu nối chi tiết.
+
+Lưu trữ Ceph tập trung
+
+TABLE 7
+Host Ceph | OSD | Loại và dung lượng mỗi ổ | Raw TB | OSD tương ứng
+ceph-01 | 4 | SSD 1,92 TB | 7.68 | osd.6, osd.5, osd.4, osd.3
+ceph-02 | 3 | SSD 1,92 TB | 5.76 | osd.9, osd.8, osd.7
+ceph-03 | 3 | SSD 1,92 TB | 5.76 | osd.2, osd.1, osd.0
+
+TABLE 8
+Chỉ tiêu dung lượng | Giá trị
+Tổng raw đang tham gia cụm | 19.20 TB / 17.47 TiB
+Dung lượng raw đã chiếm tại thời điểm kiểm kê | 2.39 TB
+Dung lượng raw còn lại | 16.82 TB
+Cấu hình pool | Các pool đã đọc dùng replica size 3 và min_size 2.
+Quy đổi lý thuyết raw chia 3 | 6.40 TB trước metadata, dự phòng và ràng buộc phân bố.
+
+TABLE 9
+Pool | Bản sao | Dữ liệu logic GB | Raw sử dụng GB | MAX AVAIL TB
+.mgr | 3 | 0.00 | 0.00 | 5.02
+images | 3 | 126.95 | 380.85 | 5.02
+volumes | 3 | 373.74 | 1 121.19 | 5.02
+vms | 3 | 290.27 | 870.82 | 5.02
+backups | 3 | 0.00 | 0.00 | 5.02
+
+MAX AVAIL là ước lượng phần dữ liệu logic có thể thêm theo điều kiện của pool tại thời điểm đọc. Các pool dùng chung cụm; không cộng các giá trị MAX AVAIL thành dung lượng độc lập. Không dùng số raw 19,2 TB làm hạn mức cấp trực tiếp cho khách.
+
+Ổ đĩa cục bộ và RAID
+
+Ceph SSD OSD được kiểm kê riêng. Phần này liệt kê ổ hệ điều hành và các vùng lưu trữ cục bộ trên server. Số đĩa logic sau PERC khác số ổ lắp trong khay.
+
+TABLE 10
+Máy chủ | Đĩa logic PERC hệ điều hành thấy | Ổ vật lý đã đọc | RAID đọc trực tiếp
+Proxmox-01 | sda 479.6 GB; sdb 399.4 GB; sdc 599.6 GB; sdd 479.6 GB | 7 | RAID1 446.625 GB; RAID1 372.000 GB SSD-RAID1; RAID1 558.375 GB HDD-RAID1; RAID0 446.625 GB SSD-480GB
+Proxmox-02 | sda 479.6 GB; sdb 399.4 GB; sdc 599.6 GB | Chưa chốt | Chưa đọc trực tiếp cấu hình RAID trong đợt này
+Proxmox-03 | sde 479.6 GB; sdf 599.6 GB; sdg 599.6 GB; sdh 399.4 GB | Chưa chốt | Chưa đọc trực tiếp cấu hình RAID trong đợt này
+Compute-01 | sda 479.6 GB | Chưa chốt | Chưa đọc trực tiếp cấu hình RAID trong đợt này
+Compute-02 | sda 479.6 GB | Chưa chốt | Chưa đọc trực tiếp cấu hình RAID trong đợt này
+Compute-03 | sda 479.6 GB | Chưa chốt | Chưa đọc trực tiếp cấu hình RAID trong đợt này
+Ceph-01 | sda 479.6 GB | 6 | RAID1 446.625 GB
+Ceph-02 | sda 479.6 GB | 5 | RAID1 446.625 GB
+Ceph-03 | sdd 479.6 GB | 5 | RAID1 446.625 GB
+
+Chi tiết Proxmox 01 đã xác minh bằng PERC
+
+TABLE 11
+Nhóm ổ | Số ổ | Cách cấu hình
+SSD SATA 480 GB | 2 | RAID1 cho đĩa hệ thống khoảng 479,56 GB logic.
+SSD SAS 400 GB | 2 | RAID1 cho nhóm SSD khoảng 399,43 GB logic.
+HDD SAS 600 GB | 2 | RAID1 cho nhóm HDD khoảng 599,55 GB logic.
+SSD SATA Intel 480 GB | 1 | Một ổ trình bày qua RAID0, storage SSD-480GB; không có nhân bản tại RAID này.
+
+Trên mỗi Ceph có 2 SSD 480 GB RAID1 cho hệ điều hành; ngoài ra Ceph-01 có 4 SSD 1,92 TB JBOD, Ceph-02 và Ceph-03 mỗi máy 3 SSD 1,92 TB JBOD. Không suy RAID của compute hoặc Proxmox-02/03 chỉ từ tên storage.
+
+Các storage đã khai báo trên Proxmox
+
+Chỉ liệt kê storage có dung lượng lớn hơn 0 trong lần đọc hiện tại. Những tên storage có cấu hình chung nhưng dung lượng trả về 0 trên host không được cộng vào tổng. Đơn vị bảng là GiB.
+
+TABLE 12
+Host | Storage | Loại | Tổng | Đã chiếm | Còn trống | Shared
+Proxmox-01 | local | dir | 93.9 | 5.2 | 83.9 | Không
+Proxmox-01 | local-lvm | lvmthin | 319.1 | 205.9 | 113.2 | Không
+Proxmox-01 | SSD | lvmthin | 352.4 | 62.4 | 290.0 | Không
+Proxmox-01 | SSD-480GB | lvmthin | 423.3 | 11.3 | 411.9 | Không
+Proxmox-01 | HDD | lvmthin | 529.4 | 20.6 | 508.9 | Không
+Proxmox-02 | SSD | lvmthin | 352.4 | 36.0 | 316.4 | Không
+Proxmox-02 | HDD | lvmthin | 529.4 | 56.1 | 473.3 | Không
+Proxmox-02 | local-lvm | lvmthin | 319.1 | 35.2 | 283.9 | Không
+Proxmox-02 | local | dir | 93.9 | 5.0 | 84.2 | Không
+Proxmox-03 | hdd-raid2 | lvmthin | 558.2 | 0.0 | 558.2 | Không
+Proxmox-03 | local | dir | 93.9 | 5.5 | 83.6 | Không
+Proxmox-03 | hdd-raid1 | lvmthin | 558.2 | 26.9 | 531.3 | Không
+Proxmox-03 | local-lvm | lvmthin | 319.1 | 35.1 | 284.0 | Không
+Proxmox-03 | ssd-raid1 | lvmthin | 371.8 | 40.5 | 331.3 | Không
+
+local là filesystem chứa ISO, backup, template hoặc tệp khác; local-lvm và các thin pool dùng chứa ổ VM. Có thể cùng nằm trên một RAID vật lý đã chia vùng, nên không cộng bảng này với dung lượng đĩa logic để tính phần cứng mới.
+
+Dung lượng cấp cho VM và dung lượng đã ghi
+
+Ổ thin 200 GiB là kích thước cấp phát logic; lượng dữ liệu thực ghi có thể ít hơn. Tổng kích thước ổ VM vượt kích thước thin pool không có nghĩa đã sử dụng hết, nhưng cũng không làm tăng dung lượng vật lý. Báo cáo giữ riêng ba khái niệm: dung lượng phần cứng, dung lượng pool và dung lượng ảo cấp cho VM.
+
+Tên SSD hoặc HDD là tên storage cấu hình. Với host chưa đọc PERC, tên này không tự chứng minh model ổ, số lượng ổ hoặc mức RAID.
+
+Danh mục VM trên Proxmox 01
+
+Proxmox-01 có 6 VM; tổng cấu hình 46 vCPU và 100 GiB RAM. Đây là mức cấp cho VM, không phải lượng RAM/CPU đang tiêu thụ.
+
+TABLE 13
+VMID | Tên VM | vCPU | RAM GiB | Ổ dữ liệu cấu hình | Interface và VLAN
+100 | controller-01 | 24 | 48 | scsi0: local-lvm 300G | net0 vmbr0 untagged
+net1 vmbr1 VLAN 10
+net2 vmbr3 VLAN 20
+net3 vmbr3 VLAN 30
+net4 vmbr1 VLAN 40
+net5 vmbr1 VLAN 100
+net6 vmbr3 VLAN 31
+net7 vmbr1 VLAN 235 trunk 40
+181 | ubuntu-81 | 4 | 8 | scsi0: SSD 100G | net1 vmbr3 VLAN 70
+184 | ubuntu-84 | 8 | 16 | scsi0: SSD 200G | net1 vmbr3 VLAN 70
+192 | ubuntu-93 | 4 | 8 | scsi0: SSD-480GB 100G | net1 vmbr3 VLAN 70
+199 | network-access-01 | 4 | 16 | scsi0: HDD 200G | net0 vmbr1 VLAN 100
+net1 vmbr3 VLAN 10
+203 | mfa-01 | 2 | 4 | scsi0: SSD-480GB 40G | net0 vmbr3 VLAN 70
+
+Không tính ổ cloud-init hoặc CD-ROM như ổ dữ liệu riêng. “untagged” là cấu hình không gắn tag tại NIC VM, không khẳng định VM không thuộc VLAN ở tầng bridge/switch. Đọc cấu hình từ Proxmox, không thực thi lệnh trong các guest.
+
+Danh mục VM trên Proxmox 02
+
+Proxmox-02 có 7 VM; tổng cấu hình 60 vCPU và 120 GiB RAM. Đây là mức cấp cho VM, không phải lượng RAM/CPU đang tiêu thụ.
+
+TABLE 14
+VMID | Tên VM | vCPU | RAM GiB | Ổ dữ liệu cấu hình | Interface và VLAN
+101 | controller-02 | 24 | 48 | scsi0: local-lvm 300G | net0 vmbr0 untagged
+net1 vmbr1 VLAN 10
+net2 vmbr3 VLAN 20
+net3 vmbr3 VLAN 30
+net4 vmbr1 VLAN 40
+net5 vmbr1 VLAN 100
+net6 vmbr3 VLAN 31
+net7 vmbr1 VLAN 235 trunk 40
+182 | ubuntu-82 | 4 | 8 | scsi0: SSD 100G | net1 vmbr3 VLAN 70
+185 | ubuntu-85 | 8 | 16 | scsi0: SSD 200G | net1 vmbr3 VLAN 70
+193 | wazuh-01 | 8 | 16 | scsi0: HDD 250G | net0 vmbr1 VLAN 100
+net1 vmbr3 VLAN 70
+net2 vmbr3 VLAN 10
+net3 vmbr3 VLAN 20
+net4 vmbr3 VLAN 30
+net5 vmbr3 VLAN 31
+net6 vmbr3 VLAN 40
+net7 vmbr0 untagged
+200 | pam-01 | 4 | 8 | scsi0: HDD 100G | net0 vmbr3 VLAN 70
+201 | monitor-01 | 8 | 16 | scsi0: HDD 200G | net0 vmbr3 VLAN 70
+202 | ops-management-01 | 4 | 8 | scsi0: HDD 60G | net0 vmbr3 VLAN 70
+
+Không tính ổ cloud-init hoặc CD-ROM như ổ dữ liệu riêng. “untagged” là cấu hình không gắn tag tại NIC VM, không khẳng định VM không thuộc VLAN ở tầng bridge/switch. Đọc cấu hình từ Proxmox, không thực thi lệnh trong các guest.
+
+Danh mục VM trên Proxmox 03
+
+Proxmox-03 có 8 VM; tổng cấu hình 60 vCPU và 120 GiB RAM. Đây là mức cấp cho VM, không phải lượng RAM/CPU đang tiêu thụ.
+
+TABLE 15
+VMID | Tên VM | vCPU | RAM GiB | Ổ dữ liệu cấu hình | Interface và VLAN
+102 | controller-03 | 24 | 48 | scsi0: local-lvm 300G | net0 vmbr0 untagged
+net1 vmbr2 VLAN 10
+net2 vmbr3 VLAN 20
+net3 vmbr3 VLAN 30
+net4 vmbr2 VLAN 40
+net5 vmbr2 VLAN 100
+net6 vmbr3 VLAN 10
+net7 vmbr3 VLAN 20
+net8 vmbr3 VLAN 30
+net9 vmbr3 VLAN 40
+net10 vmbr3 VLAN 100
+net11 vmbr3 VLAN 31
+net12 vmbr2 VLAN 235 trunk 40
+183 | ubuntu-83 | 4 | 8 | scsi0: ssd-raid1 100G | net1 vmbr3 VLAN 70
+186 | ubuntu-86 | 8 | 16 | scsi0: ssd-raid1 200G | net1 vmbr3 VLAN 70
+194 | prowler-01 | 4 | 8 | scsi0: ssd-raid1 40G | net0 vmbr2 VLAN 100
+net1 vmbr3 VLAN 10
+195 | security-connectors-01 | 4 | 8 | scsi0: hdd-raid1 80G | net0 vmbr2 VLAN 100
+net1 vmbr3 VLAN 10
+196 | data-protection-01 | 4 | 8 | scsi0: hdd-raid1 80G | net0 vmbr2 VLAN 100
+net1 vmbr3 VLAN 10
+197 | network-detection-01 | 8 | 16 | scsi0: hdd-raid1 100G | net0 vmbr2 VLAN 100
+net1 vmbr3 VLAN 10
+198 | automation-01 | 4 | 8 | scsi0: hdd-raid1 80G | net0 vmbr2 VLAN 100
+net1 vmbr3 VLAN 10
+
+Không tính ổ cloud-init hoặc CD-ROM như ổ dữ liệu riêng. “untagged” là cấu hình không gắn tag tại NIC VM, không khẳng định VM không thuộc VLAN ở tầng bridge/switch. Đọc cấu hình từ Proxmox, không thực thi lệnh trong các guest.
+
+Danh mục VM OpenStack phần 1
+
+Nova đang ghi nhận 24 VM trong 7 project có VM. Tổng cấu hình 113 vCPU và 215.5 GiB RAM. Các VM này nằm trên compute, không nằm trong danh sách 21 VM Proxmox.
+
+TABLE 16
+Tên VM | Project | Compute | vCPU | RAM GiB | IP cấu hình
+cyedr | CyRadar | compute-01 | 8 | 16 | 192.168.0.212
+cynva | CyRadar | compute-01 | 8 | 16 | 192.168.0.50
+cysiem | CyRadar | compute-01 | 8 | 16 | 192.168.0.3
+cywaf | CyRadar | compute-01 | 8 | 16 | 192.168.0.23
+FIP 203.162.235.114
+cywva | CyRadar | compute-01 | 8 | 16 | 192.168.0.18
+sec-demo-data-03 | xordemo | compute-01 | 4 | 8 | 10.209.10.13
+sec-demo-endpoint-02 | xordemo | compute-01 | 4 | 8 | 10.209.10.12
+sec-demo-waf-gateway | xordemo | compute-01 | 2 | 8 | 10.209.10.161
+FIP 203.162.235.106
+sec-demo-web-01 | xordemo | compute-01 | 4 | 8 | 10.209.10.11
+FIP 203.162.235.108
+xscs-e2e-1014-121333 | xscs-e2e-20261014 | compute-01 | 2 | 4 | 10.213.100.10
+DB1 | service | compute-03 | 8 | 8 | 192.168.203.45
+10.3.40.143
+centos8-2025-11-16 | xor-1 | compute-03 | 8 | 11 | 172.30.200.101
+
+Tên project rút gọn xscs-78954c30… tương ứng project ID d94cc6fbf4e54f919f24d54ef018e4b9. Thông tin IP là bản ghi cổng mạng từ control-plane, không phải xác nhận địa chỉ bên trong hệ điều hành guest.
+
+Danh mục VM OpenStack phần 2
+
+Nova đang ghi nhận 24 VM trong 7 project có VM. Tổng cấu hình 113 vCPU và 215.5 GiB RAM. Các VM này nằm trên compute, không nằm trong danh sách 21 VM Proxmox.
+
+TABLE 17
+Tên VM | Project | Compute | vCPU | RAM GiB | IP cấu hình
+centos8_golive_01 | xor-1 | compute-03 | 4 | 8 | 172.30.200.102
+lab-nova-only-probe | xor-1 | compute-03 | 1 | 0.5 | 172.30.200.44
+mig-2id-helper | xor-1 | compute-03 | 4 | 8 | 172.30.200.191
+mig-2id-push200 | xor-1 | compute-03 | 4 | 8 | 172.30.200.180
+mig-2id-push50 | xor-1 | compute-03 | 2 | 4 | 172.30.200.121
+opnsense-24.1 | xor-1 | compute-03 | 4 | 12 | 172.30.200.104
+FIP 203.162.235.116
+App-01 | xscs-78954c30… | compute-03 | 4 | 8 | 10.0.4.36
+FIP 203.162.235.107
+Db-01 | xscs-78954c30… | compute-03 | 4 | 8 | 10.0.5.167
+Db-02 | xscs-78954c30… | compute-03 | 4 | 8 | 10.0.5.148
+Pfsense | xscs-78954c30… | compute-03 | 4 | 4 | 10.0.6.229
+10.0.5.238
+10.0.4.32
+10.0.2.123
+FIP 203.162.235.118
+app-02 | xscs-78954c30… | compute-03 | 4 | 8 | 10.0.4.222
+xscs-devcloud-1008-181155 | xscs-dev | compute-03 | 2 | 4 | 10.208.11.10
+
+Tên project rút gọn xscs-78954c30… tương ứng project ID d94cc6fbf4e54f919f24d54ef018e4b9. Thông tin IP là bản ghi cổng mạng từ control-plane, không phải xác nhận địa chỉ bên trong hệ điều hành guest.
+
+Phân bổ tài nguyên ảo OpenStack
+
+TABLE 18
+Compute | Số VM | vCPU cấu hình | RAM cấp GiB
+compute-01 | 10 | 56 | 116
+compute-02 | 0 | 0 | 0
+compute-03 | 14 | 57 | 99.5
+
+TABLE 19
+Project có VM | Số VM | vCPU | RAM GiB
+CyRadar | 5 | 40 | 80
+service | 1 | 8 | 8
+xor-1 | 7 | 27 | 51.5
+xordemo | 4 | 14 | 32
+xscs-78954c30-64c7-5eac-a13f-e12acf24e9bc | 5 | 20 | 36
+xscs-dev | 1 | 2 | 4
+xscs-e2e-20261014 | 1 | 2 | 4
+
+Volume Cinder 26 volume, tổng kích thước logic 2387 GiB. Giá trị này không phải số byte đã ghi và không cộng vào raw Ceph như một kho vật lý riêng.
+
+TABLE 20
+Loại volume | Số lượng | Tổng logic GiB
+__DEFAULT__ | 26 | 2387
+
+Có 12 project trong Keystone và 19 image Glance được liệt kê bằng quyền kiểm kê. Project không có VM vẫn có thể chứa tài nguyên khác. Các ổ boot từ volume không được phản ánh bằng flavor disk=0, nên không dùng trường flavor để kết luận VM không có ổ.
+
+Tổng hợp vị trí tài sản và thành phần ngoài site
+
+TABLE 21
+Vị trí | Thiết bị hoặc máy ảo | Cách tính số lượng
+Site chính | 9 server Dell R630; 2 Cisco Nexus; 2 FortiGate | 13 chassis chính đã kiểm kê.
+Trong 3 Proxmox | 21 VM, gồm 3 controller và các VM hạ tầng | Không cộng controller thành server vật lý.
+Trong 3 compute | 24 VM thuộc OpenStack | Tách khỏi 21 VM Proxmox.
+DR ngoài site | 1 VM mfa-02 | Máy ảo ngoài hệ thống vật lý đã kiểm kê; không biết cấu hình host của nhà cung cấp.
+SAN FC được trao đổi | Thiết bị do chủ quản đề cập | Chưa có model/serial/dung lượng usable được xác minh; chưa đưa vào số thiết bị chính.
+S3 ngoài site được trao đổi | Dịch vụ lưu trữ do chủ quản đề cập | Chưa kiểm kê endpoint, nền tảng hoặc dung lượng; không quy đổi thành số server vật lý.
+
+Cấu hình VM MFA tại DR đọc trực tiếp
+
+TABLE 22
+Thuộc tính | Thông tin
+Hostname | mfa-02
+Loại | VM KVM ngoài site
+Địa chỉ đã sử dụng | Public 103.252.74.40; địa chỉ đường kết nối riêng 172.16.100.241
+CPU | 2 vCPU
+RAM Linux đọc được | 3.82 GiB, tương ứng lớp cấu hình khoảng 4 GiB
+Ổ VM | vda 80 GiB
+
+Tổng máy ảo đã kiểm kê trong báo cáo là 46: 21 Proxmox + 24 OpenStack + 1 DR. Không có cơ sở đưa máy vật lý chạy S3, SAN hoặc hypervisor DR vào tổng server của site chính. Không bao gồm laptop người dùng và thiết bị phụ trợ chưa cung cấp danh mục.
+
+Quy ước số liệu và danh mục nguồn kiểm kê
+
+Cách hiểu đơn vị và tránh đếm trùng
+
+GiB/TiB dùng cơ số 1024; GB/TB dùng cơ số 1000. Dung lượng ổ thương mại và giá trị hiển thị của PERC có thể dùng cách ghi khác nhau; báo cáo ghi rõ đơn vị khi quy đổi.
+
+Số nhân vật lý, luồng xử lý và vCPU VM là ba chỉ tiêu khác nhau. RAM DIMM là phần cứng lắp đặt; RAM VM là mức cấp phát; MemTotal Linux thấp hơn không đồng nghĩa thiếu thanh RAM.
+
+Dung lượng Ceph raw, dung lượng dữ liệu logic sau nhân bản, kích thước volume Cinder và disk VM cùng mô tả các lớp khác nhau của dữ liệu. Không cộng chúng để tạo tổng dung lượng phần cứng.
+
+Danh mục VM và địa chỉ là ảnh chụp tại thời điểm kiểm kê. Không kết luận các VM hoặc ổ cũ đã bị xóa hoàn toàn chỉ vì không xuất hiện trong danh sách hiện tại.
+
+Chưa đọc trực tiếp mức RAID hoặc danh mục bay trên năm host không có CLI sẵn tại các vị trí đã dò. Đĩa logic của các host đó được báo riêng; cần bổ sung inventory iDRAC/PERC để chốt tổng số ổ vật lý toàn bộ chín máy.
+
+Nguồn kiểm kê
+
+H01 DMI CPU RAM DIMM NIC bond, storage và cấu hình VM của chín server.
+
+infrastructure-hardware-inventory-20261018.txt.json
+
+H02 PERC ở các host có CLI sẵn, Ceph OSD/pool và LVM/VM container.
+
+infrastructure-storage-detail-20261018.txt.json
+
+H03 Model/serial switch và FortiGate; inventory cổng và module.
+
+infrastructure-network-inventory-20261018.json
+
+H04 Danh sách Nova, Cinder, Glance và project Keystone.
+
+infrastructure-openstack-inventory-20261018.txt.json
+
+H05 CPU RAM và disk đọc trực tiếp từ VM MFA ở DR.
+
+infrastructure-dr-inventory-20261018.json
+
+H06 Phạm vi dò CLI RAID có sẵn trên năm host còn lại.
+
+infrastructure-raid-search-20261018.txt.json
+
+Nguồn lưu tại C:/XOR Secure/openstack-deployment/evidence. Địa chỉ iDRAC đối chiếu thêm danh mục service tag đã lập ngày 14/10. Không chứa mật khẩu, token, private key hoặc nội dung dữ liệu khách hàng trong tài liệu bàn giao.

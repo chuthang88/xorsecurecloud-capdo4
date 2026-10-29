@@ -1,0 +1,170 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/volume
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+								143 menu Secondary Actions: Cancel
+									144 Volumes
+									145 Volume Backups
+									146 Volume Snapshots
+									147 Snapshot Schedules
+									148 Backup Schedules
+						149 Network Network
+							150 pop up button Network Network
+								151 image Network
+								152 text Network
+						153 Orchestration Orchestration
+							154 pop up button Orchestration Orchestration
+								155 image Orchestration
+								156 text Orchestration
+						157 Database Database
+							158 pop up button Database Database
+								159 image Database
+								160 text Database
+						161 Container Container
+							162 pop up button Container Container
+								163 image Container
+								164 text Container
+						165 Monitor Center Monitor Center
+							166 pop up button Monitor Center Monitor Center
+								167 image Monitor Center
+								168 text Monitor Center
+						169 Alert Management Maintenance
+							170 pop up button Alert Management Maintenance
+								171 image Alert Management
+								172 text Maintenance
+						173 pop up button X-OR SECURE
+						174 Security Center
+					175 image left
+					176 container
+						177 text Storage / Volumes
+						178 container
+							179 button Create Volume
+							180 button Accept Volume Transfer
+							181 button (disabled) Delete
+							182 text field (settable) Multiple filter tags are separated by enter
+							183 image search
+							184 button sync
+								185 image sync
+							186 button download
+								187 image download
+							188 button eye
+								189 image eye
+							190 button pause-circle
+								191 image pause-circle
+						192 container
+							193 table
+								194 row
+									195 column header
+										196 container
+											197 checkbox  , Value: 0
+									198 column header
+										199 text ID/Name
+										200 image caret-up
+										201 image caret-down
+									202 column header
+										203 text Size
+										204 image caret-up
+										205 image caret-down
+									206 column header
+										207 text Status
+										208 image caret-up
+										209 image caret-down
+									210 column header
+										211 text Type
+									212 column header
+										213 text Disk Tag
+									214 column header
+										215 text Attached To
+									216 column header
+										217 text Bootable
+										218 image question-circle
+										219 image caret-up
+										220 image caret-down
+									221 column header
+										222 text Shared
+										223 image question-circle
+									224 column header
+										225 text Created At
+										226 image caret-up
+										227 image caret-down
+									228 column header
+										229 text Action
+							230 table
+								231 row
+									232 cell
+										233 container
+											234 checkbox  , Value: 0
+									235 cell
+										236 link Description: 05a04a1e Copy, Value: 10.3.10.100:9999/storage/volume/detail/05a04a1e-32da-4e50-9d81-98c3fe87654b
+										237 text doccheck-1014-data
+									238 cell
+										239 text 1GiB
+									240 cell
+										241 text Creating
+									242 cell
+										243 text __DEFAULT__
+									244 cell
+										245 text Data Disk
+									246 cell
+										247 text -
+									248 cell
+										249 text No
+									250 cell
+										251 text No
+									252 cell
+										253 text 3 minutes ago
+									254 cell
+										255 button (disabled) Edit
+										256 button More down
+											257 text More
+											258 image down
+							259 container
+								260 text Total 1 items
+								261 button (disabled) left
+									262 image left
+								263 button 1
+								264 button (disabled) right
+									265 image right
+								266 container
+									267 combo box
+									268 text 10 items/page
+				269 container
+					270 image close-circle
+					271 text Unable to create snapshot schedule, instance: doccheck-1014-snapshot-schedule.
+					272 button Click to show detail
+					273 link close
+						274 image close
+	275 close button
+	276 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	277 minimize button
+278 menu bar
+	279 JumpServer
+	280 File
+	281 Edit
+	282 View
+	283 Window
+	284 Help

@@ -1,0 +1,182 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/storage/volume/create
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+								143 menu Secondary Actions: Cancel
+									144 Volumes
+									145 Volume Backups
+									146 Volume Snapshots
+									147 Snapshot Schedules
+									148 Backup Schedules
+						149 Network Network
+							150 pop up button Network Network
+								151 image Network
+								152 text Network
+						153 Orchestration Orchestration
+							154 pop up button Orchestration Orchestration
+								155 image Orchestration
+								156 text Orchestration
+						157 Database Database
+							158 pop up button Database Database
+								159 image Database
+								160 text Database
+						161 Container Container
+							162 pop up button Container Container
+								163 image Container
+								164 text Container
+						165 Monitor Center Monitor Center
+							166 pop up button Monitor Center Monitor Center
+								167 image Monitor Center
+								168 text Monitor Center
+						169 Alert Management Maintenance
+							170 pop up button Alert Management Maintenance
+								171 image Alert Management
+								172 text Maintenance
+						173 pop up button X-OR SECURE
+						174 Security Center
+					175 image left
+					176 container
+						177 text Storage /
+						178 link Description: Volumes, Value: 10.3.10.100:9999/storage/volume
+						179 text / Create Volume
+						180 container
+							181 container
+								182 switch on
+								183 button compress
+									184 image compress
+								185 image
+								186 text Volume Capacity (GiB) Quota:  30/1000
+								187 text __DEFAULT__ type Quota:  2/Infinity
+								188 text __DEFAULT__ type capacity Quota:  30/Infinity
+							189 container
+								190 container
+									191 text Project
+								192 text userdemo
+								193 container
+									194 text Available Zone
+									195 image question-circle
+								196 container
+									197 combo box (settable) Available Zone  question-circle
+									198 text Not select
+								199 container
+									200 text * Data Source Type
+								201 container
+									202 radio button Blank Volume, Value: 1
+									203 text Blank Volume
+									204 radio button Image, Value: 0
+									205 text Image
+									206 radio button Volume Snapshot, Value: 0
+									207 text Volume Snapshot
+								208 container
+									209 text * Volume Type
+									210 image question-circle
+								211 container
+									212 text field (settable) Click here for filters.
+									213 image search
+									214 container
+										215 table
+											216 row
+												217 column header
+													218 text Name
+													219 image caret-up
+													220 image caret-down
+												221 column header
+													222 text Description
+													223 image caret-up
+													224 image caret-down
+												225 column header
+													226 text Public
+													227 image caret-up
+													228 image caret-down
+												229 column header
+													230 text Shared
+													231 image caret-up
+													232 image caret-down
+											233 row
+												234 cell
+													235 container
+														236 radio button  , Value: 1
+												237 cell
+													238 text __DEFAULT__
+												239 cell
+													240 text Default Volume Type
+												241 cell
+													242 text Yes
+												243 cell
+													244 text No
+										245 content list
+											246 container Previous Page
+												247 button (disabled) left
+													248 image left
+											249 text 1
+											250 container Next Page
+												251 button (disabled) right
+													252 image right
+									253 text Selected :  
+									254 button clear
+										255 image clear
+									256 container
+										257 text __DEFAULT__
+										258 image close
+								259 container
+									260 text * Capacity (GiB)
+								261 container
+									262 container
+										263 slider Value: 10, Secondary Actions: Increment, Decrement
+									264 container
+										265 button Increase Value
+											266 image up
+										267 button Decrease Value
+											268 image down
+										269 stepper (settable, float) 10
+									270 text 1GiB-980GiB
+								271 container
+									272 text * Name
+								273 container
+									274 text field (settable) * Name, Placeholder: Please input name
+									275 text The name should start with upper letter, lower letter, and be a string of 1 to 128, characters can only contain "0-9, a-z, A-Z, "-'_()[].:^".
+							276 container
+								277 text Count
+								278 container
+									279 button Increase Value
+										280 image up
+									281 button (disabled) Decrease Value
+										282 image down
+								283 stepper (settable, float) 1
+							284 container
+								285 button Cancel
+								286 button Confirm
+	287 close button
+	288 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	289 minimize button
+290 menu bar
+	291 JumpServer
+	292 File
+	293 Edit
+	294 View
+	295 Window
+	296 Help

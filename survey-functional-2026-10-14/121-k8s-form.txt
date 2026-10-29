@@ -1,0 +1,134 @@
+HTML content XOR Cloud, URL: 10.3.10.100:9999/container-infra/clusters/create
+				116 container
+					117 container
+						118 image menu-icon
+						119 link Description: XOR Stack, Value: 10.3.10.100:9999/base/overview
+						120 container
+							121 text Cloud
+							122 image down
+						123 button
+						124 image appstore
+						125 text userdemo
+						126 image swap
+						127 text Default
+						128 image bell
+						129 button user
+							130 image user
+					131 menu Secondary Actions: Cancel
+						132 Home Home
+							133 image Home
+							134 text Home
+						135 Compute Compute
+							136 pop up button Compute Compute
+								137 image Compute
+								138 text Compute
+						139 Storage Storage
+							140 pop up button Storage Storage
+								141 image Storage
+								142 text Storage
+						143 Network Network
+							144 pop up button Network Network
+								145 image Network
+								146 text Network
+						147 Orchestration Orchestration
+							148 pop up button Orchestration Orchestration
+								149 image Orchestration
+								150 text Orchestration
+						151 Database Database
+							152 pop up button Database Database
+								153 image Database
+								154 text Database
+						155 Container Container
+							156 pop up button Container Container
+								157 image Container
+								158 text Container
+								159 menu Secondary Actions: Cancel
+									160 K8s Clusters
+									161 K8s Templates
+						162 Monitor Center Monitor Center
+							163 pop up button Monitor Center Monitor Center
+								164 image Monitor Center
+								165 text Monitor Center
+						166 Alert Management Maintenance
+							167 pop up button Alert Management Maintenance
+								168 image Alert Management
+								169 text Maintenance
+						170 pop up button X-OR SECURE
+						171 Security Center
+					172 image left
+					173 container
+						174 text Container /
+						175 link Description: K8s Clusters, Value: 10.3.10.100:9999/container-infra/clusters
+						176 text / Create Cluster
+						177 container
+							178 container
+								179 text 1
+								180 container
+									181 text Cluster Info
+							182 container
+								183 text 2
+								184 container
+									185 text Node Spec
+							186 container
+								187 text 3
+								188 container
+									189 text Network Setting
+							190 container
+								191 text 4
+								192 text Additional Labels
+							193 container
+								194 container
+									195 container
+										196 text * Cluster Name
+									197 text field (settable) * Cluster Name, Placeholder: Please input cluster name
+								198 container
+									199 container
+										200 text * Cluster Template
+									201 container
+										202 text field (settable) Click here for filters.
+										203 image search
+										204 container
+											205 table
+												206 row
+													207 column header
+														208 text ID/Name
+														209 image caret-up
+														210 image caret-down
+													211 column header
+														212 text COE
+														213 image caret-up
+														214 image caret-down
+													215 column header
+														216 text Network Driver
+														217 image caret-up
+														218 image caret-down
+													219 column header
+														220 text Keypair
+														221 image caret-up
+														222 image caret-down
+												223 row
+													224 cell 0-4
+														225 text No Data
+										226 text Selected :  
+								227 container
+									228 button Cancel
+									229 button Confirm
+							230 container
+								231 button Cancel
+								232 button Next: Node Spec
+				233 container
+					234 image close-circle
+					235 text Get clusters error.
+					236 button Click to show detail
+					237 link close
+						238 image close
+	239 close button
+	240 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	241 minimize button
+242 menu bar
+	243 JumpServer
+	244 File
+	245 Edit
+	246 View
+	247 Window
+	248 Help
